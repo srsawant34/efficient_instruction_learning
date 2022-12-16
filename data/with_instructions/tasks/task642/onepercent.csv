@@ -1,0 +1,11 @@
+input,output
+"Definition: Given Sentence 1 and Sentence 2, indicate your answer as yes when the two sentences clearly agree or clearly disagree with each other. If the relationship cannot be determined, answer with 'no'.
+Positive example 1-
+input: A boy in a blue jacket rides a skateboard down the street. <sep> A blue jacketed boy is standing in football field.
+output: yes
+Positive example 2-
+input: A large group of people gather at a piano bar. <sep> A group of men at a piano bar
+output: no
+Now complete the following example-
+input: Two dogs are looking through a rusty wire fence. <sep> Two dogs are outside.
+output: ",yes

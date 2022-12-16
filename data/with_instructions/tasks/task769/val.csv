@@ -1,0 +1,121 @@
+input,output
+"Definition: Given a text passage, come up with an appropriate title for it. The title should accurately represent what the main focus of the passage is. The title of a passage may be present in the first few sentences of the passage and/or be referred to multiple times in the passage. The title should be 1-5 words long.
+Positive example 1-
+input: The Beatles ' rooftop concert was the final public performance of the English rock band the Beatles . On 30 January 1969 , the band , with keyboardist Billy Preston , surprised a central London office and fashion district with an impromptu concert from the roof of the headquarters of the band 's multimedia corporation Apple Corps at 3 Savile Row . In a 42 - minute set , the Beatles were heard playing nine takes of five songs before the Metropolitan Police Service asked them to reduce the volume . Footage from the performance was later used in the 1970 documentary film Let It Be .
+
+output: The Beatles' rooftop concert
+Positive example 2-
+input: In the United States , Medicare is a single - payer , national social insurance program administered by the U.S. federal government since 1966 , currently using about 30 -- 50 private insurance companies across the United States under contract for administration . United States Medicare is funded by a payroll tax , premiums and surtaxes from beneficiaries , and general revenue . It provides health insurance for Americans aged 65 and older who have worked and paid into the system through the payroll tax . It also provides health insurance to younger people with some disability status as determined by the Social Security Administration , as well as people with end stage renal disease and amyotrophic lateral sclerosis .
+
+output: Medicare
+Now complete the following example-
+input: Principal photography took place in Budapest , Hungary between July and November 2016 . Blade Runner 2049 premiered in Los Angeles on October 3 , 2017 and was released in the United States on October 6 , 2017 , in 2D , 3D and IMAX . The film received acclaim from critics , with some regarding it as one of the best sequels ever made .
+output: ",Blade Runner 2049
+"Definition: Given a text passage, come up with an appropriate title for it. The title should accurately represent what the main focus of the passage is. The title of a passage may be present in the first few sentences of the passage and/or be referred to multiple times in the passage. The title should be 1-5 words long.
+Positive example 1-
+input: The Beatles ' rooftop concert was the final public performance of the English rock band the Beatles . On 30 January 1969 , the band , with keyboardist Billy Preston , surprised a central London office and fashion district with an impromptu concert from the roof of the headquarters of the band 's multimedia corporation Apple Corps at 3 Savile Row . In a 42 - minute set , the Beatles were heard playing nine takes of five songs before the Metropolitan Police Service asked them to reduce the volume . Footage from the performance was later used in the 1970 documentary film Let It Be .
+
+output: The Beatles' rooftop concert
+Positive example 2-
+input: In the United States , Medicare is a single - payer , national social insurance program administered by the U.S. federal government since 1966 , currently using about 30 -- 50 private insurance companies across the United States under contract for administration . United States Medicare is funded by a payroll tax , premiums and surtaxes from beneficiaries , and general revenue . It provides health insurance for Americans aged 65 and older who have worked and paid into the system through the payroll tax . It also provides health insurance to younger people with some disability status as determined by the Social Security Administration , as well as people with end stage renal disease and amyotrophic lateral sclerosis .
+
+output: Medicare
+Now complete the following example-
+input: Alexandra Borgia is a fictional character , played by Annie Parisse , who appeared on the long - running NBC drama series Law & Order from 2005 to 2006 . Appearing in only 33 episodes , she is the shortest serving ADA in the series ' history .
+output: ",Alexandra Borgia
+"Definition: Given a text passage, come up with an appropriate title for it. The title should accurately represent what the main focus of the passage is. The title of a passage may be present in the first few sentences of the passage and/or be referred to multiple times in the passage. The title should be 1-5 words long.
+Positive example 1-
+input: The Beatles ' rooftop concert was the final public performance of the English rock band the Beatles . On 30 January 1969 , the band , with keyboardist Billy Preston , surprised a central London office and fashion district with an impromptu concert from the roof of the headquarters of the band 's multimedia corporation Apple Corps at 3 Savile Row . In a 42 - minute set , the Beatles were heard playing nine takes of five songs before the Metropolitan Police Service asked them to reduce the volume . Footage from the performance was later used in the 1970 documentary film Let It Be .
+
+output: The Beatles' rooftop concert
+Positive example 2-
+input: In the United States , Medicare is a single - payer , national social insurance program administered by the U.S. federal government since 1966 , currently using about 30 -- 50 private insurance companies across the United States under contract for administration . United States Medicare is funded by a payroll tax , premiums and surtaxes from beneficiaries , and general revenue . It provides health insurance for Americans aged 65 and older who have worked and paid into the system through the payroll tax . It also provides health insurance to younger people with some disability status as determined by the Social Security Administration , as well as people with end stage renal disease and amyotrophic lateral sclerosis .
+
+output: Medicare
+Now complete the following example-
+input: `` Love So Soft '' is a song by American singer Kelly Clarkson , from her eighth studio album , Meaning of Life ( 2017 ) . Written by Mozella , Priscilla Renea , and Jesse Shatkin , and produced by Shatkin , it features a session appearance by the American soul band Earth , Wind & Fire . A soul - trap R&B anthem , it was released by Atlantic Records alongside `` Move You '' as a double A-side from the album on September 7 , 2017 . As of September 14 , 2017 , the song sold 36,100 copies in the United States . The song was nominated for Best Pop Solo Performance at the 60th Annual Grammy Awards .
+output: ",Love So Soft
+"Definition: Given a text passage, come up with an appropriate title for it. The title should accurately represent what the main focus of the passage is. The title of a passage may be present in the first few sentences of the passage and/or be referred to multiple times in the passage. The title should be 1-5 words long.
+Positive example 1-
+input: The Beatles ' rooftop concert was the final public performance of the English rock band the Beatles . On 30 January 1969 , the band , with keyboardist Billy Preston , surprised a central London office and fashion district with an impromptu concert from the roof of the headquarters of the band 's multimedia corporation Apple Corps at 3 Savile Row . In a 42 - minute set , the Beatles were heard playing nine takes of five songs before the Metropolitan Police Service asked them to reduce the volume . Footage from the performance was later used in the 1970 documentary film Let It Be .
+
+output: The Beatles' rooftop concert
+Positive example 2-
+input: In the United States , Medicare is a single - payer , national social insurance program administered by the U.S. federal government since 1966 , currently using about 30 -- 50 private insurance companies across the United States under contract for administration . United States Medicare is funded by a payroll tax , premiums and surtaxes from beneficiaries , and general revenue . It provides health insurance for Americans aged 65 and older who have worked and paid into the system through the payroll tax . It also provides health insurance to younger people with some disability status as determined by the Social Security Administration , as well as people with end stage renal disease and amyotrophic lateral sclerosis .
+
+output: Medicare
+Now complete the following example-
+input: John Cabot ( Italian : Giovanni Caboto , Venetian : Zuan Chabotto ; c. 1450 -- c. 1500 ) was a Venetian navigator and explorer whose 1497 discovery of the coast of North America under the commission of Henry VII of England was the first European exploration of the mainland of North America since the Norse visits to Vinland in the eleventh century . To mark the celebration of the 500th anniversary of Cabot 's expedition , both the Canadian and British governments elected Cape Bonavista , Newfoundland , as Cabot 's first landing site . However , alternative locations have also been proposed .
+output: ",John Cabot
+"Definition: Given a text passage, come up with an appropriate title for it. The title should accurately represent what the main focus of the passage is. The title of a passage may be present in the first few sentences of the passage and/or be referred to multiple times in the passage. The title should be 1-5 words long.
+Positive example 1-
+input: The Beatles ' rooftop concert was the final public performance of the English rock band the Beatles . On 30 January 1969 , the band , with keyboardist Billy Preston , surprised a central London office and fashion district with an impromptu concert from the roof of the headquarters of the band 's multimedia corporation Apple Corps at 3 Savile Row . In a 42 - minute set , the Beatles were heard playing nine takes of five songs before the Metropolitan Police Service asked them to reduce the volume . Footage from the performance was later used in the 1970 documentary film Let It Be .
+
+output: The Beatles' rooftop concert
+Positive example 2-
+input: In the United States , Medicare is a single - payer , national social insurance program administered by the U.S. federal government since 1966 , currently using about 30 -- 50 private insurance companies across the United States under contract for administration . United States Medicare is funded by a payroll tax , premiums and surtaxes from beneficiaries , and general revenue . It provides health insurance for Americans aged 65 and older who have worked and paid into the system through the payroll tax . It also provides health insurance to younger people with some disability status as determined by the Social Security Administration , as well as people with end stage renal disease and amyotrophic lateral sclerosis .
+
+output: Medicare
+Now complete the following example-
+input: Since 2003 , Rowe played locally in his hometown at open mics , bars and cafes . He began playing with percussionist Marco Haber , who played on a few tracks on his first album `` 27 '' . Shortly thereafter they began playing under the name Mudfunk and recorded a live album , Live at the Grind , as well as a single of `` Wrong Side of the Bed . '' The latter would be re-recorded for Sean 's solo album , Magic , without Haber and with different instrumentation . He recorded his album , Magic , at Collar City Sound and released it through Collar City Records on April 21 , 2009 . In 2009 , Rowe was asked to open for Noah and the Whale in the United Kingdom . Soon after , Sean signed with ANTI - Records , which re-released Magic on February 22 , 2011 , and released The Salesman and the Shark on August 28 , 2012 . On March 4 , Sean played his new release , `` Downwind '' , on Jimmy Kimmel Live . The movie The Accountant with actor Ben Affleck ( 2016 ) features Sean Rowe 's song `` To Leave Something Behind ''
+output: ",Sean Rowe
+"Definition: Given a text passage, come up with an appropriate title for it. The title should accurately represent what the main focus of the passage is. The title of a passage may be present in the first few sentences of the passage and/or be referred to multiple times in the passage. The title should be 1-5 words long.
+Positive example 1-
+input: The Beatles ' rooftop concert was the final public performance of the English rock band the Beatles . On 30 January 1969 , the band , with keyboardist Billy Preston , surprised a central London office and fashion district with an impromptu concert from the roof of the headquarters of the band 's multimedia corporation Apple Corps at 3 Savile Row . In a 42 - minute set , the Beatles were heard playing nine takes of five songs before the Metropolitan Police Service asked them to reduce the volume . Footage from the performance was later used in the 1970 documentary film Let It Be .
+
+output: The Beatles' rooftop concert
+Positive example 2-
+input: In the United States , Medicare is a single - payer , national social insurance program administered by the U.S. federal government since 1966 , currently using about 30 -- 50 private insurance companies across the United States under contract for administration . United States Medicare is funded by a payroll tax , premiums and surtaxes from beneficiaries , and general revenue . It provides health insurance for Americans aged 65 and older who have worked and paid into the system through the payroll tax . It also provides health insurance to younger people with some disability status as determined by the Social Security Administration , as well as people with end stage renal disease and amyotrophic lateral sclerosis .
+
+output: Medicare
+Now complete the following example-
+input: Before Romeo meets Juliet , he loves Rosaline , Capulet 's niece and Juliet 's cousin . He describes her as wonderfully beautiful : `` The all - seeing sun / ne'er saw her match since first the world begun . '' Rosaline , however , chooses to remain chaste ; Romeo says : `` She hath forsworn to love , and in that vow / Do I live dead that live to tell it now . '' This is the source of his depression , and he makes his friends unhappy ; Mercutio comments : `` That same pale , hard - hearted wench , that Rosaline , torments him so that he will sure run mad . '' Benvolio urges Romeo to sneak into a Capulet gathering where , he claims , Rosaline will look like `` a crow '' alongside the other beautiful women . Romeo agrees , but doubts Benvolio 's assessment . After Romeo sees Juliet his feelings suddenly change : `` Did my heart love till now ? Forswear it , sight / For I ne'er saw true beauty till this night . '' Because their relationship is sudden and secret , Romeo 's friends and Friar Laurence continue to speak of his affection for Rosaline throughout much of the play .
+output: ",Rosaline
+"Definition: Given a text passage, come up with an appropriate title for it. The title should accurately represent what the main focus of the passage is. The title of a passage may be present in the first few sentences of the passage and/or be referred to multiple times in the passage. The title should be 1-5 words long.
+Positive example 1-
+input: The Beatles ' rooftop concert was the final public performance of the English rock band the Beatles . On 30 January 1969 , the band , with keyboardist Billy Preston , surprised a central London office and fashion district with an impromptu concert from the roof of the headquarters of the band 's multimedia corporation Apple Corps at 3 Savile Row . In a 42 - minute set , the Beatles were heard playing nine takes of five songs before the Metropolitan Police Service asked them to reduce the volume . Footage from the performance was later used in the 1970 documentary film Let It Be .
+
+output: The Beatles' rooftop concert
+Positive example 2-
+input: In the United States , Medicare is a single - payer , national social insurance program administered by the U.S. federal government since 1966 , currently using about 30 -- 50 private insurance companies across the United States under contract for administration . United States Medicare is funded by a payroll tax , premiums and surtaxes from beneficiaries , and general revenue . It provides health insurance for Americans aged 65 and older who have worked and paid into the system through the payroll tax . It also provides health insurance to younger people with some disability status as determined by the Social Security Administration , as well as people with end stage renal disease and amyotrophic lateral sclerosis .
+
+output: Medicare
+Now complete the following example-
+input: In addition to movements related to available shelter and food , the breeding cycle is important in understanding deer behavior . The `` rut '' or mating season usually begins in the fall as does go into estrus for a period of a few days and males become more aggressive , competing for mates . Does may mate with more than one buck and go back into estrus within a month if they did not become pregnant . The gestation period is about 190 -- 200 days , with fawns born in the spring , staying with their mothers during the summer and being weaned in the fall after about 60 -- 75 days . Mule deer females usually give birth to two fawns , although if it is their first time having a fawn , they often have just one .
+output: ",Mule deer
+"Definition: Given a text passage, come up with an appropriate title for it. The title should accurately represent what the main focus of the passage is. The title of a passage may be present in the first few sentences of the passage and/or be referred to multiple times in the passage. The title should be 1-5 words long.
+Positive example 1-
+input: The Beatles ' rooftop concert was the final public performance of the English rock band the Beatles . On 30 January 1969 , the band , with keyboardist Billy Preston , surprised a central London office and fashion district with an impromptu concert from the roof of the headquarters of the band 's multimedia corporation Apple Corps at 3 Savile Row . In a 42 - minute set , the Beatles were heard playing nine takes of five songs before the Metropolitan Police Service asked them to reduce the volume . Footage from the performance was later used in the 1970 documentary film Let It Be .
+
+output: The Beatles' rooftop concert
+Positive example 2-
+input: In the United States , Medicare is a single - payer , national social insurance program administered by the U.S. federal government since 1966 , currently using about 30 -- 50 private insurance companies across the United States under contract for administration . United States Medicare is funded by a payroll tax , premiums and surtaxes from beneficiaries , and general revenue . It provides health insurance for Americans aged 65 and older who have worked and paid into the system through the payroll tax . It also provides health insurance to younger people with some disability status as determined by the Social Security Administration , as well as people with end stage renal disease and amyotrophic lateral sclerosis .
+
+output: Medicare
+Now complete the following example-
+input: The word first occurs in the Hebrew Bible in Numbers 5 : 22 when the Priest addresses a suspected adulteress and she responds `` Amen , Amen '' . Overall , the word appears in the Hebrew Bible 30 times .
+output: ",Amen
+"Definition: Given a text passage, come up with an appropriate title for it. The title should accurately represent what the main focus of the passage is. The title of a passage may be present in the first few sentences of the passage and/or be referred to multiple times in the passage. The title should be 1-5 words long.
+Positive example 1-
+input: The Beatles ' rooftop concert was the final public performance of the English rock band the Beatles . On 30 January 1969 , the band , with keyboardist Billy Preston , surprised a central London office and fashion district with an impromptu concert from the roof of the headquarters of the band 's multimedia corporation Apple Corps at 3 Savile Row . In a 42 - minute set , the Beatles were heard playing nine takes of five songs before the Metropolitan Police Service asked them to reduce the volume . Footage from the performance was later used in the 1970 documentary film Let It Be .
+
+output: The Beatles' rooftop concert
+Positive example 2-
+input: In the United States , Medicare is a single - payer , national social insurance program administered by the U.S. federal government since 1966 , currently using about 30 -- 50 private insurance companies across the United States under contract for administration . United States Medicare is funded by a payroll tax , premiums and surtaxes from beneficiaries , and general revenue . It provides health insurance for Americans aged 65 and older who have worked and paid into the system through the payroll tax . It also provides health insurance to younger people with some disability status as determined by the Social Security Administration , as well as people with end stage renal disease and amyotrophic lateral sclerosis .
+
+output: Medicare
+Now complete the following example-
+input: Vega , Lyra 's brightest star , is one of the brightest stars in the night sky , and forms a corner of the famed Summer Triangle asterism . Beta Lyrae is the prototype of a class of stars known as Beta Lyrae variables . These binary stars are so close to each other that they become egg - shaped and material flows from one to the other . Epsilon Lyrae , known informally as the Double Double , is a complex multiple star system . Lyra also hosts the Ring Nebula , the second - discovered and best - known planetary nebula .
+output: ",Lyra
+"Definition: Given a text passage, come up with an appropriate title for it. The title should accurately represent what the main focus of the passage is. The title of a passage may be present in the first few sentences of the passage and/or be referred to multiple times in the passage. The title should be 1-5 words long.
+Positive example 1-
+input: The Beatles ' rooftop concert was the final public performance of the English rock band the Beatles . On 30 January 1969 , the band , with keyboardist Billy Preston , surprised a central London office and fashion district with an impromptu concert from the roof of the headquarters of the band 's multimedia corporation Apple Corps at 3 Savile Row . In a 42 - minute set , the Beatles were heard playing nine takes of five songs before the Metropolitan Police Service asked them to reduce the volume . Footage from the performance was later used in the 1970 documentary film Let It Be .
+
+output: The Beatles' rooftop concert
+Positive example 2-
+input: In the United States , Medicare is a single - payer , national social insurance program administered by the U.S. federal government since 1966 , currently using about 30 -- 50 private insurance companies across the United States under contract for administration . United States Medicare is funded by a payroll tax , premiums and surtaxes from beneficiaries , and general revenue . It provides health insurance for Americans aged 65 and older who have worked and paid into the system through the payroll tax . It also provides health insurance to younger people with some disability status as determined by the Social Security Administration , as well as people with end stage renal disease and amyotrophic lateral sclerosis .
+
+output: Medicare
+Now complete the following example-
+input: The series focuses on a boy named Ryder who leads a pack of search and rescue dogs known as the PAW Patrol . They work together on missions to protect the shoreside community of Adventure Bay . Each dog has a specific set of skills based on a real - life profession , such as a firefighter and a police officer . They all reside in doghouses that can transform into customized vehicles when necessary . They are also equipped with backpacks called `` pup packs '' that contain tools that relate to the pups ' jobs .
+output: ",PAW Patrol

@@ -1,0 +1,270 @@
+input,output
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. There are several possible answers, you'll need to choose the proper one. Carefully read the given text, pay special attention to the marked number, think about what (unwritten) information the marked number holds inside, choose the most adequate word(s) from the optional answers. If none of them seems right to you, there's also an option for other. If your answer is ""REFERENCE"", also write the reference entity, otherwise write the implicit option name. Options to choose from are:
+REFERENCE: Some object which is being mentioned in the text before or after the target number. The reference answer has a higher priority than any other. If both Reference and another answer are possible, prioritize the Reference.
+YEAR: Describing a calendric year
+AGE: Describing someone's age
+CURRENCY: Reference to some monetary value e.g dollar, euro etc.
+PEOPLE: Describing a single/plural persons
+TIME: Describing a time of the day. Usually you can add the word o'clock after those numbers.
+OTHER: Some other option, which isn't listed here.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: REFERENCE crooler
+Positive example 2-
+input: Adam Adamant: Do you know I haven't been to the theatre since, eh... _ '96 _.
+William E. Simms: Ah, what you see... [catches on]
+output: YEAR
+Now complete the following example-
+input: Maggie Evans:  You do know a way . If you know , you 've got to tell me . Because if I stay in here , I 'll die . Do you want me to die ?
+Sarah Collins: No .
+Maggie Evans: Well , then tell me . Is there anything you can tell me ?
+Sarah Collins: I know a riddle .
+Maggie Evans: A riddle ?
+Sarah Collins: It tells the way to get out of here .
+Maggie Evans: Well , what is it ?
+Sarah Collins: One , two , away they flew . Three , four , by the door . Five , six , count the bricks . _ Seven _ , eight , the clue is grate . Nine , ten , home again .
+output: ",OTHER
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. There are several possible answers, you'll need to choose the proper one. Carefully read the given text, pay special attention to the marked number, think about what (unwritten) information the marked number holds inside, choose the most adequate word(s) from the optional answers. If none of them seems right to you, there's also an option for other. If your answer is ""REFERENCE"", also write the reference entity, otherwise write the implicit option name. Options to choose from are:
+REFERENCE: Some object which is being mentioned in the text before or after the target number. The reference answer has a higher priority than any other. If both Reference and another answer are possible, prioritize the Reference.
+YEAR: Describing a calendric year
+AGE: Describing someone's age
+CURRENCY: Reference to some monetary value e.g dollar, euro etc.
+PEOPLE: Describing a single/plural persons
+TIME: Describing a time of the day. Usually you can add the word o'clock after those numbers.
+OTHER: Some other option, which isn't listed here.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: REFERENCE crooler
+Positive example 2-
+input: Adam Adamant: Do you know I haven't been to the theatre since, eh... _ '96 _.
+William E. Simms: Ah, what you see... [catches on]
+output: YEAR
+Now complete the following example-
+input: Mason:  Mother fucking , well fucked , viciously fucked , bollocky , bastard , hell ! I am viciously fucked !
+Mason: What
+Mason: about you , darling ? Unless , of course , you 're interested , in which case ...
+Mason: ...
+Mason: you can , no ! Well , piss off then ! Oh fuck off ! Oh Jesus Christ ! Oh bollocks !
+Mason: Kiffany ! Kiffany ? Kiffany , Kiffany , hey ! Listen , listen , have you found a little post - it note ? A little yellow one with writing on ...
+Kiffany: Like the kind you people are always playing with ?
+Mason: Yes ! Exactly , exactly ...
+Kiffany: No . Is this _ one _ particularly important ?
+Mason: Well , I do n't bollockingly well know do I ? Jesus Christ I am fucked ! Move ! Shit , bollocks , fucking bollocks ! Okay , well that 's it , I am fucking fucked . I am bollocking viciously fucked ! Royally fucked I am .
+output: ",OTHER
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. There are several possible answers, you'll need to choose the proper one. Carefully read the given text, pay special attention to the marked number, think about what (unwritten) information the marked number holds inside, choose the most adequate word(s) from the optional answers. If none of them seems right to you, there's also an option for other. If your answer is ""REFERENCE"", also write the reference entity, otherwise write the implicit option name. Options to choose from are:
+REFERENCE: Some object which is being mentioned in the text before or after the target number. The reference answer has a higher priority than any other. If both Reference and another answer are possible, prioritize the Reference.
+YEAR: Describing a calendric year
+AGE: Describing someone's age
+CURRENCY: Reference to some monetary value e.g dollar, euro etc.
+PEOPLE: Describing a single/plural persons
+TIME: Describing a time of the day. Usually you can add the word o'clock after those numbers.
+OTHER: Some other option, which isn't listed here.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: REFERENCE crooler
+Positive example 2-
+input: Adam Adamant: Do you know I haven't been to the theatre since, eh... _ '96 _.
+William E. Simms: Ah, what you see... [catches on]
+output: YEAR
+Now complete the following example-
+input: Megan Hunt:  I estimated she 's been dead for at least 2 days . How fast can you confirm that ?
+Curtis Brumfield: There are 6 stages from egg to adult , I need to grow these little guys out and then calculate backwards . 20 days , maybe _ 25 _ ?
+Megan Hunt: I want tomorrow !
+Curtis Brumfield: I 'll do my best
+output: ",REFERENCE days
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. There are several possible answers, you'll need to choose the proper one. Carefully read the given text, pay special attention to the marked number, think about what (unwritten) information the marked number holds inside, choose the most adequate word(s) from the optional answers. If none of them seems right to you, there's also an option for other. If your answer is ""REFERENCE"", also write the reference entity, otherwise write the implicit option name. Options to choose from are:
+REFERENCE: Some object which is being mentioned in the text before or after the target number. The reference answer has a higher priority than any other. If both Reference and another answer are possible, prioritize the Reference.
+YEAR: Describing a calendric year
+AGE: Describing someone's age
+CURRENCY: Reference to some monetary value e.g dollar, euro etc.
+PEOPLE: Describing a single/plural persons
+TIME: Describing a time of the day. Usually you can add the word o'clock after those numbers.
+OTHER: Some other option, which isn't listed here.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: REFERENCE crooler
+Positive example 2-
+input: Adam Adamant: Do you know I haven't been to the theatre since, eh... _ '96 _.
+William E. Simms: Ah, what you see... [catches on]
+output: YEAR
+Now complete the following example-
+input: Chiharu:  Why did you ask me out on this date , Yuki ?
+Yuki: Why ? Would your boyfriend get mad at me ?
+Chiharu: Huh ? Uh , well no , I do n't have a boyfriend .
+Yuki: Really ?
+Chiharu: Of course I do n't . I mean , come on , Yuki , you just assumed I did ?
+Yuki: I see .
+Chiharu: But if I did have _ one _ , he would n't be mad , I think .
+Yuki: Wow , sounds like a great boyfriend .
+Chiharu: You really think so ?
+Yuki: Sure , if he existed .
+Chiharu: Oh . Yeah .
+output: ",OTHER
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. There are several possible answers, you'll need to choose the proper one. Carefully read the given text, pay special attention to the marked number, think about what (unwritten) information the marked number holds inside, choose the most adequate word(s) from the optional answers. If none of them seems right to you, there's also an option for other. If your answer is ""REFERENCE"", also write the reference entity, otherwise write the implicit option name. Options to choose from are:
+REFERENCE: Some object which is being mentioned in the text before or after the target number. The reference answer has a higher priority than any other. If both Reference and another answer are possible, prioritize the Reference.
+YEAR: Describing a calendric year
+AGE: Describing someone's age
+CURRENCY: Reference to some monetary value e.g dollar, euro etc.
+PEOPLE: Describing a single/plural persons
+TIME: Describing a time of the day. Usually you can add the word o'clock after those numbers.
+OTHER: Some other option, which isn't listed here.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: REFERENCE crooler
+Positive example 2-
+input: Adam Adamant: Do you know I haven't been to the theatre since, eh... _ '96 _.
+William E. Simms: Ah, what you see... [catches on]
+output: YEAR
+Now complete the following example-
+input: Kenny Powers:  My minds still blown you got three kids . I remember when you were having this one . Old blondy over here .
+Dustin Powers: We got _ three _ .
+Kenny Powers: Three handsome young men . The POWER 'S way .
+Dustin Powers: uhh ... littlest one 's a girl .
+Cassie Powers: You certainly are . Her name is ROSE . Named after Ms. Kate Winslet in the movie ' TITANIC '
+Kenny Powers: Ya'll named your daughter after fuckin ' TITANIC ?
+Dustin Powers: It 's Cassie 's favorite movie .
+Kenny Powers: Oh wow . You got ta be shittin ' me . What 's his name ? Fuckin ' Shrek ? No , huh ?
+output: ",REFERENCE kids
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. There are several possible answers, you'll need to choose the proper one. Carefully read the given text, pay special attention to the marked number, think about what (unwritten) information the marked number holds inside, choose the most adequate word(s) from the optional answers. If none of them seems right to you, there's also an option for other. If your answer is ""REFERENCE"", also write the reference entity, otherwise write the implicit option name. Options to choose from are:
+REFERENCE: Some object which is being mentioned in the text before or after the target number. The reference answer has a higher priority than any other. If both Reference and another answer are possible, prioritize the Reference.
+YEAR: Describing a calendric year
+AGE: Describing someone's age
+CURRENCY: Reference to some monetary value e.g dollar, euro etc.
+PEOPLE: Describing a single/plural persons
+TIME: Describing a time of the day. Usually you can add the word o'clock after those numbers.
+OTHER: Some other option, which isn't listed here.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: REFERENCE crooler
+Positive example 2-
+input: Adam Adamant: Do you know I haven't been to the theatre since, eh... _ '96 _.
+William E. Simms: Ah, what you see... [catches on]
+output: YEAR
+Now complete the following example-
+input: The Doctor:  Amazing .
+Nancy: What is ?
+The Doctor: _ 1941 _ . Right now , not very far from here the German war machine is rolling up the map of Europe . Country after country , falling like Dominoes . Nothing can stop it , nothing until one tiny , damp little island says "" no "" . No , not here . A mouse in front of a lion . You 're amazing . The lot of you . Do n't know what you do to Hitler , but you frighten the hell out of me . Off you go , then . Do what you got to do . Save the world .
+output: ",YEAR
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. There are several possible answers, you'll need to choose the proper one. Carefully read the given text, pay special attention to the marked number, think about what (unwritten) information the marked number holds inside, choose the most adequate word(s) from the optional answers. If none of them seems right to you, there's also an option for other. If your answer is ""REFERENCE"", also write the reference entity, otherwise write the implicit option name. Options to choose from are:
+REFERENCE: Some object which is being mentioned in the text before or after the target number. The reference answer has a higher priority than any other. If both Reference and another answer are possible, prioritize the Reference.
+YEAR: Describing a calendric year
+AGE: Describing someone's age
+CURRENCY: Reference to some monetary value e.g dollar, euro etc.
+PEOPLE: Describing a single/plural persons
+TIME: Describing a time of the day. Usually you can add the word o'clock after those numbers.
+OTHER: Some other option, which isn't listed here.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: REFERENCE crooler
+Positive example 2-
+input: Adam Adamant: Do you know I haven't been to the theatre since, eh... _ '96 _.
+William E. Simms: Ah, what you see... [catches on]
+output: YEAR
+Now complete the following example-
+input: Mrs. Puff:  We paid nine dollars for this ?
+Sandy Cheeks: I paid _ ten _ !
+output: ",CURRENCY
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. There are several possible answers, you'll need to choose the proper one. Carefully read the given text, pay special attention to the marked number, think about what (unwritten) information the marked number holds inside, choose the most adequate word(s) from the optional answers. If none of them seems right to you, there's also an option for other. If your answer is ""REFERENCE"", also write the reference entity, otherwise write the implicit option name. Options to choose from are:
+REFERENCE: Some object which is being mentioned in the text before or after the target number. The reference answer has a higher priority than any other. If both Reference and another answer are possible, prioritize the Reference.
+YEAR: Describing a calendric year
+AGE: Describing someone's age
+CURRENCY: Reference to some monetary value e.g dollar, euro etc.
+PEOPLE: Describing a single/plural persons
+TIME: Describing a time of the day. Usually you can add the word o'clock after those numbers.
+OTHER: Some other option, which isn't listed here.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: REFERENCE crooler
+Positive example 2-
+input: Adam Adamant: Do you know I haven't been to the theatre since, eh... _ '96 _.
+William E. Simms: Ah, what you see... [catches on]
+output: YEAR
+Now complete the following example-
+input: Dr. Martin Ellingham:  Here . I think that 'll solve your problem .
+Mandie: What is it ?
+Dr. Martin Ellingham: I do n't know , do n't say .
+Mandie: Is it legal ?
+Dr. Martin Ellingham: It hasn't been , uh , clinically tested .
+Mandie: So , I 'm like part of a trial ?
+Dr. Martin Ellingham: Hmm .
+Mandie: Um , these'll gimme tits ?
+Dr. Martin Ellingham: Um . if you take one , uh , once a week , and only one .
+Mandie: Oh , my God !
+Dr. Martin Ellingham: Provided you , uh , take regular exercise and eat well , do n't smoke or do n't drink , your breasts will develop .
+Mandie: How long for ?
+Dr. Martin Ellingham: Uh , until you finish them , finish the course .
+Mandie: Should I take _ one _ now ?
+Dr. Martin Ellingham: Yes , put it under your tongue and let it dissolve .
+Mandie: It tastes like peppermint .
+Dr. Martin Ellingham: That 's correct . Yes .
+output: ",OTHER
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. There are several possible answers, you'll need to choose the proper one. Carefully read the given text, pay special attention to the marked number, think about what (unwritten) information the marked number holds inside, choose the most adequate word(s) from the optional answers. If none of them seems right to you, there's also an option for other. If your answer is ""REFERENCE"", also write the reference entity, otherwise write the implicit option name. Options to choose from are:
+REFERENCE: Some object which is being mentioned in the text before or after the target number. The reference answer has a higher priority than any other. If both Reference and another answer are possible, prioritize the Reference.
+YEAR: Describing a calendric year
+AGE: Describing someone's age
+CURRENCY: Reference to some monetary value e.g dollar, euro etc.
+PEOPLE: Describing a single/plural persons
+TIME: Describing a time of the day. Usually you can add the word o'clock after those numbers.
+OTHER: Some other option, which isn't listed here.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: REFERENCE crooler
+Positive example 2-
+input: Adam Adamant: Do you know I haven't been to the theatre since, eh... _ '96 _.
+William E. Simms: Ah, what you see... [catches on]
+output: YEAR
+Now complete the following example-
+input: Mr. Adams:  You ca n't cheat an honest man .
+Mrs. Wright: I ca n't even find _ one _ .
+output: ",REFERENCE man
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. There are several possible answers, you'll need to choose the proper one. Carefully read the given text, pay special attention to the marked number, think about what (unwritten) information the marked number holds inside, choose the most adequate word(s) from the optional answers. If none of them seems right to you, there's also an option for other. If your answer is ""REFERENCE"", also write the reference entity, otherwise write the implicit option name. Options to choose from are:
+REFERENCE: Some object which is being mentioned in the text before or after the target number. The reference answer has a higher priority than any other. If both Reference and another answer are possible, prioritize the Reference.
+YEAR: Describing a calendric year
+AGE: Describing someone's age
+CURRENCY: Reference to some monetary value e.g dollar, euro etc.
+PEOPLE: Describing a single/plural persons
+TIME: Describing a time of the day. Usually you can add the word o'clock after those numbers.
+OTHER: Some other option, which isn't listed here.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: REFERENCE crooler
+Positive example 2-
+input: Adam Adamant: Do you know I haven't been to the theatre since, eh... _ '96 _.
+William E. Simms: Ah, what you see... [catches on]
+output: YEAR
+Now complete the following example-
+input: Princess Vera:  Well , you 're not my master ! I 'm free to risk my life if I wish to !
+Puss: And I 'd like permission to risk mine !
+Son: That 's easy for you to say , you 've got _ 8 _ more to go !
+Puss: Tch , well !
+output: ",REFERENCE life

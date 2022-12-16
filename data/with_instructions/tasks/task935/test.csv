@@ -1,0 +1,1601 @@
+input,output
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX answers every question
+Hypothesis: PersonX is seen as happy
+Update: PersonX answers in a friendly manner.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX causes PersonY trouble
+Hypothesis: PersonX is seen as angry
+Update: PersonX just received their refund from the IRS.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX gets my license
+Hypothesis: As a result, PersonX feels dependable
+Update: PersonX went for a drive.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX keeps my eyes open
+Hypothesis: Because PersonX wanted to examine my eyes
+Update: They are trying to talk to them and they want to sleep
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX gobbles PersonY up
+Hypothesis: PersonX is seen as satisfied
+Update: PersonX's stomach is bulging
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX owes PersonY money
+Hypothesis: As a result, PersonX feels appreciative
+Update: PersonX frowns while paying out.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX learns how to skate
+Hypothesis: Before, PersonX needed to go to the rink
+Update: PersonX lives in a hot climate
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX sells PersonX's motorcycle
+Hypothesis: Before, PersonX needed to put up an add
+Update: X was approached as he parked in the lot and asked the price he'd sell at.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX always ate
+Hypothesis: PersonX then gets sick
+Update: PersonX ate a lot of meatballs.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX starts last week
+Hypothesis: As a result, PersonX wants to shop for decorations for their desk
+Update: PersonX got a job as a bartender at a restaurant.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX updates PersonX's wardrobe
+Hypothesis: As a result, PersonX feels fashionable
+Update: PersonX tries out their items like they are in the magazine
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX sees a comedy
+Hypothesis: As a result, PersonX wants to tell friends about movie
+Update: The movie sucked
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX plays PersonY's game
+Hypothesis: Because PersonX wanted to experience the game
+Update: PersonX wanted the game but couldn't afford to buy it.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX helps the environment
+Hypothesis: PersonX is seen as proud
+Update: X walks hunched over.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX wants nothing
+Hypothesis: PersonX then gets reputation as a simple person
+Update: PersonX continues this approach perpetually
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX takes part in the campaign
+Hypothesis: PersonX is seen as satisfied
+Update: PersonX is frowning
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX plays so well
+Hypothesis: As a result, PersonX wants find more people to play with
+Update: PersonX enjoys playing team sports.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX gets a phone call
+Hypothesis: As a result, PersonX feels talkative
+Update: The phone call is from a debt collector.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX obtains PersonY idea
+Hypothesis: Before, he went on lunch.
+Update: PersonY met PersonX in the cafeteria
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX worships the ground PersonY walks on
+Hypothesis: As a result, PersonX wants to give PersonY a gift
+Update: PersonX is too afraid to let PersonY know their feelings.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX plays sports
+Hypothesis: As a result, PersonX wants to get a scholarship
+Update: PersonX meets with the coach to express their interest.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX transports PersonY to an island
+Hypothesis: As a result, PersonX feels seafaring
+Update: PersonX is feeling nauseated from the boatride.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX knows PersonY's names
+Hypothesis: As a result, PersonX feels omniscient
+Update: X can find out her Social Security number.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX buries in PersonY's hands
+Hypothesis: PersonX is seen as helpless
+Update: They are both doing an acrobatic routine.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX camps with PersonY's family
+Hypothesis: Before, PersonX needed get out a sleeping bag
+Update: They will be sleeping on the ground in tents.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX puts it there
+Hypothesis: As a result, PersonX wants to move something
+Update: PersonX thinks it's in the right place.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX floors it
+Hypothesis: PersonX is seen as breathless
+Update: PersonX is sprinting as fast as she can.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX goes free
+Hypothesis: PersonX is seen as overjoyed
+Update: PersonX is seen crying
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX goes blue
+Hypothesis: Because PersonX wanted to and cannot hide his embarassment and shock
+Update: Person X was dumped by their lover.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX calls the cable company
+Hypothesis: Then, they record details of the conversation on a writing pad
+Update: She turns on the recorder on her cell phone.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX hurts PersonY's back
+Hypothesis: Because PersonX wanted to try to fix person y's back
+Update: PersonX is training in chiropracty
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX calls PersonY's wife
+Hypothesis: PersonX then hears silence
+Update: PersonY's wife has an exciting story to tell.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX breaks my leg
+Hypothesis: PersonX is seen as sorry
+Update: PersonX is crying
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX wins the day
+Hypothesis: As a result, PersonX wants to smile
+Update: PersonX injured their fellow competitors.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX applies to many jobs
+Hypothesis: PersonX is seen as ready
+Update: X has gotten his degree.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX buys new shoes
+Hypothesis: As a result, PersonX feels realistic
+Update: PersonX applies the shoes to their ingame character
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX cries PersonY's eyes
+Hypothesis: PersonX then cries
+Update: No one came over to cheer PersonX up.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX wears PersonY's helmet
+Hypothesis: Before, PersonX needed to pick up the helmet from PersonY
+Update: PersonX rides without a helmet.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX rubs PersonY's cheek
+Hypothesis: PersonX is seen as in love and tender
+Update: PersonY is their wife
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX grants PersonY title
+Hypothesis: PersonX is seen as proud
+Update: PersonX humbles himself to PersonY.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX takes PersonY word for it
+Hypothesis: As a result, PersonX feels optimistic
+Update: PersonY said something good
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX tells PersonY's children
+Hypothesis: As a result, PersonX wants to take the children for icecream
+Update: PersonY doesn't allow PersonX around their children.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX searches for hours
+Hypothesis: Before, PersonX needed to decide where to look
+Update: He wanted to make sure he does a good job on the project
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX expresses PersonX's belief
+Hypothesis: Because PersonX wanted to share what he believes in
+Update: PersonX had a speech assigned for class.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX takes matters
+Hypothesis: PersonX is seen as contented with himself
+Update: Person X is relaxed.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX always slept
+Hypothesis: As a result, PersonX wants to stretch
+Update: PersonX is paralyzed from the waist down
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX returns to PersonY room
+Hypothesis: Because PersonX wanted to share his room
+Update: PersonY invites PersonX inside and PersonX accepts.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX takes orders
+Hypothesis: PersonX is seen as anxious if he could supply them on time.
+Update: The orders are simple and small.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX bakes the cookies
+Hypothesis: PersonX is seen as generous
+Update: A bake sale for charity is happening
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX hurries back
+Hypothesis: PersonX is seen as fast
+Update: PersonX is on crutches
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX sprains PersonX's wrist
+Hypothesis: As a result, PersonX feels unfit
+Update: PersonX was trying to lift weights at the gym when they sprained their wrist.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX has trouble staying awake
+Hypothesis: As a result, PersonX wants to try get some sleep
+Update: PersonX drinks multiple cups of coffee to wake up.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX applies the dye
+Hypothesis: PersonX then gets good look
+Update: People start buying the dyed products
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX realizes it was saturday
+Hypothesis: PersonX is seen as surprised
+Update: PersonX stayed in bed until 11 AM.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX wants a new hairstyle
+Hypothesis: As a result, PersonX feels openminded
+Update: PersonX wants a new look.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX watches videos
+Hypothesis: PersonX is seen as entertained
+Update: They are falling asleep
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX stabs PersonY in the back
+Hypothesis: PersonX is seen as angry
+Update: PersonX is out of control.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX lies on the ground
+Hypothesis: As a result, PersonX feels relaxed
+Update: PersonX is being arrested by the cops.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX sees the mess
+Hypothesis: Before, PersonX needed money
+Update: PersonX is wearing a maid's uniform.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX hears PersonY's cry
+Hypothesis: As a result, PersonX feels alarmed
+Update: PersonX laughs.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX keeps an eye peeled
+Hypothesis: As a result, PersonX wants find what they were looking for
+Update: PersonX has been asked to look out for potential big spenders.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX measures the ingredients
+Hypothesis: PersonX is seen as confident
+Update: They look nervous
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX takes a trip
+Hypothesis: PersonX is seen as excited and relaxed
+Update: PersonX is taking their first vacation in years.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX has never seen
+Hypothesis: PersonX is seen as curious
+Update: PersonX keeps to themself.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX accomplishes PersonX's goals
+Hypothesis: As a result, PersonX feels determined
+Update: PersonX proved everyone wrong
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX gets a ride
+Hypothesis: PersonX is seen as thankful
+Update: PersonX does not tip the taxi driver
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX examines PersonY
+Hypothesis: Before, PersonX needed tell person Y about his/her intentions
+Update: PersonX collates the information and then addresses PersonY with a report
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX finally stopped
+Hypothesis: Because PersonX wanted a break
+Update: PersonX ran out of spray paint.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX eats alone
+Hypothesis: Before, PersonX needed to have something to eat
+Update: PersonX is in a cafeteria
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX reduces PersonX's stress
+Hypothesis: As a result, PersonX wants to sleep
+Update: PersonX is ready to take on the day.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX throws food
+Hypothesis: As a result, PersonX wants to go home and get cleaned up
+Update: PersonX is in a middle school cafeteria.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX uses PersonY number
+Hypothesis: Because PersonX wanted an alternate method of contact
+Update: PersonX and PersonY do not know each other.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX rides the ferris wheel
+Hypothesis: PersonX then gets stuck on top
+Update: The ferris wheel is rusty
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX learns everything
+Hypothesis: Before, PersonX needed attend class hours
+Update: PersonX is a genius
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX fetches PersonY back
+Hypothesis: As a result, PersonX feels attentive
+Update: PersonX asks if they can get anything else
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX goes down the tubes
+Hypothesis: PersonX is seen as very discouraged
+Update: PersonX ended up missing the bus
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX tells PersonX's landlord
+Hypothesis: Before, PersonX needed to know what to do
+Update: PersonX identified an issue with the house
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX takes PersonY's son out
+Hypothesis: PersonX is seen as helpful
+Update: Person Y is angry
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX plays chess with PersonY
+Hypothesis: Then, they win
+Update: PersonX themselves yells ""checkmate""
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX comes a cropper
+Hypothesis: As a result, PersonX feels hands on
+Update: X fails the class.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX meets many new friends
+Hypothesis: As a result, PersonX feels outgoing
+Update: PersonX invites many people to their birthday celebration.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX calls the school
+Hypothesis: PersonX is seen as anxious about  it
+Update: PersonX is interested in going back to college.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX changes PersonY's attitude
+Hypothesis: Before, PersonX needed approach the person
+Update: PersonX wants other people to see things the way they do.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX thinks PersonY was sick
+Hypothesis: PersonX then notices temperature in the room
+Update: The room was at 69 degrees Fahrenheit.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX shoulders the burden
+Hypothesis: Because PersonX wanted to help
+Update: PersonX is helping an old lady
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX watches some television
+Hypothesis: As a result, PersonX wants to catch up on a tv show
+Update: They start falling asleep
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX eats PersonY's plants
+Hypothesis: Because PersonX wanted to be healthy
+Update: PersonX has been told by their doctor that they're obese.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX wants to learn how to draw
+Hypothesis: PersonX then becomes better at drawing
+Update: PersonX cannot afford art supplies.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX minds PersonY business
+Hypothesis: PersonX is seen as normal
+Update: PersonX is just a stranger ignoring others on a train.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX goes home empty handed
+Hypothesis: PersonX is seen as feeling very sad
+Update: PersonX spends the money on better products.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX makes PersonY promises
+Hypothesis: Before, PersonX needed to know PersonY
+Update: PersonX's promises are large and important.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX starts to shake
+Hypothesis: As a result, PersonX wants to calm down
+Update: PersonX is on a roller coaster.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX is short on money
+Hypothesis: As a result, PersonX wants to be better at saving
+Update: PersonX spends a lot of money.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX retains PersonX's position
+Hypothesis: As a result, PersonX wants to show work ethic
+Update: X now has seniority and can't be fired so he slacks off.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX decides to cheat
+Hypothesis: As a result, PersonX wants to win
+Update: The stakes are high
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX stays longer
+Hypothesis: Before, PersonX needed extend his vacation
+Update: PersonX  has no more vacation days at work.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX burns the candle at both ends
+Hypothesis: Before, PersonX needed to have been working until late at night
+Update: The big project is due tomorrow and it is only half way done.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX is responsible enough
+Hypothesis: As a result, PersonX feels disciplined
+Update: They can tie their own shoes with help.
+output: ",weakener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX puts the cart before the horse
+Hypothesis: As a result, PersonX feels confused
+Update: PersonX expected the cart to go forward.
+output: ",strengthener
+"Definition: In this task, you are given a premise, a hypothesis, and an update. The premise sentence describes a real-world situation and is always assumed to be true. The hypothesis sentence describes an assumption or inference that you might make about that situation having read the premise. The update provides additional information about the situation that might weaken or strengthen the hypothesis. A weakener is a statement that weakens the hypothesis. It makes you much less likely to believe the hypothesis is true. A strengthener is a statement that strengthens the hypothesis. It makes you much more likely to believe the hypothesis is true. Your task is to output 'strengthener' or 'weakener' if the update strengths or weakens the hypothesis, respectively.
+Positive example 1-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was a good student
+output: strengthener
+Positive example 2-
+input: Premise: PersonX seems interested
+Hypothesis: PersonX then good activity
+Update: PersonX was faking to get close to a girl
+output: weakener
+Now complete the following example-
+input: Premise: PersonX yells for help
+Hypothesis: Because PersonX wanted to get someones attention to help them.
+Update: PersonX looks at the script again and repeats the line.
+output: ",weakener

@@ -1,0 +1,101 @@
+input,output
+"Definition: In this task, you are given triplets. Each triplet is in the form of [subject, predicate, object]. Your task is to generate proper sentence that utilizes these triples. The objective is to construct a sentence that (a) captures the facts specified in the triples and (b) is a well-formed sentence easily understandable by a human. All triple values need not be used directly in the sentence as long as the facts are adequately captured.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the orange city, iowa
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: University of mississippi was in the selc new conference.
+Now complete the following example-
+input: [['Bacon sandwich', 'DISH_VARIATION', 'BLT'], ['Bacon sandwich', 'COUNTRY', 'United Kingdom'], ['Bacon sandwich', 'INGREDIENT', 'Bacon']]
+output: ",Bacon sandwiches are popular in the UK and have the variation of the BLT.
+"Definition: In this task, you are given triplets. Each triplet is in the form of [subject, predicate, object]. Your task is to generate proper sentence that utilizes these triples. The objective is to construct a sentence that (a) captures the facts specified in the triples and (b) is a well-formed sentence easily understandable by a human. All triple values need not be used directly in the sentence as long as the facts are adequately captured.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the orange city, iowa
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: University of mississippi was in the selc new conference.
+Now complete the following example-
+input: [['The Golden Curry', 'food', 'Italian'], ['The Golden Curry', 'customer rating', '5 out of 5'], ['The Golden Curry', 'familyFriendly', 'yes']]
+output: ","The Golden Curry has Italian, is family friendly and has a customer rating of 5 out of 5."
+"Definition: In this task, you are given triplets. Each triplet is in the form of [subject, predicate, object]. Your task is to generate proper sentence that utilizes these triples. The objective is to construct a sentence that (a) captures the facts specified in the triples and (b) is a well-formed sentence easily understandable by a human. All triple values need not be used directly in the sentence as long as the facts are adequately captured.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the orange city, iowa
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: University of mississippi was in the selc new conference.
+Now complete the following example-
+input: [['The Rice Boat', 'priceRange', '£20-25'], ['The Rice Boat', 'customer rating', 'high'], ['The Rice Boat', 'area', 'riverside'], ['The Rice Boat', 'near', 'Express by Holiday Inn']]
+output: ",The Rice Boat is located in riverside near Express by Holiday Inn. £20-25 price range and High costumer rating.
+"Definition: In this task, you are given triplets. Each triplet is in the form of [subject, predicate, object]. Your task is to generate proper sentence that utilizes these triples. The objective is to construct a sentence that (a) captures the facts specified in the triples and (b) is a well-formed sentence easily understandable by a human. All triple values need not be used directly in the sentence as long as the facts are adequately captured.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the orange city, iowa
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: University of mississippi was in the selc new conference.
+Now complete the following example-
+input: [['1634: The Ram Rebellion', 'AUTHOR', 'Eric Flint'], ['Eric Flint', 'INFLUENCED_BY', 'Robert A. Heinlein'], ['Eric Flint', 'BIRTH_PLACE', 'Burbank, California']]
+output: ","Eric Flint, born in Burbank, California, is the author of 1634: The Ram Rebellion, influenced by Robert A. Heinlein."
+"Definition: In this task, you are given triplets. Each triplet is in the form of [subject, predicate, object]. Your task is to generate proper sentence that utilizes these triples. The objective is to construct a sentence that (a) captures the facts specified in the triples and (b) is a well-formed sentence easily understandable by a human. All triple values need not be used directly in the sentence as long as the facts are adequately captured.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the orange city, iowa
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: University of mississippi was in the selc new conference.
+Now complete the following example-
+input: [['Midsummer House', 'eatType', 'restaurant'], ['Midsummer House', 'food', 'Fast food'], ['Midsummer House', 'customer rating', 'average'], ['Midsummer House', 'near', 'All Bar One']]
+output: ","Near All Bar One, you will find an average rated, higher priced  fast food restaurant named Midsummer House."
+"Definition: In this task, you are given triplets. Each triplet is in the form of [subject, predicate, object]. Your task is to generate proper sentence that utilizes these triples. The objective is to construct a sentence that (a) captures the facts specified in the triples and (b) is a well-formed sentence easily understandable by a human. All triple values need not be used directly in the sentence as long as the facts are adequately captured.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the orange city, iowa
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: University of mississippi was in the selc new conference.
+Now complete the following example-
+input: [[""Patrick O'Bryant"", 'POSITION', 'Center']]
+output: ",Patrick O'Bryant is a center for Toronto.
+"Definition: In this task, you are given triplets. Each triplet is in the form of [subject, predicate, object]. Your task is to generate proper sentence that utilizes these triples. The objective is to construct a sentence that (a) captures the facts specified in the triples and (b) is a well-formed sentence easily understandable by a human. All triple values need not be used directly in the sentence as long as the facts are adequately captured.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the orange city, iowa
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: University of mississippi was in the selc new conference.
+Now complete the following example-
+input: [['The Rice Boat', 'food', 'Italian'], ['The Rice Boat', 'priceRange', 'cheap'], ['The Rice Boat', 'area', 'city centre'], ['The Rice Boat', 'near', 'Express by Holiday Inn']]
+output: ","The Rice Boat is located near  Express by Holiday Inn in city center, it serves Italian food with a cheap price range."
+"Definition: In this task, you are given triplets. Each triplet is in the form of [subject, predicate, object]. Your task is to generate proper sentence that utilizes these triples. The objective is to construct a sentence that (a) captures the facts specified in the triples and (b) is a well-formed sentence easily understandable by a human. All triple values need not be used directly in the sentence as long as the facts are adequately captured.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the orange city, iowa
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: University of mississippi was in the selc new conference.
+Now complete the following example-
+input: [['[TABLECONTEXT]', '[TITLE]', 'List of U.S. cities with significant Korean-American populations'], ['Ridgefield', 'PERCENTAGE', '14.31%'], ['[TABLECONTEXT]', 'CITY', 'Ridgefield']]
+output: ",Ridgefield's Korean-American population is 14.31%.
+"Definition: In this task, you are given triplets. Each triplet is in the form of [subject, predicate, object]. Your task is to generate proper sentence that utilizes these triples. The objective is to construct a sentence that (a) captures the facts specified in the triples and (b) is a well-formed sentence easily understandable by a human. All triple values need not be used directly in the sentence as long as the facts are adequately captured.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the orange city, iowa
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: University of mississippi was in the selc new conference.
+Now complete the following example-
+input: [['Ibbotson Associates', 'ACQUIRED_FROM', 'Privately Held'], ['Ibbotson Associates', 'REPORTED_COST', 'US$83 million']]
+output: ",The privately held asset was valued at US$83 million.
+"Definition: In this task, you are given triplets. Each triplet is in the form of [subject, predicate, object]. Your task is to generate proper sentence that utilizes these triples. The objective is to construct a sentence that (a) captures the facts specified in the triples and (b) is a well-formed sentence easily understandable by a human. All triple values need not be used directly in the sentence as long as the facts are adequately captured.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the orange city, iowa
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: University of mississippi was in the selc new conference.
+Now complete the following example-
+input: [['The Mill', 'eatType', 'pub'], ['The Mill', 'food', 'English'], ['The Mill', 'priceRange', 'moderate'], ['The Mill', 'area', 'riverside']]
+output: ","Located next to the riverside, The Mill is a moderately-priced English pub."

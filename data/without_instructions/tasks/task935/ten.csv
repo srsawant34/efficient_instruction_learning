@@ -1,0 +1,41 @@
+input,output
+"input: Premise: PersonX almost gave up
+Hypothesis: PersonX then laughs
+Update: PersonX realizes the futility of it all
+output: ",strengthener
+"input: Premise: PersonX presents PersonY picture
+Hypothesis: Because PersonX wanted to show his mom the picture.
+Update: PersonX just had PersonY's grandchild.
+output: ",strengthener
+"input: Premise: PersonX begins to bleed
+Hypothesis: PersonX is seen as hurt
+Update: PersonX is getting a tattoo.
+output: ",weakener
+"input: Premise: PersonX takes the test again
+Hypothesis: Because PersonX wanted to do better this time
+Update: They got a C the first time
+output: ",strengthener
+"input: Premise: PersonX gets PersonX's picture taken
+Hypothesis: PersonX then buys a picture frame
+Update: PErsonX is a graduating senior
+output: ",strengthener
+"input: Premise: PersonX sends PersonY army
+Hypothesis: PersonX is seen as emboldened
+Update: PersonY has a better army
+output: ",weakener
+"input: Premise: PersonX decides to lose weight
+Hypothesis: Before, PersonX needed to go on a diet.
+Update: PersonX doesn't like to exercise.
+output: ",strengthener
+"input: Premise: PersonX performs PersonY's task
+Hypothesis: As a result, PersonX wants to get ready to next task
+Update: PersonY's task isn't done yet.
+output: ",weakener
+"input: Premise: PersonX moves PersonY out of the way
+Hypothesis: Because PersonX wanted to protect them
+Update: PersonY is drunk and belligerent
+output: ",weakener
+"input: Premise: PersonX teases PersonY
+Hypothesis: Before, PersonX needed think of something to tease them about
+Update: PersonX is enchanted by the beauty of PersonY.
+output: ",strengthener

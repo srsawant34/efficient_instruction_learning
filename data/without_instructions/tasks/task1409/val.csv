@@ -1,0 +1,21 @@
+input,output
+"input: [['Clowns', 'eatType', 'coffee shop'], ['Clowns', 'food', 'French'], ['Clowns', 'area', 'city centre'], ['Clowns', 'near', 'Clare Hall']]
+output: ",City Centre at Clowns has an average customer rate and is located near Clare Hall which provides French food and a coffee shop.
+"input: [['The Wrestlers', 'eatType', 'restaurant'], ['The Wrestlers', 'food', 'Fast food'], ['The Wrestlers', 'priceRange', 'high'], ['The Wrestlers', 'customer rating', 'average'], ['The Wrestlers', 'familyFriendly', 'yes']]
+output: ",The Wrestlers is a child-friendly fast food restaurant in the high price range. It has an average customer rating.
+"input: [['Wildwood', 'eatType', 'pub'], ['Wildwood', 'food', 'Fast food'], ['Wildwood', 'priceRange', 'more than £30'], ['Wildwood', 'customer rating', 'high']]
+output: ",The pub Wildwood  has fast food and a high customer rating. Price range is more than £30.
+"input: [['The Waterman', 'eatType', 'restaurant'], ['The Waterman', 'food', 'Italian'], ['The Waterman', 'customer rating', '5 out of 5'], ['The Waterman', 'area', 'city centre']]
+output: ","The Waterman, a city center Italian restaurant, boasts a peaceful, child-free atmosphere and has a 5 out of 5 rating."
+"input: [['Bakso', 'REGION', 'Indonesia'], ['Bakso', 'INGREDIENT', 'Noodle'], ['Bakso', 'COUNTRY', 'Chinese cuisine']]
+output: ","Bakso is made in China, contains noodles and is also found in a region in Indonesia."
+"input: [['[TABLECONTEXT]', '[TITLE]', '2000 Open Championship'], ['66-72-70=208', 'TO_PAR', '−8'], ['[TABLECONTEXT]', 'PLAYER', 'Ernie Els'], ['Ernie Els', 'SCORE', '66-72-70=208'], ['Ernie Els', 'COUNTRY', 'South Africa']]
+output: ",South African Ernie Els finished 8 below par in the 2000 Open Championship.
+"input: [['The Mill', 'eatType', 'restaurant'], ['The Mill', 'area', 'riverside']]
+output: ",The Mill is a pub type restaurant near riverside.
+"input: [['Asherton, Texas', 'IS_PART_OF', 'United States'], ['Asher and Mary Isabelle Richardson House', 'LOCATION', 'Asherton, Texas']]
+output: ","Asher and Mary Isabelle Richardson House is located in Asherton, Texas, United States."
+"input: [['ISO-8859-5', 'М:_HEX', 'BC'], ['ISO-8859-5', 'М:_DECIMAL', '220']]
+output: ","ISO-8859-5 encodes capital letter M as BC hexidecimally, and small letter m as 220 in decimals."
+"input: [['Al Asad Airbase', 'RUNWAY_NAME', '""09R/27L""']]
+output: ",Al Asad Airbase has the runway name 09R/27L.

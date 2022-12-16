@@ -1,0 +1,111 @@
+input,output
+"Definition: In this task, you will be given two sentences sentence1 and sentence2. You should decide whether the second sentence is entailed(agreed) by the first sentence. If it does entail, answer ""yes"", else answer ""no"".
+Positive example 1-
+input: sentence1:region is nation in location
+sentence2:region is country in location
+output: yes
+Positive example 2-
+input: sentence1:location is going to war with region sentence1:location is facing  region 
+output: yes
+Now complete the following example-
+input: sentence1:book_author is fleeing  region sentence1:book_author is leaving  region 
+output: ",yes
+"Definition: In this task, you will be given two sentences sentence1 and sentence2. You should decide whether the second sentence is entailed(agreed) by the first sentence. If it does entail, answer ""yes"", else answer ""no"".
+Positive example 1-
+input: sentence1:region is nation in location
+sentence2:region is country in location
+output: yes
+Positive example 2-
+input: sentence1:location is going to war with region sentence1:location is facing  region 
+output: yes
+Now complete the following example-
+input: sentence1:sports_team*professional_sports_team is dealing to sports_team sentence1:sports_team*professional_sports_team is acquiring from sports_team 
+output: ",no
+"Definition: In this task, you will be given two sentences sentence1 and sentence2. You should decide whether the second sentence is entailed(agreed) by the first sentence. If it does entail, answer ""yes"", else answer ""no"".
+Positive example 1-
+input: sentence1:region is nation in location
+sentence2:region is country in location
+output: yes
+Positive example 2-
+input: sentence1:location is going to war with region sentence1:location is facing  region 
+output: yes
+Now complete the following example-
+input: sentence1:location is being invaded by military_combatant sentence1:location is declaring war on military_combatant 
+output: ",no
+"Definition: In this task, you will be given two sentences sentence1 and sentence2. You should decide whether the second sentence is entailed(agreed) by the first sentence. If it does entail, answer ""yes"", else answer ""no"".
+Positive example 1-
+input: sentence1:region is nation in location
+sentence2:region is country in location
+output: yes
+Positive example 2-
+input: sentence1:location is going to war with region sentence1:location is facing  region 
+output: yes
+Now complete the following example-
+input: sentence1:organization_founder is planning to invade location sentence1:organization_founder is warning  location 
+output: ",no
+"Definition: In this task, you will be given two sentences sentence1 and sentence2. You should decide whether the second sentence is entailed(agreed) by the first sentence. If it does entail, answer ""yes"", else answer ""no"".
+Positive example 1-
+input: sentence1:region is nation in location
+sentence2:region is country in location
+output: yes
+Positive example 2-
+input: sentence1:location is going to war with region sentence1:location is facing  region 
+output: yes
+Now complete the following example-
+input: sentence1:person is gaining on person sentence1:person is challenging  person 
+output: ",yes
+"Definition: In this task, you will be given two sentences sentence1 and sentence2. You should decide whether the second sentence is entailed(agreed) by the first sentence. If it does entail, answer ""yes"", else answer ""no"".
+Positive example 1-
+input: sentence1:region is nation in location
+sentence2:region is country in location
+output: yes
+Positive example 2-
+input: sentence1:location is going to war with region sentence1:location is facing  region 
+output: yes
+Now complete the following example-
+input: sentence1:organization is announcing availability of computer_operating_system sentence1:organization is announcing release of computer_operating_system 
+output: ",yes
+"Definition: In this task, you will be given two sentences sentence1 and sentence2. You should decide whether the second sentence is entailed(agreed) by the first sentence. If it does entail, answer ""yes"", else answer ""no"".
+Positive example 1-
+input: sentence1:region is nation in location
+sentence2:region is country in location
+output: yes
+Positive example 2-
+input: sentence1:location is going to war with region sentence1:location is facing  region 
+output: yes
+Now complete the following example-
+input: sentence1:organization_founder is threatening to invade location sentence1:organization_founder is warning  location 
+output: ",yes
+"Definition: In this task, you will be given two sentences sentence1 and sentence2. You should decide whether the second sentence is entailed(agreed) by the first sentence. If it does entail, answer ""yes"", else answer ""no"".
+Positive example 1-
+input: sentence1:region is nation in location
+sentence2:region is country in location
+output: yes
+Positive example 2-
+input: sentence1:location is going to war with region sentence1:location is facing  region 
+output: yes
+Now complete the following example-
+input: sentence1:location is crossing into region sentence1:location is different from region 
+output: ",yes
+"Definition: In this task, you will be given two sentences sentence1 and sentence2. You should decide whether the second sentence is entailed(agreed) by the first sentence. If it does entail, answer ""yes"", else answer ""no"".
+Positive example 1-
+input: sentence1:region is nation in location
+sentence2:region is country in location
+output: yes
+Positive example 2-
+input: sentence1:location is going to war with region sentence1:location is facing  region 
+output: yes
+Now complete the following example-
+input: sentence1:award_winner has advantage over employer sentence1:employer is passing  award_winner 
+output: ",no
+"Definition: In this task, you will be given two sentences sentence1 and sentence2. You should decide whether the second sentence is entailed(agreed) by the first sentence. If it does entail, answer ""yes"", else answer ""no"".
+Positive example 1-
+input: sentence1:region is nation in location
+sentence2:region is country in location
+output: yes
+Positive example 2-
+input: sentence1:location is going to war with region sentence1:location is facing  region 
+output: yes
+Now complete the following example-
+input: sentence1:location is dependent on location sentence1:location is obtaining from location 
+output: ",yes

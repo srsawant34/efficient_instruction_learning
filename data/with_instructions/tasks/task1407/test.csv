@@ -1,0 +1,1001 @@
+input,output
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Fitzbillies', 'eatType', 'coffee shop'], ['Fitzbillies', 'food', 'Indian'], ['Fitzbillies', 'priceRange', 'cheap'], ['Fitzbillies', 'customer rating', 'average'], ['Fitzbillies', 'area', 'city centre'], ['Fitzbillies', 'familyFriendly', 'yes']]
+output: ",There is a family friendly coffee shop named _____ which also serves Indian food located at the city centre which has average ratings and cheap prices.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Fitzbillies', 'food', 'Italian'], ['Fitzbillies', 'near', 'The Six Bells']]
+output: ","Near The Six Bells there is _____, which serves Italian food. The price range is above 30 pounds."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Vaults', 'food', 'French'], ['The Vaults', 'priceRange', 'moderate'], ['The Vaults', 'familyFriendly', 'no']]
+output: ",_____ is a French eatery with a moderate price range. It is not kid friendly.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Wrestlers', 'eatType', 'restaurant'], ['The Wrestlers', 'priceRange', 'more than £30'], ['The Wrestlers', 'customer rating', '5 out of 5']]
+output: ","_____ is an expensive, five star whole foods restaurant fun for the whole family."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Newport Cup', '1ST_PRIZE(_$_)', '41,500']]
+output: ","First prize at the _____ won $41,500."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Shelby Fletcher', 'YEARS', '1'], ['[TABLECONTEXT]', 'COACH', 'Shelby Fletcher'], ['Shelby Fletcher', 'RECORD', '1-0'], ['[TABLECONTEXT]', '[TITLE]', 'Alabama Crimson Tide baseball']]
+output: ","_____  served as coach of the Alabama Crimson Tide baseball team for 1 year, with a 1-0 record."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Galina Zybina', 'PLACE', '3'], ['17.45 metres', 'THROW_4', '17.42'], ['Galina Zybina', 'BEST_MARK', '17.45 metres']]
+output: ",Galina Zybina came in 3rd place with _____ as her best mark and 17.42 on Throw 4.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['12 August 1998', 'VENUE', 'Asim Ferhatović Hase Stadium, Sarajevo'], ['[TABLECONTEXT]', '[TITLE]', 'Elvir Baljić'], ['12 August 1998', 'OPPONENT', 'Faroe Islands'], ['[TABLECONTEXT]', 'GOAL', '1.'], ['1.', 'DATE', '12 August 1998']]
+output: ","Elvir Baljić scored against Faroe Islands on _____ at Asim Ferhatović Hase Stadium, Sarajevo"
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Alan Shepard', 'TITLE', 'Chief of the Astronaut Office']]
+output: ",_____ served as the _____.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Dumpling Tree', 'eatType', 'restaurant'], ['The Dumpling Tree', 'food', 'Japanese'], ['The Dumpling Tree', 'priceRange', 'moderate']]
+output: ",A Japanese restaurant called _____ is _____ly priced.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Mill', 'eatType', 'pub'], ['The Mill', 'food', 'Japanese'], ['The Mill', 'priceRange', 'moderate'], ['The Mill', 'area', 'city centre']]
+output: ",_____ serves Japanese food in a city centre pub. It is Moderately priced.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Wrestlers', 'eatType', 'coffee shop'], ['The Wrestlers', 'food', 'Fast food'], ['The Wrestlers', 'priceRange', 'cheap'], ['The Wrestlers', 'area', 'riverside'], ['The Wrestlers', 'near', 'Raja Indian Cuisine']]
+output: ","_____ is a moderately cheap coffee shop located in the area of Riverside, near the Raja Indian Cuisine. Fast food is sold there and the staff are friendly."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Almino Afonso', 'MAP_(COORDINATES)', '6°9′8″S 37°45′58″W\ufeff / \ufeff6.15222°S 37.76611°W'], ['6°9′8″S 37°45′58″W\ufeff / \ufeff6.15222°S 37.76611°W', 'MESOREGION', 'Oeste Potiguar']]
+output: ",_____ is located in Oeste Potiguar at coordinates 6°9′8″S 37°45′58″W﻿ / ﻿6.15222°S 37.76611°W
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['English language', 'SPOKEN_IN', 'Great Britain'], ['A Loyal Character Dancer', 'PUBLISHER', 'Soho Press'], ['Soho Press', 'COUNTRY', 'United States'], ['United States', 'ETHNIC_GROUP', 'Native Americans in the United States'], ['United States', 'LANGUAGE', 'English language']]
+output: ","A Loyal Character Dancer is published by Soho Press, that is based in the _____, where people speak English, same as in Great Britain and there are an ethnic group called Native Americans."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Panama', 'TOTAL_TERRESTRIAL_VERTEBRATES', '1569'], ['Panama', 'MAMMALS', '241'], ['Panama', 'BIRDS', '904'], ['Panama', 'REPTILE', '242'], ['Panama', 'AMPHIBIANS', '182']]
+output: ","In _____, one can find 182 species of amphibians, 904 species of birds, 241 species of mammals, and _____ species of reptiles for a total of 1,569 terrestrial vertebrate species."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Buzz Aldrin', 'BIRTH_PLACE', 'Glen Ridge, New Jersey'], ['Buzz Aldrin', 'NATIONALITY', 'United States'], ['United States', 'LEADER', 'Joe Biden']]
+output: ","Buzz Aldrin was born in Glen Ridge, New Jersey and was a _____ national where _____ is the leader."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['AIP Advances', 'EDITOR', 'A.T. Charlie Johnson'], ['A.T. Charlie Johnson', 'ALMA_MATER', 'Harvard University'], ['A.T. Charlie Johnson', 'DOCTORAL_ADVISOR', 'Michael Tinkham'], ['AIP Advances', 'PUBLISHER', 'American Institute of Physics']]
+output: ","Published by American Institute of Physics, _____ was edited by A.T. Charlie Johnson who's almaMater is Harvard University and who is the doctoral advisor for Michael Tinkham."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Bhajji', 'COUNTRY', 'India'], ['India', 'CURRENCY', 'Indian rupee'], ['India', 'LEADER_NAME', 'T. S. Thakur'], ['Bhajji', 'REGION', 'Karnataka'], ['Karnataka', 'LEADER_NAME', 'Vajubhai Vala']]
+output: ","T S Thakur is the leader of _____, which has the currency the rupee. The food bhajji comes from the Karnataka region who is led by Vajubhai Vala."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Waterman', 'food', 'French'], ['The Waterman', 'priceRange', 'more than £30'], ['The Waterman', 'customer rating', '5 out of 5'], ['The Waterman', 'area', 'riverside'], ['The Waterman', 'familyFriendly', 'no']]
+output: ","_____ is located in _____, serves French food, and it not children friendly.  It has a price range of more than £30 and has a 5 out of 5 customer rating."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Clowns', 'eatType', 'coffee shop'], ['Clowns', 'food', 'Japanese'], ['Clowns', 'customer rating', '3 out of 5'], ['Clowns', 'area', 'riverside'], ['Clowns', 'near', 'Clare Hall']]
+output: ",There is a Japanese coffee shop in riverside near Clare Hall called _____.  Clowns has a 3 out of 5 customer rating.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['William Anders', 'DATE_OF_BIRTH', '""1933-10-17""'], ['William Anders', 'WAS_A_CREW_MEMBER_OF', 'Apollo 8'], ['Apollo 8', 'CREW_MEMBERS', 'Frank Borman'], ['Apollo 8', 'OPERATOR', 'NASA'], ['William Anders', 'WAS_SELECTED_BY_NASA', '1963']]
+output: ","_____, born on October 17, 1933, was selected by NASA in 1963. He served as a crew member on the NASA Apollo 8 mission along with _____."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['13.1', 'YARDS', '197'], ['Sam Simmons', 'AVG.', '13.1']]
+output: ","_____ had _____ total receiving yards, with an average of 13.1 yards/reception."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Rice Boat', 'food', 'Japanese'], ['The Rice Boat', 'priceRange', '£20-25'], ['The Rice Boat', 'area', 'riverside'], ['The Rice Boat', 'near', 'Express by Holiday Inn']]
+output: ",_____ near Express by Holiday Inn in riverside serves a £20-25 price range Japanese food .
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Alan Shepard', 'STATUS', '""Deceased""'], ['Alan Shepard', 'ALMA_MATER', '""NWC, M.A. 1957""'], ['Alan Shepard', 'DEATH_PLACE', 'California'], ['Alan Shepard', 'BIRTH_PLACE', 'New Hampshire'], ['Alan Shepard', 'DATE_OF_BIRTH', '""1923-11-18""']]
+output: ","_____, born 18th of November 1923 in New Hampshire, passed away in California. He was a graduate of NWC, M.A. (class of 1957)."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['[TABLECONTEXT]', '[TITLE]', 'List of Billboard 200 number-one albums of 1984'], ['[TABLECONTEXT]', 'ISSUE_DATE', 'January 28'], ['Thriller', 'ARTIST', 'Michael Jackson'], ['January 28', 'ALBUM', 'Thriller']]
+output: ","Michael Jackson's _____ was the Billboard number one album on January 28, 1984."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Chris Sabin', 'ELIMINATED_BY', 'Kaz'], ['Kaz', 'TIME', '04:55']]
+output: ",_____ is eliminated by Kaz with time 04:55
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Novella', 'CHART-POSITIONS_US', '46']]
+output: ",_____ charted as high as _____ in the US.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['1950-51', 'LEAGUE', 'Main League'], ['Main League', 'SILVER', 'Odd']]
+output: ",Odd came in second place in the _____ Main League.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Waterman', 'eatType', 'restaurant'], ['The Waterman', 'food', 'French'], ['The Waterman', 'priceRange', 'cheap'], ['The Waterman', 'customer rating', '5 out of 5'], ['The Waterman', 'area', 'city centre'], ['The Waterman', 'familyFriendly', 'yes']]
+output: ","_____ is a French restaurant, that is family-friendly, providing cheap food in the _____ and is highly rated 5 out of 5"
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['2', 'LEAGUE', 'USL A-League']]
+output: ",The _____ was the _____nd division of United Soccer Leagues (USL).
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Great Britain', 'RANK', '10'], ['Great Britain', 'TIME', '4:16.510'], ['Great Britain', 'NAMES', 'Robert Hayes Matthew Illingsworth Bryan Steel Chris Newton']]
+output: ","Robert Hayes, Matthew Illingsworth, Bryan Steel, and Chris Newton competed for _____ and ranked 10th with a time of _____."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Cambridge Blue', 'eatType', 'pub'], ['The Cambridge Blue', 'food', 'Indian'], ['The Cambridge Blue', 'priceRange', 'high'], ['The Cambridge Blue', 'near', 'Café Brazil']]
+output: ","_____ is a _____ pub near Café Brazil, with a high price range."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['So Long', 'SEASON_#', '1'], ['So Long', 'DIRECTED_BY', 'Patrick Henry'], ['So Long', 'NO._IN_SERIES', '3']]
+output: ",_____ directed by  Patrick Henry is number 3 in series and number 1 in season
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['2000', 'WEST_MANILA', '6.5']]
+output: ",The year when West Manila has a tariff increase of 6.5 was _____.0.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Mumbai', 'STATE/TERRITORY', 'Maharashtra'], ['Mumbai', 'RANK', '1'], ['1', 'POPULATION_(2001)', '11,978,450'], ['1', '2011_POPULATION', '12,478,447']]
+output: ","Mumbai, in _____, is the most populous city in india, with population of _____2,478,447 in 2011, and 11,978,450 in 2001."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Phoenix', 'food', 'Italian'], ['The Phoenix', 'customer rating', 'average'], ['The Phoenix', 'area', 'city centre']]
+output: ",_____ is located in the city centre serving Italian food.  It has a 3 out of 5 star customer rating.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Dumpling Tree', 'eatType', 'restaurant'], ['The Dumpling Tree', 'food', 'Japanese'], ['The Dumpling Tree', 'priceRange', 'cheap']]
+output: ",There is a cheap price range Japanese restaurant called _____
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Waterman', 'eatType', 'pub'], ['The Waterman', 'customer rating', '3 out of 5'], ['The Waterman', 'area', 'riverside']]
+output: ",croissants in the _____ which is rated 3 out of 5 stars in Riverside named _____
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Wrestlers', 'food', 'Chinese'], ['The Wrestlers', 'priceRange', 'cheap'], ['The Wrestlers', 'customer rating', '5 out of 5']]
+output: ",_____ provides Chinese food in the _____ price range. Its customer rating is 5 out of 5.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Philippines', 'LANGUAGE', 'Philippine English']]
+output: ",_____ is the language of the _____.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Aromi', 'eatType', 'restaurant'], ['Aromi', 'food', 'Japanese'], ['Aromi', 'customer rating', '5 out of 5'], ['Aromi', 'area', 'city centre']]
+output: ",In the city centre area is a Japanese restaurant named _____. It is a coffee shop with a customer rating of 5 out of 5.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Phoenix', 'eatType', 'restaurant'], ['The Phoenix', 'priceRange', '£20-25'], ['The Phoenix', 'area', 'riverside']]
+output: ",_____ is a Sushi restaurant located by the river and has moderate prices.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Al-Taqaddum Air Base', 'CITY_SERVED', 'Fallujah'], ['Fallujah', 'COUNTRY', 'Iraq']]
+output: ",The Al Taqaddum Air Base serves the city of _____ which is in country of Iraq.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Ref', 'ROLE', 'Old Baybrook Policeman']]
+output: ",John Benjamin Hickey role is 	_____ title name _____
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['1995-1996', 'NOTES', '8 episodes'], ['The Adventures of Hyperman', 'YEAR', '1995-1996'], ['The Adventures of Hyperman', 'ROLE', 'Emma C. Squared']]
+output: ",Tamera Mowery played the role of Emma C. Squared for _____ during the _____ season of The Adventures of Hyperman.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Kishishev', 'ENDED', '23 January'], ['Kishishev', 'STARTED', '23 October'], ['Kishishev', 'COUNTRY', 'BUL']]
+output: ",Bulgarian player _____'s loan started on 23 October and ended on 23 January
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Bibimbap House', 'eatType', 'restaurant'], ['Bibimbap House', 'food', 'French'], ['Bibimbap House', 'priceRange', 'cheap'], ['Bibimbap House', 'area', 'riverside'], ['Bibimbap House', 'near', 'Clare Hall']]
+output: ","There is a _____, French restaurant called _____ that is located near Clare Hall in Riverside."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Eagle', 'eatType', 'coffee shop'], ['The Eagle', 'food', 'Fast food'], ['The Eagle', 'priceRange', 'high'], ['The Eagle', 'customer rating', 'average'], ['The Eagle', 'area', 'city centre'], ['The Eagle', 'familyFriendly', 'yes'], ['The Eagle', 'near', 'Burger King']]
+output: ","_____ is a coffee shop that serves high priced fast food. Near _____ in City Centre, the place is children friendly and the customers rate it average."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Patton State Hospital', 'COUNTY', 'San Bernardino']]
+output: ",_____ is in _____ County.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Strada', 'food', 'Chinese'], ['Strada', 'priceRange', 'moderate'], ['Strada', 'customer rating', '3 out of 5'], ['Strada', 'familyFriendly', 'no'], ['Strada', 'near', 'Rainbow Vegetarian Café']]
+output: ","_____ is a Chinese cuisine with moderate prices. Customer rating is 3 out of 5 and it is not kids friendly, located near Rainbow Vegetarian Café."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Cocum', 'eatType', 'coffee shop'], ['Cocum', 'food', 'Japanese'], ['Cocum', 'priceRange', 'high'], ['Cocum', 'customer rating', '3 out of 5'], ['Cocum', 'familyFriendly', 'no']]
+output: ",There is a _____ coffee shop named _____. It is not child friendly. It has a customer rating of 3 out of 5. The price range is high.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Punter', 'priceRange', '£20-25'], ['The Punter', 'area', 'riverside'], ['The Punter', 'near', 'The Portland Arms']]
+output: ","I love eating at _____. The prices of £20-25 are just right and the kids can run around by the riverside, while we are waiting for our table. After we are finished, we can scroll down near The Portland Arms for a walk."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Zizzi', 'eatType', 'pub'], ['Zizzi', 'food', 'Indian'], ['Zizzi', 'customer rating', '5 out of 5']]
+output: ","_____ is a pub that offers Indian cuisine for adults, that has a high rating of _____ from its customers."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Italy', 'LEADER_NAME', 'Pietro Grasso'], ['Italy', 'DEMONYM', 'Italians'], ['Italy', 'CAPITAL', 'Rome'], ['Amatriciana sauce', 'COUNTRY', 'Italy'], ['Italy', 'LEADER_NAME', 'Sergio Mattarella']]
+output: ","Amatriciana sauce can be found in _____, where Italians are from, and the capital is Rome. It is also where Sergio Mattarella and Pietro Grasso are leaders."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Cotto', 'eatType', 'coffee shop'], ['Cotto', 'food', 'Indian'], ['Cotto', 'priceRange', 'moderate'], ['Cotto', 'customer rating', '1 out of 5'], ['Cotto', 'area', 'riverside'], ['Cotto', 'near', 'The Portland Arms']]
+output: ","In riverside near The Portland Arms there is a 1 out of 5 customer rated, moderately priced Indian food coffee shop called _____."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Virgen de la Almudena', 'UIC_NUMBER', '352-007-9'], ['Virgen de la Almudena', 'YEAR', '1965'], ['Virgen de la Almudena', 'WITHDRAWN', '27/02/1993']]
+output: ","Created in 1965 and withdrawn in 1993, the _____ has a UIC number of 352-007-9."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Mosquito Lake', 'YEAR', '1989']]
+output: ",_____ is a _____ movie.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Vaults', 'food', 'Japanese'], ['The Vaults', 'priceRange', 'moderate'], ['The Vaults', 'familyFriendly', 'yes']]
+output: ","_____ is kid friendly, served _____ and the price range is moderate."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Italy', 'CAPITAL', 'Rome'], ['Italy', 'LEADER_NAME', 'Matteo Renzi'], ['Amatriciana sauce', 'COUNTRY', 'Italy'], ['Italy', 'LEADER_NAME', 'Sergio Mattarella'], ['Italy', 'LANGUAGE', 'Italian language']]
+output: ","Sergi Mattarella and Matteo Renzi are leaders in _____, where the capital is Rome, Italian is the language spoken and Amatriciana sauce is a traditional dish."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Loch Fyne', 'eatType', 'restaurant'], ['Loch Fyne', 'food', 'French'], ['Loch Fyne', 'customer rating', 'low'], ['Loch Fyne', 'area', 'city centre'], ['Loch Fyne', 'near', 'The Rice Boat']]
+output: ","In the city center there is a French _____ called the '_____' close to The Rice Boat, it has a poor customer rating."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Fitzbillies', 'eatType', 'coffee shop'], ['Fitzbillies', 'food', 'French'], ['Fitzbillies', 'priceRange', 'moderate'], ['Fitzbillies', 'area', 'city centre']]
+output: ",_____ is a coffee shop located within the _____ offering French food at a moderate price.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['1. FC Magdeburg', 'MANAGER', 'Jens Härtel'], ['Jens Härtel', 'CLUB', '1. FC Lokomotive Leipzig'], ['Jens Härtel', 'CLUB', 'SV Babelsberg 03'], ['Jens Härtel', 'CLUB', 'FC Sachsen Leipzig']]
+output: ","_____, the manager of FC Magdeburg also plays for _____, SV Babelsberg 03 and he has played for FC Sachsen Leipzig."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Golden Palace', 'eatType', 'coffee shop'], ['The Golden Palace', 'food', 'Japanese'], ['The Golden Palace', 'priceRange', 'less than £20'], ['The Golden Palace', 'customer rating', 'low'], ['The Golden Palace', 'area', 'city centre']]
+output: ","_____, located in the city centre, is a low priced, low rated, Japanese coffee shop."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['[TABLECONTEXT]', 'TITLE', 'Elmopalooza'], ['Elmopalooza', 'ROLE', 'Himself'], ['[TABLECONTEXT]', '[TITLE]', 'Jon Stewart']]
+output: ",_____ played himself on _____.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['House on Haunted Hill', 'DOMESTIC_BOX_OFFICE', '$40,846,082']]
+output: ","The domestic box office for ""_____ was _____""."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Waterman', 'eatType', 'restaurant'], ['The Waterman', 'food', 'Fast food'], ['The Waterman', 'priceRange', 'high'], ['The Waterman', 'area', 'city centre'], ['The Waterman', 'familyFriendly', 'yes']]
+output: ",There is a children friendly restaurant _____ located in the city center that provides average _____ in the high price range.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Eagle', 'eatType', 'coffee shop'], ['The Eagle', 'food', 'French'], ['The Eagle', 'priceRange', 'less than £20'], ['The Eagle', 'area', 'city centre'], ['The Eagle', 'near', 'Burger King']]
+output: ",Near Burger King in the city centre is French coffee shop _____ serving dishes less than £20
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Rice Boat', 'eatType', 'restaurant'], ['The Rice Boat', 'food', 'Italian'], ['The Rice Boat', 'customer rating', '5 out of 5'], ['The Rice Boat', 'area', 'riverside'], ['The Rice Boat', 'familyFriendly', 'yes'], ['The Rice Boat', 'near', 'Express by Holiday Inn']]
+output: ",The riverside Italian restaurant _____ is a family friendly restaurant conveniently located near the Express by Holiday Inn.  The restaurant is rated 5 out of 5.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Fitzbillies', 'eatType', 'coffee shop'], ['Fitzbillies', 'food', 'French'], ['Fitzbillies', 'priceRange', 'less than £20'], ['Fitzbillies', 'familyFriendly', 'no']]
+output: ",_____ is an good French coffee shop offering a low price range menu and is _____t family-friendly.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['[TABLECONTEXT]', 'ALBUM', 'The Alarm (EP)'], ['[TABLECONTEXT]', '[TITLE]', 'The Alarm'], ['The Alarm (EP)', 'RELEASE_DATE', 'July 1983']]
+output: ",_____ was released in July 1983.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['103 Colmore Row', 'ARCHITECT', 'John Madin'], ['John Madin', 'BIRTH_PLACE', 'Birmingham'], ['Birmingham', 'LEADER_NAME', 'John Clancy (Labour politician)']]
+output: ","Labour politician, John Clancy is the leader of Birmingham. _____ was born in this city and was the architect of _____."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Ben Urich', 'CREATOR', 'Gene Colan'], ['Ben Urich', 'FULL_NAME', '""Benjamin Urich""']]
+output: ","_____, full name Benjamin Urich, was created by Gene Colan."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['16', 'GOLD', '5'], ['Germany', 'TOTAL', '16']]
+output: ",In 2003 World Aquatics Championships _____ got total of 16 medals with 5 Gold medals
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Fitzbillies', 'eatType', 'coffee shop'], ['Fitzbillies', 'food', 'Italian'], ['Fitzbillies', 'priceRange', '£20-25'], ['Fitzbillies', 'customer rating', 'high'], ['Fitzbillies', 'area', 'riverside'], ['Fitzbillies', 'familyFriendly', 'yes']]
+output: ",_____ is high-rated coffee shop that serves Italian food for £20-25 in Riverside. It is kids friendly.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Agremiação Sportiva Arapiraquense', 'LEAGUE', 'Campeonato Brasileiro Série C'], ['Campeonato Brasileiro Série C', 'COUNTRY', 'Brazil'], ['Agremiação Sportiva Arapiraquense', 'NUMBER_OF_MEMBERS', '17000'], ['Agremiação Sportiva Arapiraquense', 'GROUND', 'Estádio Municipal Coaracy da Mata Fonseca'], ['Campeonato Brasileiro Série C', 'CHAMPIONS', 'Vila Nova Futebol Clube']]
+output: ","Agremiacao Sportiva Arapiraquense's ground is the Estadio Minicipal Coaracy da Mata Fonseca, it has 17000 members and play in the _____ league, which is based in Brazil and the current champions are _____."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Rice Boat', 'eatType', 'restaurant'], ['The Rice Boat', 'priceRange', 'more than £30'], ['The Rice Boat', 'customer rating', 'low'], ['The Rice Boat', 'near', 'Rainbow Vegetarian Café']]
+output: ",Near Rainbow Vegetarian Café is a restaurant named _____. This restaurant has a price range of over 30 Euros and a low customer rating.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Fitzbillies', 'eatType', 'coffee shop'], ['Fitzbillies', 'food', 'Japanese'], ['Fitzbillies', 'customer rating', 'low'], ['Fitzbillies', 'area', 'riverside'], ['Fitzbillies', 'familyFriendly', 'no']]
+output: ",There is a low customer rated Japanese coffee shop in riverside called _____. It is not children friendly.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Kleebach', 'DRAINAGE_BASIN_AREA_[KM2]', '164.6']]
+output: ",_____'s drainage basin area is 164.6 km2.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Midsummer House', 'food', 'Chinese'], ['Midsummer House', 'customer rating', '3 out of 5'], ['Midsummer House', 'near', 'Café Rouge']]
+output: ","There is a _____ place near Café Rouge, _____, with customer rating 3 out of 5."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Blue Spice', 'priceRange', 'less than £20'], ['Blue Spice', 'area', 'city centre'], ['Blue Spice', 'familyFriendly', 'no']]
+output: ",In the city centre there is a low priced place called The _____ which is not family friendly.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Golden Curry', 'eatType', 'restaurant'], ['The Golden Curry', 'food', 'Japanese'], ['The Golden Curry', 'customer rating', '5 out of 5'], ['The Golden Curry', 'area', 'riverside'], ['The Golden Curry', 'familyFriendly', 'yes'], ['The Golden Curry', 'near', 'Café Rouge']]
+output: ",The child Friendly _____ restaurant called _____ has a 5 out of 5 customer Rating. It is found in the riverside area near Café Rouge.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Accademia di Architettura di Mendrisio', 'COUNTRY', 'Switzerland'], ['Switzerland', 'LEADER_NAME', 'Johann Schneider-Ammann'], ['Switzerland', 'LEADER_TITLE', 'Federal Chancellor of Switzerland']]
+output: ",The Accademia di Architettura di Mendrisio is located in _____. The country's leader _____ is officially known as the Federal Chancellor.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Strada', 'food', 'Italian'], ['Strada', 'priceRange', 'high'], ['Strada', 'customer rating', '1 out of 5'], ['Strada', 'familyFriendly', 'yes'], ['Strada', 'near', 'Rainbow Vegetarian Café']]
+output: ",You can get high priced _____ at The _____ near the Rainbow Vegetarian Café. It is children friendly with a rating of 1 out of 5.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['20 Fenchurch Street', 'LOCATION', 'London'], ['20 Fenchurch Street', 'FLOOR_COUNT', '34'], ['London', 'LEADER_NAME', 'Boris Johnson']]
+output: ",_____ which is located in London( the leader of which is Boris Johnson) has 34 floors.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Alimentum', 'priceRange', 'less than £20'], ['Alimentum', 'area', 'riverside'], ['Alimentum', 'familyFriendly', 'no']]
+output: ","Located by the riverside, _____ has a price range of less than £20 ans is not family-friendly."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Andrews County Airport', 'LOCATION', 'Texas'], ['Texas', 'LANGUAGE', 'Spanish language'], ['Texas', 'CAPITAL', 'Austin, Texas'], ['Texas', 'DEMONYM', 'Texan'], ['Texas', 'COUNTRY', 'United States']]
+output: ","Andrews County Airport is located in _____,United States.The state's capital is Austin and its inhabitants are called Texans.Spanish is one of the spoken languages in Texas."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Clowns', 'eatType', 'coffee shop'], ['Clowns', 'food', 'French'], ['Clowns', 'customer rating', 'average'], ['Clowns', 'area', 'city centre'], ['Clowns', 'near', 'Clare Hall']]
+output: ","_____ is a coffee shop located near _____, at city centre.  It offers French cuisine and has average ratings."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Browns Cambridge', 'eatType', 'restaurant'], ['Browns Cambridge', 'food', 'Fast food'], ['Browns Cambridge', 'familyFriendly', 'yes'], ['Browns Cambridge', 'near', 'The Sorrento']]
+output: ",A children friendly fast food restaurant near _____ is called _____.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Punter', 'eatType', 'restaurant'], ['The Punter', 'food', 'French'], ['The Punter', 'priceRange', '£20-25']]
+output: ",An average-priced restaurant that sells French food is _____.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Rice Boat', 'eatType', 'restaurant'], ['The Rice Boat', 'food', 'French'], ['The Rice Boat', 'priceRange', 'high'], ['The Rice Boat', 'customer rating', '3 out of 5'], ['The Rice Boat', 'area', 'city centre'], ['The Rice Boat', 'familyFriendly', 'no'], ['The Rice Boat', 'near', 'Express by Holiday Inn']]
+output: ",The French restaurant in the city centre area near the Express by Holiday Inn is _____. They have a high price range with a customer rating of 3 out of 5 and not children friendly.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Eagle', 'eatType', 'restaurant'], ['The Eagle', 'food', 'Japanese'], ['The Eagle', 'priceRange', 'cheap'], ['The Eagle', 'familyFriendly', 'yes'], ['The Eagle', 'near', 'Burger King']]
+output: ","Near the _____, _____ is a coffee shop style Japanese, low price, this restaurant is a good place for kids."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Acharya Institute of Technology', ""WAS_GIVEN_THE_'TECHNICAL_CAMPUS'_STATUS_BY"", 'All India Council for Technical Education'], ['All India Council for Technical Education', 'LOCATION', 'Mumbai'], ['Bangalore', 'FOUNDER', 'Kempe Gowda I'], ['Acharya Institute of Technology', 'CITY', 'Bangalore'], ['Acharya Institute of Technology', 'AFFILIATION', 'Visvesvaraya Technological University']]
+output: ","The Acharya Institure of Technology in _____ is affiliated to the Visvesaraya Technological University. It was also given the ""Technical Campus"" status by the All India Council for Technical Education, which is located in Mumbai. Bangalore's founder was Kempe Gowda I."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Cambridge Blue', 'eatType', 'pub'], ['The Cambridge Blue', 'food', 'Italian'], ['The Cambridge Blue', 'priceRange', 'high'], ['The Cambridge Blue', 'near', 'Café Brazil']]
+output: ",_____ serves Italian pub-style food near Café Brazil. Their price range is on the high side.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Rice Boat', 'food', 'English'], ['The Rice Boat', 'customer rating', '5 out of 5'], ['The Rice Boat', 'area', 'city centre'], ['The Rice Boat', 'near', 'Express by Holiday Inn']]
+output: ","_____, located near Express by Holiday Inn in city centre, serves English food and received a 5 out of 5 customer rating."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Stephen Cherono', 'TIME', '8:19.98'], ['Stephen Cherono', 'RANK', '3'], ['Stephen Cherono', 'NATIONALITY', 'Kenya']]
+output: ",_____ ranked 3rd at time 8:19.98 and he belongs to Kenya nation.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Batagor', 'COUNTRY', 'Indonesia'], ['Siomay', 'DISH_VARIATION', 'Shumai'], ['Shumai', 'DISH_VARIATION', 'Siomay'], ['Batagor', 'INGREDIENT', 'Peanut sauce']]
+output: ","Batagor, a variant of Shumai and _____, contains peanut sauce and originates from Indonesia."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Eagle', 'eatType', 'coffee shop'], ['The Eagle', 'food', 'French'], ['The Eagle', 'priceRange', '£20-25'], ['The Eagle', 'customer rating', '3 out of 5'], ['The Eagle', 'area', 'city centre'], ['The Eagle', 'familyFriendly', 'no'], ['The Eagle', 'near', 'Burger King']]
+output: ",_____ is a French coffee shop located in the city centre near Burger King. The average rating is 3 out of 5 with a price range from £20-25 and it is not kid friendly.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Atlantic City International Airport', 'ELEVATION', '23.0']]
+output: ",The elevation above the sea level (in metres) of _____ is 23.0.
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['The Eagle', 'eatType', 'coffee shop'], ['The Eagle', 'food', 'Indian'], ['The Eagle', 'priceRange', 'less than £20'], ['The Eagle', 'customer rating', 'low'], ['The Eagle', 'area', 'riverside'], ['The Eagle', 'familyFriendly', 'no'], ['The Eagle', 'near', 'Burger King']]
+output: ","_____ is a low rated coffee shop that serves Indian food in the riverside area near Burger King. The Eagle has a price range of _____, and is not family friendly."
+"Definition: In this task you are given a list of triplets of the form [subject, predicate, object] and the output should be a question based on the triplets but with the subject and/or object replaced with blanks (represented using two or more consecutive underscores). Triplet values encompassed in [*] are special tokens that can be replaced with synonyms. The objective is to construct a question in a manner that (a) captures the facts specified in at least one of the triplets, and (b) ideally contains a limited number of blanks such that it is a well-formed question that is easy to answer. A blank can represent a single word or a phrase.
+Positive example 1-
+input: [['Northwestern College', 'NICKNAME', 'Red Raiders'], ['Northwestern College', 'LOCATION', 'Orange City, Iowa']]
+output: The team whose nickname is red raiders is located in the _______
+Positive example 2-
+input: [['University of Mississippi', 'NEW_CONFERENCE', 'SELC']]
+output: _____ was in the selc new conference.
+Now complete the following example-
+input: [['Browns Cambridge', 'eatType', 'restaurant'], ['Browns Cambridge', 'priceRange', 'more than £30'], ['Browns Cambridge', 'customer rating', 'low']]
+output: ",_____ is a high priced _____.  It has a low rating.

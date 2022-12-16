@@ -1,0 +1,21 @@
+input,output
+"input: sentence1:book_author is fleeing  region sentence1:book_author is leaving  region 
+output: ",yes
+"input: sentence1:sports_team*professional_sports_team is dealing to sports_team sentence1:sports_team*professional_sports_team is acquiring from sports_team 
+output: ",no
+"input: sentence1:location is being invaded by military_combatant sentence1:location is declaring war on military_combatant 
+output: ",no
+"input: sentence1:organization_founder is planning to invade location sentence1:organization_founder is warning  location 
+output: ",no
+"input: sentence1:person is gaining on person sentence1:person is challenging  person 
+output: ",yes
+"input: sentence1:organization is announcing availability of computer_operating_system sentence1:organization is announcing release of computer_operating_system 
+output: ",yes
+"input: sentence1:organization_founder is threatening to invade location sentence1:organization_founder is warning  location 
+output: ",yes
+"input: sentence1:location is crossing into region sentence1:location is different from region 
+output: ",yes
+"input: sentence1:award_winner has advantage over employer sentence1:employer is passing  award_winner 
+output: ",no
+"input: sentence1:location is dependent on location sentence1:location is obtaining from location 
+output: ",yes

@@ -1,0 +1,11 @@
+input,output
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Many supporters of third-party presidential candidate George C. Wallace, Sr., voted for Gurney and hence provided him a coalition of growing Republicans in Florida allied with a declining number of conservative Democrats. Gurney ran on a record that included votes against civil rights legislation, foreign aid, and that ``expensive boondoggle,'' the war on poverty. Future-President George W. Bush worked as a traveling aide for **Gurney** while he was running for Senate in Florida.
+output: ",he

@@ -1,0 +1,21 @@
+input,output
+"input: sentence1: announces plan to acquire business_operation sentence1: is buying  business_operation 
+output: ",yes
+"input: sentence1:organization_founder is leader of location sentence1:organization_founder is transforming  location 
+output: ",no
+"input: sentence1:organization_founder is fearing  region sentence1:organization_founder is ally with region 
+output: ",no
+"input: sentence1:region is hostile to region sentence1:region is being at war with region 
+output: ",no
+"input: sentence1:location is exploiting  location sentence1:location is seeing  location 
+output: ",no
+"input: sentence1:region is one of country in region sentence1:region is being located in region 
+output: ",yes
+"input: sentence1:business_operation is being acquired by  sentence1: acquires  business_operation 
+output: ",yes
+"input: sentence1:person is leader of location sentence1:person is saving  location 
+output: ",no
+"input: sentence1:organization_founder is being involved in location sentence1:organization_founder is fighting  location 
+output: ",no
+"input: sentence1:employer is trouncing  employer sentence1:employer is competing with employer 
+output: ",yes

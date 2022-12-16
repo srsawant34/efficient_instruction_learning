@@ -1,0 +1,21 @@
+input,output
+"input: The physician misdiagnosed the patient, so they had to be checked
+output: ",plausible
+"input: The physician misdiagnosed the patient, so the surgery had to be done
+output: ",not plausible
+"input: The physician misdiagnosed the patient, so resulting in the death of the patient
+output: ",plausible
+"input: The physician misdiagnosed the patient, so he had to go back to the hospital
+output: ",plausible
+"input: The physician misdiagnosed the patient, so he was able to get the surgery done immediately
+output: ",not plausible
+"input: The physician misdiagnosed the patient, so an appointment was scheduled
+output: ",not plausible
+"input: The physician misdiagnosed the patient, so I knew it was coming
+output: ",not plausible
+"input: The physician misdiagnosed the patient, so I didn't worry about it
+output: ",not plausible
+"input: The physician misdiagnosed the patient, so she went to the vet
+output: ",not plausible
+"input: The physician misdiagnosed the patient, so he did the next best thing
+output: ",not plausible

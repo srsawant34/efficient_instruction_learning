@@ -1,0 +1,11 @@
+input,output
+"Definition: Read the passage and find the corresponding pronoun for the given name. The pronoun should match the given blank(_). The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: Dorothy Moore (born 13 October 1946, Jackson, Mississippi ) is an American pop, R&B, and soulsinger best known for her 1976 hit song, ``Misty Blue''. Born to Mary Moore and Melvin Hendrex Snr., aka Melvin Henderson of the Mississippi Blind Boys, **Dorothy** was raised by _ great grandmother.
+output: her
+Positive example 2-
+input: Groucutt began his musical career at 15 as Rikki Storm of Rikki Storm and the Falcons. He went on to sing with various outfits during the '60s, picking up the guitar as he went along. **Groucutt** was also a member of a band called ``Sight and Sound'', and later with a band called ``Barefoot''. It was while playing with Barefoot in Birmingham that _ was spotted by ELO's Jeff Lynne; and after Lynne, Bev Bevan and Richard Tandy had watched him play, he was invited to join ELO, to replace Mike de Albuquerque, who had recently left the band.
+output: he
+Now complete the following example-
+input: Because of its convenient size and its proximity to the earlier royal castle and the present royal palace it has frequently been the site of major events in Swedish history, such as coronations, royal wedding and royal funerals. The last Swedish king to be crowned here was Oscar II in 1873. Crown Princess **Victoria**, oldest daughter of King Carl XVI Gustaf and Queen Silvia, was married to Daniel Westling on 19 June 2010 at the Storkyrkan, the same date on which _ parents were also married in Storkyrkan in 1976.
+output: ",her

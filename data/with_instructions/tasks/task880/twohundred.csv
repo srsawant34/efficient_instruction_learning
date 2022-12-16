@@ -1,0 +1,2001 @@
+input,output
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Give me other suggestions as well
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can you suggest another restaurant?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can you look for any other restaurant?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can you find me any other restaurant?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can you tell me other restaurant names?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Do you have anymore restaurant suggestions?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there other restaurant options?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Do you have any other suggestions?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Any other options?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there any others?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Is there a different restaurant you can suggest.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Is there any other restaurant you can suggest?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there any other nice restaurants in the area?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Is there anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can you please make another suggestion?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I'd like another suggestion please.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Might be.... If you don't mind, still do you have suggestions for any other restaurant?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Nah, I'd rather somewhere else. Do you have another one?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Do you have any other sugggestions?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I went there once and it sucked. Is there anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there any other restauarnts nearby?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Could you suggest another?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What else is there.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What is another restaurant?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Please find other restaurants.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Please suggest other restaurants.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there any other restaurants?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Okay, then are there any other restaurants that'll work?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What other restaurants are available?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I don't like that place, they have bad reviews, is there somewhere else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can you suggest anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can you suggest me any other restaurant?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Any other places?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Another restaurant can you recommend?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Give me other recommendations please.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Do you have another option?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What is another option?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Do you have something else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Could you suggest alternative restaurants?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there any more places?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Eh, I've heard the food isn't too great there. How about something else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What else do you have?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there any other dates available?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Does the event have any other date?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Hmm, any other date?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Any information about events on other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What about on other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What about events on other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What about other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there other choices?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there any events on other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there any events on other days?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there any other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I can't go today. What about other days?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What are the other dates for the events?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there other events on other dates you would like to check?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What about the other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What is the other date it happens on?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What can you find on other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: IS there any other dates.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: How about events held on other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What time does the event starts at on the other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there any other events on other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What are the other dates for the game?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What are the other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Please tell me the other dates.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What about matches on other days?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: and what about other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: That doesn't work for me. What else is going on other days?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What other dates are available?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Any other events on different days?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: How about on other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What's another date it takes place on?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What other days are they playing?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What's the next date?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: How about events on other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What other events are happening?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What about events on other days?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What about the same event on a different day?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Okay, great. What about Idol on other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there other dates listed for the events?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What events are there on other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can you show me some events for other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Is there any events on some other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Do you have dates for any other games?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Any other dates?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What others dates is he playing?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What other dates are his concerts?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there any other dates available>
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Thanks. Are there any other dates for The Hives?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What other songs do you have?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Please find a different song to listen to.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What else is there?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I'm not in the mood for that one, do you have a different song?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Do you have any other songs?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Any other thing you are having?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Anything else you can find?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What else can you show me.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Anything else you can suggest?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Not really. Is that all there is?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can I see the other options?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What other songs would you recommend?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What others do you have?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Not really feeling it. What else do you have?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What other options are there?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What else have you got?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Keep going.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Do you have any other suggestions? I've already heard those.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Whether any other songs do you have?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: No, I don't really like that one. Do you have anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can you suggest something else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there any other songs?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: That's okay. Do you have anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: No, give me more options please.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: mmmm.... not my favorite, anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: No. Do you have anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: No, I don't want to hear that either. Do you have anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I would like you to search for something else.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I don't care too much for that. Do you have anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Do you have another suggestion?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can you tell me some others?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Anything else please?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: No, anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What else did you find?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Do you have others?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Are there any other things that you have?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What are some other choices?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What else do you suggest.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What other songs are there?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: No. Can you play something else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What other search results do you have?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Nah, what else is there?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Ok, any other songs available?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Do you have a different song?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Cool, you've got my attention and tell me more, please.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What other song is there?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: You have anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I'm not a big Vulfpeck fan. Do you have anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I hate country. Anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I want something else.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: No. please search something else.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: You have something else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Whether any other song is available?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Do you possess anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What else you got, Funny Man?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What else do you recommend.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Nah, anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Not interested. Anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Anything else you have?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Find another songs for me.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Nah. Can we try something else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Is there anything else you can find?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can you give me something else please?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What are some other options?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Do you have any alternatives?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What else you got?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: No, what else you got?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: No, Anything else?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Play the song please.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I'd like to hear some songs.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I am searching for new music to listen to, can you find me some songs?
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can you find any songs for me please?
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Yeah, I like that, play it for me.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can you help me with some songs?
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Yes, I would like to play that song
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I'm feeling a little down today. Can you play some music, maybe that will lift my spirits.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Not quite what I'm looking for, what else do you have?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Nah, Give me more options please.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Yes, that sound great. Let's play it now.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can you give me a hand finding some music?
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Could you play some music for me?
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can you find me some music to listen to?
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I want to hear that song.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Do you have another song?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Yes, I would like to listen to that song.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I would like to search for a song please.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Yes, that is the one I wanted to hear.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: this is nice, but I need to search more, please get me some other songs.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Yes, enough and also I like the song, can you play it for me?
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What's the other song?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I feel like listening to some music.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Do you have anything else? I haven't heard of that.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Please look for something else.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Okay! Please play this song.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I would like to find a song.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I would like to play a song.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Hello, could you recommend me a nice song to listen to? Thanks!
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Search for something else.
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: That would be perfect and please play it for me now.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I am looking for a song to listen to.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: What else can you find?
+output: ",REQUEST_ALTS
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Can you help me find a song?
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Sounds good, I'd like to play it.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I'm searching for music.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I want to listen to a song.
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: Okay, that sounds fine. Can you play it for me?
+output: ",INFORM_INTENT
+"Definition: You are given a sentence from a conversation between a human and a virtual assistant. Your task is to classify the sentence into one of the following five action categories - INFORM, INFORM_INTENT, OFFER, REQUEST, REQUEST_ALTS. If the sentence is about informing something, generate 'INFORM'. If it is about requesting something, generate 'REQUEST'. If the sentence mentions requesting an alternative option than the one provided, generate 'REQUEST_ALTS'. Similarly, generate 'OFFER' if the sentence is offering some information. If the sentence is about showing intent to do something, generate 'INFORM_INTENT'.
+Positive example 1-
+input: Now seems a good moment to watch the movie.
+output: INFORM_INTENT
+Positive example 2-
+input: Do you have a specific which you want the eating place to be located at?
+output: REQUEST
+Now complete the following example-
+input: I want to change my mood around so I'm looking for a song.
+output: ",INFORM_INTENT

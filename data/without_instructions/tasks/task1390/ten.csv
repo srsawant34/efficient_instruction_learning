@@ -1,0 +1,21 @@
+input,output
+"input: Dan had to stop Bill from toying with the injured bird. (He) is very compassionate. <sep> Pronoun:He <sep> Noun: Bill
+output: ",False
+"input: John hired (him) self out to Bill to take care of him . <sep> Pronoun:him <sep> Noun: John
+output: ",False
+"input: After I saw Bill catching flies and pulling off their wings, I boxed his ears. I showed the master the flies, some crushed and some crawling about helpless, and I showed him the wings on the window sill. I never saw him so angry before; but as Bill was still howling and whining, like the coward that (he) was, he did not give him any more punishment of that kind, but set him up on a stool for the rest of the afternoon, and said that he should not go out to play for that week. <sep> Pronoun:he <sep> Noun: Bill
+output: ",True
+"input: Madonna fired her trainer because (she) couldn't stand her boyfriend. <sep> Pronoun:she <sep> Noun: Madonna
+output: ",True
+"input: The large ball crashed right through the table because (it) was made of steel. <sep> Pronoun:it <sep> Noun: The large ball
+output: ",True
+"input: While Nancy and Ellen counted the silverware, Mrs. Smith hastened upstairs. In a few minutes she returned and one look at (her) stricken face told the girls that the precious map was gone. <sep> Pronoun:her <sep> Noun: Ellen
+output: ",False
+"input: The firemen arrived before the police because (they) were coming from so far away. <sep> Pronoun:they <sep> Noun: the police
+output: ",True
+"input: Adam can't leave work here until Bob arrives to replace him. If Bob had left home for work on time, (he) would be here by this time. <sep> Pronoun:he <sep> Noun: Adam
+output: ",False
+"input: Sam took French classes from Adam , because (he) was eager to speak it fluently. <sep> Pronoun:he <sep> Noun: Adam
+output: ",False
+"input: The fish ate the worm . (It) was hungry. <sep> Pronoun:It <sep> Noun: The fish
+output: ",True

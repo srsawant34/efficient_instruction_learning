@@ -1,0 +1,101 @@
+input,output
+"Definition: In this task you will be given a question and a passage. You need to determine if the answer to the question is contained in the passage. If the answer can be found in the passage you should output 'True'. If the answer cannot be found in the passage you should output 'False'.
+Positive example 1-
+input: Passage: 'The size of a matrix is defined by the number of rows and columns that it contains. A matrix with m rows and n columns is called an m × n matrix or m-by-n matrix, while m and n are called its dimensions. For example, the matrix A above is a 3 × 2 matrix.'. Question: 'who came up with eating turkey on thanksgiving'.
+output: False
+Positive example 2-
+input: Passage: 'Elephants are large mammals of the family Elephantidae and the order Proboscidea. Three species are currently recognised: the African bush elephant (Loxodonta africana), the African forest elephant (L. cyclotis), and the Asian elephant (Elephas maximus). Elephants are scattered throughout sub-Saharan Africa, South Asia, and Southeast Asia. Elephantidae is the only surviving family of the order Proboscidea; other, now extinct, members of the order include deinotheres, gomphotheres, mammoths, and mastodons.'. Question: 'what is the scientific name of a elephant'.
+output: True
+Now complete the following example-
+input: Passage: 'The adhan, athan, or azaan (Arabic: أَذَان ‎ (ʔaˈðaːn)) (also called in Turkish: Ezan) is the Islamic call to worship, recited by the muezzin at prescribed times of the day. The root of the word is ʾadhina أَذِنَ meaning 'to listen, to hear, be informed about'. Another derivative of this word is ʾudhun (أُذُن), meaning 'ear'.'. Question: 'where did the saying see a man about a dog come from'.
+output: ",False
+"Definition: In this task you will be given a question and a passage. You need to determine if the answer to the question is contained in the passage. If the answer can be found in the passage you should output 'True'. If the answer cannot be found in the passage you should output 'False'.
+Positive example 1-
+input: Passage: 'The size of a matrix is defined by the number of rows and columns that it contains. A matrix with m rows and n columns is called an m × n matrix or m-by-n matrix, while m and n are called its dimensions. For example, the matrix A above is a 3 × 2 matrix.'. Question: 'who came up with eating turkey on thanksgiving'.
+output: False
+Positive example 2-
+input: Passage: 'Elephants are large mammals of the family Elephantidae and the order Proboscidea. Three species are currently recognised: the African bush elephant (Loxodonta africana), the African forest elephant (L. cyclotis), and the Asian elephant (Elephas maximus). Elephants are scattered throughout sub-Saharan Africa, South Asia, and Southeast Asia. Elephantidae is the only surviving family of the order Proboscidea; other, now extinct, members of the order include deinotheres, gomphotheres, mammoths, and mastodons.'. Question: 'what is the scientific name of a elephant'.
+output: True
+Now complete the following example-
+input: Passage: 'North of Cairo, the Nile splits into two branches (or distributaries) that feed the Mediterranean: the Rosetta Branch to the west and the Damietta to the east, forming the Nile Delta.'. Question: 'who created the national science foundation and when'.
+output: ",False
+"Definition: In this task you will be given a question and a passage. You need to determine if the answer to the question is contained in the passage. If the answer can be found in the passage you should output 'True'. If the answer cannot be found in the passage you should output 'False'.
+Positive example 1-
+input: Passage: 'The size of a matrix is defined by the number of rows and columns that it contains. A matrix with m rows and n columns is called an m × n matrix or m-by-n matrix, while m and n are called its dimensions. For example, the matrix A above is a 3 × 2 matrix.'. Question: 'who came up with eating turkey on thanksgiving'.
+output: False
+Positive example 2-
+input: Passage: 'Elephants are large mammals of the family Elephantidae and the order Proboscidea. Three species are currently recognised: the African bush elephant (Loxodonta africana), the African forest elephant (L. cyclotis), and the Asian elephant (Elephas maximus). Elephants are scattered throughout sub-Saharan Africa, South Asia, and Southeast Asia. Elephantidae is the only surviving family of the order Proboscidea; other, now extinct, members of the order include deinotheres, gomphotheres, mammoths, and mastodons.'. Question: 'what is the scientific name of a elephant'.
+output: True
+Now complete the following example-
+input: Passage: 'The assassination of Archduke Franz Ferdinand of Austria, heir presumptive to the Austro-Hungarian throne, and his wife Sophie, Duchess of Hohenberg, occurred on 28 June 1914 in Sarajevo when they were mortally wounded by Gavrilo Princip. Princip was one of a group of six assassins (five Serbs and one Bosniak) coordinated by Danilo Ilić, a Bosnian Serb and a member of the Black Hand secret society. The political objective of the assassination was to break off Austria-Hungary's South Slav provinces so they could be combined into a Yugoslavia. The assassins' motives were consistent with the movement that later became known as Young Bosnia. The assassination led directly to the First World War when Austria-Hungary subsequently issued an ultimatum to the Kingdom of Serbia, which was partially rejected. Austria-Hungary then declared war, triggering actions leading to war between most European states.'. Question: 'where is brunei located in the world map'.
+output: ",False
+"Definition: In this task you will be given a question and a passage. You need to determine if the answer to the question is contained in the passage. If the answer can be found in the passage you should output 'True'. If the answer cannot be found in the passage you should output 'False'.
+Positive example 1-
+input: Passage: 'The size of a matrix is defined by the number of rows and columns that it contains. A matrix with m rows and n columns is called an m × n matrix or m-by-n matrix, while m and n are called its dimensions. For example, the matrix A above is a 3 × 2 matrix.'. Question: 'who came up with eating turkey on thanksgiving'.
+output: False
+Positive example 2-
+input: Passage: 'Elephants are large mammals of the family Elephantidae and the order Proboscidea. Three species are currently recognised: the African bush elephant (Loxodonta africana), the African forest elephant (L. cyclotis), and the Asian elephant (Elephas maximus). Elephants are scattered throughout sub-Saharan Africa, South Asia, and Southeast Asia. Elephantidae is the only surviving family of the order Proboscidea; other, now extinct, members of the order include deinotheres, gomphotheres, mammoths, and mastodons.'. Question: 'what is the scientific name of a elephant'.
+output: True
+Now complete the following example-
+input: Passage: 'The Comoros (/ ˈkɒməroʊz / (listen); Arabic: جزر القمر ‎, Juzur al-Qumur / Qamar), officially the Union of the Comoros (Comorian: Udzima wa Komori, French: Union des Comores, Arabic: الاتحاد القمري ‎ al-Ittiḥād al-Qumurī / Qamarī), is a sovereign archipelago island nation in the Indian Ocean located at the northern end of the Mozambique Channel off the eastern coast of Africa between northeastern Mozambique and northwestern Madagascar. Other countries near the Comoros are Tanzania to the northwest and the Seychelles to the northeast. Its capital is Moroni, on Grande Comore. The Union of the Comoros has three official languages -- Comorian, Arabic and French. The religion of the majority of the population is Islam.'. Question: 'where is comoros located on the world map'.
+output: ",True
+"Definition: In this task you will be given a question and a passage. You need to determine if the answer to the question is contained in the passage. If the answer can be found in the passage you should output 'True'. If the answer cannot be found in the passage you should output 'False'.
+Positive example 1-
+input: Passage: 'The size of a matrix is defined by the number of rows and columns that it contains. A matrix with m rows and n columns is called an m × n matrix or m-by-n matrix, while m and n are called its dimensions. For example, the matrix A above is a 3 × 2 matrix.'. Question: 'who came up with eating turkey on thanksgiving'.
+output: False
+Positive example 2-
+input: Passage: 'Elephants are large mammals of the family Elephantidae and the order Proboscidea. Three species are currently recognised: the African bush elephant (Loxodonta africana), the African forest elephant (L. cyclotis), and the Asian elephant (Elephas maximus). Elephants are scattered throughout sub-Saharan Africa, South Asia, and Southeast Asia. Elephantidae is the only surviving family of the order Proboscidea; other, now extinct, members of the order include deinotheres, gomphotheres, mammoths, and mastodons.'. Question: 'what is the scientific name of a elephant'.
+output: True
+Now complete the following example-
+input: Passage: ''The shot heard round the world' is a phrase referring to several historical incidents, particularly the opening of the American Revolutionary War in 1775 and the assassination of Archduke Franz Ferdinand in 1914.'. Question: 'when was the shot heard round the world'.
+output: ",True
+"Definition: In this task you will be given a question and a passage. You need to determine if the answer to the question is contained in the passage. If the answer can be found in the passage you should output 'True'. If the answer cannot be found in the passage you should output 'False'.
+Positive example 1-
+input: Passage: 'The size of a matrix is defined by the number of rows and columns that it contains. A matrix with m rows and n columns is called an m × n matrix or m-by-n matrix, while m and n are called its dimensions. For example, the matrix A above is a 3 × 2 matrix.'. Question: 'who came up with eating turkey on thanksgiving'.
+output: False
+Positive example 2-
+input: Passage: 'Elephants are large mammals of the family Elephantidae and the order Proboscidea. Three species are currently recognised: the African bush elephant (Loxodonta africana), the African forest elephant (L. cyclotis), and the Asian elephant (Elephas maximus). Elephants are scattered throughout sub-Saharan Africa, South Asia, and Southeast Asia. Elephantidae is the only surviving family of the order Proboscidea; other, now extinct, members of the order include deinotheres, gomphotheres, mammoths, and mastodons.'. Question: 'what is the scientific name of a elephant'.
+output: True
+Now complete the following example-
+input: Passage: 'The Mamas & the Papas were an American folk rock vocal group that recorded and performed from 1965 to 1968, reuniting briefly in 1971. The group was composed of John Phillips, Denny Doherty, Cass Elliot, and Michelle Phillips née Gilliam. Their sound was based on vocal harmonies arranged by John Phillips, the songwriter, musician, and leader of the group who adapted folk to the new beat style of the early sixties.'. Question: 'when does a work enter the public domain'.
+output: ",False
+"Definition: In this task you will be given a question and a passage. You need to determine if the answer to the question is contained in the passage. If the answer can be found in the passage you should output 'True'. If the answer cannot be found in the passage you should output 'False'.
+Positive example 1-
+input: Passage: 'The size of a matrix is defined by the number of rows and columns that it contains. A matrix with m rows and n columns is called an m × n matrix or m-by-n matrix, while m and n are called its dimensions. For example, the matrix A above is a 3 × 2 matrix.'. Question: 'who came up with eating turkey on thanksgiving'.
+output: False
+Positive example 2-
+input: Passage: 'Elephants are large mammals of the family Elephantidae and the order Proboscidea. Three species are currently recognised: the African bush elephant (Loxodonta africana), the African forest elephant (L. cyclotis), and the Asian elephant (Elephas maximus). Elephants are scattered throughout sub-Saharan Africa, South Asia, and Southeast Asia. Elephantidae is the only surviving family of the order Proboscidea; other, now extinct, members of the order include deinotheres, gomphotheres, mammoths, and mastodons.'. Question: 'what is the scientific name of a elephant'.
+output: True
+Now complete the following example-
+input: Passage: 'Glenn Thomas Jacobs (born April 26, 1967), better known by the ring name Kane, is an American professional wrestler, actor, businessman and politician signed to WWE on the Raw brand.'. Question: 'how many kanes have there been in wwe'.
+output: ",True
+"Definition: In this task you will be given a question and a passage. You need to determine if the answer to the question is contained in the passage. If the answer can be found in the passage you should output 'True'. If the answer cannot be found in the passage you should output 'False'.
+Positive example 1-
+input: Passage: 'The size of a matrix is defined by the number of rows and columns that it contains. A matrix with m rows and n columns is called an m × n matrix or m-by-n matrix, while m and n are called its dimensions. For example, the matrix A above is a 3 × 2 matrix.'. Question: 'who came up with eating turkey on thanksgiving'.
+output: False
+Positive example 2-
+input: Passage: 'Elephants are large mammals of the family Elephantidae and the order Proboscidea. Three species are currently recognised: the African bush elephant (Loxodonta africana), the African forest elephant (L. cyclotis), and the Asian elephant (Elephas maximus). Elephants are scattered throughout sub-Saharan Africa, South Asia, and Southeast Asia. Elephantidae is the only surviving family of the order Proboscidea; other, now extinct, members of the order include deinotheres, gomphotheres, mammoths, and mastodons.'. Question: 'what is the scientific name of a elephant'.
+output: True
+Now complete the following example-
+input: Passage: 'They are depicted as hairless aliens with dome-shaped heads and round, black eyes, a race called Bith. They are seen in the Mos Eisley Cantina sequence. The band is also featured in the short story 'We Don't Do Weddings: The Band's Tale' by Kathy Tyers in the anthology Tales from the Mos Eisley Cantina (1995). They were parodied in the film Team America: World Police.'. Question: 'what is the name of the band in the mos eisley cantina'.
+output: ",True
+"Definition: In this task you will be given a question and a passage. You need to determine if the answer to the question is contained in the passage. If the answer can be found in the passage you should output 'True'. If the answer cannot be found in the passage you should output 'False'.
+Positive example 1-
+input: Passage: 'The size of a matrix is defined by the number of rows and columns that it contains. A matrix with m rows and n columns is called an m × n matrix or m-by-n matrix, while m and n are called its dimensions. For example, the matrix A above is a 3 × 2 matrix.'. Question: 'who came up with eating turkey on thanksgiving'.
+output: False
+Positive example 2-
+input: Passage: 'Elephants are large mammals of the family Elephantidae and the order Proboscidea. Three species are currently recognised: the African bush elephant (Loxodonta africana), the African forest elephant (L. cyclotis), and the Asian elephant (Elephas maximus). Elephants are scattered throughout sub-Saharan Africa, South Asia, and Southeast Asia. Elephantidae is the only surviving family of the order Proboscidea; other, now extinct, members of the order include deinotheres, gomphotheres, mammoths, and mastodons.'. Question: 'what is the scientific name of a elephant'.
+output: True
+Now complete the following example-
+input: Passage: 'Both states were destinations for ex-slaves from the Americas as well as people rescued by the British Navy from slave ships en route to the Americas. Those who were resettled in both territories became known as Krio people and Americo-Liberians respectively, and eventually formed the local elites of both states. Liberia became independent in 1847, while Sierra Leone remained a colony of the United Kingdom until 1961.'. Question: 'where does corn on the cob come from'.
+output: ",False
+"Definition: In this task you will be given a question and a passage. You need to determine if the answer to the question is contained in the passage. If the answer can be found in the passage you should output 'True'. If the answer cannot be found in the passage you should output 'False'.
+Positive example 1-
+input: Passage: 'The size of a matrix is defined by the number of rows and columns that it contains. A matrix with m rows and n columns is called an m × n matrix or m-by-n matrix, while m and n are called its dimensions. For example, the matrix A above is a 3 × 2 matrix.'. Question: 'who came up with eating turkey on thanksgiving'.
+output: False
+Positive example 2-
+input: Passage: 'Elephants are large mammals of the family Elephantidae and the order Proboscidea. Three species are currently recognised: the African bush elephant (Loxodonta africana), the African forest elephant (L. cyclotis), and the Asian elephant (Elephas maximus). Elephants are scattered throughout sub-Saharan Africa, South Asia, and Southeast Asia. Elephantidae is the only surviving family of the order Proboscidea; other, now extinct, members of the order include deinotheres, gomphotheres, mammoths, and mastodons.'. Question: 'what is the scientific name of a elephant'.
+output: True
+Now complete the following example-
+input: Passage: 'Although an instrument of the U.S. Government, the Federal Reserve System considers itself 'an independent central bank because its monetary policy decisions do not have to be approved by the President or anyone else in the executive or legislative branches of government, it does not receive funding appropriated by the Congress, and the terms of the members of the Board of Governors span multiple presidential and congressional terms.' The federal government sets the salaries of the board's seven governors. The federal government receives all the system's annual profits, after a statutory dividend of 6% on member banks' capital investment is paid, and an account surplus is maintained. In 2015, the Federal Reserve made a profit of $100.2 billion and transferred $97.7 billion to the U.S. Treasury.'. Question: 'who owns the federal reserve in the united states'.
+output: ",True

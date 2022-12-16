@@ -1,0 +1,136 @@
+input,output
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: Atatürk_Monument_(İzmir) | designer | Pietro_Canonica
+Turkey | capital | Ankara
+Atatürk_Monument_(İzmir) | material | ""Bronze""
+Atatürk_Monument_(İzmir) | inaugurationDate | ""1932-07-27""
+Atatürk_Monument_(İzmir) | location | Turkey
+output: ","The Atatürk Monument (inaugurated on 27th July, 1932) in Izmir was designed by Pietro Canonica and is made of bronze. The Monument is located in İzmir, Turkey whose capital city is Ankara."
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: A.F.C._Blackpool | manager | Stuart_Parker_(footballer)
+Stuart_Parker_(footballer) | club | KV_Mechelen
+Blackpool | leader | Conservative_Party_(UK)
+Stuart_Parker_(footballer) | club | Blackburn_Rovers_F.C.
+A.F.C._Blackpool | ground | Blackpool
+output: ",Blackpool is where AFC Blackpool's ground is located and where the leader is the Conservative Party (UK). AFC Blackpool has been managed by Stuart Parker who has previous played for Blackburn Rovers FC and KV Mechelen.
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: Barny_Cakes | dishVariation | Milk
+output: ",One dish variation called Barny Cakes is the use of milk in the recipe.
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: United_States | capital | Washington,_D.C.
+United_States | leaderTitle | President_of_the_United_States
+United_States | leaderName | Joe_Biden
+250_Delaware_Avenue | location | United_States
+United_States | leaderName | Barack_Obama
+output: ","Washington Dc is the capital of the United States, home to 250 Delaware Avenue, and led by Barak Obama and Joe Biden."
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: Bhajji | country | India
+Bhajji | mainIngredients | ""Gram flour, vegetables""
+Bhajji | ingredient | Vegetable
+output: ",Bhaji is made from gram flour and vegetables and comes from India.
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: Adare_Manor | architect | Lewis_Nockalls_Cottingham
+output: ",Lewis Cottingham is the architect of Adare Manor.
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: Allama_Iqbal_International_Airport | location | Punjab,_Pakistan
+Allama_Iqbal_International_Airport | runwayLength | 3310.0
+Allama_Iqbal_International_Airport | operatingOrganisation | Pakistan_Civil_Aviation_Authority
+Allama_Iqbal_International_Airport | cityServed | Lahore
+output: ",Allama Iqbal International airport is located in Punjab Pakistan and is operated by the Pakistan Civil Aviation Authority. It serves the city of Lahore and has a runway length of 3310.0.
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: A_Long_Long_Way | numberOfPages | ""292""
+A_Long_Long_Way | mediaType | ""Print  & Paperback""
+A_Long_Long_Way | ISBN_number | ""0-670-03380-4""
+output: ","A Long Long Way, ISBN 0-670-03380-4, was published in Print & Paperback and has 292 pages."
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: Bhajji | country | India
+India | currency | Indian_rupee
+India | leaderName | T._S._Thakur
+output: ",The leader of India is T. S. Thakur and has a currency called the rupee. Bhajji comes from that country.
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: United_States | leaderTitle | President_of_the_United_States
+United_States | leaderName | Barack_Obama
+United_States | capital | Washington,_D.C.
+1634:_The_Ram_Rebellion | country | United_States
+United_States | ethnicGroup | Native_Americans_in_the_United_States
+output: ","1634 The Ram Rebellion was written in the US, where Native Americans are an ethnic group, Washington DC is the capital and Barack Obama is the leader and President."

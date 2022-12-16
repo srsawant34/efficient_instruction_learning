@@ -1,0 +1,101 @@
+input,output
+"Definition: In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the numbers 0 (entailment), 1 (neutral), or 2(contradiction).
+Positive example 1-
+input: sentence_A: A dancer is dancing on the stage. sentence_B: A girl is giving dance performance on the dais.
+output: 0
+Positive example 2-
+input: sentence_A: The crowd is cheering at her dance performance. sentence_B: The group is enjoying while eating food.
+output: 1
+Now complete the following example-
+input: sentence_A: A young child is walking with a bike on a rough dirt path. sentence_B: A young child is riding a bike on a rough dirt path
+output: ",1
+"Definition: In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the numbers 0 (entailment), 1 (neutral), or 2(contradiction).
+Positive example 1-
+input: sentence_A: A dancer is dancing on the stage. sentence_B: A girl is giving dance performance on the dais.
+output: 0
+Positive example 2-
+input: sentence_A: The crowd is cheering at her dance performance. sentence_B: The group is enjoying while eating food.
+output: 1
+Now complete the following example-
+input: sentence_A: Two sumo ringers are not fighting. sentence_B: Two sumo ringers are fighting
+output: ",2
+"Definition: In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the numbers 0 (entailment), 1 (neutral), or 2(contradiction).
+Positive example 1-
+input: sentence_A: A dancer is dancing on the stage. sentence_B: A girl is giving dance performance on the dais.
+output: 0
+Positive example 2-
+input: sentence_A: The crowd is cheering at her dance performance. sentence_B: The group is enjoying while eating food.
+output: 1
+Now complete the following example-
+input: sentence_A: There is no woman riding a water scooter. sentence_B: A woman is riding a water scooter
+output: ",2
+"Definition: In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the numbers 0 (entailment), 1 (neutral), or 2(contradiction).
+Positive example 1-
+input: sentence_A: A dancer is dancing on the stage. sentence_B: A girl is giving dance performance on the dais.
+output: 0
+Positive example 2-
+input: sentence_A: The crowd is cheering at her dance performance. sentence_B: The group is enjoying while eating food.
+output: 1
+Now complete the following example-
+input: sentence_A: A surfer is falling off the wave. sentence_B: A surfer is riding the wave
+output: ",2
+"Definition: In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the numbers 0 (entailment), 1 (neutral), or 2(contradiction).
+Positive example 1-
+input: sentence_A: A dancer is dancing on the stage. sentence_B: A girl is giving dance performance on the dais.
+output: 0
+Positive example 2-
+input: sentence_A: The crowd is cheering at her dance performance. sentence_B: The group is enjoying while eating food.
+output: 1
+Now complete the following example-
+input: sentence_A: A young girl in blue is jumping in the air. sentence_B: There is no girl in blue jumping in the air
+output: ",2
+"Definition: In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the numbers 0 (entailment), 1 (neutral), or 2(contradiction).
+Positive example 1-
+input: sentence_A: A dancer is dancing on the stage. sentence_B: A girl is giving dance performance on the dais.
+output: 0
+Positive example 2-
+input: sentence_A: The crowd is cheering at her dance performance. sentence_B: The group is enjoying while eating food.
+output: 1
+Now complete the following example-
+input: sentence_A: The man is playing an acoustic guitar. sentence_B: There is no man playing the guitar
+output: ",2
+"Definition: In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the numbers 0 (entailment), 1 (neutral), or 2(contradiction).
+Positive example 1-
+input: sentence_A: A dancer is dancing on the stage. sentence_B: A girl is giving dance performance on the dais.
+output: 0
+Positive example 2-
+input: sentence_A: The crowd is cheering at her dance performance. sentence_B: The group is enjoying while eating food.
+output: 1
+Now complete the following example-
+input: sentence_A: A kid is waiting wearing swim gear. sentence_B: A kid is sitting wearing swim gear
+output: ",1
+"Definition: In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the numbers 0 (entailment), 1 (neutral), or 2(contradiction).
+Positive example 1-
+input: sentence_A: A dancer is dancing on the stage. sentence_B: A girl is giving dance performance on the dais.
+output: 0
+Positive example 2-
+input: sentence_A: The crowd is cheering at her dance performance. sentence_B: The group is enjoying while eating food.
+output: 1
+Now complete the following example-
+input: sentence_A: A brown dog is running in the snow. sentence_B: A dog is running through the white snow
+output: ",0
+"Definition: In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the numbers 0 (entailment), 1 (neutral), or 2(contradiction).
+Positive example 1-
+input: sentence_A: A dancer is dancing on the stage. sentence_B: A girl is giving dance performance on the dais.
+output: 0
+Positive example 2-
+input: sentence_A: The crowd is cheering at her dance performance. sentence_B: The group is enjoying while eating food.
+output: 1
+Now complete the following example-
+input: sentence_A: A baby rhino is walking around a pen with its mother. sentence_B: A baby rhino is following an adult rhino
+output: ",0
+"Definition: In this task, you're given a pair of sentences, sentence 1 and sentence 2. Your job is to choose whether the two sentences clearly agree (entailment)/disagree (contradiction) with each other, or if this cannot be determined (neutral). Your answer must be in the form of the numbers 0 (entailment), 1 (neutral), or 2(contradiction).
+Positive example 1-
+input: sentence_A: A dancer is dancing on the stage. sentence_B: A girl is giving dance performance on the dais.
+output: 0
+Positive example 2-
+input: sentence_A: The crowd is cheering at her dance performance. sentence_B: The group is enjoying while eating food.
+output: 1
+Now complete the following example-
+input: sentence_A: The man is eating cereal. sentence_B: There is no man eating a bowl of cereal
+output: ",2

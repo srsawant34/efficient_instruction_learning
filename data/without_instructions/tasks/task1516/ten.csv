@@ -1,0 +1,21 @@
+input,output
+"input: Premise : 'Do the five waiters that approached Paul depart?','Hypothesis : There are exactly five waiters that approached Paul.'
+output: ",positive
+"input: Premise : 'Do the five waiters that approached Paul depart?','Hypothesis : There are exactly six waiters that approached Paul.'
+output: ",negated
+"input: Premise : 'Do the five waiters that approached Paul depart?','Hypothesis : There are exactly five doctors that approached Paul.'
+output: ",neutral
+"input: Premise : 'The five waiters that approached Paul might depart.','Hypothesis : There are exactly five waiters that approached Paul.'
+output: ",positive
+"input: Premise : 'The five waiters that approached Paul might depart.','Hypothesis : There are exactly six waiters that approached Paul.'
+output: ",negated
+"input: Premise : 'The five waiters that approached Paul might depart.','Hypothesis : There are exactly five doctors that approached Paul.'
+output: ",neutral
+"input: Premise : 'If the five waiters that approached Paul depart, it's okay.','Hypothesis : There are exactly five waiters that approached Paul.'
+output: ",positive
+"input: Premise : 'If the five waiters that approached Paul depart, it's okay.','Hypothesis : There are exactly six waiters that approached Paul.'
+output: ",negated
+"input: Premise : 'If the five waiters that approached Paul depart, it's okay.','Hypothesis : There are exactly five doctors that approached Paul.'
+output: ",neutral
+"input: Premise : 'The five boys who research that university had examined those reports.','Hypothesis : There are exactly five boys who research that university.'
+output: ",positive

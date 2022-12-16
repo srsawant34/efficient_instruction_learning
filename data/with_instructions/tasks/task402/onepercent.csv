@@ -1,0 +1,546 @@
+input,output
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: which wine's country is [Canada]?
+answer: adora estate winery gewurztraminer 2003, adora estate winery pinot blanc 2002, adora estate winery elements merlot 2007...
+answer type: Wine.
+auxiliary information: Canada is a country, consisting of ten provinces and three territories, in the northern part of the continent of North America. It extends from the Atlantic to the Pacific and northward into the Arctic Ocean, covering 9.98 million square kilometres in total, making it the world's second-largest country by total area and the fourth-largest country by land area. Canada's common border with the United States forms the world's longest land border. The land now called Canada has been inhabited for millennia by various Aboriginal peoples. Beginning in the late 15th century, British and French colonies were established on the region's Atlantic coast. As a consequence of various conflicts, the United Kingdom gained and lost North American territories until left, in the late 18th century, with what mostly comprises Canada today. Pursuant to the British North America Act, on July 1, 1867, three colonies joined to form the autonomous federal Dominion of Canada. This began an accretion of provinces and territories to the new self-governing Dominion.
+output: ",What type of wine is made in [Canada]?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: What is the facility access of [Royal Montreal Golf Club]
+answer: private
+answer type: Golf Facility Access.
+auxiliary information: 'The Royal Montreal Golf Club' is the oldest golf club in North America, founded 142 years ago in 1873. On the 4th day of November 1873, in the youthful but growing port city of Montreal, a small group of eight gentlemen sat in a dockside office and formed the Montreal Golf Club. This was the first effort to place golf on an organized basis, not only in Canada but in North America and it is, therefore, the oldest golf club in continuous existence on the continent. Eleven years later, in 1884, permission was granted by Queen Victoria to use the ""Royal"" prefix. The first golf course was a 9-hole layout on Fletcher's Field, part of Mount Royal Park, which was shared by the red-coated golfers and other citizens relaxing in what was then the outskirts of Montreal. The first female member, Mrs. William Wallis Watson, was elected in 1891 - the first woman of any golf club in North America. With her election, began the Ladies' Branch of the Royal Montreal Golf Club. In 1899, the Ladies moved into their own clubhouse at Dixie. In 1896, the club had moved to Dixie, in the parish of Dorval, where it remained until the pressures of urban growth again dictated a decision to move.
+output: ","In [Royal Montreal Golf Club], what is the facility access?"
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: Which musical release has the producer [Rodrigo Gonzalez]
+answer: the schlechtst of knorkator
+answer type: Musical Release.
+auxiliary information: Rodrigo Gonzalez is a bassist.
+output: ",[Rodrigo Gonzalez] is the producer of what musical release?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: Which organization in fiction has the sub-organization of [Holyhead Harpies]?
+answer: british and irish quidditch league
+answer type: Organization in fiction.
+output: ",[Holyhead Harpies] was a sub-organization of which fictional organization?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: Which music video is directed by [Nick Willing]
+answer: breakout
+answer type: Music video.
+auxiliary information: Nick Willing is a British director, writer and producer of films and television programs. Willing is the son of Portuguese painter Paula Rego and English artist Victor Willing and was largely brought up in Portugal, but settled in England at the age of 12. He graduated from The National Film and Television School in 1982 and started directing music videos for bands such as Eurythmics, Bob Geldof, Swing Out Sister, Debbie Gibson, Kirsty MacColl, Kim Appleby, Tony Banks, and Nik Kershaw. Throughout this period he was also writing screenplays, and in 1996 his adaptation of the Steve Szilagyi novel Photographing Fairies was financed by Polgram Filmed Entertainment and made into a feature film. Photographing Fairies was a critical success and won several awards including the M√©li√®s d‚ÄôOr in 1998. Alice in Wonderland followed with a cast which included Whoopi Goldberg, Ben Kingsley, Robbie Coltrane, Martin Short, Peter Ustinov, Gene Wilder, Ken Dodd, Christopher Lloyd, George Wendt and Miranda Richardson. Alice was made for NBC television in 1999 and won 4 Primetime Emmys.
+output: ",What is the music video that was directed by [Nick Willing]?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: Which class of computer peripheral supports [Pyjamarama]?
+answer: joystick
+answer type: Computer Peripheral Class.
+auxiliary information: Pyjamarama is a computer game for the ZX Spectrum, Amstrad CPC and Commodore 64. It features Wally Week as the central character and is the second of a series of games featuring Wally and/or members of his family. It was published by Mikro-Gen. There are two different versions of the game - the only user differences are between the theme tune on the title page - the original version plays Popcorn, the second release plays an unknown tune. There were also internal code changes as different Pokes were required to cheat on the different versions - however the same walkthrough would work on either version.
+output: ",[Pyjamarama] is supported by which class of computer peripherals?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: whose landscape project is [Ch√¢teau de Chantilly]?
+answer: andr√© le n√¥tre
+answer type: Landscape architect.
+auxiliary information: The Ch√¢teau de Chantilly is a historic ch√¢teau located in the town of Chantilly, France. The site comprises two attached buildings: the Petit Ch√¢teau built around 1560 for Anne de Montmorency, and the Grand Ch√¢teau, which was destroyed during the French Revolution and rebuilt in the 1870s. Owned by the Institut de France, the ch√¢teau houses the Mus√©e Cond√©. It is one of the finest art galleries in France and is open to the public.
+output: ",Who was behind the landscaping of [Ch√¢teau de Chantilly]?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: Which measurement system has the permittivity units of [Farad per metre]?
+answer: international system of units
+answer type: Measurement System.
+output: ",The permittivity units of [Farad per metre] are a part of which measurement system?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: Which video game version is distributed through [App Store]?
+answer: zx spectrum: alternative collection vol. 2, tilt to live hd, zx spectrum: vortex collection vol. 2...
+answer type: Video Game Version.
+auxiliary information: The App Store is a digital distribution platform for mobile apps on iOS, developed and maintained by Apple Inc. The service allows users to browse and download applications that are developed with Apple's iOS SDK. The apps can be downloaded directly to an iOS device, or onto a personal computer via iTunes. Applications in ""The App Store"" are targeted at iOS devices, including iPhones and iPads, and may make use of specific attributes of those devices, such as motion sensors for game controls and cameras for online video calling. Apps may be downloaded for free or for a set cost, and they may include in-app monetization. Apple takes 30 percent of all revenue generated through apps, and 70 percent goes to the app's publisher.
+output: ",THROUGH THE [App Store] ARE DISTRIBUTED WHAT KIND OF PLAY VERSIONS?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: Which cloud has the varieties of [Cumulus congestus]?
+answer: cumulus
+answer type: Cloud.
+output: ",[Cumulus congestus] is a variety of what kind of cloud?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: what types of drug does [Celgene] produce?
+answer: thalomid
+answer type: Drug brand.
+auxiliary information: Celgene Corporation is an American biotechnology company that manufactures drug therapies for cancer and inflammatory disorders. It is incorporated in Delaware and headquartered in Summit, New Jersey. The company's major products are Thalomid, which is approved for the acute treatment of the cutaneous manifestations of moderate to severe erythema nodosum leprosum, as well as in combination with dexamethasone for patients with newly diagnosed multiple myeloma, and Revlimid, for which the company has received FDA and EMA approval in combination with dexamethasone for the treatment of multiple myeloma patients who have received at least one prior therapy. Revlimid is also approved in the United States for the treatment of patients with transfusion-dependent anemia due to Low- or Intermediate-1-risk Myelodysplastic syndromes associated with a deletion 5q cytogenetic abnormality with or without additional cytogenetic abnormalities. Both Thalomid and Revlimid are sold through proprietary risk-management distribution programs to ensure safe and appropriate use of these pharmaceuticals. Vidaza is approved for the treatment of patients with MDS.
+output: ",[Celgene] produces which types of drugs?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: Which softwares use the protocol of [User Datagram Protocol]?
+answer: apple remote desktop, twisted
+answer type: Software.
+auxiliary information: The User Datagram Protocol is one of the core members of the Internet protocol suite. The protocol was designed by David P. Reed in 1980 and formally defined in RFC 768. UDP uses a simple connectionless transmission model with a minimum of protocol mechanism. It has no handshaking dialogues, and thus exposes any unreliability of the underlying network protocol to the user's program. There is no guarantee of delivery, ordering, or duplicate protection. UDP provides checksums for data integrity, and port numbers for addressing different functions at the source and destination of the datagram. With UDP, computer applications can send messages, in this case referred to as datagrams, to other hosts on an Internet Protocol network without prior communications to set up special transmission channels or data paths. UDP is suitable for purposes where error checking and correction is either not necessary or is performed in the application, avoiding the overhead of such processing at the network interface level. Time-sensitive applications often use UDP because dropping packets is preferable to waiting for delayed packets, which may not be an option in a real-time system.
+output: ",How many softwares utilize the protocol of [User Datagram Protocol]?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: What is the genre of [Geographic Data Files]
+answer: gis file format
+answer type: File Format Genre.
+auxiliary information: Geographic Data Files or GDF is an interchange file format for geographic data. In contrast with generic GIS formats, GDF provides detailed rules for data capture and representation, and an extensive catalog of standard features, attributes and relationships. Most recent extension expand applicability further towards Pedestrian Navigation, 3-D map rendering, and Advanced Driver Assistance Systems. GDF is commonly used for data interchange in many industries such as Automotive navigation system, fleet management, dispatch management, road traffic analysis, traffic management, Automatic Vehicle Location. Originated as a flat plain-text file, GDF is not intended to be used directly for any large scale geographic application and normally requires conversion into a more efficient format. Consumability has been increased with most-recent developments for XML and SQL renditions. The maps in GDF format are provided by many map vendors such as Navteq, TomTom, Mapscape BV, GeoSmart, Automotive Navigation Data, AutoNavi and NavInfo.
+output: ",The [Geographic Data Files] encompasses what genre?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: What function does [H-IIB] support?
+answer: launch vehicle
+answer type: Rocket Function.
+auxiliary information: H-IIB is an expendable launch system used to launch H-II Transfer Vehicles towards the International Space Station. H-IIB rockets are liquid-fuelled with solid-fuel strap-on boosters and are launched from the Tanegashima Space Center in Japan. Mitsubishi and JAXA have been primarily responsible for design, manufacture, and operation of H-IIB. H-IIB made its first flight in 2009, and made a total of four flights through 2013. H-IIB is able to carry a payload of up to 8,000 kilograms to GTO, compared with the payload of 4,000-6,000 kg for the H-IIA, a predecessor design. Its performance to LEO is sufficient for the 16,500 kg HTV. The first H-IIB was launched in September 2009.
+output: ",[H-IIB] supports what funciton?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: Which spaceports are launched from [Expedition 46]?
+answer: international space station
+answer type: Spaceport.
+auxiliary information: Expedition 46 is scheduled to be the 46th expedition to the International Space Station. Sergey Volkov, Mikhail Korniyenko and Scott Kelly are to transfer from Expedition 45, the latter two as part of their year-long stay aboard the ISS. Expedition 46 is scheduled to begin upon the departure of Soyuz TMA-17M in December 2015 and conclude upon the departure of Soyuz TMA-18M in March 2016. The crew of Soyuz TMA-19M are then to transfer to Expedition 47.
+output: ",[Expedition 46] is the place of launch from which what spaceports are launched from?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: What is the subject of [The House of Steinbrenner]?
+answer: george steinbrenner
+answer type: TV subject.
+auxiliary information: The House of Steinbrenner is a documentary film directed by Barbara Kopple that aired as part of ESPN's film series 30 for 30.
+output: ",What subject was associated with [The House of Steinbrenner]?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: What is the unit of angular frequency in [International System of Units]?
+answer: radian per second
+answer type: Unit of Angular Frequency.
+auxiliary information: The International System of Units is the modern form of the metric system and is the world's most widely used system of measurement, used in both commerce and science. It comprises a coherent system of units of measurement built on seven base units. It defines twenty-two named units, and includes many more unnamed coherent derived units. The system also establishes a set of twenty prefixes to the unit names and unit symbols that may be used when specifying multiples and fractions of the units. The system was published in 1960 as the result of an initiative that started in 1948. It is based on the metre-kilogram-second system of units rather than any variant of the centimetre‚Äìgram‚Äìsecond system. SI is intended to be an evolving system, so prefixes and units are created and unit definitions are modified through international agreement as the technology of measurement progresses and the precision of measurements improves. The 25th General Conference on Weights and Measures in 2014, for example, discussed a proposal to change the definition of the kilogram.
+output: ",IN THE [International System of Units] WHICH IS THE ANGULAR FREQUENCY UNIT USED?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: which aircraft model has been involved in [CF-18 Lethbridge County Airport 2010 crash]?
+answer: mcdonnell douglas cf-18 hornet
+answer type: Aircraft model.
+output: ",The [CF-18 Lethbridge County Airport 2010 crash] involved what type of aircraft?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: [Scott Morse] is the editor of which written work?
+answer: project: superior
+answer type: Written Work.
+auxiliary information: Scott Morse is an American animator, filmmaker, and comic book artist/writer. Much of Morse's published work consists of stand-alone graphic novels, although he is perhaps best known for his 1997 epic series Soulwind, a story serialised in a sequence of graphic novels, which was nominated for both the Eisner and Ignatz awards.
+output: ",Which written work was edited by [Scott Morse]?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: Which ice hockey position does [Todd White] play?
+answer: centerman
+answer type: Ice hockey position.
+auxiliary information: Todd White is a former Canadian professional ice hockey player. He played 13 seasons in the National Hockey League for the Chicago Blackhawks, Philadelphia Flyers, Ottawa Senators, Minnesota Wild, Atlanta Thrashers and New York Rangers. After retiring from hockey, he settled in his hometown of Ottawa and operates a mortgage business, as well as is a frequent host on local sports radio.
+output: ",[Todd White] plays which ice hockey position?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: Which profession has the specialization of [Machinists and Tool and Die Makers]?
+answer: tool and die maker, machinist
+answer type: Profession.
+auxiliary information: Machinists and tool and die makers set up and operate a variety of computer-controlled and mechanically-controlled machine tools to produce precision metal parts, instruments, and tools.
+output: ",[Machinists and Tool and Die Makers] are included in which specialized profession?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: What is the drug form manufactured by [Shoreline Compressed Gas]?
+answer: oxygen 99 gas
+answer type: Manufactured drug form.
+output: ",What drug form is manufactured by [Shoreline Compressed Gas]?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: Which position does [Le Bat Hieu] play?
+answer: defender
+answer type: Football Position.
+auxiliary information: L√™ B·∫≠t Hi·∫øu is a Vietnamese footballer who plays as a Centre-back for V-League club Thanh Hoa F.C.. He was called up to Vietnam national football team in 2012.
+output: ",What is the position played by [Le Bat Hieu] on his current team?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: What's the subject of [Workingman's Death]?
+answer: social issues
+answer type: Film subject.
+auxiliary information: Workingman's Death is a 2005 Austrian-German documentary film written and directed by Michael Glawogger. It premiered at the 2005 Venice Film Festival. The film deals with the extremes to which workers go to earn a living in several countries around the world. The film is composed of six differently titled chapters. The first five depict hazardous conditions of hard laborers around the world and the sixth shows contrasting scenes of youths in a former German industrial complex which had been converted into a leisure park: Heroes ‚Äì Miners of Donets Basin, Ukraine Ghosts ‚Äì Sulfur carriers in Ijen, Indonesia Lions ‚Äì Butchers in an open-air market in Port Harcourt, Nigeria Brothers ‚Äì Welders in the Gadani ship-breaking yard in Pakistan The Future ‚Äì Steel workers in Liaoning, China Epilogue ‚Äì Youths in Landschaftspark Duisburg-Nord in Germany
+output: ",[Workingman's Death] is about what subject?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: What cricket series has events [2006‚Äì07 Ashes series]
+answer: the ashes
+answer type: Cricket Series.
+auxiliary information: The 2006‚Äì07 cricket series between Australia and England for the Ashes was played in Australia from 23 November 2006 to 5 January 2007. Australia won the series and regained the Ashes that had been lost to England in the 2005 series. The five Tests of the series were played at Brisbane, Adelaide, Perth, Melbourne and Sydney. In winning, Australia completed a 5‚Äì0 ""whitewash"", the first time this had happened in an Ashes series since 1920‚Äì21. The series was also notable for the retirement of four significant Australian players, namely Justin Langer, Damien Martyn, Glenn McGrath, and Shane Warne. Ricky Ponting was named Player of the Series.
+output: ",The [2006‚Äì07 Ashes series] was part of what larger cricket series?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: What airport is type [Class D]
+answer: san carlos airport
+answer type: Airport.
+output: ",Which airport is called [Class D]
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: Which ski area is closest to [Stratton]
+answer: stratton mountain ski area
+answer type: Ski Area.
+auxiliary information: Stratton is a town in Windham County, Vermont, United States. The population was 136 at the 2000 census and 216 in 2010.
+output: ",What is the ski area that is closest to [Stratton]?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: Who designed [Alma-0]?
+answer: jacob brunekree, marc bezem, vincent partington
+answer type: Programming Language Designer.
+auxiliary information: Alma-0 is a multi-paradigm computer programming language. This language is an augmented version of the imperative Modula-2 language with logic-programming features and convenient backtracking capability. It is small, strongly typed, and combines constraint programming, a limited number of features inspired by logic programming and supports imperative paradigms. The language advocates declarative programming, the designers claim that search-oriented solutions built with it are substantially simpler than their counterparts written in purely imperative or logic programming style. Alma-0 provides natural, high-level constructs for the construction of search trees.
+output: ",Who was the designer of [Alma-0]?
+"Definition: Compose a new way to ask the same question. The new question must be asking the exact same thing as the original question does. Without any other information, you should be able to tell that the original question and the new question are the same. Preserve bracketed phrases in your new question. You can change the rest of the question provided the above requirements are satisfied. The new question must have a natural, fluent formulation, as if it were composed by a native English speaker. You will be given three pieces of information to help you create better questions. Those are: ""Answer"": the answer to the question, e.g., ""Honolulu"". ""Answer Type"": the type of the answer, e.g., ""Location"". ""Auxiliary Information"" is a detailed description of some concepts mentioned in the question, if any.
+Positive example 1-
+input: original question: Who is the museum director of [Science Museum, London]?
+answer: Ian Blatchford
+answer type: Museum director. 
+auxiliary information: The Science Museum is a major museum on Exhibition Road in South Kensington, London. It was founded in 1857 and today is one of the city's major tourist attractions, attracting 3.3 million visitors annually. Like other publicly funded national museums in the United Kingdom, the Science Museum does not charge visitors for admission. Temporary exhibitions, however, may incur an admission fee. It is part of the Science Museum Group, having merged with the Museum of Science and Industry in Manchester in 2012.
+output: The museum director of the [Science Museum, London] is?
+Positive example 2-
+input: original question: Which zoo is in the category of [Public aquarium]?
+answer: Istanbul Aquarium, Minnesota Zoo, Monterey Bay Aquarium...
+answer type: Zoo.
+auxiliary information: A public aquarium is the aquatic counterpart of a zoo, which houses living aquatic animal and plant specimens for public viewing. Most public aquariums feature tanks larger than those kept by home aquarists, as well as smaller tanks. Since the first public aquariums were built in the mid-19th century, they have become popular and their numbers have increased. Most modern accredited aquariums stress conservation issues and educating the public.
+output: What zoos are also considered to be [Public aquarium]s?
+Now complete the following example-
+input: original question: Which unit of potential uses the measurement system of [International System of Units]?
+answer: volt
+answer type: Unit of Potential.
+auxiliary information: The International System of Units is the modern form of the metric system and is the world's most widely used system of measurement, used in both commerce and science. It comprises a coherent system of units of measurement built on seven base units. It defines twenty-two named units, and includes many more unnamed coherent derived units. The system also establishes a set of twenty prefixes to the unit names and unit symbols that may be used when specifying multiples and fractions of the units. The system was published in 1960 as the result of an initiative that started in 1948. It is based on the metre-kilogram-second system of units rather than any variant of the centimetre‚Äìgram‚Äìsecond system. SI is intended to be an evolving system, so prefixes and units are created and unit definitions are modified through international agreement as the technology of measurement progresses and the precision of measurements improves. The 25th General Conference on Weights and Measures in 2014, for example, discussed a proposal to change the definition of the kilogram.
+output: ",The measurement system of [International System of Units] is used within which unit of potential?

@@ -1,0 +1,41 @@
+input,output
+"input: Context Word: car. 
+Question: I decided to get a minivan instead of sportscar because the _ is more practical for a family. 
+Answer: minivan.
+output: ",I decided to get a minivan instead of sportscar because the _ is less practical for a family.
+"input: Context Word: writing. 
+Question: She was writing a letter and needed to know whether to use pen or pencil. The _ seemed more accessible. 
+Answer: pen.
+output: ",She was writing a letter and needed to know whether to use pen or pencil. The _ seemed more unaccessible.
+"input: Context Word: stew. 
+Question: Mary picked up some flowers from her garden, her brother started cooking beef stew with lots of onions, the weak smell from the _ was completely masked. 
+Answer: flowers.
+output: ","Mary picked up some flowers from her garden, her brother started cooking beef stew with lots of onions, the strong smell from the _ was overwhelming."
+"input: Context Word: license. 
+Question: The drivers were going to apply for a permit before they got a license, since the _ would be attainable. 
+Answer: permit.
+output: ","The drivers were going to apply for a permit before they got a license, since the _ would be unreachable."
+"input: Context Word: chair. 
+Question: My wife and I are shopping for new wooden or metal dining room chairs. The _ chairs are probably more durable. 
+Answer: metal.
+output: ",My wife and I are shopping for new wooden or metal dining room chairs. The _ chairs are probably more traditional.
+"input: Context Word: eggs. 
+Question: The children put eggs from the yard into the basket until the _ was full. 
+Answer: basket.
+output: ",The children put eggs from the yard into the basket until the _ was empty.
+"input: Context Word: ointment. 
+Question: ObjectX is skin while ObjectY is the liver, the injury can be treated with the ointment because its on the _ on the outside of the body. 
+Answer: skin.
+output: ","ObjectX is skin while ObjectY is the liver, the injury can't be treated with the ointment because its on the _ on the inside of the body."
+"input: Context Word: swelling. 
+Question: Tom wanted to avoid swelling of his feet in the hot weather so he drank water but the _ was not enough. 
+Answer: water.
+output: ",Tom wanted to avoid swelling of his feet in the hot weather so he drank water but the _ was too intense.
+"input: Context Word: drone. 
+Question: I want a drone with a good camera and long range. The _ is more important because I use it to cover some distance. 
+Answer: range.
+output: ",I want a drone with a good camera and long range. The _ is more important because I use it for weddings.
+"input: Context Word: grow. 
+Question: In the garden, it took more time to grow the turnips than the carrots since the _ needed extra attention. 
+Answer: turnips.
+output: ","In the garden, it took more time to grow the turnips than the carrots since the _ needed little attention."

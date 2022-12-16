@@ -1,0 +1,1001 @@
+input,output
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Along With The Gods – Part 1 () is an upcoming South Korean fantasy drama film based on a webcomic of the same name. The film will be released in two parts, and stars Ha Jung-woo, Cha Tae-hyun, Ju Ji-hoon, Lee Jung-jae, Do Kyung-soo and Kim Hyang-gi. The first part of the film will be released on December 20, 2017. <sep> Hypothesis: Along With The Gods – Part 1 was very popular in Nepal.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Mercantil Tower (also known as the Mercantil Building) is a skyscraper located in the Venezuelan city of Caracas, is known for being the fourth tallest tower in the city and the country with 179 m in height and 40 floors, is located at Avenida Andres Bello, Candelaria Parish of Libertador municipality northwest of the capital. <sep> Hypothesis: There are four towers that are taller than the Mercantil Tower in Caracas.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Cloverdale Depot is a bus station and future intermodal station in Cloverdale, California. It is served by Amtrak Thruway and Sonoma County Transit buses. Additional service to Sonoma County Airport station is provided by Sonoma County Transit under contract by Sonoma–Marin Area Rail Transit. <sep> Hypothesis: Cloverdale Depot is related to Home Depot
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Topi Raja Sweety Roja is a 1996 Telugu comedy film, produced by Dr. A. Vijayalakshmi on Sri Sai Madhavi Productions banner and directed by Dr. N. Siva Prasad. Starring Rajendra Prasad, Roja in the lead roles and music also composed by ""Hero"" Rajendra Prasad. <sep> Hypothesis: Topi Raja Sweety Roja is a comedy film that first aired on december 41, 1996
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Brookpark is a station on the RTA Red Line located on the borders of Brook Park and Cleveland, Ohio, USA. It is located along Brookpark Road (Ohio State Route 17), west of the intersection of Henry Ford Boulevard (Ohio State Route 291) and east of the intersection of the Berea Freeway (Ohio State Route 237). <sep> Hypothesis: Brookpark has a nickname
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: St. Silvester (French: ""Saint-Silvestre"" ) is a municipality in the district of Sense in the canton of Fribourg in Switzerland. It is one of the municipalities with a large majority of German speakers in the mostly French speaking Canton of Fribourg. <sep> Hypothesis: ""St."" in St. Silvester stands for ""Saint.""
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Vampire Vs Vampire (一眉道人) is a 1989 Hong Kong comedy horror film directed by and starring Lam Ching-ying. The title references the interaction in the film between a jiangshi child, a creature from Chinese ""hopping"" corpse fiction, and a British vampire based on Western vampire fiction. <sep> Hypothesis: Lam Ching-ying's character is a British vampire based on Western vampire fiction.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: ""Beez in the Trap"" is a song by rapper Nicki Minaj for her second studio album, """" (2012). It was written by Minaj, Maurice Jordan, and 2 Chainz, who contributed a guest verse to the song, while production was handled by Kenoe. The track was released as the album's third single on May 29, 2012 following ""Starships"" and ""Right by My Side"". <sep> Hypothesis: There were four singles on the album Beez in the Trap.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The 464th Troop Carrier Group was a theater airlift unit of the United States Air Force during the Cold War. It served in the United States under Tactical Air Command between 1953 and 1957. The group operated Fairchild C-119 Flying Boxcar and Fairchild C-123 Provider aircraft as the flying element of the 464th Troop Carrier Wing until being inactivated when the wing was reorganized. <sep> Hypothesis: The 464th Troop Carrier Group served in the United States under Tactical Air Command before 1953 and after 1957.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The 1985 Nebraska Cornhuskers football team represented the University of Nebraska–Lincoln in the 1985 NCAA Division I-A football season. The team was coached by Tom Osborne and played their home games in Memorial Stadium in Lincoln, Nebraska. The season opener against Florida State was the last season opening loss until 2015. <sep> Hypothesis: The Nebraska Cornhuskers was established in 1985.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Prom Night IV: Deliver Us from Evil is a 1992 Canadian slasher horror film directed by Clay Borris and starring Nicole de Boer and J.H. Wyman. The film follows a deranged Catholic priest who begins murdering teenagers on their prom night. It is the fourth and final film in the ""Prom Night"" franchise. Like the previous , it was released briefly in theaters before later being released to video. <sep> Hypothesis: The movie will have a sequel.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Clay County is a county located in the U.S. state of Tennessee. As of the 2010 census, the population was 7,861. Its county seat and only incorporated city is Celina. Clay County is named in honor of American statesman Henry Clay, member of the United States Senate from Kentucky and United States Secretary of State in the 19th century. Its current mayor is Dale Reagan. <sep> Hypothesis: The city of Celina has a population of 861.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Genevieve LaCaze (born 4 August 1989) is an Australian athletics competitor who specialises in the 3000 metre steeplechase. She held an athletics scholarship at the University of Florida. She was selected to represent Australia at the 2012 Summer Olympics in London and Athletics at the 2016 Summer Olympics in Rio de Janeiro. LaCaze is of French, Italian and Spanish descent. <sep> Hypothesis: Genevieve LaCaze has competed in the Olympics just one time in her life
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The New York Lottery began in 1967 as the third modern U.S. lottery, after Puerto Rico's began in 1934, and New Hampshire's in 1964. As part of the New York State Gaming Commission, it provides revenue for public education and is based in Schenectady. <sep> Hypothesis: Contrary to popular belief, The New York Lottery is ot actually a lottery.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Argentine motorcycle Grand Prix is the Argentine round of the FIM Grand Prix motorcycle racing championship. The Grand Prix returned in 2014 with a race at Autódromo Termas de Río Hondo. Previously, the event was held ten times at the Autódromo Oscar Alfredo Gálvez in the capital city of Buenos Aires between 1961 and 1999. <sep> Hypothesis: The Argentine motorcycle Grand Prix was held less than 10 times before the 2014 race.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Giovanni Visconti — according to Lorenzo Cardella nephew of Pope Gregory X. He was ostensibly created cardinal-bishop of Sabina by his uncle in 1275 and in 1276 was named judge in the case concerning the translation of bishop Giovanni of Potenza to the archbishopric of Monreale, postulated by the cathedral chapter of Monreale. He died in 1277 or 1278. <sep> Hypothesis: Giovanni Visconti never left the church
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Maps is the debut release by Ohio/Detroit-based pop punk band Mixtapes. The album was recorded over one weekend and released for free on Death to False Hope Records. It was later re-released in November 2011 on vinyl via Animal Style Records, featuring the 10 songs from ""Maps ""and a newly recorded EP titled ""Companions"". The album was re-titled ""Maps & Companions"". <sep> Hypothesis: Maps was released in the 2nd to last month of 2011.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: David Scott ""Dave"" Foley (born January 4, 1963) is a Canadian actor, stand-up comedian, director, producer and writer. He is known as a co-founder of the comedy group ""The Kids in the Hall"", responsible for their eponymous sketch show and the feature-length film """". He played Dave Nelson in the sitcom ""NewsRadio"", voiced Flik in ""A Bug's Life"" and hosted the game show ""Celebrity Poker Showdown"". <sep> Hypothesis: A Bugs Life was first called Warrior Ant
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Forum Shops at Caesars (also known as simply The Forum) is a major 636000 sqft shopping mall connected to Caesars Palace on the Las Vegas Strip in Las Vegas, Nevada. Measured in terms of sales per square foot, it is the highest grossing mall in the United States. <sep> Hypothesis: The Forum is 6,360,000 square feet.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: U.S. Highway 61/190 Business (BUS US 61/190, officially 61-X) is a state highway in Louisiana that serves East Baton Rouge Parish. It spans 10.89 mi in a southeast to northwest direction and it is bannered as Business 61/190, with no directional shields. It generally follows the 1940s-1950s alignment of US 61/190 through Baton Rouge. <sep> Hypothesis: 61-X was built before the 1940s.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Fenella Kernebone is an Australian radio and television presenter, MC and interviewer, based in Sydney, with a long record working across the arts, film, music, design, architecture and culture. Her most recent hosting roles include the presenter of By Design on Radio National and The Sound Lab on Triple J. In June 2016, she was appointed Head of Curation for TEDxSydney. <sep> Hypothesis: Kernebone currently hosts a radio show.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Ghost & Mrs. Muir is an American sitcom based on the 1947 film of the same name, which was based on the 1945 novel by R. A. Dick. It premiered in September 1968 on NBC. After NBC canceled the series, it aired on ABC for one season before being canceled a final time. The program is currently seen weekday mornings on the digital subchannel ""GetTV."" <sep> Hypothesis: The audience can watch the second season of The Ghost & Mrs. Muir in the morning from Monday to Friday
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: EPB6 is a public access cable channel serving the Glasgow area of Barren County, Kentucky via the cable television service of the Glasgow Electric Plant Board, a provider of cable television, internet service, and electrical power. It is shown on channel 6 of the basic cable tuner of the Glasgow EPB Cable television system. <sep> Hypothesis: EPB6 is an American channel.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Lookout Mountain, elevation 6536 ft , is the second highest peak in Oregon's Mount Hood National Forest and the highest point in Badger Creek Wilderness. It sits about 8 miles east-southeast of Mount Hood, separated from it by the valley of the East Fork Hood River. <sep> Hypothesis: The highest peak in Mount Hood National Forest is in the East Fork Hood River valley.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Grand Prix des Frontières was a motor race held at a street circuit in Chimay, Belgium. The race was created by Jules Buisseret, who was also responsible for the circuit's existence. The first event was held in 1929 and was discontinued after the 1972 event for safety reasons. <sep> Hypothesis: Jules Buisseret lost The Grand Prix des Frontières.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The J.J. Deal and Son Carriage Factory was the largest factory built in Jonesville, Michigan. It is the only 19th century factory remaining in the City. It is located at 117 West Street. On August 1, 2012, the building was added to the National Register of Historic Places. <sep> Hypothesis: The J.J. Deal and Son Carriage Factory was built in the USA
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Girilal Jain (1924 – 19 July 1993), was an Indian journalist. He served as the editor of The Times of India from 1978 till 1988. He was sympathetic to Hindu nationalism and authored books on the subject, the best known of which, ""The Hindu Phenomenon"", was published posthumously. The Government of India awarded him the civilian honour of the Padma Bhushan in 1989. <sep> Hypothesis: Jain lived a very short life
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Glacier retreat or glacial retreat is type of glacial motion discussed in several articles, depending on the time frame of interest, and whether the climatological process or individual glaciers are being considered. Articles on these topics include: <sep> Hypothesis: Glacier retreat is known by Bill.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Albert Ernest Clifford ""Cliff"" Young, OAM (8 February 19222 November 2003) was an Australian potato farmer and athlete from Beech Forest, Victoria, best known for his unexpected win of the inaugural Sydney to Melbourne Ultramarathon in 1983 at 61 years of age. <sep> Hypothesis: Everyone in the 1983 Sydney to Melbourne Ultramarathon was younger than Albert Ernest Clifford ""Cliff"" Young.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: ""Something from Nothing"" is a song by the American rock band Foo Fighters from their eighth studio album ""Sonic Highways"". It was released as the album's lead single on October 16, 2014. Recorded at Steve Albini's Electrical Audio studio, the song was influenced by the Chicago music scene. <sep> Hypothesis: 'Something from Nothing'on Sonic Highways was recorded during a concert in Chicago
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Argonotes, the unofficial band of the Toronto Argonauts is an all volunteer organization committed to bringing quality musical entertainment and a ""traditional football atmosphere"" to all Argonauts home football games. Comprising more than 50 musicians on most game days, Argonotes is the largest musical organization associated with the CFL. <sep> Hypothesis: There is one musical organization associated with the CFL larger than Argonotes.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Wings over America is a triple live album by Wings, released in December 1976. The album was recorded during American leg of the band's acclaimed 1975–76 Wings Over the World tour. It peaked at number 8 on the UK Albums Chart and reached number 1 on the US ""Billboard"" Top LPs & Tape chart. <sep> Hypothesis: the band wings over america released an album called wings
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The 2017 City of Onkaparinga ATP Challenger was a professional tennis tournament played on hard courts. It was the third edition of the tournament and part of the 2017 ATP Challenger Tour. It took place in Happy Valley, Australia from 2 to 8 January 2017. <sep> Hypothesis: In 2017 a professional tennis tournament was played on soft courts.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Flamingo is the debut solo studio album by American singer-songwriter and The Killers lead singer Brandon Flowers, released on September 3, 2010 by Island Records. It was recorded at Battle Born Studios in Winchester, Nevada, and Henson Recording Studios in Hollywood, California. The album debuted at number one on the UK Albums Chart. <sep> Hypothesis: Armerican signer songwriter Brandon Flowers is lead singer for The Killers.  He recorded his debut solo album in Nevada and Skyrim Studios. The album debuted at number one on the UK Albums Chart.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Bridgewater Canal connects Runcorn, Manchester and Leigh, in North West England. It was commissioned by Francis Egerton, 3rd Duke of Bridgewater, to transport coal from his mines in Worsley to Manchester. It was opened in 1761 from Worsley to Manchester, and later extended from Manchester to Runcorn, and then from Worsley to Leigh. <sep> Hypothesis: The Bridgewater Canal connects 3 coal mines.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Lonely Londoners is a 1956 novel by Tamil Trinidadian author Samuel Selvon. Its publication marked the first literary work focusing on poor, working-class blacks in the beat writer tradition following the enactment of the British Nationality Act 1948. <sep> Hypothesis: The Lonely Londoners was motivated by the British Nationality Act.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The 2017 Macanese general election took place on 17 September 2017 according to the provisions of the Basic Law of Macau. Out of a total of 33 seats, 14 were directly elected by universal suffrage under the highest averages method, while 12 were voted on from the Functional constituency, and 7 from nomination by the Chief Executive. <sep> Hypothesis: In 2017 Macanese election 33 seats were empty.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Trojan War is a 1997 American romantic comedy film directed by George Huang. It stars Will Friedle, Jennifer Love Hewitt, and Marley Shelton. The film was a critical and box office disaster. Produced for $15 million, it made only $309 in ticket sales because it was played in a single movie theater and was pulled after only a week. <sep> Hypothesis: A lot of people went to see the film Trojan War during its opening weekended.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Don Number One (Bengali: ডন নাম্বার ওয়ান ) is a 2012 action Bangladeshi film directed by Bodiul Alam Khokon. The film stars Shakib Khan in the lead role and Shahara and Misha Showdagor in other prominent roles. It is a remake of 2007 Telugu action film ""Don"" directed by Lawrence starring Akkineni Nagarjuna. The film released on Eid al-Adha of 27 October 2012. <sep> Hypothesis: Without the film Don 2007, Don Number One would be the original
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Mate Pavić (born 4 July 1993) is a Croatian professional tennis player specialising in doubles. Mate won the 2016 US Open mixed doubles title in partnership with Laura Siegemund, and reached the 2017 Wimbledon Championships men's doubles finals partnering Oliver Marach. <sep> Hypothesis: Laura Siegemund is a tennis player who specialises in doubles.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: How to Steal a Million is a 1966 heist comedy film, directed by William Wyler and starring Audrey Hepburn, Peter O'Toole, Eli Wallach and Hugh Griffith. The picture is set and was filmed in France, though the characters speak entirely in English. Audrey Hepburn's clothes were designed by Givenchy. <sep> Hypothesis: Givenchy designed clothes for Audrey Hepburn prior to the 1966 film
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Adrienne Maloof (born September 4, 1961) is an American businesswoman, television personality, shoe designer and co-owner of the various business holdings of Maloof Companies, which include a 2% stake in the Palms Casino Resort in Las Vegas, Nevada; Maloof Productions, Maloof Music and the annual Maloof Money Cup skateboarding event. <sep> Hypothesis: Adrienne Maloof is more than 1961 years old.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Him & Her is a British television sitcom about a lazy twenty-something couple: Steve and Becky, who live in Walthamstow, London. It was first broadcast in the United Kingdom on BBC Three on 6 September 2010. It is written by Stefan Golaszewski and stars Russell Tovey and Sarah Solemani. The theme tune is the song ""Boom Bang-a-Bang"" by Lulu. <sep> Hypothesis: Him & Her first broadcast in the United Kingdom on BBC Three less than 3000 years ago.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Laura Ellen Ziskin (March 3, 1950 – June 12, 2011) was an American film producer, known as the executive producer of the 1990 romantic comedy ""Pretty Woman"", and as the first woman to produce the Academy Awards telecast alone, producing the 74th Academy Awards in 2002 and the 79th Academy Awards in 2007. <sep> Hypothesis: Laura Ellen Ziskin has starred at a film what name is ""Pretty Woman"" .
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: ""Thank You"" is the third single by heavy metal band Hellyeah from their debut album ""Hellyeah"". The song is a tribute to all of the band's recently departed family members: Vinnie Paul's brother Dimebag Darrell, Tom Maxwell's mother, and Chad Gray's grandmother. The song reached #37 on the ""Billboard"" Hot Mainstream Rock Tracks chart. <sep> Hypothesis: The album Hellyeah is the third album by the band Hellyeah
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: In theoretical physics, particularly in discussions of , Mach's principle (or Mach's conjecture) is the name given by Einstein to an imprecise hypothesis often credited to the physicist and philosopher Ernst Mach. The idea is that local inertial frames are determined by the large scale distribution of matter, as exemplified by this anecdote: <sep> Hypothesis: Mach's principle was a name given by a physicist who has been largely fogotten
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Mercedes-Benz W221 is a chassis code of S-Class, the successor of the Mercedes-Benz S-Class (W220) and the predecessor of the Mercedes-Benz S-Class (W222). The S-Class are the flagship vehicles of Mercedes-Benz and each generation typically introduces a range of technical innovations and developments that over time will find their way into smaller cars. <sep> Hypothesis: The Mercedes-Benz is a not a good car
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Luke Damon Goss (born 29 September 1968) is an English actor and former drummer in late 1980s band Bros. He has appeared in numerous films including ""Blade II"" (2002) as Jared Nomak, ""One Night with the King"" (2006) as King Xerxes, """" (2008) as Prince Nuada, ""Tekken"" (2010) as Steve Fox and ""Interview with a Hitman"" (2012) as Viktor. <sep> Hypothesis: Luke Damon Goss was a teenager when he appeared in the movie ""Blade II"".
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: ""Hold Me Tight"" is a rock and roll song by English rock group the Beatles from their 1963 album ""With the Beatles"". It was first recorded during the ""Please Please Me"" album session, but not selected for inclusion and re-recorded for their second album. <sep> Hypothesis: The album ""With the Beatles"" was released more than 1963 hours ago.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Cruel Intentions: The Musical is a jukebox musical adapted from the film ""Cruel Intentions"" by Jordan Ross and Lindsey Rosin with music direction and arrangements by Zach Spound. After two sold-out engagements in Los Angeles, the show made its New York City debut at Le Poisson Rouge in 2017. <sep> Hypothesis: the show only debut in new York and los angelos
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Forestville Commonwealth is an archaeological site and national historic district located at Earlton in Greene County, New York. The district contains seven contributing sites. It represents the remains of a utopian community built in 1826-1827 as one of three Owenite experiments in New York State. <sep> Hypothesis: There are more than 3 Owenite experiments in New York.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Common Law Cabin (original title ""How Much Lovin' Does a Normal Couple Need?"") is a 1967 exploitation film directed by Russ Meyer. The movie features Alaina Capri and Meyer regulars Babette Bardot and Jack Moran. It was co-written by Russ Meyer and Jack Moran, and filmed on location on the Colorado River in Arizona. Other portions of the film were shot in the Coachella Valley, California. <sep> Hypothesis: Russ Meyer was on set in California for the movie.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Proteus Design Suite is a proprietary software tool suite used primarily for electronic design automation. The software is used mainly by electronic design engineers and electronic technicians to create electronic schematics and electronic prints for manufacturing printed circuit boards. <sep> Hypothesis: The Proteus Design Suite is also used by people other than engineers
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Grenzschutzgruppe 9 (GSG 9) (English: Border Protection Group 9 ) is the elite Police Tactical Unit of the German Federal Police (German: ""Bundespolizei"" ). GSG 9 counterparts on the state level are the Special Deployment Commandos (German: ""Spezialeinsatzkommandos (SEK)"" ). <sep> Hypothesis: In the context, ""Bundespolizei"" does not appear in quotation marks.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Allium campanulatum is a species of wild onion known by the common name dusky onion or Sierra onion. This is a flowering plant native to the western United States from southeastern Washington and northern Oregon to southern California, and western Nevada. The dusky onion grows in foothills and mountains, especially in dry areas, such as chaparral habitats. <sep> Hypothesis: Northern Oregon is south of Southern California.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: State Route 360 (SR 360) is a state highway in the southern portion of Mineral County, Nevada, United States. The route connects the former town of Basalt to the rest of Mineral County. A road has been in the place of SR 360 since 1919, and became State Route 10 by 1929. <sep> Hypothesis: State Route 360 runs through Area 51.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Linda Ellerbee (born August 15, 1944) is an American journalist who is most known for several jobs at NBC News, including Washington, D.C. correspondent, and also as host of the Nickelodeon network's ""Nick News with Linda Ellerbee"". Her work on ""NBC News Overnight"" was recognized by the jurors of the duPont Columbia Awards as ""possibly the best written and most intelligent news program ever."" <sep> Hypothesis: Linda Ellerbee is 75 years old today
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Palm Harbor Open is a defunct tennis tournament that was played on the Grand Prix tennis circuit in 1980. The event was held in Palm Harbor, Florida and was played on outdoor hard courts. Paul McNamee won the singles title while partnering with Paul Kronk to win the doubles title. <sep> Hypothesis: Paul McNamee only partnered with Paul Kronk
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Things Happen at Night is a 1947 British supernatural ghost comedy film directed by Francis Searle and starring Gordon Harker, Alfred Drayton, Robertson Hare and Gwynneth Vaughan. The film is based upon a stage play, ""The Poltergeist"", by Frank Harvey Jnr. <sep> Hypothesis: Things Happen at Night and ""The Poltergeist"" share the same total runtime. 
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Homicide: The Movie is a television movie that aired February 13, 2000, one year after the completion of the American police drama television series """". It was written by the series' head writer Tom Fontana and staff writers Eric Overmyer and James Yoshimura, and directed by Jean de Segonzac, who had served as a cinematographer and director several times during the show's run. <sep> Hypothesis: Homicide: The Movie aired 16 years ago.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: John Cox is an American screenwriter born and currently residing in Los Angeles, California. Cox co-wrote the film ""Boot Camp"" (2007), and the most current draft of Sgt. Rock for Joel Silver and Warner Bros. He also wrote ""Virulents"" for New Regency and director John Moore. Unproduced credits include ""The Cold"" (Warner Bros.), ""The 10th Planet"" (MGM), and ""The Cotton Club Murder"" (USA Network). <sep> Hypothesis: John Cox was a terrible film writer.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Hykeham railway station serves the town of North Hykeham in Lincolnshire, England. The station is on the Nottingham to Lincoln Line, owned by Network Rail and managed by East Midlands Trains, which provide all services. The nearby Thorpe-on-the-Hill railway station was closed in 1955 for lack of use. <sep> Hypothesis: Thorpe-on-the-hill is owned by Network Rail in addition to Hykeham railway station.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Latin Jam Workout is a Latin Dance Fitness Program created by professional athlete and choreographer JP Santana. Founded in 2007 in Los Angeles, California, Latin Jam Workout combines techno and Latin music with dance and aerobic movements. It is a fusion of Latin dance steps such as Salsa, Merengue, Raeggaeton, Cumbia, Samba, Soca, Belly-Dancing and the faster-paced rhythms of Pop and Techno. <sep> Hypothesis: Latin Jam Workout was not created in a latin american country
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Kevin Ray Turner (born February 5, 1958 in Fremont, California) is a former American football linebacker in the National Football League for the New York Giants, Washington Redskins, Seattle Seahawks, and the Cleveland Browns. He played college football at the University of the Pacific. <sep> Hypothesis: Kevin Ray Turner played football in 1959
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Amandil is a fictional character from J.R.R. Tolkien's Middle-earth legendarium. Amandil was a Lord of Andúnië, succeeding his father Númendil upon his death. Amandil is most noted for being the father of Elendil, founder of the Númenórean Realms in Exile. <sep> Hypothesis: Amandil had multiple titles.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Emami Kolkata Open ATP Challenger Tour (formerly known as State Bank of India ATP Challenger Tour) is a professional tennis tournament played on outdoor hard courts. It is currently part of the Association of Tennis Professionals (ATP) Challenger Tour. It is held annually at the Bengal Tennis Association Stadium in Kolkata, India since 2014. <sep> Hypothesis: The Emami Kolkata Open ATP Challenger Tour was held annually at the Bengal Tennis Association Stadium in Kolkata, India until 2014.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Stannis Baratheon is a fictional character in the ""A Song of Ice and Fire"" series of epic fantasy novels by American author George R. R. Martin, and its television adaptation ""Game of Thrones"". He is the second son of Steffon Baratheon, the lord of Storm's End, and his wife Lady Cassana Estermont, and brother to Robert and Renly. <sep> Hypothesis: The name of George's brothers are Robert and Renly.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Baoquan () is a town in Kedong County, western Heilongjiang province, Northeast China, located on a tributary of the Nonni River more than 190 km east-northeast of the city of Qiqihar. China National Highway 202 (G202) passes through the town, which is down the road from the city of Bei'an and the county seat, which lies some 13 km to the south. <sep> Hypothesis: Bei'an is the closest city to Baoquan
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Danville is an unincorporated community and census-designated place (CDP) in Ferry County, Washington, United States. Danville is located on Washington State Route 21 near the Canada–United States border, 31 mi north-northeast of Republic, the Ferry County seat. Danville has a post office with ZIP code 99121. The population at the 2010 census was 34. <sep> Hypothesis: Danville's zipcode backwards is 12199
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Hill Country Film Festival is a yearly film festival in Fredericksburg, Texas, United States. It was established in 2010. The executive director is Chad Matthews, and it is presented by the Hill Country Film Society, who hold free screenings at the festival and, afterward, monthly. In 2013, ""Texas Monthly"" selected it as a ""quirky, discerning"" pick. <sep> Hypothesis: The Hill Country Film Festival is held in the southern region of the United States.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The 8th Race of Champions was a non-Championship motor race, run to Formula One rules, held on 18 March 1973 at Brands Hatch circuit in Kent, UK. The race included several entrants in Formula 5000 cars and was won by Peter Gethin in a Chevron-Chevrolet B24 '72-05'. This was the only race other than the poorly-attended 1969 Madrid Grand Prix in which a Formula 5000 car beat a Formula One car. <sep> Hypothesis: The 8th race featured unimportant racers.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The City of Canada Bay is a local government area in the Inner West of Sydney, New South Wales, Australia. The city was formed on 1 December 2000, following the merger of Concord and Drummoyne councils. The city covers an area of 19.82 km2 and as at the 2016 census had a resident population of . The city is ultimately named after Canada Bay, a bay on the Parramatta River. <sep> Hypothesis: Canada bay has had a population of 1000.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: There Was a Crooked Man... is a 1970 western starring Kirk Douglas and Henry Fonda and directed by Joseph L. Mankiewicz. This was the only western made by Mankiewicz, director of such notable films as ""All About Eve"", ""Guys and Dolls"" and ""Cleopatra"". It was written by David Newman and Robert Benton, their first script after ""Bonnie and Clyde"". <sep> Hypothesis: Guys and Dolls is a musical.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Ben Marshall (born 8 June 1990) is a retired rugby union player from Ireland. He primarily played as a lock or in the back row. Marshall played for Irish provincial sides Leinster and Connacht in the Pro12, but was forced to retire in 2017 due to a concussion injury. <sep> Hypothesis: Ben Marshall is rugby player by injury.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Kiss of the Spider Woman is a musical with music by John Kander and Fred Ebb, with the book by Terrence McNally. It is based on the Manuel Puig novel ""El Beso de la Mujer Araña"". The musical had runs in the West End (1992) and Broadway (1993) and won the 1993 Tony Award for Best Musical. <sep> Hypothesis: Kiss of the Spider Woman was inspired by classical music
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Nanking Massacre was an episode of mass murder and mass rape committed by Japanese troops against the residents of Nanjing (""Nanking""), then the capital of the Republic of China, during the Second Sino-Japanese War. The massacre is also known as the Rape of Nanking or, using Pinyin romanization, the Nanjing Massacre or Rape of Nanjing. <sep> Hypothesis: The victims during this massacre were civilians.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Ken Lee (Chinese: 李光裕, Pinyin: lǐ guāng yù, 1932 – 21 December 2007) was a Chinese-Australian businessman who co-founded the Bing Lee chain of electronic stores with his father, Bing Lee. He also served as the company's chairman from 1987 until 2007. <sep> Hypothesis: Ken Lee was the father of Bing Lee.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Sauber C33 is a Formula One racing car designed by Sauber to compete in the 2014 Formula One season. It was driven by Esteban Gutiérrez and Adrian Sutil, who joined the team after Nico Hülkenberg returned to Force India. The C33 was designed to use Ferrari's new 1.6-litre V6 turbocharged engine, the 059/3. <sep> Hypothesis: The Sauber C33 did not match the ferarri
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Harry Spencer Davis (born 24 September 1991) is an English professional footballer, who plays as a defender for Scottish Championship side St Mirren. Davis previously played with Crewe Alexandra. Early in his career, he was loaned by Crewe to Nantwich Town, Stafford Rangers and Curzon Ashton. <sep> Hypothesis: Harry Spencer Davis was the most successful player outside of football
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Real Howard Spitz is a 1998 family comedy film directed by Vadim Jean, produced by Paul Brooks and written by Jurgen Wolff. Starring Kelsey Grammer, Amanda Donohoe and Genevieve Tessier, it is a Canadian and U.K co-production. A failed detective writer, Howard Spitz has hit rock bottom until an 8-year-old girl helps him write children's books. <sep> Hypothesis: The Real Howard Spitz was directed and produced by two different people.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Gnifetti Hut (Italian: ""Capanna Giovanni Gnifetti"") is a refuge in the Alps in Aosta Valley, Italy. It is located at an altitude of 3647 m , and provides access to mountaineers climbing any of the fifteeen nearby 4,000 metre high summits of the Monte Rosa massif, and gives access to high-level glacier routes as well as to the Margherita Hut, located on the Signalkuppe. <sep> Hypothesis: Climbers can stop at the Gnifetti Hut to take a break.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Frederick William Chesson (1833–1888) was an English journalist and prominent anti-slavery campaigner. He was active in the London Aborigines' Protection Society and Emancipation Committee, and met Harriet Ann Jacobs when she was in England in 1858; and was a vocal supporter of the Union side during the American Civil War. <sep> Hypothesis: The writer met Jacobs when he was in his twenties.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Zafar Mahmud (1923–2016) was a Royal Indian Air Force officer during the second world war, originally stationed in Burma and subsequently stationed in Quetta (in present-day Pakistan) from 1945 to 1947 before the partition of British India. He was sent to England a number of times to train with the Royal Air Force just before and after the war. <sep> Hypothesis: Mahmud was born in the year after 1921.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Circus Palestine (Hebrew: קרקס פלשתינה‎ ‎ , translit. Kirkas Palestina) is a 1998 Israeli political satire film directed by Eyal Halfon, which was nominated for seven Israeli Film Academy Awards, winning five. The film was selected as the Israeli entry for the Best Foreign Language Film at the 71st Academy Awards, but was not accepted as a nominee. <sep> Hypothesis: Another film was selected as a nominee for the Best Foreign Language Film at the Academy Awards.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Steven K. Tsuchida is an American film and television director. He has directed episodes of ""The Sarah Silverman Program"", ""Younger"", ""Community"", and the award-winning short film ""A Ninja Pays Half My Rent"". ""A Ninja Pays Half My Rent"" was featured on the premiere of the Comedy Central program ""Atom TV"". <sep> Hypothesis: Steven K. Tsuchida is a film director and actor
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Stephen R. ""Steve"" Bissette (born March 14, 1955) is an American comics artist, editor, and publisher with a focus on the horror genre. He is known for working with writer Alan Moore and inker John Totleben on the DC comic book ""Swamp Thing"" in the 1980s. <sep> Hypothesis: Steve Bissette draws, edits, and publishes Swamp Thing.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Thirteen Ghosts (also known as 13 Ghosts and stylized as THIR13EN Ghosts) is a 2001 Canadian-American supernatural horror film directed by Steve Beck. It is a remake of the 1960 film ""13 Ghosts"" by William Castle. It follows the remake of another one of Castle's films, ""House on Haunted Hill"", and was shot entirely around Lower Mainland, British Columbia. <sep> Hypothesis: Thirteen Ghosts was filmed before the 21st century.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Uncommon Danger is the second novel by British thriller writer Eric Ambler, published in 1937. In his autobiography, ""Here Lies"", Ambler explains the original title was ""Background To Danger"", but his British publisher disliked the word 'background', so it was published in all English-speaking countries except the US as ""Uncommon Danger"". <sep> Hypothesis: Uncommon Danger is the last novel by British thriller writer Eric Ambler, published in 1937
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Sea Hornet is a 1951 American adventure film directed by Joseph Kane and written by Gerald Drayson Adams. The film stars Rod Cameron, Adele Mara, Lorna Gray, Chill Wills, Jim Davis and Richard Jaeckel. The film was released on November 6, 1951, by Republic Pictures. <sep> Hypothesis: Republic Pictures produced the Sea Hornet.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: KDRP-LP (103.1 FM) ""Sun Radio"" is a radio station licensed to Dripping Springs, Texas, United States. The station is currently owned by Principle Broadcasting Foundation and rebroadcasts on 100.1 FM / 1490 AM Austin, 106.9 FM in Fredericksburg, 88.9 FM in Johnson City, 88.1 FM Gonzales, 99.9 FM San Marcos, 104.1 FM Wimberley, and coming soon to Llano and Mason. <sep> Hypothesis: The station is currently owned by Principle Broadcasting Foundation and rebroadcasts on 100.1 FM / 1490 AM Austin, 106.9 FM in Fredericksburg, 78.9 FM in Johnson City, 88.1 FM Gonzales, 99.9 FM San Marcos, 104.1 FM Wimberley, and coming soon to Llano and Mason.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Darpan Inani (born 1994) is a prolific blind Indian chess player from Vadodara. He is the second highest rated blind chess player in India with an ELO rating of 2041 as of Oct 2013. He won the bronze medal at the World Junior chess Championship for the blind at Belgrade in 2013. He is also the youngest to win the National blind chess championships. <sep> Hypothesis: Inani won the World Junior chess Championship for the blind the year he turned 19.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Legendary Majik Mijits is an album that was recorded by Steve Marriott and Ronnie Lane when they reformed under the name of ""Majik Mijits"" in 1981 and gave a one-off concert at the Bridgehouse pub in East London. The lineup included Jim Leverton, Mick Green, Mick Weaver, Dave Hynes and Sam Brown. <sep> Hypothesis: Steve Marriott and Ronnie Lane conspired against each other.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Sheree Victoria Murphy (born 22 August 1975) is an English actress and television presenter, best known for her roles as Tricia Dingle in the ITV soap opera ""Emmerdale"", Eva Strong in the Channel 4 soap opera ""Hollyoaks"" and Dakota Davies in the Australian soap opera ""Neighbours"". <sep> Hypothesis: Sheree Victoria Murphy pretended to be Dakota.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Impulsora del Deportivo Necaxa S.A. de C.V. (] ); often simply known as Club Necaxa, is a Mexican football club in Liga MX based in the city of Aguascalientes. It plays in the Estadio Victoria. Necaxa is a non membership-based club, with more than 35,000 members outside Mexico. <sep> Hypothesis: Mexican football is like American football.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: James Matthes Talent (born October 18, 1956) is an American politician and former U.S. Senator from Missouri. He is a Republican and resided in the St. Louis area while serving in elected office. He identifies with the conservative wing of the Republican party, being outspoken on judicial appointments, abortion, flag burning, and defense issues. <sep> Hypothesis: Although James identifies as a Republican, he also identified strongly with liberal viewpoints
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Dean Young (born 1955) is a contemporary American poet in the poetic lineage of John Ashbery, Frank O'Hara, and Kenneth Koch. Often cited as a second-generation New York School poet, Young also derives influence and inspiration from the work of André Breton, Paul Éluard, and the other French Surrealist poets. <sep> Hypothesis: Young derived inspiration from Yeats.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Chad Ford is an Assistant Professor at Brigham Young University – Hawaii (BYUH). He is Director of the University's McKay Center and is known for his study of conflict resolution with an emphasis on large group ethnic and religious conflict, as well as for his sports journalism with ESPN. <sep> Hypothesis: Mr. Ford has done extensive research into how conflict can be effectively resolved between individuals from differing ethnic and religious backgrounds.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Barry Redden (born July 21, 1960) is a former American football running back who played for the Los Angeles Rams, the San Diego Chargers, and the Cleveland Browns of the National Football League (NFL). He spent much of his career playing in the shadow of Pro Football Hall of Fame running back Eric Dickerson. <sep> Hypothesis: Barry Redden played for one NFL team in Ohio
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Rip Slyme (often stylized as RIP SLYME) is a Japanese hip hop group. It is composed of four MCs; Ryo-Z, Ilmari, Pes & Su, and a DJ, Fumiya. Their sound derives its influences from old school hip hop and other hip hop such as The Pharcyde, De La Soul, Public Enemy, Jurassic 5, the Beastie Boys, DJ Premier and Leaders of the New School. <sep> Hypothesis: RIP SLYME is a group of four artist from Japan whose style of singing is like old school hip hop
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: The Washington Nationals are a professional baseball team that has been based in Washington, D.C. since . The Nationals are a member of both the Major League Baseball's (MLB) National League Eastern Division and the National League (NL) itself. Since the 2008 season, the Nationals have played in Nationals Park; from 2005 through , the team played in Robert F. Kennedy Memorial Stadium. <sep> Hypothesis: The Washington Nationals have played in Nationals Park for more than 1000 days.
+output: Entailment
+Positive example 2-
+input: Premise: The 1986–87 St. John's Redmen basketball team represented St. John's University during the 1986–87 NCAA Division I men's basketball season. The team was coached by Lou Carnesecca in his nineteenth year at the school. St. John's home games are played at Alumni Hall and Madison Square Garden and the team is a member of the Big East Conference. <sep> Hypothesis: Lou Carnesecca's first season as coach of the St. John's Redmen basketball team was in 1974.
+output: Contradiction
+Now complete the following example-
+input: Premise: Mosiula Mea'alofa ""Lofa"" Tatupu (born November 15, 1982) is a former American football linebacker who played six seasons in the National Football League (NFL). He was an assistant linebackers coach with the Seattle Seahawks. He played college football for the University of Southern California (USC). Tatupu was drafted by the Seattle Seahawks in the second round of the 2005 NFL Draft. <sep> Hypothesis: Mosiula Mea'alofa ""Lofa"" Tatupu debuted his professional football career with the Seahawks
+output: ",Entailment

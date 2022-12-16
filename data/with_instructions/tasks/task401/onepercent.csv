@@ -1,0 +1,828 @@
+input,output
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Edward Snowden:  So , this is data collection for the month of March worldwide , emails and Skype calls . So France , 70 million . Germany , 500 million . Brazil , two billion . Inside the U.S. , 3.1 billion emails and calls . That 's not including any of the telecom company data .
+NSA Dep. Director Lowell: Okay , so what 's the collection in Russia ?
+Edward Snowden: Russia is _ 1.5 _ billion .
+NSA Dep. Director Lowell: Wait , so we 're collecting twice as much in the U.S. as we are in Russia ?
+output: ",calls
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Helena Shebritch:  Another life . I just have to shed the old _ one _ and try again .
+output: ",life
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Oancitizen:  You know , out of all the films I 've done , this is the _ one _ that should have been called Shortbus .
+output: ",films
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Larry Sizemore:  Well , I think we start with some ass - kicking and then some name - taking . I think we hit the fire alarm , slip past the metal detectors in the confusion , grab a guard to get into the computer room , and then , boom , one body to dump .
+Michael Westen: That 's _ one _ more than we need . We can do this without guns .
+Larry Sizemore: What in the hell happened to you ?
+Michael Westen: My way 's fun , too .
+output: ",body
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Carl:  None may enter lest they speak the royal password !
+Wilbur: Carl , what are you talking about ? We do n't have a password .
+Carl: Yes we do , I made _ one _ up while you were gone .
+output: ",password
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Detective Kate Cafferty:  How awkward was that for you on a scale of _ 1 _ to 10 ? ... It 's like going to your high school reunion and seeing your ex and finding out she 's all big and successful and has a hot new girlfriend .
+output: ",scale
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Future Jennifer:  A wise man once told me , "" There are many endings . But the right one is the _ one _ you choose .
+output: ",endings
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Anna Dawson:  You know , I must confess that before this evening , I was a little frightened of meeting you .
+Rev. Harrison Bennett: Oh , my son has a tendency to describe me as an ogre .
+Anna Dawson: No , no , nothing like that . You 're just such a fine family .
+Rev. Harrison Bennett: Well , _ one _ that 's finer for your addition .
+output: ",family
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Cora Cross:  I smoked and drank all through my pregnancies , did n't affect my girls .
+Shirley Carter: Oh , no , only _ one _ got cancer and the other one was a junkie .
+output: ",girls
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Arnie Munroe:  A bullet can knock down a big man as same as a small _ one _ . Takes him longer to hit the ground , that 's all .
+output: ",man
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Vanessa:  Wow , Miss Ella , you do all the cleaning and cooking and ironing , you 're just a regular old slave , are n't you ?
+Ella: Uh no dear , no dear , what I AM , is a wo man who knows how to treat a man .
+Vanessa: So where is ...
+Ella: I ai n't got one , I ai n't got _ one _ .
+output: ",man
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Keisha Marie:  Keisha , this is the third fire you caused this week !
+Keisha Marie: Oh , yeah ? When ?
+Natella: One on Monday , one on Tuesday and one today . One and one and one is _ three _ .
+Keisha Marie: Okay , you got me .
+output: ",fire
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Geoffrey Firmin:  Have a drink with me .
+Yvonne Firmin: No , you 'll have _ one _ . I 'll cheer .
+output: ",drink
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Lieutenant Horatio Caine:  So you broke down the door , and then provided false testimony to secure the restraining order against Matthew .
+Lloyd Arrington: That guy could n't move on with his life . What was I supposed to do , wait until he killed one of us ?
+Lieutenant Horatio Caine: Need I remind you that perjury is a felony , and you 're facing five years .
+Lloyd Arrington: Yeah , I want a lawyer .
+Lieutenant Horatio Caine: And you 're going to need _ one _ . You used the system to kick a man who was already down .
+Lieutenant Horatio Caine: What
+Lieutenant Horatio Caine: did we get ?
+Jesse Cardoza: I dug up underlying court documents related to the Sloan divorce . Affidavit of the minor Jason Sloan .
+Lieutenant Horatio Caine: The little boy .
+Jesse Cardoza: There was a history of abuse . Beatings . At first , the boy admitted his dad 's the one who knocked him around , then he recanted . And Child Services said the only reason he recanted because he feared his father , and the judge agreed . Matthew Sloan lost custody three weeks ago .
+Lieutenant Horatio Caine: This is the justice that Matthew was looking for .
+Jesse Cardoza: You know , that guy lied about getting the TRO . Maybe he 's the abuser .
+Lieutenant Horatio Caine: There 's only one way to find out .
+Jesse Cardoza: Follow the evidence .
+output: ",lawyer
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Richard Castle:  Hey .
+Kate Beckett: Hey . There 's no news from CSU on the name tag . Not that I was expecting any .
+Richard Castle: Makes you wonder why he did n't pull that whole gas leak routine on Linda Russo .
+Kate Beckett: I know why . The answer 's in here .
+Richard Castle: A transcript ?
+Kate Beckett: From four years ago . I took a look at calls made to the Triple Killer tip line , and this _ one _ stood out for me . It 's from May 21st , 2006 , which was a week after the sixth murder . A woman called and left a message , but she was too afraid to leave her name . But she did mention that she lived at 24th and 10th .
+Richard Castle: Same corner as Linda Russo .
+Kate Beckett: She was riding an elevator with a cable repair man who so creeped her out that she got off a floor early just to get away from him .
+Richard Castle: Yeah , but cable guy and creepy , that 's a job requirement .
+Kate Beckett: Except he was n't a cable guy . She said he was n't carrying the right tools .
+Richard Castle: And working for a cable company , Linda Russo would know that .
+Kate Beckett: Which is why I took a look at Linda Russo 's phone records from four years ago . She 's the one who made the call to that tip line .
+Richard Castle: So Linda Russo was special .
+Kate Beckett: When she got off a floor early , he knew that she made him , so he dropped out of sight .
+Richard Castle: Which also explains why he attacked her outside . He knew there was no way she 'd let him into her apartment .
+Kate Beckett: Linda Russo saw his face , and he came back four years later . That 's a special kind of ruthlessness .
+output: ",calls
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Jennifer Jareau:  Hi , uh , we 're agents Jareau and Lewis with the FBI . We 're wondering have you seen this woman ? She would have been here like three days ago
+Bartender: No !
+Dr. Tara Lewis: Are you sure ? She might have been here with somebody else
+Bartender: It 's a bar . Lots of people coming and going in here
+Jennifer Jareau: Well , she 's missing , so any information you can give us will be greatly appreciated
+Dr. Tara Lewis: Sorry
+Dr. Tara Lewis: All right , thank you . Oh , I 'm sorry , one other thing . Who 's the general manager here ?
+Bartender: I am
+Dr. Tara Lewis: Oh , that 's great ! Because we actually got an anonymous tip that somebody is skimming off the receipts , so we 're just gon na need to take a quick look at your books
+Bartender: Hold ... hold on . I thought you were interested in missing person ?
+Jennifer Jareau: We are . But the FBI also handles federal tax violations
+Dr. Tara Lewis: I mean , you have books , right ? 'Cause if you do n't have books we have to shut this place down
+Bartender: Can I see that photo again ?
+Jennifer Jareau: Oh . This _ one _ ?
+Bartender: Okay . Yeah , you know what ? I think I remember her now . Yeah ! I ... , she was n't in here very long
+output: ",photo
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Berta:  You got a gun ?
+Norman: No !
+Berta: Want _ one _ ?
+Alan Harper: Berta !
+Berta: I 'm making small talk .
+output: ",gun
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: The Contessa:  I feel so safe with you protecting me , Mr. Smart .
+Maxwell Smart - Agent 86: Well , I do n't like to boast , but of all the hundreds of people that I 've guarded , I 've only lost three .
+Maxwell Smart - Agent 86: Would
+Maxwell Smart - Agent 86: you believe _ four _ ?
+output: ",people
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Sandy Taylor:  Would you care for a beer ?
+Angus Coleman: Sure . I always wanted to try one of those - but only if you 're having _ one _ .
+Sandy Taylor: I could use a beer . Domestic or imported ?
+Angus Coleman: Ah , I better stick to domestic . I drink imported , I get illusions of grandeur .
+output: ",beer
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: G'Kar:  Two weeks down , _ six _ to go before I 've repaid my debt to society for attacking Mollari . I 've taken the opportunity provided by my incarceration to meditate , think , even to sing .
+Michael Garibaldi: You
+Michael Garibaldi: know what 's odd ? You seem , I do n't know , happier in here than you were out there .
+G'Kar: In here , Mr. Garibaldi , you can not hide from yourself . Everything out there has only one purpose . To distract ourselves from what is truly important .
+output: ",weeks
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: The Beast:  This is the darkness . This is my domain . You little things that live in the light , clinging to your feeble suns , which die in the end ...
+Zachary Cross Flane: That 's not the ood . Somehing 's talking through them .
+The Beast: ... only the darkness remains .
+Zachary Cross Flane: This is Zachary Cross Flane of Sanctuary Base 6 representing the Torchwood Archive . You will identify yourself .
+The Beast: You know my name .
+Zachary Cross Flane: What do you want ?
+The Beast: You will die here , all of you . This planet is your grave .
+The Doctor: If you are the Beast , then answer me this : Which one , hmm . Because the universe has been busy since you 've been gone . These 's more religions than there are planets in the sky . There 's the Arkaphets , Christianity , Pash - Pash , New Judaism , San Claar , Church of the Tin Vagabond , which devil are you ?
+The Beast: All of them !
+The Doctor: Then you 're ... what ? The truth behind the myth ?
+The Beast: This _ one _ knows me , as I know him : the killer of his own kind .
+The Doctor: How did you end up on this rock ?
+The Beast: The Disciples of the Light rose up against me and chained me in the pit for all eternity .
+The Doctor: When was this ?
+The Beast: Before time .
+The Doctor: What does "" Before time "" mean ?
+The Beast: Before time and light and space and matter . Before the calaclysm . Before this universe was created .
+The Doctor: That 's impossible . No life could have existed back then .
+The Beast: Is that your religion ?
+The Doctor: It 's a belief .
+The Beast: You know nothing . All of you , so small . The captain , so scared of command . The soldier , haunted by the eyes of his wife . The scientist , still running from daddy . The little boy who lied . The virgin . And the lost girl , so far away from home . The valiant child , who will die in battle , so very soon .
+Rose: Doctor , what does that mean ?
+The Doctor: Rose , do n't listen .
+Rose: What does it mean !
+The Beast: You will die ... and I will live !
+output: ",killer
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Walter White:  Let 's break it down . Hydrogen . What does that give us ?
+Gretchen Schwartz: We 're looking at 63 % .
+Walter White: Sixty - three , that is a big bite . My next step 's got ta be oxygen .
+Gretchen Schwartz: Oxygen , 26 % .
+Walter White: Twenty - six . There you have your water .
+Gretchen Schwartz: Carbon , 9 % .
+Walter White: Carbon , _ 9 _ .
+Gretchen Schwartz: For a total of 98 % .
+Walter White: Right .
+Gretchen Schwartz: Nitrogen , 1.25 % .
+Walter White: One - point - two - five .
+Gretchen Schwartz: That brings you to 99 and a quarter . Which only leaves you with the trace elements down where the magic happens .
+Walter White: Oh , wait a minute . What about calcium ? Calcium 's not a trace . Got a whole skeleton to account for .
+Gretchen Schwartz: You would think , right ? Calcium 's only 0.25 % .
+Walter White: What ? That low ? Seriously ? Damn , I never would've thought that . Okay , so where does iron fit in .
+Gretchen Schwartz: Iron . 4E-05 %
+Walter White: What ? You ca n't have hemoglobin without iron .
+Gretchen Schwartz: Apparently , it do n't take take much . No doubt . Go figure .
+Walter White: Sodium .
+Gretchen Schwartz: Sodium , 0.04 % . Phosphorus , 0.19 % .
+Walter White: Point - one - nine . There we go . So the whole thing adds up to ... 99.888042 % . We are 0.111958 % . Shy .
+Gretchen Schwartz: Supposedly that 's everything .
+Walter White: Yeah ? I do n't know , it just ... it seems like something 's missing , does n't it ? There 's got to be more to a human being than that .
+Gretchen Schwartz: What about the soul ?
+Walter White: The soul ? There 's nothing but chemistry here .
+output: ",percent
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Tom Markos:  Now . Do you think I could use your tele phone ?
+Andy Miles: I 'd have thought Satan , of all people , would have a cell phone .
+Tom Markos: I really should have _ one _ . I keep putting it off and putting it off ... I did n't even get a computer until like three years ago .
+Amber Miles: It 's not long distance , is it ?
+Tom Markos: It 's to the 7th circle of Hell , so , yes .
+Amber Miles: Just do n't be on all night .
+Tom Markos: Wonderful . I wo n't be but a minute . May I use your kitchen ?
+Amber Miles: Have at it .
+Tom Markos: Oh ! Would you happen to have a fax machine ? After I phone my lawyer I 'd like to send him the contract to look over .
+Andy Miles: No . We do n't have a fax machine .
+Tom Markos: Nevermind . There 's an OfficeMax on the way home .
+output: ",phone
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Piper Halliwell:  You know how we 've been talking about what to do with that spare room ? I think you 're right . We do need a roommate .
+Prue Halliwell: Well , we could rent out the room at a reduced rate in exchange for help around the house .
+Piper Halliwell: Phoebe 's good with a wrench .
+Prue Halliwell: Phoebe lives in New York .
+Piper Halliwell: Not anymore .
+Prue Halliwell: What ?
+Piper Halliwell: She left New York . She 's moving back in with us .
+Prue Halliwell: You 've got to be kidding .
+Piper Halliwell: Well , I could hardly say no . It 's her house , too . It was willed to all of us .
+Prue Halliwell: Yeah , months ago and we haven't seen or spoken to her since .
+Piper Halliwell: Well , you haven't spoken to her .
+Prue Halliwell: No , I haven't . Look , maybe you 've forgotten why I 'm so mad at her .
+Piper Halliwell: No , of course not , but she had nowhere else to go . She lost her job , she 's in debt .
+Prue Halliwell: And this is news ? How long have you known about this anyway ?
+Piper Halliwell: A couple of days . Maybe a week ... or _ two _ .
+Prue Halliwell: Thanks for sharing . When does she arrive ?
+Phoebe Halliwell: Surprise ! I found the hide - a - key .
+output: ",week
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Theodore Cleaver:  Gee , Wally , a typin ' machine .
+Wally Cleaver: Yeah . That 's that old beat - up typewriter Dad used to have . He gave it to me .
+Theodore Cleaver: How come you do n't use it ?
+Wally Cleaver: Well , it did n't work so good after I dropped it .
+Theodore Cleaver: Oh . Hey , Wally , what 's the bell for ?
+Wally Cleaver: Oh , that 's a signal you came to the end of the line , and you 've got ta start a new _ one _ .
+Theodore Cleaver: I guess a typewriter is just about the smartest machine there is .
+output: ",line
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Det. Ray Vecchio:  So what 's the emergency ?
+Fraser: Well , I 've been assigned to escort the daughter of Canada 's senior trade negotiator .
+Det. Ray Vecchio: The _ one _ in the green dress dancing with the doofus ?
+Fraser: He 's the American ambassador 's son .
+Det. Ray Vecchio: Looks like a very painful experience .
+Fraser: Well , dancing with the Americans often is , Ray . Speaking politically , of course , not personally .
+output: ",daughter
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Jodie Abigail Landon:  Hey , you guys wanna buy tickets for the faculty - DJ roller hockey game ?
+Daria: Are you kidding ?
+Jane Lane: We 'll take _ two _ .
+Daria: What ? You 're gon na pay to watch teachers skate around with DJs ? Classic rock DJs ?
+Jodie Abigail Landon: You were n't here last year , Daria .
+Mr. Anthony DeMartino: Argh !
+Randy: Rock and roll , foreva !
+Mr. Anthony DeMartino: Help ... me ... !
+Jodie Abigail Landon: Mr. DeMartino had to have an emergency angioplasty . He almost died .
+Jane Lane: But a voice told him that his work here on Earth was n't finished . Some of the students were n't wetting the bed yet . This year , he 's more determined than ever to snatch victory from the jaws of death .
+Mr. Anthony DeMartino: Three hundred ninety - eight ... three hundred ninety - nine ... fooouuur hundred ! Ahh ... Rock & Roll Randy , this year you 're mine .
+Daria: What are you saying ?
+Jodie Abigail Landon: You know how there are people who go to car races on the chance that they might see a crash ?
+Daria: I 'm in .
+output: ",tickets
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Schneider:  Look , Rory . All you have to do is get the keys to your father 's car and his credit card .
+Ben Sandwich: I do n't know Shane . I got a real bad feeling about this one , you know . I 've never done anything like this bef - Oh man ! We 're doing this story again ? How many times have we done this , Matt ? A _ hundred _ thousand ?
+Schneider: He 's yelling again . Stop the yelling .
+Ben Sandwich: You know , how can I learn so much every week and still be so stupid ?
+Schneider: Oh ! Make him stop ! Make him stop !
+output: ",times
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Kouichi Sakakibara:  I understand that I no longer exist for them . But , why they do this ?
+Mei Misaki: It is a natural question . Do you remember the story about Misaki who died twenty - six years ago ?
+Kouichi Sakakibara: Yes .
+Mei Misaki: That 's what started it all . After that , the class three was close to death .
+Kouichi Sakakibara: Death ?
+Mei Misaki: First happened to the class three the following year to Misaki 's classmates graduation . Once it happens , once it begins , someone dies every month . Whether a student or someone in their family .
+Kouichi Sakakibara: What is "" It "" ?
+Mei Misaki: It 's when ... the number of students in the class is incremented by _ one _ .
+Kouichi Sakakibara: Incremented ? Who ?
+Mei Misaki: Nobody knows , they may never know who 's that extra one .
+Kouichi Sakakibara: Extra one ?
+output: ",number
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: The Master:  The human body has a basic weakness . _ One _ which I shall exploit to assist in the destruction of humanity .
+output: ",weakness
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Computer voice:  Please state the first password .
+Arsène Lupin III: We do n't like the Beatles .
+Computer voice: Please state second password .
+Daisuke Jigen: After all , Presley is still number one .
+Computer voice: Please state third password .
+Both: What ?
+Daisuke Jigen: What third password ?
+Arsène Lupin III: I did nt know there was _ one _ ...
+Computer voice: State third password , please .
+Arsène Lupin III: There is n't one !
+Computer voice: "" There is n't one "" is correct . you may enter .
+output: ",password
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: David Rossi:  How long have you lived like this ?
+Harrison Scott: I worked construction for a while , but no one wants an old man on the job when they can get somebody younger and cheaper .
+David Rossi: How long ?
+Harrison Scott: A year . Maybe _ five _ . It 's hard to keep track without a watch .
+David Rossi: Then let me help you .
+Harrison Scott: If I had wanted your help , I would have asked for it .
+output: ",year
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: John Garrett:  ( Finds two co - workers murdered ) All right , do n't try and tell me that some God damn poisoned corn did this . Now you level with me ... what in the fuck is going on here ?
+Frank Redbear: Einstein was right . We did n't evolve out of random chance . There is a higher power controlling all of this . My ancestors believed in a God of the earth , a God who seeks revenge for the wrongs done to the earth . This is what 's happened .
+John Garrett: Bullshit ! That 's your answer ? That God did this ? That God 's pissed ?
+Frank Redbear: You 've got a better _ one _ ?
+output: ",answer
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Soames Forsyte:  I ca n't abide foreigners .
+Annette Forsyte née Lamotte: Then why did you marry _ one _ ?
+output: ",foreigners
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Penelope Garcia:  Now , going backwards there is nothing particular compelling about either of their graves , but holy cow everything before it is ! So , so gather around the campfire my friends because this _ one _ is quite the story !
+output: ",story
+"Definition: In this task, you will use your knowledge about language (and common sense) to determine what element the marked number refers to. The numbers are marked with two underlines around them, like: _ number _. Your answer should be chosen from the given text, and should not contain other words.
+Positive example 1-
+input: Jess Mastriani: No, I don't want another crooler, thank you very much.
+ FBI Agent Nicole Scott: But it's good for you. It's got... honeyglaze. Please die for this crooler, Jess.
+ Jess Mastriani: I've had _ two _ already. Who eats three croolers in a night? 
+FBI Agent Nicole Scott: Take a look. [Nicole takes a huge bite] Mmmmm, Mmmmm, Mmmmm!
+output: crooler
+Positive example 2-
+input: Susan Ivanova:  Another lesson ?
+Captain John Sheridan: Uh - huh .
+Susan Ivanova: What was this _ one _ about ?
+Captain John Sheridan: Uh ... Beauty ... In the dark ...
+Susan Ivanova: Well ... They must be working . You 're beginning to sound just like a Vorlon .
+output: lesson
+Now complete the following example-
+input: Special Agent Leroy Jethro Gibbs:  She knew she was pregnant . Any idea about the father ?
+Special Agent Anthony DiNozzo: She used a pay phone to call him , but his cell was turned off . She said she left a message .
+Agent Caitlin 'Kate' Todd: That 's your worst nightmare , Tony .
+Special Agent Anthony DiNozzo: So , how 's it going with those letters , Kate ?
+Agent Caitlin 'Kate' Todd: I 'm working on it . Thanks , Tony .
+Special Agent Leroy Jethro Gibbs: How long ?
+Agent Caitlin 'Kate' Todd: Two days , three tops .
+Special Agent Leroy Jethro Gibbs: You 've got _ four _ .
+Agent Caitlin 'Kate' Todd: Really ?
+Special Agent Leroy Jethro Gibbs: Hours .
+Agent Caitlin 'Kate' Todd: Sounds about right .
+output: ",days

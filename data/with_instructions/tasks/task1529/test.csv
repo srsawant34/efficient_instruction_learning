@@ -1,0 +1,1301 @@
+input,output
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: As threats to bird populations grow and extinctions continue, historical specimens are valuable in documenting the impacts of human activities and causes of decline for threatened species. 
+ Hypothesis: Around 1200 species of birds are currently at risk of extinction due to human activity.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: The hagfish has no cerebrum  or cerebellum, no jaws and no stomach, and its skeleton is made up by cartilage  instead of bones. 
+ Hypothesis: Hagfishes have a skull made of cartilage.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Have the program adjust the digits to a five digit number. 
+ Hypothesis: Primates have five digits on each extremity.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: A calorie is a unit used to measure energy. 
+ Hypothesis: Another unit of energy, used widely in the health professions and everyday life, is calorie ( cal )?
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: VOLATILE ORGANIC COMPOUND (VOC) is any compound of carbon, excluding carbon monoxide, carbon dioxide, carbonic acid, metallic carbides, carbonates, methane, and the exempt compounds. 
+ Hypothesis: Binary compounds of carbon with less electronegative elements are called carbides.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: 30 Humans have 23 pairs of chromosomes; 
+ Hypothesis: Humans have 23 pairs pairs of chromosomes.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: He had many bone fractures and injuries in his four limbs. 
+ Hypothesis: Birds have four limbs.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: The sun is the ultimate source of energy in most ecosystems and for almost all living things. 
+ Hypothesis: Most of the energy used by living things comes either directly or indirectly from the sun.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Gut flora produce compounds such as indole, skatole, and thiols (sulfur-containing compounds), as well as the inorganic gas hydrogen sulfide. 
+ Hypothesis: Hydrogen sulfide is a noxious and toxic gas produced from decaying organic matter that contains sulfur.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Like fish and amphibians, reptiles are ectothermic animals, which is to say that they produce very little metabolic heat and their body temperature depends essentially on that of the environment. 
+ Hypothesis: Reptiles are described by the term ectothermic, which means their internal temperature depends on the temperature of their environment.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: However, when ketones form, the blood becomes quite acidic and various organs such as kidney, heart, and brain are affected by blood acidity. 
+ Hypothesis: In humans, the heart is the first organ to form and become functional.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: An ORGAN is a discrete structure that performs specific functions and is composed of at least 2 tissue types. 
+ Hypothesis: A(n) organ is a structure that is composed of one or more types of tissues.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: To get started, develop a 4-8-week plan with your healthcare professional. 
+ Hypothesis: By 8 weeks, all major organs start developing.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: To cut down on loss from evaporation, water in the evening or early morning. 
+ Hypothesis: Watering plants and grass in the early morning is a way to conserve water because smaller amounts of water evaporate in the cool morning.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: The pre-embryo may divide several times while in the incubator. 
+ Hypothesis: Bacteria may divide several times an hour.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Solids Solids are the only phase in which matter has a definite shape and a definite volume. 
+ Hypothesis: A definite shape and a definite volume are properties of the solid, only state(s) of matter.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: There are some reptiles, such as the boa constrictor and komodo dragon that can reproduce both sexually and asexually, depending on whether a mate is available. 
+ Hypothesis: Reptiles typically reproduce sexually.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Organic compounds which contain both a carboxylic acid group and an amine group on the same molecule are called amino acids. 
+ Hypothesis: Amino acids contain both a carboxylic acid group and a(n) amine group.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: On each hand there are four clawed digits and the third clawed digit is the longest; however, the feet have five claws. 
+ Hypothesis: Primates have five digits on each extremity.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Base- A substance that gives a pH &gt; 7 when added to water. 
+ Hypothesis: If a substance has a ph value greater than 7,that indicates that it is base.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Experts believe that much of this increase is due to people's greater exposure to the sun's ultraviolet radiation, which can cause misspellings in DNA and, as a result, damage skin cells. 
+ Hypothesis: Exposure to ultraviolet radiation can increase the amount of pigment in the skin and make it appear darker.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Most carbon atoms in the world have six protons and six neutrons in their nucleus. 
+ Hypothesis: All carbon atoms have six protons.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Supplemental water applications benefit the tree during periods of drought. 
+ Hypothesis: Because trees add water vapor to air, cutting down forests leads to longer periods of drought.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: pH is the measure of hydrogen ions concentration. 
+ Hypothesis: The concentration of the hydrogen ion in a solution can be calculated when the ph is known.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: All matter is composed of all four elements but, where one element predominates, then a substance can be said to be solid, or liquid, etc. 
+ Hypothesis: Elements are pure substances that make up all matter.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: The gallbladder is a hollow organ that sits just beneath the right lobe of the liver. 
+ Hypothesis: The gallbladder is near the right lobe of the liver.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Because CO2 absorbs energy emitted from the Earth and prevents it from going back out into space, it is called a greenhouse gas. 
+ Hypothesis: Gases such as co2 and methane can trap thermal energy in earth's atmosphere before radiating it into space.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: (Formic acid is the poison found in the > sting of fire ants.) 
+ Hypothesis: Formic acid is found in the secretions of stinging ants.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: PSc.2.1.1 Classify matter as: homogeneous or heterogeneous; pure substance or mixture; element or compound; metals, nonmetals, or metalloids; solution, colloid, or suspension. 
+ Hypothesis: Elements are pure substances that make up all matter.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Water in the morning  to minimize evaporation. 
+ Hypothesis: Watering plants and grass in the early morning is a way to conserve water because smaller amounts of water evaporate in the cool morning.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: For example, one of the more common methods involves digestion of the DNA template using RNase-free DNase I, followed by gel filtration to remove unincorporated nucleotides, and then phenol extraction to remove proteins and ethanol precipitation to concentrate the RNA. 
+ Hypothesis: Deletions remove one or more nucleotides from the dna
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: To understand our changing seasons, follow Earth's path around the sun for one complete orbit (i.e., one year). 
+ Hypothesis: It takes about one year for earth to orbit the sun.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Similarly, if ideal gas molecules collide, the collisions are elastic, so no kinetic energy is lost. 
+ Hypothesis: Because collisions are elastic, energy can be transferred between molecules during them
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Front- The boundary or transition zone between two different air masses. 
+ Hypothesis: In weather terms, the boundary between two air masses is called front.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Now good-hearted Charlie, a mentally challenged bakery worker with an IQ of 68, becomes the first human to undergo the experimental procedure. 
+ Hypothesis: In humans, the heart is the first organ to form and become functional.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Index Ozone is a gaseous molecule consisting of three atoms of oxygen (O3). 
+ Hypothesis: Three oxygen ions make up an ozone molecule.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: The result was that only ten percent of the carbon dioxide was removed as compared to the expected amount for how much iron sulfate was added. 
+ Hypothesis: During the early paleozoic, the amount of carbon dioxide in the atmosphere was much greater compared to today.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Cells propagate by repeating these four phases and this 4-phase cycle is called 'Cell Cycle'. 
+ Hypothesis: Cells have four cycles.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Select a producer and a consumer from this food chain. 
+ Hypothesis: Food chains carry energy from producers to consumers.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: All cells need energy to carry out their functions, such as making proteins and transporting substances into and out of the cell. 
+ Hypothesis: All cells share the characteristic that they need energy.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Samples of matter exist either as pure substances or as mixtures of pure substances. 
+ Hypothesis: Elements are pure substances that make up all matter.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Fluorescence of a substance is seen when the molecule is exposed to a specific wavelength of light (excitation wavelength or spectrum) and the light it emits ( the emission wavelength or spectrum) is always of a higher wavelength. 
+ Hypothesis: When exposed to ultraviolet, some substances, such as minerals, glow in characteristic visible wavelengths, in a process called fluorescence.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Increase volume by fifth of maximum amount. 
+ Hypothesis: From observations as simple as blowing up a balloon, it is clear that increasing the amount of gas increases the volume.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Thus a stable element such as Carbon has a nucleus with six protons and six neutrons which may be written as 12 6 C or simply 12 C. 
+ Hypothesis: Carbon atoms have six neutrons as well as six protons.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: motile cells with a single posterior whiplash flagellum ...................................................................CHYTRIDIOMYCOTA 1. 
+ Hypothesis: In humans, the sperm cell is the only cell with the  flagella structure that enables motility.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: In each pollen grain the wall thickens and forms an inner layer (the intine) and an often highly sculptured outer layer (the exine). 
+ Hypothesis: Each pollen grain has two coverings: the exine (thicker, outer layer) and the intine.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: The fields of specialization such as Physical Chemistry, Condensed Matter Physics, Materials Chemistry, Materials Science and Energy Chemical Engineering are included in the curriculum. 
+ Hypothesis: Chemistry and physics are fields in physical.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: The diploid human genome consists of 46 chromosomes , 22 pairs of autosomes, and one pair of sex chromosomes (the X and Y chromosomes ). 
+ Hypothesis: There are 46 chromosomes chromosomes in a diploid human cell.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: The P1 radiators dispose of thermal energy into space to maintain thermal conditioning for the ISS. 
+ Hypothesis: Gases such as co2 and methane can trap thermal energy in earth's atmosphere before radiating it into space.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Metabolism is simply the sum of all the chemical reactions taking place in a living system. 
+ Hypothesis: The sum of all chemical reactions that take place within an organism is known as metabolism.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: If it is the right species of fish, the larvae stay on. 
+ Hypothesis: Fish hatch into larvae that are different from the adult form of species.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Nonvascular plants Division Bryophyta Mosses, liverworts, hornworts make up this division of plants. 
+ Hypothesis: Moss is best classified as a nonvascular plant.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Case selection was an important factor in this research. 
+ Hypothesis: Community interactions are important factors in natural selection.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: The six known leptons are the electron, the muon, the tau lepton, and their respective neutrinos. 
+ Hypothesis: There are six types of leptons.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Animal communications; 
+ Hypothesis: For social animals, communication essential.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Calories measure the amount of energy stored in a food. 
+ Hypothesis: A calorie is used to express the amount of energy in food.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: 40 solenoid and iron filings A solenoid is wound through a peice of plexiglass for use with iron filings on the overhead projector. 
+ Hypothesis: An electormagnet is a piece of iron inside a solenoid.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: NItrogen, and the other atoms in that column have 5 valence electrons. 
+ Hypothesis: Nitrogen has 5 valence electrons.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Many articles are protected by all four types of iprs. 
+ Hypothesis: There are four types of bosons.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Mammal ears are relatively complex, the middle ear containing three bones, as opposed to only one bone in the middle ear of reptiles and birds. 
+ Hypothesis: The mammalian middle ear has three bones.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Competition is growing -- 
+ Hypothesis: As the population grows, competition for food grows.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: As mentioned on p. 183 Hydrogen is the most abundant element. 
+ Hypothesis: The element hydrogen is the most abundant in the universe.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: The square shape of the tube also symbolically indicates material-centered consciousness. 
+ Hypothesis: In a pedigree chart the squares shape symbolizes males.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Every atom of hydrogen, for example, has one proton, and every atom of carbon has six protons. 
+ Hypothesis: All carbon atoms have six protons.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: When a silver ion receives an electron from an anion during cooling of a saturated solution, the ion becomes a silver atom. 
+ Hypothesis: Electrons always result in an anion that is larger than the parent atom.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: PH is the measure of hydrogen ions in solutions. 
+ Hypothesis: The concentration of the hydrogen ion in a solution can be calculated when the ph is known.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: While soft corals also grow in colonies, they do not form reefs like hard coral. 
+ Hypothesis: Corals build hard exoskeletons that grow to become coral reefs.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Blood is composed of plasma, water and cellular components (red blood cells, white blood cells and platelets). 
+ Hypothesis: Blood is made up of red blood cells, white blood cells, platelets, and plasma.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: On sugar, red, and other maples, large, irregular brownish  areas between and along veins occur with symptoms similar to physiological leaf scorch. 
+ Hypothesis: Leaves export sugar to roots and other nonphotosynthetic parts of the plant through the veins.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: there was a big fight over who discovered it first) Neptune is the eighth planet from the Sun. 
+ Hypothesis: The eighth planet from our sun is neptune.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: In this climate zone, summers are cool, and winters are cool, but not cold, and there is little frozen precipitation at lower elevations. 
+ Hypothesis: Exemplified by canada and alaska, a subarctic climate has cool, short summers and long, cold winters, little precipitation, and abundant conifers.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: THIS IS THE END OF MEIOSIS II CYTOKINESIS II-----this involves division of the cytoplasm to get two cells. 
+ Hypothesis: Cytokinesis divides the cytoplasm into two distinctive cells.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: BioGeoChemical Cycles. 
+ Hypothesis: Chemical elements and water are recycled through the biogeochemical cycle.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: A worker bee returns to the hive and signals to other workers the range and direction relative to the sun of the food source by means of a waggle dance. 
+ Hypothesis: A bee will sometimes do a dance to tell other bees in the hive where to find food.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Product reviews by consumers such as you can save someone else money, time and energy and will serve as a message to equestrian products manufacturers on ways to improve their products to better serve horse enthusiasts. 
+ Hypothesis: Electrical energy consumed can be expressed as the product of power multiplied by time.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Reptiles also have scaly skin and a three chambered heart. 
+ Hypothesis: There are three chambers in a reptiles heart.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: This reaction also may not break bonds to the chiral center. 
+ Hypothesis: Catabolic reactions involve breaking bonds.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: The main function of the carbohydrates is eventual conversion to an energy source in the form of glucose, the primary energy source for all cells in the body. 
+ Hypothesis: All cells need glucose for energy.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Earth represents the solid state of matter. 
+ Hypothesis: Water exists on earth in three matter states states.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Blood first enters the heart at the right atrium, which then empties blood into the right ventricle, which pumps the blood into the lungs through the pulmonary artery to get oxygen. 
+ Hypothesis: Blood from the body enters right atrium of the heart before it is pumped to the right ventricle and then to the lungs.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Loop Flow -- terminology indicating that electricity does not follow the traditional contract path, but rather flows over several different transmission paths in an inverse relationship to electrical resistance in each line. 
+ Hypothesis: Because charges must have an unbroken path to follow, electric current cannot flow through a material unless it forms a closed loop.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: The two types of crust also differ in thickness, with continental crust being considerably thicker than oceanic (35 km vs. 6 km). 
+ Hypothesis: The earth's continental crust, on average, is 35 kilometers thick.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: May divide time between several homes, working on hourly or daily basis. 
+ Hypothesis: Bacteria may divide several times an hour.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Others, who perhaps should know better, fail to recognize the distinction between the lovely five-leafed Virginia creeper and the three-leafed poison ivy. 
+ Hypothesis: Poison ivy typically has three groups of leaves.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: According to nuclear scientists, this can be as long as ten thousand to a hundred thousand years. 
+ Hypothesis: The long-lived isotopes require thousands of years to decay to a safe level in a nuclear reactor.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: The basic function of the cell membrane is to serve as a selective barrier that regulates the passage of certain materials in and out of the cell. 
+ Hypothesis: A cell's membrane provides a barrier to keep extracellular materials from mixing with its internal components.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Within the mitochondrion two complexes exist with beta barrels serving as the pore forming subunit, Tom40 of the Translocase of the outer membrane, and Sam50 of the Sorting and assembly machinery. 
+ Hypothesis: Two membranes form the mitochondrion structure of a cell.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Seismologists study the location and force of earthquakes and trace the behavior of earthquake waves to interpret the structure of the Earth. 
+ Hypothesis: Studies of earthquake waves have helped scientists determine the structure of earth's interior.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: The roots of the trees then intermingle with the root of the bushes, taking up more and more of the space and the soil nutrients, and the leaves of the trees catch the sunlight, leaving less and less sunlight for the lower growing bushes. 
+ Hypothesis: Gravitropism ensures that roots grow into the soil and that shoots grow toward sunlight.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Carbon's four valence electrons then half-fill each of the four orbitals. 
+ Hypothesis: Carbon has four valence electrons .
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Humans may potentially transmit Avian Influenza to animal and bird species, although the risk is moderate to low. 
+ Hypothesis: Around 1200 species of birds are currently at risk of extinction due to human activity.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: This oxygen is transferred from the lungs into the bloodstream and it is responsible for the transfer of heat throughout the body. 
+ Hypothesis: Diaphragm, lungs, and trachea take air deep into the body and provide oxygen gas to the bloodstream.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: protein synthesis and gene regulation; 
+ Hypothesis: Gene expression and protein synthesis are usually considered the same molecular process.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: In a neutral atom the number of protons is equal to the number of electrons. 
+ Hypothesis: Because atoms have equal numbers of positive protons and negative electrons, they possess a neutral charge.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: This organic material represents a rich food source for heterotrophic bacteria in the system. 
+ Hypothesis: Because all animals require an external source of food, they are called heterotrophic.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Two Types of Diabetes There are two main types of diabetes, Type 1 and Type 2. 
+ Hypothesis: There are two different main types of diabetes.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: This means that the behavior is not innate. 
+ Hypothesis: Behaviors that are closely controlled by genes and have little to no environmental influence are called innate behaviors.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: The gametophyte produces haploid gametes by mitosis cell division, which unite to form diploid zygote that develops into a sporophyte. 
+ Hypothesis: The haploid gametophyte produces gametes through mitosis.
+output: ",entails
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: Again, the normal mailing cycle  for the bureau is about every four to six weeks. 
+ Hypothesis: There are four to six weeks are in the life cycle of ladybugs.
+output: ",neutral
+"Definition: You are given two sentences. You have to find if there is entailment or agreement of the Hypothesis by the Premise. From the given pair of sentences, you should identify if there is enough information in the Premise to support the claim made in the Hypothesis. The Premise may not exactly be the same as Hypothesis. Your task is to return 'entails' if the premise supports hypothesis else return 'neutral'.
+Positive example 1-
+input: Premise: Lyme Disease is caused by a bacterium that's transmitted by tick bite, but many infected people don't remember a bite. 
+ Hypothesis: Lyme disease is caused by bacteria.
+output: entails
+Positive example 2-
+input: Premise: Corolla Collective term for all the petals of a flower, these petals may be separate or fused together. 
+ Hypothesis: All of the petals together are called a corolla.
+output: entails
+Now complete the following example-
+input: Premise: It is thought that chloroplasts , the bodies in plant cells that do  photosynthesis , were once small independent cells. 
+ Hypothesis: Photosynthesis occurs in the chloroplast.
+output: ",entails

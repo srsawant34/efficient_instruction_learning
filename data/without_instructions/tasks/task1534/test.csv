@@ -1,0 +1,935 @@
+input,output
+"input:  Person1:     I am glad to meet you , Mr.Joey .  
+ Person2:  Hello , Mr . lie . I would like to discuss with you the feasibilities of establishing a joint venture with your company .  
+ Person1:      That is excellent , your investment proposal is a wise decision . May I have some idea of your suggestion ?  
+ Person2:  I suggest that we set up a board of directors for the management of the company and share rights and obligations as equal . That is very important . 
+output: ",0
+"input:  Person1:     Excuse me . What time does the next bus for Boston leave ?  
+ Person2:  It leaves at 8: 30 .  
+ Person1:      I see . Are there any seats available ?  
+ Person2:  Just a moment , please . Yes , you can have a seat .  
+ Person1:      Good . How much is a one-way ticket ?  
+ Person2:  It's 38 dollars .  
+ Person1:      All right . Here's 40 dollars .  
+ Person2:  Here's your ticket and change .  
+ Person1:      Thank you . Which gate should I go to for the bus ?  
+ Person2:  Go to gate number 2 , please .  
+ Person1:      Thank you very much .  
+ Person2:  Don't mention it . 
+output: ",1
+"input:  Person1:     Thanks for helping me up .  
+ Person2:  Are you OK ? I didn't mean to put you in danger .  
+ Person1:      I'm the hazardous one here . I made three people fall over !  
+ Person2:  That takes talent ...  
+ Person1:      I'm so humiliated ! What's that man saying ? Everyone's laughing !  
+ Person2:  He said you obviously prefer Greek comedies to Greek tragedies . 
+output: ",0
+"input:  Person1:     Are you a smoker ?  
+ Person2:  Yes , I ’ m afraid I am . My husband is a smoker too .  
+ Person1:      Would you describe yourself as being a heavy smoker ?  
+ Person2:  No . But my husband smokes 20 or more a day .  
+ Person1:      When did you begin to smoke ?  
+ Person2:  I had my first cigarette when I was 17 .  
+ Person1:      Might I ask if you have tried to give up smoking ?  
+ Person2:  Yes . Twice . 
+output: ",1
+"input:  Person1:     Look at that pretty girl .  
+ Person2:  Wow ! She's gorgeous . 
+output: ",0
+"input:  Person1:     What's up ? You look depressed .  
+ Person2:  I just had a quarrel with him .  
+ Person1:      Would you rather I taught him a lesson for you ?  
+ Person2:  No , thanks . 
+output: ",1
+"input:  Person1:     I think Andy's party will be fun .  
+ Person2:  Yeah , I think so . Oh , by the way , I need to ask you something .  
+ Person1:      What's that ?  
+ Person2:  Could I get back the sweater you borrowed ?  
+ Person1:      Sure . Oh , that reminds me . Could I borrow your black leather boots ?  
+ Person2:  My boots ? Er ... Sure , ok . 
+output: ",0
+"input:  Person1:     Have you ever thought about Tom ’ s attitude ?  
+ Person2:  I ’ Ve cut it up and come to the conclusion that hi is actually sick of Jenny ’ s brother . But he likes Jenny . She is a big apple in his eye .  
+ Person1:      Love me , love my dog . He ’ s a sensible kind man .  
+ Person2:  That ’ s why many people look up to him . 
+output: ",1
+"input:  Person1:     Hi , Mary , it ’ s been a long time  
+ Person2:  Hello , my old friend . Long time no see . How are you doing ?  
+ Person1:      Well , I ’ m doing okay . And how about yourself ?  
+ Person2:  Not so well . To be honest with you , I broke up with Tom .  
+ Person1:      Oh . I ’ m sorry to hear that . What happened ? 
+output: ",0
+"input:  Person1:     Do you have any idea what time it is ?  
+ Person2:  My bad . I didn't realize that it was so late .  
+ Person1:      Do you really think that that excuses your tardiness ?  
+ Person2:  Of course not . I really did lose track of time .  
+ Person1:      Didn't I tell you to call when you're running late ?  
+ Person2:  Yeah , you did . I just forgot to call .  
+ Person1:      It doesn't matter , you should have called and let me know .  
+ Person2:  That's true . My bad for not calling .  
+ Person1:      If you do this again , don't even bother coming home .  
+ Person2:  You're going to kick me out over this ?  
+ Person1:      Exactly , maybe that'll teach you to respect my rules .  
+ Person2:  Well , if I'm not living here anymore , then I won't have to listen to your rules . 
+output: ",1
+"input:  Person1:     I'd like to order broadband internet for my laptop .  
+ Person2:  Just plug the Ethernet cable into your computer , and a prompt will tell you the payment options .  
+ Person1:      Well , I don't have an Ethernet port . My computer runs entirely on wireless service .  
+ Person2:  That's too bad . But there are several alternatives , if you want to hear them .  
+ Person1:      Yes , please ! Tell me about the alternatives .  
+ Person2:  We run a fully equipped computer lab on the first floor .  
+ Person1:      Very good . How much does that cost ?  
+ Person2:  The service is free to hotel patrons . However , printing costs ten cents per page .  
+ Person1:      I see . And the other alternatives ?  
+ Person2:  Alternatively , we do offer wireless in our lobby . You can bring your laptop down here .  
+ Person1:      Great ! What if I need to print something in the lobby ?  
+ Person2:  You would have to use the computer lab . I'm sorry for the inconvenience . 
+output: ",0
+"input:  Person1:     How are your wedding plans going ?  
+ Person2:  Very well . We started organizing everything early to avoid a last minute rush to get things done .  
+ Person1:      When will your wedding take place ?  
+ Person2:  At ten o'clock on the morning of next Sunday . We have invited all our relatives to the wedding .  
+ Person1:      It will be a large church one . Is your wedding dress ready ?  
+ Person2:  Yes , its design is very elaborate and the designer took many weeks to make it .  
+ Person1:      You will be very beautiful on your wedding day .  
+ Person2:  Thank you !  
+ Person1:      Which hotel will the reception be held at ?  
+ Person2:  The Palace Hotel .  
+ Person1:      It's excellent . A friend of mine had her wedding reception there and said it was perfect , though very expensive .  
+ Person2:  It will be expensive , but we think it will be worth .  
+ Person1:      I think you made the right decision . 
+output: ",1
+"input:  Person1:     Have a nice Thanksgiving ! 
+ Person2:  The same to you ! 
+ Person1:      Are you going anywhere ? 
+ Person2:  I thought about going to my sister's . How about you ? 
+ Person1:      Oh , I'll probably just stay at home . 
+output: ",0
+"input:  Person1:     How much do you pay wholesale for your products ?  
+ Person2:  We have a few different wholesale vendors , so our cost varies a bit over the fiscal year . But the difference is miniscule , a fluctuation of about 0.2 % .  
+ Person1:      That must impact your bottom line at least a little bit , doesn't it ? After all , your sticker price is pretty much set in stone . How much do they go for retail ?  
+ Person2:  Retail price is 29.95 per unit . We take into consideration changes in supply cost when figuring this price .  
+ Person1:      Is that including tax ?  
+ Person2:  No , that's the price before tax . The tax rate is varies from different marketing areas , so it is difficult for us to figure in .  
+ Person1:      How much is your profit margin then ?  
+ Person2:  Our profit margin is in the neighborhood of 20 % . 
+output: ",1
+"input:  Person1:     I think I'll write a book .  
+ Person2:  What about ?  
+ Person1:      All of the time tested healthy habits from around the world .  
+ Person2:  You have done a lot of traveling . I'll bet you've learned quite a bit .  
+ Person1:      The interesting thing is to see what really works and what's just hype .  
+ Person2:  Because you can see the results with the general public ?  
+ Person1:      That's right . I think we all have much we can learn from each other .  
+ Person2:  I would buy that kind of book ! 
+output: ",0
+"input:  Person1:     Hi , Mr . James , what ’ s the rush ?  
+ Person2:  The bank closes in 30 minutes and I need to cash a check .  
+ Person1:      I can lend you some money .  
+ Person2:  Thanks . But it ’ s necessary for me to buy a TV set .  
+ Person1:      Can I help you in anyway ?  
+ Person2:  You can take me to the bank if you want to .  
+ Person1:      Sure . Let ’ s go . 
+output: ",1
+"input:  Person1:     The stepmother was very wicked . She couldn't stand a happy smile on the boy's face .  
+ Person2:  And ?  
+ Person1:      And she did her best to pull out the thorn in her flesh and the boy lost whatever made him happy .  
+ Person2:  Poor child ! 
+output: ",0
+"input:  Person1:     So Vicky , how long have you held your present position ?  
+ Person2:  I ’ Ve been a secretary for two years , before that I was at university .  
+ Person1:      And how do you like working for IBM ?  
+ Person2:  It ’ s challenging , I feel I have learned a lot .  
+ Person1:      What ’ s strength do you bring to the job ?  
+ Person2:  I get along well with people , and I enjoy working with others .  
+ Person1:      That ’ s good . We always need team players here . 
+output: ",1
+"input:  Person1:     The show will be starting in a few minutes . We'd better go in and find our seats .  
+ Person2:  Number 7 and 9 of the Row 11 in the stalls , aren't they ?  
+ Person1:      That's right . This entrance is for even numbers . That entrance over there is for odd numbers . Let's go over there .  
+ Person2:  What a nice theatre ! I guess it can seat hundreds of people .  
+ Person1:      Maybe you are right .  
+ Person2:  Look . It's begin .  
+ Person1:      Well , how did you like the show ?  
+ Person2:  It's so interesting , I like it very much . 
+output: ",0
+"input:  Person1:     You see that chick over there ?  
+ Person2:  The one in the red shirt ?  
+ Person1:      Yeah . Isn't she hot ?  
+ Person2:  She's alright .  
+ Person1:      Just alright ? ! ? She's hot !  
+ Person2:  Why don't you go talk to her ?  
+ Person1:      You think she's out of my league ?  
+ Person2:  Hell no ! You're just a chicken that's all .  
+ Person1:      C'mon . I get nervous when I talk to girls .  
+ Person2:  Why don't you go stand next to her for a while and if an opportunity comes up , strike a conversation .  
+ Person1:      What do I talk about ?  
+ Person2:  It doesn't matter . You gotta find what she's interested in and go with that .  
+ Person1:      I don't know ...  
+ Person2:  Do you want me to go talk to her ?  
+ Person1:      No . Stay away from her .  
+ Person2:  If you don't do anything , I'll bet somebody else will .  
+ Person1:      Ok already . I'll try . 
+output: ",1
+"input:  Person1:     I spend all my time looking after my baby . I'm so tired .  
+ Person2:  Why don't you ask your husband to help you with it ?  
+ Person1:      I've tried it , but he would have none of it . 
+output: ",0
+"input:  Person1:     Guess what ? Paul and Susan are engaged .  
+ Person2:  Really ? When did that happen ?  
+ Person1:      A week ago ? They met last summer and now just sink . They will be married soon .  
+ Person2:  Have they set a date for the wedding ?  
+ Person1:      No , not yet . But Susan says they ’ d like to get married in November or December . Then they ’ ll go to Hawaii for their honeymoon . 
+output: ",1
+"input:  Person1:     Don't be too sad . If you really think that you have no feeling with him , then , in my opinion , getting divorced maybe is the best way to solve the problem .  
+ Person2:  I know clearly at the bottom of my heart . I just can't set my mind at rest because of the child . She's little . She cannot understand us and accept such truth .  
+ Person1:      Yeah , child is the matter . Don't tell Jenny the truth , only tell her the white lie . When she grows up , you find the suitable opportunity to tell her .  
+ Person2:  I see . OK . 
+output: ",0
+"input:  Person1:     So do you believe in palmistry ?  
+ Person2:  Palmistry ? What is that ?  
+ Person1:      It's when someone takes a look at another person's palm 4 to tell the future .  
+ Person2:  Oh , you mean palm reading 5 . I've seen that before , but I don't believe in it .  
+ Person1:      Are you sure ? I've read a lot about palmistry and I've been able to tell a lot of accurate things about a person from his palm . Do you want me to take a look at your hand ?  
+ Person2:  Really ? You've read books about it ? Ok , then . But only if you want to .  
+ Person1:      Ok , let's see , well , you've got a long life line , which is good , and the love line is strong ...  
+ Person2:  What else do you see ? Will I be successful ? Will I make a lot of money ?  
+ Person1:      Hmm , hard to say , wait , yes , it looks like you will do well in business , and your ambition will help you a lot , but ...  
+ Person2:  What ? What is it ? What's the matter ?  
+ Person1:      You seem to have a large gullibility line . You believe everything that you're told .  
+ Person2:  Hey ! 
+output: ",1
+"input:  Person1:     Whose handset sounds so beautiful  
+ Person2:  Mine . It's My Heart Will Go On , the theme song of Titanic . Isn't it of strong character ?  
+ Person1:      Are you able to compose music ?  
+ Person2:  No , not yet .  
+ Person1:      Who composed it for your ?  
+ Person2:  You needn't ask anyone . You can get on line to search for one .  
+ Person1:      Can I get on line to search one , too ?  
+ Person2:  Yeah . Web sites provide many melodies for handsets like my ERICSSON .  
+ Person1:      What about my SIEMENS ?  
+ Person2:  Numerous . It's time that everybody is particular about personality.Find one and change yours . 
+output: ",0
+"input:  Person1:     How do you think the transport system in our city could be improved ?  
+ Person2:  I think that the public transport system could be made simpler . I never know where the bus routes actually go . The routes seem to twist and turn rather than going roughly in a straight line .  
+ Person1:      I think we just need to build more roads . Then there would be more space for cars to drive and we ’ d have fewer traffic jams .  
+ Person2:  If we built more roads , people would just fill them with cars again . I think we should discourage people from using their cars .  
+ Person1:      How would you do that ?  
+ Person2:  I think we should do a few things at once . Improving public transport would encourage people to use that . If we also charge people to use their cars in the city centre , they won ’ t use their cars as much .  
+ Person1:      I don ’ t know . I think it ’ s unfair to make drivers pay more money . They already pay a lot of tax-petrol tax , for example .  
+ Person2:  I think that they should pay more tax . Look at the damage they cause to the environment and people ’ s health by discharging all those exhaust fumes .  
+ Person1:      The air would certainly be cleaner if there were fewer cars being used in the city . The problem is that people will see it as reducing their freedom . It well be unpopular .  
+ Person2:  That ’ s a good point . Car owners will probably be against it , but people who use public transport will be in favor of it . 
+output: ",1
+"input:  Person1:     I have a problem .  
+ Person2:  What's the problem ?  
+ Person1:      My mattress was supposed to be delivered today .  
+ Person2:  Is there a problem ?  
+ Person1:      The delivery people showed up four hours late .  
+ Person2:  I apologize for their tardiness .  
+ Person1:      I was late for work because of them .  
+ Person2:  Again , I do apologize for the inconvenience .  
+ Person1:      I want my money back for the delivery .  
+ Person2:  Seeing as they were late , that won't be a problem .  
+ Person1:      It shouldn't be a problem .  
+ Person2:  I'm going to refund your money right now . 
+output: ",0
+"input:  Person1:     Are you ready to go to the bank ?  
+ Person2:  Sure , what do you need to do there ?  
+ Person1:      There ’ s problem with my bank statement . There ’ s a mistake on it . I also need to withdraw some money some the ATM .  
+ Person2:  I have to exchange some money .  
+ Person1:      that ’ s right . You ’ re going away next week .  
+ Person2:  I also want to see if my salary has been paid into my bank account . There was a problem last week .  
+ Person1:      I have to pay my credit bill too . If I don ’ t pay it soon , the credit card company will charge me interest .  
+ Person2:  Their interest rates are usually quite high . It ’ s a good idea to pay off your credit card debts before they attract interest . 
+output: ",1
+"input:  Person1:     Ma , I really don't know how to thank you .  
+ Person2:  I'm glad I was able to help .  
+ Person1:      It's most kind of you .  
+ Person2:  Don't mention it . It was the least I could do .  
+ Person1:      If there's ever anything I can do for you , Don't hesitate to let me know .  
+ Person2:  Thank you .  
+ Person1:      I'm most grateful .  
+ Person2:  It was a pleasure . 
+output: ",0
+"input:  Person1:     Li Lei , can you tell me what the origin of Easter is ? 
+ Person2:  The Bible says that Jesus Christ was resurrected three days after he was crucified . People commemorate that at a festival called Easter . 
+ Person1:      Oh , then when do you celebrate Easter ? 
+ Person2:  We celebrate it on the first Sunday after a full moon on or after the 21st of March . 
+ Person1:      How do you celebrate it ? 
+ Person2:  We make a lot of Easter eggs and then paint some designs on them . We'll also go to church and pray . 
+ Person1:      That sounds interesting . 
+output: ",1
+"input:  Person1:     we'd like to rent a flat near the university .  
+ Person2:  are you looking for somewhere for two people ?  
+ Person1:      yes , we are . obviously , we'd like something as cheap as possible . we've heard that there are places for 80 to 100 pounds a month .  
+ Person2:  yes , there are several place available in that price range near the university . do you have any other requirements ?  
+ Person1:      net really , no . we'd preferably like to live in a quiet street .  
+ Person2:  how many rooms do you need in the flat ?  
+ Person1:      we'll need two bedrooms . the kitchen and dining room can be separate or combined .  
+ Person2:  ok . i've got a list of place that fit your requirements . let's just go through them . the first on the list costs 80 pounds a month , but it's on a noisy street and it's a little far from t  
+ Person1:      how far away is it from the campus ?  
+ Person2:  it's about two miles away . that might be a little far to walk . here's one that's about half a mile from the campus . the cost is 100 pounds a month and it's on a small street , just off a  
+ Person1:      that sounds ideal . can we go to have a look at it ? we'd like to see it before making a final decision .  
+ Person2:  of course . i'm not very busy at the moment . if you can wait for about 15 or 20 minutes . i can take you there .  
+ Person1:      thank you . that would be great . 
+output: ",0
+"input:  Person1:     What would you like to have in your breakfast , bread , egg or sandwiches ? 
+ Person2:  Bread . 
+ Person1:      And milk or orange juice ? 
+ Person2:  Orange juice . 
+ Person1:      What would you like for lunch , pork , mutton or beef ? 
+ Person2:  I think mutton is best . 
+ Person1:      What kind of drink do you like most , red wine , beer or champagne ? 
+ Person2:  I like champagne . 
+ Person1:      And among apples , oranges and bananas , which is your favorite ? 
+ Person2:  Banana of course . 
+ Person1:      Do you always have meals outside or in your house ? 
+ Person2:  I always have meals outside , because I ’ m not good at cooking . 
+output: ",1
+"input:  Person1:     Good afternoon , passport and arrival card please . 
+ Person2:  Here you are . 
+ Person1:      Where are you coming from ? 
+ Person2:  China . 
+ Person1:      Is this your country of birth or residence . 
+ Person2:  I just work there . 
+ Person1:      What is the purpose of your visit to the United States ? 
+ Person2:  I'm here on vacation . 
+ Person1:      How long do you plan to stay in the United States ? 
+ Person2:  Almost three weeks . 
+ Person1:      Sir , you didn't fill out the information on your arrival card of where you will be staying . 
+ Person2:  Oh , I'm sorry , but there are a couple of different places I will travel to within the United States , so I wasn't sure what to put . 
+ Person1:      You must specify an address of the place where you will spend most of your time . 
+ Person2:  Ok , here you are . 
+ Person1:      Do you have enough means to support yourself while you are here ? 
+ Person2:  Yes . I have some travellers cheques and two credit cards . 
+ Person1:      Very good . Do you have anything to declare ? 
+ Person2:  Nope . I only have my clothes and camera ! 
+ Person1:      Very well sir , welcome to the United States , enjoy your visit . 
+output: ",0
+"input:  Person1:     I ’ Ve just take out an insurance policy . Are you insured ?  
+ Person2:  Yes , I am . I have life insurance and my home and its contents are also insured .  
+ Person1:      I took out a life insurance policy and make my wife beneficiary .  
+ Person2:  That ’ s a good idea . You are a fireman and it can be a dangerous job .  
+ Person1:      I need to make sure that my wife will be financially secure if I die .  
+ Person2:  I can terminate my life insurance policy when I retire and use the money as a pension .  
+ Person1:      That ’ s one of the conditions of my policy too . It covers you if you die before you retire and when you retire .  
+ Person2:  Did you have to take a medical before you could take out the policy ?  
+ Person1:      Yes , I did . It was one of the conditions of the insurance policy . The insurance company need to assess the risk . 
+output: ",1
+"input:  Person1:     Daniel , you can't spit the gum everywhere .  
+ Person2:  Come on , just a little piece .  
+ Person1:      Do you know how many people chew gum everyday ?  
+ Person2:  I have no idea .  
+ Person1:      Just in Beijing , people consume 300,000 pieces of gum every day .  
+ Person2:  That's amazing .  
+ Person1:      If all the people spit out the gum like you , the whole world would become a big trash can .  
+ Person2:  Come on , you are making too big deal out of this .  
+ Person1:      I just want to remind you to behave yourself .  
+ Person2:  OK , dear sister , I see . This kind of thing will not happen again . 
+output: ",0
+"input:  Person1:     My goodness ! What happened ? You have blood on your face .  
+ Person2:  Oh , don't worry . I just killed a pigeon .  
+ Person1:      How could you have the heart to kill it ? We only have one !  
+ Person2:  It spoiled my painting ! 
+output: ",1
+"input:  Person1:     Would you ring these up for me here ?  
+ Person2:  I would be happy to . Did you find everything you needed ?  
+ Person1:      Yes , I did , thanks .  
+ Person2:  The total is 200 dollars . Would you like to put that on Sears card ?  
+ Person1:      No , I'll pay for it in cash . 
+output: ",0
+"input:  Person1:     Can you believe that Susan got married ? 
+ Person2:  Really ? I remember she said if she would remain single . Is the man very rich ? 
+ Person1:      No . That ’ s what is surprising me . 
+ Person2:  You means she didn ’ t marry a rich man . 
+ Person1:      He ’ s a postman . 
+ Person2:  I thought she would marry a fortune . 
+output: ",1
+"input:  Person1:     I love breathing fresh air in the suburb places , while sitting in the morning sunshine . 
+ Person2:  I can't agree more , honey . We need to get away from work from time to time . 
+ Person1:      Yeah , just return to nature and feel the thrills of its beauty . 
+ Person2:  We are nor alone here . So many other families ! 
+ Person1:      Sure . The sunny days of spring are ideal for outdoor gatherings . 
+ Person2:  Well , let's go over there and put a blanket on the lawn . 
+ Person1:      OK , you go back to our car and fetch the picnic stuff . 
+ Person2:  Oh , so heavy ! What have you put in here ? 
+ Person1:      Nothing special . Food , drinks , and Daniel's kangaroo toys . 
+ Person2:  Toys ? Why do we need toys for a picnic ? 
+ Person1:      He said he would like to be our tour director and he lined up many things to do . 
+ Person2:  Sure , then . May it really be a day of enjoyment . Other than that , we can also teach him something about science . 
+ Person1:      Science ? What are you talking about ? Forget about your science , OK ? It's a picnic ! 
+ Person2:  I mean we can inspire him for a deeper understanding of the natural world . 
+ Person1:      I can't agree on that . Just cut it out . Give him a break and don't spoil the day . 
+ Person2:  Well , OK . you are always right . 
+output: ",0
+"input:  Person1:     What companies are stockholders in this company , do you know ?  
+ Person2:  Yes , the main stockholder is International Business Machines Corporation , namely , IBM for short .  
+ Person1:      What section would you like to work in if you enter this company ?  
+ Person2:  I wish to work in the planning department .  
+ Person1:      What type of work will you expect to do at first ?  
+ Person2:  I expect to operate computers .  
+ Person1:      What are your plans for the future ?  
+ Person2:  I wish to move up to higher positions with acquisition of more experience in the future .  
+ Person1:      How long does it take to get here from your home ?  
+ Person2:  It's a twenty-minute bus ride .  
+ Person1:      How long do you think that we can depend on your working here ?  
+ Person2:  I ’ ll work here as long as you expect me to .  
+ Person1:      You are single now , but what will you do when you get married ?  
+ Person2:  I ’ Ve thought about that a lot . I know that many women take a job , planning to make a career of it , and then they change their mind . But I am hoping to make it my lifetime work . So if I get married , I will find some ways that I can continue my work .  
+ Person1:      Do you think you will want to continue working here even after you ’ Ve had a child ?  
+ Person2:  I think so .  
+ Person1:      What ideas do you have if we employ you ?  
+ Person2:  Ever since I was a young girl , I ’ Ve been clever with my hands . I ’ Ve always enjoyed doing detailed work . If I could use that ability to make your products a little better and to benefit the company , I would be happy .  
+ Person1:      Do you have any particular conditions that you would like the company to take into consideration ?  
+ Person2:  No , nothing in particular .  
+ Person1:      If you are employed by us , how are you going to do your part of the work ?  
+ Person2:  I'll first get further information about our goals , ways , counterparts and management , etc . . Then I ’ ll make my plan . And then I ’ ll go with all my effort to see it is realized .  
+ Person1:      If you fail to do your work well , what are you going to do ?  
+ Person2:  I ’ ll report it honestly . I ’ ll give a correct analysis . I may quit the job - and pay compensation . But I have my way to judge whether I fail .  
+ Person1:      What do you think if you do not have much spare time on this job ?  
+ Person2:  People are supposed to work hard within regular work time , especially when it is an important work that is highly paid for . I don ’ t mind work over spare time if it is paid for .  
+ Person1:      What are your expectations from working on this job ?  
+ Person2:  Getting more experience with a widely-known company like yours . Using my speciality in marketing and management . And getting advancement in salary and position . Show my enterprise , confidence and character in passing .  
+ Person1:      If you were choosing a person for this job , what kind of individual would you select ?  
+ Person2:  I would select the individual that has the most qualifications among all the applicants . He doesn ’ t have to be the person if we have to fill the vacancy . But he has to be the best , even if we have to pay him higher .  
+ Person1:      If we do not employ you , what are you going to do ?  
+ Person2:  I will feel it is a pity . But I will not feel so bad . I will go for other interviews until I am employed satisfactorily . Hopefully before I find another position , you will call me back . 
+output: ",1
+"input:  Person1:     Stand back from the door , please . Let the passengers off . You can't get on until the other passengers get off .  
+ Person2:  How much is the fare , please ?  
+ Person1:      One dollar . Drop it in the box . Move to the rear of the bus . There are plenty of seats in the rear .  
+ Person2:  Wait . I want to ask you if this bus goes down Fifth Avenue as far as Greenwich Village .  
+ Person1:      That's right.Move along , please.There are more people waiting to get on.Move to the rear .  
+ Person2:  I thought this bus Went down Park Avenue .  
+ Person1:      No , that's the number l that goes down Park Avenue.This is the number 2 .  
+ Person2:  But I thought this was the right bus to go to Washington Square Park .  
+ Person1:      It is.Get in.please.You ' re holding everyone up.You can't miss Washington Square Park .  
+ Person2:  Would you tell me when we get there ?  
+ Person1:      It would be better if you watched out for yourself . I might forget . 
+output: ",0
+"input:  Person1:     What did you do last night ?  
+ Person2:  I just stayed at home and watched TV .  
+ Person1:      Did you watch the Barcelona versus Madrid game ?  
+ Person2:  Yes , it was a very evenly matched game .  
+ Person1:      What were the results of the game ?  
+ Person2:  It ended in a tie .  
+ Person1:      What was the actual score ?  
+ Person2:  It was three all .  
+ Person1:      Really ? I thought Barcelona was going to win . They are a much better team than Madrid .  
+ Person2:  If Barcelona had played as they normally do , they should have won .  
+ Person1:      What happened ?  
+ Person2:  Their goalkeepers got injured after the first goal , but he kept on playing anyway .  
+ Person1:      That explains it .  
+ Person2:  How many more games are left this season ?  
+ Person1:      That was the last game before the playoffs .  
+ Person2:  When do the playoffs start ?  
+ Person1:      In a few weeks . Are you planning on watching them ?  
+ Person2:  Of course ! I really love watching football games on TV .  
+ Person1:      Me , too ! Do you want to come over and watch the next game at my place ? I'm planning on having a few people over to watch it together .  
+ Person2:  Sure , that would be great .  
+ Person1:      Ok , it's a date then ! 
+output: ",1
+"input:  Person1:     Day , I'm home . 
+ Person2:  Do you have any homework today ? 
+ Person1:      I'll do it later . 
+ Person2:  Go and do it now . 
+ Person1:      Can I have some cookies first , please ? 
+output: ",0
+"input:  Person1:     Where do you want to go ?  
+ Person2:  I am going to the Capital Hotel .  
+ Person1:      Get in . I will take you there .  
+ Person2:  About how much it will cost ?  
+ Person1:      $ 50 .  
+ Person2:  On the meter ?  
+ Person1:      Ye , of course .  
+ Person2:  OK.let ' s go . 
+output: ",1
+"input:  Person1:     Hello , 8520388 2 .  
+ Person2:  Hi , this is Maria . Is that Shirley ?  
+ Person1:      Hi , Maria , this is Shirley .  
+ Person2:  Shirley , do you know today's homework from our economic law class ? I have written it on a piece of paper but I can't find it now .  
+ Person1:      Hold on for a moment please . I'm fetching my textbook .  
+ Person2:  OK .  
+ Person1:      Oh , the homework is to explain what economic law is both in broad sense and in narrow sense .  
+ Person2:  Explain the economic law ? An essay question again ?  
+ Person1:      Yes . You can use your textbook for your reference .  
+ Person2:  Are there any clear answers in the book to this question ?  
+ Person1:      I don't think so , Maria , but I think you can look for information on the Internet .  
+ Person2:  OK , thank you , Shirley . You are very helpful . I have another question . When does the Economic Law of China come into effect ?  
+ Person1:      Oh , there isn't such a code called economic law . The Economic Law of China is a general concept for several laws .  
+ Person2:  There isn't such a code ?  
+ Person1:      Yes , it's a general name for several laws related to economics , like Commercial Law , and Law of Central Bank .  
+ Person2:  Got it . Thank you , Shirley . 
+output: ",0
+"input:  Person1:     So , who do you work for ? 
+ Person2:  I work for a large multinational company called DAK Group . We have five main area of business - construction , heavy industry , shipbuilding , motor vehicles and telecommunications . 
+ Person1:      And which side of the business do you work in ? 
+ Person2:  The motor vehicles division . I work in our Belgian factory . We manufacture components for our car production plants in Europe . 
+ Person1:      Where are DAK headquarters ? 
+ Person2:  In Seoul . But the company has operations in over fifty countries and thirty factories all over the world . 
+output: ",1
+"input:  Person1:     I hear you bought a new house in the northern suburbs .  
+ Person2:  That ’ s right , we bought it the same day we came on the market .  
+ Person1:      What kind of house is it ?  
+ Person2:  It ’ s a wonderful Spanish style .  
+ Person1:      Oh , I love the roof tiles on Spanish style houses .  
+ Person2:  And it ’ s a bargaining . A house like this in river side costs double the price .  
+ Person1:      Great , is it a two bedroom house ?  
+ Person2:  No , it has three bedrooms and three beds , and has a living room with a twelve-foot ceiling . There ’ s a two-car garage .  
+ Person1:      That ’ s a nice area too . It ’ ll be a good investment for you .  
+ Person2:  Yeas , when will you buy a house ?  
+ Person1:      Not untill the end of this year , you know , just before my wedding .  
+ Person2:  Right , congratulations .  
+ Person1:      Thank you . 
+output: ",0
+"input:  Person1:     Hey . Steven . You have a large chunk of money , but why do you still live in the old flat , instead of buying a new villa ?  
+ Person2:  I like to live here and enjoy my neighbors ' company . And I don't think I should waste money just because I have much of it .  
+ Person1:      But I found you always hate to part with your money . Look at the car you drive ; it's such a junker !  
+ Person2:  Oh , the car is old but still in good condition . I just think we should be thrifty , whether you are rich or not .  
+ Person1:      But ... But ...  
+ Person2:  But what ? Just remember that thrift is not only a great virtue , but also a great revenue .  
+ Person1:      Maybe you are right . 
+output: ",1
+"input:  Person1:     Hey , the pool's open now !  
+ Person2:  As of today it is . Memorial Day marks the end of the school year and the beginning of summer .  
+ Person1:      So it's time for the kids to get outdoors ...  
+ Person2:  ... and for us to get tans in our new bikinis .  
+ Person1:      Not this Taiwanese girl . We don't like to get suntans .  
+ Person2:  That's smart these days with all the news on skin cancer . Hey , there's everybody ! We made it ! 
+output: ",0
+"input:  Person1:     They're very good friends , aren't they ?  
+ Person2:  I wouldn't say that.They seem to be on good terms but actually they always speak ill of each other .  
+ Person1:      Oh , it's unbelievable ! 
+output: ",1
+"input:  Person1:     Awful ! My cell phone is out of service again . Fred , can you lend me some money ?  
+ Person2:  How much do you want ?  
+ Person1:      200yuan . I bought a computer online , so I have to pay the mortgage .  
+ Person2:  I am so sorry to hear that . Is that enough ?  
+ Person1:      It's so nice of you . You really make my day .  
+ Person2:  Forget it ! We seemingly need to gather money little by little .  
+ Person1:      What you said is absolutely right . I will pay you back as soon as I get back on my feet .  
+ Person2:  No rush . You can give it back whenever you have it . 
+output: ",0
+"input:  Person1:     Do you have a copy of our service contract with Telecoms ? I'm not happy with their response time and I'd like to check the terms and conditions of the contract . 
+ Person2:  Sure . I've got a copy here . It's due for renewal at the end of next month . We've still got time to look for another supplier if you're not happy . 
+output: ",1
+"input:  Person1:     Tom and Helen got married at last .  
+ Person2:  How did you know that ? I heart Tom ’ s father didn ’ t agree with that .  
+ Person1:      I was invited to attend their wedding .  
+ Person2:  It ’ s great . Although his father didn ’ t agree with that , Tom went through with it .  
+ Person1:      How moving love is . 
+output: ",0
+"input:  Person1:     Where are you from ? 
+ Person2:  I'm from Germany . 
+ Person1:      So you speak German , don't you ? 
+ Person2:  Yeah , but I can speak English , too . 
+ Person1:      Oh , I see . What other languages can you speak ? 
+ Person2:  A little French . 
+ Person1:      Good . 
+output: ",1
+"input:  Person1:     The boy threw up . 
+ Person2:  That's disgusting . 
+output: ",0
+"input:  Person1:     Are you free this Saturday evening ?  
+ Person2:  Oh , it seems there is nothing that evening .  
+ Person1:      Would you like to go to the concert with me ?  
+ Person2:  I'd like to , where ?  
+ Person1:      At our club .  
+ Person2:  When ?  
+ Person1:      At 7:30 p . m .  
+ Person2:  I'll go in time , thank you .  
+ Person1:      I'm so pleased that you can go . 
+output: ",1
+"input:  Person1:     Look , all you do is press that button and it ’ s ready to use . 
+ Person2:  Then what about the wire ? 
+ Person1:      Just make sure you never touch the wire . 
+ Person2:  So I know . Thanks . 
+output: ",0
+"input:  Person1:     What kind of movies do you like , Sue ?  
+ Person2:  I like all kinds of stuff . I admit I love romance .  
+ Person1:      Just like my wife . So , what ’ s your favorite movie ?  
+ Person2:  You mean my favorite movie of all time ? I guess I ’ d have to say pretty woman .  
+ Person1:      Yeah , my wife likes that one , too . Personally , I prefer action movies . 
+output: ",1
+"input:  Person1:     Let me tell you what happened to my homework .  
+ Person2:  OK , go ahead--what is the excuse THIS time ?  
+ Person1:      Actually , I did it , but then it got lost .  
+ Person2:  Could you have gotten it done at another time ?  
+ Person1:      Yes , I could .  
+ Person2:  You have never missed an assignment before--when will you be making this one up ?  
+ Person1:      I'll make it up early next week .  
+ Person2:  That would work , but don't let it happen again .  
+ Person1:      I'll try .  
+ Person2:  That will solve it then . Let's work hard to not let it happen again . 
+output: ",0
+"input:  Person1:     Can you name some festivals of religious nature ?  
+ Person2:  Yes , such as Christmas and Easter .  
+ Person1:      What about historic festivals ?  
+ Person2:  Thanksgiving Day , Independence Day . 
+output: ",1
+"input:  Person1:     I'll never ever work together with him !  
+ Person2:  What happened ? Quarrel again ?  
+ Person1:      Will you take my materials back from him for me ? Please !  
+ Person2:  Don't ask me . I don't wanna be involved in your quarrel . 
+output: ",0
+"input:  Person1:     Hi , Natasha , how's life ? 
+ Person2:  Great . My family came to visit me . 
+ Person1:      Oh , you must be very happy . How many people are there in your family ? 
+ Person2:  My immediate family is very large . It's my mother , my father , my two older brothers , my younger sister and me . 
+ Person1:      I have a small family . They are my parents , my younger brother and me . 
+ Person2:  I thought you were the only child in the family . Didn't China practice the only-child policy in the early 1980s ? 
+ Person1:      Yes , it did . But my parents are ethnic minority people . It's a preferential policy for an ethnic minority family to have two children . 
+ Person2:  Interesting . What do you think about families with only one child ? 
+ Person1:      The child must feel very longly . My younger brother is 10 years younger than me . Before he was born , I used to be the only child and always dreamed that I would have a younger sister or brother one day . 
+ Person2:  Do you get along well with each other ? 
+ Person1:      Yes , we are very close . He is 12 years old now and very smart . He always makes us laugh a lot . 
+ Person2:  You are very lucky to have such a nice family . 
+ Person1:      Thank you . 
+output: ",1
+"input:  Person1:     I got a promotion . Lunch is on me . 
+ Person2:  It ’ s great . 
+output: ",0
+"input:  Person1:     John's very late.Do you think he's coming ?  
+ Person2:  Well , it doesn't seem like it.He must have forgotten .  
+ Person1:      I suppose you're right.He can't have remembered . 
+output: ",1
+"input:  Person1:     Excuse me . May I take a picture of you and your little boy ?  
+ Person2:  What ’ s it for ?  
+ Person1:      It ’ s for a book .  
+ Person2:  Oh , that ’ s a nice idea . Well , it ’ s fine if you take our picture .  
+ Person1:      Thank you . I appreciate your help . 
+output: ",0
+"input:  Person1:     Is that you , Dave ? Oh , my gosh ! The backstabber who left us to work for the evil WebTracker !  
+ Person2:  Yeah , yeah , yeah . Hi , Mary . How are you ?  
+ Person1:      I'm filthy rich ! Haven't you heard about the MicroPower deal ?  
+ Person2:  Yeah , I guess I did . They're going to buy invoking ?  
+ Person1:      That's right . For seventy-five million . So how are you ?  
+ Person2:  I'm getting by OK . I heard MicroPower was going to make Zina president of their new invoking Internet division . 
+output: ",1
+"input:  Person1:     Listen , Karen , I need your help . I don't know anyone here yet .  
+ Person2:  I'm glad to help you . What's wrong ?  
+ Person1:      My mother-in-law just went into the hospital in L.A.Hank and I will be flying there tonight .  
+ Person2:  I'm sorry to hear it . What's wrong with her ?  
+ Person1:      Doctors aren't sure yet.But the real problem is Suzy . She has a bad cold , and we don't want to take her with us . But we don't know who can stay with her .  
+ Person2:  You need a babysitter .  
+ Person1:      Yes , I'd ask Jill , the girl I've had before , but I need someone overnight.Maybe even for two nights .  
+ Person2:  I could have Suzy stay at my place .  
+ Person1:      I don't want to do that to you , Karen .  
+ Person2:  Why not ?  
+ Person1:      Your own kids would get Suzy's cold . I think it would be better to have a good babysitter here . But I don't know who to ask . I need someone more mature than Jill . It might even be for two or three days .  
+ Person2:  I know who we can ask . There is a girl I know , Sara Ralston.She is 17 , and she will usually take this kind of job . I know her from my church , and I trust her completely .  
+ Person1:      I'd like to talk with her.This is short notice , I know . But Hank and I are leaving tonight .  
+ Person2:  I'll get you her number . I hope she can do it . She is very responsible .  
+ Person1:      I'm glad you know someone . I knew you would be the best person to ask about this . I don't want to insult Jill or her mother . I think Jill maybe could do it.But I'd rather have someone a little older .  
+ Person2:  I'll go home and get Sara's number . I'll call her first myself .  
+ Person1:      Great . Then call me and let me know if she's free . 
+output: ",0
+"input:  Person1:     Who's that tall guy over there ?  
+ Person2:  Oh , that's George . He looks very drunk .  
+ Person1:      What's he like normally ?  
+ Person2:  Oh , he's really reserved , normally . But , from what I hear , he's got lots of problems .  
+ Person1:      Really ? What kind of problems ?  
+ Person2:  Well , off the record , of course , but I hear that he's got terrible debts . He has his own company , and it's not going very well .  
+ Person1:      Really ? Well , I hate to say this , but I'm not surprised .  
+ Person2:  Really ? What makes you say that ?  
+ Person1:      Well , he doesn't look very honest .  
+ Person2:  I know , that's the problem . He can't find any customers . It's a pity , really , because his products are very good . Oh , that reminds me . Did I tell you about my new laptop ?  
+ Person1:      Oh , don't talk to me about laptops . Mine crashed on Friday and I lost everything . I hate them .  
+ Person2:  Oh , really ?  
+ Person1:      Look , I need another drink . Do you want one ?  
+ Person2:  Yes , I'll have another cocktail .  
+ Person1:      Vodka martini ?  
+ Person2:  Absolutely .  
+ Person1:      I'll be back in a sec .  
+ Person2:  OK . I'll wait here for you . 
+output: ",1
+"input:  Person1:     Mom , I'm starving .  
+ Person2:  Here are some biscuits . Why are you back so early today ?  
+ Person1:      My teacher had a sudden stomachache , so the class was cut shot . You ?  
+ Person2:  Me what ?  
+ Person1:      You are cooking at least two hours earlier than the usual .  
+ Person2:  It's not for us .  
+ Person1:      Then it's for Dad , isn't it ? It's so unfair !  
+ Person2:  Don't be a smarty-pants . It's for Grandma Wang .  
+ Person1:      What was that again ?  
+ Person2:  It's for Grandma Wang . She is sick and her only daughter went abroad weeks ago . So she needs our help .  
+ Person1:      I'm sorry , I didn't know that . But I wanna help .  
+ Person2:  Umm , let me think for a moment . We can meet her together after I finish cooking .  
+ Person1:      I'll get knee to knee with her .  
+ Person2:  Good boy . I can only imagine how happy she will be to see you . 
+output: ",0
+"input:  Person1:     do you need a hand ?  
+ Person2:  no , I can handle it . Thanks anyway .  
+ Person1:      are you sure you don't need any help ?  
+ Person2:  well , maybe just a little . I can't seem to make it fit .  
+ Person1:      I swear , the overhead compartments on these planes just keep getting smaller and smaller !  
+ Person2:  that's so true . thanks for your help . Are you in the aisle seat in this row ?  
+ Person1:      yes . What about you ?  
+ Person2:  I'm in the middle seat .  
+ Person1:      oh , I guess I'll let you through then .  
+ Person2:  thanks . sorry for making you get out of your seat again .  
+ Person1:      that's alright . I notice you have a few newspapers there . Would you mind lending me one ?  
+ Person2:  no , not at all . Which one would you like--the New York Times or the Guardian ?  
+ Person1:      I prefer the British paper , but I'll read whatever one you aren't going to read right away .  
+ Person2:  I was just going to do a little Sudoku while we wait for the plane to take off , so the Guardian is all yours .  
+ Person1:      thanks a lot . That's really nice of you . Would you like a piece of gum ?  
+ Person2:  that would be great . thanks . 
+output: ",1
+"input:  Person1:     Mum , I have something for you today . 
+ Person2:  What for ? 
+ Person1:      Don't you remember ? Today is March 8th . It's Women's Day . 
+ Person2:  Oh . I've really forgotten it . 
+ Person1:      Now , close your eyes . ( Mum closes her eyes and Steven puts the present in her hand . ) 
+ Person2:  A silk scarf . I love it . Thank you very much . My lovely son . 
+ Person1:      Happy Women's Day . I love you forever , Mum . 
+output: ",0
+"input:  Person1:     Wow ! What ’ s the hold up ?  
+ Person2:  It ’ s probably just people trying to get an early start out of the city for the weekend . Nobody sticks around in the summer .  
+ Person1:      Really ? Then , I guess I won ’ t have a hard time finding a room or getting a cab ?  
+ Person2:  Actually , you might because there ’ s a big convention in town this weekend .  
+ Person1:      I ’ m not too worried about it . I always seem to find something . 
+output: ",1
+"input:  Person1:     What a boring film !  
+ Person2:  The acting of the heroine is too artificial .  
+ Person1:      And the plot is so simple . 
+output: ",0
+"input:  Person1:     how are you doing ?  
+ Person2:  I'm ok . I wish I could say the same for my friend .  
+ Person1:      what happened to him ?  
+ Person2:  he was arrested by the police for drinking and driving .  
+ Person1:      was it his first offence ?  
+ Person2:  unfortunately not . He was charged with a DUI when he was in university .  
+ Person1:      what happened to him then ?  
+ Person2:  not much ; it was a minor offence back then . He got away with a fine of $ 500 .  
+ Person1:      did they take his license away ?  
+ Person2:  no , they were really easy on him . The problem is that that was a long time ago . They are much tougher on crime now .  
+ Person1:      what do you think will happen to him ?  
+ Person2:  well , he'll definitely lose his license , pay a fine , and maybe even spend some time in jail .  
+ Person1:      that doesn't sound too promising . Does he have a defence lawyer ?  
+ Person2:  not yet . If we can't find a lawyer for him , then the state will appoint him with one .  
+ Person1:      my sister is a lawyer . I can ask her if she can help him .  
+ Person2:  that'd be great ! I know he'd appreciate your help . 
+output: ",1
+"input:  Person1:     I've heard that you provide very good service , so when I need a mover , I call you guys first .  
+ Person2:  Thanks a lot for calling us . Could you tell me more about what you need us to do ?  
+ Person1:      Oh , you see , we are on the 8th floor , and moving into the 6th floor in another building . It is about 15 kilometers to get there .  
+ Person2:  OK , the cost depends on the floor to move to , the distance between two places and the amount of the furniture to move .  
+ Person1:      How much will it cost in that case ?  
+ Person2:  Oh , let me see . It fits the second standard rates . Have a look at the contract , please .  
+ Person1:      Your charge is divided into two parts , the Payment in Advance and the rest . I thought that I should pay all of it before moving .  
+ Person2:  No , firstly we sign the contract ; you pay 50 % of what it costs , and the rest when we finish moving .  
+ Person1:      The damage and compensation item confuses me . Could you give some explanation ?  
+ Person2:  OK . If any of the articles was damaged during moving , you may make a claim for compensation with our department . 
+output: ",0
+"input:  Person1:     Do you keep any pets , such as cats , dogs ?  
+ Person2:  No , I'm scared of cats .  
+ Person1:      Oh , but why ?  
+ Person2:  I feel they're dirty . 
+output: ",1
+"input:  Person1:     The weather is really miserable . It has been raining hard all day long .  
+ Person2:  Yes , it's so cold .  
+ Person1:      Do you think the rain is going to let up soon ?  
+ Person2:  Yes , I think so . The rainy season will be over soon .  
+ Person1:      How long does the rainy season last ?  
+ Person2:  About two months .  
+ Person1:      I can hardly stand these wet and cold days . It seems that it doesn't bother you very much .  
+ Person2:  I'm used to this kind of days .  
+ Person1:      But I prefer warm weather .  
+ Person2:  Spring will come soon . And we will have some pleasant weather then .  
+ Person1:      I hope so . 
+output: ",0
+"input:  Person1:     Good evening , ma'am . May I help you ?  
+ Person2:  Yes . I'd like to use a safety deposit box .  
+ Person1:      Will the object fit into this size of box ?  
+ Person2:  Let me see . I think it's OK .  
+ Person1:      Could you fill out this form , please , ma'am ?  
+ Person2:  Here you are .  
+ Person1:      Thank you , ma'am . Would you like to use it until May 20th ?  
+ Person2:  Yes .  
+ Person1:      This way , please . Your box number is 522 .  
+ Person2:  Thank you .  
+ Person1:      If you would like to use the contents during the period of use , please come here in person . After confirming your signature , we will open the box .  
+ Person2:  I see . Thank you . 
+output: ",1
+"input:  Person1:     It's hard to get tickets for the movie .  
+ Person2:  Did you get any ?  
+ Person1:      Yeah , two at the tenth rows .  
+ Person2:  How much is the ticket ?  
+ Person1:      3.5 dollars each . 
+output: ",0
+"input:  Person1:     That one looks pretty big . Are you going to keep it ? 
+ Person2:  Of course . I always keep what I catch . 
+ Person1:      Not me . I like to throw back what I catch . 
+ Person2:  If it's within the legal limit , I prefer to keep it . 
+output: ",1
+"input:  Person1:     May , we are fools to hang out at noon . It's dying hot today . My skin is too weak to be exposed under the summer sun .  
+ Person2:  Do you have any sunscreen lotion ?  
+ Person1:      You know , honey , I used it all on the way over .  
+ Person2:  I think I'm getting a heart stroke .  
+ Person1:      The heat is driving crazy and I hate my new hat .  
+ Person2:  Why ? It's brand new , and it's perfect on you .  
+ Person1:      But I bought it to get rid of the heat . Now it does nothing but burning my head .  
+ Person2:  Beauty costs , honey .  
+ Person1:      Laugh all you want , whatever . We need to get out of the heat .  
+ Person2:  Walking under the sun is certainly not the way .  
+ Person1:      Give me a break . It's not funny .  
+ Person2:  Right . Sorry . Anyway , the radio said that it'll rain later today .  
+ Person1:      Hope so ! Good thing is that autumn is just around the corner . 
+output: ",0
+"input:  Person1:     What's your favorite hobby ? 
+ Person2:  I'd like reading books best . 
+ Person1:      What kinds of books do you like to read ? 
+ Person2:  Literature and economy . 
+ Person1:      By the way , would you like to see movies ? 
+ Person2:  That's OK . 
+ Person1:      What do you do in your spare time ? 
+ Person2:  I like to play golf , play badminton or crack jokes . 
+ Person1:      I just like to sleep like a lazy cat . 
+ Person2:  That's a bad habit . 
+output: ",1
+"input:  Person1:     And we got a 50 thousand dollar ticket for construction workers peeing off the roof .  
+ Person2:  That ’ s great . Is the electrician here today ?  
+ Person1:      See , I just told you he hit a deer . Man , I knew you weren ’ t listening to me .  
+ Person2:  You ’ re right . I wasn ’ t . I hear nothing .  
+ Person1:      Nothing ?  
+ Person2:  Not a sound on the city streets , just the beat of my own heart , I think that ’ s how it goes , something like that .  
+ Person1:      You and Patricia got engaged , didn ’ t you ? You can tell me .  
+ Person2:  Engaged ?  
+ Person1:      Come on .  
+ Person2:  Are you crazy ?  
+ Person1:      What ? I thought you liked Patricia . 
+output: ",0
+"input:  Person1:     What date is it today ?  
+ Person2:  Today is December 23,2002 .  
+ Person1:      Oh , the day after tomorrow is Christmas .  
+ Person2:  Merry Christmas to you ! 
+output: ",1
+"input:  Person1:     Help ! I'm about to drop these books .  
+ Person2:  I've got them .  
+ Person1:      Thanks ! 
+output: ",0
+"input:  Person1:     May , look , what's that in the cage ?  
+ Person2:  Don't you know that ? It's panda .  
+ Person1:      Of course I know . I just can't see it very well .  
+ Person2:  OK , then put on your glasses , and do you know what does the panda eat ?  
+ Person1:      Of course , Bamboo !  
+ Person2:  That's right .  
+ Person1:      I also know they are given to other countries as gifts for friendship .  
+ Person2:  You sound quite knowledgeable .  
+ Person1:      Not really , panda is my favorite animal .  
+ Person2:  Actually , it likes milk too .  
+ Person1:      Any way , in a word , panda is our friend .  
+ Person2:  Do you know other famous animals in the world ?  
+ Person1:      Yeah , let me think , the kangaroo and koala bear from Australia are very famous .  
+ Person2:  That's right . OK , let's move on . 
+output: ",1
+"input:  Person1:     Hi , Mrs . Henderson .  
+ Person2:  Hi , Steven . Do you have time and chat with me ?  
+ Person1:      Of course I have plenty of time . What's new ?  
+ Person2:  The new couple next door divorced . Have you heard about it ?  
+ Person1:      No . The Hills ? Who filed for divorce first ?  
+ Person2:  I guess it Is Mrs Hill . She sued for divorce on the grounds of her husband's misconduct with his secretary .  
+ Person1:      Oh , maybe not . It's just your guess . Do not give currency to idle gossip .  
+ Person2:  OK . I close my mouth . 
+output: ",0
+"input:  Person1:     what's your apartment like ?  
+ Person2:  it's furnished two bedroom flat in a three-story building on campus .  
+ Person1:      what is it like living in on-campus housing ?  
+ Person2:  it's not as bad as I thought it would be . The freshmen that live nearby are really loud , especially on the weekends . But , the rent is much cheaper than private housing , so it's worth it .  
+ Person1:      did you have to pay a deposit ?  
+ Person2:  no , but we do have to pay 9 months rent in 6 months , so for the first months we pay 1/2 month's rent each month .  
+ Person1:      do you have to pay utilities on top of your monthly rent ?  
+ Person2:  no , it's all included . Besides , students don't have to pay council tax , so we're saving quite bit of money by living here .  
+ Person1:      how long is your contract for ?  
+ Person2:  that's the bad thing---the contract ends in June , so we'll have to find a new apartment soon .  
+ Person1:      have you started looking again yet ?  
+ Person2:  not yet . I'm hoping we'll be able to find something cheap once all the students leave the city for the summer .  
+ Person1:      Good luck ! 
+output: ",1
+"input:  Person1:     Mrcrabby , I ’ m pleased to see you .  
+ Person2:  I ’ Ve looked over your resume , ms.Jane . I see you ’ Ve already have quite a lot of experience in secretary work , could you tell me something about your talent with that company ?  
+ Person1:      Oh , yes , I worked there for two years , just graduated from college .  
+ Person2:  En ?  
+ Person1:      It was a good company to work for , I enjoyed my time with them .  
+ Person2:  You like that work ?  
+ Person1:      Yes , I like it very much , the work was not very demanding , and the people I work with were friendly .  
+ Person2:  Why do you want to leave the company ?  
+ Person1:      Because it is an age of challenges , I must accept the new challenge in my life . 
+output: ",0
+"input:  Person1:     Excuse me , could you tell me how much is the ticket ?  
+ Person2:  It is free on weekend .  
+ Person1:      That's great !  
+ Person2:  Here is a guiding plan . 
+output: ",1
+"input:  Person1:     Let's go to the cinema tonight , shall we ?  
+ Person2:  Good idea . Is there a good movie on ?  
+ Person1:      What about ' Farewell My Concubine ' ? I've been wanting to see it for a long time .  
+ Person2:  All right . But it'll be difficult to buy tickets I suppose .  
+ Person1:      My brother has offered me two tickets for this evening .  
+ Person2:  What time does it begin ?  
+ Person1:      At eight thirty .  
+ Person2:  I'll come for you at about eight .  
+ Person1:      OK , I'll be waiting . 
+output: ",0
+"input:  Person1:     What's wrong ? You don't like ancient Egypt ?  
+ Person2:  Actually , I don't like history . Lately , these shows are always about the Pyramids .  
+ Person1:      The Pyramids are amazing ! Millions of gigantic stones ... each one perfect ...  
+ Person2:  And nobody knows who built them , right ? It's a total mystery !  
+ Person1:      You sound like the TV ! You're not going to tell me that aliens built the Pyramids , are you ? 
+output: ",1
+"input:  Person1:     Good morning , Mr Wang .  
+ Person2:  Good morning . What time is it now ?  
+ Person1:      It's just nine o'clock .  
+ Person2:  I'm on time today  
+ Person1:      Yes , you're on time . Are you often late ?  
+ Person2:  Yes , quite often .  
+ Person1:      You must leave home earlier today .  
+ Person2:  No , I left home at 6:30 as usual .  
+ Person1:      Why are you so early today ?  
+ Person2:  Because the traffic is not crowded . 
+output: ",0
+"input:  Person1:     Well , we've settled the problems of price , quality and quantity . What mode of payment do you wish to employ ?  
+ Person2:  Irrevocable letter of credit , of course . It's the normal terms of payment in international business .  
+ Person1:      Could you adopt D / A or D / P ? You see I have to pay a deposit when I open a letter of credit . That will tie up my funds and add to the cost of my imports , especially for such a huge order .  
+ Person2:  You might consult your bank and see if you could reduce the required deposit to a minimum .  
+ Person1:      Anyhow , there would be certain bank charges . We've done business for years and you should have some faith in our credit . It would help me greatly , if you could accept D / A or D / P . It makes no difference to you , but it does to me .  
+ Person2:  Well . As you understand , the irrevocable L / C gives the exports additional protection of the banker ’ s guarantee . We always ask for L / C for our exports , and the other way around , we pay by L / C for our imports . We only accept L / C for regular orders . 
+output: ",1
+"input:  Person1:     Look at what you have done . All thumbs . 
+ Person2:  I ’ m so sorry , and I will pay much attention to it later . 
+output: ",0
+"input:  Person1:     Excuse me , are you Dr . Smith ?  
+ Person2:  Yes I am . And you ...  
+ Person1:      I'm David , Joanna's husband . She has to be at work late today . So she asked me to pick you up here .  
+ Person2:  So nice to meet you , David . Call me Bill . It's very nice of you to come here .  
+ Person1:      My pleasure . 
+output: ",1
+"input:  Person1:     Let me get last week's notes .  
+ Person2:  Yeah , sure , you didn't come to class that day ?  
+ Person1:      I couldn't come .  
+ Person2:  Why not ?  
+ Person1:      I wasn't feeling well .  
+ Person2:  Here they are .  
+ Person1:      Thanks a lot ; are these all the notes ?  
+ Person2:  Oh , no , this is the rest .  
+ Person1:      Thank you very much .  
+ Person2:  It's no problem at all . 
+output: ",0
+"input:  Person1:     Which is your preference , tea or coffee ?  
+ Person2:  My choice would always be tea .  
+ Person1:      When did you form this hobby ?  
+ Person2:  Last year when I visited China . 
+output: ",1
+"input:  Person1:     Watch out ! You're too close to the fire place .  
+ Person2:  Don't worry , but my clothes are made of leathers .  
+ Person1:      Really ? That's wonderful !  
+ Person2:  Thank you for your warning .  
+ Person1:      Not at all .  
+ Person2:  Be careful of yourself . 
+output: ",0
+"input:  Person1:     There must be something weighing on your mind . What is it ?  
+ Person2:  Dad , I lost mum's necklace . I'm afraid she will scold me .  
+ Person1:      Don ’ t worry . I'll buy a new necklace as same as the old one .  
+ Person2:  It is so kind of you , Dad . 
+output: ",1

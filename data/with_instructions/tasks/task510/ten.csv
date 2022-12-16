@@ -1,0 +1,327 @@
+input,output
+"Definition: In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with ""TIFU by"", followed by a situation that caused humor. The title should contain 7-12 words, ideally.
+Positive example 1-
+input: Text: title speaks for itself really... 
+i just wasted $1500 of my parents' money.
+i feel terrible.
+
+edit: i guess it wasn't that i took the wrong class, but the class i was taking wouldn't transfer credits over to my university. so really it was my negligence to do more research in the matter. gg
+output: TIFU by taking the wrong class for 2 weeks and only realizing it today
+Positive example 2-
+input: Text: this happened several years ago. i had a friend ""jack"" (more like an acquaintance) who got married several years ago. i attended the wedding in houston and all was good. i had moved to chicago shortly after and didn't really keep in touch. about 2 years later, i was in houston over the holidays and ran into him at a family holiday party. the conversation went like this:
+
+&nbsp;
+
+""hey jack, it's been a long time! how are you doing?! how's married life treating you?""
+
+&nbsp;
+
+""i got divorced.""
+
+&nbsp;
+
+""oh.""  (fml, awkwardness ensues). feeling like a jackass, i apologized and did my best to end the conversation quickly.
+output: TIFU by asking a friend about his married life
+Now complete the following example-
+input: Text: this was about 10 years ago.
+
+i worked as break relief in a bread factory. a ""wonderful"" bread factory, that at the time produced 3400-4000 loaves of bread per hour, and on a separate line 1800-3200 units of rolls (hamburg buns etc.) per hour. i was tasked with the job of relieving people for their breaks which were 20 minutes in length. 
+
+there was this one job as a mixer operator. basically the job entails running a huge mixing machine, and the volume it could contain was measured in the thousands of gallons. typically, it would produce about 500 kg of dough every 15 minutes. visualize a 10 foot tall horseshoe-shaped bowl rotated vertically that is rotated down to empty and you get the idea.
+
+so, to make dough, you have 4 basic ingredients: flour, water, yeast, and at this place, vegetable oil.
+
+when i went to relieve the guy working this job, there has just been a change in the formula. to change the formula, you enter the new amounts of water, flour etc. on a keypad, and then press ""submit"" to save the changes.
+
+what i hadn't noticed until it was too late was that the previous operator had forgotten to press ""submit"" on the amount of yeast for the new formula. so, what happened was i pressed the button to discharge flour, water, oil, and then yeast into the mixture, and then immediately noticed that the volume of yeast indicated on the panel was flashing, indicating that the previous operator did not press submit, and without intervention the machine will discharge only the amount that was in the previous formula. 
+
+to correct this, for the first time ever, i pressed the big red stop button beside the control panel for yeast, inputted the correct amount less than the amount already discharged, and pressed the discharge button again. satisfied that i believe what i did was the right thing, i started the mix cycle, walked away and did something else.
+
+15 minutes later, i'm relieving a different guy, but i have line of sight to the mixing machine. at the end of the cycle, the operator i relieved previously started to rotate the bowl, and not even after 10 degrees of rotation did a few dozen gallons of liquid yeast pour out. the mixing machine was completely full of yeast!
+
+what had happened was, for some asinine reason, the ""stop"" button also reboots the plcs controlling the valve . i acted so quickly in inputting new numbers that the plc hadn't rebooted before i had hit the submit button. meaning, the valve was now stuck open. why they hadn't coded for that i'll never know.
+
+in total, thousands of gallons of yeast were discharged into this mixing machine without anybody knowing for 15 minutes. as normally the amount used per run would be measured in the single digits of gallons, the facility only kept enough yeast to last about 3 days of normal production. this ""glitch"" ha actually depleted every last bit of yeast stored at the facility. they had to have a truck sent from a facility about 8 hours away to resupply, causing about 10 hours of downtime.
+
+did i get fired? almost! they did try to scapegoat me saying i didn't follow proper procedure etc. but, the union came to my rescue and allowed me to keep my job. apparently this little bit of information was placed in the maintenance manuals, which are never provided to the operators for training.
+output: ","TIFU and caused $100,000 in damages"
+"Definition: In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with ""TIFU by"", followed by a situation that caused humor. The title should contain 7-12 words, ideally.
+Positive example 1-
+input: Text: title speaks for itself really... 
+i just wasted $1500 of my parents' money.
+i feel terrible.
+
+edit: i guess it wasn't that i took the wrong class, but the class i was taking wouldn't transfer credits over to my university. so really it was my negligence to do more research in the matter. gg
+output: TIFU by taking the wrong class for 2 weeks and only realizing it today
+Positive example 2-
+input: Text: this happened several years ago. i had a friend ""jack"" (more like an acquaintance) who got married several years ago. i attended the wedding in houston and all was good. i had moved to chicago shortly after and didn't really keep in touch. about 2 years later, i was in houston over the holidays and ran into him at a family holiday party. the conversation went like this:
+
+&nbsp;
+
+""hey jack, it's been a long time! how are you doing?! how's married life treating you?""
+
+&nbsp;
+
+""i got divorced.""
+
+&nbsp;
+
+""oh.""  (fml, awkwardness ensues). feeling like a jackass, i apologized and did my best to end the conversation quickly.
+output: TIFU by asking a friend about his married life
+Now complete the following example-
+input: Text: actually a couple months ago. forgot about it until now. i was on my school trip to dc, it was my first time going there so i was pumped. we went to see all of the main touristy attractions (this is day one) then lastly we go on this big yacht. it is pretty popular but i do not remember the name off of the top of my head. at this point i haven't slept for maybe 48 hours, as i can't sleep in vehicles and it is about an 8 hour ride down. i was sitting with my friend and looking out into the river, on the back of the boat. i lean over the railing and look down. my glasses decide to slide off my face. *shit what do i do now?* i text my mom to tell her my new glasses just fell through the propeller of a huge boat and are now chilling in the potomac. this was only at the start of the ride and i couldn't see at all for the rest of the time. remember this is only day one out of two. i missed on seeing about half of the stuff, including arlington, the lincoln, korean, and vietnam memorials.
+
+ 
+
+edit: my grammars is bad.
+output: ",TIFU On a field trip.
+"Definition: In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with ""TIFU by"", followed by a situation that caused humor. The title should contain 7-12 words, ideally.
+Positive example 1-
+input: Text: title speaks for itself really... 
+i just wasted $1500 of my parents' money.
+i feel terrible.
+
+edit: i guess it wasn't that i took the wrong class, but the class i was taking wouldn't transfer credits over to my university. so really it was my negligence to do more research in the matter. gg
+output: TIFU by taking the wrong class for 2 weeks and only realizing it today
+Positive example 2-
+input: Text: this happened several years ago. i had a friend ""jack"" (more like an acquaintance) who got married several years ago. i attended the wedding in houston and all was good. i had moved to chicago shortly after and didn't really keep in touch. about 2 years later, i was in houston over the holidays and ran into him at a family holiday party. the conversation went like this:
+
+&nbsp;
+
+""hey jack, it's been a long time! how are you doing?! how's married life treating you?""
+
+&nbsp;
+
+""i got divorced.""
+
+&nbsp;
+
+""oh.""  (fml, awkwardness ensues). feeling like a jackass, i apologized and did my best to end the conversation quickly.
+output: TIFU by asking a friend about his married life
+Now complete the following example-
+input: Text: okay so giving the background to this story-
+i'm a girl and my friends and i had been invited to come over to a house full of hot guys to chill. so naturally we go, and there's one hot guy i talk to the most, and we click and talk more and play beer pong. 
+so we both get super drunk and we ended up in someone's bedroom where we proceeded to make out and take off each other's clothes. this next park might be tmi and you might get grossed out but it was literally the most embarrassed i've ever been with a guy.
+so things escalate and he starts doing me, and then we switch positions and i start to give him a bj.
+here's the bad part.
+my stomach started to hurt from all the cheap burnettes mixed with cheap beer and after i gagged once there was no going back.
+i threw up all over his junk. literally all over.
+but here's the best part: he kept going.
+he must've really wanted to fucking finish because we switched positions while there's vomit all over the bed and still on his dick.
+needless to say i threw up again, and when he finally finished we kind of sobered up and realized there was fucking throw up all over us.
+i apologized like a million times but he was a trooper and actually hugged me.
+now we're friends on instagram. i'm still confused 
+
+.
+
+update: question to all guys out there: if this happened to you would you keep going, stop and be grossed out, stop but be understanding, or what? because for me in this situation i literally felt awful haha and i want to know if guys would think of this as a big deal??
+output: ",TIFU drunkenly vomiting all over a dude's dick (NSFW)
+"Definition: In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with ""TIFU by"", followed by a situation that caused humor. The title should contain 7-12 words, ideally.
+Positive example 1-
+input: Text: title speaks for itself really... 
+i just wasted $1500 of my parents' money.
+i feel terrible.
+
+edit: i guess it wasn't that i took the wrong class, but the class i was taking wouldn't transfer credits over to my university. so really it was my negligence to do more research in the matter. gg
+output: TIFU by taking the wrong class for 2 weeks and only realizing it today
+Positive example 2-
+input: Text: this happened several years ago. i had a friend ""jack"" (more like an acquaintance) who got married several years ago. i attended the wedding in houston and all was good. i had moved to chicago shortly after and didn't really keep in touch. about 2 years later, i was in houston over the holidays and ran into him at a family holiday party. the conversation went like this:
+
+&nbsp;
+
+""hey jack, it's been a long time! how are you doing?! how's married life treating you?""
+
+&nbsp;
+
+""i got divorced.""
+
+&nbsp;
+
+""oh.""  (fml, awkwardness ensues). feeling like a jackass, i apologized and did my best to end the conversation quickly.
+output: TIFU by asking a friend about his married life
+Now complete the following example-
+input: Text: i have a big problem with not being able to start something or do it for the first time. for example if i needed to go to the bank i'd procrastinate leaving and once i got to the bank sit in my car and contemplate if i need to go inside or not.well for the past few months this feeling has stopped me from getting my oil changed.
+
+reddit, it's been 1 year and 6 months and i haven't changed my oil and now the fear of something being wrong with my car and extra fees i can't pay is keeping me from still getting it changed...
+output: ",TIFU by being an introvert
+"Definition: In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with ""TIFU by"", followed by a situation that caused humor. The title should contain 7-12 words, ideally.
+Positive example 1-
+input: Text: title speaks for itself really... 
+i just wasted $1500 of my parents' money.
+i feel terrible.
+
+edit: i guess it wasn't that i took the wrong class, but the class i was taking wouldn't transfer credits over to my university. so really it was my negligence to do more research in the matter. gg
+output: TIFU by taking the wrong class for 2 weeks and only realizing it today
+Positive example 2-
+input: Text: this happened several years ago. i had a friend ""jack"" (more like an acquaintance) who got married several years ago. i attended the wedding in houston and all was good. i had moved to chicago shortly after and didn't really keep in touch. about 2 years later, i was in houston over the holidays and ran into him at a family holiday party. the conversation went like this:
+
+&nbsp;
+
+""hey jack, it's been a long time! how are you doing?! how's married life treating you?""
+
+&nbsp;
+
+""i got divorced.""
+
+&nbsp;
+
+""oh.""  (fml, awkwardness ensues). feeling like a jackass, i apologized and did my best to end the conversation quickly.
+output: TIFU by asking a friend about his married life
+Now complete the following example-
+input: Text: this happened about ten minutes ago. it being friday, our office is very quiet. a new email came out regarding a new customer service improvement forum titled the ""melting pot"". i don't suffer fools gladly and immediately announced loudly how stupid the whole thing sounded (expect my actual wording used the words ""off"" and ""fuck"". the guy who wrote it was less than ten feet away and as soon as i said it he popped his head up, and i went bright red and tried to back pedal. this was obviously difficult owing to my choice of words. 
+
+oh great. hopefully i'll still have a job on monday morning.
+output: ",TIFU by criticizing a new initiative at work while the person who wrote it sat less than 10 feet away.
+"Definition: In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with ""TIFU by"", followed by a situation that caused humor. The title should contain 7-12 words, ideally.
+Positive example 1-
+input: Text: title speaks for itself really... 
+i just wasted $1500 of my parents' money.
+i feel terrible.
+
+edit: i guess it wasn't that i took the wrong class, but the class i was taking wouldn't transfer credits over to my university. so really it was my negligence to do more research in the matter. gg
+output: TIFU by taking the wrong class for 2 weeks and only realizing it today
+Positive example 2-
+input: Text: this happened several years ago. i had a friend ""jack"" (more like an acquaintance) who got married several years ago. i attended the wedding in houston and all was good. i had moved to chicago shortly after and didn't really keep in touch. about 2 years later, i was in houston over the holidays and ran into him at a family holiday party. the conversation went like this:
+
+&nbsp;
+
+""hey jack, it's been a long time! how are you doing?! how's married life treating you?""
+
+&nbsp;
+
+""i got divorced.""
+
+&nbsp;
+
+""oh.""  (fml, awkwardness ensues). feeling like a jackass, i apologized and did my best to end the conversation quickly.
+output: TIFU by asking a friend about his married life
+Now complete the following example-
+input: Text: this happened about an hour ago and she still doesn't know that i saw anything. it's not about cheating. girlfriend aka anonymous is a recovered addict and hasn't used in over a year. i opened her phone to use the flashlight and saw a text she sent to a friend asking for zanex. it really hurt and worried me. anonymous is supposed to take them for anxiety but says she doesn't want to take any narcotics because of her past. i don't know what to do or how i go about saying anything. sitting here wishing i never opened the phone. also i'm not sure if i'm posting this in the right place but i feel like ifu.
+output: ",Tifu by checking my girls phone
+"Definition: In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with ""TIFU by"", followed by a situation that caused humor. The title should contain 7-12 words, ideally.
+Positive example 1-
+input: Text: title speaks for itself really... 
+i just wasted $1500 of my parents' money.
+i feel terrible.
+
+edit: i guess it wasn't that i took the wrong class, but the class i was taking wouldn't transfer credits over to my university. so really it was my negligence to do more research in the matter. gg
+output: TIFU by taking the wrong class for 2 weeks and only realizing it today
+Positive example 2-
+input: Text: this happened several years ago. i had a friend ""jack"" (more like an acquaintance) who got married several years ago. i attended the wedding in houston and all was good. i had moved to chicago shortly after and didn't really keep in touch. about 2 years later, i was in houston over the holidays and ran into him at a family holiday party. the conversation went like this:
+
+&nbsp;
+
+""hey jack, it's been a long time! how are you doing?! how's married life treating you?""
+
+&nbsp;
+
+""i got divorced.""
+
+&nbsp;
+
+""oh.""  (fml, awkwardness ensues). feeling like a jackass, i apologized and did my best to end the conversation quickly.
+output: TIFU by asking a friend about his married life
+Now complete the following example-
+input: Text: so tifu when i had been on this great early-night walk. i had just come home and was about take of my jacket. the headphone cable i had running down my stomach was disconnected from my iphone and just hanging there. the jacket which is made of this plastic, very conductive kind of plastic just touched the other end of the headphones, and gave out a small charge that electrocuted my inner ear and fuck, it hurt alot!
+output: ",TIFU by getting a huge shock in my ear while wearing headphones
+"Definition: In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with ""TIFU by"", followed by a situation that caused humor. The title should contain 7-12 words, ideally.
+Positive example 1-
+input: Text: title speaks for itself really... 
+i just wasted $1500 of my parents' money.
+i feel terrible.
+
+edit: i guess it wasn't that i took the wrong class, but the class i was taking wouldn't transfer credits over to my university. so really it was my negligence to do more research in the matter. gg
+output: TIFU by taking the wrong class for 2 weeks and only realizing it today
+Positive example 2-
+input: Text: this happened several years ago. i had a friend ""jack"" (more like an acquaintance) who got married several years ago. i attended the wedding in houston and all was good. i had moved to chicago shortly after and didn't really keep in touch. about 2 years later, i was in houston over the holidays and ran into him at a family holiday party. the conversation went like this:
+
+&nbsp;
+
+""hey jack, it's been a long time! how are you doing?! how's married life treating you?""
+
+&nbsp;
+
+""i got divorced.""
+
+&nbsp;
+
+""oh.""  (fml, awkwardness ensues). feeling like a jackass, i apologized and did my best to end the conversation quickly.
+output: TIFU by asking a friend about his married life
+Now complete the following example-
+input: Text: several years ago, before i was in my current relationship, i was that douchebag guy. i would have different women come and go. well one day i had two different women, let's call them **hannah** and **alice**, that wanted to come over and see me, one of which, **hannah**, i liked a lot. well normally i wouldn't have two girls over in the same day, to prevent any of the *seeing* and *meeting* each other, but i was full of myself. i told **alice** to come over early that morning so we could spend most of the morning together, but i had to go in to work early that afternoon.  i told **hannah** that i was working all morning but to come over later that afternoon and she could stay the night. 
+
+well **alice** shows up around 7am, and of course, we screw around all morning. well **dumbass** me falls asleep, without setting an alarm. **alice** is asleep now too, thinking i'll wake her up when i have to go to work. well not *only* did **hannah** show up earlier than expected, she walks into my apartment without knocking, something she's does from time to time. i'm telling you, we really liked each other and had been talking for a while. *i just happened to like all the pussy too*. well what happens is this. i hear the truck, i *look* at the clock, and see it's a little passed noon. well **fuck fuck fuck**. i'm getting hot, nervous, my heart is sinking, i know i'm caught. maybe i can rush **alice** out the door before **hannah** can get put of her truck, *maybe* **hannah** will take her time coming inside. i wake **alice** up, say, ""*shit babe, i overslept, we've gotta go!* well **fuck me again**, she's butt ass naked and taking her *fucking* time getting her clothes on. **i am panicking**, and that's that. i'm freaking, and **alice** can tell. she thinks it is because i'm *late*, how cute. then i hear it, someone walking down the stairs outside my apartment. *my apartment was below the parking lot.* **hannah** walks in. a portal to hell opens, and shit goes crazy! if you want to know how to open a portal to hell, have two women you're fucking, meet. they both ask ""*who is this?*"" i'm not even speaking, my brain has shut down, i remember they are both screaming now, they'll start at me, and then they'll go  at each other. **hannah** starting to cry out of rage. this lasts for at least **10 minutes**, but to me it feels like forever. i want to lay down and die. **alice** finally just says *fuck you* to *me*  and starts to leave,  **hannah** says something along the lines of, ""*oh you didn't get enough?*"". i shit you not, **alice**, holding onto the front door, turns, looks at **hannah** and says, ""*no, i got plenty, i was just warming him up for you.*"", and leaves from my apartment and my life. **hannah**, still standing there in shock and tears, wants me to explain, wants some kind of explanation. well reddit, i'm fried, my brain has completely overloaded, i can't even speak. i'm just standing there like a fucking mental patient with the dumbest look on my face i'm sure. after what seems like forever, she finally just leaves.
+
+**hannah** and i spoke a little after that from time to time. i still couldn't think of anything to say to make anything right. what was i suppose to say? i can't even think of anything smartass to say.  to this day, that was my biggest fuck up ever.
+
+
+ 
+
+edit: spelling
+output: ",TIFU by getting caught.
+"Definition: In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with ""TIFU by"", followed by a situation that caused humor. The title should contain 7-12 words, ideally.
+Positive example 1-
+input: Text: title speaks for itself really... 
+i just wasted $1500 of my parents' money.
+i feel terrible.
+
+edit: i guess it wasn't that i took the wrong class, but the class i was taking wouldn't transfer credits over to my university. so really it was my negligence to do more research in the matter. gg
+output: TIFU by taking the wrong class for 2 weeks and only realizing it today
+Positive example 2-
+input: Text: this happened several years ago. i had a friend ""jack"" (more like an acquaintance) who got married several years ago. i attended the wedding in houston and all was good. i had moved to chicago shortly after and didn't really keep in touch. about 2 years later, i was in houston over the holidays and ran into him at a family holiday party. the conversation went like this:
+
+&nbsp;
+
+""hey jack, it's been a long time! how are you doing?! how's married life treating you?""
+
+&nbsp;
+
+""i got divorced.""
+
+&nbsp;
+
+""oh.""  (fml, awkwardness ensues). feeling like a jackass, i apologized and did my best to end the conversation quickly.
+output: TIFU by asking a friend about his married life
+Now complete the following example-
+input: Text: throwaway because this is disgusting and i'm still a little scarred. today i was in the [public] bathroom and was changing lady products like normal. then somehow i managed to not only drop the used tampon i was holding, but *fling* it on the floor where it rolled into the adjacent stall (that someone was using) before i could pick it up. at that point i was terrified that i'd be identified so i finished up and ran out of the bathroom faster than a hungry cat who had just heard a can open.
+output: ",TIFU by dropping a tampon
+"Definition: In this task, you are given a Reddit post as a text. Your task is to generate a title for this text. The title should start with ""TIFU by"", followed by a situation that caused humor. The title should contain 7-12 words, ideally.
+Positive example 1-
+input: Text: title speaks for itself really... 
+i just wasted $1500 of my parents' money.
+i feel terrible.
+
+edit: i guess it wasn't that i took the wrong class, but the class i was taking wouldn't transfer credits over to my university. so really it was my negligence to do more research in the matter. gg
+output: TIFU by taking the wrong class for 2 weeks and only realizing it today
+Positive example 2-
+input: Text: this happened several years ago. i had a friend ""jack"" (more like an acquaintance) who got married several years ago. i attended the wedding in houston and all was good. i had moved to chicago shortly after and didn't really keep in touch. about 2 years later, i was in houston over the holidays and ran into him at a family holiday party. the conversation went like this:
+
+&nbsp;
+
+""hey jack, it's been a long time! how are you doing?! how's married life treating you?""
+
+&nbsp;
+
+""i got divorced.""
+
+&nbsp;
+
+""oh.""  (fml, awkwardness ensues). feeling like a jackass, i apologized and did my best to end the conversation quickly.
+output: TIFU by asking a friend about his married life
+Now complete the following example-
+input: Text: this actually happened about a year and a half ago. my best friend and i im each other almost every day (we don't live near each other). this has been going on for about 10 years at the time, so, yanno, we're comfortable with each other. we make lots of really bad, off color jokes, all the time. he's also gotten me really good on multiple april fool's, so, yanno, sometimes i take what he says with a big grain of salt.
+
+now, all i know at this point is that my friend, let's call him tim, is super clumsy. that's cool, i'm pretty clumsy myself, but he just seems to have a knack for getting into awful situations and mildly hurting himself. so i lovingly refer to his mishaps as ""timming"", and we kek mightily over this for years. it becomes one of our biggest inside jokes, to refer to accident prone people as ""tims"", or the act of being in one of these accidents as ""timming"". (i'd like to stress here that we'd never make fun of people in serious accidents. we're talking about small cuts, bruises, scrapes, that kind of thing.)
+
+anyway, on this fateful day, he winds up tripping and falling and mildly hurting himself as he usually does. i worry over him of course, because i'm a good friend dammit, and whip out with ""why do you tim yourself so much?!"" i've asked similar things over the years and expect a good-natured ""i dunno"" or the usual off hand joke, but instead he tells me, ""because i have cerebral palsy.""
+
+again, this dude and i, we've been chatting with each other for 10 years. i've stayed with him and his family and had a rockin' good time. we make horrible jokes all the time. this isn't even the most horrible of all of them, so i cackle and tell him that isn't a nice thing to say. ""muffinbutton, i'm serious."" ""lol kay."" (to be fair and to make me look like less of the asshole i'm quickly shaping up to sound like, he put a smiley face at the end of his sentence. how was i supposed to know he was being serious when he uses emoticons?!)
+
+""muffinbutton, i have a mild case of cerebral palsy. there were complications when i was born. i had years of therapy to learn to walk right. i'm very lucky, but i still walk with a limp and don't have the best motor skills. that's why i fall over a lot and hurt myself.""
+
+oops! i'll just be over here at the shovel store, buying a bigger shovel so i can dig the hole i've dug myself just a bit deeper!
+
+the incident didn't change our relationship at all, and he admitted that me coming up with the whole ""timming"" thing made him feel a lot better about things but wow i felt like an asshole that day. i'm just happy to have such a good friend that didn't immediately block my stupid ass and has a great sense of humor.
+
+long story short (i don't do
+output: ",TIFU by making fun of my best friend's cerebral palsy

@@ -1,0 +1,41 @@
+input,output
+"input: Premise: These two young boys with blue and gray shorts, smile for the camera before they go play outside.
+Hypothesis: Two young boys are playing hide and go seek outside.
+Update: The boys are members of the same soccer team and they are on their way to a game.
+output: ",weakener
+"input: Premise: A girl jumps in the air.
+Hypothesis: A jump roping girl.
+Update: A frisbee is thrown high in the air
+output: ",weakener
+"input: Premise: A small dog tries to catch a red ball.
+Hypothesis: A brown animal trying
+Update: The dog's fur hides the dirt that he's running through.
+output: ",strengthener
+"input: Premise: Three girls in a marching band are wearing gold outfits and men are drumming behind them.
+Hypothesis: Men drumming
+Update: men are new members of the band
+output: ",strengthener
+"input: Premise: An older gentleman, in a red plaid shirt and hunting cap, eats a piece of food from his bag.
+Hypothesis: The man is eating a sandwich.
+Update: There is meat between two slices of bread.
+output: ",strengthener
+"input: Premise: A small tan dog jumps over the barbed wire fence.
+Hypothesis: A little dog is escaping Animal Care and Control.
+Update: The dog was scheduled to be put down.
+output: ",strengthener
+"input: Premise: A woman in a turquoise top talking to the conductor of a trolley near a foreign cafe.
+Hypothesis: The woman is having trouble understanding the language the conductor is speaking.
+Update: The woman is agreeing with the conductor
+output: ",weakener
+"input: Premise: A boy in a red denim jacket plays in the sand with a flag in it.
+Hypothesis: A boy is searching for treasure.
+Update: Another boy in a blue jacket is sneaking up on the flag.
+output: ",weakener
+"input: Premise: a brown and white dog jumping on a sandy beach
+Hypothesis: Dogs jumping to catch a ball on a beach.
+Update: A ball rolls on the sand.
+output: ",strengthener
+"input: Premise: A man with a black mustache sits outside in front of a large brown door on a white chair.
+Hypothesis: a man sitting in white chair waiting for his best freind
+Update: He is arranging his best friend's funeral.
+output: ",weakener

@@ -1,0 +1,41 @@
+input,output
+"input: Context Word: grandmother. 
+Question: PersonX adored his grandmother, PersonY.  _ decided he would surprise her with a trip to Europe. 
+Answer: PersonX
+output: ","PersonX adored his grandmother, PersonY.  _ got a big surprise with a trip to Europe."
+"input: Context Word: forest. 
+Question: When in the forest PersonX got lost quickly but PersonY did not because _ had a very good sense of direction. 
+Answer: PersonX
+output: ",When in the forest PersonX got lost quickly but PersonY did not because _ had a very poor sense of direction.
+"input: Context Word: pet store. 
+Question: PersonX loved animals but PersonY was allergic to cats and dogs. _ got a job at the pet store. 
+Answer: PersonX
+output: ",PersonX loved animals but PersonY was allergic to cats and dogs. _ turned down a job at the pet store.
+"input: Context Word: happy. 
+Question: PersonX was perfectly happy being in a relationship with PersonY, so _ wanted to stay together forever. 
+Answer: PersonX
+output: ","PersonX was perfectly happy being in a relationship with PersonY, but _ didn't want to stay together forever."
+"input: Context Word: dates. 
+Question: PersonX likes to go the movies on dates, while PersonY prefers a nice dinner. _ is a movie buff. 
+Answer: PersonX
+output: ","PersonX likes to go the movies on dates, while PersonY prefers a nice dinner. _ is a food buff."
+"input: Context Word: fire drill. 
+Question: The fire drill scares PersonX, but PersonY handles it in stride, due to _ being a baby about things. 
+Answer: PersonX
+output: ","The fire drill scares PersonX, but PersonY handles it in stride, due to _ being strong about things."
+"input: Context Word: cheating. 
+Question: The boyfriend of PersonX has been cheating, while PersonY's is faithful. This is because _ 's boyfriend is a scumbag. 
+Answer: PersonX
+output: ","The boyfriend of PersonX has been cheating, while PersonY's is faithful. This is because _ 's boyfriend is a saint."
+"input: Context Word: work. 
+Question: PersonX asked PersonY for permission to take time off work because _ was going on vacation soon. 
+Answer: PersonX
+output: ",PersonX asked PersonY for permission to take time off work because _ is his supervisor at work.
+"input: Context Word: budget. 
+Question: PersonX was better suited to run a business than PersonY because _ filled out a budget every every. 
+Answer: PersonX
+output: ",PersonX was better suited to run a business than PersonY but _ filled out a budget every every.
+"input: Context Word: care. 
+Question: PersonX gave their sickly relative a great deal of care but PersonY did not because _ was a very giving person. 
+Answer: PersonX
+output: ",PersonX gave their sickly relative a great deal of care but PersonY did not because _ was a very selfishperson.

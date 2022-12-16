@@ -1,0 +1,189 @@
+input,output
+"input: nourish : grow. hit : ?
+output: ",shatter
+"input: nourish : grow. pursue : ?
+output: ",catch
+"input: nourish : grow. aspire : ?
+output: ",attain
+"input: nourish : grow. fear : ?
+output: ",flee
+"input: nourish : grow. travel : ?
+output: ",arrive
+"input: crush : break. drop : ?
+output: ",fall
+"input: crush : break. cut : ?
+output: ",bleed
+"input: crush : break. ignite : ?
+output: ",burn
+"input: crush : break. hit : ?
+output: ",shatter
+"input: crush : break. trip : ?
+output: ",stumble
+"input: crush : break. watch : ?
+output: ",see
+"input: crush : break. fear : ?
+output: ",flee
+"input: crush : break. travel : ?
+output: ",arrive
+"input: crush : break. throw : ?
+output: ",fly
+"input: kill : die. cut : ?
+output: ",bleed
+"input: kill : die. nourish : ?
+output: ",grow
+"input: kill : die. ignite : ?
+output: ",burn
+"input: kill : die. hit : ?
+output: ",shatter
+"input: kill : die. aspire : ?
+output: ",attain
+"input: kill : die. fear : ?
+output: ",flee
+"input: kill : die. travel : ?
+output: ",arrive
+"input: kill : die. throw : ?
+output: ",fly
+"input: ignite : burn. drop : ?
+output: ",fall
+"input: ignite : burn. nourish : ?
+output: ",grow
+"input: ignite : burn. crush : ?
+output: ",break
+"input: ignite : burn. trip : ?
+output: ",stumble
+"input: ignite : burn. pursue : ?
+output: ",catch
+"input: ignite : burn. aspire : ?
+output: ",attain
+"input: ignite : burn. fear : ?
+output: ",flee
+"input: ignite : burn. throw : ?
+output: ",fly
+"input: hit : shatter. cut : ?
+output: ",bleed
+"input: hit : shatter. crush : ?
+output: ",break
+"input: hit : shatter. watch : ?
+output: ",see
+"input: hit : shatter. listen : ?
+output: ",hear
+"input: hit : shatter. pursue : ?
+output: ",catch
+"input: hit : shatter. aspire : ?
+output: ",attain
+"input: hit : shatter. travel : ?
+output: ",arrive
+"input: hit : shatter. throw : ?
+output: ",fly
+"input: trip : stumble. drop : ?
+output: ",fall
+"input: trip : stumble. cut : ?
+output: ",bleed
+"input: trip : stumble. kill : ?
+output: ",die
+"input: trip : stumble. hit : ?
+output: ",shatter
+"input: trip : stumble. travel : ?
+output: ",arrive
+"input: trip : stumble. throw : ?
+output: ",fly
+"input: watch : see. drop : ?
+output: ",fall
+"input: watch : see. nourish : ?
+output: ",grow
+"input: watch : see. kill : ?
+output: ",die
+"input: watch : see. hit : ?
+output: ",shatter
+"input: watch : see. trip : ?
+output: ",stumble
+"input: watch : see. pursue : ?
+output: ",catch
+"input: watch : see. aspire : ?
+output: ",attain
+"input: watch : see. throw : ?
+output: ",fly
+"input: listen : hear. cut : ?
+output: ",bleed
+"input: listen : hear. nourish : ?
+output: ",grow
+"input: listen : hear. crush : ?
+output: ",break
+"input: listen : hear. ignite : ?
+output: ",burn
+"input: listen : hear. watch : ?
+output: ",see
+"input: listen : hear. pursue : ?
+output: ",catch
+"input: listen : hear. aspire : ?
+output: ",attain
+"input: listen : hear. fear : ?
+output: ",flee
+"input: listen : hear. travel : ?
+output: ",arrive
+"input: pursue : catch. crush : ?
+output: ",break
+"input: pursue : catch. kill : ?
+output: ",die
+"input: pursue : catch. ignite : ?
+output: ",burn
+"input: pursue : catch. trip : ?
+output: ",stumble
+"input: pursue : catch. listen : ?
+output: ",hear
+"input: pursue : catch. aspire : ?
+output: ",attain
+"input: pursue : catch. fear : ?
+output: ",flee
+"input: pursue : catch. throw : ?
+output: ",fly
+"input: aspire : attain. cut : ?
+output: ",bleed
+"input: aspire : attain. nourish : ?
+output: ",grow
+"input: aspire : attain. crush : ?
+output: ",break
+"input: aspire : attain. kill : ?
+output: ",die
+"input: aspire : attain. ignite : ?
+output: ",burn
+"input: aspire : attain. watch : ?
+output: ",see
+"input: aspire : attain. listen : ?
+output: ",hear
+"input: aspire : attain. pursue : ?
+output: ",catch
+"input: aspire : attain. travel : ?
+output: ",arrive
+"input: fear : flee. drop : ?
+output: ",fall
+"input: fear : flee. nourish : ?
+output: ",grow
+"input: fear : flee. crush : ?
+output: ",break
+"input: fear : flee. kill : ?
+output: ",die
+"input: fear : flee. trip : ?
+output: ",stumble
+"input: fear : flee. watch : ?
+output: ",see
+"input: fear : flee. listen : ?
+output: ",hear
+"input: fear : flee. travel : ?
+output: ",arrive
+"input: travel : arrive. drop : ?
+output: ",fall
+"input: travel : arrive. trip : ?
+output: ",stumble
+"input: travel : arrive. watch : ?
+output: ",see
+"input: travel : arrive. listen : ?
+output: ",hear
+"input: travel : arrive. pursue : ?
+output: ",catch
+"input: travel : arrive. fear : ?
+output: ",flee
+"input: throw : fly. hit : ?
+output: ",shatter
+"input: throw : fly. watch : ?
+output: ",see

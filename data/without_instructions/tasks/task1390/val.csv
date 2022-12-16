@@ -1,0 +1,21 @@
+input,output
+"input: Carol believed that Rebecca regretted that (she) had stolen the watch. <sep> Pronoun:she <sep> Noun: Rebecca
+output: ",True
+"input: It is not easy to space buttonholes exactly the same distance apart, and it is very difficult to cut them precisely the right size . The tiniest slip of the scissors will make the hole too large, and even one thread uncut will leave (it) too small. <sep> Pronoun:it <sep> Noun: the scissors
+output: ",False
+"input: I sat there feeling rather like a chappie I'd once read about in a book , who murdered another cove and hid the body under the dining-room table , and then had to be the life and soul of a dinner party, with (it) there all the time. <sep> Pronoun:it <sep> Noun: life and soul
+output: ",False
+"input: The politicians far away in Washington could not know the settlers so they must make rules to regulate (them) . <sep> Pronoun:them <sep> Noun: politicians
+output: ",False
+"input: Tom gave Ralph a lift to school so (he) wouldn't have to drive alone. <sep> Pronoun:he <sep> Noun: Tom
+output: ",True
+"input: Frank was upset with Tom because the toaster (he) had sold him didn't work. <sep> Pronoun:he <sep> Noun: Tom
+output: ",True
+"input: Our mistress hired a room for my crippled sister Nelly , and she gave her knitting and needlework when she was able to do it, and when she was ill (she) sent her dinners and many nice comfortable things and was like a mother to her. <sep> Pronoun:she <sep> Noun: mistress
+output: ",True
+"input: Mark was close to Mr. Singer 's heels. He heard him calling for the captain , promising him, in the jargon everyone talked that night, that not one thing should be damaged on the ship except only the ammunition, but the captain and all (his) crew had best stay in the cabin until the work was over. <sep> Pronoun:his <sep> Noun: Mark
+output: ",False
+"input: The man lifted the boy onto (his) shoulders. <sep> Pronoun:his <sep> Noun: the boy
+output: ",False
+"input: George got free tickets to the play, but he gave them to Eric , because (he) was particularly eager to see it. <sep> Pronoun:he <sep> Noun: Eric
+output: ",True

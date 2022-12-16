@@ -1,0 +1,41 @@
+input,output
+"input: Premise: PersonX bakes the cookies
+Hypothesis: As a result, PersonX feels aiding
+Update: PersonX gifts them to his friends
+output: ",strengthener
+"input: Premise: PersonX takes a taste
+Hypothesis: As a result, PersonX feels adventurous
+Update: PersonX is excited by the taste.
+output: ",strengthener
+"input: Premise: PersonX enters the house
+Hypothesis: As a result, PersonX wants change clothes
+Update: PersonX is already wearing comfortable jeans and t-shirt and isn't leaving the house again that day.
+output: ",strengthener
+"input: Premise: PersonX acts like PersonY
+Hypothesis: As a result, PersonX wants to improve the impression
+Update: PersonX gives up on the impression.
+output: ",weakener
+"input: Premise: PersonX scatters throughout the world
+Hypothesis: As a result, PersonX wants be generous
+Update: They don’t like people
+output: ",weakener
+"input: Premise: PersonX turns back time
+Hypothesis: As a result, PersonX feels inventive
+Update: PersonX is using technology they found.
+output: ",weakener
+"input: Premise: PersonX seems larger and heavier at that elevation
+Hypothesis: Because PersonX wanted to visit a place with low elevation
+Update: Person X has never seen the ocean.
+output: ",strengthener
+"input: Premise: PersonX plays tricks on PersonY
+Hypothesis: PersonX then gets hit
+Update: PersonY has sauce in their hair
+output: ",strengthener
+"input: Premise: PersonX helps PersonY remember
+Hypothesis: As a result, PersonX wants to mend person y's cuts
+Update: PersonX is afraid of blood.
+output: ",weakener
+"input: Premise: PersonX accidentally hit
+Hypothesis: As a result, PersonX feels ignorant
+Update: PersonX has a condition that causes accidents.
+output: ",weakener

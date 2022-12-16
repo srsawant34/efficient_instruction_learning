@@ -1,0 +1,831 @@
+input,output
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Many supporters of third-party presidential candidate George C. Wallace, Sr., voted for Gurney and hence provided him a coalition of growing Republicans in Florida allied with a declining number of conservative Democrats. Gurney ran on a record that included votes against civil rights legislation, foreign aid, and that ``expensive boondoggle,'' the war on poverty. Future-President George W. Bush worked as a traveling aide for **Gurney** while he was running for Senate in Florida.
+output: ",he
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: He informs Blackadder and Baldrick, ``For us, a toilet is a mundane, functional item. For you it is the basis of an entire culture!'' Before retiring to his chateau, Richthofen comments that, ``Gallant Lord Flashheart still eludes me.'' Soon after, Flashheart and Lieutenant George arrive to rescue their fellow flyers. At last facing his greatest adversary, **Richthofen** launches into a tedious soliloquy about chivalry and honor.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: The editor of both Magic Carpet and Weird Tales, Farnsworth Wright, was already publishing one story by Robert E. Howard, and requested the author use a pseudonym for the boxing story. Howard chose ``Patrick Ervin'' for himself, and then not wanting readers to question why someone named Ervin would write about **Robert E. Howard**'s Steve Costigan character from Fight Stories, decided to change his main character's name as well.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: They moved to Go**bki near Warsaw with their three children: Tadeusz (14), Krystyna (13) and Maria (9), and rented a farm called Osada not far from where Irena's parents lived. Soon they began to take in Jews who escaped from Nazi persecution. Among them: Krystyna Izbicki, **Anna Zofia** and her son Jozef Ettinger, Krystyna Radziejewski and her foster-daughter Larissa Sztorchan, Czeslawa Konko (children's instructor), Zofia Sidor, her sisters, Eliza Temler and Dr.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: The race also saw the last appearance by 1997 champion Jacques Villeneuve, who blamed the split on the ``lack of assurances about his short-term future with BMW Sauber''. Robert Kubica was promoted internally at BMW to drive at the Hungaroring because **Villeneuve** was still recovering from the after-effects of his crash in Germany, and went on to race in all the remaining Grands Prix.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: When onlookers expressed doubt, claiming that the Proctor family was well regarded in the community, the girl promptly came out of her trance and told them it was all for ``sport''. On March 29, 1692, Abigail Williams and Mercy Lewis again said they were being tormented by Elizabeth's spectre. A few days later, **Abigail** complained that Elizabeth was pinching her and tearing at her bowels, and said she saw Elizabeth's spectre as well as John's.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: In January 2007, it was announced that Siggy Sjursen of Powerman 5000 would be joining The Panic Channel as a touring bassist, replacing Chris Chaney who was said to be unable to tour due to family obligations. Initially, Chaney was said to still be a member of the band, but Sjursen was later announced as a permanent replacement. Dave Navarro and Stephen Perkins reunited with Jane's Addiction in 2008. However, on his radio show ``Dark Matter'' on 6 August 2009, **Navarro** said he had spoken to both Perkins and Chaney about re-forming The Panic Channel, with Steve Isaacs' residence in New York City being the main problem.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Longet and Williams eventually joined Kennedy's family and friends at the Good Samaritan Hospital in Los Angeles, where doctors labored to save the Senator's life. They stayed at the hospital for about 24 hours. After Kennedy died during the early morning hours of 6 June, Longet and Williams went into his hospital room and saw **Ethel Kennedy** asleep near her husband.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: During her time at UMass Amherst, she has taught numerous students who would become notable linguists including Gennaro Chierchia and Irene Heim. Through her interactions with the philosopher and logician Richard Montague at UCLA in the 1970s she played an important role in bringing together the research traditions of generative linguistics, formal logic, and analytic philosophy, pursuing an agenda pioneered by **David Lewis** in his 1970 article General Semantics.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: The meaning of the earth being divided is usually taken to refer to a patriarchal division of the world, or possibly just the eastern hemisphere, into allotted portions among the three sons of Noah for future occupation, as specifically described in the Book of Jubilees, Biblical Antiquities of Philo, Kitab al-Magall, Flavius Josephus, and numerous other antiquarian and mediaeval sources, even as late as **Archbishop Ussher**, in his Annals of the World.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Paul Gilmore and Daniel Gilfeather are in the cast. She teamed with Frank Mills and Howard Rickman in The Moral Fabric, a movie which debuted in March 1916. Reeves plays **Amy Winthrop**, a wife who is bored with her traditional husband.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Patricia ``Tricia'' Nixon Cox (born February 21, 1946) is the elder daughter of the 37th U.S. President Richard M. Nixon and First Lady Pat Nixon, and sister to Julie Nixon Eisenhower. In her father's public career, **Cox** performed a ceremonial role, in contrast to her younger sister Julie Nixon Eisenhower's more political involvement.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Canadian Broadcasting Corporation journalist **Carol Off** began research to write a biography of Louise Arbour. Following input from fellow journalist and author Stevie Cameron, she broadened the book's scope to include profiles of Rom*o Dallaire and Lewis MacKenzie.
+output: ",she
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: She goes on to acknowledge that in Finch's work, ``Now and again words issue of pure poetry...It was a thousand pities that the woman who could write like that, whose mind was turned to nature, and reflection, should have been forced to anger and bitterness.'' Woolf goes on in defence of her as a gifted but sometimes understandably misguided example of women's writing. It is evident that **Woolf** sympathises deeply with Finch's plight as a female poet, and though she takes issue with some of the content in Finch's writing, she expresses grief that Finch is so unknown: ``...when one comes to seek out the facts about Lady Winchilsea, one finds, as usual, that almost nothing is known about her.''
+output: ",she
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: This is a list of episodes from the MTV show Bully Beatdown. First aired: 22 March 2009 The victim for the series premier is named Alan, a man who gets bullied by his bigger younger brother. In his tape, **Alan** explains that Ryan gets away with bullying him because he is the family favorite.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: As tempting as it can be to think of Liszt as the father of modern music on the basis of his late music, looking at his achievements in these works as ends in themselves would be erroneous. Liszt's technical achievements in his late music are one side of a more complex picture. Along with the increasing interest in Hungarian and other national schools of composition already mentioned, essential parts of this picture are tragedy in Liszt's personal life and developments in his friendship with Wagner. In his later years **Liszt**'s problems with health, both physical and mental, affected his ability to complete compositions.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: In the mid-1980s she was director of the documentary and photojournalism department at the International Center of Photography in Manhattan. In 1981, Heyman, along with Harbutt, Mark Godfrey, Mary Ellen Mark, and Joan Liftin, co-founded Archive Pictures Inc., an international documentary photographers' cooperative agency in New York City. During her busy career in the 1980s, **Heyman** filed a lawsuit on her brother, Samuel, in 1982.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: A few months pasted before Jared had another fight, his next fight was in Tokyo, Japan, Jared lost the fight. Jared was then selected to be on the sixth season of The Ultimate Fighter. Jared was on , Jared fought on Team Hughes. In his first fight of the competition, **Rollins** was defeated by George Sotiropoulos.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: A neighbour of **Ervine**'s who was a member of the Ulster Defence Association (UDA) William Irvine, had died in one of the bomb blasts on Bloody Friday. Before joining the UVF Ervine had attempted to join the Royal Ulster Constabulary (RUC), but due to a misdemeanour in his childhood involving a stolen bicycle, he was refused entry.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: She considered the cover to be a healthy ``feminist statement.'' In 2007, Moore stated that the picture was not originally intended for publication. She had posed in a personal photo session, not a cover shoot. Leibovitz has had personal photo sessions of **Moore** and all of her daughters.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: The first caution came out on lap 9 when Aric Almirola got tapped from behind by David Ragan and spun near the entrance to pit road, nearly collecting Travis Kvapil. The race restarted on lap 11, with Busch still leading; Busch would remain there until lap 53, when Dale Earnhardt, Jr. passed him for the lead. With the help of his Busch (his former teammate), **Tony Stewart** passed Earnhardt, Jr. for the led while entering turn 4.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: On 9 December 2010 Fern*ndez was questioned as a witness in relation to Operation Galgo, an investigation into a Spanish athletics doping ring being carried out by the Guardia Civil. She denied all charges of doping and was allowed to remain on the team that represented Spain at the European Cross Country Championships held in Albufeira, Portugal. El Pa*s reported that her coach, **Manuel Pascua**, admitted to police that he organised doping schedules for his athletes.
+output: ",he
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Born in Glasgow, Ure was the daughter of civil engineer Colin McGregor Ure and Edith Swinburne. She went to the independent Mount School in York, and trained for the stage at the Central School of Speech and Drama, then based at the Royal Albert Hall, London, where her classmates included the actress Wendy Craig. Known for her beauty, **Ure** began performing on the London stage and quickly developed a reputation for her abilities as a dramatic actress.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: In the mid-1930s, Daisy Clover is a teenage tomboy, living in a ramshackle trailer on a California beach with her eccentric mother Lucile. She dreams about becoming a Hollywood actress and submits a recorded song to a well-known film producer, Raymond Swan. Swan puts her under contract for five years. Raymond's wife, Melora, counsels **Daisy**, forcing her to deal with her job and life.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: The four-second fall from the Golden Gate Bridge sends a person plunging 245 feet (75 m) at 75 miles per hour (121 km/h) to hit the waters of the San Francisco Bay ``with the force of a speeding truck meeting a concrete building.'' Jumping off the bridge holds a 98 percent fatality rate; some die instantly from internal injuries, while others drown or die of hypothermia. In his article for The New Yorker, **Tad Friend** wrote, ``Survivors often regret their decision in midair, if not before,'' supported by survivor Ken Baldwin explaining, ``I instantly realized that everything in my life that I'd thought was unfixable was totally fixable--except for having just jumped.''
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Sam Dryden is an investor and developer of life-sciences ventures with extensive expertise in the scale-up and commercialization of early-stage technologies world-wide. **Sam** is a Managing Director of Company, a private investment and advisory firm founded by James Wolfensohn, former President of the World Bank. In this capacity, he focuses primarily on private equity investments in alternative energies.
+output: ",he
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Parker was at this time younger, taller and more than ten years younger than Probert. After circling around each other for several seconds the two grabbed each other's jerseys. However the fight was called off after just 11 seconds when Parker was nearly knocked unconscious from four right hands from **Probert** without throwing one of his own.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: He eventually became a full-time professional in October 1956 and made an impressive debut against Leicester City, during which he scored Town's second in a 2--2 draw. It was the start of a long and distinguished career at Leeds Road. Despite spending his entire Town career in the Second Division, **McHale** had the privilege of playing alongside some of the club's great names including Vic Metcalfe, Les Massie and Bill McGarry.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: In 1806, still commanding his cavalry division (23rd, 29th and 30th Dragoon Regiments), he was present at the siege and capture of the fortress of Gaeta, on the west coast of Italy. During the second French invasion of Portugal in 1809, **Mermet** led a division under Marshal Nicolas Soult. He fought at the First Battle of Porto on 28 March and the Battle of Grij* on 11 May.
+output: ",He
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Slant Magazine's Sal Cinquemani viewed the album as formulaic and ``competently, often frustratingly more of the same from an artist who still seems capable of much more.'' Greg Kot of the Chicago Tribune perceived ``formula production and hack songwriting'', but complimented Pink's personality and its ``handful'' of worthy tracks. In his list for The Barnes & Noble Review, **Robert Christgau** named The Truth About Love the fourth best album of 2012.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: This exhibition is historically considered one of the first ``Pop Art'' exhibitions in America. Ruscha had his first solo exhibition in 1963 at the Ferus Gallery in Los Angeles. In 1966, **Ruscha** was included in ``Los Angeles Now'' at the Robert Fraser Gallery in London, his first European exhibition.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Most notable, however, is Brynner's first film role; he plays Vicola with sleek menace and self-assured evil (and with a full head of hair, too, I might add). Not an outstanding film, Port of New York is well-suited to its subject matter and has been rather neglected for years.'' Film critic Dennis Schwartz gave the film a mixed review, writing, ``An unknown **Yul Brynner**, with all his hair, in his first film role, plays a well-spoken, smug narcotics smuggler named Paul Vicola.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Hugh Laing and Francisco Moncion also danced it before it lapsed from the performance rota for a decade. It was restaged in 1960 with Edward Villella in the title role (Villella recounts his work in recreating the role in his autobiography of the same name). Mikhail Baryshnikov danced it with City Ballet in 1979 and **Damian Woetzel** danced it at his farewell performance on Wednesday, 18 June 2008.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: He was born in New York City, studied in Paris, and after returning to the United States worked for Leslie's, Harper's Weekly and similar publications. He also contributed to the humorous weekly magazine Vanity Fair. The **Mark Twain** book A Tramp Abroad contains more than 20 pictures by Day. He married Maria Theresa Miller around 1859, who died in 1875.
+output: ",He
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: In 1851 Barlow was in England, where he published a short work ``Industry on Christian Principles, London, 1851. He published at London ``Letteratura Dantesca: Remarks on the Reading of the 114th Verse of the 7th Canto of the Paradise of the ``Divina Commedia'''' (1857), and two years afterwards ``Francesca da Rimini, her Lament and Vindication; with a brief Notice of the Malatesti'' (1859, 2nd edition, 1875). An Italian translation, ``Francesca da Rimini, suo Lamento e Difesa,'' &c., in Filippo Scolari's ``Esercitazioni Dantesche,'' appeared at Venice in 1865. Barlow published in 1862 ``Il Gran Rifiuto, what it was, who made it, and how fatal to Dante Allighieri,'' on verses 58 to 63 of the 3rd canto of the Inferno; an Italian translation by G. G(uiscardi) appeared at Naples in 1864. Barlow also issued in 1862 ``Il Conte Ugolino e l'Arcivescovo Ruggieri: a Sketch from the Pisan Chronicles,'' and a fragment of English history, entitled ``The Young King and Bertrand de Born,'' from which the author deduced an amended reading in line 135 of the 28th canto of the ``Inferno.'' In 1864 **Barlow** published the final result of his work on the ``Divina Commedia,'' ``Critical, Historical, and Philosophical Contributions to the Study of the ``Divina Commedia.''''
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Despite Anand's efforts Raju manages to loot the sword but then discovers that he's actually the son of Rajasekaran and he himself had been instrumental in stealing his own family treasure for the wrong men. With the help of Anand, **Raju** fights with Nagalingam's gang to successfully retrieve their family treasure and reunites with his family.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Giggs played in a match for Salford Boys against a United Under-15s side at The Cliff and scored a hat trick, with Ferguson watching from his office window. On 29 November 1987 (his 14th birthday), Ferguson turned up at **Giggs**'s house with United scout Joe Brown and offered him two years on associate schoolboy forms.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Nathan began playing rugby at the Wahroonga Tigers Rugby Club in Sydney, where he played over 200 games and gained junior representative honours for Gordon, Metropolitan North & Sydney Juniors. Nathan attended proud rugby school, Knox Grammar, also in Sydney, where he went on to represent CAS, NSW Schoolboys & Australian Schoolboys. During his final two years of schooling (2005-6, **Nathan** played for Knox Grammar School in Sydney on the Saturday, and the Canterbury SG Ball team on either the Friday or Sunday. Charles signed a Bulldogs contract, but had an agreement that if he made the Australian Schoolboys team, he could get out of the deal.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Kolenkhov brings up that the Romans' hobby was wrestling, and demonstrates on Mr. Kirby by throwing him on the floor. To pass the time after the awkward incident, Penny suggests they play a free association game. **Alice** imagines what is coming and immediately tries to quash the suggestions, but Penny shrugs her off and instructs everyone to write down ``the first thing that pops into their heads'' after she says certain words.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Gerran has also appeared in a few short films and television shows, appearing as ``Niall Andrews'' and ``Rory Brothwick'' in Casualty (2006 & 2012). As well as Some Girls episode 2 as ``**Ryan**''. In 2011, he appeared as ``Ernesto'' in an episode of the CBBC drama The Sparticle Mystery and returned in series 2 (which was aired in February 2013).
+output: ",he
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: But as the day wears on signs and premonitions of Odysseus'' return grow more ominous and they formulate a plan to work together in order that one of them may succeed in winning Penelope, thus saving the others from Odysseus'' revenge. In a final sequence **Quinn** performs a quick-change cabaret routine to the music of ``Spanish Flea'' and ``A Taste of Honey'' by Herb Alpert and the Tijuana Brass as the others aid his performance.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: It is revealed that all superpowers come from Compound V, a drug invented by Nazi scientists; a low-powered version mixed with cocaine is called Blue, and it is used to attain a singular, powerful high (or, as revealed during the surveillance, allows prostitutes to endure or recover from sex with superhumans), but it carries a risk of spontaneous and horrifying mutations. Judging that he is suitable to join the team, Butcher injects **Hughie** with a specially formulated mix of V that gives him super-strength and durability--much to Hughie's chagrin.
+output: ",he
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: The story takes place in a mysterious underworld of swanky nightclubs where armed criminals listen to Rat Pack music and hold shootouts from a seated position, behind desks. Mickey Holliday is the top enforcer for Vic, the mob boss, who is about to be released from a psychiatric facility. In his absence, Ben London has been running **Vic**'s nightclub while Mickey has been romancing both Rita and Grace Everly, which is doubly dangerous inasmuch as they are sisters and Grace was previously Vic's girl.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: The program's first episode faced significant criticism, particularly for eliding First Nations and Acadian history in favour of treating the establishment of New France as the primary starting point to Canadian history. A number of politicians in Quebec also criticized the program's portrayal of New France as inaccurate, including the depiction of Samuel de Champlain as dirty and unkempt in a diplomatic meeting with the Wendat, even while **James Wolfe** was portrayed as clean in the middle of his physical climb up Cap Diamant.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Jones, along with Frank Shorter, provided the voices of the TV announcers for a fictionalized staging of the U.S. Olympic Track and Field trials in the 1982 film Personal Best. In 1997, **Jones** was awarded the Pro Football Hall of Fame 's Pete Rozelle Radio-Television Award. He also received an Emmy Award in 1973 for his part as writer, producer and host of the documentary Is Winning the Name of the Game?
+output: ",He
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: It originally aired on the Fox network in the United States on March 30, 2008, and was written by Billy Kimball (the only sole writing credit he has received for the show to date), and directed by Lance Kramer. Lisa becomes a ballerina at an academy and discovers her natural talent is enhanced by second hand cigarette smoke. Meanwhile, **Homer** shows Bart his secret room where he has secretly been making beef jerky and is torn when a family of raccoons steal it.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: In 1982, while still at Harvard, Brown helped to reunite the Northern Lights band after a 5-year hiatus, she became a band member until 1984, when she moved back to California. Brown worked for two years with Smith Barney in San Francisco, and then took a break to pursue her music interests. In 1987, **Alison Krauss** asked Brown to join her band, Union Station.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: The regiment left Massachusetts on January 2, 1862, arrived off the Louisiana coast in mid February, and played a minor role in the Siege of New Orleans in April and May 1862. Early in his service with the 30th Massachusetts, **Dimon** caught the attention of Maj. Gen. Butler who was impressed with the young man's energy and enthusiasm.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Later in 2009 he appeared alongside John Nettles, James Fox, Sylvestra le touzel, Frances Barber and Richard Fleeshman in the prestigious ITV Drama Series Midsomer Murders as the young manipulative concert pianist Orlando Guest in the episode titled ``Masterclass'' directed by Renny Rye. **Thomas** is currently appearing on Broadway as the alternate 'Peter Parker' in the Broadway theatre production of the musical . He is scheduled two shows weekly as Peter Parker/Spider-Man.
+output: ",He
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: He directed the White House Climate Change Task Force and spent time as a senior member of various United States delegations, including the 1997 delegation that negotiated the Kyoto Protocol. **Gardiner** served the Clinton administrator for almost the entire 8 years that Bill Clinton was President. He is currently the President of an environmental consultancy company, David Gardiner & Associates.
+output: ",He
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Contemporary analysis reveals that Perot could have won the election if the polls prior to the election had shown the candidate with a larger share, preventing the wasted vote mindset. Republicans, including Vice President Dan Quayle, blamed **Perot** for their defeat, claiming that he won votes that would have otherwise gone to Bush.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: While his back-up vocalists Gloria Jones and Yvonne Keeley are without doubt talented singers, their place in the plan is strange: the way they're used is just years out of date.'' Len Righi of The Morning Call spoke of the song, stating: ``One of the best things about the song is Jo Partridge's guitar work.'' In a retrospective review of Hobo with a Grin for his website, **George Starostin** said: ``...''
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: He sold off the boy's brothers and sisters in preparation for moving to Pennsylvania; he traded 10-year-old Hayden for two carriage horses to a man who traveled the state selling clocks. The travels with his new master allowed Hayden to hear varying opinions of slavery, including its classification as a crime by some people. When he was 14, the American Revolutionary War soldier **Marquis de Lafayette** tipped his hat to Hayden while visiting Kentucky, which helped inspire Hayden to believe he was worthy of respect and to hate slavery.
+output: ",he
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: At the in Valencia, Button finished 3rd and maintained 2nd place in the title race with another podium. Button missed out on a podium at the , finishing fourth after problems with the balance off his car in qualifying had left him fourteenth. After three further-points scoring finishes, **Button** retired at the after being hit by Vettel and punctured the radiator of his car.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: She kept her head down, tried to make amends with her friends and steered clear of men but she wasn't alone for long. When she met police officer Martin Crowe at a kid's judo class, Louise felt a frisson of attraction. They became friends and after a while, romance blossomed. However, Louise was taking on Martin's daughter, Kayleigh, too. As she didn't have children, **Louise** didn't know how to behave around Kayleigh -- who worshipped her from the start.
+output: ",she
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Instead of returning to her tomb at the end of the ballet, it was decided that she would be placed on a bed of flowers and sink slowly into the earth. This touch preserved the romantic mood of the Act II finale. At last, on Monday, 28 June 1841 the curtain rose on Giselle at the Salle Le Peletier. Grisi danced **Giselle** with Lucien Petipa as her lover Albrecht, Jean Coralli as the gamekeeper Hilarion, and Ad*le Dumil*tre as Myrtha, the Queen of the Wilis.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: He has also closely worked with Pink Floyd guitarist David Gilmour as a recording engineer on his 1984 solo album About Face and also engineered his On an Island album, the Live in Gda*sk album, the David Gilmour in Concert DVD and Remember That Night DVD. He also engineered Roger Waters ' first full length solo album The Pros and Cons of Hitchhiking. In addition to his work with Pink Floyd since 1982, **Andrew** has also worked with bands like Heatwave, The Boomtown Rats (most notably mixed their hit ``I Don't Like Mondays'') and goth rock group Fields of the Nephilim.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Father Joseph savors the power which he possesses on the fate of Cinq-Mars (``Tu t'en vas''). He confronts Marie with the announcement of the execution of Cinq-Mars, for betraying the country by dealing independently with a foreign power. Further, he tells her, the Polish ambassador will return soon from a hunt with the King, and **Father Joseph** advises Marie to answer him favorably; in exchange, Cinq-Mars will be spared.
+output: ",he
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Theresa, her brother Sancho and sister Urraca were the only children of Afonso and **Matilda** to survive to adulthood. Named after her paternal grandmother, Countess Theresa, she was reputedly King Afonso I's favourite.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Brian Alexander Morgan is a record producer that was born and raised in Wichita, Kansas. He was discovered by Club Nouveau founding member Jay King, who got Morgan's group a recording contract with Warner Bros. Records in 1987. When his group's album failed to chart, they were dropped and **Morgan** was mentored by producer Robert Brookins.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: The press release was coincidental with the chair of the All-party parliamentary group on Russia being due for renewal. Shortly afterwards, Sir **Malcolm Rifkind**, who had served as a minister under Prime Ministers Margaret Thatcher and John Major, and was then chairman of the Intelligence and Security Committee, resigned from the group, saying he had been unhappy for some time about the group's behaviour and ``political direction''.
+output: ",he
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Haggard had enjoyed an immensely successful artistic and commercial run with Capitol and producer Ken Nelson, accumulating twenty-four #1 country singles since 1966. According to music journalist Daniel Cooper's essay for the 1994 Haggard retrospective Down Every Road, there was no animosity or disillusionment with the Capitol brass, and the change was made simply because MCA had made a better offer. In his 2013 Haggard biography The Running Kind, **David Cantwell** notes that by the latter half of the 1970s the singer had placed forty-three singles on Billboard's country charts, had won the Country Music Association's top prize, ``Entertainer of the Year,'' had been pardoned by California governor Ronald Reagan, had performed for President Richard Nixon, and had made the cover of Time magazine, and in response, ``He ran.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: G.K. Moopanar ( ; 1931-2001) was a senior Indian National Congress leader, a veteran Parliamentarian and a noted philanthropist. He was an All India Congress Committee general secretary from 1980 to 1988. **G.K. Moopanar** was a close associate of Veteran Congress leader and Tamil Nadu Chief Minister Late Thiru.K Kamaraj. He was a very powerful Congress leader who was known to have turned down high-ranking cabinet positions multiple times.
+output: ",He
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: One of his works praises the city of Benghazi. Ibn Thabit has his own website with support from people abroad on which many of his own songs and others produced in collaboration are freely available for download. On his website, **Ibn Thabit** claims that to have been ``attacking Gaddafi'' with music since 2008, when he posted his first song, ``Moammar - the coward'', on the internet.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: On 2 December 1781, the ship, now commanded by Captain Henry Cromwell and bearing the flag of Rear Admiral Richard Kempenfelt, sailed with eleven other ships of the line, a 50-gun fourth-rate, and five frigates, to intercept a French convoy that had sailed from Brest on 10 December. Not knowing that the convoy was protected by twenty-one ships of the line under the command of Luc Urbain de Bouexic, comte de Guichen, **Kempenfelt** ordered a chase when they were sighted on 12 December and began the battle. When he noted the French superiority, he contented himself with capturing fifteen sail of the convoy.
+output: ",he
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Over coffee, Norman tells Lucy that he's discovered that Freudstein was a Victorian surgeon who conducted illegal experiments. Norman must travel to New York to research Freudstein. On the way, Norman drops by the library and finds a cassette of Peterson's, which explains Freudstein killed his family. **Ann** goes to the cellar looking for Bob, but Freudstein decapitates her after slashing her throat.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: The family is startled by the corpse of a fallen Quetzalcoatlus that was hit by an erupting geyser while flying and killed by the boiling water before spiraling back to the ground. Little Das takes a whiff of the corpse, but he sneezes violently. Agitated, **Little Das** stomps on the corpse and storms off after Buck's trail, with his family following.
+output: ",he
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Other people whose names were cited as possible candidates were MPPs Patrick Reid, Jim Bullbrook, Jim Breithaupt and MPs Norman Cafik, John Roberts and Anthony Abbott. Some Liberals including Donald Deacon tried to recruit former federal finance minister **John Turner** for the leadership election, but he declined.
+output: ",he
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Finn, along with fellow original De Dannan member Johnny ``Ringo'' McDonagh, has recently reformed De Dannan with banjoist/keyboardist Brian McGrath, accordionist Derek Hickey, fiddler Mick Conneely, and singer Eleanor Shanley. **Alec Finn** is the older brother of the author Gervase Phinn. He changed the spelling of his surname form Phinn to Finn upon moving to Ireland from his childhood home in Rotherham, South Yorkshire.
+output: ",He
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Clay's group was chosen to maintain electronic equipment during the planned invasion of Japan. After separation from the Army, **Clay** completed both the Bachelor's (1947) and Masters (1948) degrees in Physics at Kansas State University. At the University of Wisconsin-Madison, his doctoral dissertation under Professor Gibson Winas was entitled, ``Field Strengths and Spectra of High Frequency Gas Discharges.''
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: The group then moved on to their AWA run, returned to World Class, and then started a stint in the UWF where Gordy became the promotion's champion, Roberts held its TV title, and Hayes usually acted as their manager or served as a heel commentator on television broadcasts. After JCP purchased UWF in 1987, Hayes wrestled in World Class and several independent promotions, sometimes with **Gordy**, who began spending most of his time in Japan, and Roberts began to wind down his career.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: The fact Benton is a warrant officer, having been promoted in the first Fourth Doctor serial, Robot, places it after that serial, but presumably prior to his departure from UNIT in the late 1970s as revealed in the serial Mawdryn Undead. In September 2015, the film was released on DVD On his way to UNIT HQ in order to deliver some radioactive materials, Warrant Officer John Benton has an unexpected flashback to his childhood in Lancashire. After visiting the grave of his older brother Chris, **Benton** has a further flashback to his childhood in 1944.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: In 1981, Fredriksson sang for the first time with Gyllene Tider on stage and was featured as a background vocalist for a Swedish-language album the band released in 1982. Gessle also worked with ex-ABBA singer Frida, for a song that appeared on her 1982 album Something's Going On, setting music to a Dorothy Parker poem. While working on her first solo album, Het vind (Hot Wind), **Fredriksson** performed more background vocals for Gyllene Tider's only album in English, The Heartland Caf*.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Later in the day, he announced the reappointment of Paul Biyoghe Mba as Prime Minister; he made the announcement personally ``to underline the importance of this moment''. According to **Bongo**, Biyoghe Mba had the necessary experience and managerial competence ``to lead us through the next stage'', and he said work would start ``immediately''.
+output: ",he
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: The Miller family of the first three seasons was dropped from the plot and a young couple, the Martins, brought in to buy the Miller farm and adopt the Miller foster child, Timmy. **Uncle Petrie** is Paul Martin's uncle and debuts in the fourth season episode ``The Ring''. There, he joins the family on the farm when Ruth Martin summons him from Millvale, Pennsylvania to help with the work.
+output: ",he
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: `` ''Thanks to the efforts of many of those great makers (which began with Gaetano Antoniazzi) and later with support of people like Simone Fernando Sacconi, the glory of Cremona was re-established with the opening of the School of Violin Making (officially in 1938, Cremona). `` ''**Ceruti**'s work is rather cleaner and more precise than Storioni's, but his choice of wood was often somewhat plain.
+output: ",He
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: The Pageant attracts thousands of members of the Royal Black Preceptory, a group related to the Orange Order, who come to march and stage a symbolic (sham) re-enactment of the 1690 Battle of the Boyne. In June 1690, a Williamite army of 30,000 men camped in the Scarva area for training before marching on to meet the forces of King James II at the Battle of the Boyne on 1 July 1690. Whilst training his army, **King William** is said to have camped under a magnificent Spanish chestnut tree.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Throughout his education at Marborough and Cambridge he seems to have led a reclusive life. At Cambridge he had one close friend, John McCowan, with whom he shared an interest in motor cars. It was during a stay at the McCowan family farm that **Petter** met his future wife Claude, the daughter of Louis Munier a Swiss official at the League of Nations in Geneva.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: ``Kruse was having an incredibly difficult time simply trying to dress himself. He put his climbing harness on inside out, threaded it through the fly of his wind suit, and failed to fasten the buckle; fortunately, Fisher and Neal Beidleman noticed the screwup before Kruse started to descend. ``If he'd tried to rappel down the ropes like that,'' says Beidleman, ``he would have immediately popped out of his harness and fallen to the bottom of the Lhotse Face.`` ``''It was like I was very drunk,`` Kruse recollects. ''I couldn't walk without stumbling, and completely lost the ability to think or speak. It was a really strange feeling. I'd have some word in my mind, but I couldn't figure out how to bring it to my lips. So Scott and Neal had to get me dressed and make sure my harness was on correctly, then Scott lowered me down the fixed ropes.`` By the time **Kruse** arrived in Base Camp, he says, ''it was still another three or four days before I could walk from my tent to the mess tent without stumbling all over the place.``''
+output: ",he
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Noble ``Thin Man'' Watts (February 17, 1926 -- August 28, 2004) was an American blues, jump blues and rhythm and blues saxophonist. He primarily played tenor saxophone. Allmusic journalist Bill Dahl considered **Watts** ``one of the most incendiary ... fire-breathing tenor sax honkers'' of the 1950s. Born in DeLand, Florida, Watts studied violin and trumpet in his youth, later switching to sax.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Her world is perfectly ordered until young working-class girl, Sharon Wilkes (Beverley) is hired as the new office secretary. Initially prone to be snobbish, Elsie soon learns to appreciate Sharon and the two become friends. Many episodes revolve around the family life of either Sharon or Elsie, with **Sharon**'s brother Elvis (Lee Daley) and her boyfriend Wayne (John Wild) and Elsie's husband Roland (Bruce Montague) making regular appearances.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: Christy (released in 1967) is a historical fiction novel by Christian author **Catherine Marshall** set in the fictional Appalachian village of Cutter Gap, Tennessee, in 1912. The novel was inspired by the story of the journey made by her own mother, Leonora Whitaker, to teach the impoverished children in the Appalachian region as a young, single adult.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: His other television appearances included Comedy Central 's Comics Come Home special, The Dennis Miller Show, and Late Night with Conan O'Brien. He also worked as a writer on In Living Color. Prior to his death in 2005, **Thomas** was working as a writer for Air America Radio, and was a frequent guest at Rocky Sullivan's ``Satire for Sanity'' show. He also was working on a project with Jamie Foxx.
+output: He
+Positive example 2-
+input: **White** has held positions as finance chair for the Democratic National Committee and as finance co-chair for Hillary Clinton's 2008 presidential campaign. She has been involved in fundraising for her 2016 presidential campaign as well.
+output: She
+Now complete the following example-
+input: She was appointed by Richard Nixon but continued serving as Treasurer through Gerald Ford's term in office after Nixon resigned in August 1974. **Neff** took office at a time when the role of Treasurer was being reorganized. The Treasurer was named National Director of the Savings Bonds Division for the first time during her term.
+output: ",her

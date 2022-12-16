@@ -1,0 +1,31 @@
+input,output
+"input: Bob was a computer scientist. He enjoyed natural language processing. He decided to revolutionize the industry! He formulated a machine learning algorithm to process words. He won the nobel prize for his work!
+Why was Bob a computer scientist?
+output: ",Answerable
+"input: Bob was a computer scientist. He enjoyed natural language processing. He decided to revolutionize the industry! He formulated a machine learning algorithm to process words. He won the nobel prize for his work!
+Why did He win the nobel prize?
+output: ",Answerable
+"input: Jay took a trip to his old college. Jay is an alumni. He visited his friends. He went and got drunk. He had a good time.
+Why did Jay take a trip?
+output: ",Answerable
+"input: Jay took a trip to his old college. Jay is an alumni. He visited his friends. He went and got drunk. He had a good time.
+Why is Jay an alumni?
+output: ",Answerable
+"input: Jay took a trip to his old college. Jay is an alumni. He visited his friends. He went and got drunk. He had a good time.
+Why did He visit his friends?
+output: ",Not Answerable
+"input: Jay took a trip to his old college. Jay is an alumni. He visited his friends. He went and got drunk. He had a good time.
+Why did He go ?
+output: ",Answerable
+"input: Jay took a trip to his old college. Jay is an alumni. He visited his friends. He went and got drunk. He had a good time.
+Why had He a good time?
+output: ",Answerable
+"input: Kim was on her way to work. She went to drink some coffee from her thermos. It was cold and gross. She noticed she got the wrong thermos. She turned around for the right one.
+Why was Kim on her way to work?
+output: ",Not Answerable
+"input: Kim was on her way to work. She went to drink some coffee from her thermos. It was cold and gross. She noticed she got the wrong thermos. She turned around for the right one.
+Why did She go to drink some coffee from her thermos?
+output: ",Not Answerable
+"input: Kim was on her way to work. She went to drink some coffee from her thermos. It was cold and gross. She noticed she got the wrong thermos. She turned around for the right one.
+Why was It cold and gross?
+output: ",Answerable

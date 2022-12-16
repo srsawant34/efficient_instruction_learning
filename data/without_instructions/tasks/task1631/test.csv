@@ -1,0 +1,501 @@
+input,output
+"input: entity: a normal position 
+before: taken 
+after: now changed to fighting position 
+attr: position
+output: ",position of a normal position was taken before and now changed to a fighting position afterwards
+"input: entity: person 
+before: in air 
+after: on ground 
+attr: location
+output: ",location of person was in air before and on ground afterwards
+"input: entity: trash bag 
+before: in container 
+after: on ground 
+attr: location
+output: ",location of trash bag was in a container before and on the ground afterwards
+"input: entity: newspaper 
+before: on floor 
+after: in trash 
+attr: location
+output: ","location of newspaper was on floor before, and in trash afterwards."
+"input: entity: plastic bag 
+before: on floor 
+after: in trash 
+attr: location
+output: ",location of plastic bag was on the floor before and in the trash afterwards
+"input: entity: newspaper 
+before: on floor 
+after: in trash bag 
+attr: location
+output: ",location of newspaper was on the floor before and in the trash bag afterwards
+"input: entity: other clothes 
+before: being worn more often 
+after: being worn less often 
+attr: wearing
+output: ",wearing of other clothes was being worn more often before and being worn less often afterwards
+"input: entity: necklaces 
+before: unattended too 
+after: being attended too 
+attr: awareness
+output: ",awareness of necklaces was unattended too before and being attended too afterwards
+"input: entity: extra layers 
+before: being worn 
+after: now removed 
+attr: wearing
+output: ",wearing of extra layers was being worn before and now removed afterwards
+"input: entity: ink 
+before: wet 
+after: dry 
+attr: wetness
+output: ",wetness of ink was wet before and dry afterwards
+"input: entity: display case 
+before: empty 
+after: full 
+attr: capacity
+output: ",capacity of display case was empty before and full afterwards
+"input: entity: grovehoop 
+before: on floor 
+after: placed against small of back 
+attr: grovehoop placement
+output: ",grovehoop placement of grovehoop was on floor before and placed against small of back afterwards
+"input: entity: hips 
+before: still 
+after: moving 
+attr: movement
+output: ",movement of hips was still before and moving afterwards
+"input: entity: legs 
+before: still 
+after: moving 
+attr: movement
+output: ",movement of legs was still before and moving afterwards
+"input: entity: head 
+before: left alone 
+after: measured front to back 
+attr: head
+output: ",head of head was left alone before and measured front to back afterwards
+"input: entity: head 
+before: left alone 
+after: measured from side to side 
+attr: head
+output: ",head of head was left alone before and measured from side to side afterwards
+"input: entity: project 
+before: started 
+after: finished 
+attr: complexity
+output: ",complexity of project was started before and finished afterwards
+"input: entity: fish 
+before: swimming freely 
+after: caught on hook 
+attr: freeness
+output: ",freeness of fish was swimming freely before and caught on hook afterwards
+"input: entity: fish 
+before: fighting 
+after: tired 
+attr: energy level
+output: ",energy level of fish was fighting before and tired afterwards
+"input: entity: fish 
+before: calm 
+after: panicked 
+attr: emotional state
+output: ",emotional state of fish was calm before and panicked afterwards
+"input: entity: fish 
+before: in water 
+after: in net 
+attr: location
+output: ",location of fish was in water before and in net afterwards
+"input: entity: binder clip 
+before: in original place 
+after: found 
+attr: state
+output: ",state of binder clip was in original place before and found afterwards
+"input: entity: toothpaste tube 
+before: longer 
+after: shorter 
+attr: length
+output: ",length of toothpaste tube was longer before and shorter afterwards
+"input: entity: toothpaste tube 
+before: fuller 
+after: emptier 
+attr: fullness
+output: ",fullness of toothpaste tube was fuller before and emptier afterwards
+"input: entity: task 
+before: incomplete 
+after: finished 
+attr: completion
+output: ","completion of task was incomplete before, and finished afterwards."
+"input: entity: liquid paper 
+before: at store 
+after: in consumers possession 
+attr: ownership
+output: ",ownership of liquid paper was at the store before and in consumers possession afterwards
+"input: entity: foot 
+before: in front of eye of needle 
+after: behind eye of needle 
+attr: location
+output: ",location of foot was in front of the eye of the needle before and behind the eye of the needle afterwards
+"input: entity: area 
+before: wet 
+after: dry 
+attr: state
+output: ",state of area was wet before and dry afterwards
+"input: entity: metal plate 
+before: unattached 
+after: attached 
+attr: location
+output: ",location of metal plate was unattached before and attached afterwards
+"input: entity: they 
+before: being held normally 
+after: now being held in hug hold 
+attr: holding
+output: ",holding of they was being held normally before and now being held in a hug hold afterwards
+"input: entity: they 
+before: in hug hold 
+after: now in face-to-face hold 
+attr: holding
+output: ",holding of they was in hug hold before and now in face-to-face hold afterwards
+"input: entity: they 
+before: in face-to-face hold 
+after: now in modified face-to-face hold 
+attr: holding
+output: ",holding of they was in face-to-face hold before and now in modified face-to-face hold afterwards
+"input: entity: they 
+before: in modified face-to-face hold 
+after: now in pass hold 
+attr: holding
+output: ",holding of they was in modified face-to-face hold before and now in the pass hold afterwards
+"input: entity: mango, lemon and garlic 
+before: whole 
+after: cut into pieces 
+attr: size
+output: ","size of mango, lemon and garlic was whole before and cut into pieces afterwards"
+"input: entity: ingredients 
+before: separated 
+after: mixed in blender 
+attr: composition
+output: ",composition of ingredients was separated before and mixed in blender afterwards
+"input: entity: meat 
+before: bland 
+after: seasoned 
+attr: taste
+output: ",taste of meat was bland before and seasoned afterwards
+"input: entity: gymnast 
+before: practicing level 5 skills 
+after: practicing level 6 skills 
+attr: skill
+output: ",skill of gymnast was practicing level 5 skills before and practicing level 6 skills afterwards
+"input: entity: gymnast 
+before: practicing alone 
+after: being taught by coach 
+attr: education
+output: ",education of gymnast was practicing alone before and being taught by a coach afterwards
+"input: entity: gymnast 
+before: standing still 
+after: dancing routine 
+attr: state
+output: ","state of gymnast was standing still before, and dancing routine afterwards."
+"input: entity: baking powder and cream of tartar 
+before: separate 
+after: mixed 
+attr: composition
+output: ",composition of baking powder and cream of tartar was separate before and mixed afterwards
+"input: entity: paste 
+before: in container 
+after: on floor 
+attr: location
+output: ",location of paste was in container before and on floor afterwards
+"input: entity: stain 
+before: dark 
+after: light 
+attr: state
+output: ",state of stain was dark before and light afterwards
+"input: entity: paste 
+before: on tile 
+after: removed 
+attr: location
+output: ",location of paste was on tile before and removed afterwards
+"input: entity: the laundry caps 
+before: wet 
+after: dry 
+attr: wetness
+output: ",wetness of the laundry caps was wet before and dry afterwards
+"input: entity: the rice or kernels 
+before: in container 
+after: in cap 
+attr: location
+output: ",location of the rice or kernels was in a container before and in the cap afterwards
+"input: entity: the rims 
+before: dry 
+after: wet 
+attr: wetness
+output: ",wetness of the rims was dry before and wet afterwards
+"input: entity: the caps 
+before: separate 
+after: glued together 
+attr: state
+output: ",state of the caps was separate before and glued together afterwards
+"input: entity: rope 
+before: loose 
+after: taut 
+attr: tension
+output: ",tension of rope was loose before and taut afterwards
+"input: entity: hand 
+before: in front of chest 
+after: chin height 
+attr: location
+output: ",location of hand was in front of chest before and chin height afterwards
+"input: entity: arm 
+before: at chin height 
+after: nipple height 
+attr: location
+output: ",location of arm was at chin height before and nipple height afterwards
+"input: entity: arm 
+before: at side 
+after: chin height 
+attr: position
+output: ",position of arm was at side before and chin height afterwards
+"input: entity: pvc pipe 
+before: unavailable 
+after: available 
+attr: availability
+output: ",availability of pvc pipe was unavailable before and available afterwards
+"input: entity: pvc 
+before: uncut 
+after: cut 
+attr: composition
+output: ",composition of pvc was uncut before and cut afterwards
+"input: entity: pieces 
+before: unassembled 
+after: assembled 
+attr: composition
+output: ",composition of pieces was unassembled before and assembled afterwards
+"input: entity: paralette 
+before: unassembled 
+after: assembled 
+attr: composition
+output: ",composition of paralette was unassembled before and assembled afterwards
+"input: entity: you 
+before: shopping for tamarillos 
+after: purchasing tamarillos 
+attr: cost
+output: ",cost of you was shopping for tamarillos before and purchasing tamarillos afterwards
+"input: entity: tamarillos 
+before: warm 
+after: cooled in fridge 
+attr: temp
+output: ",temp of tamarillos was warm before and cooled in fridge afterwards
+"input: entity: the tamarillos 
+before: dry 
+after: wet 
+attr: wetness
+output: ",wetness of the tamarillos was dry before and wet afterwards
+"input: entity: the tamarillo 
+before: whole 
+after: cut 
+attr: state
+output: ",state of the tamarillo was whole before and cut afterwards
+"input: entity: person 
+before: standing 
+after: laying 
+attr: position
+output: ",position of person was standing before and laying afterwards
+"input: entity: person 
+before: sitting on surfboard 
+after: standing on surfboard 
+attr: state
+output: ",state of person was sitting on surfboard before and standing on surfboard afterwards
+"input: entity: surfer 
+before: seated 
+after: standing 
+attr: orientation
+output: ",orientation of surfer was seated before and standing afterwards
+"input: entity: surfer 
+before: standing on surfboard 
+after: floating in water 
+attr: location
+output: ",location of surfer was standing on surfboard before and floating in water afterwards
+"input: entity: feet 
+before: close together 
+after: shoulder-width apart 
+attr: distance
+output: ",distance of feet was close together before and shoulder-width apart afterwards
+"input: entity: feet 
+before: flat on ground 
+after: raised on toes 
+attr: orientation
+output: ",orientation of feet was flat on ground before and raised on toes afterwards
+"input: entity: feet 
+before: raised 
+after: lowered 
+attr: orientation
+output: ",orientation of feet was raised before and lowasd afterwards
+"input: entity: vacuum 
+before: off 
+after: on 
+attr: power
+output: ",power of vacuum was off before and on afterwards
+"input: entity: talkum 
+before: in bottle 
+after: on pillow 
+attr: location
+output: ",location of talkum was in the bottle before and on the pillow afterwards
+"input: entity: pillow 
+before: covered 
+after: uncovered 
+attr: coverage
+output: ",coverage of pillow was covered before and uncovered afterwards
+"input: entity: pillow 
+before: dirty 
+after: clean 
+attr: cleanness
+output: ",cleanness of pillow was dirty before and clean afterwards
+"input: entity: rope 
+before: straight 
+after: knotted 
+attr: shape
+output: ",shape of rope was straight before and knotted afterwards
+"input: entity: loop 
+before: on farthest side 
+after: pulled through loop 
+attr: position
+output: ",position of loop was on the farthest side before and pulled through other loop afterwards
+"input: entity: thoughts 
+before: on things 
+after: on marital fighting style 
+attr: thoughts
+output: ",thoughts of thoughts was on other things before and on marital fighting style afterwards
+"input: entity: learner 
+before: alone 
+after: with person 
+attr: group size
+output: ",group size of learner was alone before and with another person afterwards
+"input: entity: learner 
+before: ignorant of fighting style 
+after: educated 
+attr: knowledge
+output: ",knowledge of learner was ignorant of fighting style before and educated afterwards
+"input: entity: learner 
+before: secular 
+after: spiritual 
+attr: mental state
+output: ",mental state of learner was secular before and spiritual afterwards
+"input: entity: fennel 
+before: green 
+after: smooth and white 
+attr: state
+output: ",state of fennel was green before and smooth and white afterwards
+"input: entity: hand 
+before: empty 
+after: squeezing fennel 
+attr: state
+output: ",state of hand was empty before and squeezing the fennel afterwards
+"input: entity: fennel 
+before: whole 
+after: trimmed 
+attr: state
+output: ",state of fennel was whole before and trimmed afterwards
+"input: entity: fennel 
+before: bare 
+after: wrapped 
+attr: state
+output: ",state of fennel was bare before and wrapped afterwards
+"input: entity: baseball familiarity 
+before: absent 
+after: present 
+attr: knowledge
+output: ",knowledge of baseball familiarity was absent before and present afterwards
+"input: entity: rope 
+before: separate from ball 
+after: through slot in ball 
+attr: location
+output: ",location of rope was separate from ball before and through a slot in the ball afterwards
+"input: entity: pole 
+before: absent 
+after: present 
+attr: location
+output: ",location of pole was absent before and present afterwards
+"input: entity: bat 
+before: on ground 
+after: in hand 
+attr: location
+output: ",location of bat was on ground before and in hand afterwards
+"input: entity: fingers 
+before: straight 
+after: curved 
+attr: shape
+output: ",shape of fingers was straight before and curved afterwards
+"input: entity: ball 
+before: on ground 
+after: in basket of lacrosse stick 
+attr: location
+output: ",location of ball was on ground before and in basket of lacrosse stick afterwards
+"input: entity: dominant hand 
+before: farther from basket of lacrosse stick 
+after: closer to basket of lacrosse stick 
+attr: location
+output: ",location of dominant hand was farther from basket of lacrosse stick before and closer to basket of lacrosse stick afterwards
+"input: entity: ball 
+before: stationary 
+after: moving 
+attr: motion
+output: ",motion of ball was stationary before and moving afterwards
+"input: entity: a watch 
+before: needed 
+after: set 
+attr: state
+output: ",state of a watch was needed before and set afterwards
+"input: entity: your kit 
+before: without food 
+after: now with food 
+attr: state
+output: ",state of your kit was without food before and now with food afterwards
+"input: entity: your kit 
+before: without phone 
+after: with phone 
+attr: state
+output: ",state of your kit was without a phone before and with a phone afterwards
+"input: entity: you phone 
+before: needing emergency numbers stored 
+after: now containing emergency numbers 
+attr: state
+output: ",state of you phone was needing emergency numbers stored before and now containing emergency numbers afterwards
+"input: entity: flowers 
+before: attached to plant 
+after: cut from stem 
+attr: size
+output: ",size of flowers was attached to plant before and cut from stem afterwards
+"input: entity: flowers 
+before: in garden 
+after: on table 
+attr: location
+output: ",location of flowers was in garden before and on table afterwards
+"input: entity: rubber band 
+before: small 
+after: stretched out 
+attr: elasticity
+output: ",elasticity of rubber band was small before and stretched out afterwards
+"input: entity: ribbon 
+before: straight 
+after: tied in bow 
+attr: shape
+output: ",shape of ribbon was straight before and tied in bow afterwards
+"input: entity: stove 
+before: off 
+after: on 
+attr: power
+output: ",power of stove was off before and on afterwards
+"input: entity: sugar 
+before: cool 
+after: warm 
+attr: temperature
+output: ",temperature of sugar was cool before and warm afterwards
+"input: entity: serving dish 
+before: clean 
+after: dirty 
+attr: cleanness
+output: ",cleanness of serving dish was clean before and dirty afterwards
+"input: entity: spoons 
+before: clean 
+after: dirty 
+attr: cleanness
+output: ",cleanness of spoons was clean before and dirty afterwards

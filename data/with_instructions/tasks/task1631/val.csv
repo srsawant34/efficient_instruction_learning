@@ -1,0 +1,191 @@
+input,output
+"Definition: Given an entity, a before event, an after event, and an attribute related to the entity, generate a sentence as output. Your sentence should show the changes in the attribute of the entity.
+Positive example 1-
+input:  entity: arm 
+before: free 
+after: grasped 
+attr: state
+output: state of arm was free before and grasped afterwards
+Positive example 2-
+input: entity: person 
+before: standing 
+after: in air 
+attr: location
+output: location of person was standing before and in air afterwards.
+Now complete the following example-
+input: entity: tea cup 
+before: just held water 
+after: holding tea 
+attr: step
+output: ",step of tea cup was just held water before and holding tea afterwards
+"Definition: Given an entity, a before event, an after event, and an attribute related to the entity, generate a sentence as output. Your sentence should show the changes in the attribute of the entity.
+Positive example 1-
+input:  entity: arm 
+before: free 
+after: grasped 
+attr: state
+output: state of arm was free before and grasped afterwards
+Positive example 2-
+input: entity: person 
+before: standing 
+after: in air 
+attr: location
+output: location of person was standing before and in air afterwards.
+Now complete the following example-
+input: entity: tea bag 
+before: dripping wet 
+after: drier 
+attr: state
+output: ",state of tea bag was dripping wet before and drier afterwards
+"Definition: Given an entity, a before event, an after event, and an attribute related to the entity, generate a sentence as output. Your sentence should show the changes in the attribute of the entity.
+Positive example 1-
+input:  entity: arm 
+before: free 
+after: grasped 
+attr: state
+output: state of arm was free before and grasped afterwards
+Positive example 2-
+input: entity: person 
+before: standing 
+after: in air 
+attr: location
+output: location of person was standing before and in air afterwards.
+Now complete the following example-
+input: entity: tea bags 
+before: away from campfire 
+after: near campfire 
+attr: location
+output: ",location of tea bags was away from campfire before and near campfire afterwards
+"Definition: Given an entity, a before event, an after event, and an attribute related to the entity, generate a sentence as output. Your sentence should show the changes in the attribute of the entity.
+Positive example 1-
+input:  entity: arm 
+before: free 
+after: grasped 
+attr: state
+output: state of arm was free before and grasped afterwards
+Positive example 2-
+input: entity: person 
+before: standing 
+after: in air 
+attr: location
+output: location of person was standing before and in air afterwards.
+Now complete the following example-
+input: entity: tea bags 
+before: beside campfire 
+after: in campfire 
+attr: location
+output: ",location of tea bags was beside campfire before and in the campfire afterwards
+"Definition: Given an entity, a before event, an after event, and an attribute related to the entity, generate a sentence as output. Your sentence should show the changes in the attribute of the entity.
+Positive example 1-
+input:  entity: arm 
+before: free 
+after: grasped 
+attr: state
+output: state of arm was free before and grasped afterwards
+Positive example 2-
+input: entity: person 
+before: standing 
+after: in air 
+attr: location
+output: location of person was standing before and in air afterwards.
+Now complete the following example-
+input: entity: fighter 
+before: stationary 
+after: moving 
+attr: speed
+output: ",speed of fighter was stationary before and moving afterwards
+"Definition: Given an entity, a before event, an after event, and an attribute related to the entity, generate a sentence as output. Your sentence should show the changes in the attribute of the entity.
+Positive example 1-
+input:  entity: arm 
+before: free 
+after: grasped 
+attr: state
+output: state of arm was free before and grasped afterwards
+Positive example 2-
+input: entity: person 
+before: standing 
+after: in air 
+attr: location
+output: location of person was standing before and in air afterwards.
+Now complete the following example-
+input: entity: fighter 
+before: stationary 
+after: attacking 
+attr: state
+output: ",state of fighter was stationary before and attacking afterwards
+"Definition: Given an entity, a before event, an after event, and an attribute related to the entity, generate a sentence as output. Your sentence should show the changes in the attribute of the entity.
+Positive example 1-
+input:  entity: arm 
+before: free 
+after: grasped 
+attr: state
+output: state of arm was free before and grasped afterwards
+Positive example 2-
+input: entity: person 
+before: standing 
+after: in air 
+attr: location
+output: location of person was standing before and in air afterwards.
+Now complete the following example-
+input: entity: fighter 
+before: stationary 
+after: using fake combos 
+attr: orientation
+output: ",orientation of fighter was stationary before and using fake combos afterwards
+"Definition: Given an entity, a before event, an after event, and an attribute related to the entity, generate a sentence as output. Your sentence should show the changes in the attribute of the entity.
+Positive example 1-
+input:  entity: arm 
+before: free 
+after: grasped 
+attr: state
+output: state of arm was free before and grasped afterwards
+Positive example 2-
+input: entity: person 
+before: standing 
+after: in air 
+attr: location
+output: location of person was standing before and in air afterwards.
+Now complete the following example-
+input: entity: fighter 
+before: being coutered 
+after: countering counter 
+attr: motion
+output: ",motion of fighter was being coutered before and countering the counter afterwards
+"Definition: Given an entity, a before event, an after event, and an attribute related to the entity, generate a sentence as output. Your sentence should show the changes in the attribute of the entity.
+Positive example 1-
+input:  entity: arm 
+before: free 
+after: grasped 
+attr: state
+output: state of arm was free before and grasped afterwards
+Positive example 2-
+input: entity: person 
+before: standing 
+after: in air 
+attr: location
+output: location of person was standing before and in air afterwards.
+Now complete the following example-
+input: entity: kite-surfing technique 
+before: unfamiliar 
+after: familiar 
+attr: familiarity
+output: ",familiarity of kite-surfing technique was unfamiliar before and familiar afterwards
+"Definition: Given an entity, a before event, an after event, and an attribute related to the entity, generate a sentence as output. Your sentence should show the changes in the attribute of the entity.
+Positive example 1-
+input:  entity: arm 
+before: free 
+after: grasped 
+attr: state
+output: state of arm was free before and grasped afterwards
+Positive example 2-
+input: entity: person 
+before: standing 
+after: in air 
+attr: location
+output: location of person was standing before and in air afterwards.
+Now complete the following example-
+input: entity: lines 
+before: wound around bar 
+after: unwound from bar 
+attr: state
+output: ",state of lines was wound around bar before and unwound from bar afterwards

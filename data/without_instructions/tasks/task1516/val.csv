@@ -1,0 +1,21 @@
+input,output
+"input: Premise : 'All ten reports that can bore some waiter might be disagreeing with Naomi.','Hypothesis : There are exactly ten waitresses that can bore some waiter.'
+output: ",neutral
+"input: Premise : 'If all ten reports that can bore some waiter are disagreeing with Naomi, it's okay.','Hypothesis : There are exactly ten reports that can bore some waiter.'
+output: ",positive
+"input: Premise : 'If all ten reports that can bore some waiter are disagreeing with Naomi, it's okay.','Hypothesis : There are exactly eleven reports that can bore some waiter.'
+output: ",negated
+"input: Premise : 'If all ten reports that can bore some waiter are disagreeing with Naomi, it's okay.','Hypothesis : There are exactly ten waitresses that can bore some waiter.'
+output: ",neutral
+"input: Premise : 'The five waiters that approached Paul depart.','Hypothesis : There are exactly five waiters that approached Paul.'
+output: ",positive
+"input: Premise : 'The five waiters that approached Paul depart.','Hypothesis : There are exactly six waiters that approached Paul.'
+output: ",negated
+"input: Premise : 'The five waiters that approached Paul depart.','Hypothesis : There are exactly five doctors that approached Paul.'
+output: ",neutral
+"input: Premise : 'The five waiters that approached Paul don't depart.','Hypothesis : There are exactly five waiters that approached Paul.'
+output: ",positive
+"input: Premise : 'The five waiters that approached Paul don't depart.','Hypothesis : There are exactly six waiters that approached Paul.'
+output: ",negated
+"input: Premise : 'The five waiters that approached Paul don't depart.','Hypothesis : There are exactly five doctors that approached Paul.'
+output: ",neutral

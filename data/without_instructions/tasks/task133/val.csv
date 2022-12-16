@@ -1,0 +1,41 @@
+input,output
+"input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence.
+ Reason: The 'they' refers to the city councilmen because The ones that fear violence are likely the councilmen. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence.
+ Reason: The 'they' refers to the city councilmen because The councilmen distributed permits at their discretion; the demonstrators wanted the permits. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence.
+ Reason: The 'they' refers to the city councilmen because The demonstrators made the councilmen feared violence. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence.
+ Reason: The 'they' refers to the city councilmen because they are under the command of Mayor James B. Gray. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence.
+ Reason: The 'they' refers to the city councilmen because The demonstraters refused. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence.
+ Reason: The 'they' refers to the city councilmen because demonstrators are more likely to be advocating violence. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence.
+ Reason: The 'they' refers to the city councilmen because The demonstrators advocated violence. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence.
+ Reason: The 'they' refers to the city councilmen because The demonstrators were the ones who needed a permit. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"input: Sentence: The city councilmen refused the demonstrators a permit because they advocated violence.
+ Reason: The 'they' refers to the demonstrators because demonstrators are more likely to be advocating violence. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"input: Sentence: The city councilmen refused the demonstrators a permit because they advocated violence.
+ Reason: The 'they' refers to the demonstrators because the demonstrators commit violence so they refused to allow. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct

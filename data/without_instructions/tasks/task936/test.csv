@@ -1,0 +1,401 @@
+input,output
+"input: Premise: A young boy with an older man using chalk to draw on the sidewalk.
+Hypothesis: A young boy with an older sad man using chalk to draw on the sidewalk.
+Update: The man is laughing.
+output: ",weakener
+"input: Premise: A brown dog catching a ball in silhouette.
+Hypothesis: The dog is playing catch with his master.
+Update: The owner just threw the ball.
+output: ",strengthener
+"input: Premise: A woman taking pictures with her phone.
+Hypothesis: The lady is taking pictures of everything with her phone.
+Update: The woman only clicks on the camera twice.
+output: ",weakener
+"input: Premise: A black and white dog walks on a beach.
+Hypothesis: The dog is walking with its owner.
+Update: The man is getting some exercise with pet on the beach
+output: ",strengthener
+"input: Premise: Several hikers rest with their gear in front of a mountain.
+Hypothesis: The mountain will fall on top of them.
+Update: The mountain has stood for millions of years.
+output: ",weakener
+"input: Premise: There are people standing and setting beside white tents with sad and worried faces as they look around at boards and trash scattered around the area.
+Hypothesis: the people look worried because of the trash
+Update: They begin to pick up the trash.
+output: ",strengthener
+"input: Premise: Trendy girl walking down the street.
+Hypothesis: A girl is modelling for a photographer.
+Update: She was breaking in her new shoes.
+output: ",weakener
+"input: Premise: People on the street are coming to check out the women's table.
+Hypothesis: People are considering buying what the woman is selling.
+Update: The table is full of many different items with tags on them
+output: ",strengthener
+"input: Premise: A large crowd of people are walking down the street.
+Hypothesis: A group is walking to a festival.
+Update: It's raining and thundering.
+output: ",weakener
+"input: Premise: 4 men are sitting at a table deep in thought.
+Hypothesis: The men are thinking about their mother.
+Update: The men are comparing there parents
+output: ",strengthener
+"input: Premise: Food prepares are serving their customers with pride.
+Hypothesis: The food prepares are serving a party.
+Update: It is a normal Sunday night at the restaurant
+output: ",weakener
+"input: Premise: The mother is helping her baby brush his teeth with his big boy green toothbrush.
+Hypothesis: The mother and baby are at the bathroom sink
+Update: The bathroom mirror is large.
+output: ",strengthener
+"input: Premise: One man is jumping into the water, while the other is watching.
+Hypothesis: Brothers are by the water
+Update: The two men are roommates.
+output: ",weakener
+"input: Premise: A mother and her two daughters stop in a courtyard.
+Hypothesis: The girls are all wearing dresses.
+Update: The daughters are dressed for prom.
+output: ",strengthener
+"input: Premise: Police officers in Madrid talking.
+Hypothesis: Police officers are speaking spanish to one another.
+Update: The police officers are giving a speech to the crowd.
+output: ",weakener
+"input: Premise: A girl in a polka dotted blue jean dress walks barefoot on a balance beam.
+Hypothesis: A girl is walking on the beam.
+Update: The girl forgot her leotard but the coach made her practice anyway.
+output: ",strengthener
+"input: Premise: A very skinny Santa Claus greets young children in front of a building.
+Hypothesis: A man smiles at children outside while waving
+Update: His hands are in his pockets.
+output: ",weakener
+"input: Premise: A small black and white dog on a leash stands next to a gray and white cat on the sidewalk.
+Hypothesis: The dog fights with the cat.
+Update: The dog is growling at the cat.
+output: ",strengthener
+"input: Premise: A girl jumps rope on a sidewalk.
+Hypothesis: A young girl is jumping rope on a sidewalk near school.
+Update: Her mother calls her inside to have supper.
+output: ",weakener
+"input: Premise: The tattooed woman, who is wearing the black dress, is hula hooping.
+Hypothesis: A woman plays with a hula hoop at an outdoor concert in the park.
+Update: The woman is hula hooping by a stage.
+output: ",strengthener
+"input: Premise: Guy wearing sunglasses and blue shirt on skateboard in front of a bright yellow building with palm trees.
+Hypothesis: A guy skateboards around with a woman.
+Update: The man is talking on the phone the whole time.
+output: ",weakener
+"input: Premise: A man standing in a white shirt is conducting a small group of violin players.
+Hypothesis: Bob is conducting a small group.
+Update: The man's birth certificate says Robert.
+output: ",strengthener
+"input: Premise: A man in black bathing trunks dives into water.
+Hypothesis: A tall human dives.
+Update: The man doesn't meet the height requirment to ride a roller coaster.
+output: ",weakener
+"input: Premise: A view from the ground of a footbridge, with several pedestrians on it, and the view of one man's feet in the center foreground.
+Hypothesis: The people are crossing the footbridge.
+Update: There is a parade on the bridge.
+output: ",strengthener
+"input: Premise: Several people, including a man in a blue shirt and two women wearing black, acquire food from a buffet table.
+Hypothesis: Several people are overloading their plates with food.
+Update: They are in an eating disorders inpatient center
+output: ",weakener
+"input: Premise: A young boy wearing a green and red shirt kneels down on a sidewalk in Paris.
+Hypothesis: The boy is from Paris.
+Update: The boy knows his way around the city.
+output: ",strengthener
+"input: Premise: A young boy runs towards a blue soccer ball in front of a goal.
+Hypothesis: A young boy is trying to score a goal.
+Update: The boy is trying to block the other team from getting a goal.
+output: ",weakener
+"input: Premise: Swimmer in the water takes time to contemplate the race.
+Hypothesis: The person is nervous about the race.
+Update: This is only the swimmer's second competition.
+output: ",strengthener
+"input: Premise: A woman walks in front of a movie advertisement.
+Hypothesis: The woman is at a movie theater.
+Update: The advertisement is on a billboard.
+output: ",weakener
+"input: Premise: A young boy hanging on a pole smiling at the camera.
+Hypothesis: The young boy is hispanic.
+Update: The young boy is speaking Spanish.
+output: ",strengthener
+"input: Premise: Black man working on a plywood stage.
+Hypothesis: A man is cleaning the theater
+Update: The stage is outdoors in an park.
+output: ",weakener
+"input: Premise: A group of people sit on benches at a park outside a building.
+Hypothesis: The people wait for the bus to come.
+Update: They have money for the fare.
+output: ",strengthener
+"input: Premise: A man in a cape is near a red building.
+Hypothesis: The man is wearing a red cape.
+Update: He is dressed as batman.
+output: ",weakener
+"input: Premise: A group of people are sitting in some rows of wooden seats.
+Hypothesis: Ten people are in seats.
+Update: A dozen were seated but two got up.
+output: ",strengthener
+"input: Premise: Two women and a man in a studio looking at a large portrait of Cher.
+Hypothesis: Two women and a man are thinking about purchasing the large portrait of Cher.
+Update: They are being shown around a friend's home.
+output: ",weakener
+"input: Premise: Two people standing in tree on a sunny day
+Hypothesis: two boys have climbed a tree
+Update: The boys can see very far ahead.
+output: ",strengthener
+"input: Premise: A boy is going down the slide.
+Hypothesis: A boy is at the park
+Update: The slide is 150 feet tall.
+output: ",weakener
+"input: Premise: Some middle eastern people have set an Israeli flag on fire.
+Hypothesis: Middle eastern people are protesting the Israeli occupation
+Update: They are shouting as it burns.
+output: ",strengthener
+"input: Premise: an asian girl wearing a red hat along side several others with red hats as well
+Hypothesis: The woman is part of a red hat fan club.
+Update: There are also men in the group.
+output: ",weakener
+"input: Premise: A child doing a handstand on the beach.
+Hypothesis: A child doing a handstand on the beach alone.
+Update: The beach is silent aside from the waves.
+output: ",strengthener
+"input: Premise: Male walking by cement wall and passing a tree.
+Hypothesis: The man passed the tree on the way to the store.
+Update: The man walks by the tree and there is a store behind him.
+output: ",weakener
+"input: Premise: Four adults and one child visit on a backyard patio.
+Hypothesis: people are sitting and talking on their vacation
+Update: The people look around like they haven't seen it before.
+output: ",strengthener
+"input: Premise: two dogs wrestle.
+Hypothesis: Two dogs playing together.
+Update: The dogs are growling and biting each other.
+output: ",weakener
+"input: Premise: An ice cream truck with an open door is driving through a residential neighborhood.
+Hypothesis: An ice cream truck with an open door is driving through a big neighborhood.
+Update: The ice cream truck is surrounded by several dozen children.
+output: ",strengthener
+"input: Premise: Women sit at a bar that has dark cabinets, menus written on the walls, and a light hanging above the bar.
+Hypothesis: Woman goes to bar for the first time
+Update: The woman knows exactly what drink she wants to order.
+output: ",weakener
+"input: Premise: A woman in a white hat sings into a microphone.
+Hypothesis: The woman is singing to an audience.
+Update: They applaud her lovely voice.
+output: ",strengthener
+"input: Premise: A man plays electric guitar on his knees.
+Hypothesis: Jimi Hendrix wowed the crowd yet again, dropping to his knees before finally setting his guitar on fire.
+Update: A concert in the 1990's.
+output: ",weakener
+"input: Premise: children sit on top of somebody in a banana suit.
+Hypothesis: Children are hurting others.
+Update: The children are bouncing up and down
+output: ",strengthener
+"input: Premise: Man in black prepares to celebrate his birthday by blowing out the candles on his cake.
+Hypothesis: A man is getting ready to eat some cake.
+Update: He is allergic to gluten but did it for the occasion.
+output: ",weakener
+"input: Premise: A person wearing a blue jacket and fur lined hat is sitting on the street holding something that looks like a sandwich in his hand.
+Hypothesis: The man is on his lunch break.
+Update: The man occasionally checks his watch.
+output: ",strengthener
+"input: Premise: The boy pours water on the baby.
+Hypothesis: The boy is watching the baby.
+Update: He is helping his  mother give the baby a bath.
+output: ",weakener
+"input: Premise: A young boy plays a video game in a McDonald's restaurant.
+Hypothesis: A child just finished eating.
+Update: Empty trays with burger wrappers and fry tins are present on the child's table.
+output: ",strengthener
+"input: Premise: A man is sitting down pulling down his red long-sleeve sweater.
+Hypothesis: The man's favorite color is red.
+Update: The man does not like this sweater.
+output: ",weakener
+"input: Premise: Two men at a rodeo attempting to rope a calf.
+Hypothesis: Two rodeo clowns at a rodeo are attempting to rope a calf while a crowd watches.
+Update: The men are dressed in many outlandish clashing colors.
+output: ",strengthener
+"input: Premise: A biker in spandex riding on a busy street.
+Hypothesis: A biker is coming home from work.
+Update: The biker is in formation with dozens of others.
+output: ",weakener
+"input: Premise: The girl with the blue bucket splashes beneath the pier.
+Hypothesis: A girl has sand in her bucket.
+Update: The girl has been trying to build a sand castle.
+output: ",strengthener
+"input: Premise: A girl in a mostly navy blue uniform is playing baseball.
+Hypothesis: A girl is playing for her team.
+Update: She has a brace on her arm.
+output: ",weakener
+"input: Premise: A toddler boy in a racing jacket tries out the green hula hoop.
+Hypothesis: The toddler boy is trying out the hula hoop outside.
+Update: The boy's shoes become grass stained.
+output: ",strengthener
+"input: Premise: In front of palm trees, figures ride bicycles while a couple walk and a child wears rollerskates near an older person.
+Hypothesis: People at a Los Angeles park.
+Update: The population density nearby is very low.
+output: ",weakener
+"input: Premise: A boy with his soccer team wearing black and gold uniforms leaps to hug his coach on the soccer field.
+Hypothesis: A boy hugs his coach after the team won the game.
+Update: The boy is holding a trophy.
+output: ",strengthener
+"input: Premise: A bunch of people are standing or sitting in a snow valley.
+Hypothesis: They are all friends, talking with one another.
+Update: They are looking away from each other.
+output: ",weakener
+"input: Premise: A older woman wearing a black dress holding a loaf of bread by a doorway.
+Hypothesis: An older woman comes home from the local bakery
+Update: The bread is still warm from the oven.
+output: ",strengthener
+"input: Premise: A dog, jumping over a trace obstacle, a woman watching in the back.
+Hypothesis: A dog jumps over an obstacle to first place.
+Update: They practice alone in a park
+output: ",weakener
+"input: Premise: A little girl with a hat playing ball with her mom.
+Hypothesis: The girl is happy.
+Update: The girl is smiling
+output: ",strengthener
+"input: Premise: A man in a black jacket is admiring the merchandise from a street vendor who is wearing a brown jacket.
+Hypothesis: A man is looking to purchase a knock off purse from a street vendor.
+Update: There are belts on the ground.
+output: ",weakener
+"input: Premise: A man with brown hair and glasses wearing a dark overcoat, suit and tie reading a newspaper on the subway or train.
+Hypothesis: A man is reading a news article.
+Update: The man is learning about the situation in Syria.
+output: ",strengthener
+"input: Premise: A couple sits alone in front of a large statue late at night.
+Hypothesis: The couple is in front of an Abraham Lincoln statue.
+Update: The couple are in Paris.
+output: ",weakener
+"input: Premise: A man waiting for the subway while looking at a newspaper.
+Hypothesis: A man reads on his way to work.
+Update: He is entertaining himself to pass time.
+output: ",strengthener
+"input: Premise: Trees obscure a building to the right.
+Hypothesis: There are trees near that building.
+Update: The shadow of the trees doesn't reach the building.
+output: ",weakener
+"input: Premise: A man is sleeping on the ground.
+Hypothesis: A man stays comfortable in a sleeping bag
+Update: The man is camping.
+output: ",strengthener
+"input: Premise: three pairs of underpants are hanging from a line under a red shelter.
+Hypothesis: The drier was broken and the backup was used.
+Update: The house does not have electricity
+output: ",weakener
+"input: Premise: Two men in football uniforms sit on the grass, looking unhappy.
+Hypothesis: Two men unhappy after losing a game.
+Update: They are sweaty.
+output: ",strengthener
+"input: Premise: A woman is hugging a man, while an older man is taking a picture.
+Hypothesis: The couple are crying on eachothers shoulders.
+Update: The couple are laughing.
+output: ",weakener
+"input: Premise: Amateur chef wearing a white cooking apron is about to chop a chicken with a butcher knife.
+Hypothesis: The chef is holding a knife.
+Update: Several parts of the chicken are already cut off, and he is preparing to cut off the drumsticks.
+output: ",strengthener
+"input: Premise: A man wearing a cap stands behind the counter of a shop where sausages and peperoni hang.
+Hypothesis: The cap is blue
+Update: The man's cap matches the grass.
+output: ",weakener
+"input: Premise: A mix of kids and adults sitting by a tree that has different colored flags hanging around it.
+Hypothesis: A group of people are sitting by a tree at night time.
+Update: There are people finishing up dinner near the tree.
+output: ",strengthener
+"input: Premise: A lady is visiting a place important to her.
+Hypothesis: a lady is visting a grave
+Update: There are balloons and music playing.
+output: ",weakener
+"input: Premise: A man touches the snow as he snowboards downhill.
+Hypothesis: The man is snowboarding a black diamond trail.
+Update: There is a large steep drop off to the right of the snowboarder that goes down the mountain
+output: ",strengthener
+"input: Premise: Beach volleyball player Dalhausser just blocked a spike from a Brazilian beach volleyball player.
+Hypothesis: A person blocks a volleyball on the beach in summer.
+Update: They are practicing indoors.
+output: ",weakener
+"input: Premise: A man wearing a yellow shirt, brown pants, and a Bluetooth looks at his cellphone while seated against the exterior of an dirty white building.
+Hypothesis: The man is waiting for someone who is in inside the building.
+Update: The workers in the building get off work in 10 minutes.
+output: ",strengthener
+"input: Premise: Two men playing stringed instruments.
+Hypothesis: Two guys are preparing for a concert.
+Update: An audience watches the men.
+output: ",weakener
+"input: Premise: A young woman wearing a black and white striped shirt looks at a necklace that another woman is holding up.
+Hypothesis: The young women is at jewelry shop.
+Update: There are rings for sale nearby
+output: ",strengthener
+"input: Premise: The skateboarder rides near a small cone.
+Hypothesis: The skateboarder rides his skateboard on the concrete.
+Update: The skateboarder's town is known for its wooden sidewalks.
+output: ",weakener
+"input: Premise: Black bird flying with a leafy branch in its mouth.
+Hypothesis: The bird flies low to the ground.
+Update: The bird is landing near it's nest.
+output: ",strengthener
+"input: Premise: Three adults take shots by a bar.
+Hypothesis: There are three adult friends.
+Update: The people are sitting seperately.
+output: ",weakener
+"input: Premise: The man has a blue shirt on and is standing in front of some snowy mountains.
+Hypothesis: The man is currently in Alaska.
+Update: He is visiting his daughter in Nome.
+output: ",strengthener
+"input: Premise: This is a young girl in the grass at a park posing for the camera.
+Hypothesis: A model is having a photo shoot in the park.
+Update: She has her graduation cap and gown on.
+output: ",weakener
+"input: Premise: Five students are reading off a piece of paper.
+Hypothesis: the students are practicing for  a test
+Update: The test will account for 20% of their final grade.
+output: ",strengthener
+"input: Premise: A young boy in a baseball cap jumps into the arms of a man wearing a blue shirt.
+Hypothesis: The boy jumps into his father's arms.
+Update: The man is a little league coach.
+output: ",weakener
+"input: Premise: A man in a black suit and a woman wearing a white dress and holding flowers getting married
+Hypothesis: the man is giving flowers to the woman.
+Update: Rice is being thrown.
+output: ",strengthener
+"input: Premise: a group of man are sitting outside playing music.
+Hypothesis: A jam session is taking place in the park.
+Update: The men are on a porch
+output: ",weakener
+"input: Premise: A teenage boy hits a tennis ball with a racket.
+Hypothesis: The boy is on a tennis court.
+Update: The balls bounces off a net.
+output: ",strengthener
+"input: Premise: A lady in a fold up chair eats while a man looks inside a car door that is parked on a curb.
+Hypothesis: A man is looking at the car belonging to the door to door salesman he just killed and fed to his wife.
+Update: The man says 'Honey I can't find your purse anywhere'
+output: ",weakener
+"input: Premise: Two men are standing outdoors on a sunny day holding pieces of a new item, possibly a small grill, while one of the men studies the assembly instructions.
+Hypothesis: A man stands beside a new box of grill machine and tries to figure how to assemble it by reading through the manual
+Update: A man stands beside a new box of grill machine, with a tray of raw meats, and tries to figure how to assemble it by reading through the manual.
+output: ",strengthener
+"input: Premise: A brown dog is fetching a stick in a country setting.
+Hypothesis: There are other dogs fetching a stick in a country setting.
+Update: The dog is the only dog around as it fetches the stick.
+output: ",weakener
+"input: Premise: Two people jogging together near the waterside.
+Hypothesis: A couple jogging down the beach.
+Update: The sand is soft under their feet.
+output: ",strengthener
+"input: Premise: A little girl with a bindi laughs as she stirs a pot in the kitchen.
+Hypothesis: The girl is mixing mud pies in the pot..
+Update: The pot is only filled with water.
+output: ",weakener
+"input: Premise: A man in a striped blue shirt holds a large bouquet of brightly colored Mylar balloons in a crowded market area.
+Hypothesis: The man is waiting to receive somebody.
+Update: The man keeps looking around and at his watch.
+output: ",strengthener
+"input: Premise: woman with dark glasses and ball cap talking on a cellphone
+Hypothesis: A person is talking long distance on the phone.
+Update: She is using the phone's voice recorder.
+output: ",weakener
+"input: Premise: Workers in reflective clothing with shovels on a train track.
+Hypothesis: Workers are working at night.
+Update: Crickets are chirping loudly in the woods
+output: ",strengthener

@@ -1,0 +1,201 @@
+input,output
+"input: [['Asser Levy Public Baths', 'LOCATION', 'New York City'], ['New York City', 'COUNTRY', 'United States'], ['Manhattan', 'IS_PART_OF', 'New York'], ['New York City', 'IS_PART_OF', 'Manhattan']]
+output: ","Asser Levy Public baths are located in New York City, _____, New York, US."
+"input: [['SAGE Publications', 'FOUNDER', 'Sara Miller McCune'], ['Administrative Science Quarterly', 'OCLC_NUMBER', '1461102'], ['Administrative Science Quarterly', 'PUBLISHER', 'SAGE Publications']]
+output: ","The _____, OCLC 1461102, is published by SAGE Publications founded by Sara Miller McCune."
+"input: [['Romania', 'ETHNIC_GROUP', 'Germans of Romania'], ['Alba Iulia', 'COUNTRY', 'Romania'], ['Romania', 'LEADER_NAME', 'Klaus Iohannis'], ['Romania', 'CAPITAL', 'Bucharest'], ['1 Decembrie 1918 University', 'CITY', 'Alba Iulia']]
+output: ","The 1 Decembrie 1918 University is located in _____, _____. Romania's capital is Bucharest; its leader is Klaus Iohannis and its ethnic group is the Germans of Romania."
+"input: [['William Anders', 'WAS_SELECTED_BY_NASA', '1963'], ['William Anders', 'NATIONALITY', 'United States'], ['William Anders', 'BIRTH_PLACE', 'British Hong Kong']]
+output: ","_____ joined NASA in _____, is an American and was born in British Hong Kong."
+"input: [['Loch Fyne', 'eatType', 'restaurant'], ['Loch Fyne', 'food', 'Chinese'], ['Loch Fyne', 'priceRange', 'less than £20']]
+output: ",A not so family restaurant is _____. With a price range that is usually less than £20 serves _____ food.
+"input: [['Cotto', 'eatType', 'restaurant'], ['Cotto', 'food', 'English'], ['Cotto', 'customer rating', 'high'], ['Cotto', 'familyFriendly', 'yes'], ['Cotto', 'near', 'Ranch']]
+output: ",_____ is a family friendly _____ restaurant with a high rating.  It's near the Ranch.
+"input: [['Kansas', 'INTERVIEW', '9.600'], ['Kansas', 'EVENING_GOWN', '9.600']]
+output: ",The _____ contestant scored a 9.600 in the Evening Gown and Interview sections.
+"input: [['Giraffe', 'eatType', 'coffee shop'], ['Giraffe', 'priceRange', 'high'], ['Giraffe', 'customer rating', '3 out of 5'], ['Giraffe', 'near', 'The Bakers']]
+output: ",The coffee shop named _____ is near The Bakers with a high price range and a customer rating of 3 out of 5.
+"input: [['1984-85', 'DIVISION_THREE', 'Oakwood'], ['1984-85', 'DIVISION_ONE', 'Steyning Town'], ['1984-85', 'DIVISION_TWO', 'Shoreham']]
+output: ","The Sussex County Football League had teams in three divisions during the _____ season: Division One, Steyning Town; Division Two, Shoreham; and Division Three, Oakwood."
+"input: [['The Vaults', 'eatType', 'restaurant'], ['The Vaults', 'food', 'French'], ['The Vaults', 'priceRange', 'moderate'], ['The Vaults', 'familyFriendly', 'yes']]
+output: ","A kid friendly, _____ly priced French cuisine restaurant, _____ is now open."
+"input: [['Cotto', 'eatType', 'coffee shop'], ['Cotto', 'food', 'Fast food'], ['Cotto', 'priceRange', 'cheap'], ['Cotto', 'customer rating', '5 out of 5'], ['Cotto', 'area', 'riverside'], ['Cotto', 'near', 'The Portland Arms']]
+output: ",In the riverside area there is a coffee shop called _____ with a cheap price range that sells fast food. Cotto has a customer rating of _____ and is near The Portland Arms.
+"input: [['A Wizard of Mars', 'PRECEDED_BY', 'Wizards at War']]
+output: ",_____ is preceded by _____.
+"input: [['The Waterman', 'eatType', 'restaurant'], ['The Waterman', 'food', 'French'], ['The Waterman', 'priceRange', 'more than £30'], ['The Waterman', 'familyFriendly', 'no']]
+output: ",_____ is an expensive and not children friendly French _____.
+"input: [['Main League', 'GOLD', 'Viking'], ['1957-58', 'LEAGUE', 'Main League']]
+output: ","In the _____ Norwegian Main football league, Viking won the Gold"
+"input: [['Trinant RFC', 'POINTS_AGAINST', '598'], ['Trinant RFC', 'PLAYED', '22']]
+output: ",_____ conceded 598 points over _____ games.
+"input: [['Alimentum', 'eatType', 'restaurant'], ['Alimentum', 'food', 'French'], ['Alimentum', 'priceRange', 'high'], ['Alimentum', 'customer rating', '3 out of 5'], ['Alimentum', 'area', 'riverside'], ['Alimentum', 'near', 'Yippee Noodle Bar']]
+output: ","Near the Yippee Noodle Bar, in the riverside area, is a French restaurant called _____. It has a customer rating of 3 out of 5 and provides meals in a high price range."
+"input: [['1998', 'MANUFACTURER', 'Gillig']]
+output: ",_____ is the manufacturer for the order year _____.
+"input: [['The Eagle', 'eatType', 'coffee shop'], ['The Eagle', 'priceRange', 'cheap'], ['The Eagle', 'customer rating', 'average'], ['The Eagle', 'area', 'city centre'], ['The Eagle', 'familyFriendly', 'no'], ['The Eagle', 'near', 'Burger King']]
+output: ","_____ is a Fast-food coffee shop near Burger King in the center of the city. While the shop holds an average customer rating and has a cheap price range, it is not a family-friendly place."
+"input: [['Blue Spice', 'eatType', 'restaurant'], ['Blue Spice', 'customer rating', '1 out of 5'], ['Blue Spice', 'area', 'city centre'], ['Blue Spice', 'familyFriendly', 'no']]
+output: ",A moderate range restaurant in the city centre is called _____.  It is rated 1 out of 5 and _____t kid friendly.
+"input: [['The Rice Boat', 'food', 'Japanese'], ['The Rice Boat', 'area', 'city centre']]
+output: ",_____ offers _____ cuisine in the city centre.
+"input: [['The Waterman', 'priceRange', '£20-25'], ['The Waterman', 'customer rating', '3 out of 5'], ['The Waterman', 'familyFriendly', 'yes']]
+output: ",_____ is a family-friendly establishment that serves a light menu of food and alcohol.  This average-priced menu is reviewed by customers as _____ stars.
+"input: [['1959', 'SITE', 'Ames'], ['1959', 'WINNING_TEAM', 'Missouri'], ['1959', 'LOSING_TEAM', 'Iowa State'], ['Missouri', 'WINNING_TEAM_SCORE', '14'], ['Iowa State', 'LOSING_TEAM_SCORE', '0']]
+output: ","In _____ at Ames, Missouri won _____ with 14-0"
+"input: [['Nina Ryabova', 'LANE', '2'], ['Nina Ryabova', 'NATIONALITY', 'Russia'], ['Nina Ryabova', 'RANK', '5'], ['Nina Ryabova', 'TIME', '2:35.65']]
+output: ",_____ finished 5th at the 2012 Summer Paralympics.
+"input: [['Fitzbillies', 'eatType', 'coffee shop'], ['Fitzbillies', 'food', 'Italian'], ['Fitzbillies', 'customer rating', '3 out of 5'], ['Fitzbillies', 'area', 'city centre']]
+output: ","There is a coffee shop called _____ located in the city centre, they serve Italian food and have a 3 out of 5 rating."
+"input: [['The Plough', 'priceRange', '£20-25'], ['The Plough', 'familyFriendly', 'yes'], ['The Plough', 'near', 'The Bakers']]
+output: ","Offering prices between _____, _____ is located near The Bakers and is kid friendly."
+"input: [['Cotto', 'eatType', 'coffee shop'], ['Cotto', 'food', 'Italian'], ['Cotto', 'customer rating', '1 out of 5'], ['Cotto', 'near', 'The Portland Arms']]
+output: ",The Portland Arms center city _____ has a poorly rated Italian coffee Shop highly priced.
+"input: [['The Waterman', 'eatType', 'pub'], ['The Waterman', 'food', 'English'], ['The Waterman', 'customer rating', 'low'], ['The Waterman', 'area', 'riverside']]
+output: ",_____ along the riverside is an English pub with a low customer rating.
+"input: [['The Twenty Two', 'food', 'French'], ['The Twenty Two', 'familyFriendly', 'yes']]
+output: ",_____ is a French style family place.
+"input: [['The Golden Curry', 'eatType', 'restaurant'], ['The Golden Curry', 'food', 'French'], ['The Golden Curry', 'customer rating', '5 out of 5'], ['The Golden Curry', 'familyFriendly', 'yes']]
+output: ","_____,  a French _____,  with a customer rating of 5 out of 5 is family friendly."
+"input: [['Browns Cambridge', 'eatType', 'coffee shop'], ['Browns Cambridge', 'food', 'Japanese'], ['Browns Cambridge', 'area', 'city centre'], ['Browns Cambridge', 'familyFriendly', 'no'], ['Browns Cambridge', 'near', 'Crowne Plaza Hotel']]
+output: ",_____ is an average _____ offering Japanese Food.  It is not a family-friendly establishment.  It is located in the city centre near Crowne Plaza Hotel.
+"input: [['Alimentum', 'eatType', 'restaurant'], ['Alimentum', 'food', 'Italian'], ['Alimentum', 'priceRange', 'more than £30'], ['Alimentum', 'customer rating', 'high'], ['Alimentum', 'area', 'riverside'], ['Alimentum', 'near', 'Yippee Noodle Bar']]
+output: ","For a high priced, 5 star, Italian, _____ restaurant not far from Yippee Noodle Bar then go visit _____"
+"input: [['The Olive Grove', 'eatType', 'restaurant'], ['The Olive Grove', 'food', 'Fast food'], ['The Olive Grove', 'priceRange', 'less than £20'], ['The Olive Grove', 'area', 'city centre'], ['The Olive Grove', 'familyFriendly', 'no']]
+output: ",_____ is a pub type restaurant located in the city centre. They are not family-friendly with Fast food and price range less than 20.
+"input: [['The Dumpling Tree', 'eatType', 'restaurant'], ['The Dumpling Tree', 'food', 'French']]
+output: ","For French cuisine at a very reasonable cost, eat at _____ _____."
+"input: [['The Wrestlers', 'food', 'Italian'], ['The Wrestlers', 'customer rating', '1 out of 5'], ['The Wrestlers', 'familyFriendly', 'yes']]
+output: ","_____ offers Italian food. It has a child-friendly atmosphere, in the high-end price range and a customer rating of 1 out of 5."
+"input: [['Strada', 'eatType', 'restaurant'], ['Strada', 'food', 'Chinese'], ['Strada', 'priceRange', '£20-25'], ['Strada', 'customer rating', 'high'], ['Strada', 'familyFriendly', 'no'], ['Strada', 'near', 'Rainbow Vegetarian Café']]
+output: ",_____ is a highly rated Chinese restaurant located near Rainbow Vegetarian Café. Location is not kid friendly; average tab  £20-25.
+"input: [['Fitzbillies', 'eatType', 'coffee shop'], ['Fitzbillies', 'food', 'Italian'], ['Fitzbillies', 'priceRange', 'high'], ['Fitzbillies', 'area', 'riverside'], ['Fitzbillies', 'familyFriendly', 'no']]
+output: ","There is an expensive coffee shop called _____, which sells Italian food, situated in the riverside area. It is unpopular with customers and not suitable for families."
+"input: [['Fitzbillies', 'eatType', 'coffee shop'], ['Fitzbillies', 'food', 'Fast food'], ['Fitzbillies', 'priceRange', 'high'], ['Fitzbillies', 'customer rating', 'average'], ['Fitzbillies', 'area', 'city centre'], ['Fitzbillies', 'familyFriendly', 'no']]
+output: ","_____ is a coffee shop serving fast food in the city centre. High price range, average customer rating and not child friendly."
+"input: [['The Golden Palace', 'eatType', 'coffee shop'], ['The Golden Palace', 'food', 'Italian'], ['The Golden Palace', 'priceRange', 'high'], ['The Golden Palace', 'customer rating', '1 out of 5'], ['The Golden Palace', 'area', 'riverside']]
+output: ","_____ is a low rated, high priced coffee shop that also sells _____ food and is located on the riverside."
+"input: [['[TABLECONTEXT]', '[TITLE]', 'Pearl of Africa Rally'], ['[TABLECONTEXT]', 'DRIVERS', 'Karim Hirji'], ['Karim Hirji', 'CO-DRIVER', 'Frank Nekusa'], ['Karim Hirji', 'YEAR', '1996'], ['Karim Hirji', 'CAR', 'Toyota Celica ST 185']]
+output: ",_____ and Frank Nekusa won the 1996 Pearl of Africa Rally driving a _____.
+"input: [['The Wrestlers', 'food', 'Chinese'], ['The Wrestlers', 'priceRange', 'cheap'], ['The Wrestlers', 'customer rating', 'average']]
+output: ",_____ provides _____ food in the cheap price range. Its customer rating is average.
+"input: [['A Wizard of Mars', 'PUBLISHER', 'Harcourt (publisher)'], ['A Wizard of Mars', 'PRECEDED_BY', 'Wizards at War']]
+output: ","Harcourt is the publisher of _____, which was preceded by Wizards at War."
+"input: [['Alimentum', 'food', 'French'], ['Alimentum', 'priceRange', 'more than £30'], ['Alimentum', 'area', 'city centre'], ['Alimentum', 'familyFriendly', 'yes']]
+output: ","_____ serves French food in the _____. It was has a price range of more than £30, and is child friendly."
+"input: [['Wildwood', 'eatType', 'pub'], ['Wildwood', 'food', 'French'], ['Wildwood', 'customer rating', 'average']]
+output: ",The _____ pub has an average customer rating and offers French cuisine for £20 and under
+"input: [['Cocum', 'eatType', 'coffee shop'], ['Cocum', 'food', 'English'], ['Cocum', 'familyFriendly', 'yes']]
+output: ",_____ is a highly acclaimed child friendly _____ offering English style food and beverage items priced at the £30 and upper range.
+"input: [['Sheldon Moldoff', 'NATIONALITY', 'Americans'], ['Black Pirate', 'CREATOR', 'Sheldon Moldoff'], ['Black Pirate', 'ALTERNATIVE_NAME', '""Jon Valor""']]
+output: ","Sheldon Moldoff, an American national is the creator of _____ AKA Jon Valor."
+"input: [['2nd sg', ""'REMAIN'"", 'lieksì']]
+output: ",The _____ form of the verb 'remain' is lieksì.
+"input: [['Amsterdam Airport Schiphol', 'CITY_SERVED', 'Amsterdam'], ['Amsterdam Airport Schiphol', 'RUNWAY_LENGTH', '3453.0']]
+output: ","The _____, which serves the city of Amsterdam, has a runway length of 3453.0."
+"input: [['Bellevue', 'LOCATION', 'Bellevue'], ['Bellevue', 'FOUNDING_DATE', '1923']]
+output: ",_____ was founded in _____.
+"input: [['The Wrestlers', 'priceRange', 'less than £20'], ['The Wrestlers', 'customer rating', 'low'], ['The Wrestlers', 'familyFriendly', 'yes']]
+output: ","_____ has breakfast for low prices, they aren't family friendly and only have one star."
+"input: [['Ducati', 'BIKE', 'Ducati 916']]
+output: ","His bike was a _____ 916 manufactured by Ducati, which won the manufacturer's championship."
+"input: [['The Vaults', 'food', 'French'], ['The Vaults', 'familyFriendly', 'no']]
+output: ",_____ offers French food for higher than £30. It is _____t child-friendly.
+"input: [['The Wrestlers', 'eatType', 'restaurant'], ['The Wrestlers', 'food', 'Japanese'], ['The Wrestlers', 'priceRange', '£20-25'], ['The Wrestlers', 'customer rating', 'high'], ['The Wrestlers', 'familyFriendly', 'yes']]
+output: ",For about £20-25 you can eat at the highly rated kid friendly Japanese restaurant _____.
+"input: [['Sonoma', 'CITY', 'Eldridge'], ['Sonoma Developmental Center', '#_BEDS', '1300'], ['Sonoma Developmental Center', 'TYPE_OF_HOSPITAL', 'Mental Health'], ['Sonoma Developmental Center', 'COUNTY', 'Sonoma']]
+output: ","1300 beds are available in _____ Developmental Hostpital in Eldridge, Sonoma, a mental health hospital."
+"input: [['Bruno Junqueira', 'TEAM', 'Dale Coyne Racing'], ['Bruno Junqueira', 'NUMBER', '19']]
+output: ","_____, number _____, is part of Dale Coyne Racing"
+"input: [['Blue Spice', 'priceRange', 'cheap'], ['Blue Spice', 'customer rating', '5 out of 5'], ['Blue Spice', 'area', 'riverside']]
+output: ","_____  is cheap, has a customer rating of 5 out of 5 and yes has a family area. It is located  in the riverside."
+"input: [['The Dumpling Tree', 'eatType', 'restaurant'], ['The Dumpling Tree', 'food', 'Japanese'], ['The Dumpling Tree', 'priceRange', 'high']]
+output: ",_____ is a restaurant with a _____ price range providing Japanese food.
+"input: [['Cotto', 'eatType', 'coffee shop'], ['Cotto', 'priceRange', 'more than £30'], ['Cotto', 'area', 'riverside'], ['Cotto', 'near', 'The Portland Arms']]
+output: ",_____ coffee shop serves above average food with prices starting at more than £30. Cotto coffee shop is located near The Portland Arms in the riverside area.
+"input: [['Ajoblanco', 'INGREDIENT', 'Almond'], ['Almond', 'FAMILY', 'Rosaceae'], ['Almond', 'ORDER', 'Rosids']]
+output: ","_____s, an ingredient in Ajoblanco, are from the _____ family and from the order Rosids."
+"input: [['Philippines', 'ETHNIC_GROUP', 'Zamboangans'], ['Batchoy', 'COUNTRY', 'Philippines']]
+output: ",Zamboangans are a group in the _____ where Batchoy is eaten.
+"input: [['The Rice Boat', 'priceRange', 'moderate'], ['The Rice Boat', 'customer rating', '1 out of 5'], ['The Rice Boat', 'near', 'Rainbow Vegetarian Café']]
+output: ","Located near _____, _____ is moderately priced, but received 1 out of 5 stars."
+"input: [['Browns Cambridge', 'eatType', 'coffee shop'], ['Browns Cambridge', 'food', 'Fast food'], ['Browns Cambridge', 'area', 'riverside'], ['Browns Cambridge', 'familyFriendly', 'yes'], ['Browns Cambridge', 'near', 'Crowne Plaza Hotel']]
+output: ",In the Riverside area near the Crowne Plaza Hotel the is a family friendly coffee shop that's getting top ratings for it's fast food called _____.
+"input: [['The Golden Curry', 'food', 'Italian'], ['The Golden Curry', 'customer rating', '5 out of 5'], ['The Golden Curry', 'area', 'city centre'], ['The Golden Curry', 'familyFriendly', 'no'], ['The Golden Curry', 'near', 'Café Rouge']]
+output: ",Near Café Rouge in the city center is where _____ is located it is _____n family-friendly  but with a customer rating 5 out of 5 and Italian food who could go wrong.
+"input: [['The Olive Grove', 'eatType', 'restaurant'], ['The Olive Grove', 'food', 'Japanese'], ['The Olive Grove', 'priceRange', 'moderate'], ['The Olive Grove', 'area', 'riverside'], ['The Olive Grove', 'familyFriendly', 'no']]
+output: ","The moderately-priced pub _____ is in a riverside location, offering Japanese food. This is a non-child friendly _____."
+"input: [['Spain', 'LEADER_NAME', 'Felipe VI of Spain'], ['Ajoblanco', 'REGION', 'Andalusia'], ['Andalusia', 'LEADER_NAME', 'Susana Díaz'], ['Spain', 'CURRENCY', 'Euro'], ['Ajoblanco', 'COUNTRY', 'Spain']]
+output: ",Ajoblanco has its origins in _____(led by Felipe VI) and is also found in Susana Diaz led Andalusia. In _____ it can be purchased via the Euro.
+"input: [['The Rice Boat', 'eatType', 'restaurant'], ['The Rice Boat', 'food', 'Japanese'], ['The Rice Boat', 'customer rating', '3 out of 5'], ['The Rice Boat', 'familyFriendly', 'yes'], ['The Rice Boat', 'near', 'Express by Holiday Inn']]
+output: ",_____ is a Japanese restaurant located in the city near Express by Holiday Inn with a customer rating of 3 out of 5 and is child friendly
+"input: [['Midsummer House', 'eatType', 'restaurant'], ['Midsummer House', 'food', 'Italian'], ['Midsummer House', 'priceRange', 'cheap'], ['Midsummer House', 'customer rating', 'average'], ['Midsummer House', 'near', 'All Bar One']]
+output: ",There is a cheap Italian food restaurant  near All Bar One called _____. They have an average customer rating.
+"input: [['13', 'OPPONENT', 'Stampeders']]
+output: ",The week _____ opponent was the Stampeders.
+"input: [['Abilene Regional Airport', '1ST_RUNWAY_SURFACE_TYPE', 'Asphalt'], ['Abilene Regional Airport', 'ELEVATION', '546']]
+output: ",_____is _____ metres above sea level and has a 1st runway made of asphalt.
+"input: [['The Twenty Two', 'eatType', 'restaurant'], ['The Twenty Two', 'priceRange', 'moderate'], ['The Twenty Two', 'customer rating', '3 out of 5'], ['The Twenty Two', 'area', 'riverside'], ['The Twenty Two', 'familyFriendly', 'yes'], ['The Twenty Two', 'near', 'The Rice Boat']]
+output: ",_____ is a moderately priced kid friendly _____ with a 3 out of 5 star rating. It is is the riverside area near The Rice Boat.
+"input: [['Bacon Explosion', 'COUNTRY', 'United States'], ['United States', 'LEADER_NAME', 'Barack Obama'], ['United States', 'ETHNIC_GROUP', 'Asian Americans'], ['United States', 'CAPITAL', 'Washington, D.C.'], ['United States', 'LEADER_TITLE', 'President of the United States']]
+output: ","Bacon Explosion is a dish from the _____, where Barack Obama is leader and President and the capital city is Washington DC. Asian Americans are one of the ethnic groups in the _____."
+"input: [['Texas', 'COUNTRY', 'United States']]
+output: ",_____ is in the _____.
+"input: [['Loch Fyne', 'food', 'Italian'], ['Loch Fyne', 'customer rating', 'average'], ['Loch Fyne', 'area', 'city centre'], ['Loch Fyne', 'near', 'The Rice Boat']]
+output: ",_____ is located in the city center near The Rice Boat. They serve Italian and have an average rating.
+"input: [['The Phoenix', 'eatType', 'restaurant'], ['The Phoenix', 'food', 'Japanese'], ['The Phoenix', 'customer rating', 'average'], ['The Phoenix', 'area', 'riverside']]
+output: ",_____ is a restaurant in Riverside that serves Japanese cuisine and has an _____ customer rating.
+"input: [['If You Were a Woman and I Was a Man', 'CHART', 'New Zealand'], ['New Zealand', 'POSITION', '20']]
+output: ",_____ ranked 20th on New Zealand's chart.
+"input: [['Aaron Brown', 'POSITION', 'RB'], ['Aaron Brown', 'WEIGHT', '196 lb (89 kg)']]
+output: ",The player _____ in _____ with 196 lb (89 kg)
+"input: [['2005', 'EARNINGS_(US$)', '702,670'], ['2005', 'TOTAL_WINS', '1'], ['[TABLECONTEXT]', 'YEAR', '2005'], ['[TABLECONTEXT]', '[TITLE]', 'Mario Ančić'], ['1', 'ATP_WINS', '1']]
+output: ","In 2005, Mario Ančić has _____ ATP win, 1 total win, and US$ 702,670 earnings."
+"input: [['The Twenty Two', 'food', 'Indian']]
+output: ",_____ provides Indian food
+"input: [['[TABLECONTEXT]', 'COUNTRY', 'Norway'], ['Norway', '2012', '(001) -10.00'], ['[TABLECONTEXT]', '[TITLE]', 'Press Freedom Index']]
+output: ",_____'s index in 2012 was (001) -10.00.
+"input: [['The Rice Boat', 'eatType', 'restaurant'], ['The Rice Boat', 'food', 'English'], ['The Rice Boat', 'priceRange', 'cheap'], ['The Rice Boat', 'customer rating', 'average'], ['The Rice Boat', 'familyFriendly', 'yes'], ['The Rice Boat', 'near', 'Express by Holiday Inn']]
+output: ",_____ is an English restaurant with an average customer rating  near Express by Holiday Inn. It has a cheap price range. It has a bad family-friendly atmosphere.
+"input: [['Norway', 'PARLIAMENT', 'The Storting']]
+output: ",The Storting is _____'s parliament.
+"input: [['Cotto', 'food', 'Italian'], ['Cotto', 'familyFriendly', 'yes'], ['Cotto', 'near', 'Ranch']]
+output: ","Serving Italian food near Ranch is _____, ideal for children too."
+"input: [['SFP 250', 'TRACK', 'Kansas Speedway, Kansas City'], ['3', 'RACE_TITLE', 'SFP 250'], ['[TABLECONTEXT]', 'NUMBER', '3'], ['[TABLECONTEXT]', '[TITLE]', '2014 NASCAR Camping World Truck Series'], ['3', 'DATE', 'May 9']]
+output: ",The _____ at the Kansas Speedway in Kansas City that took place on May 9th was the _____rd event in the 2014 NASCAR Camping World Truck Series.
+"input: [['Blue Spice', 'eatType', 'coffee shop'], ['Blue Spice', 'priceRange', 'cheap'], ['Blue Spice', 'customer rating', '5 out of 5'], ['Blue Spice', 'area', 'riverside'], ['Blue Spice', 'familyFriendly', 'yes'], ['Blue Spice', 'near', 'Avalon']]
+output: ",_____ is a cheap coffee shop with a 5 out of 5 rating . This family friendly establishment is located in riverside near Avalon.
+"input: [['Midsummer House', 'food', 'Indian'], ['Midsummer House', 'customer rating', '5 out of 5'], ['Midsummer House', 'near', 'Café Rouge']]
+output: ","_____ serves Indian cuisine. It has a customer rating of 5 out of 5, and can be found near Café Rouge."
+"input: [['Bananaman', 'CREATOR', 'John Geering'], ['Bananaman', 'STARRING', 'Graeme Garden'], ['Bananaman', 'FIRST_AIRED', '""1983-10-03""'], ['Bananaman', 'LAST_AIRED', '""1986-04-15""'], ['Bananaman', 'BROADCASTED_BY', '""STV""']]
+output: ","_____ first aired on STV on October 3rd, 1983 and broadcast its last episode on April 15th, 1986. _____ created the series which stars Graeme Garden."
+"input: [['The Waterman', 'food', 'Italian'], ['The Waterman', 'near', 'Crowne Plaza Hotel']]
+output: ",If you and your children are staying at  the Crowne Plaza Hotel try eating fine Italian at _____
+"input: [['The Eagle', 'eatType', 'coffee shop'], ['The Eagle', 'food', 'Fast food'], ['The Eagle', 'customer rating', '5 out of 5'], ['The Eagle', 'area', 'riverside'], ['The Eagle', 'familyFriendly', 'yes'], ['The Eagle', 'near', 'Burger King']]
+output: ",_____ is a family friendly coffee shop also serving fast food in riverside near _____ and has been rated 5 out of 5.
+"input: [['H. Lee Dennison Building', 'MODULES', '7,737']]
+output: ",The _____ has _____ solar modules.
+"input: [['The Eagle', 'eatType', 'coffee shop'], ['The Eagle', 'food', 'Italian'], ['The Eagle', 'priceRange', 'moderate'], ['The Eagle', 'customer rating', 'average'], ['The Eagle', 'area', 'city centre'], ['The Eagle', 'familyFriendly', 'no'], ['The Eagle', 'near', 'Burger King']]
+output: ","An Italian coffee shop located in the city centre near Burger King, _____ is adult only with a high price range and an average rating"
+"input: [['The Eagle', 'eatType', 'coffee shop'], ['The Eagle', 'priceRange', 'cheap'], ['The Eagle', 'customer rating', 'high'], ['The Eagle', 'area', 'riverside'], ['The Eagle', 'familyFriendly', 'no'], ['The Eagle', 'near', 'Burger King']]
+output: ","_____ is a cheap highly rated _____n-kids friendly coffee shop, located in the riverside, near Burger King."
+"input: [['The Wrestlers', 'eatType', 'restaurant'], ['The Wrestlers', 'food', 'Italian'], ['The Wrestlers', 'priceRange', 'high'], ['The Wrestlers', 'area', 'city centre'], ['The Wrestlers', 'familyFriendly', 'yes'], ['The Wrestlers', 'near', 'Raja Indian Cuisine']]
+output: ",A high priced Italian restaurant and coffee shop that is children friendly is called _____. It is in the city centre near Raja Indian Cuisine.
+"input: [['The Wrestlers', 'eatType', 'restaurant'], ['The Wrestlers', 'food', 'Indian'], ['The Wrestlers', 'priceRange', '£20-25'], ['The Wrestlers', 'customer rating', 'high'], ['The Wrestlers', 'familyFriendly', 'yes']]
+output: ",_____  is a restaurant serving Indian  dishes priced in the £20-25 range which  has received a high customer rating  and is very kids friendly.
+"input: [['The Twenty Two', 'eatType', 'restaurant'], ['The Twenty Two', 'food', 'Japanese'], ['The Twenty Two', 'familyFriendly', 'no']]
+output: ","The Japanese restaurant, _____ is _____t family-friendly."
+"input: [['Blue Spice', 'priceRange', 'cheap'], ['Blue Spice', 'area', 'city centre'], ['Blue Spice', 'familyFriendly', 'no']]
+output: ","In the city centre, there is the _____, which is _____, medium rated and non-kids friendly."
+"input: [['Northland Region Corrections Facility', 'LOCATION', 'near Kaikohe, Northland'], ['Northland Region Corrections Facility', 'OPENED', '2005']]
+output: ","The _____ near Kaikohe, Northland opened in 2005."
+"input: [['The Waterman', 'eatType', 'pub'], ['The Waterman', 'food', 'Chinese'], ['The Waterman', 'customer rating', '5 out of 5'], ['The Waterman', 'area', 'city centre']]
+output: ",_____ is a 5 out of 5 rated _____ that serves Chinese food and is located at the city centre.
+"input: [['Strada', 'eatType', 'pub'], ['Strada', 'food', 'French'], ['Strada', 'customer rating', '1 out of 5'], ['Strada', 'near', 'Yippee Noodle Bar']]
+output: ",_____ is a French pub near Yippee Noodle Bar. Customer rating is 1 out of 5.
+"input: [['All I Really Want', 'CHART_POSITIONS_CA', '2'], ['All I Really Want', 'YEAR', '1997']]
+output: ",_____ reached second place in Canada in 1997.
+"input: [['Alimentum', 'food', 'Japanese'], ['Alimentum', 'near', 'Yippee Noodle Bar']]
+output: ",_____ is located next to Yippee Noodle Bar and it provides  Japanese food.
+"input: [['The Dumpling Tree', 'eatType', 'pub'], ['The Dumpling Tree', 'food', 'Chinese'], ['The Dumpling Tree', 'familyFriendly', 'yes'], ['The Dumpling Tree', 'near', 'The Portland Arms']]
+output: ","This child friendly pub called _____, serves Chinese food is located near The Portland Arms."

@@ -1,0 +1,21 @@
+input,output
+"input: The physician misdiagnosed the patient, so resulting in the patient's death
+output: ",plausible
+"input: The physician misdiagnosed the patient, so they came back to the hospital
+output: ",plausible
+"input: The physician misdiagnosed the patient, so I decided not to do it
+output: ",not plausible
+"input: The physician misdiagnosed the patient, so he was sent to the hospital
+output: ",plausible
+"input: The physician misdiagnosed the patient, so the doctor sent him to the hospital
+output: ",plausible
+"input: The physician misdiagnosed the patient, so the patient was sent to the vet
+output: ",not plausible
+"input: The physician misdiagnosed the patient, so the surgery was not a surprise
+output: ",not plausible
+"input: The physician misdiagnosed the patient, so the patient filed a malpractice lawsuit against the physician
+output: ",plausible
+"input: The physician misdiagnosed the patient, so there was no need for surgery
+output: ",plausible
+"input: The physician misdiagnosed the patient, so she went to the hospital
+output: ",plausible

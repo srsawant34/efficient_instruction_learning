@@ -1,0 +1,801 @@
+input,output
+"input: Premise: PersonX almost gave up
+Hypothesis: PersonX then laughs
+Update: PersonX realizes the futility of it all
+output: ",strengthener
+"input: Premise: PersonX presents PersonY picture
+Hypothesis: Because PersonX wanted to show his mom the picture.
+Update: PersonX just had PersonY's grandchild.
+output: ",strengthener
+"input: Premise: PersonX begins to bleed
+Hypothesis: PersonX is seen as hurt
+Update: PersonX is getting a tattoo.
+output: ",weakener
+"input: Premise: PersonX takes the test again
+Hypothesis: Because PersonX wanted to do better this time
+Update: They got a C the first time
+output: ",strengthener
+"input: Premise: PersonX gets PersonX's picture taken
+Hypothesis: PersonX then buys a picture frame
+Update: PErsonX is a graduating senior
+output: ",strengthener
+"input: Premise: PersonX sends PersonY army
+Hypothesis: PersonX is seen as emboldened
+Update: PersonY has a better army
+output: ",weakener
+"input: Premise: PersonX decides to lose weight
+Hypothesis: Before, PersonX needed to go on a diet.
+Update: PersonX doesn't like to exercise.
+output: ",strengthener
+"input: Premise: PersonX performs PersonY's task
+Hypothesis: As a result, PersonX wants to get ready to next task
+Update: PersonY's task isn't done yet.
+output: ",weakener
+"input: Premise: PersonX moves PersonY out of the way
+Hypothesis: Because PersonX wanted to protect them
+Update: PersonY is drunk and belligerent
+output: ",weakener
+"input: Premise: PersonX teases PersonY
+Hypothesis: Before, PersonX needed think of something to tease them about
+Update: PersonX is enchanted by the beauty of PersonY.
+output: ",strengthener
+"input: Premise: PersonX has to go back home
+Hypothesis: PersonX is seen as good
+Update: PersonX failed to get a job
+output: ",weakener
+"input: Premise: PersonX is on PersonY's way back
+Hypothesis: Because PersonX wanted help person find the way home
+Update: It's dark out
+output: ",strengthener
+"input: Premise: PersonX calls PersonY mother
+Hypothesis: Because PersonX wanted to socialize
+Update: PersonX works in a call center
+output: ",weakener
+"input: Premise: PersonX brings home the bacon
+Hypothesis: PersonX then can by a house
+Update: PersonX works as a lawyer.
+output: ",strengthener
+"input: Premise: PersonX feels lonely
+Hypothesis: As a result, PersonX feels lonesome
+Update: X curls into a ball on the sofa.
+output: ",strengthener
+"input: Premise: PersonX gets new ones
+Hypothesis: Before, PersonX needed get sick of old ones
+Update: Person X looks lovingly at the old ones, holding them close.
+output: ",weakener
+"input: Premise: PersonX buys some candy
+Hypothesis: PersonX then gets cavities
+Update: PersonX hates brushing his teeth
+output: ",strengthener
+"input: Premise: PersonX pays PersonY fee
+Hypothesis: Before, PersonX needed tell personY he will pay
+Update: PersonY is a drug plug
+output: ",strengthener
+"input: Premise: PersonX kills PersonX's mother
+Hypothesis: As a result, PersonX feels sorrowful
+Update: It was self defense
+output: ",weakener
+"input: Premise: PersonX marks on the ground by cyl
+Hypothesis: PersonX is seen as assured
+Update: PersonX changes the marks on the ground again and again.
+output: ",weakener
+"input: Premise: PersonX watches PersonY play
+Hypothesis: As a result, PersonX wants to bath PersonY
+Update: PersonX cannot stand kids being dirty.
+output: ",strengthener
+"input: Premise: PersonX fixes PersonY's flat tire
+Hypothesis: PersonX is seen as satisfied
+Update: They did it in 5 minutes
+output: ",strengthener
+"input: Premise: PersonX dries PersonY's tears
+Hypothesis: Before, PersonX needed to get a box of tissues
+Update: PersonX uses their hands.
+output: ",weakener
+"input: Premise: PersonX becomes the best
+Hypothesis: Because PersonX wanted to accomplish something
+Update: Their parents are riding them all the time
+output: ",weakener
+"input: Premise: PersonX sits at the dinning room table
+Hypothesis: As a result, PersonX feels hungry
+Update: PersonX looks tired
+output: ",strengthener
+"input: Premise: PersonX comes from a good place
+Hypothesis: Before, PersonX needed come off harsh
+Update: They tried being nice but it didn’t work
+output: ",strengthener
+"input: Premise: PersonX turns PersonY's head to look at PersonY
+Hypothesis: As a result, PersonX feels careless
+Update: PersonX crashes into a pole.
+output: ",strengthener
+"input: Premise: PersonX admits PersonY was wrong
+Hypothesis: As a result, PersonX wants call block him
+Update: PersonX broke up with PersonY.
+output: ",strengthener
+"input: Premise: PersonX loves PersonY best
+Hypothesis: PersonX is seen as in love
+Update: PersonY breaks PersonX's heart.
+output: ",weakener
+"input: Premise: PersonX pays close attention
+Hypothesis: Before, PersonX needed jots down notes
+Update: Person X is taking a college course.
+output: ",strengthener
+"input: Premise: PersonX gives PersonY anything
+Hypothesis: PersonX is seen as good
+Update: PersonX supports PersonY financially.
+output: ",strengthener
+"input: Premise: PersonX feels prepared
+Hypothesis: As a result, PersonX wants complete task
+Update: PersonX thinks it is too easy
+output: ",weakener
+"input: Premise: PersonX raises PersonY army
+Hypothesis: As a result, PersonX feels curious
+Update: PersonX is rubbing their hand against their chin.
+output: ",strengthener
+"input: Premise: PersonX calls PersonX's best friend
+Hypothesis: PersonX is seen as intrigued
+Update: PersonX's best friend tells them a secret.
+output: ",strengthener
+"input: Premise: PersonX is getting ready for school
+Hypothesis: Before, PersonX needed to set their alarm for school
+Update: PersonX stayed up all night studying.
+output: ",weakener
+"input: Premise: PersonX raises PersonY's glass
+Hypothesis: Because PersonX wanted to look at the bottom of it
+Update: PersonX thinks that they saw a bug fly in there.
+output: ",strengthener
+"input: Premise: PersonX meets a handsome man
+Hypothesis: PersonX then palms sweat
+Update: PersonX is very confident
+output: ",weakener
+"input: Premise: PersonX meets PersonY in the street
+Hypothesis: Before, PersonX needed to leave their home and head to the street
+Update: PersonX ensured they had their keys as they walked
+output: ",strengthener
+"input: Premise: PersonX gets a bath
+Hypothesis: Because PersonX wanted to be clean
+Update: PersonX is mad at their mom for making them bathe.
+output: ",weakener
+"input: Premise: PersonX kisses PersonY on the cheek
+Hypothesis: As a result, PersonX wants kisses on face
+Update: They are naked in bed together
+output: ",strengthener
+"input: Premise: PersonX buys a new plant
+Hypothesis: PersonX is seen as eager
+Update: The plant is a beautiful flower for their mother.
+output: ",strengthener
+"input: Premise: PersonX gets PersonX's haircut
+Hypothesis: As a result, PersonX wants to look in the mirror
+Update: PersonX wonders how the haircut looks.
+output: ",strengthener
+"input: Premise: PersonX does n't want to leave
+Hypothesis: As a result, PersonX wants stay and enjoy the event
+Update: PersonX is having an amazing time.
+output: ",strengthener
+"input: Premise: PersonX increases PersonY's knowledge
+Hypothesis: Because PersonX wanted to educate
+Update: PersonX was PersonY's supervisor.
+output: ",weakener
+"input: Premise: PersonX knows how to dance
+Hypothesis: As a result, PersonX feels creative
+Update: They are a world class dancer
+output: ",strengthener
+"input: Premise: PersonX carries out PersonX's work
+Hypothesis: As a result, PersonX wants apply for a promotion
+Update: PersonX was hired last week.
+output: ",weakener
+"input: Premise: PersonX is about to graduate high school
+Hypothesis: PersonX then no longer have to attend school
+Update: PersonX gets a job at the store.
+output: ",strengthener
+"input: Premise: PersonX is sick with the flu
+Hypothesis: PersonX then gets dizzy
+Update: PersonX walks steadily.
+output: ",weakener
+"input: Premise: PersonX is PersonY's first time
+Hypothesis: As a result, PersonX feels loyal
+Update: PersonX loves Y
+output: ",strengthener
+"input: Premise: PersonX takes a long bath
+Hypothesis: PersonX is seen as refreshed
+Update: The tub was filled with mud.
+output: ",weakener
+"input: Premise: PersonX changes PersonX's number
+Hypothesis: Because PersonX wanted doesn't want certain people to be able to contact him
+Update: PersonX moves to a different state.
+output: ",weakener
+"input: Premise: PersonX gets PersonX's diploma
+Hypothesis: As a result, PersonX feels employable
+Update: The diploma is from the back of a cereal box.
+output: ",weakener
+"input: Premise: PersonX is coming to visit
+Hypothesis: PersonX then must pay money for transportation
+Update: PersonX has to take an airplane.
+output: ",strengthener
+"input: Premise: PersonX eats pumpkin pie
+Hypothesis: Before, PersonX needed to go a place where the dessert is available.
+Update: PersonX's mom had it in the freezer.
+output: ",weakener
+"input: Premise: PersonX rehearses PersonX's lines
+Hypothesis: As a result, PersonX feels disciplined
+Update: PersonX sticks to their rehearsal schedule religiously.
+output: ",strengthener
+"input: Premise: PersonX is a great tennis player
+Hypothesis: Before, PersonX needed to practice
+Update: Person X is a natural talent.
+output: ",weakener
+"input: Premise: PersonX finds online
+Hypothesis: PersonX then achieves goal
+Update: X writes her paper and receives an A.
+output: ",strengthener
+"input: Premise: PersonX plans a party
+Hypothesis: PersonX then too many people come
+Update: PersonX asks every friend to invite three of their friends.
+output: ",strengthener
+"input: Premise: PersonX changes my life
+Hypothesis: PersonX then gets thanked from me
+Update: PersonX saved my life.
+output: ",strengthener
+"input: Premise: PersonX gives PersonY medicine
+Hypothesis: PersonX then puts medicine away
+Update: They take the dose they need to take
+output: ",strengthener
+"input: Premise: PersonX spends all PersonY's time
+Hypothesis: Because PersonX wanted to be the center of attention.
+Update: PersonX is a circus performer.
+output: ",strengthener
+"input: Premise: PersonX fees PersonX's kids
+Hypothesis: As a result, PersonX feels responsible
+Update: PersonX is their grandma
+output: ",strengthener
+"input: Premise: PersonX lives in PersonY's home
+Hypothesis: As a result, PersonX feels comfortable
+Update: They are getting married
+output: ",strengthener
+"input: Premise: PersonX makes it just in time
+Hypothesis: As a result, PersonX wants to sit down
+Update: Person X gets in the empty train just before the doors close.
+output: ",strengthener
+"input: Premise: PersonX gets the food
+Hypothesis: Before, PersonX needed tO KNOW WHAT THEY WANT TO EAT
+Update: PersonX is a food delivery driver
+output: ",weakener
+"input: Premise: PersonX leaves PersonY's friends
+Hypothesis: As a result, PersonX wants go get some food
+Update: PersonX just had a huge pizza with friends.
+output: ",weakener
+"input: Premise: PersonX finds the song
+Hypothesis: PersonX then listens to the song nonstop
+Update: PersonX does not queue a different song to play next.
+output: ",strengthener
+"input: Premise: PersonX waters it every day
+Hypothesis: As a result, PersonX wants walk in the grass
+Update: PersonX likes to play on the lawn.
+output: ",strengthener
+"input: Premise: PersonX asks PersonY to prom
+Hypothesis: PersonX is seen as excitement
+Update: PersonX give friends high fives after asking.
+output: ",strengthener
+"input: Premise: PersonX buries PersonY's face in PersonY's hands
+Hypothesis: Then, they get hit by Y
+Update: They are both laughing and fooling around
+output: ",weakener
+"input: Premise: PersonX makes PersonY's skin crawl
+Hypothesis: PersonX is seen as creepy
+Update: PersonX stalks people.
+output: ",strengthener
+"input: Premise: PersonX lets PersonY stay
+Hypothesis: As a result, PersonX wants personY to stay longer
+Update: X ascribes to the saying that fish and guest smell after 3 days.
+output: ",weakener
+"input: Premise: PersonX uses PersonX's debit card
+Hypothesis: PersonX is seen as satisfied
+Update: PersonX saw the balance running low
+output: ",weakener
+"input: Premise: PersonX buys a television
+Hypothesis: Because PersonX wanted to watch the shows
+Update: PersonX is setting up audio visual equipment for the classroom.
+output: ",weakener
+"input: Premise: PersonX learns how to play chess
+Hypothesis: PersonX then plays match
+Update: PersonX losses interest quickly.
+output: ",weakener
+"input: Premise: PersonX starts a food fight
+Hypothesis: As a result, PersonX wants to keep fighting
+Update: PersonX is having a ton of fun.
+output: ",strengthener
+"input: Premise: PersonX sees a movie with PersonX's friends
+Hypothesis: As a result, PersonX wants to talk about the movie after
+Update: PersonX gives details about the plot of the movie.
+output: ",strengthener
+"input: Premise: PersonX needs to be done
+Hypothesis: PersonX is seen as stressed
+Update: PersonX has enjoyed their fun filled day.
+output: ",weakener
+"input: Premise: PersonX checks PersonX's pockets
+Hypothesis: PersonX then thinks about what to buy
+Update: PersonX finds her wallet.
+output: ",strengthener
+"input: Premise: PersonX gets PersonX's wallet back
+Hypothesis: As a result, PersonX feels thankful
+Update: A stranger finds and returns PersonX's wallet.
+output: ",strengthener
+"input: Premise: PersonX finds PersonY's dog
+Hypothesis: PersonX is seen as thankful to help
+Update: PersonX is smiling and praising God.
+output: ",strengthener
+"input: Premise: PersonX starts to talk
+Hypothesis: As a result, PersonX feels social
+Update: X goes from group to group greeting everyone by name.
+output: ",strengthener
+"input: Premise: PersonX goes PersonX's ways
+Hypothesis: Because PersonX wanted to get away from the situation
+Update: They feel content retiring at this age
+output: ",weakener
+"input: Premise: PersonX takes a risk
+Hypothesis: Because PersonX wanted to try something new
+Update: PersonX had no other path to take.
+output: ",weakener
+"input: Premise: PersonX gets along well
+Hypothesis: PersonX is seen as happy
+Update: They are smiling
+output: ",strengthener
+"input: Premise: PersonX gives it to PersonY's mother
+Hypothesis: As a result, PersonX feels generous
+Update: PersonY's mother is angry afterward.
+output: ",weakener
+"input: Premise: PersonX purchases the ingredients
+Hypothesis: Because PersonX wanted to be helpful
+Update: PersonX is making drugs
+output: ",weakener
+"input: Premise: PersonX catches PersonY peeking
+Hypothesis: PersonX then yells and shouts
+Update: Person Y is cheating by looking at Person X's test.
+output: ",strengthener
+"input: Premise: PersonX creates PersonY effect
+Hypothesis: PersonX is seen as satisfied
+Update: PersonX helps solve the puzzle.
+output: ",strengthener
+"input: Premise: PersonX runs away from PersonY
+Hypothesis: Because PersonX wanted to avoid trouble
+Update: PersonY is a drug dealer.
+output: ",strengthener
+"input: Premise: PersonX beats PersonY easily
+Hypothesis: As a result, PersonX feels strong
+Update: PersonX is very capable.
+output: ",strengthener
+"input: Premise: PersonX diagnoses with cancer
+Hypothesis: As a result, PersonX feels fearful
+Update: The cancer is 99 percent treatable
+output: ",weakener
+"input: Premise: PersonX cleans the basement
+Hypothesis: As a result, PersonX feels tidy
+Update: PersonX did a thorough job.
+output: ",strengthener
+"input: Premise: PersonX knows could get
+Hypothesis: As a result, PersonX wants to try to get
+Update: It isn't desirable
+output: ",weakener
+"input: Premise: PersonX enters the building
+Hypothesis: PersonX is seen as nervous
+Update: PersonX is their for a job interview
+output: ",strengthener
+"input: Premise: PersonX sees PersonX's crush PersonY
+Hypothesis: As a result, PersonX wants to help person Y
+Update: Y has ignored X all day.
+output: ",weakener
+"input: Premise: PersonX drinks milk
+Hypothesis: Before, PersonX needed to purchase milk
+Update: PersonX is at his fridge
+output: ",strengthener
+"input: Premise: PersonX takes a bow
+Hypothesis: PersonX then personX receives applause
+Update: The crowd throws rotten tomatoes at PersonX.
+output: ",weakener
+"input: Premise: PersonX makes it extra special
+Hypothesis: Before, PersonX needed good intuition
+Update: PersonX wasn't told to make it special
+output: ",strengthener
+"input: Premise: PersonX buys a gift card
+Hypothesis: PersonX is seen as happy about it
+Update: PersonX is very poor
+output: ",weakener
+"input: Premise: PersonX scrambles eggs
+Hypothesis: Before, PersonX needed to buy eggs
+Update: Person X has on a Waffle House uniform and is behind the counter.
+output: ",weakener
+"input: Premise: PersonX joins PersonY together
+Hypothesis: PersonX is seen as productive
+Update: Desks filled with office workers surround them.
+output: ",strengthener
+"input: Premise: PersonX joins PersonY together
+Hypothesis: As a result, PersonX feels unified
+Update: PersonX resent PersonY
+output: ",weakener
+"input: Premise: PersonX polishes a turd
+Hypothesis: Because PersonX wanted to make something seem better than it was.
+Update: Person X has named their new car ""turd"".
+output: ",weakener
+"input: Premise: PersonX wants PersonY to say
+Hypothesis: Because PersonX wanted to say
+Update: PersonX is mute.
+output: ",weakener
+"input: Premise: PersonX eats burgers
+Hypothesis: As a result, PersonX wants use the toilette
+Update: Beef is constipating.
+output: ",weakener
+"input: Premise: PersonX rubs PersonY's chin
+Hypothesis: Because PersonX wanted to make persony comfortable.
+Update: Person Y does not know Person X
+output: ",weakener
+"input: Premise: PersonX leads PersonY army
+Hypothesis: As a result, PersonX feels respected
+Update: PersonY forced PersonX to lead the army.
+output: ",weakener
+"input: Premise: PersonX takes it to the shop
+Hypothesis: As a result, PersonX wants to pay as little as possible
+Update: PersonX is doesn't have much money.
+output: ",strengthener
+"input: Premise: PersonX borrows the car
+Hypothesis: PersonX is seen as thankful
+Update: X crashes the car.
+output: ",weakener
+"input: Premise: PersonX gets a bite
+Hypothesis: PersonX is seen as healthy
+Update: PersonX is holding a donut.
+output: ",weakener
+"input: Premise: PersonX accepts the dare
+Hypothesis: PersonX is seen as anxious
+Update: PersonX is standing on the edge of a cliff over the water.
+output: ",strengthener
+"input: Premise: PersonX is playing tennis
+Hypothesis: As a result, PersonX wants have fun
+Update: Person X says 'I hate this sport!'
+output: ",weakener
+"input: Premise: PersonX holds PersonY in place
+Hypothesis: As a result, PersonX feels strong
+Update: PersonY is unconcious
+output: ",weakener
+"input: Premise: PersonX gives PersonY's medicine
+Hypothesis: PersonX is seen as sad
+Update: PersonY is in hospice
+output: ",strengthener
+"input: Premise: PersonX runs some tests
+Hypothesis: PersonX then needs medication
+Update: PersonX has diabetes.
+output: ",strengthener
+"input: Premise: PersonX has trouble in school
+Hypothesis: PersonX then gets failing grades
+Update: PersonX hired a tutor to help them with their studies.
+output: ",weakener
+"input: Premise: PersonX surprises PersonY with tickets
+Hypothesis: PersonX then takes delight in giving
+Update: They are really excited to get the tickets
+output: ",strengthener
+"input: Premise: PersonX wants to test it out
+Hypothesis: PersonX then becomes succeeded
+Update: Person X rolls backwards down the hill and screams.
+output: ",weakener
+"input: Premise: PersonX gazes upon PersonY
+Hypothesis: As a result, PersonX wants to have friendship
+Update: PersonX is intrigued by PersonY.
+output: ",strengthener
+"input: Premise: PersonX wants to be healthy
+Hypothesis: PersonX then is helathier
+Update: PersonX eats a lot of vegetables.
+output: ",strengthener
+"input: Premise: PersonX knocks PersonX down with a feather
+Hypothesis: Because PersonX wanted to be surprised
+Update: PersonX has an angry look on their face.
+output: ",weakener
+"input: Premise: PersonX tells PersonX's kids
+Hypothesis: As a result, PersonX wants to teach their kids something new
+Update: Their dad left the family
+output: ",weakener
+"input: Premise: PersonX achieves PersonY objective
+Hypothesis: Because PersonX wanted to succeed for their boss
+Update: PersonX knows achieving the objective means he can leave the company.
+output: ",weakener
+"input: Premise: PersonX graduates at the top of PersonX's class
+Hypothesis: Because PersonX wanted to make her parents proud.
+Update: PersonX loves and respects their parents.
+output: ",strengthener
+"input: Premise: PersonX puts PersonX's feet up
+Hypothesis: PersonX is seen as relaxed
+Update: PersonX is at the doctor's office getting a wart removed.
+output: ",weakener
+"input: Premise: PersonX forms PersonX's opinions
+Hypothesis: PersonX is seen as good
+Update: PersonX tries to be fair when he thinks about others.
+output: ",strengthener
+"input: Premise: PersonX finds a place
+Hypothesis: PersonX is seen as finished
+Update: PersonX kicks back their feet in their rocking chair.
+output: ",strengthener
+"input: Premise: PersonX complies with PersonY's wishes
+Hypothesis: As a result, PersonX feels pliable
+Update: PersonX is proposing to PersonY.
+output: ",strengthener
+"input: Premise: PersonX hurts PersonX's knee
+Hypothesis: As a result, PersonX feels careless
+Update: PersonX hurt their knee by not looking both ways before crossing the street.
+output: ",strengthener
+"input: Premise: PersonX wins third place
+Hypothesis: Before, PersonX needed to compete
+Update: PersonX has been training for months.
+output: ",strengthener
+"input: Premise: PersonX walks everyday
+Hypothesis: PersonX then x will get fitter
+Update: PersonX walks from one room to another
+output: ",weakener
+"input: Premise: PersonX feels very sad
+Hypothesis: Before, he gets laid off
+Update: PersonX has to apply for unemployment.
+output: ",strengthener
+"input: Premise: PersonX puts it under PersonX's pillow
+Hypothesis: Because PersonX wanted secretive
+Update: PersonX just lost their tooth
+output: ",weakener
+"input: Premise: PersonX finds something to eat
+Hypothesis: As a result, PersonX feels thankful
+Update: PersonX has to eat dog food.
+output: ",weakener
+"input: Premise: PersonX gets PersonX's lunch
+Hypothesis: PersonX is seen as full
+Update: PersonX eats the whole lunch.
+output: ",weakener
+"input: Premise: PersonX knows PersonY well enough
+Hypothesis: PersonX then a good friend of PersonY
+Update: PersonX is a private investigator
+output: ",weakener
+"input: Premise: PersonX moves PersonY's furniture
+Hypothesis: As a result, PersonX wants for PersonY to be able to move
+Update: PersonX has begged PersonY to stay.
+output: ",weakener
+"input: Premise: PersonX is at PersonX's job
+Hypothesis: PersonX then gets sent home
+Update: PersonX owns the joint
+output: ",weakener
+"input: Premise: PersonX visits some friends
+Hypothesis: Before, PersonX needed drive to meet his friends
+Update: PersonX's friends all live a walk away.
+output: ",weakener
+"input: Premise: PersonX brings PersonX's grades up
+Hypothesis: Before, PersonX needed to work hard
+Update: X did all his homework.
+output: ",strengthener
+"input: Premise: PersonX performs PersonX's tasks
+Hypothesis: As a result, PersonX wants to do a perfect job
+Update: Person X looks sad and bored with shoulders slumped while working.
+output: ",weakener
+"input: Premise: PersonX brings the puppy home
+Hypothesis: PersonX is seen as fatherly.
+Update: PersonX is a Mom of two kids.
+output: ",weakener
+"input: Premise: PersonX gives PersonY a bloody nose
+Hypothesis: As a result, PersonX wants apologize to PersonY
+Update: PersonX's elbow accidentally hit PersonY's face.
+output: ",strengthener
+"input: Premise: PersonX can not get elected dogcatcher
+Hypothesis: PersonX is seen as thankful they can do something else
+Update: PersonX's dream is to be a dog catcher.
+output: ",weakener
+"input: Premise: PersonX feels grateful
+Hypothesis: PersonX then closes eyes
+Update: PersonX feels relieved.
+output: ",strengthener
+"input: Premise: PersonX is in the wrong class
+Hypothesis: As a result, PersonX feels confused
+Update: The class laughed at PersonX.
+output: ",weakener
+"input: Premise: PersonX declares war on PersonY
+Hypothesis: Because PersonX wanted to get revenge
+Update: Y had killed X's son.
+output: ",strengthener
+"input: Premise: PersonX brings PersonY's lunch
+Hypothesis: As a result, PersonX feels prepared
+Update: PersonX brings food that is still frozen
+output: ",weakener
+"input: Premise: PersonX really hit it
+Hypothesis: As a result, PersonX feels successful
+Update: PersonX shares a self congratulatory social media post.
+output: ",strengthener
+"input: Premise: PersonX is lucky to be alive
+Hypothesis: As a result, PersonX feels fortunate
+Update: PersonX was struck in a hit and run.
+output: ",strengthener
+"input: Premise: PersonX goes limp as PersonY smiled
+Hypothesis: PersonX then gets red faced
+Update: PersonX has just passed out.
+output: ",weakener
+"input: Premise: PersonX drops the gloves
+Hypothesis: As a result, PersonX feels clumsy
+Update: PersonX is always dropping things.
+output: ",strengthener
+"input: Premise: PersonX invites PersonX's best friend
+Hypothesis: Before, PersonX needed to ask if they're busy.
+Update: PersonX just invites without asking
+output: ",weakener
+"input: Premise: PersonX gets PersonX's haircut
+Hypothesis: As a result, PersonX wants to look in the mirror
+Update: PersonX is blind.
+output: ",weakener
+"input: Premise: PersonX tests PersonY's ability
+Hypothesis: As a result, PersonX feels rebellious
+Update: PersonX is PersonY's child.
+output: ",strengthener
+"input: Premise: PersonX hangs PersonY
+Hypothesis: Before, PersonX needed to get a rope
+Update: PersonY has wire around their neck.
+output: ",weakener
+"input: Premise: PersonX eats the entire thing
+Hypothesis: As a result, PersonX wants to throw up / vomit
+Update: It tasted really good
+output: ",weakener
+"input: Premise: PersonX is sitting at home
+Hypothesis: As a result, PersonX feels prudent
+Update: PersonX does not contract the disease.
+output: ",strengthener
+"input: Premise: PersonX listens to PersonY talk
+Hypothesis: PersonX then develops understanding
+Update: PersonX is attending a seminar.
+output: ",strengthener
+"input: Premise: PersonX tells PersonY tales
+Hypothesis: PersonX is seen as content
+Update: PersonX is still trying too hard.
+output: ",weakener
+"input: Premise: PersonX buys a brand
+Hypothesis: Because PersonX wanted to dress nicely
+Update: PersonX likes to appear spiffy.
+output: ",strengthener
+"input: Premise: PersonX gets a bloody nose
+Hypothesis: PersonX is seen as sick
+Update: PersonX is very pale
+output: ",strengthener
+"input: Premise: PersonX plays old harry
+Hypothesis: As a result, PersonX wants to apologize
+Update: PersonX gave old harry a heart attack
+output: ",strengthener
+"input: Premise: PersonX is always fighting
+Hypothesis: PersonX then gets arrested
+Update: PersonX is a pro MMA athlete
+output: ",weakener
+"input: Premise: PersonX has the most unruly curly hair
+Hypothesis: As a result, PersonX wants wear hat
+Update: PersonX cries when they look in the mirror.
+output: ",strengthener
+"input: Premise: PersonX goes to the beach with PersonY's family
+Hypothesis: As a result, PersonX feels social
+Update: PersonX is ignored by the family
+output: ",weakener
+"input: Premise: PersonX reads every day
+Hypothesis: PersonX is seen as knowledgeable
+Update: PersonX works as an astrophysicist
+output: ",strengthener
+"input: Premise: PersonX casts PersonY's vote
+Hypothesis: PersonX is seen as good.
+Update: PersonY is a tyrant that is followed by mindless sheep.
+output: ",weakener
+"input: Premise: PersonX leaves the yard
+Hypothesis: As a result, PersonX wants to leave
+Update: A violent dog is running around in the yard
+output: ",strengthener
+"input: Premise: PersonX attends to PersonY's duties
+Hypothesis: As a result, PersonX feels focused
+Update: Person X is working quickly.
+output: ",strengthener
+"input: Premise: PersonX is a new mother
+Hypothesis: PersonX then looks at baby lovingly
+Update: PersonX smiles at the baby.
+output: ",strengthener
+"input: Premise: PersonX feels a sharp sting
+Hypothesis: PersonX then person x yells
+Update: PersonX was stung by a bullet ant.
+output: ",strengthener
+"input: Premise: PersonX acts upon PersonY
+Hypothesis: PersonX is seen as nothing
+Update: PersonX is a homeless man
+output: ",strengthener
+"input: Premise: PersonX goes the principal 's office
+Hypothesis: As a result, PersonX wants to make excuses
+Update: PersonX is the principal.
+output: ",weakener
+"input: Premise: PersonX directs PersonY's steps
+Hypothesis: As a result, PersonX feels controlling
+Update: PersonY is learning to walk.
+output: ",weakener
+"input: Premise: PersonX takes PersonY's two kids
+Hypothesis: As a result, PersonX feels cruel
+Update: PersonX is going to the water park
+output: ",weakener
+"input: Premise: PersonX makes it big
+Hypothesis: Before, PersonX needed pick a craft
+Update: PersonX didn't start painting until they were in their late 30s.
+output: ",strengthener
+"input: Premise: PersonX plays really
+Hypothesis: As a result, PersonX wants to eat agian
+Update: PersonX is so tired they fall asleep
+output: ",weakener
+"input: Premise: PersonX starts to move
+Hypothesis: As a result, PersonX feels bored
+Update: PersonX is jogging on a treadmill.
+output: ",strengthener
+"input: Premise: PersonX follows PersonY's advice
+Hypothesis: PersonX then doesn't ask for advice from Person Y again.
+Update: PersonX succeeded with the task.
+output: ",weakener
+"input: Premise: PersonX gives PersonY attention
+Hypothesis: Because PersonX wanted to show nice
+Update: PersonX was pretending to care.
+output: ",weakener
+"input: Premise: PersonX reprimands PersonX
+Hypothesis: As a result, PersonX wants carry out discipline
+Update: PersonX presents the reprimand in a loud, animated tone of voice.
+output: ",strengthener
+"input: Premise: PersonX gives the ultimate pleasure
+Hypothesis: Because PersonX wanted to be the best
+Update: They practice all the time
+output: ",strengthener
+"input: Premise: PersonX plays PersonX's new game
+Hypothesis: As a result, PersonX feels nerdy
+Update: They are playing a basketball video game
+output: ",weakener
+"input: Premise: PersonX performs PersonY function
+Hypothesis: PersonX is seen as relieved
+Update: PersonX still has a lot of work to do.
+output: ",weakener
+"input: Premise: PersonX looks perfect
+Hypothesis: As a result, PersonX wants to show off to his friends
+Update: PersonX has been working out a lot.
+output: ",strengthener
+"input: Premise: PersonX is hiking in the woods
+Hypothesis: Because PersonX wanted to explore nature
+Update: PersonX enjoyed seeing all the wildlife in its natural habitat.
+output: ",strengthener
+"input: Premise: PersonX costs too much
+Hypothesis: Because PersonX wanted to charge that much
+Update: PersonX is an in-demand sex worker
+output: ",strengthener
+"input: Premise: PersonX makes PersonY exception
+Hypothesis: Before, PersonX needed find out if PersonY has a problem
+Update: PersonY had seemed anxious and withdrawn lately.
+output: ",strengthener
+"input: Premise: PersonX steals PersonY's purse
+Hypothesis: As a result, PersonX wants to get the money from the purse
+Update: PersonY just came from the bank
+output: ",strengthener
+"input: Premise: PersonX plays against PersonY
+Hypothesis: PersonX is seen as competitive
+Update: X gives Y a do-over.
+output: ",weakener
+"input: Premise: PersonX wants to be a lawyer
+Hypothesis: PersonX then spends days and nights studying law
+Update: PersonX is passing all their law classes.
+output: ",strengthener
+"input: Premise: PersonX meets PersonX's boyfriend 's parents
+Hypothesis: PersonX is seen as anxious
+Update: PersonX chats easily with the boyfriend's parents.
+output: ",weakener
+"input: Premise: PersonX moves home
+Hypothesis: As a result, PersonX wants to sleep
+Update: It is night out and Person X is yawning.
+output: ",strengthener
+"input: Premise: PersonX feels like talking
+Hypothesis: As a result, PersonX feels social
+Update: PersonX is in an empty library.
+output: ",weakener
+"input: Premise: PersonX decides to read a book
+Hypothesis: Before, PersonX needed to be bored
+Update: PersonX was looking for entertainment.
+output: ",strengthener
+"input: Premise: PersonX makes the money
+Hypothesis: PersonX then wants to earn more
+Update: X's retirement party is next week.
+output: ",weakener
+"input: Premise: PersonX uses PersonY example
+Hypothesis: PersonX is seen as like a jerk
+Update: PersonX often uses other's work without their permission.
+output: ",strengthener
+"input: Premise: PersonX sets the timer
+Hypothesis: PersonX then hurries
+Update: PersonX has a program to watch while the cake bakes.
+output: ",weakener

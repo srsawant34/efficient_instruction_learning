@@ -1,0 +1,101 @@
+input,output
+"Definition: In this task, given 2 input sentences, you must classify the relation between them. If the second sentence has a similar meaning to that of the first sentence then the output is ' B_entails_A', if the second sentence has the opposite meaning to the first sentence then it is classified as ' B_contradicts_A'. If you cannot clearly ascertain agreement/disagreement between the two sentences, the label is ' B_neutral_A'.
+Positive example 1-
+input: sentence_A: man is wearing a hard hat and dancing. sentence_B: There is no man with a hard hat dancing.
+output: B_contradicts_A
+Positive example 2-
+input: sentence_A: A baby is crying. sentence_B: A man is exercising.
+output: B_neutral_A
+Now complete the following example-
+input: sentence_A: A white bird with a yellow beak is standing in the green grass. sentence_B: A black bird with a yellow beak is standing in the green grass
+output: ",B_neutral_A
+"Definition: In this task, given 2 input sentences, you must classify the relation between them. If the second sentence has a similar meaning to that of the first sentence then the output is ' B_entails_A', if the second sentence has the opposite meaning to the first sentence then it is classified as ' B_contradicts_A'. If you cannot clearly ascertain agreement/disagreement between the two sentences, the label is ' B_neutral_A'.
+Positive example 1-
+input: sentence_A: man is wearing a hard hat and dancing. sentence_B: There is no man with a hard hat dancing.
+output: B_contradicts_A
+Positive example 2-
+input: sentence_A: A baby is crying. sentence_B: A man is exercising.
+output: B_neutral_A
+Now complete the following example-
+input: sentence_A: A young child is splashing in the water. sentence_B: There is no young child splashing in the water
+output: ",B_contradicts_A
+"Definition: In this task, given 2 input sentences, you must classify the relation between them. If the second sentence has a similar meaning to that of the first sentence then the output is ' B_entails_A', if the second sentence has the opposite meaning to the first sentence then it is classified as ' B_contradicts_A'. If you cannot clearly ascertain agreement/disagreement between the two sentences, the label is ' B_neutral_A'.
+Positive example 1-
+input: sentence_A: man is wearing a hard hat and dancing. sentence_B: There is no man with a hard hat dancing.
+output: B_contradicts_A
+Positive example 2-
+input: sentence_A: A baby is crying. sentence_B: A man is exercising.
+output: B_neutral_A
+Now complete the following example-
+input: sentence_A: The woman is stirring meat in a bowl. sentence_B: There is no lady mixing a meat mixture in a bowl
+output: ",B_contradicts_A
+"Definition: In this task, given 2 input sentences, you must classify the relation between them. If the second sentence has a similar meaning to that of the first sentence then the output is ' B_entails_A', if the second sentence has the opposite meaning to the first sentence then it is classified as ' B_contradicts_A'. If you cannot clearly ascertain agreement/disagreement between the two sentences, the label is ' B_neutral_A'.
+Positive example 1-
+input: sentence_A: man is wearing a hard hat and dancing. sentence_B: There is no man with a hard hat dancing.
+output: B_contradicts_A
+Positive example 2-
+input: sentence_A: A baby is crying. sentence_B: A man is exercising.
+output: B_neutral_A
+Now complete the following example-
+input: sentence_A: An airplane is taking off. sentence_B: A plane is taking off
+output: ",B_entails_A
+"Definition: In this task, given 2 input sentences, you must classify the relation between them. If the second sentence has a similar meaning to that of the first sentence then the output is ' B_entails_A', if the second sentence has the opposite meaning to the first sentence then it is classified as ' B_contradicts_A'. If you cannot clearly ascertain agreement/disagreement between the two sentences, the label is ' B_neutral_A'.
+Positive example 1-
+input: sentence_A: man is wearing a hard hat and dancing. sentence_B: There is no man with a hard hat dancing.
+output: B_contradicts_A
+Positive example 2-
+input: sentence_A: A baby is crying. sentence_B: A man is exercising.
+output: B_neutral_A
+Now complete the following example-
+input: sentence_A: A woman is cutting a fish. sentence_B: A woman is slicing a fish
+output: ",B_entails_A
+"Definition: In this task, given 2 input sentences, you must classify the relation between them. If the second sentence has a similar meaning to that of the first sentence then the output is ' B_entails_A', if the second sentence has the opposite meaning to the first sentence then it is classified as ' B_contradicts_A'. If you cannot clearly ascertain agreement/disagreement between the two sentences, the label is ' B_neutral_A'.
+Positive example 1-
+input: sentence_A: man is wearing a hard hat and dancing. sentence_B: There is no man with a hard hat dancing.
+output: B_contradicts_A
+Positive example 2-
+input: sentence_A: A baby is crying. sentence_B: A man is exercising.
+output: B_neutral_A
+Now complete the following example-
+input: sentence_A: A man is playing a violin. sentence_B: There is no man playing a violin
+output: ",B_contradicts_A
+"Definition: In this task, given 2 input sentences, you must classify the relation between them. If the second sentence has a similar meaning to that of the first sentence then the output is ' B_entails_A', if the second sentence has the opposite meaning to the first sentence then it is classified as ' B_contradicts_A'. If you cannot clearly ascertain agreement/disagreement between the two sentences, the label is ' B_neutral_A'.
+Positive example 1-
+input: sentence_A: man is wearing a hard hat and dancing. sentence_B: There is no man with a hard hat dancing.
+output: B_contradicts_A
+Positive example 2-
+input: sentence_A: A baby is crying. sentence_B: A man is exercising.
+output: B_neutral_A
+Now complete the following example-
+input: sentence_A: A woman is cracking eggs into a bowl. sentence_B: There is no woman placing skewers onto a rack
+output: ",B_neutral_A
+"Definition: In this task, given 2 input sentences, you must classify the relation between them. If the second sentence has a similar meaning to that of the first sentence then the output is ' B_entails_A', if the second sentence has the opposite meaning to the first sentence then it is classified as ' B_contradicts_A'. If you cannot clearly ascertain agreement/disagreement between the two sentences, the label is ' B_neutral_A'.
+Positive example 1-
+input: sentence_A: man is wearing a hard hat and dancing. sentence_B: There is no man with a hard hat dancing.
+output: B_contradicts_A
+Positive example 2-
+input: sentence_A: A baby is crying. sentence_B: A man is exercising.
+output: B_neutral_A
+Now complete the following example-
+input: sentence_A: Nobody is rinsing a steak with water. sentence_B: A person is rinsing a steak with water
+output: ",B_contradicts_A
+"Definition: In this task, given 2 input sentences, you must classify the relation between them. If the second sentence has a similar meaning to that of the first sentence then the output is ' B_entails_A', if the second sentence has the opposite meaning to the first sentence then it is classified as ' B_contradicts_A'. If you cannot clearly ascertain agreement/disagreement between the two sentences, the label is ' B_neutral_A'.
+Positive example 1-
+input: sentence_A: man is wearing a hard hat and dancing. sentence_B: There is no man with a hard hat dancing.
+output: B_contradicts_A
+Positive example 2-
+input: sentence_A: A baby is crying. sentence_B: A man is exercising.
+output: B_neutral_A
+Now complete the following example-
+input: sentence_A: There is no dog leaping through snowy grass and rocks. sentence_B: Two large dogs, a light colored one and a dark one, are running through snowy terrain
+output: ",B_contradicts_A
+"Definition: In this task, given 2 input sentences, you must classify the relation between them. If the second sentence has a similar meaning to that of the first sentence then the output is ' B_entails_A', if the second sentence has the opposite meaning to the first sentence then it is classified as ' B_contradicts_A'. If you cannot clearly ascertain agreement/disagreement between the two sentences, the label is ' B_neutral_A'.
+Positive example 1-
+input: sentence_A: man is wearing a hard hat and dancing. sentence_B: There is no man with a hard hat dancing.
+output: B_contradicts_A
+Positive example 2-
+input: sentence_A: A baby is crying. sentence_B: A man is exercising.
+output: B_neutral_A
+Now complete the following example-
+input: sentence_A: A person is wiping butter on a tray. sentence_B: There is no person buttering a tray
+output: ",B_contradicts_A

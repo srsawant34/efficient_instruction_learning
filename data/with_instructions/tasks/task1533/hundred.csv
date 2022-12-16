@@ -1,0 +1,3043 @@
+input,output
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Hey , Dora ! What kind of books do you like to read ?  
+ Person2:I read everything I can get my hands on but I like love stories best . What do you think about the love stories ?  
+ Person1:        I hate to tell you this , but they are nothing but sob stories .  
+ Person2:I don't think so . I like them . Then what's your favorite book ?  
+ Person1:        I'm fond of history books .  
+ Person2:Oh , the history books are dull to me . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Thanks for coming shopping with me .  
+ Person2:I'm so honored that you thought to ask me .  
+ Person1:        I've never given a speech in front of a thousand people before .  
+ Person2:You're going to do great . And you're going to look great .  
+ Person1:        Thanks . Now let's decide which one of these suits looks best for this occasion .  
+ Person2:I still like the olive one best . There's a tailor here who can take up the sleeves for you .  
+ Person1:        The question is , can he have it done before Friday ?  
+ Person2:These guys are professional . I think they can have it done tomorrow . Let's ask . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Recently , there prevails ' Net Love ' !  
+ Person2:What's Net Love ?  
+ Person1:        Two people chat on the Net and step by step fall into love ! It's Net Love .  
+ Person2:Ridiculous ! They haven't met ! Maybe they're the same sex !  
+ Person1:        Maybe yesterday you've received a man's woos . He's called ' Beast ' ?  
+ Person2:How could you know ?  
+ Person1:        I watched the screen display !  
+ Person2:Do you know ' He ' is Ms . Rebecca !  
+ Person1:        It's typical Net Love , and a typical lesbians ' homosex ! HA !  
+ Person2:Impossible ! 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       You are late again , Maria . The teacher is about to come .  
+ Person2:I know . I have to prepare the supper for the whole family before I leave .  
+ Person1:        Oh , Ben has been cooking for us since I started attending this evening class . The good thing is , he has made great progress in cooking .  
+ Person2:The housework is really a big problem for me . My husband is on a business trip to the U . S . now and I have to take care of everything myself .  
+ Person1:        How about your one-year-old baby ?  
+ Person2:I've asked my parents to live with us for a while , so they can look after her for me while I am at work or in the class .  
+ Person1:        How sweet of them ! I have to work in the day time , study at night , and do housework during my spare time . I really hope I have eight arms and legs , like an octopus .  
+ Person2:Me too . Sometimes I do want to give it up . I can't deal with so many things at a time .  
+ Person1:        When is your Adult College Entrance Exam ?  
+ Person2:It's close coming up at the end of this month . That will be no more than 15 days from now on .  
+ Person1:        Oh , my Adult College Entrance Exam is also around then . I don't know if I can pass it .  
+ Person2:Why don't you take the CPA exam ? You are already a good accountant , having so many years of experience .  
+ Person1:        I just want to study in a college , majoring in economics . I've had this dream for a long time . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Come on in.Let me show you the house.Isn ' t it something ? Spacious , bright and clean.And the walls were newly painted.Have you ever seen such a nice house ?  
+ Person2:Not really .  
+ Person1:        This is the kitchen.Every - thing's new .  
+ Person2:It's great ! 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Pam , where's the closest ATM ?  
+ Person2:It's not that far . Do you see that Yellow building over there ?  
+ Person1:        The big one or the small one ?  
+ Person2:The big one .  
+ Person1:        Yes .  
+ Person2:It's right next to it , on the right .  
+ Person1:        Do you know if there's a convenience store around here ?  
+ Person2:I don't think there's one around here . The closest one is on 3rd street , but that's probably closed now .  
+ Person1:        I really need to get some things before I leave .  
+ Person2:Well , you could go down to 22nd street . There are lot of stores down there that are open 24 hours a day .  
+ Person1:        Can I take the subway to get there ?  
+ Person2:Yes , but that'll probably take about half an hour . You should just take a cab .  
+ Person1:        Won't that be expensive ?  
+ Person2:No , from here I think it's only about 5 dollars . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Do you want to go shopping with me ?  
+ Person2:That's a good idea.What time is good for you ?  
+ Person1:        How about Saturday morning ?  
+ Person2:Sounds good . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       what a nice uniform !  
+ Person2:thanks ; do you like it ?  
+ Person1:        not really . I was being sarcastic . Does it come with the job ?  
+ Person2:yes , everyone on the sales floor has to wear one . They're supposed to make us look more professional .  
+ Person1:        they're not actually that bad . They could be worse . What do you think about it ?  
+ Person2:I don't mind it , actually . I don't have to worry about what I'm going to wear every day .  
+ Person1:        so are you enjoying your new job ?  
+ Person2:it's much better than my old one . My new boss is great .  
+ Person1:        how do you like working in sales ?  
+ Person2:I like the fact that I get to work with people . It makes the day go by much faster .  
+ Person1:        that's good . Have you met Jane yet ? She's the intern in the international travel department .  
+ Person2:yeah , I've met her . She's a genius saleswoman !  
+ Person1:        I know ! She could sell fridges to Eskimos !  
+ Person2:how do you know her ?  
+ Person1:        she's my cousin .  
+ Person2:why didn't you tell me about that before ?  
+ Person1:        I don't know . I didn't think it was that interesting .  
+ Person2:well , now that I know that , maybe we should all go out for dinner sometime .  
+ Person1:        that's a good idea . Let's discuss after work . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       I am looking for a comfortable convenient way to see the country .  
+ Person2:Have you heard of motor coaching ? It's one of the fastest-growing segments for the travel industry .  
+ Person1:        No , I've not heard of it . Tell me about it .  
+ Person2:It's almost like going on an ocean cruise except that you go by land . Everything is planned for you from the moment you step on board a luxury coach .  
+ Person1:        Is it just a bus ?  
+ Person2:Oh . no . The motor coach is air-conditioned , there is a galley for food preparation , movies or music are available for your entertainment and attendants are there to take care of your every need .  
+ Person1:        Wow ! That sounds like pure luxury . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Happy New Year , Jim !  
+ Person2:Thank you , same to you ! Lee , have you got any plans ?  
+ Person1:        Yeah , I'm going to the Temple Fair with my family .  
+ Person2:How nice ! Have fun ! 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       What kind of movies do you like , Sue ?  
+ Person2:I like all kinds of stuff . I admit I love romance .  
+ Person1:        Just like my wife . So , what ’ s your favorite movie ?  
+ Person2:You mean my favorite movie of all time ? I guess I ’ d have to say “ pretty woman ” .  
+ Person1:        Yeah , my wife likes that one , too . Personally , I prefer action movies . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Does bullfight interest you much ?  
+ Person2:Absolutely ! Everything that ’ s thrilling turns me on .  
+ Person1:        So I ’ Ve got two tickets to the latest show but I need a little favor from you .  
+ Person2:What is it ? 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Are you ready to go to the bank ?  
+ Person2:Sure , what do you need to do there ?  
+ Person1:        There ’ s problem with my bank statement . There ’ s a mistake on it . I also need to withdraw some money some the ATM .  
+ Person2:I have to exchange some money .  
+ Person1:        that ’ s right . You ’ re going away next week .  
+ Person2:I also want to see if my salary has been paid into my bank account . There was a problem last week .  
+ Person1:        I have to pay my credit bill too . If I don ’ t pay it soon , the credit card company will charge me interest .  
+ Person2:Their interest rates are usually quite high . It ’ s a good idea to pay off your credit card debts before they attract interest . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       I can't decide what I should do .  
+ Person2:What's the problem ?  
+ Person1:        Should I date Tom or should I date Harry ?  
+ Person2:That's easy . If I were you , I'd date me ! 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       My wife gave birth to our first child today .  
+ Person2:Wow ! I'm so happy for you . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Thank you so much for coming tonight . Everybody really enjoyed your performance .  
+ Person2:I'm glad I could help .  
+ Person1:        Here's the check . I included a little extra for you .  
+ Person2:You didn't have to do that !  
+ Person1:        I know , but you deserve it . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       He dresses in plain clothes and drives an old car . Who would know he is the richest man in town ?  
+ Person2:You can't judge a book by its cover . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Would you like some cake ? I made it myself .  
+ Person2:Absolutely . Mm , this is really good .  
+ Person1:        Thanks . Would you like to have one more slice ?  
+ Person2:I'd love to . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Can you tell me the results of my home inspection ?  
+ Person2:Before I answer that , I want to make sure that you know what I was looking for . Are you clear on what I was looking for ?  
+ Person1:        I never had a home inspection before .  
+ Person2:I inspect the home for problems that might not be all that apparent in a quick walk-through .  
+ Person1:        I asked the owners , and they said that everything was great with the house .  
+ Person2:The owners might not be aware of everything wrong with the house . Some things are hidden , but might still be a problem for you in the future .  
+ Person1:        I heard that the owners must fix all of the problems before the escrow closes .  
+ Person2:I inform you of the problems . If there are major problems , you can decline to buy the house or they may wish to fix any problems .  
+ Person1:        What kinds of things did you discover in my home inspection ?  
+ Person2:I found some fairly major problems . A major support beam in the roof is broken , and the shower floor leaked and rotted out the second-floor joist . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Let me get the keys and we ’ ll go to look at it .  
+ Person2:Okay .  
+ Person1:        It ’ s the one you like .  
+ Person2:Wow ! It ’ s really good for me , especially the living room . It is big enough to put all my stuff there . It ’ s a deal ! I ’ ll rent this one .  
+ Person1:        Okay . Now we need you to fill a form with your personal information . We need information like social insurance number ( Social security number in the US ) , your address , phone number , etc . We also need a security deposit of $ 200 . And you have to pay two months ’ rent in advance for renting the first time . If there ’ s nothing damaged , we ’ ll give you back one month ’ s rent when you move out . You ’ ll be responsible for all the utilities . Do you want to sign a lease today ?  
+ Person2:Sure !  
+ Person1:        Oh , one more thing I forgot . You must let us know two months in advance if you want to stop renting within the contract . Otherwise , you can ’ t get your deposit back .  
+ Person2:Okay . Thank you for your reminder .  
+ Person1:        You ’ re welcome . Be sure to get the keys one day before you move in .  
+ Person2:Thank you again . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Bon voyage !  
+ Person2:Goodbye . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Why don't you come round for a meal one evening next week ?  
+ Person2:I'd love to .  
+ Person1:        Which day would suit you ?  
+ Person2:Any day except Tuesday .  
+ Person1:        How about Thursday ?  
+ Person2:Yes , Thursday would be fine . What time shall I come ?  
+ Person1:        Oh , about 6:00 . Will that be OK ?  
+ Person2:Yes , of course . Thank you very much .  
+ Person1:        See you on Thursday , then . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Switchboard . Which extension would you like ?  
+ Person2:Extension 1616 , please .  
+ Person1:        I'm afraid the line is busy at the moment . Just hold on , please .  
+ Person2:Then , will you try extension 235 ?  
+ Person1:        Certainty , sir . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       What's wrong ? You don't like ancient Egypt ?  
+ Person2:Actually , I don't like history . Lately , these shows are always about the Pyramids .  
+ Person1:        The Pyramids are amazing ! Millions of gigantic stones ... each one perfect ...  
+ Person2:And nobody knows who built them , right ? It's a total mystery !  
+ Person1:        You sound like the TV ! You're not going to tell me that aliens built the Pyramids , are you ? 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       How can I tell her about this ?  
+ Person2:Don't worry , you'll find a way .  
+ Person1:        There is no need to be so frustrated .  
+ Person2:How can you live without job in the future ?  
+ Person1:        Don't worry , you'll find a way . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Hi , Julie . I was in your neighborhood and I'd like to drop by .  
+ Person2:Come on in . Would you care for a drink ?  
+ Person1:        That sounds refreshing . Thanks ! 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       What experience do you have with office machinery ?  
+ Person2:I know how to use the telex machine , the photocopier , and the word processor . By the way , I took a computer course in university .  
+ Person1:        Where do you want to be in five years ?  
+ Person2:I want to be a manager .  
+ Person1:        Very good . Any questions ?  
+ Person2:Nothing . I think I'll take the job . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       OK . I'll take your bet , as long as the winner gets to pick the movie . What about you , Nick ?  
+ Person2:Sure . Do you want to go first , Sally ?  
+ Person1:        Why not ! I rolled a five . The category is Best Pictures .  
+ Person2:OK , here's your question What movie won the 1996 Oscar for Best Picture ?  
+ Person1:        I know that , it's The English Patient . It was one of the only good American movies of the 90s .  
+ Person2:Well , along with Jurassic Park ! Nice going , you got the right answer . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       I don't think we come here at a right time .  
+ Person2:What's wrong ?  
+ Person1:        The museum doesn't open today .  
+ Person2:What a pity !  
+ Person1:        Where shall we go now ?  
+ Person2:Why not have a visit to the zoo ? 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       There will be another sandstorm here tomorrow .  
+ Person2:It's the fourth one this year . Isn't it horrible .  
+ Person1:        Yes . We should plant more trees and grass to stop the sand from spreading .  
+ Person2:It may take many years for the trees to grow . I hope people will stop cutting down trees .  
+ Person1:        But we need the wood .  
+ Person2:But we can't destroy our forests to get the wood . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Why you are so crazy about Beijing Opera ? It's so boring .  
+ Person2:But I think it's fantastic and charming . Well , you have your opinion and I have mine .  
+ Person1:        Maybe you're right . But I just still can't understand ...  
+ Person2:Come on . I don't see any point in arguing about this . Everyone has a right to his own opinion . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Your garden is looking very beautiful this summer . The flowers are really colorful .  
+ Person2:Thank you . I have roses , tulips , and daffodils . Do you like the rockery with the smaller flowers ?  
+ Person1:        Yes , I do . Those are violets , aren ’ t they ?  
+ Person2:Yes , they are . This afternoon , I ’ m going to prune the hedge .  
+ Person1:        The lower branches on that tree are hanging very low . Would you like me to cut them off for you ?  
+ Person2:Thank you ! That would be very kind of you . I have a saw in the garden shed .  
+ Person1:        When the lower branches are removed , you ’ ll be able to sit under the tree .  
+ Person2:Tomorrow , I ’ ll cut the grass . Then the garden will look perfect .  
+ Person1:        Just make sure children don ’ t play in the flower beds and destroy the flowers . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Hi , dear , do you know what the important day is today ?  
+ Person2:I don ’ t know .  
+ Person1:        Please think it over .  
+ Person2:Oh , I see .  
+ Person1:        Come on , dear . I know you mustn ’ t forget it .  
+ Person2:It ’ s Saturday , a great weekend .  
+ Person1:        Ur , you really let me down .  
+ Person2:Don ’ t be angry with me . I have a bad memory .  
+ Person1:        No , you haven ’ t . You just don ’ t care about me . You ’ re an indifferent husband .  
+ Person2:What day is it on earth ?  
+ Person1:        It ’ s the anniversary of our weeding . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Hello , Is this EYE computers ?  
+ Person2:Yeas , It is . Sewen Jes speaking . How can I help ?  
+ Person1:        Actually , I'm calling to complain about your service . The computer I bought last week is faulty .  
+ Person2:Oh , I'm sorry to hear that , sir . What exactly is problem ?  
+ Person1:        Well , easily , It doesn't work . It doesn't even start probably .  
+ Person2:Oh , dear ! I'll do whatever I can . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Hi , happy new year !  
+ Person2:Hey , the same to you !  
+ Person1:        Time flies ! One year has already been a history !  
+ Person2:Definitely , it's time to say bye-bye to the last year and to say hello to the new year !  
+ Person1:        Yeah . Have you made any good resolutions for this new year ?  
+ Person2:Some resolutions ? That's a wonderful idea , but I have no idea yet . How about you ?  
+ Person1:        I want to be healthier this year , so I think I should take more exercise .  
+ Person2:That will be a good one ! Anything else ?  
+ Person1:        Maybe I should make a plan about learning my biochemistry , which is a mess !  
+ Person2:Sounds great ! 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       have you thought of moving at all Sarah ?  
+ Person2:we ’ Ve thought about it , but my husband and I can ’ t afford it right now . The only thing we could afford would be living in the slums , which is something I don ’ t want to do .  
+ Person1:        buying a house can be expensive , but there are ways to find cheaper houses .  
+ Person2:like what ?  
+ Person1:        well , sometimes the city auctions off houses to the community . You ’ d have to make a quick decision about the offer in a day , but you would definitely save money doing it that way .  
+ Person2:that ’ s a good idea . Do you know anyone who has done that before ?  
+ Person1:        sure , my sister-in-law and her husband just bought a house that way . They ’ re pretty satisfied with it .  
+ Person2:is the house pretty run-down .  
+ Person1:        not at all . The woman , who owned it , took good care of it . But when she died , she had no family left and no will , so the government had to sell it for her .  
+ Person2:was it very old house ?  
+ Person1:        it was about 75 years old . There were a few repairs that needed doing , but it didn ’ t take a lot of money or time .  
+ Person2:is it in a good location ?  
+ Person1:        the area can be a bit rough in the evenings , but the neighbors watch out for each other , so it ’ s ok . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Good morning , can I help you ?  
+ Person2:We'd like to buy some furniture for our new house .  
+ Person1:        Here are several sets of furniture , including sofa , dressing table , wardrobe , and sideboard . How about this one ?  
+ Person2:We like a larger wardrobe . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Paul sends you his regards .  
+ Person2:How nice of him ! 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       You mustn't touch the wet paint , Bill .  
+ Person2:I'm sorry . I won't do it again .  
+ Person1:        Try to be more careful in future .  
+ Person2:I shall . I wasn't as careless as John Sampson . He walked across that wet cement over there .  
+ Person1:        The workmen oughtn't to leave it without a no tice .  
+ Person2:The headmaster asked them not to do so .  
+ Person1:        Then why isn't there a notice ?  
+ Person2:They went to their stores to get one . Here they come with it now !  
+ Person1:        But look at them ! They've forgotten about the wet cement and they're walking across it to put up the notice ! 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Excuse me , is this seat taken ?  
+ Person2:Er ... no , go ahead .  
+ Person1:        You work upstair , right ? I think I have seen you before . I'm Karren , Karren Brown .  
+ Person2:Nice to meet you , Karren . I'm Tim Wang .  
+ Person1:        Happy to know you , Tim . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       What time do you have ?  
+ Person2:A quarter past five .  
+ Person1:        I must be off now . I'm pressed for time .  
+ Person2:See you . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       It's a sunny day , isn't it ?  
+ Person2:Yes , it is . I'm Jennifer . Nice to meet you .  
+ Person1:        My name is David . Nice to meet you , too .  
+ Person2:Are you American ?  
+ Person1:        No , I'm a Britisher . Where do you come from ?  
+ Person2:I come from America . Are you a freshman ?  
+ Person1:        Yes . What about you ?  
+ Person2:Me , too .  
+ Person1:        Great . Maybe we can study and play games together . I think we can be good friends .  
+ Person2:Yeah . Anytime . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Did you enjoy your weekend at the highland hotel ? I heard it ’ s and excellent place to stay and has good facilities .  
+ Person2:I had a wonderful time . The rooms are not very big , but they are well furnished . The restaurant is excellent and reasonably priced . There ’ s a sauna and a Jacuzzi .  
+ Person1:        Do they have a swimming pool ?  
+ Person2:No , they don ’ t . they have a beauty parlor , but I didn ’ t go there .  
+ Person1:        What ’ s the service like ?  
+ Person2:It ’ s very good . Check in and check out at the reception only took a few minutes . The wait staff is very good . A waiter recommended their baked fish , which tasted wonderful . The hotel was quite full , so I ’ d suggest making a reservation if you intend to go there . The hotel offers a discount at the weekends .  
+ Person1:        It sounds perfect . Did you have any complaints at all ?  
+ Person2:There was a problem with the internet access , so I couldn ’ t check my email , but I didn ’ t complain about it to the management .  
+ Person1:        I suppose you were happy to forget about the outside world .  
+ Person2:Yes , I was . Here ’ s their business card .  
+ Person1:        Thanks . Was there a mina bar in the room ?  
+ Person2:No , there wasn ’ t . There is a bar on the ground floor and of course you can buy drinks in the restaurant to go with your meal .  
+ Person1:        One of the things I dislike about hotels is that everyone expects tips .  
+ Person2:I know . At the inland hotel , they have an interesting policy . When you check out , you put some money in a special box at reception . Each evening , the money in the box is shared equally by the hotel staff . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Hi.Ed , what's up ?  
+ Person2:Nothing .  
+ Person1:        Doesn't look like it to me .  
+ Person2:Just get out of my face !  
+ Person1:        Woo , easy .  
+ Person2:Leave me alone !  
+ Person1:        What are you so ticked off about ?  
+ Person2:I don't want to talk about it .  
+ Person1:        Maybe I could help .  
+ Person2:I blew the finally exam .  
+ Person1:        You've got be joking .  
+ Person2:No , I'm not .  
+ Person1:        Well , don't get bend on a ship about it . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Hello Mike ! Would you like a drink ?  
+ Person2:No , thank you . I had too much to drink yesterday evening . I had a bad hangover this morning . My head felt terrible .  
+ Person1:        Were you celebrating something ?  
+ Person2:Yes . It was a friend ’ s birthday party . We drank all kinds of things-beer , wine and spirits . After midnight , we were even drinking cocktails !  
+ Person1:        It ’ s a bad idea to drink a combination of alcoholic drinks . You should stick with one for the whole evening .  
+ Person2:I know , but it was a celebration , you Kwon ? I don ’ t think I ’ Ve see you drunk .  
+ Person1:        I usually only drink beer and I rarely drink more than a few pints .  
+ Person2:You are a sensible drinker . Anyway , I ’ m not going to drink any alcohol this evening . I don ’ t ’ want another bad hangover .  
+ Person1:        Let me buy you a soft drink then . How about a coke ?  
+ Person2:Yeah . That ’ s a good idea . I heard that coke was first used as a medicine .  
+ Person1:        Rally ? ... barman ! ... a large coke with ice and lemon , please ... thanks . Here ’ s the money .  
+ Person2:Are you going to the wine tasting tomorrow ?  
+ Person1:        Yes . I thought it might be interesting to learn a little about wine ...  
+ Person2:... and taste a few ! There will be wines from several countries and an expert to give advice on which wines are good and which ones are not .  
+ Person1:        Yes . I ’ m looking forward to it . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       You were right . It's raining again .  
+ Person2:I told you so . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Alison , would you like to have some more ?  
+ Person2:No thanks . I have had enough .  
+ Person1:        Actually you haven't have much .  
+ Person2:To tell you the truth , I am on the diet .  
+ Person1:        That sounds ridiculous . Why ?  
+ Person2:Well , I am gaining weight these days , and I have to watch my calories . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Do you speak only English in the class , or does your teacher explain everything to you in Spanish ?  
+ Person2:Oh , we never speak Spanish in class ! Miss.Parker speaks to us only in English .  
+ Person1:        I suppose she's right . Does she speak English very slowly ?  
+ Person2:Not always . Sometimes we don't understand her . Then she has to repeat what she said .  
+ Person1:        It must be interesting to study English .  
+ Person2:Mario and I are the best students in the class . Miss Parker says that my pronunciation is very good .  
+ Person1:        Is English pronunciation easy or difficult ?  
+ Person2:Sometimes it's difficult . Some words look different from the way one pronounces them . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       I'm pleased to meet you again , Mrs . King .  
+ Person2:Pleased to see you , too , Mr . Brown .  
+ Person1:        You've had a good trip , I hope .  
+ Person2:Yes , a very pleasant journey , thank you .  
+ Person1:        It's been a full two years since we last saw each other .  
+ Person2:So it is , I've come again to renew our sole agency agreement for another 2 years .  
+ Person1:        We shall be pleased to talk the matter over with you . You've done very well in fulfilling the agreement .  
+ Person2:I'm glad you're satisfied with our work . I can assure you we've spared no effort and spent quite a sum of money in pushing the sales of your products .  
+ Person1:        Yes , we appreciate your efforts in pushing the sales of our pianos . We can see you are experienced in this particular line .  
+ Person2:Thank you .  
+ Person1:        But I think the annual sale of 300 pianos for a sole distributorship in Canada is rather conservative . After all , you sold around 400 pieces there last year . You can sell more this year according to the marketing conditions at your end .  
+ Person2:That is the result of our hard work . Well , what annual quantity would you suggest for the new agreement then ?  
+ Person1:        500 pieces .  
+ Person2:No , no . That's too big a number to be acceptable . Let's put it at 450 pieces . And we'll strive to sell more , of course . We wish to add another clause . For every 50 pieces sold in excess of the quota , we'll get 1 % more in commission for our efforts .  
+ Person1:        All right , let's fix it at 450 pieces then . And for every additional 50 pianos sold , we'll give you 1 % higher commission .  
+ Person2:I suppose all the other terms remain unchanged .  
+ Person1:        We would like to make a specific mention of one more point . As our sole distributor , you will neither handle the same or similar products of other origins nor re-export our goods to any other area outside your own .  
+ Person2:No , certainly not . That's a reasonable restriction .  
+ Person1:        Another thing is that every six months we would like to receive from you a detailed report on current market conditions and the users comments on our products .  
+ Person2:Yes , we've already prepared one . I've brought it with me . I'll put it forward when we talk with the manufacturers tomorrow .  
+ Person1:        Good , that's all then .  
+ Person2:Good . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       I heard you are busy with your new house now ?  
+ Person2:Yeah , I want my own house very much , so I decide to buy one .  
+ Person1:        Let meet this right — — do you want to buy the house ?  
+ Person2:Yeah . This is a big house with a garden . I like it very much .  
+ Person1:        But it is far from downtown . Living here is very inconvenient .  
+ Person2:It is very quiet and peaceful . This is what I want . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       I'm tired of you always wearing my clothing !  
+ Person2:Aren't you the pot calling the kettle black ? You're wearing my pants right now ! 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Can I still get tickets for tonight's performance ?  
+ Person2:The balcony is still available .  
+ Person1:        Aren't there any other seats ?  
+ Person2:No , I'm afraid that's it . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Daniel , have you ever heard about the wildlife sanctuary ?  
+ Person2:Is that different from this kind of zoo ?  
+ Person1:        Yes , of course .  
+ Person2:So tell me about it !  
+ Person1:        There are a lot of wild animals in that place , and also some special rules while visiting .  
+ Person2:Special rules ?  
+ Person1:        There , you only have two ways for visiting .  
+ Person2:Details ?  
+ Person1:        On their bus or in your own cars , and you won't be allowed to get off the bus until you reach the special region .  
+ Person2:Why not ?  
+ Person1:        Because it is dangerous to get out of the car or bus . You can just imagine how fierce the wild animals can be .  
+ Person2:That makes sense . But that sounds interesting . Is there one in Beijing too ?  
+ Person1:        Yes .  
+ Person2:I prefer to go there next time .  
+ Person1:        Yeah , sure , you won't be disappointed . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       What is the highest goal of your company ?  
+ Person2:The supreme goal of ours is to be in the leadership in marketing .  
+ Person1:        Well , it is a really high target .  
+ Person2:Yes . We can make great efforts to make it become true as long as we have a clear goal . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       The answer for number 6 is C , 7 is B , 8 is A ...  
+ Person2:Ms . Lee , could you tell me what number 7 is again ? I didn't catch you .  
+ Person1:        Sure . 7 is B . Any others ?  
+ Person2:No , thank you . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       You must be Wily . It's nice to meet you .  
+ Person2:Nice to meet you , Mr . Wilson .  
+ Person1:        Tim , please . Please be seated .  
+ Person2:Thank you .  
+ Person1:        So , Wily , you have been with IBM for two years ready for change ?  
+ Person2:Well , I think I'm ready for new challenges . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       How may I help you ?  
+ Person2:I want to get a passport .  
+ Person1:        You need to apply for a passport .  
+ Person2:When can I apply for it ?  
+ Person1:        You can apply right now .  
+ Person2:I ’ d like to do that .  
+ Person1:        Fill this out , please .  
+ Person2:What ’ s next ?  
+ Person1:        I will need to take your passport picture .  
+ Person2:When will my passport be ready ?  
+ Person1:        It will take about three weeks .  
+ Person2:That ’ s great . Thank you . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Are there other chores for us to do ?  
+ Person2:We also have to vacuum the house .  
+ Person1:        You used to do this by yourself ?  
+ Person2:You'd better believe it .  
+ Person1:        I'll do the second floor and you do the first floor .  
+ Person2:No . You're going to do the entire house .  
+ Person1:        What about you ?  
+ Person2:I'm going to mow the lawn . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       What do you do in your spare time ?  
+ Person2:In summer I go hiking , and in winter I ski .  
+ Person1:        Do you mind if I come along sometime ?  
+ Person2:No , not at all . Glad to have you . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Hi , John ! I haven ’ t seen you for ages .  
+ Person2:Hi ! Yes , it ’ s been a long time . I ’ m really glad to see you .  
+ Person1:        I ’ m glad to see you , too . How ’ Ve you been ?  
+ Person2:Just fine . How is everything with you ?  
+ Person1:        Not bad . I finally bought a house . It ’ s an old one , but built really solid . It is close to here . Do you want to come over for lunch ?  
+ Person2:I ’ d like that , but I ’ m flying home this afternoon , and I told my parents I ’ d meet them at the airport for lunch .  
+ Person1:        OK , next time you ’ re here .  
+ Person2:That ’ s a deal .  
+ Person1:        I heard that you moved to Florida .  
+ Person2:Yes , I ’ m in Titusville . The space shuttle is launched from near there . I ’ Ve seen a lot of space shuttle launches .  
+ Person1:        Tell me more .  
+ Person2:The shuttle launches are beautiful . I saw one that took off at midnight . The whole sky got bright .  
+ Person1:        Sounds great !  
+ Person2:I ’ m pretty happy living there .  
+ Person1:        I want to see Disney World , Sea World , Universal Studios , and Weeki-Watchee Springs .  
+ Person2:I ’ Ve been to all of them .  
+ Person1:        I ’ m jealous . I ’ Ve never been to Florida .  
+ Person2:The Sunshine State certainly is worth visiting . Come down for a vacation sometime . I ’ ll take you to Disney World .  
+ Person1:        That sounds great ! I ’ ll take you up on that invitation .  
+ Person2:I hope you do . And keep in touch , OK ?  
+ Person1:        I sure will .  
+ Person2:Here ’ s my business card . Send me an email once in a while .  
+ Person1:        Count on it . And here ’ s my card . Don ’ t hesitate to call me anytime .  
+ Person2:Thank you . I ’ d better get going . I don ’ t want to be late for lunch . Mom would worry .  
+ Person1:        Well , I ’ m really glad we bumped into each other . Have a good trip .  
+ Person2:Take good care of yourself , Mary .  
+ Person1:        I will . Good-bye .  
+ Person2:Bye-bye ! 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Can I help you ?  
+ Person2:I'm looking for a Sharp DVD Player .  
+ Person1:        Sure . Any particular model ?  
+ Person2:Yes . The DS102 series .  
+ Person1:        Oh , I'm afraid we've sold out of those . They were really popular .  
+ Person2:Will you be getting more in .  
+ Person1:        Yes . But not for about 2 weeks . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Excuse me , is there a table for 8 right now ?  
+ Person2:Let me see ... I am sorry the tables you want are booked .  
+ Person1:        Well , since there are some small square tables , could we put two tables together ?  
+ Person2:No problem , sir . Let me help you . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       We have a holiday next week , don't we ?  
+ Person2:Yes , on Monday .  
+ Person1:        What're you going to do ?  
+ Person2:I'm probably going to spend the day looking at cars .  
+ Person1:        At cars ! You aren't thinking about buying a car , are you ?  
+ Person2:Yes , I am . I'd like to be able to get around a little more .  
+ Person1:        But it will be expensive to have a car in the city , won't it ?  
+ Person2:Oh , I don't know . Of course , gasoline costs a lot these days .  
+ Person1:        But what about parking ? You can't park on the street , can you ?  
+ Person2:A lot of people do . I'll try it for a while anyway , but I certainly don't want to pay a lot of parking tickets . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Did you play football yesterday ?  
+ Person2:Yes , I played with Tony and John .  
+ Person1:        What did you do after you'd played football ?  
+ Person2:We all went swimming .  
+ Person1:        Are you going swimming again this afternoon ?  
+ Person2:No , we aren't . We're going to help Mr Smith to plant some flowers .  
+ Person1:        Are you helping him all afternoon ?  
+ Person2:Yes , we are . We can neither play football nor do our homework today .  
+ Person1:        You're , going to be very busy .  
+ Person2:Yes , we certainly are . But Mr Smith is going to pay us for all the work we'll do . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       How many people does your company employ ?  
+ Person2:We have over sixty employees . We have about forty factory workers and technical people and the rest are admin and sales staff . We started off with only ten people , so our workforce has grown a lot .  
+ Person1:        What's your annual turnover ?  
+ Person2:It was just over two million euros last year . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Mom , I want to get a motorcycle . Is that all right with you ?  
+ Person2:You mean a murder cycle ? Did you know more cyclists die in accidents than motorists ?  
+ Person1:        Mom ! I'll wear a helmet and I'll drive sane . I promise .  
+ Person2:I'll tell you what . You can get a motorcycle on one condition .  
+ Person1:        What's that ?  
+ Person2:You spend two weeks with dad in his ambulance as an EMT trainee and volunteer at the emergency room for one month .  
+ Person1:        And after that ?  
+ Person2:After that , we'll let you decide if you still want a murder , I mean motorcycle . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Dad , can I have a pet ? I did what you said and passed all of my exams .  
+ Person2:Then I guess you get to have a pet . Do you know what you want ?  
+ Person1:        I want a dog . My friend Mindy's dog just had puppies and she said I can have one .  
+ Person2:You know who will be responsible for feeding and cleaning and all of that stuff ?  
+ Person1:        I know , I know . I will do it all by myself .  
+ Person2:Have you figured out the costs involved with feeding and caring for it ?  
+ Person1:        Yes . It will cost me about $ 50 a month . And I make a little more than that already .  
+ Person2:Sounds like you've done your homework . I think you're ready for this . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       What did the boss say to you ?  
+ Person2:He asked me to beef up in the work .  
+ Person1:        Yeah . You look so unhappy recently . What ’ s the matter .  
+ Person2:Nothing , thanks . I am just not in the mood these days . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       What's your number ?  
+ Person2:I'm number seven . What about you ?  
+ Person1:        Five .  
+ Person2:Hah hah ! You have to go before me .  
+ Person1:        You think it's funny . I'm terrified .  
+ Person2:Don't worry . It's safe .  
+ Person1:        But I've never jumped off anything in my life . The highest thing I've jumped off is my bed . I'm scared .  
+ Person2:You are the one who wanted to come here , Sandy . You should enjoy it .  
+ Person1:        I guess I'm adventuresome , but then I'm scared too .  
+ Person2:I'm not too scared . But I've done sky diving before . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Excuse me . Where is Q-Duck ? I remember it was around the second intersection of this street .  
+ Person2:Q-Duck ? Do you mean the famous roast-duck store ?  
+ Person1:        Yes , definitely .  
+ Person2:They have moved to some other places long time ago .  
+ Person1:        Wow , this place is quite different from ten years ago when I first came to China .  
+ Person2:Yeah , a lot of changes have happened here .  
+ Person1:        This street used to have few stores . But now , you can see supermarkets , shopping malls and department stores everywhere .  
+ Person2:Yeah , they are my wife's heaven , but not mine . I always get lost in the supermarket .  
+ Person1:        Me too ! I was lost three times ten years ago . There were no English directions then .  
+ Person2:Is that better now ?  
+ Person1:        Yeah , there are many English signs , and wrong spellings as many as them . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Wow ! It ’ s packed .  
+ Person2:The train station is indeed crowded . I think it ’ s hard for us to get on the train . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Welcome back ! How was your vacation ?  
+ Person2:It was fantastic , but I'm glad to be back ! Being a tourist is really tiring !  
+ Person1:        Where did you end up going ?  
+ Person2:Because it's off-season , we got a really good package deal to Paris , so we went there .  
+ Person1:        I've always wanted to go to Paris . The Eiffel Tower is one of the most famous tourist attractions in the world ! Did you go to the top ?  
+ Person2:That was the first thing we did . I have a few pictures . Do you want to see them ?  
+ Person1:        Sure . What's this one a picture of ?  
+ Person2:Oh , that's a picture of me on our fourth day of travelling . I'm standing next to a famous foundation in the centre of the city .  
+ Person1:        You don't look very happy in that picture .  
+ Person2:No , by that time , I was sick of sightseeing . I had had enough of art galleries , cathedrals , fountains , statues , and palaces !  
+ Person1:        So what did you do ?  
+ Person2:We spent that afternoon walking around a flea market . We had a few coffees , watched a movie , and went for a swim in the pool at the hotel .  
+ Person1:        My travel agent always reminds me to plan a day of relaxing for every 3 days of sightseeing . Did you go to the Louvre ?  
+ Person2:Of course ! You can't go to Paris without going to their famous art gallery ! I was surprised by how small the Mona Lisa was though .  
+ Person1:        That's what everyone says ! I can't wait to see it for myself some day . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Do you know who that tall man is ?  
+ Person2:I don ’ t know . But he must be a big shot .  
+ Person1:        Why ?  
+ Person2:Because everyone is trying to butter him up . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Labor is an abundant resource here .  
+ Person2:One of many abundant resources , I'd like to point out . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       That's right . And I'm going to be Vice President of Marketing .  
+ Person2:Way to go , Mary . A lot has happened during the last few months , hasn't it ?  
+ Person1:        You can say that again !  
+ Person2:What's up with Vince and Elvin ?  
+ Person1:        They work for Zina now .  
+ Person2:And they're happy with that ?  
+ Person1:        They're in awe of her . After they saw how she crushed WebTracker ... but I guess you know all about that . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Plastic bags are widely used nowadays .  
+ Person2:But they're hard to be disposed of .  
+ Person1:        In this aspect , I think , Pater bags have the edge on plastic bags . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       I'm going to the park to play baseball with the guys .  
+ Person2:But you promised to play chess with me this afternoon .  
+ Person1:        Yeah , but that was before the guys ask me to join the team .  
+ Person2:So what ?  
+ Person1:        You know how much I want to be on the team , and now there is an opening for me.If I don't go to practise today.They ' ll get someone else and I'll miss my chance .  
+ Person2:I don't care about baseball.You know I need to practice for the chess championship and you promised to help with me if I washed the dishes for you last Sunday , and I did .  
+ Person1:        I know , and I will .  
+ Person2:When ?  
+ Person1:        After baseball practice .  
+ Person2:And then , it'll be dinner time , then homework , and then your Show is on.You are going to break your promise .  
+ Person1:        No , I won't . I'm going to skip TV tonight and work on your chess game with you if that's ok with you .  
+ Person2:Well , I'd rather do it the way we set up.But if you promise to give me your best game , it's ok with me .  
+ Person1:        No problem , I'll play as hard as I can and give you an extra game to say thanks . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       She is , like , mega-intense , isn't she ?  
+ Person2:Ha , she is unstoppable . I'm learning so much from her .  
+ Person1:        What's it like to work with her ?  
+ Person2:She's demanding . But I like that . I mean , I know our timeline is tight .  
+ Person1:        Tell me about it .  
+ Person2:You guys are working around the clock , I know . That guy Dave next to Zina never leaves .  
+ Person1:        Vince wants us to have everything debugged and ready to go by the end of the month . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Let's invite Bobbie and John to our party , OK ?  
+ Person2:You can never do that .  
+ Person1:        Why ?  
+ Person2:There's been bad blood between them since Bobbie took away John's girlfriend . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Hi , Mary , long time no see .  
+ Person2:I heard through the grapevine that your getting married .  
+ Person1:        Yes , next March .  
+ Person2:Congratulations , I hope everything works out . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Room service.May I come in ?  
+ Person2:Come in please .  
+ Person1:        This is your breakfast.Can I put it here ?  
+ Person2:Sure.How much is it ?  
+ Person1:        That's $ 10 .  
+ Person2:Well , here is the money .  
+ Person1:        Sir , you don't have to pay right now.Just sign here and we will charge it to your account .  
+ Person2:Fine . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Who did the stupid thing ?  
+ Person2:Maybe it was Dick .  
+ Person1:        I don't think so . Dick has been on the ball and never does things like that .  
+ Person2:Then it must be a naughty boy who did it . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Do you like traveling , Kathy ?  
+ Person2:I like traveling for pleasure to get places for vacation for instance . But I don ’ t like traveling to work , waiting for buses , or ...  
+ Person1:        Or getting stuck in traffic jams when you ’ re driving .  
+ Person2:Exactly . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Hello , this is Mr . Smith in Room 502 . Please send up a bellboy . I'm checking out . What time is checking out time ?  
+ Person2:Checking out time is twelve . Guests will avoid an additional days room charge by checking out on time .  
+ Person1:        It's nearly 12:00 now . Will I be charged extra ?  
+ Person2:We won't charge any extra if you'd vacate the room by two o'clock .  
+ Person1:        Thank you very much . May I leave my baggage here until Thursday ?  
+ Person2:Yes . We can put it in our storage room .  
+ Person1:        Will there be any extra charge ?  
+ Person2:There will be no charge on baggage left by guests who have checked out .  
+ Person1:        I see . Please prepare my bill and I will be right down to pay it . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       How are you ?  
+ Person2:I ’ m great . Thank you for asking .  
+ Person1:        What can I do for you ?  
+ Person2:Do I owe any fees ?  
+ Person1:        You sure do .  
+ Person2:Could you tell me how much I owe ?  
+ Person1:        You owe $ 235.13 in fees .  
+ Person2:I can ’ t believe that .  
+ Person1:        When will you be paying these fees off ?  
+ Person2:I ’ ll pay them off right now .  
+ Person1:        Cash or check ?  
+ Person2:I will pay with cash . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       How did you get it ?  
+ Person2:I found it a garage sale once .  
+ Person1:        What a find ! So , how much does it cost ?  
+ Person2:Well , because I like you ... ninety bucks .  
+ Person1:        Ninety dollars is pretty steep . I'll take it for sixty bucks . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Good morning . Can I help you ?  
+ Person2:Good morning . I would like to make a reservation to Hong Kong for August 2 .  
+ Person1:        Just a moment , please . I am sorry , sir . There is no ticket available on that day . But we have flights for Hong Kong the next day .  
+ Person2:May I inquire about the departure time ?  
+ Person1:        A 9:12 flight in the morning and a 14:00 flight in the afternoon .  
+ Person2:When will the plane reach Hong Kong for the morning flight ?  
+ Person1:        At 10:20  
+ Person2:OK . I would like to book a ticket for that one .  
+ Person1:        All right , sir . Please reconfirm your ticket no later than 12 noon two days before the flight ; otherwise , your reservation will automatically be canceled .  
+ Person2:Yes , I know . What's the fare ?  
+ Person1:        It's 500 dollars , not including ground transportation fares between the airport and downtown .  
+ Person2:I see . Will it be doubled for the round trip ?  
+ Person1:        Right , sir . And please do not forget to bring a valid travel document with you when you buy the tickets .  
+ Person2:I won't . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       What's this then ?  
+ Person2:It's my geography , sir . The Map of Africa you set us .  
+ Person1:        But this should have been handed in last Thursday .  
+ Person2:Yes , I know , sir . I'm sorry .  
+ Person1:        Well , what's your excuse then ?  
+ Person2:My mother's been ill and I had to stay at home .  
+ Person1:        Oh , Yes ?  
+ Person2:It's true , sir . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Look ! Someone is celebrating his birthday .  
+ Person2:This must be his 21st birthday . No doubt about it .  
+ Person1:        Why ? Do you know that guy ?  
+ Person2:No . Well , in America , 21 is the age when you're allowed to drink . So , many guys celebrate it in bars .  
+ Person1:        That's interesting . But it would be really expensive , I suppose . Just think about all the drinks .  
+ Person2:No . If it's your birthday , then you don't need to pay a cent . Just blow out the candles and open the gifts . That makes the birthday a special day . Your friends will take care of everything .  
+ Person1:        Wow . That's wonderful .  
+ Person2:What about in China ? What'd you do to celebrate your birthday ?  
+ Person1:        Nowadays , it's no difference from America . But in old times , we have traditional ways to celebrate it . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Have you ever run into a person who tries bleed you white ?  
+ Person2:I am always on the look out for such girls .  
+ Person1:        I hear that some guys splash all their money about on them .  
+ Person2:Mark is one of them . He has trouble with a girl who turned out to be a dead beat . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Next please ! Hello sir , may I see your passport please ?  
+ Person2:Yes , here you go .  
+ Person1:        Will you be checking any bags today .  
+ Person2:Yes , I ’ d like to check three pieces .  
+ Person1:        I ’ m sorry , sir . Airline policy allows only two pieces of checked luggage , at twenty kilograms each , plus one piece of carry-on luggage . I will have to charge you extra for the additional suitcase .  
+ Person2:What ? Why ! I am taking an intercontinental flight ! I ’ m flying sixteen thousand CMS ! How am I supposed to only take two , twenty kilo bags ? That ’ s absurd !  
+ Person1:        I am sorry , sir , there ’ s nothing I can do . You cannot board the flight with that large bag either.Carry - on bags must fit in the over-head compartment or under your seat . That bag is clearly too big .  
+ Person2:Now I see . You charge next to nothing for an international ticket , but when it comes to charging for any other small thing , you charge an arm and a leg ! So tell me , miss , how much will I have to pay for all of this .  
+ Person1:        Let ’ s see ... six hundred and twenty-five US dollars .  
+ Person2:That ’ s more than my round-trip ticket ! 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       We'll miss you while you're studying in the United States .  
+ Person2:Yeah . I'll miss all of you , too . But I'll keep in touch . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       We still have one more day to go before we return home . What will we see tomorrow ?  
+ Person2:No idea . We've enjoyed both the natural scenery and the city sights . What else is there to see ?  
+ Person1:        What about a factory tour ?  
+ Person2:You mean visit a factory ?  
+ Person1:        Yes . I heard there's a lager motor company nearby which is open to the public every weekend . We can go to see how a car is manufactured and learn more about the automobile industry .  
+ Person2:Good idea ! I've always been interested in that . How much is the entrance fee ?  
+ Person1:        I'm not sure , but as far as I know , most factory tours are free . They are sponsored by the company providing the tour .  
+ Person2:Really ? What do the companies do that for ?  
+ Person1:        I believe most of them think it as good public relations . They can promote their product and make their company better-known .  
+ Person2:Oh , ISEE . So factory tours are good for companies as well as visitors .  
+ Person1:        Exactly .  
+ Person2:Do we need an appointment beforehand ?  
+ Person1:        I'll call the tourist information centre to check . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Good morning , Mr . Smith . Would you like to see around the factory ?  
+ Person2:Yes , I would like to .  
+ Person1:        This is our office block . We have all the administrative department here , Sales , Accounts , Personnel , Market Research and so on . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Good morning , Doctor !  
+ Person2:Good morning , Miss Mandy . How are you today ?  
+ Person1:        I am not feeling very well . I've got a bad cold .  
+ Person2:Have you got a sore throat , too ?  
+ Person1:        No , but I've got a headache .  
+ Person2:Yes , I see . Go home to bed and take one of these pills every three hours .  
+ Person1:        Thank you very much . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Well , Randy , I'd say you've got a bad case of the flu . The main thing to do is get plenty of rest and drink lots of liquids . I'll prescribe something for that throat .  
+ Person2:Thanks , doctor . Is there anything I can take for this headache ?  
+ Person1:        Some aspirin or Panadol should help . You can pick some up at the pharmacy when you go to fill your prescription .  
+ Person2:Okay .  
+ Person1:        Goodbye , Randy . Take care . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Hi , David ! What are you doing ?  
+ Person2:Oh , just looking at these club notices . I'm thinking of joining one . Hey-why don't we join a club together ? How about the Tennis Club ?  
+ Person1:        Actually , I'm not good at tennis at all ...  
+ Person2:Neither am I . It's just that the best-looking girls are in that club .  
+ Person1:        Oh , come on . That's no reason to do something you're not interested in .  
+ Person2:Well ... What are you interested in ?  
+ Person1:        How about the Classical Music Club ?  
+ Person2:Joanna , give me a break .  
+ Person1:        Hey-how about the Cinema Club ?  
+ Person2:Sounds OK to me . I like movies . Hey , Joanna , look - there are a lot of decent-looking guys here . And the club jackets - they're really hot ! I think we made the right choice ! 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Excuse me , I bought this sweater yesterday . But when I got home and tried it on , I found it ’ s too small .  
+ Person2:Do you have the receipt with you ?  
+ Person1:        Yes , here you are .  
+ Person2:Thank you . Do you want your money back ?  
+ Person1:        No , can I exchange it for a bigger one ?  
+ Person2:I am afraid this is the biggest size we have .  
+ Person1:        Oh , that's too bad .  
+ Person2:Maybe you would like to try this one with the willow pattern . The price is the same and it's bigger . 
+output: ",formal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Ted is so scared by dogs that he shakes in his shoes whenever he sees one .  
+ Person2:The reason is that he once was bitten by a dog .  
+ Person1:        No wonder . 
+output: ",informal
+"Definition: You are given a conversation between two people. 'Person1:' and 'Person2:' are used to separate their respective dialogues. You are required to assign a label 'formal' if there is an absence of emotion and a presence of questions anywhere within the conversation. If such pattern is not found assign the label 'informal'.
+Positive example 1-
+input: Person1:      Hey man , you wanna buy some weed ?  
+ Person2:Some what ?  
+ Person 1:Weed ! You know ? Pot , Ganja , Mary Jane some chronic !  
+ Person2: Oh , umm , no thanks . 
+ Person1:      I also have blow if you prefer to do a few lines . 
+ Person2: No , I am ok , really . 
+ Person1:      Come on man ! I even got dope and acid ! Try some ! 
+ Person2: Do you really have all of these drugs ? Where do you get them from ? 
+ Person1:      I got my connections ! Just tell me what you want and I ’ ll even give you one ounce for free . 
+ Person2: Sounds good ! Let ’ s see , I want . 
+ Person1:      Yeah ?  
+ Person2:I want you to put your hands behind your head ! You are under arrest ! 
+output: informal
+Positive example 2-
+input: Person1:      The taxi drivers are on strike again . 
+ Person2: What for ? 
+ Person1:      They want the government to reduce the price of the gasoline . 
+ Person1:      It is really a hot potato . 
+output: informal
+Now complete the following example-
+input:  Person1:       Did you read this ? It says that the number one new years resolution make is to spend more time with friends and family .  
+ Person2:Why would that be funny ?  
+ Person1:        Well , think about it . We are a society that is always on the go , not because we have to , but because we want to .  
+ Person2:Why ?  
+ Person1:        We work hard and spend less time at home because we are trying to provide for our family with goods and services that are usually unnecessary .  
+ Person2:I don ’ t agree , but anyways , I think you should start thinking of a new year ’ s resolution yourself .  
+ Person1:        What ’ s the point ? We always make a new year ’ s resolution and by February we will have forgotten about it . It ’ s pointless .  
+ Person2:Well then maybe you should resolve to sticking to your goals and objectives .  
+ Person1:        What about you ? Your gym bag is gathering dust and you still have brand new running shoes that are yet to be jogged in .  
+ Person2:Well , I would go if you kept your promise of going to the gym with me everyday !  
+ Person1:        Yeah , yeah , whatever . 
+output: ",formal

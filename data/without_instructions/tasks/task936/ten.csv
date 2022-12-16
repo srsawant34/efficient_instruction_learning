@@ -1,0 +1,41 @@
+input,output
+"input: Premise: Some people are paddling in an air filled raft.
+Hypothesis: Some people are  rafting down the rapids.
+Update: They are in the middle of a big lake.
+output: ",weakener
+"input: Premise: A golden dog walks on a trail through tall grass with mountains in the background.
+Hypothesis: The dog encountered a mountain lion on the trail.
+Update: There are signs posted everywhere warning about mountain lions.
+output: ",strengthener
+"input: Premise: A worker bringing crops to his homeland.
+Hypothesis: A farmer is bringing his harvest home.
+Update: The man is carrying bails of hay to the barn.
+output: ",weakener
+"input: Premise: Two young men and two boys are sitting down on a boat next to an anchor and watching the water.
+Hypothesis: It is a sunny day outside.
+Update: The sun is not in their eyes.
+output: ",weakener
+"input: Premise: Two men ride horses while wielding whips.
+Hypothesis: Two men are racing horses.
+Update: Two men wield whips as they ride horses pulling plows behind them.
+output: ",weakener
+"input: Premise: One father-aged man and one young girl are swimming in a green pool of water.
+Hypothesis: Daughter and father swimming in green water.
+Update: The man has under-developed testicles.
+output: ",weakener
+"input: Premise: A little girl is playing with some dough.
+Hypothesis: a girls is making bread
+Update: The dough is pale
+output: ",strengthener
+"input: Premise: A photographer's camera is peeking out from rocks along a rocky coastline.
+Hypothesis: A photographer's camera can be seen from.
+Update: The camera is well hidden and blends into its environment.
+output: ",weakener
+"input: Premise: A young woman whisking eggs in a glass measuring cup.
+Hypothesis: A chef prepares eggs for the breakfast.
+Update: The woman is wearing sweatpants and has disheveled hair on a school morning
+output: ",weakener
+"input: Premise: One person is wearing a green shirt while sleeping on the sidewalk while another person wearing black pants is sleeping on the stairs.
+Hypothesis: Two homeless people are asleep on the street corner.
+Update: There was a massive fight in the area.
+output: ",weakener

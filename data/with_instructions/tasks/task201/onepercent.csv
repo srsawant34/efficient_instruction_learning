@@ -1,0 +1,631 @@
+input,output
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: The palmera imperial and many other trees in the grove have been dedicated to royalty and celebrities like Carmen Polo de Franco, the widow of the Generalasimo. Choices: 1. Trees and flowers in the grove have been dedicated to famous royalty and celebrities. 2. Trees, such as the palmera imperial, in the grove were dedicated to famous people such as Carmen Polo de Franco. 3. No trees in the grove have been dedicated to royalty or celebrities.
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: yeah yeah that's what a Bombay looks like especially when they get skinny  because they Choices: 1. A Bombay would look like that, especially when it is skinny. 2. A Bombay would look very different from that. 3. Bombays look the best of any type.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement:  Hanson braced himself as the lines of slaves beneath him settled themselves to the ropes. Choices: 1. Hanson prepared himself while the servants bond themselves to the ropes. 2. Hansen fastened himself to the ropes while the slaves prepared themselves. 3. They would sacrifice themselves so Hansen could save the world.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: but they don't they they they have special munching mulching uh mowers but that's not one of them Choices: 1. That one simply looks like the special mulching lawn mower, but actually it's a different model. 2. That one is not one of the unique mulching lawn mowers. 3. Yes that one is the set apart mulching mower we talked about.
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: In any case, offering an assessment of an encyclopedia without having read it is like assessing an issue of Slate that hasn't been posted. Choices: 1. Encyclopedias are worthy of diligent assessment as to their worth. 2. Effective reviewers will have taken time to read and study the object under review. 3. Literary reviews are totally worthless and without merit.
+output: ",2
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: A longsword gleamed from the sheath on his back. Choices: 1. He wore a sword on his back. 2. He did not own a sword. 3. He took pride in caring for his sword on his back.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: He was in that sinister house in Soho. Choices: 1. He was residing in that evil house in Soho. 2. He was the only person in that haunted house in Soho. 3. He had moved out of that frightening house in Soho.
+output: ",2
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Better add two cc. of cortisone to the transfusion.""  Hanson tried to sit up, but his arms refused to bear his weight. Choices: 1. Hanson's arms were broken, but making a swift recovery.  2. Hanson sat up perfectly. 3. Hanson's arms were unable to hold him up. 
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: yeah i was i had a pretty neat job i got to meet all the big wigs used to fly with the president and all that stuff um Collin Powell is one capable guy Choices: 1. Thanks to my job, I was able to meet with important people like the president. 2. My job never allowed me to fly.  3. Being able to meet the big wigs was the best part of my job.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: yeah i'm saying what are you telling me that you didn't tell me in your first half hour Choices: 1. I'm telling you other information that you should have said too. 2. I am not saying anything at all. 3. I'm telling you what you didn't say in the first half hour.
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Red looked miserable and remained silent. Choices: 1. Red was very excited and happy. 2. Red was upset and quiet. 3. Red was really sad about what happened and couldn't talk.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Jon enjoyed the wonder and excitement in the young man's eyes. Choices: 1. The young man may have been his son, or the son of a relative or friend. 2. Jon was disgusted by the awe in the young boy's face. 3. A young man that Jon had seen was happy and excited.
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Or does life, in general, figure out the trick of using oxygen and growing big and brawny? Choices: 1. The use of carbon dioxide and growing small and skinny are just some of the qualities of the human body. 2. The use of oxygen and growing big and brawny are just some of the qualities of the human body. 3. Is there a trick of using oxygen that life has figured out?
+output: ",2
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: i guess yeah yeah we have done that but but we camped mostly when the kids were little we were in we were in New Jersey Choices: 1. We don't have kids and we have never camped. 2. We used to camp when the kids were younger. 3. The kids enjoyed camping when we were in New Jersey.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: This report looks at the core of the acquisition process, specifically product development and ways to successfully design and manufacture the product. Choices: 1. The report examines the product elimination part of the acquisition process. 2. The report examines the acquisition process. 3. The report examines the product development part of the acquisition process.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: In subtropical Hong Kong you can swim from April to early November. Choices: 1. hong Kong's weather does not allow for swimming at any time of the year 2. You can swim from April to early November in subtropical Hong Kong 3. you can swim all year round in subtropical Hong Kong.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: uh this last tournament i was in i walked nine holes and almost dropped so i shared a cart Choices: 1. I had to walk through most of a tournament recently, and I nearly collapsed. 2. They were kind enough to supply me with with a cart from the beginning of the tournament. 3. They are pretty stingy with the carts, and I only got to share one after nearly dying.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: I am a devotee of Marshall's and frequently follow his advice. Choices: 1. Marshall is an important person to devote myself to. 2. I will often follow Marshall's advice because I am devoted. 3. I cannot follow Marshall's advice and be his devotee.
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Stanley is also a favorite place of residence for ex-pats. Choices: 1. Stanley is also a favorite place of residence for Taliban members. 2. Ex-pats refers to ex-patriots, either Americans or American Veterans who move abroad to live. 3. A lot of ex-pats make their homes in Stanley.
+output: ",2
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: um she was referred to me by a couple of people and she turned out to be wonderful i couldn't have asked for anything better i don't think Choices: 1. A few people recommended her to me and she's been really great. 2. She had terrible recommendations and she's been absolutely awful. 3. I would also recommend her to you too.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: that's kind of the way i feel about it we can convert Choices: 1. I feel that we can convert because of the information available.  2. I don't think that we can convert.  3. I feel that we can convert. 
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Ernestine P. Watlington Choices: 1. Ernestine, of the Watlington family. 2. Ernestine James Watlington, attorney at law, was found deceased this evening. 3. Ernestine P. Watlington, nee Jerston.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Through this organization, three companies volunteered to participate in our study and supplied us with information on the techniques they used and considered effective in reducing improper payments. Choices: 1. We got information from three companies about how they approached reducing improper payments. 2. Only one company volunteered to participate in our study. 3. We are planning on implementing some of the ideas we got from the companies that participated in our study.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: yeah and some of them that turned to flops we saw other other other night we saw um Lady in Red Choices: 1. I've never seen Lady in Red. 2. We saw Lady in Red one night, which was a great movie. 3. We saw Lady in Red one night.
+output: ",2
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: aspartate aminotransferase (AST), alanine aminotransferase (ALT), and carbohydrate deficient transferrin (CDT) perform poorly with sensitivities of 13 percent to 67 percent for alcohol use disorders or problematic con-sumption. Choices: 1. Aspartate aminotransferase (AST), alanine aminotransferase (ALT), and carbohydrate deficient transferrin (CDT) aren't used to treat alcohol disorders as they are ineffective. 2. The use of aspartate aminotransferase (AST), alanine aminotransferase (ALT), and carbohydrate deficient transferrin (CDT) is ineffective in treating alcohol disorders. 3. aspartate aminotransferase (AST), alanine aminotransferase (ALT), and carbohydrate deficient transferrin (CDT) are extremely effective in treating alcoholism.
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: well there should be some way of checking now here in in Texas uh all you need is a driver's license Choices: 1. There is no possible way for checking; they are still figuring it out here in Texas. 2. There should be a way of checking; they use a driver's license in Texas. 3. The system they have here in Texas has made things easier.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: If auditors report separately, the audit report should contain a reference to the separate report containing this information6 and state that the separate report is an integral part of the audit and should be considered in assessing the results of the audit. Choices: 1. There are no scenarios where auditors can report separately. 2. It is possible for auditors to report separately. 3. On most occasions, auditors submit separate reports containing this information.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: no we have six and seven no six and then one is at seven ten or something like that Choices: 1. We have six and another at around seven ten. 2. We have two that are both at six. 3. We have never had one at exactly seven before.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: We share the desire expressed in S. 556 to significantly reduce and cap emissions of SO2, NOx and mercury from power generation. Choices: 1. There is no way to create energy without these toxic substances. 2. The reduction and cap on emissions will result in improved O-Zone health. 3. Generating power involves harmful chemicals and gases.
+output: ",2
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: This strenuous ambition was confounded by a perfectionism that, as Ellison wrote in the introduction to his volume of essays Shadow and Act , made it somewhat unreal to even think of himself as a writer. Choices: 1. His perfectionism made him quit being a writer. 2. Ellison wrote about his perfectionism in the last chapter of his volume. 3. His perfectionism affected his work as a writer.
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Patients in the emergency setting range from those with no alcohol problems to those with severe dependence. Choices: 1. The majority of patients have no problems with alcohol, however. 2. Patients never have no alcohol problems, there is always something related to alcohol in their condition.  3. The range of patients in the emergency settings goes from zero problems of alcohol to the opposite. 
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: anti women statements anti Semitic statements anti black statements et cetera et cetera well then i suspect a lot of people would go out and choose a candidate to vote for just just to spite that person but i suspect that that that would actually never work Choices: 1. There is a lot of bigotry, and many people would be happy to vote just to spite a candidate. 2. Everybody votes their conscience and there is very little bigotry involved. 3. Many of the candidates hold bigoted views on women, Jews, and black people.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: KAETHE (Offering the briefcase): NOW can you ordain me? Choices: 1. Can you ordain me NOW? 2. Keep the briefcase, I don't want to be ordained. 3. There is no better time to be ordained than right now.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: well that's pretty um i've talked about camping with someone i've talked about the weather Choices: 1. I've never wanted to go camping with anyone, I'm uninterested in the weather 2. I've talked about weather and about going camping with someone 3. I've talked about camping with someone, but only as long as the weather is good. 
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: I will put my question in another form.  Choices: 1. Let me rephrase the question. 2. I will ask in a way which you understand. 3. Let me repeat the exact question.
+output: ",2
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: No, my friend.  Choices: 1. My friend, no. 2. No, my friend, we're not ready yet. 3. Yes, my enemy.
+output: ",2
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Ongoing competition for the (temporarily) more lucrative women's business would quickly eliminate any profit differential. Choices: 1. There exists ongoing competition for the women's business. 2. The competition involves selling cupcakes outside of a Walmart. 3. Competition between the women's business has ceased.
+output: ",2
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: uh as our volunteer time managing a program with seventy two hundred kids in it from grades uh kindergarten through twelfth grade and year around baseball softball soccer Choices: 1. 7200 kids, from kindergarten all the way up to twelfth grade, are in the volunteer program. 2. I serve as a softball coach for the mini-league that we run between some of the kids. 3. During our volunteer time, we manage a program that helps a total of 12 college students to learn about computers.
+output: ",2
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: The Moors called it Altaya, meaning Health for All, but not before they had destroyed the first settlement and rebuilt the town. Choices: 1. The first settlement had a population of 1 million. 2. The first settlement was destroyed by the Moors. 3. The Moorish name meant ""bad health for everyone"".
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: the stress and the heat the record heat and you know i was worried about every time we came to an intersection that the car started idling rough you know because of the extreme heat Choices: 1. I got worried every time we stop and the car started idling. 2. It was one of the hottest periods during that year. 3. The car started idling really bad because of the snow.
+output: ",2
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Pundits declared it a triumph of youth and racial progress, comparing Woods to Jackie Robinson (whose 50 th anniversary of breaking the color barrier is being celebrated simultaneously), Arthur Ashe, and Lee Elder (who became the first black golfer to play in the Masters in 1975, the same year Woods was born). Choices: 1. Pundits said that Woods success had nothing to do with racial progress. 2. Pundits said that sports were now racially progressive. 3. Pundits said that Woods showed the racial progress started by Jackie Robinson.
+output: ",2
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: However, the much more serious budget problem involves what happens after 2002. Choices: 1. The budget for after 2002, can be fixed.  2. The budget gets more serious after 2002. 3. The budget is more serious before 2002 than after. 
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: yeah yeah it was it was annoying one one half of the starter was you know three bolts on the starter and two of them were American and one of them was metric Choices: 1. One was metric and the other two were American. 2. The American system is much easier to use than the metric system. 3. All three of the bolts were metric.
+output: ",2
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Benefits support in their organizations. Choices: 1. Benefits help the atmosphere of their organizations. 2. Benefits always hurt their organizations. 3. Benefits support in their organizations.
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: The exhibits are chosen for their resistance to the elements, and the museum is as lovely in winter as it is in summer. Choices: 1. The museum entry fee is very pricey for foreign tourists. 2. The museum looks ugly both in summer and winter. 3. The museum looks stunning in winter as well.
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Well, I believe he could, reiterated Tuppence obstinately. Choices: 1. Tuppence loved the man he was speaking with.  2. Tuppence stubbornly thought he could.  3. Tuppence, rigidly, questioned if he could. 
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Boat trips (see page 26) are good fun for everyone. Choices: 1. You can't not have fun on a boat trip. 2. The boat trips page is on page number 73. 3. Falling off the boat may not be seen as fun though.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Late in the book, Lewis remarks bitterly on press coverage that referred to Bond as light-skinned, dashing, erudite, articulate and to Lewis as short, squat, thick-necked, balding, dark, scowling, a sharecropper's son. Choices: 1. Lewis wore a red shirt and dark black jeans. 2. Lewis is short and balding. 3. Lewis is tall and well groomed.
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: FDA is issuing this rule to reduce the risk of an outbreak of transmissible spongiform encephalopathy (TSE) in the United States. Choices: 1. The rule will increase the likelihood of outbreaks. 2. The risk of an outbreak is low. 3. The rule is issued by the FDA
+output: ",2
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: As early as the 1780s, however, the pendulum had swung back, and many Americans looked to the courts to check the excesses of their legislators. Choices: 1. A lot of Americans had issues with their legislators in the 1700s.  2. Americans have been relying on the courts since the 1780s.  3. Americans have only recently started relying on the courts to settle their disputes. 
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: oh where abouts Choices: 1. Everywhere.  2. Was it close by? 3. About where?
+output: ",2
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Jon took three steps away carried on the momentum of his shift. Choices: 1. Jon went three steps further away. 2. Jon stepped closer. 3. Then he fell into the dirt.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Two of the Superior Court judges and the District Court judge would be in Clark County, with one Superior Court judge added in the joint district that serves Benton and Franklin counties and one each in Kittitas and Kitsap counties. Choices: 1. There would be two new District Court judges in Clark County. 2. There would be a new Clark County judge in the District Court. 3. The addition of new judges would allow for a reduction in individual caseload.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Figure 6 shows the building of knowledge required to achieve a stable design on the AIM-9X. Choices: 1. The AIM-9X designs require that the engineers have at least ten years experience in missile designing. 2. Figure 6 depicts the construction of knowledge necessary for stable AIM-9X designs. 3. Figure 6 shows a cartoon borrowed from yesterday's New York Times publication.
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: yeah well see that was that's another if i would have been home probably wouldn't have watched it because i have class tonight and i would have missed the second half and that's the most frustrating because that's you know you can if you missed the first half Choices: 1. I don't like watching only a part of the show. 2. I will skip class tonight so that I can watch the whole show. 3. I have class tonight, so I would miss the second half.
+output: ",1
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: More New Stuff Choices: 1. Additional old crap. 2. Novel things in addition 3. Refurbished so not really new
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Gwen Ifill ( Washington Week in Review ) reports that Republicans have been emboldened recently by a widely circulated poll about voter attitudes. Choices: 1. The Week in Review stated that the Democrats had been emboldened recently. 2. Republicans have been emboldened lately because of voter attitudes, 3. The Washington Week in Review's writer recently wrote about the Republicans.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: really the biggest way yeah uh probably will it's the only way it's going to change is for us to have a better budget for running this country is for everybody to get involved and right now i don't see that happening Choices: 1. Everyone needs to stay out of it and let politicians work. 2. Everyone needs to get involved. 3. Everyone needs to get involved in order to save this country.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: My only chance is to turn this around on them.' Choices: 1. I only have once chance. 2. I know I am out of options. 3. I can turn this around.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: and enjoy watching my savings account get larger and uh you know hang on to the one i've got for a few years because it's it's it's almost four years old but it's still in great shape i have a Mazda RX7 Choices: 1. I have a Mazda RX7, which is not looking good at all. 2. I like to see more money getting into my savings account. 3. I don't think I will be buying a new car any time soon.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Linda Degutis recommended amending the recommendation to read, screening, interventions, and methods under consideration. Choices: 1. Linda never recommended anything to anyone ever. 2. Linda was once captain of the cheerleading squad. 3. Linda Degutis made a recommendation to amend some things.
+output: ",2
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: As Istanbul it was the seat of the Ottoman sultans, rulers of a 500-year Islamic empire that stretched from the Black Sea and the Balkans to Arabia and Algeria. Choices: 1. The Ottoman empire established a 200-year rule over a comparably small territory. 2. The Ottoman empire established a 500-year rule over territory that stretched from the Black Sea and the Balkans to the Arabia and Algeria. 3. The Ottoman empire collapsed for a number of reasons, but its collapse is largely seen to have been an inevitability by most historians.
+output: ",3
+"Definition: In this task, you're given a statement and three sentences as choices. Your job is to determine the neutral choice based on your inference from the statement and your commonsense knowledge. The neutral choice is a sentence that neither agrees nor disagrees with the statement. Indicate your answer as '1', '2', or '3', corresponding to the choice number of the selected sentence. If sentence X agrees with sentence Y, one's correctness follows from the other one. If sentence X disagrees with sentence Y, they can not be correct at the same time.
+Positive example 1-
+input: Statement: Next to the MGM Grand you will find M and M World, four stories of merchandise and memorabilia dedicated to the candy that doesn't melt in your hand. Choices: 1. The candy has many fans who love its attractions. 2. There's four stories of memorabilia dedicated to a candy. 3. That particular candy melts and becomes difficult to eat.
+output: 1
+Positive example 2-
+input: Statment: I've forgotten his name now, confessed Tuppence. Choices: 1. Tuppence forgot his name. 2.Tuppence remembered his name later. 3. Tuppence never could forget his name.
+output: 2
+Now complete the following example-
+input: Statement: Opened 585 cases for the victims of domestic violence, helping to break the cycle of violence that causes so much lasting harm to women and children. Choices: 1. The children of domestic violence received help  2. No cases were opened to help domestic violence victims  3. 585 cases were opened for domestic violence victims to help break the cycle of violence. 
+output: ",1

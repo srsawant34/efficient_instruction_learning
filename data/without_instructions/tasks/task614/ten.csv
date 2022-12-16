@@ -1,0 +1,31 @@
+input,output
+"input: story: Sal was a grumpy person. He had no friends and hated almost everything. He went to town to pick up gifts. They were for himself because he like almost no one. Later that night he cried himself to sleep.
+ selected sentence: They were for himself because he like almost no one.
+output: ",Sal doesn't have friends >Causes/Enables> Sal buys gifts for himself
+"input: story: Ted was walking on an icy sidewalk. He was wearing the wrong kind of shoes. He would slip and try to catch himself on the ice. It took him 50 minutes to walk 50 feet. Ted never leaves home without his snow boots now.
+ selected sentence: Ted was walking on an icy sidewalk.
+output: ",Tim goes to the location of the sidewalk >Causes/Enables> Tim walks on the icy sidewalk
+"input: story: Tom ate a lot and got fatter and fatter. I asked him why he ate so much. He said it was because his wife, Mary, kept buying food. I asked Mary why she bought so much food. She said it was because Tom kept eating the food.
+ selected sentence: Tom ate a lot and got fatter and fatter.
+output: ",Mary bought a lot of food >Causes/Enables> Tom ate a lot of food
+"input: story: Jen wanted to ride her bike. She put on her biking shoes. She put on her biking outfit. She knew she was forgetting Something! She remembered to helmet so she could be safe!
+ selected sentence: She remembered to helmet so she could be safe!
+output: ",Jen forgets Something while getting ready to ride her bike >Causes/Enables> Jen remembers her helmet
+"input: story: Todd had an important meeting in the morning. He set his alarm and went to sleep early. The next morning, he woke up passed his alarm. It turned out that his power went out and his alarm shut off. He called his boss and sadly went to work late.
+ selected sentence: The next morning, he woke up passed his alarm.
+output: ",Todd sets his alarm and sleeps early >Causes/Enables> Todd wakes up past his alarm
+"input: story: Chris loved the NFL. He always wanted to go to a game. So one evening his dad tells him he's gonna be taking him to a game. Chris gets so excited and jumps up and down. Chris and his dad go to the game and have a great time.
+ selected sentence: Chris gets so excited and jumps up and down.
+output: ",Chris gets excited >Causes/Enables> Chris jumps up and down
+"input: story: Yesterday I went on a trip to animal kingdom. It was very fun. I loved going and seeing the animals. I took many pictures. When I left I couldn't wait to go back.
+ selected sentence: When I left I couldn't wait to go back.
+output: ",I leave >Causes/Enables> I can't wait to go back
+"input: story: Aaron was running late for a date. So he was driving 60 in a 30. Instantly he was pulled over by a cop. Aaron always knew flirting with cops could get out of tickets. He now has a date with the backseat of a cop car.
+ selected sentence: So he was driving 60 in a 30.
+output: ",Aaron was running late >Causes/Enables> Aaron speeds
+"input: story: Manuel was a young boy in third grade. He was very close to his father because his mother was gone. That year his father got very sick and passed away. Manuel was very sad and had a hard time with it. He went to live with his sister until he turned 18.
+ selected sentence: Manuel was very sad and had a hard time with it.
+output: ",Manuel's father gets very sick and passes away >Causes/Enables> Manuel is very sad and has a hard time with it
+"input: story: Lily came home from work. When she walked in the house she smelled Something good. It was freshly baked cookies. Lily was so happy. She went in the kitchen and ate many of them.
+ selected sentence: When she walked in the house she smelled Something good.
+output: ",Lily comes home >Causes/Enables> Lily enters the house

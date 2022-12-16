@@ -1,0 +1,101 @@
+input,output
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Ockleton, Morpurgo, Cornelius, Dysart and half a dozen others too drunk to mention. But there was so much coming and going that any one of us could have slipped out, pushed Everett through the window and slipped back again without being noticed. Damn it all we didn't even notice Everett was missing until a porter tripped over him in the quad so anything's theoretically possible. <sep> Hypothesis: Everett was missing
+output: Entailment
+Positive example 2-
+input: Premise: I should dearly have liked to know whether they were Europeans or Americans, but I couldn't hear the accents. They appeared to be arguing. I hoped the white men weren't telling him to eliminate all witnesses because I don't believe it would have needed much persuasion. <sep> Hypothesis: eliminating all witnesses would have needed much persuasion
+output: Contradiction
+Now complete the following example-
+input: Premise: B: so there's only been really one working. A: Uh-huh, same here. Uh-huh. B: And, uh, it works for me but I can't see that it would work for probably the majority of people. <sep> Hypothesis: it would work for probably the majority of people
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Ockleton, Morpurgo, Cornelius, Dysart and half a dozen others too drunk to mention. But there was so much coming and going that any one of us could have slipped out, pushed Everett through the window and slipped back again without being noticed. Damn it all we didn't even notice Everett was missing until a porter tripped over him in the quad so anything's theoretically possible. <sep> Hypothesis: Everett was missing
+output: Entailment
+Positive example 2-
+input: Premise: I should dearly have liked to know whether they were Europeans or Americans, but I couldn't hear the accents. They appeared to be arguing. I hoped the white men weren't telling him to eliminate all witnesses because I don't believe it would have needed much persuasion. <sep> Hypothesis: eliminating all witnesses would have needed much persuasion
+output: Contradiction
+Now complete the following example-
+input: Premise: A: uh I picked up a bunch of Craftsman tools from the forties that my wife's father owned when he was alive B: Uh-huh. A: and so I do have a band saw and a router and, uh, things like that out in the garage. But I can't say I use them very often. <sep> Hypothesis: he uses them very often
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Ockleton, Morpurgo, Cornelius, Dysart and half a dozen others too drunk to mention. But there was so much coming and going that any one of us could have slipped out, pushed Everett through the window and slipped back again without being noticed. Damn it all we didn't even notice Everett was missing until a porter tripped over him in the quad so anything's theoretically possible. <sep> Hypothesis: Everett was missing
+output: Entailment
+Positive example 2-
+input: Premise: I should dearly have liked to know whether they were Europeans or Americans, but I couldn't hear the accents. They appeared to be arguing. I hoped the white men weren't telling him to eliminate all witnesses because I don't believe it would have needed much persuasion. <sep> Hypothesis: eliminating all witnesses would have needed much persuasion
+output: Contradiction
+Now complete the following example-
+input: Premise: A:  nanny, sort of? Uh-huh. Uh-huh. B: and you know, I could envision a society where that would happen and make an interesting, uh, uh, story or whatever. A: Yeah. B: I don't think I have a philosophical problem with that. <sep> Hypothesis: she has a philosophical problem with that
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Ockleton, Morpurgo, Cornelius, Dysart and half a dozen others too drunk to mention. But there was so much coming and going that any one of us could have slipped out, pushed Everett through the window and slipped back again without being noticed. Damn it all we didn't even notice Everett was missing until a porter tripped over him in the quad so anything's theoretically possible. <sep> Hypothesis: Everett was missing
+output: Entailment
+Positive example 2-
+input: Premise: I should dearly have liked to know whether they were Europeans or Americans, but I couldn't hear the accents. They appeared to be arguing. I hoped the white men weren't telling him to eliminate all witnesses because I don't believe it would have needed much persuasion. <sep> Hypothesis: eliminating all witnesses would have needed much persuasion
+output: Contradiction
+Now complete the following example-
+input: Premise: They 'd seen Miss Lavant on the promenade and about the town, always walking slowly, sometimes with a neat wicker basket. Kate had often thought she was beautiful. She hadn't known she was in love with Dr Greenslade who had a wife already and three children. <sep> Hypothesis: Miss Lavant was in love with Dr Greenslade
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Ockleton, Morpurgo, Cornelius, Dysart and half a dozen others too drunk to mention. But there was so much coming and going that any one of us could have slipped out, pushed Everett through the window and slipped back again without being noticed. Damn it all we didn't even notice Everett was missing until a porter tripped over him in the quad so anything's theoretically possible. <sep> Hypothesis: Everett was missing
+output: Entailment
+Positive example 2-
+input: Premise: I should dearly have liked to know whether they were Europeans or Americans, but I couldn't hear the accents. They appeared to be arguing. I hoped the white men weren't telling him to eliminate all witnesses because I don't believe it would have needed much persuasion. <sep> Hypothesis: eliminating all witnesses would have needed much persuasion
+output: Contradiction
+Now complete the following example-
+input: Premise: B: You never see them on nationally basketball. A: You know, that's true. I don't think I've ever seen them nationally on basketball. <sep> Hypothesis: he has seen them nationally on basketball
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Ockleton, Morpurgo, Cornelius, Dysart and half a dozen others too drunk to mention. But there was so much coming and going that any one of us could have slipped out, pushed Everett through the window and slipped back again without being noticed. Damn it all we didn't even notice Everett was missing until a porter tripped over him in the quad so anything's theoretically possible. <sep> Hypothesis: Everett was missing
+output: Entailment
+Positive example 2-
+input: Premise: I should dearly have liked to know whether they were Europeans or Americans, but I couldn't hear the accents. They appeared to be arguing. I hoped the white men weren't telling him to eliminate all witnesses because I don't believe it would have needed much persuasion. <sep> Hypothesis: eliminating all witnesses would have needed much persuasion
+output: Contradiction
+Now complete the following example-
+input: Premise: A: Uh, I saw Seven Eleven that was hiring. B: Well, I'm sure with the new, uh, contract awarding I think it went to Lockheed, didn't it? <sep> Hypothesis: the contract went to Lockheed
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Ockleton, Morpurgo, Cornelius, Dysart and half a dozen others too drunk to mention. But there was so much coming and going that any one of us could have slipped out, pushed Everett through the window and slipped back again without being noticed. Damn it all we didn't even notice Everett was missing until a porter tripped over him in the quad so anything's theoretically possible. <sep> Hypothesis: Everett was missing
+output: Entailment
+Positive example 2-
+input: Premise: I should dearly have liked to know whether they were Europeans or Americans, but I couldn't hear the accents. They appeared to be arguing. I hoped the white men weren't telling him to eliminate all witnesses because I don't believe it would have needed much persuasion. <sep> Hypothesis: eliminating all witnesses would have needed much persuasion
+output: Contradiction
+Now complete the following example-
+input: Premise: It is part of their religion, a religion I do not scoff at as it holds many elements which match our own even though it lacks the truth of ours. At one of their great festivals they have the ritual of driving out the devils from their bodies. First the drummers come on - I may say that no women are allowed to take part in this ritual and the ladies here will perhaps agree with me that they are fortunate in that omission. <sep> Hypothesis: no women are allowed to take part in this ritual
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Ockleton, Morpurgo, Cornelius, Dysart and half a dozen others too drunk to mention. But there was so much coming and going that any one of us could have slipped out, pushed Everett through the window and slipped back again without being noticed. Damn it all we didn't even notice Everett was missing until a porter tripped over him in the quad so anything's theoretically possible. <sep> Hypothesis: Everett was missing
+output: Entailment
+Positive example 2-
+input: Premise: I should dearly have liked to know whether they were Europeans or Americans, but I couldn't hear the accents. They appeared to be arguing. I hoped the white men weren't telling him to eliminate all witnesses because I don't believe it would have needed much persuasion. <sep> Hypothesis: eliminating all witnesses would have needed much persuasion
+output: Contradiction
+Now complete the following example-
+input: Premise: A: They have to for international trade. B: Yeah. A: But, I guess it's easier to switch back and forth than it used to be, uh, because uh, of computers coming into everything. B: Uh-huh. Yeah, I don't think switching back and forth is that big a deal. <sep> Hypothesis: switching back and forth is that big a deal
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Ockleton, Morpurgo, Cornelius, Dysart and half a dozen others too drunk to mention. But there was so much coming and going that any one of us could have slipped out, pushed Everett through the window and slipped back again without being noticed. Damn it all we didn't even notice Everett was missing until a porter tripped over him in the quad so anything's theoretically possible. <sep> Hypothesis: Everett was missing
+output: Entailment
+Positive example 2-
+input: Premise: I should dearly have liked to know whether they were Europeans or Americans, but I couldn't hear the accents. They appeared to be arguing. I hoped the white men weren't telling him to eliminate all witnesses because I don't believe it would have needed much persuasion. <sep> Hypothesis: eliminating all witnesses would have needed much persuasion
+output: Contradiction
+Now complete the following example-
+input: Premise: A: but, it was interesting to, I don't know if they're making them better or not, it's hard to say. I think they more of their parts plastic, which, you know, makes things break easier, but I think the technology is better. B: I think technology is better, I'm not sure. I think you've got a good point with the plastic and that. A: About quality. B: I don't think necessarily that, things are being made better uh, you know, <sep> Hypothesis: things are being made better
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Ockleton, Morpurgo, Cornelius, Dysart and half a dozen others too drunk to mention. But there was so much coming and going that any one of us could have slipped out, pushed Everett through the window and slipped back again without being noticed. Damn it all we didn't even notice Everett was missing until a porter tripped over him in the quad so anything's theoretically possible. <sep> Hypothesis: Everett was missing
+output: Entailment
+Positive example 2-
+input: Premise: I should dearly have liked to know whether they were Europeans or Americans, but I couldn't hear the accents. They appeared to be arguing. I hoped the white men weren't telling him to eliminate all witnesses because I don't believe it would have needed much persuasion. <sep> Hypothesis: eliminating all witnesses would have needed much persuasion
+output: Contradiction
+Now complete the following example-
+input: Premise: ``Do you mind if I use your phone?'' Ronni could see that Guido's brain was whirring. <sep> Hypothesis: Guido's brain was whirring
+output: ",Entailment

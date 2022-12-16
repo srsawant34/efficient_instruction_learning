@@ -1,0 +1,1001 @@
+input,output
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the city councilmen refused the demonstrators a permit because they feared violence.; pronoun: they
+output: ",the city councilmen
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the city councilmen refused the demonstrators a permit because they advocated violence.; pronoun: they
+output: ",the demonstrators
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the trophy doesn't fit into the brown suitcase because it is too large.; pronoun: it
+output: ",the trophy
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the trophy doesn't fit into the brown suitcase because it is too small.; pronoun: it
+output: ",the suitcase
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: joan made sure to thank susan for all the help she had recieved.; pronoun: she
+output: ",joan
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: as andrea in the crop duster passed over susan, she could see the landing gear.; pronoun: she
+output: ",susan
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: paul tried to call george on the phone, but he wasn't successful.; pronoun: he
+output: ",paul
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: paul tried to call george on the phone, but he wasn't available.; pronoun: he
+output: ",george
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the lawyer asked the witness a question, but he was reluctant to repeat it.; pronoun: he
+output: ",the lawyer
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the lawyer asked the witness a question, but he was reluctant to answer it.; pronoun: he
+output: ",the witness
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the delivery truck zoomed by the school bus because it was going so fast.; pronoun: it
+output: ",the delivery truck
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the delivery truck zoomed by the school bus because it was going so slow.; pronoun: it
+output: ",the school bus
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: frank was upset with tom because the toaster he had bought from him didn't work.; pronoun: he
+output: ",frank
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: bill passed the gameboy to john because his turn was over.; pronoun: his
+output: ",bill
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the man lifted the boy onto his shoulders.; pronoun: his
+output: ",the man
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the man couldn't lift his son because he was so heavy.; pronoun: he
+output: ",the son
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the large ball crashed right through the table because it was made of steel.; pronoun: it
+output: ",the large ball
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the table won't fit through the doorway because it is too wide.; pronoun: it
+output: ",the table
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: john was doing research in the library when he heard a man humming and whistling. he was very annoyed.; pronoun: he
+output: ",john
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: john couldn't see the stage with billy in front of him because he is so tall.; pronoun: he
+output: ",billy
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: tom threw his schoolbag down to ray after he reached the top of the stairs.; pronoun: he
+output: ",tom
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: tom threw his schoolbag down to ray after he reached the bottom of the stairs.; pronoun: he
+output: ",ray
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: although they ran at about the same speed, sue beat sally because she had such a good start.; pronoun: she
+output: ",sue
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: although they ran at about the same speed, sue beat sally because she had such a bad start.; pronoun: she
+output: ",sally
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the sculpture rolled off the shelf because it wasn't anchored.; pronoun: it
+output: ",the sculpture
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: i couldn't put the pot on the shelf because it was too high.; pronoun: it
+output: ",the shelf
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: sam's drawing was hung just above tina's and it did look much better with another one below it.; pronoun: it
+output: ",sam's drawing
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: sam's drawing was hung just above tina's and it did look much better with another one above it.; pronoun: it
+output: ",tina's drawing
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: anna did a lot better than her good friend lucy on the test because she had studied so hard.; pronoun: she
+output: ",anna
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: anna did a lot worse than her good friend lucy on the test because she had studied so hard.; pronoun: she
+output: ",lucy
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the firemen arrived after the police because they were coming from so far away.; pronoun: they
+output: ",the firemen
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the firemen arrived before the police because they were coming from so far away.; pronoun: they
+output: ",the police
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: jim signaled the barman and gestured toward his empty glass; pronoun: his
+output: ",jim
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: jim comforted kevin because he was so upset.; pronoun: he
+output: ",kevin
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the sack of potatoes had been placed above the bag of flour, so it had to be moved first.; pronoun: it
+output: ",the sack of potatoes
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the sack of potatoes had been placed below the bag of flour, so it had to be moved first.; pronoun: it
+output: ",the bag of flour
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: pete envies martin although he is very successful.; pronoun: he
+output: ",pete
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: pete envies martin because he is very successful.; pronoun: he
+output: ",martin
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the older students were bullying the younger ones, so we punished them .; pronoun: them
+output: ",the older students
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the older students were bullying the younger ones, so we rescued them .; pronoun: them
+output: ",the younger students
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: i poured water from the bottle into the cup until it was empty.; pronoun: it
+output: ",the bottle
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: i poured water from the bottle into the cup until it was full.; pronoun: it
+output: ",the cup
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: susan knew that ann's son had been in a car accident, because she told her about it.; pronoun: she
+output: ",ann
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: sid explained his theory to mark but he couldn't convince him.; pronoun: he
+output: ",sid
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: mark told pete many lies about himself, which pete included in his book. he should have been more truthful.; pronoun: he
+output: ",mark
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: joe paid the detective after he received the final report on the case.; pronoun: he
+output: ",joe
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: joe's uncle can still beat him at tennis, even though he is 30 years older.; pronoun: he
+output: ",joe's uncle
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the painting in mark's living room shows an oak tree. it is to the right of the bookcase.; pronoun: it
+output: ",the painting
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the painting in mark's living room shows an oak tree. it is to the right of a house.; pronoun: it
+output: ",the oak tree
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: there is a gap in the wall. you can see the garden through it .; pronoun: it
+output: ",the gap
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: there is a gap in the wall. you can see the garden behind it .; pronoun: it
+output: ",the wall
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the drain is clogged with hair. it has to be cleaned.; pronoun: it
+output: ",the drain
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the drain is clogged with hair. it has to be removed.; pronoun: it
+output: ",the hair
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: my meeting started at 4:00 and i needed to catch the train at 4:30, so there wasn't much time. luckily, it was short, so it worked out.; pronoun: it
+output: ",the meeting
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: my meeting started at 4:00 and i needed to catch the train at 4:30, so there wasn't much time. luckily, it was delayed, so it worked out.; pronoun: it
+output: ",the train
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: there is a pillar between me and the stage, and i can't see around it .; pronoun: it
+output: ",the pillar
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: there is a pillar between me and the stage, and i can't see it .; pronoun: it
+output: ",the stage
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: they broadcast an announcement, but a subway came into the station and i couldn't hear it .; pronoun: it
+output: ",the announcement
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: they broadcast an announcement, but a subway came into the station and i couldn't hear over it .; pronoun: it
+output: ",the subway
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: in the middle of the outdoor concert, the rain started falling, but it continued until 10.; pronoun: it
+output: ",the concert
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: in the middle of the outdoor concert, the rain started falling, and it continued until 10.; pronoun: it
+output: ",the rain
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: i used an old rag to clean the knife, and then i put it in the trash.; pronoun: it
+output: ",the rag
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: i used an old rag to clean the knife, and then i put it in the drawer.; pronoun: it
+output: ",the knife
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: mary tucked her daughter anne into bed, so that she could work.; pronoun: she
+output: ",mary
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: i took the water bottle out of the backpack so that it would be handy.; pronoun: it
+output: ",the water bottle
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: since it was raining, i carried the newspaper over my backpack to keep it dry.; pronoun: it
+output: ",the backpack
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: i couldn't put the pot on the shelf because it was too tall.; pronoun: it
+output: ",the pot
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: i'm sure that my map will show this building; it is very good.; pronoun: it
+output: ",the map
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: i'm sure that my map will show this building; it is very famous.; pronoun: it
+output: ",the building
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: bob paid for charlie's college education, but now charlie acts as though it never happened. he is very hurt.; pronoun: he
+output: ",bob
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: bob paid for charlie's college education. he is very grateful.; pronoun: he
+output: ",charlie
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: sam took french classes from adam, because he was known to speak it fluently.; pronoun: he
+output: ",adam
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: if the con artist has succeeded in fooling sam, he would have gotten a lot of money.; pronoun: he
+output: ",the con artist
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: if the con artist has succeeded in fooling sam, he would have lost a lot of money.; pronoun: he
+output: ",sam
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the dog chased the cat, which ran up a tree. it waited at the bottom.; pronoun: it
+output: ",the dog
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: it was a summer afternoon, and the dog was sitting in the middle of the lawn. after a while, it got up and moved to a spot under the tree, because it was cooler.; pronoun: it
+output: ",the spot under the tree
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the dog chased the cat, which ran up a tree. it waited at the top.; pronoun: it
+output: ",the cat
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the cat was lying by the mouse hole waiting for the mouse, but it was too cautious.; pronoun: it
+output: ",the mouse
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: anne gave birth to a daughter last month. she is a very charming woman.; pronoun: she
+output: ",anne
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: anne gave birth to a daughter last month. she is a very charming baby.; pronoun: she
+output: ",anne's daughter
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: alice looked for her friend jade in the crowd. since she always wears a red turban, alice spotted her quickly.; pronoun: she
+output: ",alice
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: alice tried frantically to stop her daughter from barking at the party, leaving us to wonder why she was behaving so strangely.; pronoun: she
+output: ",alice's daughter
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: i saw jim yelling at some guy in a military uniform with a huge red beard. i don't know who he was, but he looked very unhappy.; pronoun: he
+output: ",the guy in uniform
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the fish ate the worm. it was hungry.; pronoun: it
+output: ",the fish
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the fish ate the worm. it was tasty.; pronoun: it
+output: ",the worm
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: i was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and i couldn't get it in.; pronoun: it
+output: ",the key
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: i was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and i couldn't get it out.; pronoun: it
+output: ",the chewing gum
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: i can't cut that tree down with that axe; it is too thick.; pronoun: it
+output: ",the tree
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: in the storm, the tree fell down and crashed through the roof of my house. now, i have to get it repaired.; pronoun: it
+output: ",the roof
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the customer walked into the bank and stabbed one of the tellers. he was immediately taken to the police station.; pronoun: he
+output: ",the customer
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: the customer walked into the bank and stabbed one of the tellers. he was immediately taken to the hospital.; pronoun: he
+output: ",the teller
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: john was jogging through the park when he saw a man juggling watermelons. he was very impressive.; pronoun: he
+output: ",the juggler
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: bob collapsed on the sidewalk. soon he saw carl coming to help. he was very concerned.; pronoun: he
+output: ",carl
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: sam and amy are passionately in love, but amy's parents are unhappy about it, because they are fifteen.; pronoun: they
+output: ",sam and amy
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: sam and amy are passionately in love, but amy's parents are unhappy about it, because they are snobs.; pronoun: they
+output: ",amy's parents
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: joe has sold his house and bought a new one a few miles away. he will be moving out of it on thursday.; pronoun: it
+output: ",the old house
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: joe has sold his house and bought a new one a few miles away. he will be moving into it on thursday.; pronoun: it
+output: ",the new house
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: many people start to read paul's books and can't put them down. they are gripped because paul writes so well.; pronoun: they
+output: ",people
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: many people start to read paul's books and can't put them down. they are popular because paul writes so well.; pronoun: they
+output: ",paul's books
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: mary took out her flute and played one of her favorite pieces. she has had it since she was a child.; pronoun: it
+output: ",the flute

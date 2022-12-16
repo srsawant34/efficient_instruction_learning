@@ -1,0 +1,21 @@
+input,output
+"input: name[xname], cuisine[French], price[moderate], rating[1 out of 5], location[riverside]
+output: ",xname has French food at a moderate price in the riverside area with a customer rating of 1 out of 5.
+"input: name[xname], price[high], rating[1 out of 5]
+output: ",xname is an expensive restaurant with a rating of 1 out of 5
+"input: name[xname], recommend[yes], cuisine[Fast Food], qual[acceptable]
+output: ",xname is a Fast Food place with decent food. It is the best restaurant.
+"input: name[xname], recommend[yes], cuisine[Italian], decor[acceptable], qual[acceptable], location[Manhattan], price[expensive]
+output: ","Because xname is an Italian restaurant and pricey with satisfying food and acceptable decor and it is in Manhattan, it is the best place."
+"input: name[xname], recommend[yes], qual[good], price[expensive], service[acceptable]
+output: ","Since xname is expensive with satisfying service, but it offers good food though, I would recommend xname."
+"input: name[xname], cuisine[Italian], rating[average], location[riverside], familyFriendly[no]
+output: ",xname is an Italian restaurant. It is in the riverside area. It has an average rating and is not family-friendly.
+"input: name[xname], recommend[yes], cuisine[French], decor[acceptable], qual[acceptable], location[Manhattan], price[very expensive]
+output: ",xname is a French restaurant and very pricey. xname is in Manhattan with decent food and acceptable ambiance. It is one of my favourite places.
+"input: name[xname], eattype[coffee shop], cuisine[Indian], price[moderate], rating[3 out of 5], location[riverside], familyFriendly[yes]
+output: ","xname is a coffee shop serving Indian food at a moderate price range. Its customer rating is three out of five, it is near the riverside and is kids friendly."
+"input: name[xname], cuisine[Indian], rating[3 out of 5], location[riverside], familyFriendly[yes]
+output: ","In Riverside, there is a kid friendly restaurant named xname that serves Indian food and has a customer rating of 3 out of 5"
+"input: name[xname], recommend[yes], cuisine[Mexican], location[Manhattan], service[acceptable]
+output: ",I suspect you would appreciate xname because it is in Manhattan and it is a Mexican place. it provides acceptable staff.

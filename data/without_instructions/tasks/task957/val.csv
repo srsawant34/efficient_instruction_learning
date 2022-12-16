@@ -1,0 +1,21 @@
+input,output
+"input: name[The Rice Boat], food[Chinese], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]
+output: ",The Rice Boat provides Chinese food in the high price range. It is located in the city centre. It is near Express by Holiday Inn. Its customer rating is 1 out of 5.
+"input: name[Blue Spice], eatType[coffee shop], priceRange[high], customer rating[3 out of 5], area[riverside], familyFriendly[no], near[Avalon]
+output: ",The Blue Spice is a coffee shop located riverside near Avalon.  High price range.  Not child friendly.  Customer rating 3 out 5.
+"input: name[Zizzi], eatType[pub], food[Italian], customer rating[average], familyFriendly[no]
+output: ",Zizzis Italian restaurant  has an average customer rating as a pub style restaurant that is not classified as family-friendly.
+"input: name[Loch Fyne], eatType[restaurant], food[Fast food], familyFriendly[no]
+output: ","Loch Fyne is a restaurant providing fast food services, but it isn't family-friendly."
+"input: name[The Waterman], food[English], priceRange[less than £20], customer rating[low], area[city centre], familyFriendly[yes]
+output: ",The Waterman is a family-friendly English food place with their prices ranges less than £20. They are located in the city center with a low customer rating.
+"input: name[Cotto], priceRange[cheap], area[riverside], near[All Bar One]
+output: ",Cotto has a cheap price range and is located in riverside near All Bar One.
+"input: name[The Golden Palace], eatType[restaurant], priceRange[cheap]
+output: ",The Golden Palace is in the cheap price range. It is a restaurant
+"input: name[The Eagle], eatType[coffee shop], food[Italian], priceRange[moderate], customer rating[1 out of 5], area[riverside], familyFriendly[no], near[Burger King]
+output: ",The Eagle is a poorly rated moderate price Italian food coffee shop. It is not child friendly and it is located in riverside by Burger King.
+"input: name[The Punter], eatType[coffee shop], food[Indian], priceRange[moderate], customer rating[3 out of 5], familyFriendly[yes], near[Café Sicilia]
+output: ","The Punter is a moderately priced coffee shop which also serves Indian food.  It has a customer rating of 3 out of 5, located near Café Sicilia and is kids friendly."
+"input: name[The Rice Boat], food[English], customer rating[high], area[riverside], familyFriendly[yes]
+output: ",The Rice Boat is a kid friendly English restaurant on the riverside with high customer ratings.

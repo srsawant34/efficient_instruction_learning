@@ -1,0 +1,433 @@
+input,output
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The city councilmen refused the demonstrators a permit because they advocated violence.
+ Reason: The 'they' refers to the demonstrators because the organizers of the event are anti-police and white supremacist. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The city councilmen refused the demonstrators a permit because they advocated violence.
+ Reason: The 'they' refers to the demonstrators because the city council's members are the only ones who are allowed to speak.<|endoftext|>P.K. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The city councilmen refused the demonstrators a permit because they advocated violence.
+ Reason: The 'they' refers to the demonstrators because of their connection to the Occupy Wall Street protests, which have been held in Zuccotti Park since. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The city councilmen refused the demonstrators a permit because they advocated violence.
+ Reason: The 'they' refers to the demonstrators because they were protesting against the war in Iraq. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The city councilmen refused the demonstrators a permit because they advocated violence.
+ Reason: The 'they' refers to the demonstrators because of the nature of the demonstration. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too large.
+ Reason: The 'it' refers to the trophy because a suitcase is a holder for the trophy item. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too large.
+ Reason: The 'it' refers to the trophy because the brown suitcase is too large. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too large.
+ Reason: The 'it' refers to the trophy because The trophy is not fit into the suitcase. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too large.
+ Reason: The 'it' refers to the trophy because the green suitcase was seen in the background of the trophy's picture. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too large.
+ Reason: The 'it' refers to the trophy because you get it from the 'it' trophy. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too large.
+ Reason: The 'it' refers to the trophy because of its name, the 'it' is in fact all of the trophies in the game. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too large.
+ Reason: The 'it' refers to the trophy because it is a game. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too large.
+ Reason: The 'it' refers to the trophy because Its not going to fit in te suitecase. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too large.
+ Reason: The 'it' refers to the trophy because it's more likely for the brown suitcase to be to small in order to fit the trophy inside. IF it was the trophy it wouldn't make sense. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too large.
+ Reason: The 'it' refers to the trophy because suitcase was very small. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too small.
+ Reason: The 'it' refers to the suitcase because it's more likely for the brown suitcase to be to small in order to fit the trophy inside. IF it was the trophy it wouldn't make sense. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too small.
+ Reason: The 'it' refers to the suitcase because The trophy corresponds with the verb fit. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too small.
+ Reason: The 'it' refers to the suitcase because suitcase was very small. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too small.
+ Reason: The 'it' refers to the suitcase because there are only 2 bags in the game, the 'it' is likely to refer to the bag. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too small.
+ Reason: The 'it' refers to the suitcase because it is a brown, plain suitcase.Defeat the boss. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too small.
+ Reason: The 'it' refers to the suitcase because it is the only one in the game that has a brown suitcase for storage. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too small.
+ Reason: The 'it' refers to the suitcase because it is not the brown suitcase. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too small.
+ Reason: The 'it' refers to the suitcase because it's a part of it. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too small.
+ Reason: The 'it' refers to the suitcase because a suitcase is a holder for the trophy item. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: The trophy doesn't fit into the brown suitcase because it is too small.
+ Reason: The 'it' refers to the suitcase because the brown suitcase is too large. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: Joan made sure to thank Susan for all the help she had recieved.
+ Reason: The 'she' refers to joan because Joan was thanking Susan for helping her. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"Definition: In this task you need to indicate the plausibility of reasoning for the pronoun coreference relations. Each of the provided inputs contains a sentence with a target pronoun and a sentence that justifies which noun phrase the pronoun refers to. Correct reasons do not need to use all the knowledge from the sentence. The resolution of the pronoun coreference relations typically involve one or multiple following knowledge types about commonsense: First: 'Property', the knowledge about property of objects (e.g., ice is cold). Second: 'Object', the knowledge about objects (e.g., cats have ears). Third: 'Eventuality', the knowledge about eventuality (e.g., 'wake up' happens before 'open eyes'). Forth: 'Spatial', the knowledge about spatial position (e.g., object at the back can be blocked). Fifth: 'Quantity', the knowledge about numbers (e.g., 2 is smaller than 10). Sixth: all other knowledge if above ones are not suitable. You should answer 'Correct' if the reasoning made sense, otherwise, you should answer 'Wrong'.
+Positive example 1-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because city councilmen are administrative so they are more likely to fear. 
+ Question: Is the above reasoning correct or wrong? 
+output: Correct
+Positive example 2-
+input: Sentence: The city councilmen refused the demonstrators a permit because they feared violence. 
+ Reason: The 'they' refers to the city councilmen because of the city's history of racial discrimination. 
+ Question: Is the above reasoning correct or wrong? 
+output: Wrong
+Now complete the following example-
+input: Sentence: Joan made sure to thank Susan for all the help she had recieved.
+ Reason: The 'she' refers to joan because Because Joan would not receive help from herself. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct

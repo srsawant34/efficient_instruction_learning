@@ -1,0 +1,21 @@
+input,output
+"input: sentence_A: There are no dogs fighting for a frisbee in a lake. sentence_B: Two dogs are fighting for a frisbee in a lake
+output: ",B_contradicts_A
+"input: sentence_A: A man is playing the guitar. sentence_B: A guitar is being played by a man
+output: ",B_entails_A
+"input: sentence_A: Two men are doing a funny skit with a boxer in front of a crowd of people. sentence_B: Two men are doing a skit, which is very funny, with a boxer in front of a crowd of people
+output: ",B_entails_A
+"input: sentence_A: A man is praying fervently. sentence_B: A man is praying
+output: ",B_neutral_A
+"input: sentence_A: The small boy is standing in the forest. sentence_B: A small boy is standing in the forest
+output: ",B_entails_A
+"input: sentence_A: The man is playing the piano with his nose. sentence_B: A man is playing the keyboard with his nose
+output: ",B_contradicts_A
+"input: sentence_A: Two race cars are on a road in front of a grassy parking area. sentence_B: Two cars for racing are on a road in front of a grassy parking area
+output: ",B_entails_A
+"input: sentence_A: A concentrated woman is playing flute. sentence_B: A woman is playing flute
+output: ",B_neutral_A
+"input: sentence_A: A woman is using a machine made for sewing. sentence_B: A woman is using a sewing machine
+output: ",B_entails_A
+"input: sentence_A: A man and a woman are hiking through a wooded area. sentence_B: A man and a woman are walking through a wooded area
+output: ",B_entails_A

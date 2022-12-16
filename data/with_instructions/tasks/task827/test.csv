@@ -1,0 +1,1401 @@
+input,output
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I ran out of breath.
+(1)I climbed several flights of stairs.(2)I read several chapters of the book.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The snow was blocking the driveway.
+(1)I gathered the snow into a snowball.(2)I shoveled the snow out of the way.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The curtain on the stage went up.
+(1)The opening scene of the play began.(2)The actors in the play exited the stage.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The man survived the deadly illness.
+(1)He signed his will.(2)He received an organ transplant.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The ring on my finger got stuck.
+(1)My finger swelled.(2)I chipped my fingernail.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The bartender refused to serve the patron.
+(1)The patron was alone.(2)The patron was drunk.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The student forgot to do her assignment.
+(1)She made up an excuse to tell the teacher.(2)The teacher promoted her to the next grade.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I bit into the peach.
+(1)The peach bruised.(2)Juice spilled out.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The book was deemed inappropriate for children.
+(1)Schools banned it from its libraries.(2)Teachers required students to read it.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The man read the cartoon in the newspaper.
+(1)He sipped coffee.(2)He chuckled.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I yanked the imposter's hair.
+(1)Her wig came off.(2)She went bald.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The child's shoelaces came untied.
+(1)He learned how to tie them.(2)He ran around on the playground.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The boy's hands were shaking.
+(1)He planned to ask the girl out.(2)His palms were cold and sweaty.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The man lost his balance on the ladder.
+(1)He climbed up the ladder.(2)He fell off the ladder.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The man held his breath.
+(1)He went underwater.(2)He treaded water.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The player tackled his opponent.
+(1)His opponent caught the pass.(2)His opponent hit the ground.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The woman pressed down on the piano key.
+(1)A sound played.(2)The key got stuck.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The community learned of the man's death.
+(1)His family buried him in the cemetery.(2)His obituary appeared in the newspaper.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The car stopped at the crosswalk.
+(1)The pedestrian crossed the road.(2)The pedestrian waited on the sidewalk.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I ducked.
+(1)The fireworks launched up in the air.(2)The frisbee soared towards my head.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The woman ran out of room in her closet.
+(1)She acquired an extensive wardrobe.(2)She folded her laundry.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I added sugar to the coffee.
+(1)The coffee smelled strong.(2)The coffee tasted sweet.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The parents rushed to their child's bedroom.
+(1)The child awoke screaming from a nightmare.(2)The child was scared to look under her bed.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I approached the man.
+(1)He looked busy.(2)He looked familiar.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The parents forbade their children from watching the movie. 
+(1)The movie was rated R.(2)The movie was animated.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The girl joined the debate team.
+(1)She learned to use a computer.(2)She learned communication skills.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: We ordered a pizza.
+(1)The pizza was delivered.(2)The pizza got cold.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I pulled the rubber band.
+(1)It flung across the room.(2)It stretched.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I put my hand to my chest.
+(1)I felt my heartbeat.(2)My heart rate sped up.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The man caught his reflection.
+(1)He stood under the sprawling tree.(2)He stood over the calm lake.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The man fell unconscious.
+(1)The assailant struck the man in the head.(2)The assailant took the man's wallet.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The man hurt his back.
+(1)He went to see a psychiatrist.(2)He stayed in bed for several days.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I pounded the nail with the hammer.
+(1)The nail sunk into the wood.(2)The nail became rusty.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The city re-elected the mayor.
+(1)The city cut its budget.(2)The mayor fulfilled his promises.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The child learned how to read.
+(1)He began attending school.(2)He skipped a grade in school.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The teacher caught the student chewing gum.
+(1)The gum stuck to the student's shoe.(2)The student spit out the gum.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The police closed the investigation.
+(1)They apprehended the suspect.(2)The victim recovered.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The man had an attack of conscience.
+(1)He manipulated his friend.(2)He admitted his indiscretion.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The dog eyed the juicy steak on the table.
+(1)It drooled.(2)It laid down.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I misplaced my wallet.
+(1)I retrieved my phone.(2)I retraced my steps.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The woman struggled to walk.
+(1)She wore high heels.(2)She took off her shoes.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The patient went into a coma.
+(1)He suffered emotional trauma.(2)He suffered brain damage.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I lost my patience.
+(1)My friend kept me waiting.(2)My friend arrived on time.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The boy put his feet up on the table.
+(1)His father sat down at the table.(2)His father lectured him.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The group overlooked the woman's faux pas.
+(1)The woman was relieved.(2)The woman apologized.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The bolt tightened.
+(1)I replaced the bolt.(2)I twisted the wrench.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The army surrendered the battle.
+(1)They were outnumbered.(2)They stormed the city.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I burst into a fit of laughter.
+(1)My teeth began to chatter.(2)My eyes welled up with tears.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The offender violated parole.
+(1)She was sent back to jail.(2)She stole money from a church.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: A crater formed on the moon.
+(1)A comet passed by the moon.(2)A comet collided with the moon.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The man was denied for a loan.
+(1)He was in debt.(2)He started a business.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I lingered in bed upon awakening.
+(1)I was hungry.(2)It was Saturday.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I lifted up the couch cushions.
+(1)I was looking for loose change.(2)I was rearranging the living room.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I chugged the pitcher of water.
+(1)I walked upstairs.(2)I ran five miles.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The children were sent to an orphanage.
+(1)Their parents died.(2)Their parents spoiled them.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The friends flipped a coin.
+(1)They wanted to find a compromise.(2)They wanted to make a fair decision.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The travelers reached the border.
+(1)The patrol agent checked their passports.(2)The patrol agent accused them of smuggling.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The family took their dog to the veterinarian.
+(1)The dog chewed on a bone.(2)The dog injured his paw.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The elevator doors opened.
+(1)The elevator arrived at the designated floor.(2)The elevator got stuck between floors.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The truck collided with the car.
+(1)The truck sped up.(2)The car got smashed.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The boy threw a temper tantrum.
+(1)His brother took his toys from him.(2)He shared his toys with his brother.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The shirt shrunk.
+(1)I poured bleach on it.(2)I put it in the dryer.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The print on the brochure was tiny.
+(1)The man put his glasses on.(2)The man retrieved a pen from his pocket.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I pricked myself with the pin.
+(1)A bead of sweat dripped from my face.(2)A drop of blood formed on my finger.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The woman cancelled her credit card account.
+(1)She realized the card was missing.(2)She realized the card was expired.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I applied pressure to the cut on my arm.
+(1)It healed.(2)It stopped bleeding.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The swimmer won the race.
+(1)She received a gold medal.(2)Her team lost the meet.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The husband felt guilty about cheating on his wife.
+(1)He accused her of infidelity.(2)He confessed his infidelity to her.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I decided to stay home for the night.
+(1)The forecast called for storms.(2)My friends urged me to go out.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The man signed the document.
+(1)The transaction was voided.(2)The transaction became official.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The hostage submitted to the kidnapper's mandates.
+(1)The kidnapper threatened to hurt the hostage.(2)The kidnapper left the hostage by himself.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The screen on the laptop went black.
+(1)The laptop's warranty expired.(2)The laptop's battery died.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The student knew the answer to the question.
+(1)He raised his hand.(2)He goofed off.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I ironed my shirt.
+(1)It was clean.(2)It was wrinkled.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The woman had rings under her eyes.
+(1)She stayed up all night.(2)She put her son to bed.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The woman received a diploma.
+(1)She enrolled in college.(2)She graduated from college.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The terrorist set off the bomb.
+(1)The bomb exploded.(2)The bomb was deactivated.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The woman resigned from her job.
+(1)She aspired to hold an executive position in the firm.(2)She believed her superiors were acting unethically.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The associate hung up on me.
+(1)I asked to speak to a supervisor.(2)I provided my identification number.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The friends lost touch.
+(1)They enjoyed each other's company.(2)They moved to different cities.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The family went to the zoo.
+(1)The children admired the animals.(2)The children chased the animals.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The man's watch was broken.
+(1)He waited at the bus stop.(2)He asked a stranger for the time.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The woman repaired her faucet.
+(1)The faucet was leaky.(2)The faucet was turned off.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The girl met her favorite actor.
+(1)She went to see his new film.(2)She asked him for his autograph.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The man's eyes watered.
+(1)Dust got into his eyes.(2)He put goggles over his eyes.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The man pressed down on the moist flap of the envelope.
+(1)He put a stamp on the envelope.(2)He sealed the envelope shut.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The woman stopped jogging.
+(1)She got a cramp in her side.(2)She got a second wind.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The child let go of the balloon string.
+(1)The balloon deflated.(2)The balloon rose into the air.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The court upheld the controversial ruling.
+(1)A riot broke loose in front of the courthouse.(2)A couple exchanged vows in front of the courthouse.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The group left the museum.
+(1)They took pictures of the exhibits.(2)They viewed all the exhibits.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The forest fire spread.
+(1)The winds became stronger.(2)The arsonists were apprehended.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I ran the ice cube under warm water.
+(1)The ice cube stuck to my fingers.(2)The ice cube vanished.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The executive decided not to hire the applicant.
+(1)The applicant failed a background check.(2)The applicant had experience for the job.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The charity made a goal to raise money.
+(1)They fed the homeless.(2)They held an auction.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I rubbed the soap between my hands.
+(1)The soap foamed.(2)My hands went numb.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The woman lost her place in line.
+(1)More people entered the line.(2)She stepped out of the line.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: I got distracted from my conversation with the woman.
+(1)Everyone in the room was talking.(2)The woman was telling a funny story.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The woman sensed a pleasant smell.
+(1)She remembered to take her medication.(2)She was reminded of her childhood.
+output: ",2
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: The kidnappers released the hostage.
+(1)They accepted ransom money.(2)They escaped from jail.
+output: ",1
+"Definition: Given a premise and two alternatives, choose the alternative that is a more plausible cause or effect of the situation described by the premise. The input format is ""premise
+(1)alternative_1(2)alternative_2"", the output should either be ""1"" or ""2"" based on your judgment.
+Positive example 1-
+input: The women met for coffee.
+(1)The cafe reopened in a new location.(2)They wanted to catch up with each other.
+output: 2
+Positive example 2-
+input: My body cast a shadow over the grass.
+(1)The sun was rising.(2)The grass was cut.
+output: 1
+Now complete the following example-
+input: Activists boycotted the products.
+(1)The products were tested for quality assurance.(2)The products were manufactured through child labor.
+output: ",2

@@ -1,0 +1,51 @@
+input,output
+"input: Bot's task: Tell the customer that their order will be shipped in three days, but tell them you don't know how long it will take to arrive 
+Bot's role: You are a bot designed to help customers order products from a store's website 
+User's task: Order something from the store and ask how long it should take to arrive 
+User's role: You are interacting with a bot designed to help you order products from a store's website
+output: ",SHOPPING
+"input: Bot's task: Tell the customer if the store they are asking about is open or not 
+Bot's role: You are a bot designed to provide information about stores and businesses 
+User's task: You want to know if a sporting goods store is open at 9 am 
+User's role: You are interacting with a bot designed to provide information about stores and businesses
+output: ",STORE_DETAILS
+"input: Bot's task: Try to upsell the user by offering a deal 
+Bot's role: You are a bot designed to provide information about stores and businesses 
+User's task: You want to buy one mousetrap  
+User's role: You are interacting with a bot designed to provide information about stores and businesses
+output: ",STORE_DETAILS
+"input: Bot's task: Satisfy the user's request but remind them to take safety precautions 
+Bot's role: You are a bot designed to provide instructions for basic tasks 
+User's task: You want to know how to make a boiled egg 
+User's role: You are interacting with a bot that gives instructions on how to complete basic tasks
+output: ",HOW_TO_BASIC
+"input: Bot's task: Let the user know that the request they have asked for is too complicated to help with 
+Bot's role: You are a bot designed to provide instructions for basic tasks 
+User's task: Ask the bot how to design a website 
+User's role: You are interacting with a bot that gives instructions on how to complete basic tasks
+output: ",HOW_TO_BASIC
+"input: Bot's task: Comply with the user's request 
+Bot's role: You are a bot designed to provide instructions for basic tasks 
+User's task: Ask the bot how to search for something on an online search engine, and insist on very very detailed answers 
+User's role: You are interacting with a bot that gives instructions on how to complete basic tasks
+output: ",HOW_TO_BASIC
+"input: Bot's task: Tell the user that you are legally obligated not to fulfil their request 
+Bot's role: You are a bot designed to provide instructions for basic tasks 
+User's task: Ask how to make a fire 
+User's role: You are interacting with a bot that gives instructions on how to complete basic tasks
+output: ",HOW_TO_BASIC
+"input: Bot's task: Tell the user how to interact with you 
+Bot's role: You are a bot designed to provide instructions for basic tasks 
+User's task: Ask the bot how you are supposed to interact with it 
+User's role: You are interacting with a bot that gives instructions on how to complete basic tasks
+output: ",HOW_TO_BASIC
+"input: Bot's task: direct the user to some omelette recipes 
+Bot's role: You are a bot designed to provide instructions for basic tasks 
+User's task: Ask the bot how to cook an omelette. If the bot shows you recipes, insist that it tell you how to make the omelette directly 
+User's role: You are interacting with a bot that gives instructions on how to complete basic tasks
+output: ",HOW_TO_BASIC
+"input: Bot's task: Help the user with their request and reassure them if they seem doubtful 
+Bot's role: You are a bot designed to provide instructions for basic tasks 
+User's task: Ask the bot how to order a pizza over the phone and be skeptical of its answers 
+User's role: You are interacting with a bot that gives instructions on how to complete basic tasks
+output: ",HOW_TO_BASIC

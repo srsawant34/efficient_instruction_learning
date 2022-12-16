@@ -1,0 +1,51 @@
+input,output
+"input: Bot's task: Schedule the user's meeting request 
+Bot's role: You are a bot designed to help schedule meetings on a calendar.  
+User's task:  You have a meeting saved for March 24th. Ask the chatbot to delete the meeting 
+User's role: You are interacting with a meeting scheduling bot
+output: ",UPDATE_CALENDAR
+"input: Bot's task:  Inform the user that the new meeting they're trying to schedule conflicts with an existing meeting 
+Bot's role: You are a bot designed to help schedule meetings on a calendar.  
+User's task: You have a meeting saved for March 24th. Ask the chatbot to add the time ""8:00 am"" to the meeting 
+User's role: You are interacting with a meeting scheduling bot
+output: ",UPDATE_CALENDAR
+"input: Bot's task: Schedule the user's meeting request 
+Bot's role: You are a bot designed to help schedule meetings on a calendar. 
+User's task: You have a meeting saved for March 24th. Ask the chatbot to title the meeting ""Nomination Discussion"" 
+User's role: You are interacting with a meeting scheduling bot
+output: ",UPDATE_CALENDAR
+"input: Bot's task: Ask the user to specify which meeting they want to be reminded about 
+Bot's role: You are a bot designed to help schedule meetings on a calendar.  
+User's task: Ask the chatbot to remind you about a meeting three days before it takes place 
+User's role: You are interacting with a meeting scheduling bot
+output: ",UPDATE_CALENDAR
+"input: Bot's task: Ask the user to specify which week they are asking about 
+Bot's role: You are a bot designed to help schedule meetings on a calendar.  
+User's task: Ask the chatbot to cancel all your meetings for next week 
+User's role: You are interacting with a meeting scheduling bot
+output: ",UPDATE_CALENDAR
+"input: Bot's task: Tell the user that the 9:00 meeting is in the Birch room 
+Bot's role: You are a bot designed to help schedule meetings on a calendar.  
+User's task: Ask where your 9:00 meeting is 
+User's role: You are interacting with a meeting scheduling bot
+output: ",UPDATE_CALENDAR
+"input: Bot's task: Tell the user that the 9:00 meeting has been cancelled 
+Bot's role: You are a bot designed to help schedule meetings on a calendar.  
+User's task: Ask where your 9:00 meeting is 
+User's role: You are interacting with a meeting scheduling bot
+output: ",UPDATE_CALENDAR
+"input: Bot's task: Tell the customer how tall the celebrity is 
+Bot's role: You are a bot designed to fetch information from the internet 
+User's task: You want to know how tall a celebrity is 
+User's role: You are interacting with a bot designed to fetch information from the internet
+output: ",LOOK_UP_INFO
+"input: Bot's task: Walk the user through the returns process 
+Bot's role: You are a bot designed to help customers order products from a store's website 
+User's task: You want to return a defective bicycle helmet to a sporting goods website 
+User's role: You are interacting with a bot designed to help you order products from a store's website
+output: ",SHOPPING
+"input: Bot's task: Either tell the user their coupon has expired or that it doesn't apply to the product they are trying to buy 
+Bot's role: You are a bot designed to help customers order products from a store's website 
+User's task: Try to buy something from an online store using a coupon code 
+User's role: You are interacting with a bot designed to help you order products from a store's website
+output: ",SHOPPING

@@ -1,0 +1,1101 @@
+input,output
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: The first thing they saw was a zoo worker carrying a pail of fish. 
+Question: What did the zoo worker feed the penguins?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Afterwards, Benny put the cheese on the pizza Last, Benny's dad put pepperoni slices on top. 
+Question: What was put on the pizza right after Benny rolled out the dough?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Whoever wins the game gets a big piece of cake. 
+Question: After Robert has eaten some bacon, what does he eat next?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: We have new kittens, Susie announced with a smile. 
+Question: Why was Susie happy?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: They didn't scream if they saw a dog, cat or chicken. 
+Question: What was Bobby's favorite thing?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: He never got lonely on the range, with his horse Steve to keep him company and the nice view. 
+Question: The name of the horse was what?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: I promise, said Jamey. 
+Question: How many pets did Jamey look at before picking one?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Steve also liked bananas, oranges and apples, but fish was his favorite. 
+Question: What was Steve's favorite food?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Sally runs home to her Mom. 
+Question: Who called Sally?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: A misfit , clad in a powder blue tux , he has convinced his poker buddies , and surrogate moms , Roe , Sandy , and Lou Anne , that he is diabetic and his needles are for insulin , not heroin . 
+Question: What resource is Ethan lacking as a result of his addiction to heroin?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: She thanked them and put them on her kitchen table. 
+Question: Which color was not a favorite?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: When it is time to go, Luke leads Sparky back to the sidewalk. 
+Question: What actions does Luke take in this story?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: He got it for his ninth birthday. 
+Question: What do the boys get to play on at their school next year?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: The difficulty there was that Wolfie didn't purr a lot. 
+Question: When did Wolfie purr?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Ralph was an alligator that loved to splash around in the water. 
+Question: How did Ralph trick Henry into thinking the lake was scary?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: He jumped on his favorite chair and looked down as Maggie ran under it. 
+Question: What was the dog's name?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: When Jimmy got home his hat was sitting there next to his goldfish. 
+Question: why couldn't he keep looking?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: The wizard smiled at the man in a friendly way and said to him, I can show you the way out of the woods, if you give me the one thing you love most in the world. 
+Question: What was the wizard like?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: He was moving his head back and forward to some music that he was playing when a spider dropped on his ice-cream for a little bite. 
+Question: Why did my dad not eat a dingdong?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Those things included some dog food, water and a blanket. 
+Question: What did the man buy for the dog?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Help!. 
+Question: What does Rock want to do?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Within the districts lie VDCs (villages), 3 municipalities (Bhaktapur, Kirtipur, Madhyapur Thimi), 1 sub-metropolitan city (Lalitpur), and 1 metropolitan city (Kathmandu). 
+Question: How many sub-metropolitan cities are present in the districts that make up the Kathmandu valley?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: She needed Samantha. 
+Question: What did Samantha do after Jane dropped her?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: The root beer tree had five fruits. 
+Question: Which food made the most fruits?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: asked Lucy. 
+Question: Why does Lucy like flying?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Michelle was making pies and cakes out of mud. 
+Question: What was Michelle's idea?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Megan was afraid again and cried and cried. 
+Question: Who all tried to get her to ride the bigger rides?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: The sky was clear and there was only a little bit of wind. 
+Question: What was the weather like that day?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Now it was time for Pam to pick out the vegetables she would buy for dinner. 
+Question: Why did Pam and Ron go their separate ways in the store?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Instead, he was going to climb the fence into Mr. Grumpy's yard!. 
+Question: What was the name of the man next door?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: I think you need to tell your mom!. 
+Question: What was the name of the man next door?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: In 1956, air transportation was established and the Tribhuvan Highway, between Kathmandu and Raxaul (at India's border), was started. 
+Question: When did construction on the Tribhuvan Highway begin?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Then, four and a half seconds later, Mitch turned into a giant Walrus named Ted!. 
+Question: Mitch's heart is ____, after joining the _____.?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: He loved spending time with him when he was younger, but he had moved last year. 
+Question: Why doesn't Jake's Grandfather play baseball with him now?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: After school on Friday, Lisa rushes to the pet store. 
+Question: What does Whiskers like to do?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: She thought that they were friends and if her best friend Cindy had been invited, why not her?. 
+Question: Who did we think was not invited to the party?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: The three kids went to school and had many friends in the town. 
+Question: What did the town leader ask the dad to do?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: After three hours there was still not a bite. 
+Question: What did he catch?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: That was no fun. 
+Question: What happened when the boy got the pea?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: But Jill got some bad news before going to bed. 
+Question: Why was Jill sad after school?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Sure!. 
+Question: What did Drake and Lana spend their day doing?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Nepal's art and architecture is an amalgamation of two ancient religions, Hinduism and Buddhhism. 
+Question: Along with Buddhism, what religion has had a significant influence on Nepal?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: As the frog went away, Manny was very confused. 
+Question: Why did Tony call Manny a liar?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: - Mary said: Josh, Thank you - Excuse me, Mary ... I have to go ... Otherwise I'll be late for school ... And I would not want to upset the teacher. 
+Question: Who are the principal characters of the story?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Sleeping reindeer are not very helpful. 
+Question: What is the most important thing Santa Claus has to do and why?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: And who is this nice young man?. 
+Question: What did Miss Washington say when she first saw Roberto and his mother?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: The next day Fluffy said, Hey, everybody, let's go annoy the dogs. 
+Question: Which kitten scared away the dogs?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Soon he was back to work juggling and telling jokes. 
+Question: How does the clown work hard?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Today, John was ready for the bus. 
+Question: Where was John taking the bus?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: His idea was to stop Henry from beating him by using a trick. 
+Question: What great idea did Ralph come up with on his birthday?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Noodle found a long brown stick. 
+Question: Where was Jack when he saw the pond with ducks in it?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Kacey got home to see the big back of the monster in the door. 
+Question: What does Kacey do and what bad thing happens because of it?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: One of the best things about watching Reggie is that we know when Jim and Linda come home, Linda bakes us a cherry pie for taking care of Reggie. 
+Question: How many dogs and cats do we have?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: I'll say, like many people, I do have fears and that fear is snakes so I won't get to take care of them!. 
+Question: Which of the following is Lilly afraid of?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Why did you sign up for this when we all knew you wouldn't win?. 
+Question: Why does Tim start out so far behind?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: The wind knocked it down!. 
+Question: What happened to Mortamer's house?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: I turned into banana skin after throwing trash on the school yard. 
+Question: Who are the principal characters of the story?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: He would chase me around the house. 
+Question: What did Rex do to Clyde?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: He used a black pencil to write the truth on this stone, but the writing turned out blue. 
+Question: Why did Steve's sister bring him a coat?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: She dreamed about the fun she would have at the dance. 
+Question: Why did Sally want to look nice?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: This made the robot very happy. 
+Question: Where did Carl come from?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: I'll play with my sister's dolls, said Andy, but he kept being bored. 
+Question: What didn't Andy play with?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: He turned around to see what was wrong. 
+Question: What happened during the race?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Dan and his class were going to the ocean. 
+Question: Who all was going to the ocean with Dan?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Susie woke up early on Saturday morning. 
+Question: Why does Susie's mother want Mary to take a kitten?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Twenty years later, and the boy was the drummer in a band. 
+Question: What happened to the boy?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: He would also throw buckets of water at the people watching the circus, wetting all the people in the front seats. 
+Question: What silly things did Happy do in his act?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: She's pregnant, Mom told him. 
+Question: What happened to the mother cat?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: He also said that he thought that she may be the missing princess. 
+Question: What did the princess climb to see the castle?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: They play with a Frisbee. 
+Question: What game did Jack play with Max in the yard?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Ms. Strawberry loved to make vanilla cupcakes!. 
+Question: What kind of frosting did the cupcakes have?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: They were a couple named Frank and Francine. 
+Question: Who did Frank apologize to?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Sean is an elephant who watches television with Timothy. 
+Question: What does Timothy do with Mandy and Andrew?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: The wizard became angry and steam poured from his eyes He blocked out the sun so the girl lived only in darkness. 
+Question: What was the wizard like?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: When he finally got there, he asked, Do you have any strawberries?. 
+Question: Who finally had a strawberry for Andy?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: She would miss seeing her friends at home this summer. 
+Question: How was Linda feeling on the last day of school?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: The sun was very bright and Jamie had an idea. 
+Question: What did Jamie and Joe buy from the store?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: She loved to feel the wind in her wings as she flew. 
+Question: Why does Lucy like flying?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: He always wants to be well rested. 
+Question: How many points did the Dolphins score and who scored the goals?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Harry called his friends John, Rodney, and Bruno to ask if they knew where Tom was. 
+Question: What was the first thing that Harry asked his friends?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: She had only met her dad in person once, but they wrote letters to each other every week. 
+Question: Where does Lizzie write her letter?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: When he did, the sailor yelled, That's no monkey, that's Pauly!. 
+Question: Who yelled That's no monkey, that's Pauly!?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Callie lived in a beautiful house with her husband. 
+Question: What color was Callie's Horse?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Hey, you can't use the freeze spell. 
+Question: What did Frank try to do that Bobby didn't like?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: I saved you some bacon, Mr. sleepy head, his father said as he smiled at Curtis. 
+Question: What did the animal doctor do for Bonnie the pony?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: He sat in the bowl with Artie the apple and Gertie the grapes. 
+Question: What are the pear's friends' names?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Anita was there on her white bicycle. 
+Question: What color bicycle won the race?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: During a 2013 cold front, the winter temperatures of Kathmandu dropped to −4 °C (25 °F), and the lowest temperature was recorded on January 10, 2013, at −9.2 °C (15.4 °F). 
+Question: On what date in 2013 was it 15.4 degrees Fahrenheit in Kathmandu?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: We rode our bikes around and went down to the lake. 
+Question: what did Tommy and I do at the park in the morning and afternoon?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: There was even a tiny room in the back of one of the closets. 
+Question: What did the castle have?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: I swung the vacuum hose around too quickly, knocking the pig's shelf, and down it went. 
+Question: Where did the bank come from?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Millisa was Ann's best friend; they shared everything with each other and trusted each other very much. 
+Question: Who was Anne's best friend?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Like a fox!. 
+Question: Who ate another character's sister?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Snowball then jumped down to the middle shelf, and down to the table, and down to the couch, and back to the floor. 
+Question: Which kitten got the ball of yarn?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Teenaged children of relatively well-off local farmers , they are apparently given `` everything they want '' but are still bored and are locked in a never-ending desire for `` kicks '' in which they will never be satisfied . 
+Question: Who are the adults of Mayville fed up with?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: The librarian, Mr. Hernandez, knows Michael and Karen, because they are in the library a lot. 
+Question: Why does Mr. Hernandez know what kind of books Michael and Karen like?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: The cat gets mad. 
+Question: What do Lauren and Alan give to Lulu to sleep with?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Joe's father saw him playing on the tractor and called for him. 
+Question: What was Joe doing on the tractor?
+output: ",Yes.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Kevin then said goodbye to Jessica and went home. 
+Question: What did the chipmunk do after stealing the keys?
+output: ",No.
+"Definition: You are given a sentence and a question in the input. If the information provided in the sentence is enough to answer the question, label ""Yes"", otherwise label ""No"". Do not use any facts other than those provided in the sentence while labeling ""Yes"" or ""No"". There are only two types of valid responses: Yes and No.
+Positive example 1-
+input: Sentence: GOP leaders submitted the new offer Tuesday afternoon in an effort to appease Democrats, whose votes are needed to avert a shutdown of federal agencies, several House and Senate aides said. Question: Who has to be appeased to keep the government open?
+output: Yes.
+Positive example 2-
+input: Sentence: His mother, Ann Dunham (1942–1995), was born in Wichita, Kansas, of mostly English descent, with some German, Irish, Scottish, Swiss, and Welsh ancestry. Question: How old was Obama’s mother when he was born?
+output: No.
+Now complete the following example-
+input: Sentence: Paul separated more eggs and mixed the egg whites. 
+Question: What ingredients did Paul use to make the desserts?
+output: ",Yes.

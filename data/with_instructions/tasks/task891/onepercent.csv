@@ -1,0 +1,11 @@
+input,output
+"Definition: Read the passage and find the corresponding person for the given pronoun. The word between ** ** is the target pronoun.
+Positive example 1-
+input: The current members of Crime have also performed in San Francisco under the band name ''Remote Viewers``. Strike has published two works of fiction in recent years: Ports of Hell, which is listed in the Rock and Roll Hall of Fame Library, and A Loud Humming Sound Came from Above. Rank has produced numerous films (under **his** real name, Henry Rosenthal) including the hit The Devil and Daniel Johnston.
+output: Henry Rosenthal
+Positive example 2-
+input: Killian in 1978--79, an assistant district attorney for Brunswick Judicial Circuit in 1979--80, and a practicing attorney in Glynn County in 1980--90. Williams was elected a Superior Court judge in 1990, taking the bench in 1991. In November 2010 Williams competed against Mary Helen Moses in **her** most recent bid for re-election.
+output: Williams
+Now complete the following example-
+input: Lee Roy Martin, also known as the Gaffney Strangler, was an American serial killer from Gaffney, South Carolina. He murdered 4 girls in 1967-1968. On Feb. 8, 1968 Leroy Martin called Bill Gibbons the editor of The Gaffney Ledger. Martin gave Gibbons a list of names and locations of the 3 women **he** had killed so far.
+output: ",Martin

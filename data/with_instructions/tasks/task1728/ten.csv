@@ -1,0 +1,129 @@
+input,output
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: Java | ethnicGroup | Javanese_people
+Ayam_penyet | ingredient | Fried_chicken
+Ayam_penyet | region | ""Nationwide, also can be found in Malaysia and Singapore""
+Ayam_penyet | country | Java
+output: ","The fried chicken dish Ayam penyet is made nationwide in Java (home of the Javanese), and can also be found in Malaysia and Singapore."
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: Buffalo,_New_York | isPartOf | New_York
+output: ",Buffalo New York is part of New York.
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: English_language | spokenIn | Great_Britain
+output: ",English is spoken in Great Britain.
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: Asher_and_Mary_Isabelle_Richardson_House | location | Asherton,_Texas
+Asher_and_Mary_Isabelle_Richardson_House | added to the National Register of Historic Places | ""1988-11-22""
+Asher_and_Mary_Isabelle_Richardson_House | ReferenceNumber in the National Register of Historic Places | ""88002539""
+Asher_and_Mary_Isabelle_Richardson_House | yearOfConstruction | 1911
+output: ","Asher and Mary Isabelle Richardson House is located in Asherton, Texas and was built in 1911. The building was added to the National Register of Historic Places on 22 November 1988 with the reference number 88002539."
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: Bhajji | region | Karnataka
+Bhajji | mainIngredients | ""Gram flour, vegetables""
+Bhajji | alternativeName | ""Bhaji, bajji""
+Bhajji | ingredient | Gram_flour
+output: ","Bhaji and bajji are alternative names for Bhajji, which is found in the region of Karnataka. Gram flour and vegetables are the main ingredients of bhajji."
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: Massimo_Drago | club | U.S._Castrovillari_Calcio
+A.C._Cesena | manager | Massimo_Drago
+Massimo_Drago | club | A.S.D._Licata_1931
+output: ",Massimo Drago was once a player for US Castrovillari Calcio and has been the manager of A C Cesena. He was also at the club ASD Licita 1931.
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: Baymax | voice | Scott_Adsit
+Scott_Adsit | birthPlace | Northbrook,_Illinois
+output: ","Scott Adsit was born in Northbrook, Illinois and does the voice for Baymax."
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: United_States | leaderTitle | President_of_the_United_States
+United_States | leaderName | Joe_Biden
+250_Delaware_Avenue | location | United_States
+output: ",President Joe Biden leads the United States which is the location of 250 Delaware Avenue.
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: AEK_Athens_F.C. | numberOfMembers | 69618
+AEK_Athens_F.C. | ground | Greece
+AEK_Athens_F.C. | league | Superleague_Greece
+output: ","AEK Athens F.C., with 69618 members, play in the Superleague Greece. Their ground is in Athens."
+"Definition: You will be given one or more triples. The second part of each triple shows the relation between the first and the third element. Your task is to write a simple and short piece of text (sentence(s)) that describes the triples in natural language.
+Positive example 1-
+input: Amsterdam_Airport_Schiphol | runwayName | ""09/27 'Buitenveldertbaan'""
+output: Amsterdam Airport Schipol runway name is 09/27 Buitenvelderbaan.
+Positive example 2-
+input: Bacon_sandwich | country | United_Kingdom
+Bacon_sandwich | ingredient | Bacon
+output: Bacon sandwich is a dish from the United Kingdom and not surprisingly includes bacon as an ingredient.
+Now complete the following example-
+input: Acta_Mathematica_Hungarica | abbreviation | ""Acta Math. Hungar.""
+Acta_Mathematica_Hungarica | academicDiscipline | Mathematics
+Acta_Mathematica_Hungarica | ISSN_number | ""1588-2632""
+output: ",The Acta Mathematica Hungaria (Acta Math. Hunger.) covers the academic discipline of Mathematics. Its ISSN number is 1588-2632.

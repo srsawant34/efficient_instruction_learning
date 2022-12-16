@@ -1,0 +1,21 @@
+input,output
+"input: name[xname], eattype[coffee shop], cuisine[Chinese], price[cheap], rating[average], location[city centre], familyFriendly[no], near[xnear]
+output: ",xname is a coffee shop providing Chinese food in the cheap price range. It is located in the city centre. It is near xnear. Its customer rating is average.
+"input: name[xname], cuisine[French], rating[1 out of 5], familyFriendly[yes], near[xnear]
+output: ",There is a kid friendly restaurant xname near the xnear.
+"input: name[xname], cuisine[Fast Food], rating[3 out of 5], location[riverside], familyFriendly[yes]
+output: ",In the riverside area you'll find a kid friendly fast food restaurant with average food called xname.
+"input: name[xname], eattype[coffee shop], price[more than £30], location[riverside], familyFriendly[no], near[xnear]
+output: ","xname, riverside near xnear, is a high priced, non family-friendly coffee shop."
+"input: name[xname], recommend[yes], cuisine[French], decor[acceptable], qual[acceptable], location[Midtown], price[expensive], service[acceptable]
+output: ","Because xname is a French restaurant and expensive. It is in Midtown with kind of pleasant decor with satisfying food and quite welcoming service, I would consider xname."
+"input: name[xname], cuisine[Italian], rating[average], location[riverside]
+output: ",xname  is a 3 star river side restaurant
+"input: name[xname], eattype[coffee shop], cuisine[Indian], rating[5 out of 5], location[city centre], familyFriendly[yes], near[xnear]
+output: ","Family friendly and with a 5 of 5 rating, xname is an Indian coffee shop in the city centre area near xnear."
+"input: name[xname], cuisine[Fast Food], price[high], familyFriendly[yes]
+output: ",xname is fast food and child friendly but the prices are high.
+"input: name[xname], eattype[pub], rating[5 out of 5], location[riverside], familyFriendly[yes]
+output: ","By the riverside, enjoy a pub cuisine, at the xname restaurant, in a family friend scene, with a 5 out 5 star rating."
+"input: name[xname], cuisine[Fast Food], price[£20-25], familyFriendly[yes], near[xnear]
+output: ",xname fast food restaurant near xnear is kid friendly and affordable.

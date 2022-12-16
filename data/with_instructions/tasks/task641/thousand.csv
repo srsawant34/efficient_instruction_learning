@@ -1,0 +1,881 @@
+input,output
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A black and white dog jumps up and down in the snow. <sep> A dog is warm in it's bed.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: man in blue shirt sitting on the side of the road with a wheelbarrow of vegetables <sep> A man sitting next to a wheelbarrow full of produce.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A man in a white shirt, dark shorts and a red cap is standing in a small green rowboat with green oars, in the middle of what appears to be a shallow river, against a bank of tall dried grasses. <sep> The man is fishing in the lake.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Two people walking outside in the woods in the winter time wearing jackets with hoods on them. <sep> Two people are soaking up the sun in the summer time.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: One man, wearing a blue jacket, is kicking another man, wearing a red jacket. <sep> One guy kicks another.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A woman is standing at a podium. <sep> The woman is making a speach about agriculture.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Dog running with pet toy being chased by another dog. <sep> A dog is being chased by a cat
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A group of men are riding a moving walkway. <sep> A group of women are baking in a kitchen.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A light technician man with tribal tattoos aiming a spotlight over a balcony. <sep> An actress takes the stage.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Topless girl riding a red bike. <sep> The woman is wearing a shirt.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A group of cyclists at a race with their arms around each other. <sep> A group of gymnasts performing.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Two men are playing during a basketball game. <sep> Two men are playing during a college basketball game.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A pale colored dog runs through a body of water. <sep> A dog runs through some water.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A tattooed man posing with a woman carrying a yellow handbag. <sep> The couple poses together.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A picture of an artwork that depicts a man being flown by birds that is in font of a construction area. <sep> A man is being carried by birds.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A child in a jeans jacket and shorts holding up a white dress as another darker-skinned child looks at it. <sep> a dog eats his food
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: This person in a yellow kayak is riding the rapids. <sep> This person is on a river
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Two young girls show prints of a line drawing of an animal. <sep> Two young boys show prints of a line drawing of inanimate objects.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A group of people is sitting at a large table and using paint brushes to form characters on white paper. <sep> The people are using their fingers to paint with.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A young woman skateboarding on an outdoor basketball court in front of a mural. <sep> The young woman is riding a unicycle.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A man playing a large stringed instrument on the street. <sep> There is a man entertaining outdoors.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A man wearing black carving stone. <sep> The man is very tall.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A man in glasses in a basement. <sep> The basement has a man in it.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A boy looks on at an electric device with three batteries inside of it and wires all around. <sep> A boy is taking a nap in his bed.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A group of people wearing white robes with flame pattern posing for a picture at some sort of festival. <sep> The group of people are scuba divers.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A man in summer clothing skiing on thin snow. <sep> A man is bundled up against the cold as he skis.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A road worker is holding a stop sign to direct traffic. <sep> A road worker is holding a shotgun to direct traffic.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Two wrestlers in an intense match. <sep> Two wrestlers are competing and are brothers.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A man looks at an iPad on a subway, while a beautiful women reads a book. <sep> A man and woman are on a boat in the middle of the sea.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A man wearing a straw hat sitting in a chair holding the leash on a dog who is laying on the sidewalk next to him. <sep> A man is holding the leash of a dog.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A boy and girl child swing together on a swing set. <sep> A boy and a girl are cooking breakfast.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A group of young cheerleaders in pink and white costumes perform on a stage. <sep> Cheerleaders are performing.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A boy is running in a spinning metal tunnel in the playground. <sep> He is getting dizzy.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A man sits writing at a table set up on a sidewalk. <sep> A woman stands on a street corner.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A person, in a striped blue shirt and pants, is running along. <sep> The person is old
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A boy in a hat and glasses is playing a guitar. <sep> A boy is singing.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A woman with a blue shirt and colorful hair has just thrown the bowling ball. <sep> A women is sleeping.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: People in bathing suits bend down and reach into the water of a lake. <sep> A puppy is sitting.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A group of young men are dumping soil onto the ground of their backyard. <sep> The young men laze about on the beach, sunning themselves in the afternoon sun.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A man wearing only a hat, boots, and underwear is walking the sidewalk with a guitar strapped around his shoulder. <sep> A man wearing only a hat, boots, and underwear is licking the sidewalk
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A man in a boom lift bucket welds. <sep> A man is painting.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A woman wearing purple and carrying a bag is walking out of a door. <sep> A woman was indoors before walking outside.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: People on a nature walk with nets and backpacks with trees to the left of them. <sep> People on a nature walk with nets and backpacks with trees to the left of them hope to return to camp before sundown.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Clowning around in the bathroom, toothpaste makeup! <sep> fooling around in the bathroom
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Two workers, one in a ditch and one standing on the ground, are working in front of a house. <sep> The workers are sleeping.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A man wearing an oxford shirt, sunglasses, and a hat smirks. <sep> A man with his diving gear.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A boy in a red shirt is squatting in front of a circle of stones with a pot in the middle. <sep> A boy sits in front of stones.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Three musicians are playing in a band. <sep> The rock band is playing to a sold out crowd
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A group of students are walking through the campus. <sep> A group of people are walking together
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A person is squatting down near buckets, holding something in one hand. <sep> Someone is dipping a sponge in a bucket of soapy water.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A little white curly-haired dog runs across the pavement with a stick in its mouth. <sep> A dog barks at the wall.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: a male teen is working on a school project. <sep> A 16 year old doing homework.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Two uniformed women, wearing jackets saying 'Politie' on the back, are looking at each other in front of a crowd. <sep> The women are married.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A biker with a blue jacket, black pants, and white helmet driving on dirt while people watch. <sep> A biker is getting ready to race against his opponents.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: An elderly man with glasses, a red ball cap and backpack is standing in front of an open doorway. <sep> the man is flying a plane
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Four human figures are backlit by a sunset. <sep> Four men are sitting in the shade under the bright glare of the sun
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A female bicyclist wearing black, and having four number 9's printed on her limbs on a bike. <sep> A woman riding a bike.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: The hockey players and referee are preparing for a face-off. <sep> The dog is sliding across the ice at the hockey match.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Girl wearing white shirt sings on stage while playing guitar <sep> A girl plays guitar and sings on stage.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: People are on an escalator waiting to get to their destination while looking outside of the glass that makes up the wall. <sep> People are taking the elevator.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Four men stand in a circle facing each other playing brass instruments which people watch them. <sep> The men are watching a sports channel
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Four men are posing behind a cash register. <sep> The men all know each other.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Four men stand in a circle facing each other playing brass instruments which people watch them. <sep> People love the music
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A well dressed elderly woman standing in front of a bus decorated with images of purple flowers. <sep> A grandmother is standing in front of a bus with violets decorated all over it.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A group of people wait to cross the street in new york <sep> Some of the people are wearing sunglasses.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Two men are making hand gestures and posing for a picture. <sep> The men are standing in total darkness.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A brown dog persues a Frisbee across the grass as the thrower watches. <sep> A dog plays in the park.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Two women are speaking to each other, one sitting and facing away, while the other is standing in a white office. <sep> The women are speaking to each other.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: There are several asian people, one wearing a baseball cap. <sep> There are many people attending a baseball game.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A sculptor wearing yellow headphones is cutting stone. <sep> The man is an artist.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: People protesting age discrimination in an organized street rally. <sep> People are inside watching tv.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A young male is running while playing tennis against another person. <sep> Two people play tennis as one of them runs.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Two girls are playing in the snow and throwing snowballs. <sep> Two girls are somewhere cold.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A group of Chinese people sitting and laying down together on what appears to be a front porch. <sep> A group of Chinese people are hanging out on a porch.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: The gentleman is speaking while the others are listening. <sep> The man is respected.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Two cars are being driven in a car race. <sep> A Bugatti and a Lambourgini compete in a road race.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A woman and two men, that are dressed professionally, are having a discussion. <sep> A woman and two men are having a discussion about freedom.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A man in a jean jacket is reaching into a bag and walking past two women. <sep> man walks past women
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Police are setting up a barricade due to a fire. <sep> People in uniform are working near a fire.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A golfer is getting ready to putt on the green, with a crowd of people watching in the background. <sep> The golfer retired from play today.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Family gathered together in a house enjoying each other company. <sep> A family is sitting together inside a house.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A boy in a yellow shirt running by some birds. <sep> The boy is moving very fast.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Blue, red, yellow, and white are the dominant colors of a picture of two police vehicles outside of what looks like a smoke roll playing vehicle, a motorcycle in between the two cars with 6 people in the picture. <sep> The six people are all police.
+output: ",N
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A dog carries an object in the snow. <sep> A dog is asleep in its dog house.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A woman in white climbs up a metal structure. <sep> A woman is being athletic.
+output: ",E
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A group of children in costumes are on a stage with red curtains. <sep> a group of children are sitting at desks
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: Two women are relaxing in a hot tub. <sep> Two men are in the hot tub.
+output: ",C
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A woman in a striped shirt is walking a horse across a street. <sep> A woman in a striped shirt is running with a dog across a street.
+output: ",C

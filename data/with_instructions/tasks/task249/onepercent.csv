@@ -1,0 +1,51 @@
+input,output
+"Definition: In each example you will read a short sentence (or two). Then, a pronoun in the text is mentioned. Your task is to choose a referent which the mentioned pronoun refers to. You will be given two options in each case and one choice should seem much more likely to you than the other.
+Positive example 1-
+input: sentence: I couldn't put the saucepan on the rack because it was too tall .pronoun: it. A) the saucepan B) the rack
+output: the rack
+Positive example 2-
+input: sentence: Arnold greatly influenced Jackson , though he lived two centuries earlier .pronoun: he. A) jackson B) arnold
+output: arnold
+Now complete the following example-
+input: sentence: Jack's father had died long ago , and his education had been managed by an excellent man as tutor .pronoun: his. A) jack B) jack's father
+output: ",jack
+"Definition: In each example you will read a short sentence (or two). Then, a pronoun in the text is mentioned. Your task is to choose a referent which the mentioned pronoun refers to. You will be given two options in each case and one choice should seem much more likely to you than the other.
+Positive example 1-
+input: sentence: I couldn't put the saucepan on the rack because it was too tall .pronoun: it. A) the saucepan B) the rack
+output: the rack
+Positive example 2-
+input: sentence: Arnold greatly influenced Jackson , though he lived two centuries earlier .pronoun: he. A) jackson B) arnold
+output: arnold
+Now complete the following example-
+input: sentence: the father lifted the son onto his bunk bed .pronoun: his. A) the father B) the son
+output: ",the son
+"Definition: In each example you will read a short sentence (or two). Then, a pronoun in the text is mentioned. Your task is to choose a referent which the mentioned pronoun refers to. You will be given two options in each case and one choice should seem much more likely to you than the other.
+Positive example 1-
+input: sentence: I couldn't put the saucepan on the rack because it was too tall .pronoun: it. A) the saucepan B) the rack
+output: the rack
+Positive example 2-
+input: sentence: Arnold greatly influenced Jackson , though he lived two centuries earlier .pronoun: he. A) jackson B) arnold
+output: arnold
+Now complete the following example-
+input: sentence: Mary and Joan tucked their daughters Anne and Lucy into bed , so that they could work .pronoun: they. A) mary and joan B) mary and joan's daughters
+output: ",mary and joan
+"Definition: In each example you will read a short sentence (or two). Then, a pronoun in the text is mentioned. Your task is to choose a referent which the mentioned pronoun refers to. You will be given two options in each case and one choice should seem much more likely to you than the other.
+Positive example 1-
+input: sentence: I couldn't put the saucepan on the rack because it was too tall .pronoun: it. A) the saucepan B) the rack
+output: the rack
+Positive example 2-
+input: sentence: Arnold greatly influenced Jackson , though he lived two centuries earlier .pronoun: he. A) jackson B) arnold
+output: arnold
+Now complete the following example-
+input: sentence: The large balls crashed right through the tables because they were made of styrofoam .pronoun: they. A) the large balls B) the tables
+output: ",the tables
+"Definition: In each example you will read a short sentence (or two). Then, a pronoun in the text is mentioned. Your task is to choose a referent which the mentioned pronoun refers to. You will be given two options in each case and one choice should seem much more likely to you than the other.
+Positive example 1-
+input: sentence: I couldn't put the saucepan on the rack because it was too tall .pronoun: it. A) the saucepan B) the rack
+output: the rack
+Positive example 2-
+input: sentence: Arnold greatly influenced Jackson , though he lived two centuries earlier .pronoun: he. A) jackson B) arnold
+output: arnold
+Now complete the following example-
+input: sentence: Lucy follows Joan's example in everything . She influences her hugely .pronoun: She. A) lucy B) joan
+output: ",joan

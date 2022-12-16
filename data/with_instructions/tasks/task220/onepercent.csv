@@ -1,0 +1,631 @@
+input,output
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Kira didn't know what to make for dinner. Sentence 2: She searched the kitchen cabinets and refrigerator, taking inventory. Sentence 3: Kira's sister suggested they order a pizza instead. Sentence 4: Kira smiled, realizing they had pizza ingredients in the house. Sentence 5: Kira and her sister made pizzas for dinner. Choices: a. The Jail. b. Chef Kira.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Harry is a baby. Sentence 2: He doesn't know how to be gentle when he pets a dog. Sentence 3: Harry's mother tried to teach him how to be gentle. Sentence 4: Harry pulled the dog's ears. Sentence 5: His mother decided he is still too young to be near the dog. Choices: a. Petting the Dog. b. Researching for hope.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Sal talked about all his coworkers behind their backs. Sentence 2: When Marie got married, she didn't invite Sal. Sentence 3: All the other coworkers were there. Sentence 4: They loved having a night out without Sal's negativity. Sentence 5: Sal couldn't understand why he'd not been invited. Choices: a. Clueless Sal. b. Too Strong.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: I bought my headphones earlier this year. Sentence 2: They are made by Audio Technica. Sentence 3: I ordered them from Amazon. Sentence 4: They shipped very fast. Sentence 5: As soon as I took them out of the box, I was in love. Choices: a. Drive. b. Headphones.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Austin has baseball practice, but his dad is sleeping because of work. Sentence 2: He tells his mom that going to practice is important, he needs to go. Sentence 3: His mom thinks of a way to get Austin to go to his practice. Sentence 4: She finally decides to call his baseball coach to see if he will help. Sentence 5: Austin's coach after he talks to his mom comes to take him. Choices: a. Sudden Death. b. Austin needs a ride to baseball practice..
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Tom bought a new house by the freeway. Sentence 2: It was loud but he couldn't afford anything else. Sentence 3: Tom struggled with it at first. Sentence 4: After a while he invested in good earplugs. Sentence 5: They made a huge difference. Choices: a. Circulation. b. Loud Street.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Nick and Pat met when they were 7 years old. Sentence 2: They lived across the street from one another when they were children. Sentence 3: They went to the same schools and always hung out together. Sentence 4: When they became adults Nick moved away but they still kept in touch. Sentence 5: They are now 53 years old and they are still the closest of friends. Choices: a. Successful business at 23. b. Childhood friends forever.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Kate's family was going on a trip to Mississippi. Sentence 2: Kate was sure it would be boring. Sentence 3: But there were fruit trees, and chickens to chase. Sentence 4: She no longer thought it would be a boring trip. Sentence 5: Kate now thought she would enjoy this adventure. Choices: a. Sister. b. Farm House.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Kia was tasked with taking her younger brothers to a movie. Sentence 2: She complained, thinking she'd be bored. Sentence 3: But when the movie started, she was surprised. Sentence 4: It was actually very, very funny! Sentence 5: Kia ended up enjoying herself immensely! Choices: a. Gestational Diabetes. b. Movie Surprise.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Ted wanted to know what his IQ score is. Sentence 2: Ted asked his friend for help. Sentence 3: His friend was a doctor who routinely administered IQ tests. Sentence 4: His friend allowed him to complete the test. Sentence 5: Ted was happy to learn his IQ score. Choices: a. IQ. b. Dianes New Phone.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Allie was with Fred. Sentence 2: Then a beautiful girl walked by. Sentence 3: Fred wanted her instead. Sentence 4: So he dumped Allie. Sentence 5: Allie was upset. Choices: a. Hard to Believe. b. Dumping for someone else.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Lance always swore by his lucky coin. Sentence 2: His friends would tell him it was just silly superstition. Sentence 3: One day Lance cannot find his lucky coin. Sentence 4: The rest of the day he has bad luck. Sentence 5: Lance finds his coin under his bed and the next day is much better. Choices: a. Meditation. b. Lance loses his lucky coin.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: One day Nicholas was at his job driving his taxi. Sentence 2: While driving is taxi a car crashed into him. Sentence 3: He got out of his car to check on the other driver. Sentence 4: The other driver was okay. Sentence 5: They both went to the hospital to get helped. Choices: a. Ben gets heartbroken. b. Nicholas has an accident.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: This past weekend, we had to leave my dog with a pet sitter. Sentence 2: I packed his things in a bag and we drove to her house. Sentence 3: I was worried about being away but he was excited to go on a car ride. Sentence 4: When we arrived, the pet sitter was very reassuring. Sentence 5: My dog did a great job, but I'm glad he's back home with me, now. Choices: a. Being a Gentleman. b. Pet Sitter.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Sally is going home. Sentence 2: Sally is in the back seat. Sentence 3: Sally's mom swerves off the road. Sentence 4: The car lands in a ditch. Sentence 5: Sally gets out of the car unhurt. Choices: a. Selling Cookies. b. Sally gets in a wreck.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Joe's house was infested with bugs. Sentence 2: So Joe needed his house fumigated. Sentence 3: Joe packed his bags and went to his brothers house. Sentence 4: The exterminators came in the morning and began their process. Sentence 5: The exterminator took care of the bugs and Joe was happy. Choices: a. Exterminator. b. The Snacks.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: I waited near my class before 10 minutes before it started. Sentence 2: When I placed my water bottle in my bag, the cap fell loose. Sentence 3: Some water soaked my lab notebook and other papers. Sentence 4: I quickly took it out. Sentence 5: Since my lab notebook was ruined, I had to throw it away. Choices: a. Breaking up. b. Bad Luck in an Instant.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Larry was visiting the beach one day. Sentence 2: He went swimming in the ocean. Sentence 3: When he returned to his towel, he couldn't find his sunglasses. Sentence 4: He went home. Sentence 5: Larry was unhappy that he had lost his sunglasses at the beach. Choices: a. Larry Loses His Sunglasses. b. Bob Teaches History.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Kim had to go to the doctor's office to get a blood test. Sentence 2: But she was very scared. Sentence 3: She held her arm out. Sentence 4: And her doctor inserted a needle into her vein. Sentence 5: Afterwards, she wondered why she had anything to fear. Choices: a. Blood Test. b. Emergency.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: The tree branch hung over the fence. Sentence 2: They decided to cut it off before it fell on the fence. Sentence 3: Using the chainsaw on the branch caused the tree to vibrate a bit. Sentence 4: A completely different branch than the one they wanted fell off. Sentence 5: Disgusted, they put the chainsaw away and decided to continue later. Choices: a. Ferris Wheels. b. The Tree Branch.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: David likes to go to the beach. Sentence 2: The other day he decided to go there and took some friends with him. Sentence 3: They spent their day at the beach kayaking. Sentence 4: Afterwards they had a picnic lunch on the shore. Sentence 5: At the end of the day they were very tired. Choices: a. Concussion. b. A day at the Beach.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Little Trent went to a circus for the first time with his family. Sentence 2: He was in awe watching the acrobats flip and fly through the air. Sentence 3: He saw a strange looking man with wild hair. Sentence 4: The man honked his nose at Trent. Sentence 5: Trent started crying. Choices: a. Sick Soup. b. No Clowns.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Tim hated dirty sponges. Sentence 2: He was annoyed when his roommates wouldn't squeeze one out. Sentence 3: It made them get moldy and smell bad. Sentence 4: Tim kept throwing them out. Sentence 5: His roommates eventually stopped being as careless. Choices: a. Gross Sponge. b. Pigeons.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: There was a new dress Tara wanted. Sentence 2: She decided to save up to buy the dress. Sentence 3: Tara decided to earn money by babysitting. Sentence 4: Tara put aside the money she made babysitting. Sentence 5: She soon had enough to buy the dress. Choices: a. The Sick Puppy. b. The New Dress.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: I sighed with frustration when Ann cancelled yet another appointment. Sentence 2: I knew our coaching sessions were good for her when she chose to come. Sentence 3: Listening to her stammered excuse, I got a sudden flash of insight. Sentence 4: Acting on instinct, I asked her why she felt undeserving of success. Sentence 5: As silence gave way to tears, I knew we'd finally exposed her barrier. Choices: a. The Root of the Problem. b. Before It Gets Cold.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Last night, I watched Shrek with my girlfriend. Sentence 2: She got afraid and wanted to turn off the movie. Sentence 3: Later that night, I decided to scare her. Sentence 4: I hid in her closet and when she came in, I jumped out and scared her. Sentence 5: She was so afraid that she screamed and ran away. Choices: a. No Dinner. b. Movie Scare.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Fran had won a big trip to Europe on a gameshow. Sentence 2: She was excited, but had to get her passport first. Sentence 3: She went to the post office and stood in line. Sentence 4: Her picture was taken and she received her passport. Sentence 5: Soon she'd be in Europe living her dreams. Choices: a. Getting a Passport. b. Storm Chaser.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Dana has a birthday party. Sentence 2: She invited all her friends. Sentence 3: They all came except for 2. Sentence 4: They gave her presents. Sentence 5: She had a good time. Choices: a. party. b. Sofa.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Jake was playing in the art room. Sentence 2: His parents weren't paying attention. Sentence 3: Jake spilled paint all over the place. Sentence 4: He ruined several pieces. Sentence 5: Jake was reprimanded by his parents. Choices: a. Puppies. b. Ruined Art Supplies.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Henry prepared baked chicken, with rice and mashed potatoes. Sentence 2: He prepared a plate of food for his wife. Sentence 3: When she bit into the chicken, she had a disgusted look. Sentence 4: When she spit her chicken out, Henry can see the wrong pieces. Sentence 5: He immediately apologized. Choices: a. The Robber. b. Looks good but tastes bad.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: I was ready to go to my driver's license test a while ago! Sentence 2: I was very excited and drove there with my brother. Sentence 3: I drove super well the entire way there. Sentence 4: Unfortunately in the parking lot I lost my confidence. Sentence 5: When I was parking I accidentally hit a car and had to leave. Choices: a. Parking. b. After school.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Dan recently went to a nightclub with some friends. Sentence 2: At the club, Dan saw a pretty blonde woman he liked. Sentence 3: Dan decided to ask the woman for a dance. Sentence 4: As Dan began to ask, and the woman turned around, Dan screamed. Sentence 5: Dan realized he was asking his sister Denise for a dance at the club. Choices: a. Night club fiasco. b. New Red Shoes.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: I researched computer parts for 3 weeks. Sentence 2: Then I made a list of the parts that I liked. Sentence 3: I put all of those parts in my NewEgg cart. Sentence 4: I received an email from them after I made the purchase. Sentence 5: The parts are on their way. Choices: a. Not first place. b. New Build.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: I bought a white shirt yesterday. Sentence 2: I put it in the wash when I got it. Sentence 3: I then took it out and saw it was pink. Sentence 4: The colors ran together. Sentence 5: I was quite disappointed. Choices: a. Colored shirt. b. Caught in the wave.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Dean ordered a chicken sandwich from the restaurant. Sentence 2: The cashier gave him the order. Sentence 3: When Dean took a bite of the sandwich, he yelled. Sentence 4: One of his front teeth came out. Sentence 5: He found out that the chicken was overcooked. Choices: a. Jack's Fence. b. Hard as a Rock.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Vanessa brought me a vase of plants. Sentence 2: I thanked her and placed in the table. Sentence 3: I had a bad case of allergies before going to bed. Sentence 4: My daughter took me to the hospital during the night. Sentence 5: The doctor found out that the flowers caused my allergies. Choices: a. Bad Registration. b. Poisonous Gift.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Harry liked to work out at the gym. Sentence 2: Harry lifted weights and gained muscle. Sentence 3: One day, Harry heard about a fitness competition. Sentence 4: Harry increased his workout regimen and entered the competition. Sentence 5: Harry got second place in the fitness competition. Choices: a. Soccer on Tuesdays. b. Working Out.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: I bought a new phone from the store. Sentence 2: The cashier handed the phone to me. Sentence 3: When I turned it on, it couldn't work. Sentence 4: The cashier investigated the the phone. Sentence 5: I've received a refund. Choices: a. Broken Upon Purchase. b. Angry Customer.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Nina caught a turtle at the pond. Sentence 2: She brought it home to be her pet turtle. Sentence 3: But then her brother taught her about turtles. Sentence 4: Nina decided to set her turtle free. Sentence 5: She didn't want to be a cruel captor! Choices: a. Math Exam. b. Turtle.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Bella loves brushing her teeth. Sentence 2: She does it every day and night. Sentence 3: Her parents don't even have to remind her. Sentence 4: She cleans up when she is done. Sentence 5: She even puts everything away. Choices: a. Brushing Teeth. b. The Tea Kettle.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Joni had bought a raffle ticket from the PTO fundraiser. Sentence 2: She had forgotten she had bought the ticket. Sentence 3: A woman called Joni on her cell phone. Sentence 4: The woman told Joni she won a cash prize. Sentence 5: Joni was very surprised. Choices: a. The Raffle Ticket. b. The Blown Umbrella.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: My friend Freya never got married. Sentence 2: She always dated the wrong man. Sentence 3: Her latest boyfriend seemed a good catch and they lived together. Sentence 4: In 2013, he caught him cheating on her and threw him out. Sentence 5: She has not had a boyfriend since. Choices: a. BF Bad Luck. b. Fancy Dinner.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Virgil's car was impounded. Sentence 2: He had to bike to work. Sentence 3: It took a couple of days to get used to it. Sentence 4: At the end of the week he got his car back. Sentence 5: He preferred biking and stuck with it. Choices: a. The Bed. b. Biking to Work.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: I approached my college's running trail. Sentence 2: But the gate was closed. Sentence 3: I decided to find another way onto the trail. Sentence 4: And at the top, there was a great view of the city and mountains. Sentence 5: I was glad that security didn't catch me too. Choices: a. The Heart Attack. b. No Trespassing.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: The school always had parties on Valentine's Day. Sentence 2: The class addressed valentines cards and handed out candy. Sentence 3: They played some Valentine's Day games. Sentence 4: Then they danced. Sentence 5: It was a great party! Choices: a. The Class Party. b. Bored.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: One day Angel got a letter in the mail. Sentence 2: It said she had been selected to appear on a gameshow. Sentence 3: Angel was nervous so she studied hard to pass all of the questions. Sentence 4: She flew to the studio and took her place on stage. Sentence 5: Angel did well on the game show thanks to studying the night before. Choices: a. The Birthday Party. b. The game show.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: I did all my laundry the other day. Sentence 2: I let my laundry pile up a little too much. Sentence 3: I had to spend my whole day doing laundry. Sentence 4: It took a lot of time and I had to buy extra detergent. Sentence 5: That wasn't a whole lot of fun. Choices: a. Doing laundry.. b. The Snoring.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Alice wanted to try some highlights. Sentence 2: Her hair was looking rather dull. Sentence 3: So she bought a box to do it. Sentence 4: But it turned out streaky orange. Sentence 5: She had to go to a salon to fix it. Choices: a. Waffles or pancakes. b. Trying some highlights.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Maria was thrilled to go see her first musical in New York. Sentence 2: She sat down in her seat filled with anticipation. Sentence 3: A man came on the stage announcing that the main star was sick. Sentence 4: Maria's eagerness vanished. Sentence 5: And she stood up to leave the theater. Choices: a. Winter Jacket. b. Star.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Dan had a few friends at school. Sentence 2: One day one spread a rumor about him. Sentence 3: Everyone believed it. Sentence 4: Dan's friends eventually stopped hanging out with him. Sentence 5: Dan had to have lunch alone for years. Choices: a. Old Cartoons. b. Lonely Lunch.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Patti was the prettiest girl in school. Sentence 2: She was also mean, and teased the new girl, June, over her acne. Sentence 3: June was kind and tried to be friendly, but Patti kept teasing her. Sentence 4: One day, Patti had a car accident and got a big scar across her face. Sentence 5: Everybody shunned her except June, whose skin was now clearing. Choices: a. Patti and June. b. Rosie's Diet Struggles.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Lisa was at the mall. Sentence 2: And she was really thirsty. Sentence 3: So she decided to stop at a coffee shop and get an iced mocha. Sentence 4: But it was really bland and over filled with ice. Sentence 5: Lisa decided not to go to coffee shops anymore. Choices: a. Washing Clothes. b. Coffee Regret.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Back in the 1800's there were a lot of people killed. Sentence 2: They were believed to practice witchery and for this they were killed. Sentence 3: Many women were burnt at the stake to a crisp. Sentence 4: A lot of people were killed simply for being different. Sentence 5: This has caused Salem to be an interesting attraction for many. Choices: a. SAlem. b. 100 trips.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: When I was a kid, my family went on a cross country trip. Sentence 2: We visited every single state. Sentence 3: On the trip our RV broke down a lot. Sentence 4: One time it was broken down for a whole day. Sentence 5: Eventually, we got it fixed and finished off the trip. Choices: a. Cross country trip. b. Dinner with friends.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Jill and Greg got divorced after ten years of marriage. Sentence 2: When it was time to share their belongings it was a fight. Sentence 3: They didn't have a prenup and had to argue about everything. Sentence 4: They eventually found a middle ground but forgot one thing. Sentence 5: They didn't know who would keep the dog. Choices: a. Separation. b. Mistake.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: A West Babylon New York man is very lucky. Sentence 2: He won the million dollar lottery twice. Sentence 3: Inn 2012 he bought a twenty dollar scratch-off ticket. Sentence 4: He won a million dollars on that ticket. Sentence 5: In May 2016, he won another million dollars on another scratch-off. Choices: a. Wins Lottery Twice. b. Frozen Turkey.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Paul went to the football game. Sentence 2: It was very cold outside. Sentence 3: Paul's coat did not keep him very warm and he was cold. Sentence 4: Paul went to town the next day. Sentence 5: He looked for a warm, thick coat and purchased it. Choices: a. Paul Got A New Coat. b. ACL.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Old Man Donner's pond always froze over in the winter. Sentence 2: The local school children never failed to take advantage. Sentence 3: Sandra was one such child. Sentence 4: She spent all afternoon skating on that pond. Sentence 5: She loved it very much and would always remember that day. Choices: a. Crush.. b. Ice Skating.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Mia was playing baseball. Sentence 2: It was gym class. Sentence 3: She took a swing at the ball, Sentence 4: She didn't realize she hit the ball at the teacher's head by accident. Sentence 5: Mia was so embarrassed and apologized. Choices: a. Dinner. b. Bad ball.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Seth and his friends are bored on a weekend day. Sentence 2: They are all coming up with ideas of what to do. Sentence 3: Seth asks his friends if they wanna go play basketball. Sentence 4: They all agree to the idea. Sentence 5: Seth and his friends go and play basketball. Choices: a. Seth plays basketball. b. new friend.
+output: ",a
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Dolly read the prayer of Jabez. Sentence 2: It inspired her to move. Sentence 3: She left her teaching job. Sentence 4: She took a better job offer. Sentence 5: She was happy for a change. Choices: a. Flat Tire. b. Prayer of Jabez.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: My grandfather died in a great deal of pain. Sentence 2: He laid in bed for months unable to speak. Sentence 3: Toward the end he could no longer move. Sentence 4: He was falling asleep with his eyes open. Sentence 5: We sat by his bed as he passed away. Choices: a. Repairman. b. Death Again.
+output: ",b
+"Definition: In this task, you're given five sentences, numbered 1 through 5, and two options a and b for possible titles for the story. Your job is to choose the title that better fits the story. Indicate your choice by 'a' or 'b'.
+Positive example 1-
+input: Sentence 1: Marcus needed clothing for a business casual event. Sentence 2: All of his clothes were either too formal or too casual. Sentence 3: He decided to buy a pair of khakis. Sentence 4: The pair he bought fit him perfectly. Sentence 5: Marcus was happy to have the right clothes for the event. Choices: a. Marcus Buys Khakis. b. Marcus Works.
+output: a
+Positive example 2-
+input: Sentence 1: Laura loved corn. Sentence 2: So she decided to grow some in her backyard. Sentence 3: The whole process of growing them made her very excited. Sentence 4: But she realized that they required too much water. Sentence 5: So Laura quickly abandoned her corn garden idea. Choices: a. Water Scarcity. b. Corn.
+output: b
+Now complete the following example-
+input: Sentence 1: Michael needed to drive nearly 10 hours for a meeting. Sentence 2: He got ready for the long drive! Sentence 3: He asked me if the car had any gas and I said yes, it was full. Sentence 4: So he started on his way. Sentence 5: After he got there he called me and said he made it safe. Choices: a. Michael's Drive. b. Student President.
+output: ",a

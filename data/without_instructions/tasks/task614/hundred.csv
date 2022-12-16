@@ -1,0 +1,301 @@
+input,output
+"input: story: Sal was a grumpy person. He had no friends and hated almost everything. He went to town to pick up gifts. They were for himself because he like almost no one. Later that night he cried himself to sleep.
+ selected sentence: They were for himself because he like almost no one.
+output: ",Sal doesn't have friends >Causes/Enables> Sal buys gifts for himself
+"input: story: Ted was walking on an icy sidewalk. He was wearing the wrong kind of shoes. He would slip and try to catch himself on the ice. It took him 50 minutes to walk 50 feet. Ted never leaves home without his snow boots now.
+ selected sentence: Ted was walking on an icy sidewalk.
+output: ",Tim goes to the location of the sidewalk >Causes/Enables> Tim walks on the icy sidewalk
+"input: story: Tom ate a lot and got fatter and fatter. I asked him why he ate so much. He said it was because his wife, Mary, kept buying food. I asked Mary why she bought so much food. She said it was because Tom kept eating the food.
+ selected sentence: Tom ate a lot and got fatter and fatter.
+output: ",Mary bought a lot of food >Causes/Enables> Tom ate a lot of food
+"input: story: Jen wanted to ride her bike. She put on her biking shoes. She put on her biking outfit. She knew she was forgetting Something! She remembered to helmet so she could be safe!
+ selected sentence: She remembered to helmet so she could be safe!
+output: ",Jen forgets Something while getting ready to ride her bike >Causes/Enables> Jen remembers her helmet
+"input: story: Todd had an important meeting in the morning. He set his alarm and went to sleep early. The next morning, he woke up passed his alarm. It turned out that his power went out and his alarm shut off. He called his boss and sadly went to work late.
+ selected sentence: The next morning, he woke up passed his alarm.
+output: ",Todd sets his alarm and sleeps early >Causes/Enables> Todd wakes up past his alarm
+"input: story: Chris loved the NFL. He always wanted to go to a game. So one evening his dad tells him he's gonna be taking him to a game. Chris gets so excited and jumps up and down. Chris and his dad go to the game and have a great time.
+ selected sentence: Chris gets so excited and jumps up and down.
+output: ",Chris gets excited >Causes/Enables> Chris jumps up and down
+"input: story: Yesterday I went on a trip to animal kingdom. It was very fun. I loved going and seeing the animals. I took many pictures. When I left I couldn't wait to go back.
+ selected sentence: When I left I couldn't wait to go back.
+output: ",I leave >Causes/Enables> I can't wait to go back
+"input: story: Aaron was running late for a date. So he was driving 60 in a 30. Instantly he was pulled over by a cop. Aaron always knew flirting with cops could get out of tickets. He now has a date with the backseat of a cop car.
+ selected sentence: So he was driving 60 in a 30.
+output: ",Aaron was running late >Causes/Enables> Aaron speeds
+"input: story: Manuel was a young boy in third grade. He was very close to his father because his mother was gone. That year his father got very sick and passed away. Manuel was very sad and had a hard time with it. He went to live with his sister until he turned 18.
+ selected sentence: Manuel was very sad and had a hard time with it.
+output: ",Manuel's father gets very sick and passes away >Causes/Enables> Manuel is very sad and has a hard time with it
+"input: story: Lily came home from work. When she walked in the house she smelled Something good. It was freshly baked cookies. Lily was so happy. She went in the kitchen and ate many of them.
+ selected sentence: When she walked in the house she smelled Something good.
+output: ",Lily comes home >Causes/Enables> Lily enters the house
+"input: story: Ray was forced to go back to his hometown. Ray thought the trip would be boring. When he got there he was surprised at what he saw. Memories flooded back into his mind of his childhood. Ray had the best weekend of his life!
+ selected sentence: Ray thought the trip would be boring.
+output: ",Ray is forced to go to his hometown >Causes/Enables> He thinks the trip will be boring
+"input: story: Molly and Devin love going on long walks. Last week they decided to go on a walk together. During their walk they saw a lot of squirrels. They went home to tell their friends about all the squirrels they saw. Molly and Devin had a great time out on their walk.
+ selected sentence: They went home to tell their friends about all the squirrels they saw.
+output: ",Molly and Devin see squirrels >Causes/Enables> Molly and Devin tell their friends about the squirrels
+"input: story: Ira went to the store to buy Something to eat. Chips were on sale so he bought a bag. Ira counted the chips as he ate them. The last whole chip in the bag was number 63. Ira ate the small crumbs and counted them as chip number 64.
+ selected sentence: Ira counted the chips as he ate them.
+output: ",Ira buys a bag of chips >Causes/Enables> Ira counts the chips as he eats them
+"input: story: Michael was scared of dust. One day he came home from a long day at work. He sat down on his couch that was dirty. Dust flew up everywhere. Michael got a panic attack.
+ selected sentence: One day he came home from a long day at work.
+output: ",Michael leaves work >Causes/Enables> He comes home from work
+"input: story: Cassidy was riding her bike. She was going down her driveway when she hit a rock. The bike flipped and she fell on the ground. Her mom rushed out to check on her. It turned out that her arm was broken.
+ selected sentence: Her mom rushed out to check on her.
+output: ",Cassidy flipped on her bike >Causes/Enables> Cassidy's mom rushed out to check on her
+"input: story: Tim saw the little girl fall on the sidewalk. He ran up to where she had fallen. He saw that she was crying. Tim reached out and pulled her back up. The little girl started to stop crying as Tim smiled at her.
+ selected sentence: Tim reached out and pulled her back up.
+output: ",Tim runs toward the little girl >Causes/Enables> Tim pulls her back up
+"input: story: My dog needed a new bed. He had torn his into pieces. I decided to go ahead and buy him a new one. When I got home, he had torn up the new one. I decided to give him a blanket from now on.
+ selected sentence: I decided to give him a blanket from now on.
+output: ",My dog tears up its bed >Causes/Enables> I give the dog a blanket
+"input: story: Adam took a walk He then saw a kid by himself. He wasn't sure what to do. Then the kids father shows up. Adam carries on
+ selected sentence: Adam carries on
+output: ",Adam decides to carry on >Causes/Enables> Adam carries on 
+"input: story: My dad and I like to hunt for worms. We use the worms for fishing. Tonight was the perfect night for hunting for worms. Tonight I got the most worms ever. My dad and I decided to sell some worms and use the rest for fishing.
+ selected sentence: Tonight I got the most worms ever.
+output: ",I hunt for worms >Causes/Enables> I get worms
+"input: story: Sally was riding her bike. She was only on her bike for a few minutes before she got a flat tire. She quickly patched up her bike with some tape. She was able to swap out a new tire when she went back to her car. Sally was able to complete her morning bike ride.
+ selected sentence: Sally was riding her bike.
+output: ",Sally gets her bike >Causes/Enables> Sally rides her bike
+"input: story: Felix wanted to go to disney world. One day he won two tickets for entry. He invited his friend Alissa. Alissa hated disney. He ended up going alone.
+ selected sentence: He invited his friend Alissa.
+output: ",Felix wins two tickets >Causes/Enables> Felix invites Alissa
+"input: story: Jonah's son had been playing with his building blocks. His son had left the blocks all over the room. Jonah stepped on a block. It hurt his foot. Jonah threw all the blocks away.
+ selected sentence: Jonah's son had been playing with his building blocks.
+output: ",Jonah's son gets building blocks >Causes/Enables> Jonah's son plays with building blocks
+"input: story: Larry wanted an apple for lunch. He went to the store to buy it. He bought it. He brought it home. He ate the apple for lunch.
+ selected sentence: He brought it home.
+output: ",Larry buys an apple >Causes/Enables> Larry brings home the apple
+"input: story: Matt threw a party. It was a lot of fun for Matt. He loved being with his friends and having a good time. The only problem is that it made his house messy. He had to clean up the place by himself, so he was upset.
+ selected sentence: He had to clean up the place by himself, so he was upset.
+output: ",Matt throws a party at his house >Causes/Enables> Matt cleans up his house
+"input: story: There was a girl who had very long hair. It was black and soft. But her hair always got everywhere. One day I found one of her hairs in my soup. It was very long and got down my throat.
+ selected sentence: But her hair always got everywhere.
+output: ",The girl's hair falls out >Causes/Enables> The girl's hair gets everywhere
+"input: story: Tom was walking around outside. He saw a straw cat. He decided to pet it. The cat bit him. He got very nervous and went to the doctors.
+ selected sentence: Tom was walking around outside.
+output: ",Tom was walking around outside >Causes/Enables> he saw a cat
+"input: story: My friend, Nate, and I went to his parents house. He wanted to show me that he was good at soccer. He took a ball from his basement and started juggling it. He missed the ball once, slipped, and fell on the ground. We still make fun of him to this day.
+ selected sentence: We still make fun of him to this day.
+output: ",Nate misses while juggling >Causes/Enables> We make fun of him
+"input: story: Last night I planned to make hamburgers. I got the meat out ready to cook them. However when I looked for the buns I found Something. The buns were moldy and green. I immediately had to throw them out.
+ selected sentence: However when I looked for the buns I found Something.
+output: ",I make hamburgers >Causes/Enables> I find Something on the buns
+"input: story: The dog scratched itself. Its hair flew everywhere. The house was covered in it. Chuck vacumned again. The dog stayed downstairs.
+ selected sentence: Its hair flew everywhere.
+output: ",The dog scratches itself >Causes/Enables> Hairs fly everywhere
+"input: story: Kim just got a new dog. She wanted to take it walking but she didn't have a dog collar. So she went to the pet store and got her dog a new collar. She put the collar on the dog. She walked the dog for thirty minutes.
+ selected sentence: She walked the dog for thirty minutes.
+output: ",Kim gets a dog collar >Causes/Enables> Kim walks her dog
+"input: story: Sal was a grumpy person. He had no friends and hated almost everything. He went to town to pick up gifts. They were for himself because he like almost no one. Later that night he cried himself to sleep.
+ selected sentence: He went to town to pick up gifts.
+output: ",Sal leaves home >Causes/Enables> Sal goes to town
+"input: story: Kelly got home from work and decided to play with her daughter. The two had a tea party together. They drank tea from London and ate tea sandwiches. They also worse cute dresses. When the party was over they had supper.
+ selected sentence: When the party was over they had supper.
+output: ",Kelly and her daughter have a tea party together >Causes/Enables> The party is over and they have supper
+"input: story: Olga's husband gave her new diamond earrings for her anniversary. She wore her new earrings to church the next Sunday. Halfway through the service, she realized one earring was missing. After the service ended, she crawled on her hands and knees to look. She was lucky and found her lost earring.
+ selected sentence: She was lucky and found her lost earring.
+output: ",She looks for her earring >Causes/Enables> She finds her earring
+"input: story: It was my birthday. I went to school. I waited all day to go home and have my birthday party. I was very excited. When I got home the party was set up for my brother.
+ selected sentence: I went to school.
+output: ",School opens on my birthday >Causes/Enables> I go to school on my birthday
+"input: story: Martha loved her husband. She wanted to get him Something special. One day she was working late at her job. She worked at Starbucks. Martha got her husband a delicious chocolate drink.
+ selected sentence: She wanted to get him Something special.
+output: ",Martha loves her husband >Causes/Enables> Martha wants to get her husband Something special
+"input: story: Alicia loves taking baths. She takes one every night. She ran out of bubble soap last night. She couldn't take a bath tonight. She took a shower instead.
+ selected sentence: She took a shower instead.
+output: ",Alicia can't take a bath >Causes/Enables> She takes a shower instead
+"input: story: My dog ate a whole plate of bacon by himself. He got a bad stomachache. We had to feed him some medicine. Once the medicine worked, he looked like he felt much better. He still ate bacon whenever he could find it.
+ selected sentence: We had to feed him some medicine.
+output: ",My dog gets a stomachache >Causes/Enables> My dog gets medicine
+"input: story: Donald was drinking tea. It was out of a glass bottle. He dropped it by accident. It broke on the floor. Donald had to carefully clean up the glass.
+ selected sentence: He dropped it by accident.
+output: ",Donald holds a glass bottle >Causes/Enables> Donald drops the bottle
+"input: story: Julie was on the couch when she saw her mom. She jokingly asked her mom to make her a sandwich. For some reason, her mom actually said yes. She went and made Julie a really nice sandwich. Then, she let Julie eat it on the couch.
+ selected sentence: She jokingly asked her mom to make her a sandwich.
+output: ",Julie sees her mom >Causes/Enables> Julie asks her mom to make her a sandwich
+"input: story: The Smith family went to the county fair. After they ate corndog and cotton candy they watched a circus. When the circus was over they all rode the merry-go-round. On their to their car they played games for prizes. It was such fun they decided to make it a tradition and go every year!
+ selected sentence: The Smith family went to the county fair.
+output: ",The Smith family decide to go to the fair >Causes/Enables> The Smith family go to the fair
+"input: story: Chrisana and her niece went for a walk around the block. They stopped at a park. At the park, they rode the swings. Then, they kept walking. Eventually, they made it back home.
+ selected sentence: Eventually, they made it back home.
+output: ",Chrisana and her niece go for a walk >Causes/Enables> Chrisana and her niece come back home
+"input: story: A new family moved in next door to Sam. They had a little girl. When Sam went to meet her, he found Something strange. The little girl was blind! Sam decided it'd be cool to have a blind friend.
+ selected sentence: They had a little girl.
+output: ",A woman gets pregnant >Causes/Enables> The couple has a little girl
+"input: story: Lily loved chicken nuggets. She decided to make some for herself. She got all the ingredients and set to work. When they were done, she was pleased with her work. However, when she tasted them, she realized she still needed practice.
+ selected sentence: However, when she tasted them, she realized she still needed practice.
+output: ",Lily makes nuggets >Causes/Enables> Lily tastes the nuggets
+"input: story: Little shavings of wood fell to floor. Carly watched her grandpa eagerly. He had been carving Something for her for two weeks. Finally, he smiled at her and held out his hands. It was a little wooden bear all of her own!
+ selected sentence: Little shavings of wood fell to floor.
+output: ",Carly's grandpa carves >Causes/Enables> Wood shavings fall to the ground
+"input: story: My boyfriend in high school was crazy. We had only been dating 1 month when it was Christmas. His family was on vacation and their car broke down. In order to make it back, my boyfriend rented a Uhaul. His parents drove and he rode in the back for 1000 miles!
+ selected sentence: His parents drove and he rode in the back for 1000 miles!
+output: ",My boyfriend's parents enter the Uhaul >Causes/Enables> My boyfriend's parents drive
+"input: story: Gina's mom promised they would go home in 3 days. But 4 days had passed. She asked her mother again. Her mother yelled at her for asking. She was tired of being asked when they were leaving.
+ selected sentence: She asked her mother again.
+output: ",4 days pass >Causes/Enables> Gina asks her mom again
+"input: story: Kenny was lost on the streets. A driver stopped on the side of the road. He asked Kenny if he needed help. Kenny gave her the address to his house. The driver ended up finding it and dropped him off.
+ selected sentence: Kenny was lost on the streets.
+output: ",Kenny makes a wrong turn >Causes/Enables> Kenny is lost
+"input: story: Sam was excited go to shopping. He had a coupon that gave him a great deal. Sam got everything he wanted and went to pay. The cashier gave him terrible news about the coupon. It had just recently expired.
+ selected sentence: Sam was excited go to shopping.
+output: ",Sam goes shopping >Causes/Enables> Sam is excited to go shopping
+"input: story: Tim got a job as a cashier. His first day was rough. His drawer was 30 dollars short. Tim tried really hard that week. After a month he was the best cashier at his job.
+ selected sentence: After a month he was the best cashier at his job.
+output: ",Tim gets a job >Causes/Enables> Tim becomes the best cashier
+"input: story: Cora was starting her job as a kindergarten teacher. She worked that her young students wouldn't like her. But her first day went very well. All the kids had a great time. At the end of the day, they all told her how much they liked her!
+ selected sentence: She worked that her young students wouldn't like her.
+output: ",Cora was starting a job as a kindergarten teacher >Causes/Enables> Cora worried that her students wouldn't like her
+"input: story: Yesterday I went to the clothing store. When I got there I was waiting for about an hour. I couldn't believe how long the line was. When I was done shopping, I was waiting three hours. I knew never to go back again.
+ selected sentence: When I got there I was waiting for about an hour.
+output: ",I head to the store >Causes/Enables> I arrive at the store
+"input: story: We all went to a haunted house last Halloween. A creepy clown jumped out at my friend Gary. Gary was so scared he screamed. We all think Gary wet himself. Gary ran home to change his pants.
+ selected sentence: A creepy clown jumped out at my friend Gary.
+output: ",We go to a haunted house >Causes/Enables> A creepy clown jumps out 
+"input: story: I turned twenty years old. My girlfriend didn't realize it was my birthday. I tried to drop hints but she didn't get the message. Then I shouted at her for not remembering my birthday. I realized she was not worth the time so I dumped her.
+ selected sentence: I turned twenty years old.
+output: ",My birthday approaches >Causes/Enables> I turn twenty
+"input: story: Joey was a notoriously picky eater. He especially hated vegetables. His grandmother served his Something green that looked like spears. She told him to pretend he was destroying light sabers as he ate them. So the asparagus wasn't so bad after all.
+ selected sentence: Joey was a notoriously picky eater.
+output: ",Joey hates vegetables >Causes/Enables> Joey is a notoriously picky eater
+"input: story: A guy I like finally asked me out on a date. The date went well and I was excited for him to kiss me in the car. When we get home, he tries to do that. Instead, he grabs my neck to pull him toward him. Long story short, I'm wearing a neck brace.
+ selected sentence: The date went well and I was excited for him to kiss me in the car.
+output: ",I go on a date >Causes/Enables> The date goes well
+"input: story: My daughter got this toy dog for her birthday that barks all day long. It was fine at first. It didn't bother me. But one day we went on a long road trip. Let's just say the dog didn't make it back from that trip.
+ selected sentence: But one day we went on a long road trip.
+output: ",We decide to go >Causes/Enables> We go
+"input: story: Kate was cooking dinner. Her husband got home from work. He tried to sneak up and hug her. Kate had a knife in her hand and stabbed him by accident. She had to call 911 for help.
+ selected sentence: Her husband got home from work.
+output: ",Kate's husband goes to work >Causes/Enables> Kate's husband comes home
+"input: story: I gave my gift to sally. She was amazed at it since she needed a toaster. When Tanya gave her gift to me, I was beyond excited. It was a set of Spanish Language books. I immediately began studying.
+ selected sentence: I gave my gift to sally.
+output: ",I buy a gift >Causes/Enables> I give the gift to Sally
+"input: story: Mike didn't study for a test. The test was very hard. Mike looked at his friend's answers. The teacher caught Mike cheating. The teacher was very disappointed.
+ selected sentence: The teacher caught Mike cheating.
+output: ",Mike was cheating on a test >Causes/Enables> The teacher caught Mike cheating 
+"input: story: Julie was a mean girl. Nobody liked her but they always gave in to her. The new girl, Ann, didn't let Julie bully her. Ann was worse than Julie. Julie wasn't a mean girl anymore.
+ selected sentence: Nobody liked her but they always gave in to her.
+output: ",Julie behaves poorly >Causes/Enables> No one likes Julie
+"input: story: Ben was going home from work. He was very tired. All he could think about was to get some rest. When he opened the door, his friends screamed ""Surprise""! It was his Birthday.
+ selected sentence: All he could think about was to get some rest.
+output: ",Ben has a long day at work >Causes/Enables> Ben really wants rest
+"input: story: Tom was out on a first date. It wasn't going so well. Tom's date looked visibly bored. He tried different things to entertain her but it didn't work. Eventually she went home early.
+ selected sentence: Tom's date looked visibly bored.
+output: ",Tom's first date isn't going so well >Causes/Enables> Tom's date looks visibly bored
+"input: story: Silas wanted to find a new girlfriend. He used a dating service to make a blind date. His date did not show up. There was a girl there whose date did not show up too. They talked about their mutual problem, then began dating.
+ selected sentence: They talked about their mutual problem, then began dating.
+output: ",Silas and the girl decide to date >Causes/Enables> Silas and the girl date
+"input: story: I ate pizza at the new place with my family. Later that night, I was watching tv when I began to feel ill. I became very sick, vomiting and staying in bed for days. It took over a week to feel better. By the time it was over, I could no longer stand the sight of pizza.
+ selected sentence: I became very sick, vomiting and staying in bed for days.
+output: ",I ate pizza >Causes/Enables> I got food poisoning from the pizza
+"input: story: I've a friend who is pretty ill so I thought it best to call him. I called him over and over yesterday but he didn't answer. So I began to worry. Then wouldn't you know it he called me! So now I know my friend is OK and so I won't worry any more.
+ selected sentence: I've a friend who is pretty ill so I thought it best to call him.
+output: ",My friend gets ill >Causes/Enables> I think it best to call him
+"input: story: Erin was walking home from school one day. He found a little stray dog who looked hungry. Erin took the dog home and began to feed it and wash it. The dog was really happy and Erin decided to keep it. Erin now goes to the park on weekends with his dog.
+ selected sentence: The dog was really happy and Erin decided to keep it.
+output: ",Erin feeds the dog >Causes/Enables> The dog is happy
+"input: story: A rock was loose in the curb. A truck came along and knocked it from the curb. The rock now lay in the middle of the street. Another car came along and ran it over. The rock caused the car to get a flat tire.
+ selected sentence: The rock caused the car to get a flat tire.
+output: ",A car drove over a rock >Causes/Enables> The rock flattened a tire on the car 
+"input: story: Carl went to the store to buy eggs. On the way home he dropped the carton. All of the eggs broke. Carl had to go back to the store to get more. He did so unhappily.
+ selected sentence: Carl had to go back to the store to get more.
+output: ",Carl dropped the carton of eggs and they broke >Causes/Enables> Carl went back to the store to buy more eggs
+"input: story: There was a storm over Bill's house. He was very scared. He needed to take his mind off the storm. He played video games to busy himself. He had so much fun he forgot about the storm.
+ selected sentence: There was a storm over Bill's house.
+output: ",The storm moves over Bill's house >Causes/Enables> The storm is over Bill's house
+"input: story: Ronnie decided to make a surprise visit with his mom. They live about four hours apart. He filled his gas tank and his cooler for the trip. He passed the time by listening to his radio. Before he knew it he was already giving his mom a big hug.
+ selected sentence: They live about four hours apart.
+output: ",Ronnie moves far away from his mother >Causes/Enables> They live four hours apart
+"input: story: Camilla was at the park with friends. They discovered a nice smelling bush of flowers. One of the kids said that it was honeysuckle and tasted it. Camilla thought it was a trick but she tried a taste. To her surprise, it was sweet like honey.
+ selected sentence: Camilla was at the park with friends.
+output: ",Camilla goes to the park >Causes/Enables> Camilla is at the park
+"input: story: Dominick has a birthday coming. He wants a pair of work boots so bad. He told his parents that was what he wanted. His parents went and bought them for his birthday. Dominick was so happy to get his boots.
+ selected sentence: He wants a pair of work boots so bad.
+output: ",Dominick gets a job >Causes/Enables> Dominick wants a pair of work boots
+"input: story: Davis was at his family's log cabin in the forest. He was spending some time by himself after a long week at work. He tried to light a fire outside, but the wood was too damp to light. Without a fire, Davis was not able to prepare any food. Davis decided to leave the cabin and go eat fast food.
+ selected sentence: Without a fire, Davis was not able to prepare any food.
+output: ",Davis can't start a fire >Causes/Enables> Davis can't cook food
+"input: story: Tom went to the store and bought a phone. He was very excited and began to run home. He ran too fast and dropped his phone. His phone screen had cracked. He picked the phone up and walked home sadly.
+ selected sentence: He was very excited and began to run home.
+output: ",He buys a phone >Causes/Enables> He is excited
+"input: story: Ethel was terrified of growing old alone. She kept a tight leash on her husband. Ethel couldn't allow him to go more than an hour without calling. Or texting, as he was doing when he missed the curve and crashed. Ethel lives alone, with nobody to blame for it but herself.
+ selected sentence: She kept a tight leash on her husband.
+output: ",Ethel decides to keep a tight leash >Causes/Enables> Ethel keeps a tight leash
+"input: story: Kim had trouble sleeping one night. She closed her eyes. But she kept hearing an owl. She fell asleep at 4 AM. And saw an owl at her window when she woke up at noon.
+ selected sentence: But she kept hearing an owl.
+output: ",An owl lands near Kim's room >Causes/Enables> Kim hears the owl
+"input: story: Amy and her friend were riding bikes on a summer afternoon. They decided to ride to her friend's cousin's house. There was a steep hill which was hard to ride up. Amy was sweating and panting as she rode up the hill. Amy ended up walking the bike up the hill instead of riding.
+ selected sentence: There was a steep hill which was hard to ride up.
+output: ",They ride to their friend's house >Causes/Enables> Amy struggles up a steep hill
+"input: story: Terri's phone began to ring. She answered it quickly. It was her mother. She asked her how her day was. Terri said it was fine.
+ selected sentence: She asked her how her day was.
+output: ",Terri's mom calls her >Causes/Enables> Terri's mom asks about her day
+"input: story: They opened a new ice cream shop down the street. The kids were so excited to try them out. We visited on Saturday. The make all their own ice cream. They were delicious.
+ selected sentence: They were delicious.
+output: ",We try the ice cream from the new ice cream shop >Causes/Enables> The ice cream is delicious
+"input: story: Lisa was trying to steal a magazine. She was on her way out of the door. Suddenly, an employee stopped her. She had been caught. Her dad had to come pick her up and pay a fine.
+ selected sentence: She had been caught.
+output: ",Lisa tries to steal >Causes/Enables> Lisa gets caught
+"input: story: It had been a long day of working outside. I decided I needed a shower before dinner. After disrobing, I stepped into the shower. I washed all the part of my body. After I was done, I was clean and feeling great.
+ selected sentence: I decided I needed a shower before dinner.
+output: ",I get dirty >Causes/Enables> I decide to shower
+"input: story: Tori decided to take her dog on a walk. They walked 4 miles in the cold weather. She froze the whole time. When she got home, she felt like she was getting a cold. Tori decided that she was going to wear more layers next time.
+ selected sentence: They walked 4 miles in the cold weather.
+output: ",Tori takes her dog for a walk >Causes/Enables> They walk in the cold weather
+"input: story: Linda finally put baby for a nap. She needed a break. She quietly left the kids room. The floor squeaked. The baby woke up.
+ selected sentence: The baby woke up.
+output: ",The baby goes to sleep >Causes/Enables> The baby wakes up
+"input: story: Mary noticed her car's front left tire was looking very low in air. She had to put extra air in the tire 3 times in 1 month. Jane took her car to The Tire Store, and they checked the tire. The tire had an air leak, and mechanic fixed the tire. Jane took the car home, happy they fixed the tire leak.
+ selected sentence: Jane took the car home, happy they fixed the tire leak.
+output: ",Jane gets the car back >Causes/Enables> Jane takes the car home
+"input: story: We went to my uncle's house. He had a bunch of four wheelers. We convinced my 87 year old grandmother to ride one. She got on the back with my uncle. She enjoyed the ride around his land.
+ selected sentence: We went to my uncle's house.
+output: ",We get in the car >Causes/Enables> We go to my uncle's house
+"input: story: Missy was in Gym class. She needed to climb the rope. She wasn't sure she could do it. While she climbed, she just tried her best. She made it to the top of the rope.
+ selected sentence: She needed to climb the rope.
+output: ",Missy is in gym class >Causes/Enables> Missy needs to climb the rope
+"input: story: Molly had fallen asleep with her hair in a bun. Now, her hair was very tangled. She tried to comb it but it wouldn't work. She decided to rub some coconut oil in it. Then, she was able to comb the hair out.
+ selected sentence: Molly had fallen asleep with her hair in a bun.
+output: ",Molly put her hair in a bun >Causes/Enables> Molly fell asleep with her hair in a bun
+"input: story: Jim bought eggs. When he was ready to cook, he saw that they were all broken. This made him mad. However, he had a plan. He returned them at the store for a new batch.
+ selected sentence: However, he had a plan.
+output: ",Jim makes a plan >Causes/Enables> Jim has a plan
+"input: story: Sara went to her parent's funeral on Sunday. It was a sunny day but no one else was present. That left Sara feel very alone in a world that was still happy. She went back home afterward to cry. And when she had no more tears, she looked at old photographs.
+ selected sentence: She went back home afterward to cry.
+output: ",Sara goes to a funeral >Causes/Enables> Sara cries
+"input: story: One day Paul found a bush with large berries. He was very tempted to eat them but he didn't. He picked one and took it to his dad to check out. His dad said it was safe to eat so Paul ate some. They were so good that he picked enough for the whole family.
+ selected sentence: They were so good that he picked enough for the whole family.
+output: ",Paul eats the berries >Causes/Enables> The barries are good
+"input: story: Jake and Zack love to hunt. Usually, they go together and during deer season. One year, Zack spotted a huge deer and he shot at it. They deer appeared to fall over but was nowhere to be found! They decided that the deer was smarter than them and they went home.
+ selected sentence: They decided that the deer was smarter than them and they went home.
+output: ",The deer is gone >Causes/Enables> Jake and Zack decide the deer is smarter than them
+"input: story: A new family moved in next door to Sam. They had a little girl. When Sam went to meet her, he found Something strange. The little girl was blind! Sam decided it'd be cool to have a blind friend.
+ selected sentence: Sam decided it'd be cool to have a blind friend.
+output: ",Sam thinks it would be cool >Causes/Enables> Sam decides it would be cool
+"input: story: Brian went to a supermarket. He needed some fruits. He took some apples and put it into his pocket. Somebody saw him. He was forced to pay for it.
+ selected sentence: He was forced to pay for it.
+output: ",Brian was trying to steal an apple >Causes/Enables> Brian was forced to pay for the apple 
+"input: story: It was Sara's turn to let the dog outside. Sara opened the front door and let the dog run out. A couple hours later Sara remembered the dog and went to let him in. She noticed the gate was open and her dog was missing. Sara rushed to tell her mom that the dog was missing.
+ selected sentence: It was Sara's turn to let the dog outside.
+output: ",Sara has a dog >Causes/Enables> Sara needs to let the dog about
+"input: story: I am starting on my third marriage. I am very worried about how it will work out. Until now, I never felt love for the men I was married to. Now that I do love one, he is not very kind. He hurts me every single day.
+ selected sentence: I am starting on my third marriage.
+output: ",I divorce my second wife after divorcing my first wife >Causes/Enables> I am starting my third marriage
+"input: story: Dan hated minivans. But with a 4th kid on the way he had no choice. He drove the van to work. His friend Rob saw him and began laughing. Dan was angry with Rob the whole day.
+ selected sentence: Dan was angry with Rob the whole day.
+output: ",Rob laughs at Dan >Causes/Enables> Dan is angry
+"input: story: Alan wanted a day off school. He wished for a hurricane or a snowstorm. But then one morning he woke very ill! He was vomiting and running a very high fever. Alan actually wished he could have been in school, instead of ill!
+ selected sentence: Alan actually wished he could have been in school, instead of ill!
+output: ",Alan wakes up very ill >Causes/Enables> Alan wishes he could have been in school instead of being ill
+"input: story: Tom had been asking his parents for a cat for weeks. Finally, his parents told him they could get one kitten. Tom and his parents found a cat online and picked it up. When they brought it back, Tom took a nap with it. When Tom woke up, the cat was nowhere to be found anywhere.
+ selected sentence: When Tom woke up, the cat was nowhere to be found anywhere.
+output: ",Tom takes a nap with the cat >Causes/Enables> The cat is nowhere to be found when Tom wakes up
+"input: story: I went into Lucy's room. She had her tea set out on her table. All her animals were seated at the table. She was serving them tea and cookies. It was a great tea party!
+ selected sentence: All her animals were seated at the table.
+output: ",Lucy puts the animals into the seats >Causes/Enables> The animals are in the seat
+"input: story: Ann had never been on an airplane. Her family was going on vacation next month to Florida. She was scared the plane was going to fall down. Her friend told her there was nothing to worry about. Ann got on the plane, and the plane landed safely.
+ selected sentence: Her friend told her there was nothing to worry about.
+output: ",Ann worries about going on an airplane >Causes/Enables> Her friend tells her there is nothing to worry about

@@ -1,0 +1,201 @@
+input,output
+"input: [['Bacon sandwich', 'DISH_VARIATION', 'BLT'], ['Bacon sandwich', 'COUNTRY', 'United Kingdom'], ['Bacon sandwich', 'INGREDIENT', 'Bacon']]
+output: ",Bacon sandwiches are popular in the UK and have the variation of the BLT.
+"input: [['The Golden Curry', 'food', 'Italian'], ['The Golden Curry', 'customer rating', '5 out of 5'], ['The Golden Curry', 'familyFriendly', 'yes']]
+output: ","The Golden Curry has Italian, is family friendly and has a customer rating of 5 out of 5."
+"input: [['The Rice Boat', 'priceRange', '£20-25'], ['The Rice Boat', 'customer rating', 'high'], ['The Rice Boat', 'area', 'riverside'], ['The Rice Boat', 'near', 'Express by Holiday Inn']]
+output: ",The Rice Boat is located in riverside near Express by Holiday Inn. £20-25 price range and High costumer rating.
+"input: [['1634: The Ram Rebellion', 'AUTHOR', 'Eric Flint'], ['Eric Flint', 'INFLUENCED_BY', 'Robert A. Heinlein'], ['Eric Flint', 'BIRTH_PLACE', 'Burbank, California']]
+output: ","Eric Flint, born in Burbank, California, is the author of 1634: The Ram Rebellion, influenced by Robert A. Heinlein."
+"input: [['Midsummer House', 'eatType', 'restaurant'], ['Midsummer House', 'food', 'Fast food'], ['Midsummer House', 'customer rating', 'average'], ['Midsummer House', 'near', 'All Bar One']]
+output: ","Near All Bar One, you will find an average rated, higher priced  fast food restaurant named Midsummer House."
+"input: [[""Patrick O'Bryant"", 'POSITION', 'Center']]
+output: ",Patrick O'Bryant is a center for Toronto.
+"input: [['The Rice Boat', 'food', 'Italian'], ['The Rice Boat', 'priceRange', 'cheap'], ['The Rice Boat', 'area', 'city centre'], ['The Rice Boat', 'near', 'Express by Holiday Inn']]
+output: ","The Rice Boat is located near  Express by Holiday Inn in city center, it serves Italian food with a cheap price range."
+"input: [['[TABLECONTEXT]', '[TITLE]', 'List of U.S. cities with significant Korean-American populations'], ['Ridgefield', 'PERCENTAGE', '14.31%'], ['[TABLECONTEXT]', 'CITY', 'Ridgefield']]
+output: ",Ridgefield's Korean-American population is 14.31%.
+"input: [['Ibbotson Associates', 'ACQUIRED_FROM', 'Privately Held'], ['Ibbotson Associates', 'REPORTED_COST', 'US$83 million']]
+output: ",The privately held asset was valued at US$83 million.
+"input: [['The Mill', 'eatType', 'pub'], ['The Mill', 'food', 'English'], ['The Mill', 'priceRange', 'moderate'], ['The Mill', 'area', 'riverside']]
+output: ","Located next to the riverside, The Mill is a moderately-priced English pub."
+"input: [['The Phoenix', 'priceRange', 'moderate'], ['The Phoenix', 'customer rating', 'high'], ['The Phoenix', 'area', 'city centre']]
+output: ",The Phoenix in the city centre serves lots of wines and cheeses at a five star rating and mid-range price.
+"input: [['June 24', 'WINNING_TEAM', 'Houston'], ['June 24', 'SCORE', '5-2']]
+output: ","The game ended with a score of 5-2 to Houston, in front of an audience of 36,199 people."
+"input: [['The Wrestlers', 'food', 'Fast food'], ['The Wrestlers', 'priceRange', 'more than £30'], ['The Wrestlers', 'customer rating', 'high'], ['The Wrestlers', 'familyFriendly', 'yes']]
+output: ",The children friendly The Wrestlers serves Fast food. The food costs more than £30 and received a high customer review.
+"input: [['The Eagle', 'eatType', 'coffee shop'], ['The Eagle', 'food', 'Indian'], ['The Eagle', 'priceRange', '£20-25'], ['The Eagle', 'customer rating', 'high'], ['The Eagle', 'area', 'city centre'], ['The Eagle', 'near', 'Burger King']]
+output: ",The Eagle is a coffee shop providing Indian food in the £20-25 price range. It is located in the city centre. It is near Burger King. Its customer rating is high.
+"input: [['Ardmore Airport (New Zealand)', '3RD_RUNWAY_SURFACE_TYPE', 'Poaceae'], ['Ardmore Airport (New Zealand)', 'RUNWAY_LENGTH', '518.0']]
+output: ","At New Zealand's Ardmore Airport, one of the runways is 518.0 long and the third runway is made of Poaceae."
+"input: [['Zizzi', 'eatType', 'coffee shop'], ['Zizzi', 'customer rating', '1 out of 5'], ['Zizzi', 'familyFriendly', 'no']]
+output: ",Zizzi is a poor quality coffee shop that is not family friendly and has above average pricing.
+"input: [['Afonso Pena International Airport', 'CITY_SERVED', 'Curitiba'], ['Afonso Pena International Airport', 'OPERATING_ORGANISATION', 'Infraero'], ['Afonso Pena International Airport', 'LOCATION', 'São José dos Pinhais'], ['Curitiba', 'IS_PART_OF', 'South Region, Brazil']]
+output: ","Afonsa Pena International Airport is located in Sao Jose do Pinhais, South region Brazil which serves the city of Curitiba and operated by Infraero."
+"input: [[""the one with phoebe's wedding"", 'WRITTEN_BY', 'robert carlock & dana klein borkow']]
+output: ","The title for the episode written by Robert Carlock & Dana Klein Borkow is ""The One with Phoebe's Wedding."""
+"input: [['Edmund Bell', 'VOLUMES', '4'], ['[TABLECONTEXT]', '[TITLE]', 'René Follet'], ['[TABLECONTEXT]', 'SERIES', 'Edmund Bell'], ['Edmund Bell', 'YEARS', '1987-1990']]
+output: ",René Follet drew 4 volumes of Edmund Bell from 1987 to 1990.
+"input: [['The Mill', 'food', 'Italian'], ['The Mill', 'priceRange', 'cheap'], ['The Mill', 'area', 'riverside']]
+output: ",The Mill serves cheap Italian food and is located in the riverside area.
+"input: [['Alstadhaug Church', 'LOCATION', 'Alstadhaug'], ['Alstadhaug Church', 'YEAR_BUILT', '1180']]
+output: ",The Alstadhaug Church in Alstadhaug was built in 1180.
+"input: [['The Twenty Two', 'food', 'English'], ['The Twenty Two', 'area', 'riverside'], ['The Twenty Two', 'familyFriendly', 'no']]
+output: ",Riverside area English food is The Twenty Two not family-friendly.
+"input: [['Blue Spice', 'food', 'French'], ['Blue Spice', 'priceRange', 'high'], ['Blue Spice', 'area', 'riverside']]
+output: ","On the riverside, there is a place with high prices that serves great French food. It is called Blue Spice."
+"input: [['Texas', 'DEMONYM', 'Texan']]
+output: ",The people of Texas are known as Texans.
+"input: [['67', 'TITLE', 'one rat, one ranger'], ['67', 'ORIGINAL_AIR_DATE', 'november30,1989']]
+output: ","The original air date for ""One Rat, One Ranger"" is November 30, 1989."
+"input: [['Buzz Aldrin', 'BIRTH_PLACE', 'Glen Ridge, New Jersey'], ['Buzz Aldrin', 'WAS_A_CREW_MEMBER_OF', 'Apollo 11'], ['Buzz Aldrin', 'STATUS', '""Retired""'], ['Buzz Aldrin', 'NATIONALITY', 'United States'], ['Buzz Aldrin', 'WAS_SELECTED_BY_NASA', '1963'], ['Buzz Aldrin', 'OCCUPATION', 'Fighter pilot'], ['Apollo 11', 'OPERATOR', 'NASA']]
+output: ","American Buzz Aldrin was born in Glen Ridge, New Jersey. He was selected by NASA in 1963 and served as a Fighter pilot. He was a crew member on Apollo 11, that was operated by NASA. he is retired now."
+"input: [['The Golden Palace', 'eatType', 'coffee shop'], ['The Golden Palace', 'food', 'Italian'], ['The Golden Palace', 'priceRange', 'moderate'], ['The Golden Palace', 'customer rating', '1 out of 5'], ['The Golden Palace', 'area', 'city centre']]
+output: ",In the city centre there is a moderately priced coffee shop called The Golden Palace which serves Italian food. Customers have given it a rating of 1 out of 5.
+"input: [['The Wrestlers', 'eatType', 'coffee shop'], ['The Wrestlers', 'food', 'Italian'], ['The Wrestlers', 'priceRange', 'high'], ['The Wrestlers', 'area', 'city centre'], ['The Wrestlers', 'familyFriendly', 'yes'], ['The Wrestlers', 'near', 'Raja Indian Cuisine']]
+output: ","The Wrestlers Italian coffee shop is near Raja Indian Cuisine in the city centre area, it is child friendly however the is high price range."
+"input: [['Atlantic City International Airport', 'RUNWAY_LENGTH', '1873.0'], ['Atlantic City International Airport', 'ELEVATION', '23.0'], ['Atlantic City International Airport', 'OPERATING_ORGANISATION', 'Port Authority of New York and New Jersey'], ['Atlantic City International Airport', 'RUNWAY_NAME', '""4/22""']]
+output: ","Operated by the Port Authority of New York and New Jersey, Atlantic City International Airport is 23 metres above sea level. it has the runway name 4/22 and the runway length, 1,873."
+"input: [['Tredegar RFC', 'POINTS', '66'], ['[TABLECONTEXT]', '[TITLE]', 'WRU Division Two East, 2007/2008 Table'], ['66', 'POINTS_AGAINST', '327'], ['[TABLECONTEXT]', 'CLUB', 'Tredegar RFC']]
+output: ",Tredegar RFC had 327 points against them in 2007/2008.
+"input: [['Agremiação Sportiva Arapiraquense', 'LEAGUE', 'Campeonato Brasileiro Série C'], ['Campeonato Brasileiro Série C', 'COUNTRY', 'Brazil'], ['Agremiação Sportiva Arapiraquense', 'SEASON', '2015'], ['Campeonato Brasileiro Série C', 'CHAMPIONS', 'Vila Nova Futebol Clube']]
+output: ",Agremiação Sportiva Arapiraquense played in the 2015 season in the Campeonato Brasileiro Série C league which is in Brazil. This league has been won by Vila Nova Futebol Clube.
+"input: [['Asam pedas', 'COUNTRY', 'Malaysia'], ['Malaysia', 'CAPITAL', 'Putrajaya'], ['Malaysia', 'ETHNIC_GROUP', 'Malaysian Malay']]
+output: ",Putrajaya is the capital of Malaysia which has a Malay ethnic group. Asam pedas is a food from there.
+"input: [['Adolfo Suárez Madrid–Barajas Airport', 'LOCATION', 'Paracuellos de Jarama'], ['Paracuellos de Jarama', 'COUNTRY', 'Spain'], ['Paracuellos de Jarama', 'IS_PART_OF', 'Community of Madrid'], ['ENAIRE', 'LOCATION_CITY', 'Madrid'], ['Adolfo Suárez Madrid–Barajas Airport', 'OPERATING_ORGANISATION', 'ENAIRE']]
+output: ","Adolfo Suarez Madrid-Barajas Airport is operated by ENAIRE from the city of Madrid and is located in Paracuellos de Jarama, part of the community of Madrid in Spain."
+"input: [['Catalunya', 'MOTOGP_WINNER', 'Dani Pedrosa']]
+output: ",Dani Pedrosa was the MotoGP winnder for the Catalunya Circuit.
+"input: [['Joe Gibbs Racing', 'CREWMEMBERS', 'Matt Lucas']]
+output: ",Joe Gibbs Racing's crew chief is Matt Lucas
+"input: [['[TABLECONTEXT]', 'DRIVERS', 'Jacques Villeneuve'], ['Jacques Villeneuve', 'CONSTRUCTOR', 'Sauber-Petronas'], ['[TABLECONTEXT]', '[TITLE]', '2005 British Grand Prix']]
+output: ","Jacques Villeneuve drove the car, while Sauber-Petronas constructed it."
+"input: [['Strada', 'food', 'Fast food'], ['Strada', 'priceRange', 'cheap'], ['Strada', 'familyFriendly', 'yes'], ['Strada', 'near', 'Rainbow Vegetarian Café']]
+output: ","Strada is an average cheap Fast food establishment with a family friendly atmosphere, located near Rainbow Vegetarian Café."
+"input: [['The Golden Curry', 'food', 'Italian'], ['The Golden Curry', 'customer rating', 'low']]
+output: ",The Golden Curry  is a good family and friend Italian food with a low customer rating
+"input: [['Ngew Sin Mei', 'RESULT', '12.93'], ['Ngew Sin Mei', 'RANK', '8']]
+output: ",8th Rank Ngew Sin Mei scored 12.93.
+"input: [['Ajoblanco', 'INGREDIENT', 'Almond'], ['Almond', 'FAMILY', 'Rosaceae']]
+output: ",Almonds are from the Rosaceae family and are an ingredient in ajoblanco.
+"input: [['Medium well (cuit)', 'DESCRIPTION', 'small amount of pink in the center']]
+output: ",Medium well (cuit) meat have small amount of pink in the center.
+"input: [['Binignit', 'INGREDIENT', 'Sweet potato'], ['Binignit', 'COURSE', 'Dessert'], ['Binignit', 'MAIN_INGREDIENTS', 'Banana'], ['Dessert', 'DISH_VARIATION', 'Sandesh (confectionery)']]
+output: ","Bingignit is a dessert, whose ingredients include banana and sweet potato. Sandesh is a nice confectionary dessert."
+"input: [['1964', 'SELECTED_BY:', ""Members of The Fashion Writers' Association""], ['[TABLECONTEXT]', 'YEAR', '1964'], ['[TABLECONTEXT]', '[TITLE]', 'Dress of the Year'], ['1964', 'DESIGNER', 'Jean Muir for Jane & Jane Charles Jourdan for Dior (shoes)']]
+output: ",The Dress of the Year 1964 selected by Members of The Fashion Writers' Association is by designers Jean Muir for Jane & Jane and Charles Jourdan for Dior (shoes)
+"input: [['The Golden Curry', 'eatType', 'restaurant'], ['The Golden Curry', 'food', 'Chinese'], ['The Golden Curry', 'customer rating', '1 out of 5'], ['The Golden Curry', 'area', 'riverside'], ['The Golden Curry', 'near', 'Café Rouge']]
+output: ","Located near Café Rouge by the river, the Chinese restaurant The Golden Curry earned a customer rating of 1 out of 5."
+"input: [['Blue Spice', 'eatType', 'coffee shop'], ['Blue Spice', 'priceRange', 'high'], ['Blue Spice', 'customer rating', '3 out of 5'], ['Blue Spice', 'area', 'city centre'], ['Blue Spice', 'familyFriendly', 'yes'], ['Blue Spice', 'near', 'Avalon']]
+output: ",Blue Spice is a coffee shop near city centre in Avalon. Their prices are expensive but they are family-friendly. Their customer service rating is 3 out of 5.
+"input: [['India', 'DEMONYM', 'Indian people'], ['Amdavad ni Gufa', 'COUNTRY', 'India'], ['India', 'LEADER_NAME', 'Sumitra Mahajan']]
+output: ",The residents of India are the Indian people and the country is lead by Sumitra Mahajan. Amdavad ni Gufa is located in the country.
+"input: [['Grande Fratello 2', 'LIVESHOW_AUDIENCE_MILLIONS', '8.00']]
+output: ",The liveshow audience was 8.00 million for Grande Fratello 2.
+"input: [['Jānis Daliņš', 'NATIONALITY', 'Latvia']]
+output: ",Jānis Daliņš belongs to Latvia.
+"input: [['Loch Fyne', 'food', 'Indian'], ['Loch Fyne', 'customer rating', 'low'], ['Loch Fyne', 'area', 'city centre'], ['Loch Fyne', 'near', 'The Rice Boat']]
+output: ","Right near The Rice Boat in city centre is an Indian place named Loch Fyne, the ratings are low though."
+"input: [['Browns Cambridge', 'eatType', 'coffee shop'], ['Browns Cambridge', 'food', 'Japanese'], ['Browns Cambridge', 'customer rating', '5 out of 5'], ['Browns Cambridge', 'area', 'riverside'], ['Browns Cambridge', 'familyFriendly', 'yes'], ['Browns Cambridge', 'near', 'Crowne Plaza Hotel']]
+output: ","There is a highly rated coffee shop near Crowne Plaza Hotel in the riverside area called Browns Cambridge. It serves Japanese food, and is child friendly. The customer rating is 5 out of 5."
+"input: [['Eastern Province, Sri Lanka', 'LEADER_NAME', 'Austin Fernando']]
+output: ","The leader of the Eastern Province, Sri Lanka is Austin Fernando."
+"input: [['Charlie Shaw', 'NATIONALITY', 'Canada'], ['Charlie Shaw', 'NHL_TEAM', 'Detroit Red Wings']]
+output: ",A player on the Detroit Red Wings is Canadian.
+"input: [['Cocum', 'eatType', 'coffee shop'], ['Cocum', 'food', 'Fast food'], ['Cocum', 'priceRange', 'cheap'], ['Cocum', 'customer rating', '5 out of 5'], ['Cocum', 'familyFriendly', 'yes']]
+output: ","Cocum is a cheap, family friendly coffee shop. It also provides Fast food and has a customer rating of 5 out of 5."
+"input: [['Ethiopia', 'LEADER_NAME', 'Hailemariam Desalegn'], ['Addis Ababa', 'IS_PART_OF', 'Addis Ababa Stadium'], ['Addis Ababa City Hall', 'LOCATION', 'Addis Ababa'], ['Addis Ababa', 'COUNTRY', 'Ethiopia']]
+output: ",Addis Ababa in Ethiopia (lead by Hailemariam Desalegn) is the location of Addis Ababa City Hall and Addis Ababa Stadium.
+"input: [['The Golden Curry', 'eatType', 'restaurant'], ['The Golden Curry', 'food', 'Italian'], ['The Golden Curry', 'customer rating', '1 out of 5'], ['The Golden Curry', 'familyFriendly', 'yes']]
+output: ",This Italian food restaurant called The Golden Curry is a kid friendly site and is rated 1 out of 5.
+"input: [['University of Texas at Austin', 'PRESIDENT', 'Gregory L. Fenves']]
+output: ",Gregory L. Fenves was appointed as the president of the University of Texas at Ausitin.
+"input: [['The Rice Boat', 'eatType', 'restaurant'], ['The Rice Boat', 'food', 'Indian'], ['The Rice Boat', 'customer rating', 'average'], ['The Rice Boat', 'area', 'city centre'], ['The Rice Boat', 'familyFriendly', 'yes']]
+output: ",A family friendly restaurant named The Rice Boat opened in the city center. It has an average rating for Indian food.
+"input: [['Acharya Institute of Technology', 'CITY', 'Bangalore'], ['Acharya Institute of Technology', 'ESTABLISHED', '2000'], ['Acharya Institute of Technology', 'NUMBER_OF_POSTGRADUATE_STUDENTS', '700'], ['Acharya Institute of Technology', 'AFFILIATION', 'Visvesvaraya Technological University']]
+output: ","An affiliate of Visvesvaraya Technological University, Acharya Institute of Technology in Bangalore was established in 2000 and currently has 700 postgraduate students enrolled."
+"input: [['Return of the Kane', 'PRODUCTION_CODE', '2T5705'], ['Return of the Kane', 'ORIGINAL_AIR_DATE', 'November2,2004']]
+output: ","Return of the Kane had a November 2, 2004 original air date and a 2T5705 production code."
+"input: [['saturday, may 4', 'FINAL_SCORE', 'w 17-14'], ['saturday, may 4', 'WEEK', '7'], ['w 17-14', 'TEAM_RECORD', '5-2']]
+output: ",By week 7 the team's record was 5-2.
+"input: [['The Phoenix', 'food', 'Italian'], ['The Phoenix', 'priceRange', 'moderate'], ['The Phoenix', 'customer rating', '1 out of 5'], ['The Phoenix', 'area', 'riverside']]
+output: ",The Phoenix by the riverside serving Italian food has a moderate price range and customer rating 1 out of 5.
+"input: [['Peter Stöger', 'CLUB', 'SK Rapid Wien'], ['1. FC Köln', 'MANAGER', 'Peter Stöger']]
+output: ",Peter Stoger plays for SK Rapid Wien and is the manager of 1. FC Koln.
+"input: [['The Eagle', 'eatType', 'coffee shop'], ['The Eagle', 'food', 'Japanese'], ['The Eagle', 'customer rating', '1 out of 5'], ['The Eagle', 'area', 'city centre'], ['The Eagle', 'familyFriendly', 'no'], ['The Eagle', 'near', 'Burger King']]
+output: ",A coffee shop named The Eagle with Japanese food is located near Burger King and the city centre. It is not kids friendly with a customer rating of 1 out of 5.
+"input: [['Cabaret', 'HILDA', 'Sally Bowles'], ['Cabaret', 'YEAR', '1972'], ['Cabaret', 'NOTES', 'Academy Award for Best Actress BAFTA Award for Best Actress in a Leading Role David di Donatello for Best Foreign Actress Golden Globe Award for Best Actress - Motion Picture Musical or Comedy Sant Jordi Award for Best Performance in a Foreign Film']]
+output: ",She is the daughter of actress and singer Judy Garland and director Vincente Minnelli.
+"input: [['The Eagle', 'eatType', 'coffee shop'], ['The Eagle', 'food', 'English'], ['The Eagle', 'priceRange', 'more than £30'], ['The Eagle', 'customer rating', 'high'], ['The Eagle', 'area', 'riverside'], ['The Eagle', 'near', 'Burger King']]
+output: ",The highly rated The Eagle English coffee shop is located in riverside near Burger King and has a price range of more than £30.
+"input: [['kandor', 'U.S._VIEWERS_(MILLION)', '2.63']]
+output: ","2.63 million saw the episode titled ""Kandor""."
+"input: [['Luchon - Pau', 'LENGTH', '197 km (122 mi)'], ['16', 'TERRAIN', 'Stage with mountain(s)'], ['[TABLECONTEXT]', 'STAGE', '16'], ['[TABLECONTEXT]', '[TITLE]', '1964 Tour de France'], ['16', 'ROUTE', 'Luchon - Pau']]
+output: ",Luchon - Pau is a 197 km (122 mi) mountainous route in the 1964 Tour de France.
+"input: [['Surasak Tansurat', 'REPLACEMENT', 'Attaphol Puspakom'], ['Surasak Tansurat', 'CLUB', 'Muangthong United'], ['Attaphol Puspakom', 'DATE_OF_APPOINTMENT', 'April 2009']]
+output: ","Surask Tansurat in Muanghong united club at april 2009,Replacement for Attaphol pupakom."
+"input: [['AZ Alkmaar', 'MANAGER', 'John van den Brom'], ['John van den Brom', 'CLUB', 'AFC Ajax'], ['John van den Brom', 'CLUB', 'R.S.C. Anderlecht']]
+output: ",John van den Brom plays for AFC Ajax and R.S.C. Anderlecht. He is also the manager of AZ Alkmaar.
+"input: [['Ardmore Airport (New Zealand)', '3RD_RUNWAY_SURFACE_TYPE', 'Poaceae'], ['Poaceae', 'CLASS', 'Monocotyledon'], ['Poaceae', 'DIVISION', 'Flowering plant']]
+output: ",Ardmore Airport (New Zealand)'s 3rd runway surface type is Poaceae which is in the class Monocotyledon and belongs to the division of flowering plants.
+"input: [['1995-2000', 'IMR*', '34'], ['1995-2000', 'LIFE_EXPECTANCY_TOTAL', '69.3']]
+output: ",The IMR for the period with a life expectancy of 69.3 is 34.0.
+"input: [['ACM Transactions on Information Systems', 'ACADEMIC_DISCIPLINE', 'Computer science']]
+output: ",ACM Transactions on Information Systems is part of the academic Discipline of Computer Science.
+"input: [['The Mill', 'eatType', 'pub'], ['The Mill', 'food', 'Chinese'], ['The Mill', 'priceRange', 'moderate'], ['The Mill', 'area', 'riverside']]
+output: ",The Mill is a pub in the riverside area.  It serves Chinese in a moderate price range.
+"input: [['The Waterman', 'food', 'French'], ['The Waterman', 'priceRange', 'less than £20'], ['The Waterman', 'customer rating', 'low'], ['The Waterman', 'area', 'riverside']]
+output: ",The Waterman has no food for less than £20 other than French toast which can be sold near the riverside where the rating is not low.
+"input: [['The Olive Grove', 'eatType', 'pub'], ['The Olive Grove', 'food', 'Fast food'], ['The Olive Grove', 'priceRange', 'less than £20'], ['The Olive Grove', 'area', 'city centre'], ['The Olive Grove', 'familyFriendly', 'no']]
+output: ","The Olive Grove is a non family-friendly, cheap, fast food style pub in the city centre."
+"input: [['Alan Shepard', 'ALMA_MATER', '""NWC, M.A. 1957""'], ['Alan Shepard', 'WAS_SELECTED_BY_NASA', '1959'], ['Distinguished Service Medal (United States Navy)', 'HIGHER', 'Department of Commerce Gold Medal'], ['Alan Shepard', 'DEATH_PLACE', 'California'], ['Alan Shepard', 'BIRTH_PLACE', 'New Hampshire'], ['Alan Shepard', 'DATE_OF_BIRTH', '""1923-11-18""'], ['Alan Shepard', 'AWARD', 'Distinguished Service Medal (United States Navy)']]
+output: ","Alan Shepard was born November 18th, 1923, in New Hampshire. He attended school at NWC and graduated with an MA in 1957. Alan joined the Navy and was was chosen by NASA in 1959. He was awarded the Distinguished service medal, which is higher than the department of commerce gold medal. California was his place of death."
+"input: [['Amdavad ni Gufa', 'LOCATION', 'Gujarat'], ['Amdavad ni Gufa', 'LOCATION', 'Ahmedabad']]
+output: ","Amdavad ni Gufa is in Ahmedabad, Gujarat."
+"input: [['The Waterman', 'food', 'French'], ['The Waterman', 'priceRange', 'more than £30'], ['The Waterman', 'customer rating', '5 out of 5'], ['The Waterman', 'area', 'riverside'], ['The Waterman', 'familyFriendly', 'yes']]
+output: ",Yes The Waterman is a children friendly eat out place located at the riverside with 5 out of 5 customer ratings and offers French food which cost more than 30 pounds
+"input: [['Green Man', 'eatType', 'restaurant'], ['Green Man', 'priceRange', 'moderate'], ['Green Man', 'area', 'riverside'], ['Green Man', 'familyFriendly', 'no']]
+output: ",Green Man is a non kids-friendly restaurant at a moderate price range located in the riverside area.
+"input: [['The Vaults', 'priceRange', 'moderate'], ['The Vaults', 'familyFriendly', 'yes']]
+output: ","The Vaults is a moderately priced, family friendly facility available for use, with pasta served."
+"input: [['Loch Fyne', 'eatType', 'restaurant'], ['Loch Fyne', 'food', 'Chinese'], ['Loch Fyne', 'priceRange', 'less than £20'], ['Loch Fyne', 'familyFriendly', 'yes']]
+output: ",Loch Fyne is a family friendly Chinese restaurant. Food costs less than £20.
+"input: [['The Golden Palace', 'eatType', 'coffee shop'], ['The Golden Palace', 'food', 'French'], ['The Golden Palace', 'priceRange', 'moderate'], ['The Golden Palace', 'area', 'riverside']]
+output: ",Riverside area French food coffee shop is  The Golden Palace positive customer feedback above average prices.
+"input: [['200 Public Square', 'LOCATION', 'Public Square, Cleveland'], ['200 Public Square', 'FLOOR_COUNT', '45'], ['200 Public Square', 'COMPLETION_DATE', '1985']]
+output: ","200 Public Square in Public Square, Cleveland was completed in 1985 and has 45 floors."
+"input: [['The Waterman', 'eatType', 'restaurant'], ['The Waterman', 'food', 'Japanese'], ['The Waterman', 'customer rating', 'low'], ['The Waterman', 'area', 'riverside']]
+output: ",The Waterman restaurant  with Japanese food in riverside. A eat Type pub with a low customer Rating.
+"input: [['The Plough', 'eatType', 'pub'], ['The Plough', 'food', 'Japanese'], ['The Plough', 'familyFriendly', 'no'], ['The Plough', 'near', 'Café Rouge']]
+output: ",The Plough is a pub serving Japanese food at a price a little higher than average. It is near to Café Rouge and is not child friendly.
+"input: [['Regan Smith', 'LAPS', '192']]
+output: ",Regan Smith drove 192 laps.
+"input: [['adam gilchrist', 'NATIONALITY', 'australia']]
+output: ",Adam Gilchrist from is australia.
+"input: [['Blue Spice', 'priceRange', 'high'], ['Blue Spice', 'customer rating', '3 out of 5'], ['Blue Spice', 'area', 'city centre'], ['Blue Spice', 'familyFriendly', 'yes']]
+output: ","Blue Spice is a high-priced, family-friendly venue located in the city centre with a customer rating of 3 out of 5."
+"input: [['The Punter', 'priceRange', 'moderate'], ['The Punter', 'area', 'city centre'], ['The Punter', 'familyFriendly', 'no'], ['The Punter', 'near', 'The Portland Arms']]
+output: ",The Punter is a non-kid friendly and near The Portland Arms and the city center in the moderate price range.
+"input: [['Nintendo Magazine System (Australia)', 'COUNTRY', 'Australia'], ['Nintendo Magazine System (Australia)', 'PUBLISHER', 'Catalyst Publishing']]
+output: ",Australia's Nintendo Magazine was published by Catalyst publishing.
+"input: [['Blue Spice', 'eatType', 'coffee shop'], ['Blue Spice', 'priceRange', 'more than £30'], ['Blue Spice', 'customer rating', '5 out of 5'], ['Blue Spice', 'area', 'city centre'], ['Blue Spice', 'familyFriendly', 'no'], ['Blue Spice', 'near', 'Avalon']]
+output: ","In the city centre near Avalon, the coffee shop Blue Spice is more than £30 but has a 5 out of 5 rating and is not children-friendly."
+"input: [['[TABLECONTEXT]', '[TITLE]', 'Victor Buono'], ['Batman', 'NOTES', '8 episodes'], ['Batman', 'ROLE', 'King Tut'], ['[TABLECONTEXT]', 'TITLE', 'Batman']]
+output: ","For 8 episodes, Victor Buono played King Tut on Batman."
+"input: [['The Golden Curry', 'food', 'Japanese'], ['The Golden Curry', 'priceRange', 'more than £30'], ['The Golden Curry', 'familyFriendly', 'yes'], ['The Golden Curry', 'near', 'The Bakers']]
+output: ","Near The Bakers, children friendly The Golden Curry serves Japanese food for more than £30."
+"input: [['Bill Clinton', 'YEARS_SERVED', '8'], ['Bill Clinton', 'NUMBER', '42'], ['2', 'HOUSE_OPPOSED', '6'], ['Bill Clinton', ""PRESIDENT'S_PARTY"", 'Democratic'], ['Democratic', 'HOUSE_WITH', '2'], ['[TABLECONTEXT]', '[TITLE]', 'United States Presidents and control of Congress'], ['[TABLECONTEXT]', 'PRESIDENT', 'Bill Clinton']]
+output: ","Of Bill Clinton's, the 42nd president of the US, 8 years served, the House was with him 2 years and against him for 6 years,"
+"input: [['Bananaman', 'STARRING', 'Bill Oddie'], ['Bananaman', 'BROADCASTED_BY', 'BBC'], ['Bill Oddie', 'BIRTH_PLACE', 'Lancashire'], ['BBC', 'LOCATION_CITY', 'London']]
+output: ",Lancashire born Bill Oddie starred in Bananaman. It was broadcast by the BBC located in London.
+"input: [['filtrar', 'FRENCH', 'filtrer'], ['filtrar', 'SPANISH', 'filtrar']]
+output: ",The Spanish word for the French word filtrer is filtrar.
+"input: [['Barny Cakes', 'COUNTRY', 'France']]
+output: ",Barny cakes can be found in France.
+"input: [['Moe United', 'FOUNDING_DATE', '1952'], ['[TABLECONTEXT]', '[TITLE]', 'Gippsland Soccer League'], ['[TABLECONTEXT]', 'CLUB', 'Moe United'], ['Moe United', 'NICKNAME', 'Red Devils']]
+output: ","Moe United, nicknamed Red Devils, is a football club in the Gippsland Soccer League founded in 1952."
+"input: [['20 Fenchurch Street', 'LOCATION', 'United Kingdom'], ['United Kingdom', 'LEADER_NAME', 'Elizabeth II'], ['United Kingdom', 'CURRENCY', 'Pound sterling']]
+output: ",Elizabeth II is a leader of the United Kingdom which uses the pound sterling as currency. The UK is also the location of 20 Fenchurch Street.
+"input: [['United States', 'LANGUAGE', 'English language'], ['United States', 'LEADER_TITLE', 'President of the United States'], ['United States', 'LEADER_NAME', 'Joe Biden'], ['250 Delaware Avenue', 'LOCATION', 'United States'], ['United States', 'ETHNIC_GROUP', 'Asian Americans']]
+output: ","250 Delaware Avenue is located in the United States, where the leader is know as the President of the United States. One of the leaders in the US is Joe Biden and an ethnic group of the United States (where English is the language) is Asian Americans."

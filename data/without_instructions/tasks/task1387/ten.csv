@@ -1,0 +1,21 @@
+input,output
+"input: Premise: Studia Mathematica is a Polish mathematics journal published since 1929. It was founded by Stefan Banach and Hugo Steinhaus. It accepts papers written in English, French, German, or Russian, primarily in functional analysis and related areas such as probability theory. <sep> Hypothesis: Studia Mathematica accepts papers written in English, French, German, or Russian but in fact, was a  Russian language magazine by  Stefan Banach and Hugo Steinhaus.
+output: ",Contradiction
+"input: Premise: Catherine Marie Cortez Masto (born March 29, 1964) is an American attorney and politician who is the junior United States Senator from Nevada. She is a member of the Democratic Party. She previously served as the 32nd Attorney General of Nevada from 2007 to 2015. <sep> Hypothesis: Catherine Marie Cortez Masto was Attorney General for less than 6 years.
+output: ",Contradiction
+"input: Premise: ""The Heart"" is a song written and originally recorded by American country music artist Kris Kristofferson on his 1986 album ""Repossessed"". It was covered by American country music artist Lacy J. Dalton on her 1989 album ""Survivor"" and released in January 1989 as the album's first single. Dalton's version of the song peaked at number 13 on the ""Billboard"" Hot Country Singles chart. <sep> Hypothesis: A cover of the song The heart was released four years after it's original debut.
+output: ",Contradiction
+"input: Premise: How to make a green candy buffet<br>Select suitable containers for the candies. There are lots of container possibilities but the most important factor is ensuring that the containers will show off the green candies inside. As such, clear glass or plastic containers are an optimal choice, along with containers that lift up the candies and show them to their best advantage. <sep> Hypothesis: The candies are colorful.
+output: ",Contradiction
+"input: Premise: Farmer's Market<br>Benton was spending his morning at the farmer's market. He browsed through fruits, veggies, and local craft. Benton enjoys supporting local business. He filled bags with fruit and vegetables. Benton considers this a fruitful trip. <sep> Hypothesis: Nothing Benton took home from the farmer's market is capable of rotting.
+output: ",Contradiction
+"input: Premise: First day of school<br>Yesterday was the first day of school. I was really scared because I didn't know anyone. During lunch I sat next to someone names Phillip. Me and Philip became really good friends. Now I'm not scared to go to school anymore. <sep> Hypothesis: Tomorrow is the last day of school
+output: ",Contradiction
+"input: Premise: How to cook bell peppers<br>Use bell peppers when in season. They are at their best when in season locally. Outside of season they have to be imported or grown in greenhouses, which makes them more expensive and they are often not as fresh as during the summer months. <sep> Hypothesis: Bell peppers are typically grown in greenhouses in the summer.
+output: ",Contradiction
+"input: Premise: British actor, Hugh Laurie, had been favourite to win best drama actor for ""House"", but lost out to ""Boston Legal""'s James Spader. <sep> Hypothesis: Spader has been nominated in the past.
+output: ",Neutral
+"input: Premise: In the early Olympic games, athletes used to run a mile and then recite a poem. The first poet-in-residence of an English football team, Ian McMillan, remarked that football chants are like huge tribal poems. Generally, though, sport and poetry have never seemed natural companions in human enterprise. Until the New York Mets baseball team suffered in 2007 arguably the worst collapse in Major League Baseball history. To describe the anguish fans felt, The New York Times turned to a poet, Frank Messina. ""Nothing was really representing the fan's point of view,"" Messina told Wikinews reporter David Shankbone in an interview. ""There's a lot of hurting people out there who can't express what happened."" <sep> Hypothesis: Poetry has been involve din sports for many years.
+output: ",Entailment
+"input: Premise: How to attach table legs<br>Shop around for table legs. You should have a number of choices at your closest home improvement store. This method is best for attaching legs to an already finished piece of furniture. <sep> Hypothesis: Some tables hover.
+output: ",Contradiction

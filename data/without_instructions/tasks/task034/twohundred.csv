@@ -1,0 +1,801 @@
+input,output
+"input: Context Word: jewelry. 
+Question: He bought her two gifts, a piece of jewelry and a blender, and the _ was more expensive. 
+Answer: jewelry.
+output: ","He bought her two gifts, a piece of jewelry and a blender, and the _ was cheaper."
+"input: Context Word: money. 
+Question: Ruth wanted to invest her money in either stocks or savings.  She chose to invest in the _ because she wanted to take a risk. 
+Answer: stocks.
+output: ",Ruth wanted to invest her money in either stocks or savings.  She chose to invest in the _ because she wanted to play it safe.
+"input: Context Word: mirror. 
+Question: The janitor tried to clean the mirror with the spray but the _ was too dirty. 
+Answer: mirror.
+output: ",The janitor tried to clean the mirror with the spray but the _ was too weak.
+"input: Context Word: remove. 
+Question: It is easier to remove stains from leather surfaces with a sponge than a brush because the _ is more coarse. 
+Answer: brush.
+output: ",It is easier to remove stains from leather surfaces with a sponge than a brush because the _ is more smooth.
+"input: Context Word: braces. 
+Question: The dentist offered a choice between the blue and silver braces, but she didn't like the _ ones. 
+Answer: blue.
+output: ","The dentist offered a choice between the blue and silver braces, but she only liked the _ ones."
+"input: Context Word: odds. 
+Question: The odds of the black car winning were 2-1 so John paced his bet. The _ was fast. 
+Answer: car.
+output: ",The odds of the black car winning were 2-1 so John paced his bet. The _ was small.
+"input: Context Word: photo. 
+Question: The photo looked better than the canvas print because the _ had much better resolution. 
+Answer: photo.
+output: ",The photo looked better than the canvas print because the _ had much worse resolution.
+"input: Context Word: store. 
+Question: The pharmacist said to store the medicine in a dark place because the _ would degrade when exposed to light. 
+Answer: medicine.
+output: ",The pharmacist said to store the medicine in a dark place because the _ would protect it from being exposed to light.
+"input: Context Word: die. 
+Question: Gus wanted to die in a war and not his sleep because dying in _ just seemed more courageous to him. 
+Answer: war.
+output: ",Gus wanted to die in a war and not his sleep because dying in _ just seemed more cowardly to him.
+"input: Context Word: lint. 
+Question: I started moving the lint from the dryer to the trashcan until the _ was empty. 
+Answer: dryer.
+output: ",I started moving the lint from the dryer to the trashcan until the _ was full.
+"input: Context Word: slime. 
+Question: Martha used glue and glitter to make slime, but it didn't work. There was too much of the _ in the mixture. 
+Answer: glitter.
+output: ","Martha used glue and glitter to make slime, but it didn't work. There was too little of the _ in the mixture."
+"input: Context Word: sneaky. 
+Question: The thief was able to be sneaky in the boots, but not in the sandals, because the _ were made of inferior material. 
+Answer: sandals.
+output: ","The thief was able to be sneaky in the boots, but not in the sandals, because the _ were made of superior material."
+"input: Context Word: soil. 
+Question: I planted the roses near the barn instead of near the house because the soil near the _ was fertile. 
+Answer: barn.
+output: ",I planted the roses near the barn instead of near the house because the soil near the _ was barren.
+"input: Context Word: leaves. 
+Question: The blower couldn't clear the wet leaves, but the rake did fine, since the _ was ineffective with them. 
+Answer: blower.
+output: ","The blower couldn't clear the wet leaves, but the rake did fine, since the _ was effective with them."
+"input: Context Word: flour. 
+Question: The rod could not be used to mix the mixture of flour and water because the _ is too thick. 
+Answer: mixture.
+output: ",The rod could not be used to mix the mixture of flour and water because the _ is too thin.
+"input: Context Word: boat. 
+Question: The sportsman could not tie his fishing boat to the dock because the _ was too short. 
+Answer: dock.
+output: ",The sportsman could not tie his fishing boat to the dock because the _ was too long.
+"input: Context Word: furnace. 
+Question: Jim wanted to restart the furnace during the winter evening, but the _ was broken. 
+Answer: furnace.
+output: ","Jim wanted to restart the furnace during the winter evening, but the _ was too cold."
+"input: Context Word: quiet. 
+Question: She left the library to go study at home, since the _ was insufficiently quiet for concentrating. 
+Answer: library.
+output: ","She left the library to go study at home, since the _ was adequately quiet for concentrating."
+"input: Context Word: baby. 
+Question: The baby ate the whirled peas but not the chopped carrots although _ were yuckier. 
+Answer: peas.
+output: ",The baby ate the whirled peas but not the chopped carrots although _ were tastier.
+"input: Context Word: monkey. 
+Question: James could not believe the monkey can jump down from the tree and now he is looking forward to the top of the crane. The _ is shorter. 
+Answer: tree.
+output: ",James could not believe the monkey can jump down from the tree and now he is looking forward to the top of the crane. The _ is taller.
+"input: Context Word: flavor. 
+Question: The flavor of the chicken was strong but the lasagna was delicious. The _ was strong. 
+Answer: flavor.
+output: ",The flavor of the chicken was strong but the lasagna was delicious. The _ was perfect.
+"input: Context Word: train. 
+Question: The train was very delayed due to an accident at a railroad crossing. The _ was very bad. 
+Answer: accident.
+output: ",The train was very delayed due to an accident at a railroad crossing. The _ was very late.
+"input: Context Word: marketing. 
+Question: The manager wanted to utilize  the new software for marketing but the _ was too complicated. 
+Answer: marketing.
+output: ",The manager wanted to utilize  the new software for marketing but the _ was too confusing.
+"input: Context Word: nicer. 
+Question: Bill wanted his wife to think he was a nicer person, so he bought her the flowers instead of the chocolates, since the _ would make his wife miserable. 
+Answer: chocolates.
+output: ","Bill wanted his wife to think he was a nicer person, so he bought her the flowers instead of the chocolates, since the _ would make his wife happy."
+"input: Context Word: ship. 
+Question: Afraid of drowning, the man jumped from the ship to the raft because the _ was sinking. 
+Answer: ship.
+output: ","Afraid of drowning, the man jumped from the ship to the raft because the _ was floating."
+"input: Context Word: gas. 
+Question: As the gas filled the room, most people opted for the mask instead of the bag since the _ was efficient. 
+Answer: mask.
+output: ","As the gas filled the room, most people opted for the mask instead of the bag since the _ was inefficient."
+"input: Context Word: communicate. 
+Question: He liked to communicate on the phone instead of the radio, because the _ was fuzzy. 
+Answer: radio.
+output: ","He liked to communicate on the phone instead of the radio, because the _ was clear."
+"input: Context Word: Mice. 
+Question: In order to lure the mice to the trap, the man choose the cheese over the peanut because he deemed the _ to be effective. 
+Answer: cheese.
+output: ","In order to lure the mice to the trap, the man choose the cheese over the peanut because he deemed the _ to be worthless."
+"input: Context Word: lights. 
+Question: The lights were more effective on the patio than on the porch because it was darker on the _ . 
+Answer: patio.
+output: ",The lights were more effective on the patio than on the porch because it was lighter on the _ .
+"input: Context Word: presents. 
+Question: Chocolates and flowers are both popular presents, but the _ will be a bit less personal. 
+Answer: chocolates.
+output: ","Chocolates and flowers are both popular presents, but the _ will be a bit more personal."
+"input: Context Word: pregnant. 
+Question: Vera craved steamed asparagus while she was pregnant but ditched the pepperoni pizza. Therefore the _ was wasted. 
+Answer: pizza.
+output: ",Vera craved steamed asparagus while she was pregnant but ditched the pepperoni pizza. Therefore the _ was devoured.
+"input: Context Word: Birthday. 
+Question: The Birthday party was held at the museum and not the arcade. People find the _ to be appropriate. 
+Answer: museum.
+output: ",The Birthday party was held at the museum and not the arcade. People find the _ to be childish.
+"input: Context Word: train. 
+Question: We trained the police dog to rat out meth and not cocaine since the _ was widespread in the area. 
+Answer: meth.
+output: ",We trained the police dog to rat out meth and not cocaine since the _ was uncommon in the area.
+"input: Context Word: letter. 
+Question: The letter was cheaper to send than the box because the _ was much lighter. 
+Answer: letter.
+output: ",The letter was cheaper to send than the box because the _ was much heavier.
+"input: Context Word: marketing. 
+Question: Michael created new marketing plans to drive sales, as he thought the _ were discouraging. 
+Answer: sales.
+output: ","Michael created new marketing plans to drive sales, as he thought the _ were motivating."
+"input: Context Word: box. 
+Question: The box was still visible after James tried his best to manage the wrapper on it. Jame should have used the _ that is big. 
+Answer: wrapper.
+output: ",The box was still visible after James tried his best to manage the wrapper on it. Jame should have used the _ that is small.
+"input: Context Word: clutch. 
+Question: She decided to use her clutch tonight and not her crossbody because the _ was smaller. 
+Answer: clutch.
+output: ",She decided to use her clutch tonight and not her crossbody because the _ was bigger.
+"input: Context Word: running. 
+Question: I would go running more if I had shoes and a track to run on. The _ that I have now aren't suited for it. 
+Answer: shoes.
+output: ",I would go running more if I had shoes and a track to run on. The _ that I have now has potholes.
+"input: Context Word: clean. 
+Question: John cleaned his new car with a damp towel and this got the _ very dirty. 
+Answer: towel.
+output: ",John cleaned his new car with a damp towel and this got the _ very clean.
+"input: Context Word: claim. 
+Question: Mike filed a claim on the damage to the house but not on the damage to his shed since the damage to the _ was minor. 
+Answer: shed.
+output: ",Mike filed a claim on the damage to the house but not on the damage to his shed since the damage to the _ was major.
+"input: Context Word: write. 
+Question: I've been unable to write a book sine the accident, though a poem may be possible. The _ is shorter. 
+Answer: poem.
+output: ","I've been unable to write a book sine the accident, though a poem may be possible. The _ is longer."
+"input: Context Word: gifts. 
+Question: Our cousin liked the gifts this time a lot better than the presents last time, because the _ were much nicer. 
+Answer: gifts.
+output: ","Our cousin liked the gifts this time a lot better than the presents last time, because the _ were much worse."
+"input: Context Word: warm. 
+Question: The homesteader kept his home warm and dry in winter by burning wood in the fireplace until the _ was over. 
+Answer: winter.
+output: ",The homesteader kept his home warm and dry in winter by burning wood in the fireplace until the _ was gone.
+"input: Context Word: kitchen. 
+Question: James advised the children not to play in the kitchen in order not to fall and he limited them to the balcony. The _ is wet. 
+Answer: kitchen.
+output: ",James advised the children not to play in the kitchen in order not to fall and he limited them to the balcony. The _ is dry.
+"input: Context Word: hand. 
+Question: John thought his hand was broken, but it was actually his foot because the _ was bent. 
+Answer: foot.
+output: ","John thought his hand was broken, but it was actually his foot because the _ was straight."
+"input: Context Word: ball. 
+Question: The ball shot on the wall broke it down into pieces. The _ is a weak one. 
+Answer: ball.
+output: ",The ball shot on the wall broke it down into pieces. The _ is a strong one.
+"input: Context Word: bowl. 
+Question: The bowl cannot contain the olives and James poured it back to the tray. The _ is small. 
+Answer: bowl.
+output: ",The bowl cannot contain the olives and James poured it back to the tray. The _ is big.
+"input: Context Word: trip. 
+Question: Keith was going on a trip to California and he decided against traveling by bus in favor of taking a plane because the _ trip had so much more scenery. 
+Answer: bus.
+output: ",Keith was going on a trip to California and he decided against traveling by bus in favor of taking a plane because the _ trip had so much less scenery.
+"input: Context Word: grew. 
+Question: The salt crystal grew at a steady rate in the lab unlike the lithium crystal since the _ ' foundation was sound. 
+Answer: salt crystal.
+output: ",The salt crystal grew at a steady rate in the lab unlike the lithium crystal since the _ ' foundation was shaky.
+"input: Context Word: slept. 
+Question: The boy slept worse on the bunkbed than the futon, because the _ was uncomfortable. 
+Answer: bunkbed.
+output: ","The boy slept worse on the bunkbed than the futon, because the _ was comfortable."
+"input: Context Word: lotion. 
+Question: I filled a bottle and a jug with lotion. I had to put more in the _ because it is bigger. 
+Answer: jug.
+output: ",I filled a bottle and a jug with lotion. I had to put more in the _ because it is smaller.
+"input: Context Word: shuffleboard. 
+Question: They tried to get the shuffleboard into the garage, but the _ was too short. 
+Answer: garage.
+output: ","They tried to get the shuffleboard into the garage, but the _ was too long."
+"input: Context Word: hibiscus. 
+Question: Jane placed the hibiscus in a vase of water instead of in a basket. The _ was enclosed. 
+Answer: vase.
+output: ",Jane placed the hibiscus in a vase of water instead of in a basket. The _ was open.
+"input: Context Word: exam. 
+Question: Clark had to study for his exam by reviewing the lecture or the textbook.  He decided to review the _ because he thought the professor would know best. 
+Answer: lecture.
+output: ",Clark had to study for his exam by reviewing the lecture or the textbook.  He decided to review the _ because he thought the author would know best.
+"input: Context Word: tree. 
+Question: The fence is always cold because of the tree beside it. The _ is taller. 
+Answer: tree.
+output: ",The fence is always cold because of the tree beside it. The _ is shorter.
+"input: Context Word: behave. 
+Question: The promise of candy made the child behave, but not a movie, because the _ movie is uninteresting to him. 
+Answer: movie.
+output: ","The promise of candy made the child behave, but not a movie, because the _ movie is exciting to him."
+"input: Context Word: paint. 
+Question: When repainting a room, Jack had to choose between gray and yellow paint, but the _ was too drab. 
+Answer: gray.
+output: ","When repainting a room, Jack had to choose between gray and yellow paint, but the _ was too bright."
+"input: Context Word: plant. 
+Question: The plant was easier to take care of than the tree because the _ needed more attention. 
+Answer: tree.
+output: ",The plant was harder to take care of than the tree because the _ needed more attention.
+"input: Context Word: mirror. 
+Question: The man didn't want to get his rearview mirror replaced before the windshield, since the _ was dirtier. 
+Answer: windshield.
+output: ","The man didn't want to get his rearview mirror replaced before the windshield, since the _ was cleaner."
+"input: Context Word: tea. 
+Question: When buying tea, I have always preferred a bottle over a jug because the _ is smaller and doesn't seem as diluted. 
+Answer: bottle.
+output: ","When buying tea, I have always preferred a bottle over a jug because the _ is larger and seems diluted."
+"input: Context Word: color. 
+Question: The little boy used the crayons to color in the coloring book's pages until the _ were all full. 
+Answer: pages.
+output: ",The little boy used the crayons to color in the coloring book's pages until the _ were all broken.
+"input: Context Word: doll. 
+Question: Mary made a skirt for her doll, but she had to make a suspender too because the waist of the _ was big. 
+Answer: skirt.
+output: ","Mary made a skirt for her doll, but she had to make a suspender too because the waist of the _ was small."
+"input: Context Word: gate. 
+Question: The door was more secure than the gate because the _ had a lock on it. 
+Answer: door.
+output: ",The door was more accessible than the gate because the _ had a lock on it.
+"input: Context Word: door. 
+Question: The door opened louder than the window because the _ had more grease on its hinges. 
+Answer: window.
+output: ",The door opened louder than the window because the _ had less grease on its hinges.
+"input: Context Word: cleaning. 
+Question: The cleaning company couldn't decide whether to use a mop or broom. The _ was much more clean. 
+Answer: mop.
+output: ",The cleaning company couldn't decide whether to use a mop or broom. The _ was much more dirty.
+"input: Context Word: hot chocolate. 
+Question: I drank hot chocolate rather than coffee in the evening because I thought the _ would be a bad choice. 
+Answer: coffee.
+output: ",I drank hot chocolate rather than coffee in the evening because I thought the _ would be a good choice.
+"input: Context Word: store. 
+Question: Anne decided to go to the store to buy beer, but she changed her mind and bought juice, because the _ is a poison to the body. 
+Answer: beer.
+output: ","Anne decided to go to the store to buy beer, but she changed her mind and bought juice, because the _ is safe for the body."
+"input: Context Word: room. 
+Question: The mother could not hear the noise from John's room like he heard the radio in the laundry because the _ is closer. 
+Answer: laundry.
+output: ",The mother could not hear the noise from John's room like he heard the radio in the laundry because the _ is farther.
+"input: Context Word: elastic. 
+Question: The elastic band could stretch between the chairs but not around the beds, as the _ were close to each other. 
+Answer: chairs.
+output: ","The elastic band could stretch between the chairs but not around the beds, as the _ were far from each other."
+"input: Context Word: skin. 
+Question: I used the soap less than I used the lotion because the _ made my skin dry. 
+Answer: soap.
+output: ",I used the soap less than I used the lotion because the _ made my skin healthy.
+"input: Context Word: rabbit. 
+Question: It was easier to keep the rabbit in the cage than to keep it in the barn because the _ had a hole in it. 
+Answer: barn.
+output: ",It was easier to keep the rabbit in the cage than to keep it in the barn because the _ had a lock on it.
+"input: Context Word: books. 
+Question: Alice set up her stuffed animals and gave them books and pencils, because she thought the _ would help them to learn. 
+Answer: books.
+output: ","Alice set up her stuffed animals and gave them books and pencils, because she thought the _ would help them to write."
+"input: Context Word: stress. 
+Question: His anxiety was a lot worse than his stress, because the _ was constant in his life. 
+Answer: anxiety.
+output: ","His anxiety was a lot worse than his stress, because the _ was less often in his life."
+"input: Context Word: activate. 
+Question: To activate the computer we required a new charger, as the _ was dependent on it. 
+Answer: computer.
+output: ","To activate the computer we required a new charger, as the _ was crucial for it."
+"input: Context Word: railing. 
+Question: The railing of the deck had to be built at a certain minimum height to adhere to the building code, because the _ was specific. 
+Answer: code.
+output: ","The railing of the deck had to be built at a certain minimum height to adhere to the building code, because the _ was elevated."
+"input: Context Word: Spanish. 
+Question: Jen used notecards and a study group to try to learn Spanish, and she found studying with the _ was more lonely. 
+Answer: notecards.
+output: ","Jen used notecards and a study group to try to learn Spanish, and she found studying with the _ was more social."
+"input: Context Word: bleeding. 
+Question: The heavy bleeding coming out of the nose was entering the mouth because the _ was expelling so much blood. 
+Answer: nose.
+output: ",The heavy bleeding coming out of the nose was entering the mouth because the _ was absorbing so much blood.
+"input: Context Word: credit. 
+Question: The bank agreed to extend the young man an initial line of credit after reviewing his finances, because the _ was minimal. 
+Answer: credit.
+output: ","The bank agreed to extend the young man an initial line of credit after reviewing his finances, because the _ was wealthy."
+"input: Context Word: grades. 
+Question: I hired a tutor and my brother went to extra classes. He ended up getting better grades than me so the _ must be pretty effective. 
+Answer: extra classes.
+output: ",I hired a tutor and my brother went to extra classes. He ended up getting better grades than me so the _ must be pretty ineffective.
+"input: Context Word: school. 
+Question: Juniper's school put down a patch of artificial grass on the dying lawn. It didn't match because the _ was too green. 
+Answer: grass.
+output: ",Juniper's school put down a patch of artificial grass on the dying lawn. It didn't match because the _ was too yellow.
+"input: Context Word: talk. 
+Question: The talk was delayed because the venue was too small so they moved the _ to a later time. 
+Answer: talk.
+output: ",The talk was delayed because the venue was too small so they moved the _ and kept the time.
+"input: Context Word: teaches. 
+Question: As the teacher teaches the children she uses the animal as a prop instead of the robot since the _ seemed friendly. 
+Answer: animal.
+output: ",As the teacher teaches the children she uses the animal as a prop instead of the robot since the _ seemed neutral.
+"input: Context Word: waves. 
+Question: The waves destroyed the garage but left the house intact because the _ was so close to the shore. 
+Answer: garage.
+output: ",The waves destroyed the garage but left the house intact because the _ was so far from the shore.
+"input: Context Word: cake. 
+Question: Mark cooked a cake and a salad for his guests, he used chocolate for the _ . 
+Answer: cake.
+output: ","Mark cooked a cake and a salad for his guests, he used lettuce for the _ ."
+"input: Context Word: meeting. 
+Question: The work meeting was more important than the interview, because the _ was very urgent. 
+Answer: meeting.
+output: ","The work meeting was more important than the interview, because the _ was not immediate."
+"input: Context Word: clip. 
+Question: Jane tried to use a clip to attach a note to her report but it kept falling off. Eventually she just had to concede that the _ was too loose. 
+Answer: clip.
+output: ",Jane tried to use a clip to attach a note to her report but it kept falling off. Eventually she just had to concede that the _ was too compact.
+"input: Context Word: machine. 
+Question: The specialized machine made fidgets better than cones since it was efficient at making the _ . 
+Answer: fidgets.
+output: ",The specialized machine made fidgets better than cones since it was inefficient at making the _ .
+"input: Context Word: Wound. 
+Question: Adams needed more bandage to wrap the wound on the thigh because the _ is quite big. 
+Answer: thigh.
+output: ",Adams needed more bandage to wrap the wound on the thigh because the _ is quite short.
+"input: Context Word: Boyfriend. 
+Question: She threw her phone into the pond so that she didn't have to hear her boyfriend complain anymore. The _ broke her phone. 
+Answer: pond.
+output: ",She threw her phone into the pond so that she didn't have to hear her boyfriend complain anymore. The _ broke down.
+"input: Context Word: growth. 
+Question: The plant growth is putting the pot at the risk of breaking because the _ will get too big. 
+Answer: plant.
+output: ",The plant growth is putting the pot at the risk of breaking because the _ will get too small.
+"input: Context Word: gym. 
+Question: Winston went to the gym to get in shape, and decided to run on the treadmill and lift weights. The _ helped him lose weight. 
+Answer: treadmill.
+output: ","Winston went to the gym to get in shape, and decided to run on the treadmill and lift weights. The _ helped him increase muscle mass."
+"input: Context Word: wall. 
+Question: The bookcase fixed on the wall fell down and pulling the wall along. The _ is too heavy. 
+Answer: bookcase.
+output: ",The bookcase fixed on the wall fell down and pulling the wall along. The _ is too weak.
+"input: Context Word: deal. 
+Question: The dealer treated the cards and the gamblers with equal care as _ ran out. 
+Answer: cards.
+output: ",The dealer treated the cards and the gamblers with equal care as _ ran in.
+"input: Context Word: asphalt. 
+Question: The car gripped the asphalt better than the truck although the _ had poor traction. 
+Answer: car.
+output: ",The car gripped the asphalt better than the truck although the _ had excellent traction.
+"input: Context Word: t-shirt. 
+Question: Sadie liked the star t-shirt more than she liked the heart t-shirt, so she less often chose the _ t-shirt to wear to school. 
+Answer: heart.
+output: ","Sadie liked the star t-shirt more than she liked the heart t-shirt, so she more often chose the _ t-shirt to wear to school."
+"input: Context Word: class. 
+Question: He had to teach the science and math classes later, but he lost the _ files. 
+Answer: math.
+output: ","He had to teach the science and math classes later, but he forgot the _ papers."
+"input: Context Word: bubbles. 
+Question: Tory's daughter wanted bubbles to play with but Tory wanted books. The _ are more fun. 
+Answer: bubbles.
+output: ",Tory's daughter wanted bubbles to play with but Tory wanted books. The _ are more educational.
+"input: Context Word: gamers. 
+Question: Gamers like to use Monitors made of Twisted Nematic (TN) panel compared to In-Plane Switching (IPS) panel because the _ panel has higher refresh rate. 
+Answer: Twisted Nematic.
+output: ",Gamers like to use Monitors made of Twisted Nematic (TN) panel compared to In-Plane Switching (IPS) panel because the _ panel has lower refresh rate.
+"input: Context Word: carpets. 
+Question: We hung carpets on the dorm walls, but did not put any on the floors, because having them on the _ looked cooler to us. 
+Answer: walls.
+output: ","We hung carpets on the dorm walls, but did not put any on the floors, because having them on the _ looked too conventional to us."
+"input: Context Word: teach. 
+Question: They wanted to teach the children math and reading. The _ subject was much easier. 
+Answer: math.
+output: ",They wanted to teach the children math and reading. The _ subject was much harder.
+"input: Context Word: concrete. 
+Question: Marcia wanted concrete countertops to replace the laminate ones in her house, because she thought the _ was ugly. 
+Answer: laminate.
+output: ","Marcia wanted concrete countertops to replace the laminate ones in her house, because she thought the _ was stylish."
+"input: Context Word: lips. 
+Question: The man put ice rather than lava on his lips, because the _ made his lips feel hot. 
+Answer: lava.
+output: ","The man put ice rather than lava on his lips, because the _ made his lips feel cold."
+"input: Context Word: sunscreen. 
+Question: Matt used a dollar tree sunscreen on their skin, but it didn’t work because the _ is burned. 
+Answer: skin.
+output: ","Matt used a dollar tree sunscreen on their skin, but it didn’t work because the _ is cheap."
+"input: Context Word: citizen. 
+Question: The government only wanted to give benefits to citizens and not the travelers, because the _ were loyal. 
+Answer: citizens.
+output: ","The government only wanted to give benefits to citizens and not the travelers, because the _ were fickle."
+"input: Context Word: safe. 
+Question: When given the choice between the road and alley, I play it safe by taking the _ because it is well lit. 
+Answer: road.
+output: ","When given the choice between the road and alley, I play it safe by avoiding the _ because it is dark."
+"input: Context Word: bench. 
+Question: James cannot sit down on the bench so he moved to the top of the fence . The _ is rusty. 
+Answer: bench.
+output: ",James cannot sit down on the bench so he moved to the top of the fence . The _ is clean.
+"input: Context Word: find. 
+Question: We were able to find the corn crops but not the maze since the _ was gigantic. 
+Answer: crops.
+output: ",We were able to find the corn crops but not the maze since the _ was tiny.
+"input: Context Word: Hip dysplasia. 
+Question: Joe wanted to avoid having his dog from developing Hip dysplasia so he gave the dog medicine but the _ was too much. 
+Answer: Hip dysplasia.
+output: ",Joe wanted to avoid having his dog from developing Hip dysplasia so he gave the dog medicine but the _ was too little.
+"input: Context Word: luggage. 
+Question: Tom placed his luggage on the cart. The _ made it harder for him to move quickly through the airport. 
+Answer: luggage.
+output: ",Tom placed his luggage on the cart. The _ made it easier for him to move quickly through the airport.
+"input: Context Word: bones. 
+Question: The chef removed the bones that had been cooking overnight from the stock until the _ was clear. 
+Answer: stock.
+output: ",The chef removed the bones that had been cooking overnight from the stock until the _ were all gone.
+"input: Context Word: wood. 
+Question: James found the water he poured on the rug went through it and stayed on the surface of the wood under. The _ is permeable. 
+Answer: rug.
+output: ",James found the water he poured on the rug went through it and stayed on the surface of the wood under. The _ is impermeable.
+"input: Context Word: dogs. 
+Question: The dogs were getting hot so we gave them ice cream instead of sherbet since the _ would melt quickly. 
+Answer: ice cream.
+output: ",The dogs were getting hot so we gave them ice cream instead of sherbet since the _ would melt slowly.
+"input: Context Word: beauty. 
+Question: I like the beauty of the roses more than the carnations because the _ were unappealing. 
+Answer: carnations.
+output: ",I like the beauty of the roses more than the carnations because the _ were appealing.
+"input: Context Word: screen. 
+Question: The screen on his television is much better then the tablet, because the _ is huge. 
+Answer: screen.
+output: ","The screen on his television is much better then the tablet, because the _ is tiny."
+"input: Context Word: maple. 
+Question: Johnny wanted to get syrup a maple tree, but had a hard time getting the tap through the bark because the _ was too hard. 
+Answer: bark.
+output: ","Johnny wanted to get syrup a maple tree, but had a hard time getting the tap through the bark because the _ was too weak."
+"input: Context Word: math. 
+Question: Jayla tried to do mental math for her bills instead of bringing a calculator with her, but the _ was too slow. 
+Answer: mental math.
+output: ","Jayla tried to do mental math for her bills instead of bringing a calculator with her, and the _ was very fast."
+"input: Context Word: club. 
+Question: I always go to the bar next to my house and not the busy club, because the _ is closer. 
+Answer: bar.
+output: ","I always go to the bar next to my house and not the busy club, because the _ is farther."
+"input: Context Word: grow. 
+Question: I've been using containers instead of my garden to grow vegetables because the moles can't get into the _ as easily. 
+Answer: containers.
+output: ",I've been using containers instead of my garden to grow vegetables because the moles get into the _ more easily.
+"input: Context Word: credit. 
+Question: Bob preferred to read his full credit report instead of just the summary since the _ was exhaustive with details. 
+Answer: report.
+output: ",Bob preferred to read his full credit report instead of just the summary since the _ was meager with details.
+"input: Context Word: rid. 
+Question: Jake needed to rid his home of bugs at the dumps, it took a long time because the _ were numerous. 
+Answer: bugs.
+output: ","Jake needed to rid his home of bugs at the dumps, it took a long time because the _ were few."
+"input: Context Word: cake. 
+Question: Sally wasn't sure whether to bring cake or soda to the party. She knew the _ would be appreciated because it would be a refreshing treat. 
+Answer: soda.
+output: ",Sally wasn't sure whether to bring cake or soda to the party. She knew the _ would be appreciated because it would be a sweet treat.
+"input: Context Word: tank. 
+Question: She could not put the fish tank on the hall table because the _ was too narrow. 
+Answer: hall table.
+output: ",She could not put the fish tank on the hall table because the _ was too wide.
+"input: Context Word: commercial. 
+Question: I created a commercial and a print ad for a campaign but everyone loved the _ since it was animated. 
+Answer: commercial.
+output: ",I created a commercial and a print ad for a campaign but everyone loved the _ since it was easy to read.
+"input: Context Word: flowers. 
+Question: Mary's favorite flowers in her garden were roses and gardenias. The _ because they are beautiful. 
+Answer: roses.
+output: ",Mary's favorite flowers in her garden were roses and gardenias. The _ because they are smell great.
+"input: Context Word: eye. 
+Question: The doctor had to place a prosthetic inside of the eye socket because the _ was damaged. 
+Answer: eye.
+output: ",The doctor had to place a prosthetic inside of the eye socket because the _ was pristine.
+"input: Context Word: car. 
+Question: The neighbor's car would not fit in his driveway because his _ was too short. 
+Answer: driveway.
+output: ",The neighbor's car would not fit in his driveway because his _ was too long.
+"input: Context Word: table. 
+Question: I needed to dust the table and found both a feather duster in the attic and a rag in the kitchen.  The _ was old. 
+Answer: feather duster.
+output: ",I needed to dust the table and found both a feather duster in the attic and a rag in the kitchen.  The _ was new.
+"input: Context Word: dreams. 
+Question: I hate nightmares more than good dreams, because the _ are very scary and seem real. 
+Answer: nightmares.
+output: ","I hate nightmares more than good dreams, because the _ are very happy and seem fake."
+"input: Context Word: radio. 
+Question: The man could not hear the television next to the radio because the _ was quiet. 
+Answer: television.
+output: ",The man could not hear the television next to the radio because the _ was load.
+"input: Context Word: familiar. 
+Question: The book was far more familiar to the person than the magazine, because the _ was uncommon. 
+Answer: magazine.
+output: ","The book was far more familiar to the person than the magazine, because the _ was common."
+"input: Context Word: theater. 
+Question: We went out to dinner and a movie at the local theater and the _ was delicious. 
+Answer: dinner.
+output: ",We went out to dinner and a movie at the local theater and the _ was exciting.
+"input: Context Word: itched. 
+Question: The person itched more when they slept in the tent than when they slept in the inn because it was more humid in the _ . 
+Answer: tent.
+output: ",The person itched more when they slept in the tent than when they slept in the inn because there was more circulation in the _ inn.
+"input: Context Word: bar. 
+Question: While out at the bar, Sam noticed the new carpet but the wall needed to be repainted. The _ was dirty. 
+Answer: wall.
+output: ","While out at the bar, Sam noticed the new carpet but the wall needed to be repainted. The _ was trendy."
+"input: Context Word: popcorn. 
+Question: The boys decided that they would go around the block selling popcorn instead of chocolate, since the _ was lighter. 
+Answer: popcorn.
+output: ","The boys decided that they would go around the block selling popcorn instead of chocolate, since the _ was heavier."
+"input: Context Word: mop. 
+Question: Jeff grabbed a mop and a wet cloth from the kitchen and used the _ to clean the floor. 
+Answer: mop.
+output: ",Jeff grabbed a mop and a wet cloth from the kitchen and used the _ to clean the table.
+"input: Context Word: car. 
+Question: I needed a new car because mine was breaking down. I had to choose between the truck or van. The _ is more useful. 
+Answer: truck.
+output: ",I needed a new care because min was breaking down. I had to choose between the truck or van. The _ has more room.
+"input: Context Word: gold. 
+Question: The treasury workers took the gold bars off of the trolley and stacked them in the safe until the _ was full. 
+Answer: safe.
+output: ",The treasury workers took the gold bars off of the trolley and stacked them in the safe until the _ was empty.
+"input: Context Word: fix. 
+Question: I was going to fix my car, but I decide to sell and buy a bicycle, because the _ is bad for the environment. 
+Answer: car.
+output: ","I was going to fix my car, but I decide to sell and buy a bicycle, because the _ is good for the environment."
+"input: Context Word: guitar. 
+Question: The man hid the guitar under the bed but left the trumpet in plain site because the _ was valuable. 
+Answer: guitar.
+output: ",The man hid the guitar under the bed but left the trumpet in plain site because the _ was cheap.
+"input: Context Word: Comic book. 
+Question: James wanted to add a bookshelf for the comic book collection but the _ was too large. 
+Answer: bookshelf.
+output: ",James wanted to add a bookshelf for the comic book collection but the _ was too small.
+"input: Context Word: plant. 
+Question: We left a statue at the grave instead of a plant since the _ would be ruined by the weather. 
+Answer: plant.
+output: ",We left a statue at the grave instead of a plant since the _ would stand up to the weather.
+"input: Context Word: clothing. 
+Question: There was more clothing in the closet than in the dresser because the _ was roomier. 
+Answer: closet.
+output: ",There was more clothing in the closet than in the dresser because the _ was cluttered.
+"input: Context Word: digital. 
+Question: He was choosing between the digital and analog clock, but the _ clock was sold out. 
+Answer: digital.
+output: ","He was choosing between the digital and analog clock, but only the _ clock wasn't sold out."
+"input: Context Word: Butt. 
+Question: Hopefully I fall on the bed instead of my butt hitting the floor. The _ would be a good cushion. 
+Answer: bed.
+output: ",Hopefully I fall on the bed instead of my butt hitting the floor.  The _ wouldn't be a good cushion.
+"input: Context Word: wrinkles. 
+Question: The wrinkles were getting bad on the comforter, so it was thrown in the dryer and not ironed with the iron as the _ was efficient. 
+Answer: dryer.
+output: ","The wrinkles were getting bad on the comforter, so it was thrown in the dryer and not ironed with the iron as the _ was inefficient."
+"input: Context Word: camera. 
+Question: One reason I switched from SLR cameras to mirror-less cameras because the _ are heavy. 
+Answer: SLR cameras.
+output: ",One reason I switched from SLR cameras to mirror-less cameras because the _ are light.
+"input: Context Word: swimming. 
+Question: Chris changed out of his basketball shorts into swimming trunks before jumping in the river, because the _ were looser. 
+Answer: shorts.
+output: ","Chris changed out of his basketball shorts into swimming trunks before jumping in the river, because the _ were tighter."
+"input: Context Word: practice. 
+Question: When she would practice, the dancer always used the hat, but never the shirt, so the _ was now worn. 
+Answer: hat.
+output: ","When she would practice, the dancer always used the hat, but never the shirt, so the _ was still fresh."
+"input: Context Word: build. 
+Question: He could either build the birdhouse or the tree-house first, but the _ would take longer to construct. 
+Answer: tree-house.
+output: ","He could either build the birdhouse or the tree-house first, but the _ would take less time to construct."
+"input: Context Word: interacted. 
+Question: We liked the comedy show more than we liked the play because the performers interacted with us less during the _ . 
+Answer: play.
+output: ",We liked the comedy show more than we liked the play because the performers interacted with us more during the _ .
+"input: Context Word: shoes. 
+Question: The shoes had more traction on the gym floor than on the grass because the _ was wet. 
+Answer: grass.
+output: ",The shoes had more traction on the gym floor than on the grass because the _ was dry.
+"input: Context Word: Spades. 
+Question: Spades requires a minimum of two players and a full deck of cards because you can't play if the _ are too few. 
+Answer: players.
+output: ",Spades requires a minimum of two players and a full deck of cards because you can't play if the _ are too many.
+"input: Context Word: injury. 
+Question: Sally did not report the car accident, even though she had an injury, because the _ was healing nicely. 
+Answer: injury.
+output: ","Sally did not report the car accident, even though she had an injury, because the _ was her fault."
+"input: Context Word: knees. 
+Question: The knees of Sarah have been giving her problems, but her arms don't ache. The _ must hurt because she ran a lot, but never lifted. 
+Answer: knees.
+output: ","The knees of Sarah have been giving her problems, but her arms don't ache. The _ must be fine because she ran a lot, but never lifted."
+"input: Context Word: skateboard. 
+Question: Mark put away the skateboard and pulled out his bike to get to work because the _ was unsafe to ride. 
+Answer: skateboard.
+output: ",Mark put away the skateboard and pulled out his bike to get to work because the _ was easier to ride.
+"input: Context Word: windshield. 
+Question: The windshield had to be repaired before the roof for the poor family as the _ was urgent to have. 
+Answer: windshield.
+output: ",The windshield had to be repaired before the roof for the poor family as the _ was trivial to have.
+"input: Context Word: diet. 
+Question: Laura knew her daughter was on a diet, so she weighed her on a scale and was concerned because the _ was too strict. 
+Answer: diet.
+output: ","Laura knew her daughter was on a diet, so she weighed her on a scale and was concerned because the _ was too low."
+"input: Context Word: song. 
+Question: James sang his song at the top of his voice so as to be heard over the noise but the _ is louder. 
+Answer: noise.
+output: ",James sang his song at the top of his voice so as to be heard over the noise but the _ is quieter.
+"input: Context Word: grammar. 
+Question: The students at the high school make more grammar mistakes than the ones at the middle school. The _ students are more advanced. 
+Answer: high school.
+output: ",The students at the high school make more grammar mistakes than the ones at the middle school. The _ students are more challenged.
+"input: Context Word: parrot. 
+Question: The cat was harder to take care of than the parrot because the _ ate more food. 
+Answer: cat.
+output: ",The cat was harder to take care of than the parrot because the _ ate less food.
+"input: Context Word: proof. 
+Question: Bob can either use his birth certificate or his driver's license as proof that he is a citizen. He chose the _ because it is small. 
+Answer: driver's license.
+output: ",Bob can either use his birth certificate or his driver's license as proof that he is a citizen. He chose the _ because it is large.
+"input: Context Word: employees. 
+Question: All of the employees and supervisors were given a raise three times per year. Evenso the _ were broke. 
+Answer: employees.
+output: ",All of the employees and supervisors were given a raise three times per year. Evenso the _  were quitting.
+"input: Context Word: party. 
+Question: We could not fit the huge holiday party into our schedule because the _ required planning. 
+Answer: party.
+output: ",We could not fit the huge holiday party into our schedule because the _ was full already.
+"input: Context Word: hands. 
+Question: She wanted to put her child's cold hands in the gloves but the _ were too large. 
+Answer: gloves.
+output: ",She wanted to put her child's cold hands in the gloves but the _ were too small.
+"input: Context Word: wood. 
+Question: Marie had to get the wood structure through the doorway, but was unable to because the _ was too thin. 
+Answer: doorway.
+output: ","Marie had to get the wood structure through the doorway, but was unable to because the _ was too wide."
+"input: Context Word: soursop. 
+Question: Many people refuse to eat soursop because of the spikes and pulp, but the _ are easy to get rid of. 
+Answer: spikes.
+output: ","Many people refuse to eat soursop because of the spikes and pulp, but the _ is easy to get to."
+"input: Context Word: meditation. 
+Question: My meditation class started at two and I needed to catch the bus at four, so there wasn't much time. Luckily, the _ was short, so it worked out. 
+Answer: class.
+output: ","My meditation class started at two and I needed to catch the bus at four, so there wasn't much time. Luckily, the _ was late, so it worked out."
+"input: Context Word: paper. 
+Question: The folder used to collect the papers tore while James was carrying it to the other office. He was annoyed that the _ is too small. 
+Answer: folder.
+output: ",The folder used to collect the papers tore while James was carrying it to the other office. He was annoyed that the _ is too much.
+"input: Context Word: wood. 
+Question: I built a desk out of wood and it was better than my flimsy metal desk, because the _ was stronger material. 
+Answer: wood.
+output: ","I built a desk out of wood and it was better than my flimsy metal desk, because the _ was weaker material."
+"input: Context Word: nose. 
+Question: James finger could not enter his nose when it itched because the _ is very small. 
+Answer: nose.
+output: ",James finger could not enter his nose when it itched because the _ is very big.
+"input: Context Word: coffee. 
+Question: She was trying to decide between coffee or warm milk, but grabbed the _ since she wanted to stay awake. 
+Answer: coffee.
+output: ","She was trying to decide between coffee or warm milk, but grabbed the _ since she wanted to stay asleep."
+"input: Context Word: condom. 
+Question: Raymond considered a condom made of lambskin and another made of laytex, but ultimately choose the one made of lambskin because the _ made him feel uncomfortable. 
+Answer: laytex.
+output: ","Raymond considered a condom made of lambskin and another made of laytex, but ultimately choose the one made of lambskin because the _ made him feel soothed."
+"input: Context Word: comment. 
+Question: His comment was so long that it did not fit on the page, because the _ was wordy. 
+Answer: comment.
+output: ","His comment was so long that it did not fit on the page, because the _ was short."
+"input: Context Word: pimple. 
+Question: Since the _ was dirty, she switched from a needle to her finger to pop the pimple . 
+Answer: needle.
+output: ","Since the _ was sanitary, she switched from a needle to her finger to pop the pimple ."
+"input: Context Word: mattress. 
+Question: Bill got a new king sized mattress but had to throw out his old queen bed frame because the _ was larger. 
+Answer: mattress.
+output: ",Bill got a new king sized mattress but had to throw out his old queen bed frame because the _ was smaller.
+"input: Context Word: problems. 
+Question: The hard working student worked on the difficult math problems until the _ were all done. 
+Answer: problems.
+output: ",The hard working student worked on the difficult math problems until the _ grew tired.
+"input: Context Word: photography. 
+Question: I like to shoot photography in RAW format compared to JPEG format because the _ files created with lossy compression. 
+Answer: JPEG.
+output: ",I like to shoot photography in RAW format compared to JPEG format because the _ files created with lossless compression.
+"input: Context Word: business. 
+Question: My business meeting started at 9:00 and I needed to be home at 10:00 for an appointment, so there wasn't much time. The _ was short, so it worked out. 
+Answer: meeting.
+output: ","My business meeting started at 9:00 and I needed to be home at 10:00 for an appointment, so there wasn't much time. The _ was behind, so it worked out."
+"input: Context Word: Photograph. 
+Question: Photographing birds on flight is better shot with higher shutter speed compared to lower shutter speed because the _ photographs produces sharper photographs. 
+Answer: Higher shutter speed.
+output: ",Photographing birds on flight is better shot with higher shutter speed compared to lower shutter speed because the _ photographs produces blurry photographs.
+"input: Context Word: stained. 
+Question: The customer bought the chair instead of the stool because the _ was very stained. 
+Answer: stool.
+output: ",The customer bought the chair instead of the stool although the _ was very stained.
+"input: Context Word: acorn. 
+Question: The acorn would one day become a tree, but for now was merely a seed, as the _ was its future state. 
+Answer: tree.
+output: ","The acorn would one day become a tree, but for now was merely a seed, as the _ was its current state."
+"input: Context Word: fly. 
+Question: They were trying to fly the kite at either a low or high altitude. The _ altitude was difficult to maintain. 
+Answer: low.
+output: ",They were trying to fly the kite at either a low or high altitude. The _ altitude was easy to maintain.
+"input: Context Word: Octopus. 
+Question: To kill the octopus, the fisherman used a spear instead of the knife. The _ was less effective. 
+Answer: knife.
+output: ","To kill the octopus, the fisherman used a spear instead of the knife. The _ was deadlier."
+"input: Context Word: grape. 
+Question: The grape had to be cut up for the child because the _ was too big. 
+Answer: grape.
+output: ",The grape had to be cut up for the child because the _ was too small.
+"input: Context Word: reduce. 
+Question: To reduce wear on the road, we removed the chains from the wheels and replaced them with snow tires.  The _ were damaging to the road. 
+Answer: chains.
+output: ","To reduce wear on the road, we removed the chains from the wheels and replaced them with snow tires.  The _ were harmless to the road."
+"input: Context Word: diagnose. 
+Question: To properly diagnose this condition, the doctor removed the stethoscope and got the thermometer, as the _ was useless in finding the symptoms. 
+Answer: stethoscope.
+output: ","To properly diagnose this condition, the doctor removed the stethoscope and got the thermometer, as the _ was vital in finding the symptoms."
+"input: Context Word: tattoo. 
+Question: I'm getting a tattoo soon of either a heart or a skull. I'm told the _ is too girly though. 
+Answer: heart.
+output: ",I'm getting a tattoo soon of either a heart or a skull. I'm told the _ is too hardcore though.
+"input: Context Word: dresser. 
+Question: The man moved the lamp from the nightstand to the dresser because the _ was unstable. 
+Answer: nightstand.
+output: ",The man moved the lamp from the nightstand to the dresser because the _ was stable.
+"input: Context Word: impress. 
+Question: Nikki wanted to impress Ben with her beautiful hair and her personality, but Ben liked the _ more because he was shallow. 
+Answer: hair.
+output: ","Nikki wanted to impress Ben with her beautiful hair and her personality, but Ben liked the _ more because he was deep."
+"input: Context Word: member. 
+Question: I wanted to be a member of a book club or a sewing club. Because I'm an intellectual I picked the _ club. 
+Answer: book.
+output: ",I wanted to be a member of a book club or a sewing club. Because I'm creative I picked the _ club.
+"input: Context Word: turkeys. 
+Question: The farmer took the turkeys out of the barn and put them in the pen until the _ was full. 
+Answer: pen.
+output: ",The farmer took the turkeys out of the barn and put them in the pen until the _ was empty.
+"input: Context Word: eating. 
+Question: Bob had peaches and oranges for lunch. He finished eating all his peaches but didn't tough the oranges because the _ were disgusting. 
+Answer: oranges.
+output: ",Bob had peaches and oranges for lunch. He finished eating all his peaches but didn't tough the oranges because the _ were delicious.
+"input: Context Word: computer. 
+Question: The computer lost power quickly in the library but had plenty in the cafe, as the _ 's power source was deficient. 
+Answer: library.
+output: ","The computer lost power quickly in the library but had plenty in the cafe, as the _ 's power source was adequate."
+"input: Context Word: navy. 
+Question: I'm not sure whether to join the Army or the Navy. The _ is more likely to travel the world. 
+Answer: navy.
+output: ",I'm not sure whether to join the Army or the Navy. The _ is more likely to see combat.
+"input: Context Word: Potatoes. 
+Question: The farmer grew his potatoes without using pesticides because he didn't want the _ to perish. 
+Answer: potatoes.
+output: ",The farmer grew his potatoes without using pesticides because he didn't want the _ to destroy.
+"input: Context Word: tree. 
+Question: Mary had to move the table to plant the new tree because the _ was in the way. 
+Answer: table.
+output: ",Mary had to move the table to plant the new tree because the _ was too big.
+"input: Context Word: popcorn. 
+Question: The popcorn tasted better with butter on it, but no salt. The _ was gooey. 
+Answer: butter.
+output: ","The popcorn tasted better with butter on it, but no salt. The _ was old."
+"input: Context Word: scraped. 
+Question: She fell in dirt and scraped her knee, so she cleaned it out with soap and water, and then put a band aid on it. The _ disinfected the wound. 
+Answer: soap.
+output: ","She fell in dirt and scraped her knee, so she cleaned it out with soap and water, and then put a band aid on it. The _ contaminated the wound."
+"input: Context Word: money. 
+Question: Bob had a lot of money but not a lot of time because he spent a lot of the _ at work. 
+Answer: time.
+output: ",Bob had a lot of money but not a lot of time because he made a lot of the _ at work.
+"input: Context Word: insecurity. 
+Question: The problem that she was having was due to her insecurity with her home rather than the studio, because the _ was safe. 
+Answer: home.
+output: ","The problem that she was having was due to her insecurity with her home rather than the studio, because the _ was dangerous."

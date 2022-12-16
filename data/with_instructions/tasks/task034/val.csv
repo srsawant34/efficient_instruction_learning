@@ -1,0 +1,591 @@
+input,output
+"Definition: In this task, you're given a fill-in-the-blank question that contains two object names. Additionally, you're given one answer which is one of the objects present in the question. In this task, you need to minimally change the given question so that the answer flips to another object in the question. Remember the question has to be about both objects which are related but different; for example, ""trophy"" and ""suitcase"". This task typically involves replacing one word i.e., the 'trigger word' with its antonym (e.g., changing from ""small"" to ""big""). You should not change any content in the given question beyond a word or two, i.e., the trigger word/phrase. The expected answer to your question must not be associated with just the trigger word; instead, it should depend on the context present in the question. The expected answer should not be ambiguous. For your question, there should be an agreed upon answer to fill in the blank. Your generations should NOT contain potentially explicit, offensive, or adult content. In your generated question, retain the object names from the input question. Avoid repeating the same style or phrase in generating your modified question e.g. this task can be always solved using a simple negation i.e. by adding not, never, etc. Instead, try to increase the word diversity. Your question must contain at least 15 and at most 30 words. Your question must have at least 70% overlapping words with the given question. You must utilize the given context word while writing the question. Your question must contain only one blank. The two objects should be used ONCE in your question. Here is a list of attributes and associated contrastive words that may help write contrastive trigger words. Note that contrastive trigger words help in flipping the label.
+| Attribute | triggerword | contrastive triggerword | 
+| age | old | new | 
+| altitude | low | high |
+| area | small | vast | 
+| brightness | dark | light | 
+| clarity | obscure | clear | 
+| cleanness | dirty | clean | 
+| complexity | simple | complex | 
+| cost | cheap | expensive |
+| density | sparse | dense |
+| depth | shallow | deep |
+| distance | near | far |  
+| electric conductivity | low | high |
+| flexibility | rigid | flexible |
+| granularity | fine | coarse | 
+| hardness | soft | hard | 
+| length | short | long | 
+| magnitude | small | large | 
+| mass | small | large | 
+| odor | weak | strong | 
+| pressure | low | high | 
+| resistance | low | high | 
+| shape | round | sharp |
+| shape | flat | spiky |
+| size | small | large | 
+| sound | quiet | loud | 
+| sound pitch | low | high | 
+| speed | slow | fast | 
+| stability | unstable | stable | 
+| strength | weak | strong | 
+| temperature | low | high | 
+| texture | smooth | rough | 
+| thermal conductivity | low | high |
+| thickness | thin | thick | 
+| volume | small | large |
+| weight | light | heavy | 
+| width | narrow | wide | 
+| location | in | out |
+| location | up | down |
+| location | above | below |
+| location | on | off |
+| location | to | from |
+
+Positive example 1-
+input: Context word: fit. 
+Question: The trophy doesn't fit into the brown suitcase because _ is too large. 
+Answer: trophy.
+output: The trophy doesn't fit into the brown suitcase because _ is too small.
+Positive example 2-
+input: Context word: trade. 
+Question: Grace was happy to trade me her sweater for my jacket. She thinks _ looks dowdy on her. 
+Answer: sweater.
+output: Grace was happy to trade me her sweater for my jacket. She thinks _ looks great on her.
+Now complete the following example-
+input: Context Word: car. 
+Question: I decided to get a minivan instead of sportscar because the _ is more practical for a family. 
+Answer: minivan.
+output: ",I decided to get a minivan instead of sportscar because the _ is less practical for a family.
+"Definition: In this task, you're given a fill-in-the-blank question that contains two object names. Additionally, you're given one answer which is one of the objects present in the question. In this task, you need to minimally change the given question so that the answer flips to another object in the question. Remember the question has to be about both objects which are related but different; for example, ""trophy"" and ""suitcase"". This task typically involves replacing one word i.e., the 'trigger word' with its antonym (e.g., changing from ""small"" to ""big""). You should not change any content in the given question beyond a word or two, i.e., the trigger word/phrase. The expected answer to your question must not be associated with just the trigger word; instead, it should depend on the context present in the question. The expected answer should not be ambiguous. For your question, there should be an agreed upon answer to fill in the blank. Your generations should NOT contain potentially explicit, offensive, or adult content. In your generated question, retain the object names from the input question. Avoid repeating the same style or phrase in generating your modified question e.g. this task can be always solved using a simple negation i.e. by adding not, never, etc. Instead, try to increase the word diversity. Your question must contain at least 15 and at most 30 words. Your question must have at least 70% overlapping words with the given question. You must utilize the given context word while writing the question. Your question must contain only one blank. The two objects should be used ONCE in your question. Here is a list of attributes and associated contrastive words that may help write contrastive trigger words. Note that contrastive trigger words help in flipping the label.
+| Attribute | triggerword | contrastive triggerword | 
+| age | old | new | 
+| altitude | low | high |
+| area | small | vast | 
+| brightness | dark | light | 
+| clarity | obscure | clear | 
+| cleanness | dirty | clean | 
+| complexity | simple | complex | 
+| cost | cheap | expensive |
+| density | sparse | dense |
+| depth | shallow | deep |
+| distance | near | far |  
+| electric conductivity | low | high |
+| flexibility | rigid | flexible |
+| granularity | fine | coarse | 
+| hardness | soft | hard | 
+| length | short | long | 
+| magnitude | small | large | 
+| mass | small | large | 
+| odor | weak | strong | 
+| pressure | low | high | 
+| resistance | low | high | 
+| shape | round | sharp |
+| shape | flat | spiky |
+| size | small | large | 
+| sound | quiet | loud | 
+| sound pitch | low | high | 
+| speed | slow | fast | 
+| stability | unstable | stable | 
+| strength | weak | strong | 
+| temperature | low | high | 
+| texture | smooth | rough | 
+| thermal conductivity | low | high |
+| thickness | thin | thick | 
+| volume | small | large |
+| weight | light | heavy | 
+| width | narrow | wide | 
+| location | in | out |
+| location | up | down |
+| location | above | below |
+| location | on | off |
+| location | to | from |
+
+Positive example 1-
+input: Context word: fit. 
+Question: The trophy doesn't fit into the brown suitcase because _ is too large. 
+Answer: trophy.
+output: The trophy doesn't fit into the brown suitcase because _ is too small.
+Positive example 2-
+input: Context word: trade. 
+Question: Grace was happy to trade me her sweater for my jacket. She thinks _ looks dowdy on her. 
+Answer: sweater.
+output: Grace was happy to trade me her sweater for my jacket. She thinks _ looks great on her.
+Now complete the following example-
+input: Context Word: writing. 
+Question: She was writing a letter and needed to know whether to use pen or pencil. The _ seemed more accessible. 
+Answer: pen.
+output: ",She was writing a letter and needed to know whether to use pen or pencil. The _ seemed more unaccessible.
+"Definition: In this task, you're given a fill-in-the-blank question that contains two object names. Additionally, you're given one answer which is one of the objects present in the question. In this task, you need to minimally change the given question so that the answer flips to another object in the question. Remember the question has to be about both objects which are related but different; for example, ""trophy"" and ""suitcase"". This task typically involves replacing one word i.e., the 'trigger word' with its antonym (e.g., changing from ""small"" to ""big""). You should not change any content in the given question beyond a word or two, i.e., the trigger word/phrase. The expected answer to your question must not be associated with just the trigger word; instead, it should depend on the context present in the question. The expected answer should not be ambiguous. For your question, there should be an agreed upon answer to fill in the blank. Your generations should NOT contain potentially explicit, offensive, or adult content. In your generated question, retain the object names from the input question. Avoid repeating the same style or phrase in generating your modified question e.g. this task can be always solved using a simple negation i.e. by adding not, never, etc. Instead, try to increase the word diversity. Your question must contain at least 15 and at most 30 words. Your question must have at least 70% overlapping words with the given question. You must utilize the given context word while writing the question. Your question must contain only one blank. The two objects should be used ONCE in your question. Here is a list of attributes and associated contrastive words that may help write contrastive trigger words. Note that contrastive trigger words help in flipping the label.
+| Attribute | triggerword | contrastive triggerword | 
+| age | old | new | 
+| altitude | low | high |
+| area | small | vast | 
+| brightness | dark | light | 
+| clarity | obscure | clear | 
+| cleanness | dirty | clean | 
+| complexity | simple | complex | 
+| cost | cheap | expensive |
+| density | sparse | dense |
+| depth | shallow | deep |
+| distance | near | far |  
+| electric conductivity | low | high |
+| flexibility | rigid | flexible |
+| granularity | fine | coarse | 
+| hardness | soft | hard | 
+| length | short | long | 
+| magnitude | small | large | 
+| mass | small | large | 
+| odor | weak | strong | 
+| pressure | low | high | 
+| resistance | low | high | 
+| shape | round | sharp |
+| shape | flat | spiky |
+| size | small | large | 
+| sound | quiet | loud | 
+| sound pitch | low | high | 
+| speed | slow | fast | 
+| stability | unstable | stable | 
+| strength | weak | strong | 
+| temperature | low | high | 
+| texture | smooth | rough | 
+| thermal conductivity | low | high |
+| thickness | thin | thick | 
+| volume | small | large |
+| weight | light | heavy | 
+| width | narrow | wide | 
+| location | in | out |
+| location | up | down |
+| location | above | below |
+| location | on | off |
+| location | to | from |
+
+Positive example 1-
+input: Context word: fit. 
+Question: The trophy doesn't fit into the brown suitcase because _ is too large. 
+Answer: trophy.
+output: The trophy doesn't fit into the brown suitcase because _ is too small.
+Positive example 2-
+input: Context word: trade. 
+Question: Grace was happy to trade me her sweater for my jacket. She thinks _ looks dowdy on her. 
+Answer: sweater.
+output: Grace was happy to trade me her sweater for my jacket. She thinks _ looks great on her.
+Now complete the following example-
+input: Context Word: stew. 
+Question: Mary picked up some flowers from her garden, her brother started cooking beef stew with lots of onions, the weak smell from the _ was completely masked. 
+Answer: flowers.
+output: ","Mary picked up some flowers from her garden, her brother started cooking beef stew with lots of onions, the strong smell from the _ was overwhelming."
+"Definition: In this task, you're given a fill-in-the-blank question that contains two object names. Additionally, you're given one answer which is one of the objects present in the question. In this task, you need to minimally change the given question so that the answer flips to another object in the question. Remember the question has to be about both objects which are related but different; for example, ""trophy"" and ""suitcase"". This task typically involves replacing one word i.e., the 'trigger word' with its antonym (e.g., changing from ""small"" to ""big""). You should not change any content in the given question beyond a word or two, i.e., the trigger word/phrase. The expected answer to your question must not be associated with just the trigger word; instead, it should depend on the context present in the question. The expected answer should not be ambiguous. For your question, there should be an agreed upon answer to fill in the blank. Your generations should NOT contain potentially explicit, offensive, or adult content. In your generated question, retain the object names from the input question. Avoid repeating the same style or phrase in generating your modified question e.g. this task can be always solved using a simple negation i.e. by adding not, never, etc. Instead, try to increase the word diversity. Your question must contain at least 15 and at most 30 words. Your question must have at least 70% overlapping words with the given question. You must utilize the given context word while writing the question. Your question must contain only one blank. The two objects should be used ONCE in your question. Here is a list of attributes and associated contrastive words that may help write contrastive trigger words. Note that contrastive trigger words help in flipping the label.
+| Attribute | triggerword | contrastive triggerword | 
+| age | old | new | 
+| altitude | low | high |
+| area | small | vast | 
+| brightness | dark | light | 
+| clarity | obscure | clear | 
+| cleanness | dirty | clean | 
+| complexity | simple | complex | 
+| cost | cheap | expensive |
+| density | sparse | dense |
+| depth | shallow | deep |
+| distance | near | far |  
+| electric conductivity | low | high |
+| flexibility | rigid | flexible |
+| granularity | fine | coarse | 
+| hardness | soft | hard | 
+| length | short | long | 
+| magnitude | small | large | 
+| mass | small | large | 
+| odor | weak | strong | 
+| pressure | low | high | 
+| resistance | low | high | 
+| shape | round | sharp |
+| shape | flat | spiky |
+| size | small | large | 
+| sound | quiet | loud | 
+| sound pitch | low | high | 
+| speed | slow | fast | 
+| stability | unstable | stable | 
+| strength | weak | strong | 
+| temperature | low | high | 
+| texture | smooth | rough | 
+| thermal conductivity | low | high |
+| thickness | thin | thick | 
+| volume | small | large |
+| weight | light | heavy | 
+| width | narrow | wide | 
+| location | in | out |
+| location | up | down |
+| location | above | below |
+| location | on | off |
+| location | to | from |
+
+Positive example 1-
+input: Context word: fit. 
+Question: The trophy doesn't fit into the brown suitcase because _ is too large. 
+Answer: trophy.
+output: The trophy doesn't fit into the brown suitcase because _ is too small.
+Positive example 2-
+input: Context word: trade. 
+Question: Grace was happy to trade me her sweater for my jacket. She thinks _ looks dowdy on her. 
+Answer: sweater.
+output: Grace was happy to trade me her sweater for my jacket. She thinks _ looks great on her.
+Now complete the following example-
+input: Context Word: license. 
+Question: The drivers were going to apply for a permit before they got a license, since the _ would be attainable. 
+Answer: permit.
+output: ","The drivers were going to apply for a permit before they got a license, since the _ would be unreachable."
+"Definition: In this task, you're given a fill-in-the-blank question that contains two object names. Additionally, you're given one answer which is one of the objects present in the question. In this task, you need to minimally change the given question so that the answer flips to another object in the question. Remember the question has to be about both objects which are related but different; for example, ""trophy"" and ""suitcase"". This task typically involves replacing one word i.e., the 'trigger word' with its antonym (e.g., changing from ""small"" to ""big""). You should not change any content in the given question beyond a word or two, i.e., the trigger word/phrase. The expected answer to your question must not be associated with just the trigger word; instead, it should depend on the context present in the question. The expected answer should not be ambiguous. For your question, there should be an agreed upon answer to fill in the blank. Your generations should NOT contain potentially explicit, offensive, or adult content. In your generated question, retain the object names from the input question. Avoid repeating the same style or phrase in generating your modified question e.g. this task can be always solved using a simple negation i.e. by adding not, never, etc. Instead, try to increase the word diversity. Your question must contain at least 15 and at most 30 words. Your question must have at least 70% overlapping words with the given question. You must utilize the given context word while writing the question. Your question must contain only one blank. The two objects should be used ONCE in your question. Here is a list of attributes and associated contrastive words that may help write contrastive trigger words. Note that contrastive trigger words help in flipping the label.
+| Attribute | triggerword | contrastive triggerword | 
+| age | old | new | 
+| altitude | low | high |
+| area | small | vast | 
+| brightness | dark | light | 
+| clarity | obscure | clear | 
+| cleanness | dirty | clean | 
+| complexity | simple | complex | 
+| cost | cheap | expensive |
+| density | sparse | dense |
+| depth | shallow | deep |
+| distance | near | far |  
+| electric conductivity | low | high |
+| flexibility | rigid | flexible |
+| granularity | fine | coarse | 
+| hardness | soft | hard | 
+| length | short | long | 
+| magnitude | small | large | 
+| mass | small | large | 
+| odor | weak | strong | 
+| pressure | low | high | 
+| resistance | low | high | 
+| shape | round | sharp |
+| shape | flat | spiky |
+| size | small | large | 
+| sound | quiet | loud | 
+| sound pitch | low | high | 
+| speed | slow | fast | 
+| stability | unstable | stable | 
+| strength | weak | strong | 
+| temperature | low | high | 
+| texture | smooth | rough | 
+| thermal conductivity | low | high |
+| thickness | thin | thick | 
+| volume | small | large |
+| weight | light | heavy | 
+| width | narrow | wide | 
+| location | in | out |
+| location | up | down |
+| location | above | below |
+| location | on | off |
+| location | to | from |
+
+Positive example 1-
+input: Context word: fit. 
+Question: The trophy doesn't fit into the brown suitcase because _ is too large. 
+Answer: trophy.
+output: The trophy doesn't fit into the brown suitcase because _ is too small.
+Positive example 2-
+input: Context word: trade. 
+Question: Grace was happy to trade me her sweater for my jacket. She thinks _ looks dowdy on her. 
+Answer: sweater.
+output: Grace was happy to trade me her sweater for my jacket. She thinks _ looks great on her.
+Now complete the following example-
+input: Context Word: chair. 
+Question: My wife and I are shopping for new wooden or metal dining room chairs. The _ chairs are probably more durable. 
+Answer: metal.
+output: ",My wife and I are shopping for new wooden or metal dining room chairs. The _ chairs are probably more traditional.
+"Definition: In this task, you're given a fill-in-the-blank question that contains two object names. Additionally, you're given one answer which is one of the objects present in the question. In this task, you need to minimally change the given question so that the answer flips to another object in the question. Remember the question has to be about both objects which are related but different; for example, ""trophy"" and ""suitcase"". This task typically involves replacing one word i.e., the 'trigger word' with its antonym (e.g., changing from ""small"" to ""big""). You should not change any content in the given question beyond a word or two, i.e., the trigger word/phrase. The expected answer to your question must not be associated with just the trigger word; instead, it should depend on the context present in the question. The expected answer should not be ambiguous. For your question, there should be an agreed upon answer to fill in the blank. Your generations should NOT contain potentially explicit, offensive, or adult content. In your generated question, retain the object names from the input question. Avoid repeating the same style or phrase in generating your modified question e.g. this task can be always solved using a simple negation i.e. by adding not, never, etc. Instead, try to increase the word diversity. Your question must contain at least 15 and at most 30 words. Your question must have at least 70% overlapping words with the given question. You must utilize the given context word while writing the question. Your question must contain only one blank. The two objects should be used ONCE in your question. Here is a list of attributes and associated contrastive words that may help write contrastive trigger words. Note that contrastive trigger words help in flipping the label.
+| Attribute | triggerword | contrastive triggerword | 
+| age | old | new | 
+| altitude | low | high |
+| area | small | vast | 
+| brightness | dark | light | 
+| clarity | obscure | clear | 
+| cleanness | dirty | clean | 
+| complexity | simple | complex | 
+| cost | cheap | expensive |
+| density | sparse | dense |
+| depth | shallow | deep |
+| distance | near | far |  
+| electric conductivity | low | high |
+| flexibility | rigid | flexible |
+| granularity | fine | coarse | 
+| hardness | soft | hard | 
+| length | short | long | 
+| magnitude | small | large | 
+| mass | small | large | 
+| odor | weak | strong | 
+| pressure | low | high | 
+| resistance | low | high | 
+| shape | round | sharp |
+| shape | flat | spiky |
+| size | small | large | 
+| sound | quiet | loud | 
+| sound pitch | low | high | 
+| speed | slow | fast | 
+| stability | unstable | stable | 
+| strength | weak | strong | 
+| temperature | low | high | 
+| texture | smooth | rough | 
+| thermal conductivity | low | high |
+| thickness | thin | thick | 
+| volume | small | large |
+| weight | light | heavy | 
+| width | narrow | wide | 
+| location | in | out |
+| location | up | down |
+| location | above | below |
+| location | on | off |
+| location | to | from |
+
+Positive example 1-
+input: Context word: fit. 
+Question: The trophy doesn't fit into the brown suitcase because _ is too large. 
+Answer: trophy.
+output: The trophy doesn't fit into the brown suitcase because _ is too small.
+Positive example 2-
+input: Context word: trade. 
+Question: Grace was happy to trade me her sweater for my jacket. She thinks _ looks dowdy on her. 
+Answer: sweater.
+output: Grace was happy to trade me her sweater for my jacket. She thinks _ looks great on her.
+Now complete the following example-
+input: Context Word: eggs. 
+Question: The children put eggs from the yard into the basket until the _ was full. 
+Answer: basket.
+output: ",The children put eggs from the yard into the basket until the _ was empty.
+"Definition: In this task, you're given a fill-in-the-blank question that contains two object names. Additionally, you're given one answer which is one of the objects present in the question. In this task, you need to minimally change the given question so that the answer flips to another object in the question. Remember the question has to be about both objects which are related but different; for example, ""trophy"" and ""suitcase"". This task typically involves replacing one word i.e., the 'trigger word' with its antonym (e.g., changing from ""small"" to ""big""). You should not change any content in the given question beyond a word or two, i.e., the trigger word/phrase. The expected answer to your question must not be associated with just the trigger word; instead, it should depend on the context present in the question. The expected answer should not be ambiguous. For your question, there should be an agreed upon answer to fill in the blank. Your generations should NOT contain potentially explicit, offensive, or adult content. In your generated question, retain the object names from the input question. Avoid repeating the same style or phrase in generating your modified question e.g. this task can be always solved using a simple negation i.e. by adding not, never, etc. Instead, try to increase the word diversity. Your question must contain at least 15 and at most 30 words. Your question must have at least 70% overlapping words with the given question. You must utilize the given context word while writing the question. Your question must contain only one blank. The two objects should be used ONCE in your question. Here is a list of attributes and associated contrastive words that may help write contrastive trigger words. Note that contrastive trigger words help in flipping the label.
+| Attribute | triggerword | contrastive triggerword | 
+| age | old | new | 
+| altitude | low | high |
+| area | small | vast | 
+| brightness | dark | light | 
+| clarity | obscure | clear | 
+| cleanness | dirty | clean | 
+| complexity | simple | complex | 
+| cost | cheap | expensive |
+| density | sparse | dense |
+| depth | shallow | deep |
+| distance | near | far |  
+| electric conductivity | low | high |
+| flexibility | rigid | flexible |
+| granularity | fine | coarse | 
+| hardness | soft | hard | 
+| length | short | long | 
+| magnitude | small | large | 
+| mass | small | large | 
+| odor | weak | strong | 
+| pressure | low | high | 
+| resistance | low | high | 
+| shape | round | sharp |
+| shape | flat | spiky |
+| size | small | large | 
+| sound | quiet | loud | 
+| sound pitch | low | high | 
+| speed | slow | fast | 
+| stability | unstable | stable | 
+| strength | weak | strong | 
+| temperature | low | high | 
+| texture | smooth | rough | 
+| thermal conductivity | low | high |
+| thickness | thin | thick | 
+| volume | small | large |
+| weight | light | heavy | 
+| width | narrow | wide | 
+| location | in | out |
+| location | up | down |
+| location | above | below |
+| location | on | off |
+| location | to | from |
+
+Positive example 1-
+input: Context word: fit. 
+Question: The trophy doesn't fit into the brown suitcase because _ is too large. 
+Answer: trophy.
+output: The trophy doesn't fit into the brown suitcase because _ is too small.
+Positive example 2-
+input: Context word: trade. 
+Question: Grace was happy to trade me her sweater for my jacket. She thinks _ looks dowdy on her. 
+Answer: sweater.
+output: Grace was happy to trade me her sweater for my jacket. She thinks _ looks great on her.
+Now complete the following example-
+input: Context Word: ointment. 
+Question: ObjectX is skin while ObjectY is the liver, the injury can be treated with the ointment because its on the _ on the outside of the body. 
+Answer: skin.
+output: ","ObjectX is skin while ObjectY is the liver, the injury can't be treated with the ointment because its on the _ on the inside of the body."
+"Definition: In this task, you're given a fill-in-the-blank question that contains two object names. Additionally, you're given one answer which is one of the objects present in the question. In this task, you need to minimally change the given question so that the answer flips to another object in the question. Remember the question has to be about both objects which are related but different; for example, ""trophy"" and ""suitcase"". This task typically involves replacing one word i.e., the 'trigger word' with its antonym (e.g., changing from ""small"" to ""big""). You should not change any content in the given question beyond a word or two, i.e., the trigger word/phrase. The expected answer to your question must not be associated with just the trigger word; instead, it should depend on the context present in the question. The expected answer should not be ambiguous. For your question, there should be an agreed upon answer to fill in the blank. Your generations should NOT contain potentially explicit, offensive, or adult content. In your generated question, retain the object names from the input question. Avoid repeating the same style or phrase in generating your modified question e.g. this task can be always solved using a simple negation i.e. by adding not, never, etc. Instead, try to increase the word diversity. Your question must contain at least 15 and at most 30 words. Your question must have at least 70% overlapping words with the given question. You must utilize the given context word while writing the question. Your question must contain only one blank. The two objects should be used ONCE in your question. Here is a list of attributes and associated contrastive words that may help write contrastive trigger words. Note that contrastive trigger words help in flipping the label.
+| Attribute | triggerword | contrastive triggerword | 
+| age | old | new | 
+| altitude | low | high |
+| area | small | vast | 
+| brightness | dark | light | 
+| clarity | obscure | clear | 
+| cleanness | dirty | clean | 
+| complexity | simple | complex | 
+| cost | cheap | expensive |
+| density | sparse | dense |
+| depth | shallow | deep |
+| distance | near | far |  
+| electric conductivity | low | high |
+| flexibility | rigid | flexible |
+| granularity | fine | coarse | 
+| hardness | soft | hard | 
+| length | short | long | 
+| magnitude | small | large | 
+| mass | small | large | 
+| odor | weak | strong | 
+| pressure | low | high | 
+| resistance | low | high | 
+| shape | round | sharp |
+| shape | flat | spiky |
+| size | small | large | 
+| sound | quiet | loud | 
+| sound pitch | low | high | 
+| speed | slow | fast | 
+| stability | unstable | stable | 
+| strength | weak | strong | 
+| temperature | low | high | 
+| texture | smooth | rough | 
+| thermal conductivity | low | high |
+| thickness | thin | thick | 
+| volume | small | large |
+| weight | light | heavy | 
+| width | narrow | wide | 
+| location | in | out |
+| location | up | down |
+| location | above | below |
+| location | on | off |
+| location | to | from |
+
+Positive example 1-
+input: Context word: fit. 
+Question: The trophy doesn't fit into the brown suitcase because _ is too large. 
+Answer: trophy.
+output: The trophy doesn't fit into the brown suitcase because _ is too small.
+Positive example 2-
+input: Context word: trade. 
+Question: Grace was happy to trade me her sweater for my jacket. She thinks _ looks dowdy on her. 
+Answer: sweater.
+output: Grace was happy to trade me her sweater for my jacket. She thinks _ looks great on her.
+Now complete the following example-
+input: Context Word: swelling. 
+Question: Tom wanted to avoid swelling of his feet in the hot weather so he drank water but the _ was not enough. 
+Answer: water.
+output: ",Tom wanted to avoid swelling of his feet in the hot weather so he drank water but the _ was too intense.
+"Definition: In this task, you're given a fill-in-the-blank question that contains two object names. Additionally, you're given one answer which is one of the objects present in the question. In this task, you need to minimally change the given question so that the answer flips to another object in the question. Remember the question has to be about both objects which are related but different; for example, ""trophy"" and ""suitcase"". This task typically involves replacing one word i.e., the 'trigger word' with its antonym (e.g., changing from ""small"" to ""big""). You should not change any content in the given question beyond a word or two, i.e., the trigger word/phrase. The expected answer to your question must not be associated with just the trigger word; instead, it should depend on the context present in the question. The expected answer should not be ambiguous. For your question, there should be an agreed upon answer to fill in the blank. Your generations should NOT contain potentially explicit, offensive, or adult content. In your generated question, retain the object names from the input question. Avoid repeating the same style or phrase in generating your modified question e.g. this task can be always solved using a simple negation i.e. by adding not, never, etc. Instead, try to increase the word diversity. Your question must contain at least 15 and at most 30 words. Your question must have at least 70% overlapping words with the given question. You must utilize the given context word while writing the question. Your question must contain only one blank. The two objects should be used ONCE in your question. Here is a list of attributes and associated contrastive words that may help write contrastive trigger words. Note that contrastive trigger words help in flipping the label.
+| Attribute | triggerword | contrastive triggerword | 
+| age | old | new | 
+| altitude | low | high |
+| area | small | vast | 
+| brightness | dark | light | 
+| clarity | obscure | clear | 
+| cleanness | dirty | clean | 
+| complexity | simple | complex | 
+| cost | cheap | expensive |
+| density | sparse | dense |
+| depth | shallow | deep |
+| distance | near | far |  
+| electric conductivity | low | high |
+| flexibility | rigid | flexible |
+| granularity | fine | coarse | 
+| hardness | soft | hard | 
+| length | short | long | 
+| magnitude | small | large | 
+| mass | small | large | 
+| odor | weak | strong | 
+| pressure | low | high | 
+| resistance | low | high | 
+| shape | round | sharp |
+| shape | flat | spiky |
+| size | small | large | 
+| sound | quiet | loud | 
+| sound pitch | low | high | 
+| speed | slow | fast | 
+| stability | unstable | stable | 
+| strength | weak | strong | 
+| temperature | low | high | 
+| texture | smooth | rough | 
+| thermal conductivity | low | high |
+| thickness | thin | thick | 
+| volume | small | large |
+| weight | light | heavy | 
+| width | narrow | wide | 
+| location | in | out |
+| location | up | down |
+| location | above | below |
+| location | on | off |
+| location | to | from |
+
+Positive example 1-
+input: Context word: fit. 
+Question: The trophy doesn't fit into the brown suitcase because _ is too large. 
+Answer: trophy.
+output: The trophy doesn't fit into the brown suitcase because _ is too small.
+Positive example 2-
+input: Context word: trade. 
+Question: Grace was happy to trade me her sweater for my jacket. She thinks _ looks dowdy on her. 
+Answer: sweater.
+output: Grace was happy to trade me her sweater for my jacket. She thinks _ looks great on her.
+Now complete the following example-
+input: Context Word: drone. 
+Question: I want a drone with a good camera and long range. The _ is more important because I use it to cover some distance. 
+Answer: range.
+output: ",I want a drone with a good camera and long range. The _ is more important because I use it for weddings.
+"Definition: In this task, you're given a fill-in-the-blank question that contains two object names. Additionally, you're given one answer which is one of the objects present in the question. In this task, you need to minimally change the given question so that the answer flips to another object in the question. Remember the question has to be about both objects which are related but different; for example, ""trophy"" and ""suitcase"". This task typically involves replacing one word i.e., the 'trigger word' with its antonym (e.g., changing from ""small"" to ""big""). You should not change any content in the given question beyond a word or two, i.e., the trigger word/phrase. The expected answer to your question must not be associated with just the trigger word; instead, it should depend on the context present in the question. The expected answer should not be ambiguous. For your question, there should be an agreed upon answer to fill in the blank. Your generations should NOT contain potentially explicit, offensive, or adult content. In your generated question, retain the object names from the input question. Avoid repeating the same style or phrase in generating your modified question e.g. this task can be always solved using a simple negation i.e. by adding not, never, etc. Instead, try to increase the word diversity. Your question must contain at least 15 and at most 30 words. Your question must have at least 70% overlapping words with the given question. You must utilize the given context word while writing the question. Your question must contain only one blank. The two objects should be used ONCE in your question. Here is a list of attributes and associated contrastive words that may help write contrastive trigger words. Note that contrastive trigger words help in flipping the label.
+| Attribute | triggerword | contrastive triggerword | 
+| age | old | new | 
+| altitude | low | high |
+| area | small | vast | 
+| brightness | dark | light | 
+| clarity | obscure | clear | 
+| cleanness | dirty | clean | 
+| complexity | simple | complex | 
+| cost | cheap | expensive |
+| density | sparse | dense |
+| depth | shallow | deep |
+| distance | near | far |  
+| electric conductivity | low | high |
+| flexibility | rigid | flexible |
+| granularity | fine | coarse | 
+| hardness | soft | hard | 
+| length | short | long | 
+| magnitude | small | large | 
+| mass | small | large | 
+| odor | weak | strong | 
+| pressure | low | high | 
+| resistance | low | high | 
+| shape | round | sharp |
+| shape | flat | spiky |
+| size | small | large | 
+| sound | quiet | loud | 
+| sound pitch | low | high | 
+| speed | slow | fast | 
+| stability | unstable | stable | 
+| strength | weak | strong | 
+| temperature | low | high | 
+| texture | smooth | rough | 
+| thermal conductivity | low | high |
+| thickness | thin | thick | 
+| volume | small | large |
+| weight | light | heavy | 
+| width | narrow | wide | 
+| location | in | out |
+| location | up | down |
+| location | above | below |
+| location | on | off |
+| location | to | from |
+
+Positive example 1-
+input: Context word: fit. 
+Question: The trophy doesn't fit into the brown suitcase because _ is too large. 
+Answer: trophy.
+output: The trophy doesn't fit into the brown suitcase because _ is too small.
+Positive example 2-
+input: Context word: trade. 
+Question: Grace was happy to trade me her sweater for my jacket. She thinks _ looks dowdy on her. 
+Answer: sweater.
+output: Grace was happy to trade me her sweater for my jacket. She thinks _ looks great on her.
+Now complete the following example-
+input: Context Word: grow. 
+Question: In the garden, it took more time to grow the turnips than the carrots since the _ needed extra attention. 
+Answer: turnips.
+output: ","In the garden, it took more time to grow the turnips than the carrots since the _ needed little attention."

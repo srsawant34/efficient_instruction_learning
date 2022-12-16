@@ -1,0 +1,31 @@
+input,output
+"Definition: In this task, you are given a premise sentence, two possible options and a question word. If the question was cause you should select the option that is a possible cause of the premise sentence, and if the question word was effect you should find the option which is a possible effect of the premise sentence. Answer with ""A"" or ""B"".
+Positive example 1-
+input: The animal species became endangered. (A) Their habitat was destroyed. (B) Their predators went extinct., Question: cause
+output: A
+Positive example 2-
+input: The bar closed. (A) It was crowded. (B) It was 3 AM., Question: cause
+output: B
+Now complete the following example-
+input: The gardener pulled the weeds. (A) The weeds came out of the soil. (B) The weeds produced seeds., Question: effect
+output: ",A
+"Definition: In this task, you are given a premise sentence, two possible options and a question word. If the question was cause you should select the option that is a possible cause of the premise sentence, and if the question word was effect you should find the option which is a possible effect of the premise sentence. Answer with ""A"" or ""B"".
+Positive example 1-
+input: The animal species became endangered. (A) Their habitat was destroyed. (B) Their predators went extinct., Question: cause
+output: A
+Positive example 2-
+input: The bar closed. (A) It was crowded. (B) It was 3 AM., Question: cause
+output: B
+Now complete the following example-
+input: The man fainted. (A) He took a nap. (B) He ran a marathon., Question: cause
+output: ",B
+"Definition: In this task, you are given a premise sentence, two possible options and a question word. If the question was cause you should select the option that is a possible cause of the premise sentence, and if the question word was effect you should find the option which is a possible effect of the premise sentence. Answer with ""A"" or ""B"".
+Positive example 1-
+input: The animal species became endangered. (A) Their habitat was destroyed. (B) Their predators went extinct., Question: cause
+output: A
+Positive example 2-
+input: The bar closed. (A) It was crowded. (B) It was 3 AM., Question: cause
+output: B
+Now complete the following example-
+input: The woman received a diploma. (A) She enrolled in college. (B) She graduated from college., Question: cause
+output: ",B

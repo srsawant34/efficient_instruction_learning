@@ -1,0 +1,101 @@
+input,output
+"Definition: In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.
+Positive example 1-
+input: name[Aromi], eatType[restaurant], food[English], area[city centre]
+output: Aromi is an English restaurant in the city centre.
+Positive example 2-
+input: name[The Rice Boat], food[Indian], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]
+output: The Rice Boat is a cheap Indian restaurant in the center of the city near Express by Holiday Inn. It is family friendly and has the highest customer rating.
+Now complete the following example-
+input: name[The Waterman], food[Fast food], familyFriendly[yes], near[Crowne Plaza Hotel]
+output: ",The Waterman is a family friendly fast food establishment situated close to the Crown Plaza Hotel.
+"Definition: In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.
+Positive example 1-
+input: name[Aromi], eatType[restaurant], food[English], area[city centre]
+output: Aromi is an English restaurant in the city centre.
+Positive example 2-
+input: name[The Rice Boat], food[Indian], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]
+output: The Rice Boat is a cheap Indian restaurant in the center of the city near Express by Holiday Inn. It is family friendly and has the highest customer rating.
+Now complete the following example-
+input: name[Strada], food[French], priceRange[less than £20], customer rating[low], familyFriendly[yes], near[Rainbow Vegetarian Café]
+output: ",Near the Rainbow Vegetarian Café is a low rated French restaurant that is family friendly called Strada which will cost less than £20
+"Definition: In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.
+Positive example 1-
+input: name[Aromi], eatType[restaurant], food[English], area[city centre]
+output: Aromi is an English restaurant in the city centre.
+Positive example 2-
+input: name[The Rice Boat], food[Indian], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]
+output: The Rice Boat is a cheap Indian restaurant in the center of the city near Express by Holiday Inn. It is family friendly and has the highest customer rating.
+Now complete the following example-
+input: name[The Olive Grove], eatType[pub], food[French], priceRange[less than £20], area[city centre], familyFriendly[no]
+output: ",There is a French pub that is not family-friendly with a price range of less than £20 in the city centre named The Olive Grove.
+"Definition: In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.
+Positive example 1-
+input: name[Aromi], eatType[restaurant], food[English], area[city centre]
+output: Aromi is an English restaurant in the city centre.
+Positive example 2-
+input: name[The Rice Boat], food[Indian], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]
+output: The Rice Boat is a cheap Indian restaurant in the center of the city near Express by Holiday Inn. It is family friendly and has the highest customer rating.
+Now complete the following example-
+input: name[The Olive Grove], eatType[pub], food[Italian], priceRange[high], area[riverside], familyFriendly[yes]
+output: ",The Olive Grove is an upscale pub offering entries and brew.
+"Definition: In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.
+Positive example 1-
+input: name[Aromi], eatType[restaurant], food[English], area[city centre]
+output: Aromi is an English restaurant in the city centre.
+Positive example 2-
+input: name[The Rice Boat], food[Indian], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]
+output: The Rice Boat is a cheap Indian restaurant in the center of the city near Express by Holiday Inn. It is family friendly and has the highest customer rating.
+Now complete the following example-
+input: name[Fitzbillies], priceRange[cheap], customer rating[5 out of 5], familyFriendly[yes], near[Express by Holiday Inn]
+output: ","A cheap hotel near Cambridge is Fitzbillies, part of the chain called Express by Holiday Inn.  This hotel was rated 5 out of 5."
+"Definition: In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.
+Positive example 1-
+input: name[Aromi], eatType[restaurant], food[English], area[city centre]
+output: Aromi is an English restaurant in the city centre.
+Positive example 2-
+input: name[The Rice Boat], food[Indian], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]
+output: The Rice Boat is a cheap Indian restaurant in the center of the city near Express by Holiday Inn. It is family friendly and has the highest customer rating.
+Now complete the following example-
+input: name[The Cambridge Blue], eatType[restaurant], food[French], customer rating[3 out of 5]
+output: ",The Cambridge Blue is a restaurant serving French food with a customer rating of 3 out of 5.
+"Definition: In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.
+Positive example 1-
+input: name[Aromi], eatType[restaurant], food[English], area[city centre]
+output: Aromi is an English restaurant in the city centre.
+Positive example 2-
+input: name[The Rice Boat], food[Indian], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]
+output: The Rice Boat is a cheap Indian restaurant in the center of the city near Express by Holiday Inn. It is family friendly and has the highest customer rating.
+Now complete the following example-
+input: name[The Golden Palace], eatType[restaurant], customer rating[low], area[city centre]
+output: ",A restaurant in the city centre with a low customer rating is called The Golden Palace.
+"Definition: In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.
+Positive example 1-
+input: name[Aromi], eatType[restaurant], food[English], area[city centre]
+output: Aromi is an English restaurant in the city centre.
+Positive example 2-
+input: name[The Rice Boat], food[Indian], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]
+output: The Rice Boat is a cheap Indian restaurant in the center of the city near Express by Holiday Inn. It is family friendly and has the highest customer rating.
+Now complete the following example-
+input: name[Cotto], food[Chinese], customer rating[average], familyFriendly[yes], near[Ranch]
+output: ",A family friendly Chinese restaurant near Ranch is called Cotto.
+"Definition: In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.
+Positive example 1-
+input: name[Aromi], eatType[restaurant], food[English], area[city centre]
+output: Aromi is an English restaurant in the city centre.
+Positive example 2-
+input: name[The Rice Boat], food[Indian], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]
+output: The Rice Boat is a cheap Indian restaurant in the center of the city near Express by Holiday Inn. It is family friendly and has the highest customer rating.
+Now complete the following example-
+input: name[The Vaults], food[Italian], priceRange[cheap], familyFriendly[yes]
+output: ",The Vaults is a cheap and family friendly Italian restaurant.
+"Definition: In this task, we ask you convert a data table of restaurant descriptions into fluent natural-sounding English sentences. The input is a string of key-value pairs; the output should be a natural and grammatical English sentence containing all the information from the input.
+Positive example 1-
+input: name[Aromi], eatType[restaurant], food[English], area[city centre]
+output: Aromi is an English restaurant in the city centre.
+Positive example 2-
+input: name[The Rice Boat], food[Indian], priceRange[cheap], customer rating[5 out of 5], area[city centre], familyFriendly[yes], near[Express by Holiday Inn]
+output: The Rice Boat is a cheap Indian restaurant in the center of the city near Express by Holiday Inn. It is family friendly and has the highest customer rating.
+Now complete the following example-
+input: name[The Waterman], food[Chinese], priceRange[high], customer rating[1 out of 5], area[city centre], familyFriendly[no]
+output: ","The Waterman has Chinese food in the high price Range and a customer Rating 1 out of 5, in the city centre area and is not child Friendly."

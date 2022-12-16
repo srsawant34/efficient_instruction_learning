@@ -1,0 +1,131 @@
+input,output
+"Definition: In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen before that sentence, or are likely to have happened before it. Does any of them directly cause it, or simply make it possible? You should write your answer in the form "" A >causes/enables> B"". Try to use phrases and sentences from the story to compose your answer when possible.
+Positive example 1-
+input: story: It was bedtime at our house. Two of the three kids hit the pillow and fall asleep. The third is a trouble maker. For two hours he continues to get out of bed and want to play. Finally he becomes tired and falls asleep.
+ selected sentence: Finally he becomes tired and falls asleep.
+output: A kid wants to play before sleep >Causes/Enables> A kid eventually falls asleep
+Positive example 2-
+input: story: Cindy woke up late. Cindy forgot her homework. Cindy dropped food on her skirt. She thought it was the worst day ever. She got home and her parents took her for ice cream and it wasn't bad.
+ selected sentence: Cindy dropped food on her skirt.
+output: Cindy eats >Causes/Enables> Cindy drops food on  her skirt
+Now complete the following example-
+input: story: Bob was learning to cook. Sarah was teaching him to cook rice. He boiled the water and added the rice. Bob forgot to check the stove. Bob burned the rice.
+ selected sentence: Sarah was teaching him to cook rice.
+output: ",Sarah decides to teach >Causes/Enables> Sarah teaches
+"Definition: In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen before that sentence, or are likely to have happened before it. Does any of them directly cause it, or simply make it possible? You should write your answer in the form "" A >causes/enables> B"". Try to use phrases and sentences from the story to compose your answer when possible.
+Positive example 1-
+input: story: It was bedtime at our house. Two of the three kids hit the pillow and fall asleep. The third is a trouble maker. For two hours he continues to get out of bed and want to play. Finally he becomes tired and falls asleep.
+ selected sentence: Finally he becomes tired and falls asleep.
+output: A kid wants to play before sleep >Causes/Enables> A kid eventually falls asleep
+Positive example 2-
+input: story: Cindy woke up late. Cindy forgot her homework. Cindy dropped food on her skirt. She thought it was the worst day ever. She got home and her parents took her for ice cream and it wasn't bad.
+ selected sentence: Cindy dropped food on her skirt.
+output: Cindy eats >Causes/Enables> Cindy drops food on  her skirt
+Now complete the following example-
+input: story: Chris was in a rush to open a bottle of wine. He twisted the corkscrew into the cork as fast as he could. He gave it a strong yank to get the cork out. The cork tore in two pieces. Chris had to remove the cork from the corkscrew and start again.
+ selected sentence: The cork tore in two pieces.
+output: ",Chris gave a strong yank to the cork >Causes/Enables> Chris broke the cork
+"Definition: In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen before that sentence, or are likely to have happened before it. Does any of them directly cause it, or simply make it possible? You should write your answer in the form "" A >causes/enables> B"". Try to use phrases and sentences from the story to compose your answer when possible.
+Positive example 1-
+input: story: It was bedtime at our house. Two of the three kids hit the pillow and fall asleep. The third is a trouble maker. For two hours he continues to get out of bed and want to play. Finally he becomes tired and falls asleep.
+ selected sentence: Finally he becomes tired and falls asleep.
+output: A kid wants to play before sleep >Causes/Enables> A kid eventually falls asleep
+Positive example 2-
+input: story: Cindy woke up late. Cindy forgot her homework. Cindy dropped food on her skirt. She thought it was the worst day ever. She got home and her parents took her for ice cream and it wasn't bad.
+ selected sentence: Cindy dropped food on her skirt.
+output: Cindy eats >Causes/Enables> Cindy drops food on  her skirt
+Now complete the following example-
+input: story: Roxy's home is filled with clutter. Things are getting so bad that she can't even see her couch anymore. She knows that she needs to do Something about her clutter. So she makes a plan to get rid of 2,000 items every day for a week. Roxy's house is much cleaner one week later.
+ selected sentence: She knows that she needs to do Something about her clutter.
+output: ",Roxy's home gets filled with clutter >Causes/Enables> Roxy knows she needs to do Something
+"Definition: In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen before that sentence, or are likely to have happened before it. Does any of them directly cause it, or simply make it possible? You should write your answer in the form "" A >causes/enables> B"". Try to use phrases and sentences from the story to compose your answer when possible.
+Positive example 1-
+input: story: It was bedtime at our house. Two of the three kids hit the pillow and fall asleep. The third is a trouble maker. For two hours he continues to get out of bed and want to play. Finally he becomes tired and falls asleep.
+ selected sentence: Finally he becomes tired and falls asleep.
+output: A kid wants to play before sleep >Causes/Enables> A kid eventually falls asleep
+Positive example 2-
+input: story: Cindy woke up late. Cindy forgot her homework. Cindy dropped food on her skirt. She thought it was the worst day ever. She got home and her parents took her for ice cream and it wasn't bad.
+ selected sentence: Cindy dropped food on her skirt.
+output: Cindy eats >Causes/Enables> Cindy drops food on  her skirt
+Now complete the following example-
+input: story: Dan decided to dress as the Easter Bunny for his kids. He picked up the costume his wife ordered online. When he put the costume on it was too big. He went to the yard to see the kids wearing the hideously large suit. The children began screaming when they saw the monster bunny.
+ selected sentence: He went to the yard to see the kids wearing the hideously large suit.
+output: ",Dan decides to go >Causes/Enables> Dan goes
+"Definition: In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen before that sentence, or are likely to have happened before it. Does any of them directly cause it, or simply make it possible? You should write your answer in the form "" A >causes/enables> B"". Try to use phrases and sentences from the story to compose your answer when possible.
+Positive example 1-
+input: story: It was bedtime at our house. Two of the three kids hit the pillow and fall asleep. The third is a trouble maker. For two hours he continues to get out of bed and want to play. Finally he becomes tired and falls asleep.
+ selected sentence: Finally he becomes tired and falls asleep.
+output: A kid wants to play before sleep >Causes/Enables> A kid eventually falls asleep
+Positive example 2-
+input: story: Cindy woke up late. Cindy forgot her homework. Cindy dropped food on her skirt. She thought it was the worst day ever. She got home and her parents took her for ice cream and it wasn't bad.
+ selected sentence: Cindy dropped food on her skirt.
+output: Cindy eats >Causes/Enables> Cindy drops food on  her skirt
+Now complete the following example-
+input: story: Kyle was driving down the road. As he got closer to work, he saw flames. He could not figure out where the fire was coming from. Suddenly he saw a car on fire. Luckily, the fire truck was able to put the flames out.
+ selected sentence: Suddenly he saw a car on fire.
+output: ",A car overheats >Causes/Enables> The car is on fire
+"Definition: In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen before that sentence, or are likely to have happened before it. Does any of them directly cause it, or simply make it possible? You should write your answer in the form "" A >causes/enables> B"". Try to use phrases and sentences from the story to compose your answer when possible.
+Positive example 1-
+input: story: It was bedtime at our house. Two of the three kids hit the pillow and fall asleep. The third is a trouble maker. For two hours he continues to get out of bed and want to play. Finally he becomes tired and falls asleep.
+ selected sentence: Finally he becomes tired and falls asleep.
+output: A kid wants to play before sleep >Causes/Enables> A kid eventually falls asleep
+Positive example 2-
+input: story: Cindy woke up late. Cindy forgot her homework. Cindy dropped food on her skirt. She thought it was the worst day ever. She got home and her parents took her for ice cream and it wasn't bad.
+ selected sentence: Cindy dropped food on her skirt.
+output: Cindy eats >Causes/Enables> Cindy drops food on  her skirt
+Now complete the following example-
+input: story: Katie went to the park to fly her kite. Her kite got stuck in a tall tree tree. Katie couldn't reach her kite. She asked a tall man for help. The man got her kite out of the tree.
+ selected sentence: Her kite got stuck in a tall tree tree.
+output: ",Katie flies her kite >Causes/Enables> katie's kite get stuck in a tree
+"Definition: In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen before that sentence, or are likely to have happened before it. Does any of them directly cause it, or simply make it possible? You should write your answer in the form "" A >causes/enables> B"". Try to use phrases and sentences from the story to compose your answer when possible.
+Positive example 1-
+input: story: It was bedtime at our house. Two of the three kids hit the pillow and fall asleep. The third is a trouble maker. For two hours he continues to get out of bed and want to play. Finally he becomes tired and falls asleep.
+ selected sentence: Finally he becomes tired and falls asleep.
+output: A kid wants to play before sleep >Causes/Enables> A kid eventually falls asleep
+Positive example 2-
+input: story: Cindy woke up late. Cindy forgot her homework. Cindy dropped food on her skirt. She thought it was the worst day ever. She got home and her parents took her for ice cream and it wasn't bad.
+ selected sentence: Cindy dropped food on her skirt.
+output: Cindy eats >Causes/Enables> Cindy drops food on  her skirt
+Now complete the following example-
+input: story: One day jim found a phone number in a book. It was written in the cover. He called the number hoping to speak to Someone. The phone rang and rang. He hung up because nobody answered the phone.
+ selected sentence: One day jim found a phone number in a book.
+output: ",Jim opened a book >Causes/Enables> Jim found a phone number in the book
+"Definition: In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen before that sentence, or are likely to have happened before it. Does any of them directly cause it, or simply make it possible? You should write your answer in the form "" A >causes/enables> B"". Try to use phrases and sentences from the story to compose your answer when possible.
+Positive example 1-
+input: story: It was bedtime at our house. Two of the three kids hit the pillow and fall asleep. The third is a trouble maker. For two hours he continues to get out of bed and want to play. Finally he becomes tired and falls asleep.
+ selected sentence: Finally he becomes tired and falls asleep.
+output: A kid wants to play before sleep >Causes/Enables> A kid eventually falls asleep
+Positive example 2-
+input: story: Cindy woke up late. Cindy forgot her homework. Cindy dropped food on her skirt. She thought it was the worst day ever. She got home and her parents took her for ice cream and it wasn't bad.
+ selected sentence: Cindy dropped food on her skirt.
+output: Cindy eats >Causes/Enables> Cindy drops food on  her skirt
+Now complete the following example-
+input: story: Ava and her brother were playing baseball in the backyard. Ava's bat smashed the ball - which broke the window next door! No one saw it happen, but Ava decided she had to do the right thing. She left a note explaining and apologizing. Later, the neighbor came over to thank Ava for her honesty.
+ selected sentence: Later, the neighbor came over to thank Ava for her honesty.
+output: ",Ava leaves a note about breaking a neighbor's window >Causes/Enables> The neighbor thanks Ava for honesty
+"Definition: In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen before that sentence, or are likely to have happened before it. Does any of them directly cause it, or simply make it possible? You should write your answer in the form "" A >causes/enables> B"". Try to use phrases and sentences from the story to compose your answer when possible.
+Positive example 1-
+input: story: It was bedtime at our house. Two of the three kids hit the pillow and fall asleep. The third is a trouble maker. For two hours he continues to get out of bed and want to play. Finally he becomes tired and falls asleep.
+ selected sentence: Finally he becomes tired and falls asleep.
+output: A kid wants to play before sleep >Causes/Enables> A kid eventually falls asleep
+Positive example 2-
+input: story: Cindy woke up late. Cindy forgot her homework. Cindy dropped food on her skirt. She thought it was the worst day ever. She got home and her parents took her for ice cream and it wasn't bad.
+ selected sentence: Cindy dropped food on her skirt.
+output: Cindy eats >Causes/Enables> Cindy drops food on  her skirt
+Now complete the following example-
+input: story: A man bought an mp3 player and loaded tracks on it. He began listening to it on walks. He noticed he had a pep in his step, doing this. People suddenly stopped to offer him rides regularly. He thought the music made him happier and people saw this.
+ selected sentence: People suddenly stopped to offer him rides regularly.
+output: ",People drive >Causes/Enables> People stop
+"Definition: In this task, you will be given a short story. One sentence from the story is chosen. Consider the events that happen before that sentence, or are likely to have happened before it. Does any of them directly cause it, or simply make it possible? You should write your answer in the form "" A >causes/enables> B"". Try to use phrases and sentences from the story to compose your answer when possible.
+Positive example 1-
+input: story: It was bedtime at our house. Two of the three kids hit the pillow and fall asleep. The third is a trouble maker. For two hours he continues to get out of bed and want to play. Finally he becomes tired and falls asleep.
+ selected sentence: Finally he becomes tired and falls asleep.
+output: A kid wants to play before sleep >Causes/Enables> A kid eventually falls asleep
+Positive example 2-
+input: story: Cindy woke up late. Cindy forgot her homework. Cindy dropped food on her skirt. She thought it was the worst day ever. She got home and her parents took her for ice cream and it wasn't bad.
+ selected sentence: Cindy dropped food on her skirt.
+output: Cindy eats >Causes/Enables> Cindy drops food on  her skirt
+Now complete the following example-
+input: story: Mike couldn't wait to play baseball like his big brother. He was disappointed when he went to his first practice. The ball was on a little stand. His brother told him that he started with t ball too. That made Mike feel much better.
+ selected sentence: That made Mike feel much better.
+output: ",Mike's brother tells him >Causes/Enables> Mike feels better

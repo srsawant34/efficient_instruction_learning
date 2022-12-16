@@ -1,0 +1,11 @@
+input,output
+"Definition: Determine whether the two given sentences clearly agree with each other (entailment), disagree with each other (contradiction), or if this cannot be determined (neutral). Answer must be the letters E, C, and N, respectively.
+Positive example 1-
+input: A teenager blows a whistle and wears white face paint, earmuffs, and a yellow hat while another teen watches. <sep> Nobody has face paint.
+output: C
+Positive example 2-
+input: Small girl in a pink dress is playing electronic drum pads with sticks. <sep> the girl is wearing pink color frok
+output: E
+Now complete the following example-
+input: A black and white dog jumps up and down in the snow. <sep> A dog is warm in it's bed.
+output: ",C

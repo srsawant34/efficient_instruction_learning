@@ -1,0 +1,51 @@
+input,output
+"Definition: You are given a context, a pronoun, and a noun in this task. The given pronoun is shown in the context within parentheses. You should determine if the pronoun refers to the given noun or not. Please answer with ""True"" and ""False"".
+Positive example 1-
+input: Sam pulled up a chair to the piano , but (it) was broken, so he had to sing instead. <sep> Pronoun:it <sep> Noun: the piano
+output: True
+Positive example 2-
+input: Fred covered his eyes with his hands , because the wind was blowing sand around. He lowered (them) when the wind stopped. <sep> Pronoun:them <sep> Noun: his eyes
+output: False
+Now complete the following example-
+input: Dan had to stop Bill from toying with the injured bird. (He) is very compassionate. <sep> Pronoun:He <sep> Noun: Bill
+output: ",False
+"Definition: You are given a context, a pronoun, and a noun in this task. The given pronoun is shown in the context within parentheses. You should determine if the pronoun refers to the given noun or not. Please answer with ""True"" and ""False"".
+Positive example 1-
+input: Sam pulled up a chair to the piano , but (it) was broken, so he had to sing instead. <sep> Pronoun:it <sep> Noun: the piano
+output: True
+Positive example 2-
+input: Fred covered his eyes with his hands , because the wind was blowing sand around. He lowered (them) when the wind stopped. <sep> Pronoun:them <sep> Noun: his eyes
+output: False
+Now complete the following example-
+input: John hired (him) self out to Bill to take care of him . <sep> Pronoun:him <sep> Noun: John
+output: ",False
+"Definition: You are given a context, a pronoun, and a noun in this task. The given pronoun is shown in the context within parentheses. You should determine if the pronoun refers to the given noun or not. Please answer with ""True"" and ""False"".
+Positive example 1-
+input: Sam pulled up a chair to the piano , but (it) was broken, so he had to sing instead. <sep> Pronoun:it <sep> Noun: the piano
+output: True
+Positive example 2-
+input: Fred covered his eyes with his hands , because the wind was blowing sand around. He lowered (them) when the wind stopped. <sep> Pronoun:them <sep> Noun: his eyes
+output: False
+Now complete the following example-
+input: After I saw Bill catching flies and pulling off their wings, I boxed his ears. I showed the master the flies, some crushed and some crawling about helpless, and I showed him the wings on the window sill. I never saw him so angry before; but as Bill was still howling and whining, like the coward that (he) was, he did not give him any more punishment of that kind, but set him up on a stool for the rest of the afternoon, and said that he should not go out to play for that week. <sep> Pronoun:he <sep> Noun: Bill
+output: ",True
+"Definition: You are given a context, a pronoun, and a noun in this task. The given pronoun is shown in the context within parentheses. You should determine if the pronoun refers to the given noun or not. Please answer with ""True"" and ""False"".
+Positive example 1-
+input: Sam pulled up a chair to the piano , but (it) was broken, so he had to sing instead. <sep> Pronoun:it <sep> Noun: the piano
+output: True
+Positive example 2-
+input: Fred covered his eyes with his hands , because the wind was blowing sand around. He lowered (them) when the wind stopped. <sep> Pronoun:them <sep> Noun: his eyes
+output: False
+Now complete the following example-
+input: Madonna fired her trainer because (she) couldn't stand her boyfriend. <sep> Pronoun:she <sep> Noun: Madonna
+output: ",True
+"Definition: You are given a context, a pronoun, and a noun in this task. The given pronoun is shown in the context within parentheses. You should determine if the pronoun refers to the given noun or not. Please answer with ""True"" and ""False"".
+Positive example 1-
+input: Sam pulled up a chair to the piano , but (it) was broken, so he had to sing instead. <sep> Pronoun:it <sep> Noun: the piano
+output: True
+Positive example 2-
+input: Fred covered his eyes with his hands , because the wind was blowing sand around. He lowered (them) when the wind stopped. <sep> Pronoun:them <sep> Noun: his eyes
+output: False
+Now complete the following example-
+input: The large ball crashed right through the table because (it) was made of steel. <sep> Pronoun:it <sep> Noun: The large ball
+output: ",True

@@ -1,0 +1,801 @@
+input,output
+"input: Context Word: Handwriting. 
+Question: PersonX asked PersonY for some help with their handwriting, because _ had forgotten how to write. 
+Answer: PersonX
+output: ","PersonX asked PersonY for some help with their handwriting, but _ had forgotten how to write."
+"input: Context Word: nail polish. 
+Question: PersonX wore a lot more nail polish than PersonY because _ 's nails were not very pretty to begin with. 
+Answer: PersonX
+output: ",PersonX wore a lot more nail polish than PersonY because _ 's nails were rather pretty to begin with.
+"input: Context Word: talk. 
+Question: PersonX needed to talk to PersonY about a serious matter but _ was nervous about their response. 
+Answer: PersonX
+output: ",PersonX needed to talk to PersonY about a serious matter but _ did not have a response.
+"input: Context Word: upside. 
+Question: PersonX got a lot more head injuries than PersonY when they were kids, because _ always hung upside down on the jungle gym. 
+Answer: PersonX
+output: ","PersonX got a lot more head injuries than PersonY when they were kids, because _ never hung upside down on the jungle gym."
+"input: Context Word: Winter. 
+Question: In the Winter, PersonX never gets sick, but PersonY always has a cold. _ has a strong immune system. 
+Answer: PersonX
+output: ","In the Winter, PersonX never gets sick, but PersonY always has a cold. _ has a frail immune system."
+"input: Context Word: women. 
+Question: PersonX shoutled loudly at the women and PersonY was embarrassed. _ was always loud in public. 
+Answer: PersonX
+output: ",PersonX shoutled loudly at the women and PersonY was embarrassed. _ was always shy in public.
+"input: Context Word: Goodwill. 
+Question: PersonX shopped for a while and found a few items to bring up to PersonY at the Goodwill counter, then _ gave thanks and left. 
+Answer: PersonX
+output: ","PersonX shopped for a while and found a few items to bring up to PersonY at the Goodwill counter, then _ gave thanks and saw the next customer."
+"input: Context Word: walk. 
+Question: PersonX decided to go for a walk to see PersonY as a surprise visit but _ was lost. 
+Answer: PersonX
+output: ",PersonX decided to go for a walk to see PersonY as a surprise visit but _ was sick.
+"input: Context Word: Bad Reputation. 
+Question: PersonX didn't care like PersonY did so _ didn't care about their bad reputation in school. 
+Answer: PersonX
+output: ",PersonX didn't care like PersonY did so _ did care about changing their bad reputation in school.
+"input: Context Word: seat. 
+Question: PersonX stood up in the subway car and offered his seat to PersonY because _ was sitting. 
+Answer: PersonX
+output: ",PersonX stood up in the subway car and offered hi seat to PersonY because _ was standing.
+"input: Context Word: launchpad. 
+Question: PersonX was helping with PersonY's computer problems adding programs to the launchpad so _ got control over the computer. 
+Answer: PersonX
+output: ",PersonX was helping with PersonY's computer problems adding programs to the launchpad so _ relieved control over the computer.
+"input: Context Word: tire. 
+Question: PersonX calls PersonY about repairing a tire because _ is not good with his hands. 
+Answer: PersonX
+output: ",PersonX calls PersonY about repairing a tire because _ is very good with his hands.
+"input: Context Word: platinum. 
+Question: PersonX had a music album go platinum, and PersonY bought the album, because _ was their favorite artist. 
+Answer: PersonX
+output: ","PersonX had a music album go platinum, and PersonY bought the album, because _ was a fan of the artist."
+"input: Context Word: pneumonia. 
+Question: PersonX became very ill with pneumonia, so PersonY made him some soup; then _ finally fell asleep. 
+Answer: PersonX
+output: ","PersonX became very ill with pneumonia, so PersonY made him some soup; then _ finally went home."
+"input: Context Word: vacuum. 
+Question: PersonX loaned their vacuum to PersonY for cleaning because _ owned tons of cleaning tools. 
+Answer: PersonX
+output: ",PersonX loaned their vacuum to PersonY for cleaning because _ owned few of cleaning tools.
+"input: Context Word: garden. 
+Question: PersonX offered to work in the garden and clean the house for PersonY because _ had some free time. 
+Answer: PersonX
+output: ",PersonX offered to work in the garden and clean the house for PersonY because _ was very busy.
+"input: Context Word: swim. 
+Question: PersonX had always wanted to learn how to swim so they asked PersonY for lessons. _ was nervous but felt safe in the water. 
+Answer: PersonX
+output: ",PersonX had always wanted to learn how to swim so they asked PersonY for lessons. _ made them feel less nervous and safe in the water.
+"input: Context Word: upper. 
+Question: PersonX had better upper arm strength than PersonY because _ did pilates every morning before work. 
+Answer: PersonX
+output: ",PersonX had better upper arm strength than PersonY because _ didn't do pilates every morning before work.
+"input: Context Word: drinking. 
+Question: PersonX only had a water while PersonY was drinking a vodka cocktail, as _ is an alcoholic. 
+Answer: PersonX
+output: ","PersonX only had a water while PersonY was drinking a vodka cocktail, as _ is a reasonable drinker."
+"input: Context Word: salsa. 
+Question: PersonX liked to make salsa with only bell peppers while PersonY liked to add habanero peppers because _ didn't like spicy foods. 
+Answer: PersonX
+output: ",PersonX liked to make salsa with only bell peppers while PersonY liked to add habanero peppers because _ loved to eat spicy foods.
+"input: Context Word: earn her MBA. 
+Question: PersonX wanted to earn her MBA while working and PersonY wanted to earn her MBA while not working. _ she worked and earned her MBA. 
+Answer: PersonX
+output: ",PersonX wanted to earn her MBA while working and PersonY wanted to earn her MBA while not working. _ she was not working and earned her MBA.
+"input: Context Word: finish. 
+Question: PersonX wanted to finish work as soon as possible but PersonY did not as _ was feeling very jaded. 
+Answer: PersonX
+output: ",PersonX wanted to finish work as soon as possible but PersonY did not as _ was feeling very fresh.
+"input: Context Word: relationship. 
+Question: PersonX is in a relationship with two people while PersonY is dating only one, which makes _ polyamorous. 
+Answer: PersonX
+output: ","PersonX is in a relationship with two people while PersonY is dating only one, which makes _ monogamous."
+"input: Context Word: spouse. 
+Question: PersonX was always in conflict with their spouse but PersonY had a stable relationship. _ had to engage the services of a divorce lawyer. 
+Answer: PersonX
+output: ",PersonX was always in conflict with their spouse but PersonY had a stable relationship. _ had to engage the services of a carpet cleaner.
+"input: Context Word: passport. 
+Question: PersonX denied PersonY's passport application because _ did not receive the correct paperwork in time. 
+Answer: PersonX
+output: ",PersonX denied PersonY's passport application because _ did not provide the correct paperwork in time.
+"input: Context Word: parrot. 
+Question: PersonX's parrot liked to call people bad names, and it hurt PersonY's feelings. _ thought it was funny. 
+Answer: PersonX
+output: ","PersonX's parrot liked to call people bad names, and it hurt PersonY's feelings. _ thought it was immature."
+"input: Context Word: tone. 
+Question: PersonX had a hard time matching loose powder to her skin tone so asked PersonY who told her little so _ was frustrated. 
+Answer: PersonX
+output: ",PersonX had a hard time matching loose powder to her skin tone so asked PersonY who told her little so _ was unhelpful.
+"input: Context Word: vegetables. 
+Question: PersonX wanted to eat vegetables, but PersonY insisted they eat steak, so _ came to terms with not having broccoli. 
+Answer: PersonX
+output: ","PersonX wanted to eat vegetables, so PersonY couldn't eat steak, so _ came to terms with no having meat."
+"input: Context Word: juggle. 
+Question: PersonX was able to juggle more items at once than PersonY since _ was a professional clown. 
+Answer: PersonX
+output: ",PersonX was able to juggle more items at once than PersonY since _ was a professional carpenter.
+"input: Context Word: budgeting. 
+Question: Sticking to a budgeting plan was more realistic for PersonX than PersonY because _ was good with money. 
+Answer: PersonX
+output: ",Sticking to a budgeting plan was more realistic for PersonX than PersonY because _ was terrible with money.
+"input: Context Word: sand. 
+Question: The bits of sand in clam chowder bothered PersonX, but it didn't bother PersonY because _ didn't understand that the sand means that it's fresh. 
+Answer: PersonX
+output: ","The bits of sand in clam chowder bothered PersonX, but it didn't bother PersonY because _ understood that the sand means that it's fresh."
+"input: Context Word: Cell phone. 
+Question: personx had persony cell phone more than his own although _ cell phone is bigger. 
+Answer: PersonX
+output: ",personx had persony cell phone more than his own because _ cell phone is bigger.
+"input: Context Word: yogurt. 
+Question: PersonX wanted a bite of PersonY's blueberry yogurt so _ asked if she could have some. 
+Answer: PersonX
+output: ",PersonX wanted a bite of PersonY's blueberry yogurt so _ said she could have some.
+"input: Context Word: fish. 
+Question: PersonX always caught bigger fish out at sea than PersonY because _ was a good fisherman. 
+Answer: PersonX
+output: ",PersonX always caught bigger fish out at sea than PersonY because _ was a horrible fisherman.
+"input: Context Word: healthy. 
+Question: PersonX has never wanted to eat healthy unlike PersonY because _ doesn't care about his body. 
+Answer: PersonX
+output: ",PersonX has always wanted to eat healthy unlike PersonY because _ doesn't care about his body.
+"input: Context Word: ginger. 
+Question: PersonX isn't sure that PersonY should try to make homemade ginger ale, but _ agrees to try to help. 
+Answer: PersonX
+output: ","PersonX isn't sure that PersonY should try to make homemade ginger ale, but _ is determined and needs help."
+"input: Context Word: Stealthy. 
+Question: PersonX tried to be stealthy while planning a party for PersonY, so _ did not tell anyone who couldn't keep a secret. 
+Answer: PersonX
+output: ","PersonX tried to be stealthy while planning a party for PersonY, but _ found our from someone who couldn't keep a secret."
+"input: Context Word: razor. 
+Question: PersonX never shaved, while PersonY did so every other day, so _ never bought razors. 
+Answer: PersonX
+output: ","PersonX never shaved, while PersonY did so every other day, so _ frequently bought razors."
+"input: Context Word: travel. 
+Question: PersonX was more accustomed to travel than PersonY because _ always traveled for business every month. 
+Answer: PersonX
+output: ",PersonX was less accustomed to travel than PersonY because _ always traveled for business every month.
+"input: Context Word: infected. 
+Question: While walking with PersonX, PersonY got their arm infected by poison ivy so _ gave them some cream. 
+Answer: PersonX
+output: ","While walking with PersonX, PersonY got their arm infected by poison ivy so _ accepted some cream."
+"input: Context Word: citizen. 
+Question: PersonX is a British citizen, while PersonY is an American, so _ is from the UK. 
+Answer: PersonX
+output: ","PersonX is a British citizen, while PersonY is an American, so _ is from the US."
+"input: Context Word: thriller. 
+Question: PersonX went to the theater to watch the thriller, but PersonY did not come along, because _ found suspenseful movies amusing. 
+Answer: PersonX
+output: ","PersonX went to the theater to watch the thriller, but PersonY did not come along, because _ found suspenseful movies frightening."
+"input: Context Word: bedding. 
+Question: PersonX was given new bedding by PersonY for his birthday; _ felt disappointed because he wanted something else. 
+Answer: PersonX
+output: ",PersonX was given new bedding by PersonY for his birthday; _ felt bad because he wanted something else.
+"input: Context Word: sofa. 
+Question: PersonX purchased a large sectional sofa, but PersonY selected an armchair, because _ lived in a small apartment. 
+Answer: PersonX
+output: ","PersonX purchased a large sectional sofa, but PersonY selected an armchair, because _ lived in a big apartment."
+"input: Context Word: warts. 
+Question: PersonX gets lots of warts, but PersonY does not. People think that _ is gross. 
+Answer: PersonX
+output: ","PersonX gets lots of warts, but PersonY does not. People think that _ is normal."
+"input: Context Word: baseball. 
+Question: PersonX asked PersonY to go play baseball with him because he has an extra ball and _ doesn't have one. 
+Answer: PersonX
+output: ",PersonX wanted PersonY to go baseball with him because _ has an extra ball and he doesn't have one.
+"input: Context Word: commissions. 
+Question: PersonX always topped commissions in sales at the company while PersonY dragged behind because _ was a natural salesman. 
+Answer: PersonX
+output: ",PersonX always topped commissions in sales at the company while PersonY dragged behind because _ was an awkward and shy salesman.
+"input: Context Word: hated picking flowers. 
+Question: PersonX hated picking flowers and PersonY didn't because _ tended to have really bad allergies. 
+Answer: PersonX
+output: ",PersonX hated picking flowers and PersonY didn't because _ tended to have really mild allergies.
+"input: Context Word: pig. 
+Question: PersonX took their pet pig on a walk with PersonY, but the pig loved to run, so _ was far ahead. 
+Answer: PersonX
+output: ","PersonX took their pet pig on a walk with PersonY, but the pig loved to run, so _ was far behind."
+"input: Context Word: order. 
+Question: PersonX answers the phone and  takes orders for PersonY everyday as scheduled, _ loyal to others. 
+Answer: PersonX
+output: ","PersonX answers the phone and  takes orders for PersonY everyday as scheduled, _  expects loyalty from others."
+"input: Context Word: microwave. 
+Question: PersonX cooked the food for PersonY but _ was mad so they had cooked it in the microwave. 
+Answer: PersonX
+output: ",PersonX cooked the food for PersonY but _ was mad that they had cooked it in the microwave.
+"input: Context Word: antacids. 
+Question: PersonX had acid reflux disease but PersonY didn't suffer from it. _ had to take antacids very often for heartburn. 
+Answer: PersonX
+output: ",PersonX had acid reflux disease but PersonY didn't suffer from it. _ didn't have to take antacids very often for heartburn.
+"input: Context Word: iPhone. 
+Question: PersonX loved having an iPhone but PersonY refused to upgrade their flip phone. _ had always been first to learn new technology. 
+Answer: PersonX
+output: ",PersonX loved having an iPhone but PersonY refused to upgrade their flip phone. _ had always been last to learn new technology.
+"input: Context Word: skin. 
+Question: PersonX exfoliated less often than PersonY so _ had a much more blemished face and skin. 
+Answer: PersonX
+output: ",PersonX exfoliated less often than PersonY so _ had a much more clear face and skin.
+"input: Context Word: meal plan. 
+Question: PersonX was following a meal plan while PersonY was not, so _ lost some weight. 
+Answer: PersonX
+output: ","PersonX was following a meal plan while PersonY was not, so _ gained some weight."
+"input: Context Word: sheep. 
+Question: The sheep belonging to PersonX had longer fur than those belonging to PersonY because _ never sheared theirs. 
+Answer: PersonX
+output: ",The sheep belonging to PersonX had shorter fur than those belonging to PersonY because _ never sheared theirs.
+"input: Context Word: cholesterol. 
+Question: PersonX is overweight and has high cholesterol unlike PersonY who works out so _ is unhealthy. 
+Answer: PersonX
+output: ",PersonX is overweight and has high cholesterol unlike PersonY who works out so _ is healthy.
+"input: Context Word: bodywash. 
+Question: PersonX's bodywash smells better than that of PersonY, so _ continues to use this brand. 
+Answer: PersonX
+output: ","PersonX's bodywash smells better than that of PersonY, so _ decides to change to this brand."
+"input: Context Word: parakeet. 
+Question: PersonX hated birds, but PersonY was obsessed with them, so _ stayed away from the parakeet. 
+Answer: PersonX
+output: ","PersonX hated birds, but PersonY was obsessed with them, so _ ran towards the parakeet."
+"input: Context Word: harder. 
+Question: PersonX had a much harder life than PersonY, so when _ said life was good, it was an unusual sentiment. 
+Answer: PersonX
+output: ","PersonX had a much harder life than PersonY, so when _ said life was good, it was an expected sentiment."
+"input: Context Word: celebration. 
+Question: PersonX was excited about going out to the celebration party but PersonY rather stay home, as _ is social. 
+Answer: PersonX
+output: ","PersonX was excited about going out to the celebration party but PersonY rather stay home, as _ is shy."
+"input: Context Word: legs. 
+Question: PersonX won many more races than PersonY was able to win because _ had longer legs. 
+Answer: PersonX
+output: ",PersonX won many more races than PersonY was able to win because _ had shorter legs.
+"input: Context Word: moon. 
+Question: The moon was higher in the sky where PersonX was than where PersonY was because it was later at the location of _ . 
+Answer: PersonX
+output: ",The moon was lower in the sky where PersonX was than where PersonY was because it was later at the location of _ .
+"input: Context Word: travel. 
+Question: PersonX was more likely to travel to a foreign country than PersonY, because _ had an adventurous spirit. 
+Answer: PersonX
+output: ","PersonX was more likely to travel to a foreign country than PersonY, because _ did not have an adventurous spirit."
+"input: Context Word: breath. 
+Question: The breath of PersonX smelled horrible compared to PersonY's because _ never brushed his teeth. 
+Answer: PersonX
+output: ",The breath of PersonX smelled wonderful compared to PersonY's because _ never brushed his teeth.
+"input: Context Word: calculate. 
+Question: PersonX was better at math homework than PersonY because _ could calculate complex equations in their head. 
+Answer: PersonX
+output: ",PersonX was better at math homework than PersonY because _ could calculate simple equations in their head.
+"input: Context Word: routine. 
+Question: PersonX had a solid day to day routine compared to PersonY's bohemian lifestyle, because _ was responsible. 
+Answer: PersonX
+output: ","PersonX had a solid day to day routine compared to PersonY's bohemian lifestyle, because _ was free spirited."
+"input: Context Word: pressure. 
+Question: PersonX was not able to deal with the pressure of college as well as PersonY because _ did not study very hard in high school. 
+Answer: PersonX
+output: ",PersonX was not able to deal with the pressure of college as well as PersonY because _ studied very hard in high school.
+"input: Context Word: confidence. 
+Question: PersonX has a lot of confidence in themselves but PersonY does not. _ had been able to achieve a lot in their life. 
+Answer: PersonX
+output: ",PersonX has a lot of confidence in themselves but PersonY does not. _ hasn't been able to achieve a lot in their life.
+"input: Context Word: vending. 
+Question: PersonX asked PersonY if there was a vending machine close to where they were, because _ was hungry. 
+Answer: PersonX
+output: ","PersonX asked PersonY if there was a vending machine close to where they were, because _ was familiar with the area."
+"input: Context Word: appetite. 
+Question: PersonX has a much lower appetite than PersonY does because _ takes appetite suppressants every day. 
+Answer: PersonX
+output: ",PersonX has a much lower appetite than PersonY does because _ takes appetite stimulants every day.
+"input: Context Word: rat. 
+Question: PersonX has recently bought a rat with respiratory disease from PersonY and now _ need help. 
+Answer: PersonX
+output: ",PersonX has recently bought a rat with respiratory disease from PersonY and now _ wants to help.
+"input: Context Word: Omakase. 
+Question: personx trust persony well enough to make him a tasty Omakase and _ was not disappointed. 
+Answer: PersonX
+output: ",personx trust persony well enough to make him a tasty Omakase and _ disappointed him.
+"input: Context Word: noodles. 
+Question: Noodles were always a part of PersonX's childhood but not PersonY because _ grew up in Asia. 
+Answer: PersonX
+output: ",Noodles were always a part of PersonX's childhood but not PersonY because _ grew up in the USA.
+"input: Context Word: foods. 
+Question: The foods that PersonX makes are always tastier than PersonY's because _ is a chef. 
+Answer: PersonX
+output: ",The foods that PersonX makes are always blander than PersonY's because _ is a chef.
+"input: Context Word: aching. 
+Question: The head of PersonX is aching, but PersonY feels just fine, so _ must be the one who is sick. 
+Answer: PersonX
+output: ","The head of PersonX is aching, but PersonY feels just fine, so _ must be the one who is healthy."
+"input: Context Word: dance. 
+Question: PersonX asked PersonY to go to the dance because _ didn't have a date yet. 
+Answer: PersonX
+output: ","PersonX asked PersonY to go to the dance, but _ already had a date yet."
+"input: Context Word: mood swings. 
+Question: PersonX frequently had mood swings that affected the relationship with PersonY, but _ refused to seek treatment. 
+Answer: PersonX
+output: ","PersonX frequently had mood swings that affected the relationship with PersonY, so _ insisted they seek treatment."
+"input: Context Word: Paint. 
+Question: PersonX wanted to paint action figures so PersonY bought a kit. The paint made a lot of mess but _ had fun with the kit. 
+Answer: PersonX
+output: ",PersonX wanted to paint action figures so PersonY bought a kit. The paint made a lot of mess and _ regretted buying the kit.
+"input: Context Word: coffee. 
+Question: PersonX's coffee has creamer in it, but PersonY likes it black. Therefore, _ likes a lighter cup of coffee. 
+Answer: PersonX
+output: ","PersonX's coffee has creamer in it, but PersonY likes it black. Therefore, _ likes a darker cup of coffee."
+"input: Context Word: furniture. 
+Question: PersonX is looking to buy some new furniture and PersonY just bought some, so _ is starting to look online for options. 
+Answer: PersonX
+output: ","PersonX is looking to buy some new furniture and PersonY just bought some, so _ is starting to anticipate their purchase arrival."
+"input: Context Word: prepare. 
+Question: PersonX tried to prepare for the big fight against PersonY, so _ spent time training in the gym. 
+Answer: PersonX
+output: ","PersonX tried to prepare for the big fight against PersonY, but _ haven't even spent time training in the gym."
+"input: Context Word: marketing. 
+Question: PersonX was the better marketing consultant for the company than PersonY because _ loved talking to people. 
+Answer: PersonX
+output: ",PersonX was the better marketing consultant for the company than PersonY because _ hated talking to people.
+"input: Context Word: parent. 
+Question: So _ hated their parent because PersonX was not treated well by them in their childhood and PersonY had a great childhood. 
+Answer: PersonX
+output: ",So _ loved their parent because PersonX was not treated well by them in their childhood and PersonY had a great childhood.
+"input: Context Word: paint. 
+Question: PersonX offered to help PersonY paint the house, but _ didn't apply the first brushstrokes. 
+Answer: PersonX
+output: ","PersonX offered to help PersonY paint the house, but _ applied the very first brushstrokes."
+"input: Context Word: hood. 
+Question: PersonX told PersonY to put the hood of her jacket up because _ didn't want her to get cold. 
+Answer: PersonX
+output: ",PersonX told PersonY to put the hood of her jacket up because _ was likely to get cold.
+"input: Context Word: battle. 
+Question: PersonX is being taught how to battle cancer with the help of PersonY, so _ is the cancer patient. 
+Answer: PersonX
+output: ","PersonX is being taught how to battle cancer with the help of PersonY, so _ is the cancer survivor."
+"input: Context Word: popular. 
+Question: PersonX was not very popular in high school like PersonY, because _ was known as a loner. 
+Answer: PersonX
+output: ","PersonX was not very popular in high school like PersonY, because _ was known as outgoing."
+"input: Context Word: towel. 
+Question: PersonX got tired of fighting and threw in the towel but PersonY kept fighting. _ was booed by the crowd. 
+Answer: PersonX
+output: ",PersonX got tired of fighting and threw in the towel but PersonY kept fighting. _ was cheered by the crowd.
+"input: Context Word: volunteering. 
+Question: When it came to charities, PersonX was always volunteering at soup kitchens while PersonY never did any charity work because _ was very selfless. 
+Answer: PersonX
+output: ","When it came to charities, PersonX was always volunteering at soup kitchens while PersonY never did any charity work because _ was very selfish."
+"input: Context Word: payments. 
+Question: PersonX always keeps track of his bills and payments but not PersonY because _ is organized. 
+Answer: PersonX
+output: ",PersonX always keeps track of his bills and payments but not PersonY because _ is disorganized.
+"input: Context Word: plant. 
+Question: PersonX wanted to plant some cedar trees so they asked PersonY for advice because _ was horrible with gardening. 
+Answer: PersonX
+output: ",PersonX wanted to plant some cedar trees so they asked PersonY for advice because _ was fantastic with gardening.
+"input: Context Word: Caulk. 
+Question: PersonX took the time to caulk their windows but PersonY didn't bother. _ saw their electric bill decrease. 
+Answer: PersonX
+output: ",PersonX took the time to caulk their windows but PersonY didn't bother. _ saw their electric bill increase.
+"input: Context Word: goats. 
+Question: PersonX fed the goats in the morning but not PersonY because _ was an expert in animal husbandry. 
+Answer: PersonX
+output: ",PersonX fed the goats in the morning but not PersonY because _ was unfamiliar in animal husbandry.
+"input: Context Word: medicine. 
+Question: PersonX asked if PersonY had any stomach medicine for indigestion because _ was not feeling well. 
+Answer: PersonX
+output: ",PersonX asked if PersonY had any stomach medicine for indigestion because _ seemed to be feeling fine.
+"input: Context Word: plant. 
+Question: The plant was growing and thriving thanks to PersonX but not PersonY because _ had a green thumb. 
+Answer: PersonX
+output: ",The plant was growing and thriving thanks to PersonX but not PersonY because _ had a black thumb.
+"input: Context Word: energy. 
+Question: PersonX liked to drink energy drinks. PersonY said he preferred black coffee. _ didn't like bitter coffee. 
+Answer: PersonX
+output: ",PersonX liked to drink energy drinks. PersonY said he preferred black coffee. _ liked bitter coffee.
+"input: Context Word: football. 
+Question: PersonX kicked two field goals during the football game and PersonY kicked three so _ received the scholarship. 
+Answer: PersonX
+output: ",PersonX kicked two field goals during the football game and PersonY kicked three so _ lost the scholarship.
+"input: Context Word: coworkers. 
+Question: PersonX couldn't stand PersonY and their other coworkers, so _ decided it was time to report them all. 
+Answer: PersonX
+output: ","PersonX couldn't stand PersonY and their other coworkers, so _ decided it was time they reported him."
+"input: Context Word: Checkers. 
+Question: On game night, PersonX was hoping PersonY would come over and play checkers because _ had nothing better to do. 
+Answer: PersonX
+output: ","On game night, PersonX was hoping PersonY would come over and play checkers but _ had something better to do."
+"input: Context Word: braided. 
+Question: PersonX has longer hair than PersonY so the hair of _ was able to be braided. 
+Answer: PersonX
+output: ",PersonX had shorter hair than PersonY so the hair of _ was able to be braided.
+"input: Context Word: puzzle. 
+Question: PersonX could not finish the crossword puzzle without help from PersonY. _ felt dumb and unintelligent. 
+Answer: PersonX
+output: ",PersonX could nt finish the crossword puzzle without help from PersonY. _ felt smart and intelligent.
+"input: Context Word: breed. 
+Question: PersonX liked to breed stick insects but PersonY did not as _ found them an interesting species. 
+Answer: PersonX
+output: ",PersonX liked to breed stick insects but PersonY did not as _ found them a boring species.
+"input: Context Word: weight. 
+Question: Putting on weight was the expected outcome for PersonX but not PersonY because _ acquired muscle mass. 
+Answer: PersonX
+output: ",Putting on weight was the expected outcome for PersonX but not PersonY because _ lost muscle mass.
+"input: Context Word: wear. 
+Question: PersonX always wears clothes that show off her curves, but not PersonY because _ is an attention seeker. 
+Answer: PersonX
+output: ","PersonX always wears clothes that show off her curves, but not PersonY because _ is a modest person."
+"input: Context Word: pig. 
+Question: PersonX's friends sometimes called them a pig but not PersonY's friends, because _ had very sloppy manners. 
+Answer: PersonX
+output: ","PersonX's friends sometimes called them a pig but not PersonY's friends, because _ had immaculate manners."
+"input: Context Word: fish. 
+Question: Lures are used by PersonX to fish, while PersonY prefers to use flies. _ is a typical fisherman. 
+Answer: PersonX
+output: ","Lures are used by PersonX to fish, while PersonY prefers to use flies. _ is a fly fisherman."
+"input: Context Word: innocent. 
+Question: PersonX was a much more financially successful lawyer than PersonY, because _ represented everyone, guilty and innocent. 
+Answer: PersonX
+output: ","PersonX was a much more financially successful lawyer than PersonY, because _ represented only the innocent."
+"input: Context Word: Mono. 
+Question: personx contacted mono from persony when they were playing and _ confronted him about it. 
+Answer: PersonX
+output: ",personx contacted mono from persony when they were playing and _ was sorry about it.
+"input: Context Word: bra. 
+Question: PersonX didn't have a sexy bra to wear on a date but PersonY did, so _ went to Victoria's Secret and bought a new bra. 
+Answer: PersonX
+output: ","PersonX didn't have a sexy bra to wear on a date but PersonY did, so _ went to Victoria's Secret and bought a new camisole."
+"input: Context Word: essential oil. 
+Question: The essential oils PersonX were better than those sold by PersonY, so people bought from _ more often. 
+Answer: PersonX
+output: ","The essential oils PersonX were worse than those sold by PersonY, so people bought from _ more often."
+"input: Context Word: catheter. 
+Question: PersonX had a catheter but PersonY did not because at the time _ was ill. 
+Answer: PersonX
+output: ",PersonX had a catheter but PersonY did not because at the time _ was well.
+"input: Context Word: outline. 
+Question: PersonX was asking for a outline of of the study PersonY was happy to accommodate them, _  is interested in a subject. 
+Answer: PersonX
+output: ","PersonX was asking for a outline of of the study PersonY was happy to accommodate them, _ is knowledgeable in a subject."
+"input: Context Word: deal. 
+Question: PersonX wanted to do a deal to sort out a problem but PersonY would not because _ was a very peaceful person. 
+Answer: PersonX
+output: ",PersonX wanted to do a deal to sort out a problem but PersonY would not because _ was a very vengeful person.
+"input: Context Word: furniture. 
+Question: PersonX decides to surprise PersonY with a new piece of furniture, but _ has second thoughts about the expensive gift. 
+Answer: PersonX
+output: ","PersonX decides to surprise PersonY with a new piece of furniture, and _ is appreciative of the expensive gift."
+"input: Context Word: communication. 
+Question: PersonX did all the talking for PersonY who had communication problems, as _ was confident. 
+Answer: PersonX
+output: ","PersonX did all the talking for PersonY who had communication problems, as _ was shy."
+"input: Context Word: tanning. 
+Question: PersonX brought a bottle of tanning lotion to PersonY, because _ didn't want to deal with the other's sunburn later. 
+Answer: PersonX
+output: ","PersonX brought a bottle of tanning lotion to PersonY, because _ didn't want to deal with a sunburn later."
+"input: Context Word: health. 
+Question: Even though PersonX is older than PersonY his health is better because _ is motivated to live healthy. 
+Answer: PersonX
+output: ",Even though PersonX is older than PersonY his health is better because _ is unmotivated to live healthy.
+"input: Context Word: Equations. 
+Question: personx is better when he is  solving mathematical Equations with persony because _ feel more confident. 
+Answer: PersonX
+output: ",personx is better when he is solving mathematical Equations with persony because _ give more confidence.
+"input: Context Word: exercise buddy. 
+Question: PersonX wanted an exercise buddy. PersonY hated exercise and wanted to quit from the beginning. _ said they had to stick it out longer. 
+Answer: PersonX
+output: ",PersonX wanted an exercise buddy. PersonY hated exercise and wanted to quit from the beginning. _ agreed to stick it out longer.
+"input: Context Word: vocabulary. 
+Question: Creative writing and English literature were easier for PersonX than PersonY, as _ had a very wide vocabulary. 
+Answer: PersonX
+output: ","Creative writing and English literature were easier for PersonX than PersonY, as _ had a very limited vocabulary."
+"input: Context Word: shin. 
+Question: PersonX asked PersonY for advice on treating shin splints because _ was new to running and had never experienced them before. 
+Answer: PersonX
+output: ",PersonX asked PersonY for advice on treating shin splints because _ was a professional runner and had experienced them before.
+"input: Context Word: animals. 
+Question: Since PersonX loved animals while PersonY was afraid of them, _ had several pets at home. 
+Answer: PersonX
+output: ","Since PersonX loved animals while PersonY was afraid of them, _ had no pets at home."
+"input: Context Word: cope. 
+Question: PersonX could not cope with PersonY when she was angry at her, as _ was very sensitive. 
+Answer: PersonX
+output: ","PersonX could not cope with PersonY when she was angry at her, as _ was very aggressive."
+"input: Context Word: balance. 
+Question: After winning the balance beam competition, PersonX hugged PersonY then _ got a big trophy. 
+Answer: PersonX
+output: ","After winning the balance beam competition, PersonX hugged PersonY then _ gave him a big trophy."
+"input: Context Word: fish. 
+Question: PersonX ate a lot of fish for dinner but PersonY could not so _ ordered salmon at the restaurant. 
+Answer: PersonX
+output: ",PersonX ate a lot of fish for dinner but PersonY could not so _ ordered a burger at the restaurant.
+"input: Context Word: challenging. 
+Question: PersonX found the homework less challenging than PersonY because _ had attended class that day. 
+Answer: PersonX
+output: ",PersonX found the homework less challenging than PersonY because _ had not attended class that day.
+"input: Context Word: rabbit. 
+Question: PersonX liked animals more than PersonY but _ hated rabbits cause they multiplied so much. 
+Answer: PersonX
+output: ",PersonX liked animals more than PersonY but _ loved rabbits cause they multiplied so much.
+"input: Context Word: pilot. 
+Question: The pilot took PersonX up for a free ride in the plane unlike PersonY because _ asked politely. 
+Answer: PersonX
+output: ",The pilot took PersonX up for a free ride in the plane unlike PersonY because _ asked rudely.
+"input: Context Word: caretaker. 
+Question: PersonX heard PersonY needed a caretaker for a baby, so _ volunteered to help with it. 
+Answer: PersonX
+output: ","PersonX informed PersonY they needed a caretaker for a baby, so _ volunteered to help with it."
+"input: Context Word: sculpt. 
+Question: PersonX tried hard to sculpt what PersonY had asked for, but _ was struggling with the clay. 
+Answer: PersonX
+output: ","PersonX tried hard to sculpt what PersonY had asked for, and _ saw her struggling with the clay."
+"input: Context Word: babysitter. 
+Question: PersonX did not call a babysitter for the night but PersonY did because _ was staying in. 
+Answer: PersonX
+output: ",PersonX did not call a babysitter for the night but PersonY did because _ was going out.
+"input: Context Word: filters. 
+Question: PersonX asked PersonY where she had put the coffee filters because _ needed to know. 
+Answer: PersonX
+output: ",PersonX asked PersonY where she had put the coffee filters but _ said she didn't know.
+"input: Context Word: career. 
+Question: PersonX but not PersonY would get a retirement pension because _ had a 30 year work career. 
+Answer: PersonX
+output: ",PersonX but not PersonY would get a retirement pension because _ only a ten day work career.
+"input: Context Word: Eiffel Tower. 
+Question: On a recent trip to France, PersonX wanted to take PersonY to the Eiffel Tower, so _ surprised them on the second day. 
+Answer: PersonX
+output: ","On a recent trip to France, PersonX wanted to take PersonY to the Eiffel Tower, but _ was sick on the second day."
+"input: Context Word: childhood. 
+Question: PersonX recalled her childhood more fondly than PersonY, because _ had been loved by her parents. 
+Answer: PersonX
+output: ","PersonX recalled her childhood more fondly than PersonY, because _ had been abused by her parents."
+"input: Context Word: young. 
+Question: The young boy looked up to PersonX more than PersonY because _ was his favorite sports player. 
+Answer: PersonX
+output: ",The young boy looked up to PersonX less than PersonY because _ was his favorite sports player.
+"input: Context Word: original. 
+Question: PersonX had lots of new ideas, but not PersonY because _ was much more original in thought. 
+Answer: PersonX
+output: ","PersonX had lots of new ideas, but not PersonY because _ was not very original in thought."
+"input: Context Word: college. 
+Question: College studying for exams suits PersonX, but isn't easy for PersonY because _ is very studious. 
+Answer: PersonX
+output: ","College studying for exams suits PersonX, but isn't easy for PersonY because _ is very lazy."
+"input: Context Word: death. 
+Question: The death of Joe was more difficult for PersonX than it was for PersonY because _ loved Joe. 
+Answer: PersonX
+output: ",The death of Joe was more difficult for PersonX than it was for PersonY because _ despised Joe.
+"input: Context Word: interaction. 
+Question: PersonX tried to initiate interaction way too much for PersonY's liking, because _ was pushy. 
+Answer: PersonX
+output: ","PersonX tried to initiate interaction way too much for PersonY's liking, because _ was shy."
+"input: Context Word: idea. 
+Question: PersonX was able to come up with a novel idea, unlike PersonY, because _ considered all possibilities. 
+Answer: PersonX
+output: ","PersonX was able to come up with a novel idea, unlike PersonY, because _ rejected all possibilities."
+"input: Context Word: microphone. 
+Question: Performing without a microphone was easier for PersonX than PersonY because _ had a naturally loud voice. 
+Answer: PersonX
+output: ",Performing without a microphone was easier for PersonX than PersonY because _ did not have a naturally loud voice.
+"input: Context Word: pickpocket. 
+Question: PersonX did not trust PersonY at all, even though _ was the real pickpocket . 
+Answer: PersonX
+output: ","PersonX did not trust PersonY at all, even though _ was not a real pickpocket ."
+"input: Context Word: school. 
+Question: The school work of PersonX was more advanced than PersonY's because _ was far more organized and intellectually capable. 
+Answer: PersonX
+output: ",The school work of PersonX was less advanced than PersonY's because _ was far more organized and intellectually capable.
+"input: Context Word: lawsuit. 
+Question: PersonX won the class action lawsuit while PersonY lost, because _ had a stronger case. 
+Answer: PersonX
+output: ","PersonX won the class action lawsuit while PersonY lost, because _ had a weaker case."
+"input: Context Word: convertible. 
+Question: PersonX became angry at PersonY for ripping his convertible top on his car, so _ screamed profusely. 
+Answer: PersonX
+output: ","PersonX became angry at PersonY for ripping his convertible top on his car, so _ apologized profusely."
+"input: Context Word: music video. 
+Question: PersonX wanted to cast PersonY in their music video, but _ did not think she was a good enough dancer. 
+Answer: PersonX
+output: ","PersonX wanted to cast PersonY in their music video, but _ did not think she was a good enough director."
+"input: Context Word: walk. 
+Question: PersonX asked PersonY to accompany them on a walk as _ wasn't sure of the route. 
+Answer: PersonX
+output: ",PersonX asked PersonY to accompany them on a walk as _ had walked the route previously.
+"input: Context Word: carjacked. 
+Question: PersonX's car was recently carjacked by PersonY in the lot, and now _ is super pissed. 
+Answer: PersonX
+output: ","PersonX's car was recently carjacked by PersonY in the lot, and now _ is super pleased."
+"input: Context Word: paint. 
+Question: PersonX hires PersonY to paint a room in the house, so it's more likely _ is the homeowner. 
+Answer: PersonX
+output: ","PersonX hires PersonY to paint a room in the house, so it's more likely _ is the contractor."
+"input: Context Word: go to sleep. 
+Question: PersonX was always better at getting the kids to go to sleep than PersonY, since _ read them bedtime stories. 
+Answer: PersonX
+output: ","PersonX was always better at getting the kids to go to sleep than PersonY, since _ never read them bedtime stories."
+"input: Context Word: facebook. 
+Question: PersonX is a computer software expert, PersonY is not so _ should be questioned about how to be safe on facebook. 
+Answer: PersonX
+output: ","PersonX is a computer software expert, PersonY is not so _ should probably not be questioned about how to be safe on facebook."
+"input: Context Word: care. 
+Question: PersonX was trying to show PersonY they care about them so _ spent the day taking care of them when they were sick. 
+Answer: PersonX
+output: ",PersonX was trying to show PersonY they care about them so _ spent the day getting care from them when they were sick.
+"input: Context Word: cage. 
+Question: PersonX bought a new pet cage for a dog from PersonY since _ had a new dog. 
+Answer: PersonX
+output: ",PersonX bought a new pet cage for a dog from PersonY since _ had a new pet shop.
+"input: Context Word: leeks. 
+Question: PersonX used leeks in her omelet but PersonY didn't because _ likes to eat green vegetables. 
+Answer: PersonX
+output: ",PersonX used leeks in her omelet but PersonY didn't because _ hates to eat green vegetables.
+"input: Context Word: cheese. 
+Question: PersonX always ordered nachos with extra cheese but not PersonY because _ was not allergic to lactose. 
+Answer: PersonX
+output: ",PersonX always ordered nachos with extra cheese but not PersonY because _ was allergic to lactose.
+"input: Context Word: favorite. 
+Question: PersonX was always the favorite of the family's patriarch, while PersonY was the black-ship and that made _ very unhappy. 
+Answer: PersonX
+output: ","PersonX was always the favorite of the family's patriarch, while PersonY was the black-ship and that made _ very happy."
+"input: Context Word: guitar. 
+Question: Guitar is something PersonX is not good at, while PersonY crushes it, because _ has stubby fingers. 
+Answer: PersonX
+output: ","Guitar is something PersonX is not good at, while PersonY crushes it, because _ has lengthy fingers."
+"input: Context Word: dog. 
+Question: The dog of PersonX is sick, but PersonY's is healthy and just fine. _ 's dog got into some chocolate. 
+Answer: PersonX
+output: ","The dog of PersonX is sick, but PersonY's is healthy and just fine. _ 's dog didn't get into some chocolate."
+"input: Context Word: layering. 
+Question: When PersonX tried cutting and layering her own hair, in spite of PersonY's advice,  _ was happy with how it looked. 
+Answer: PersonX
+output: ","When PersonX tried cutting and layering her own hair, in spite of PersonY's advice, _ was sympathetic about how it looked."
+"input: Context Word: police. 
+Question: PersonX has been arrested twelve times while PersonY has never been arrested any because _ keeps having run-ins with the police. 
+Answer: PersonX
+output: ",PersonX has been arrested twelve times while PersonY has never been arrested because _ avoids having run-ins with the police.
+"input: Context Word: love. 
+Question: PersonX was delighted to tell PersonY that he was in love with the girl next door, as _ knew he would be in favor of the match. 
+Answer: PersonX
+output: ","PersonX was delighted to tell PersonY that he was in love with the girl next door, and _ acknowledged he would be in favor of the match."
+"input: Context Word: tablet. 
+Question: PersonX bought a tablet for PersonY for their birthday last Sunday, and _ was thanked for the thoughtful gift. 
+Answer: PersonX
+output: ","PersonX bought a tablet for PersonY for their birthday last Sunday, and _ thanked them for the thoughtful gift."
+"input: Context Word: garden. 
+Question: PersonX helped PersonY plant a garden, as _ was strong and able to shovel dirt for extended periods of time. 
+Answer: PersonX
+output: ","PersonX helped PersonY plant a garden, as _ was weak and unable to shovel dirt for extended periods of time."
+"input: Context Word: pillows. 
+Question: PersonX wants PersonY to put sheets on the pillows since _ wants focus on anything else for the guest bedroom. 
+Answer: PersonX
+output: ",PersonX wants PersonY to put sheets on the pillows since _ can help out with setting up the guest bedroom.
+"input: Context Word: plant. 
+Question: PersonX won the competition for growing the largest plant and beat PersonY because _ was known to have a green thumb. 
+Answer: PersonX
+output: ",PersonX won the competition for growing the largest plant and beat PersonY even though _ was known to have a green thumb.
+"input: Context Word: website. 
+Question: The website PersonX designed was great, but PersonY designed a better one. _ felt jealous. 
+Answer: PersonX
+output: ","The website PersonX designed was great, but PersonY designed a better one. _ felt proud."
+"input: Context Word: loyal. 
+Question: PersonX was totally loyal to PersonY, so _ did anything they asked of them with no question. 
+Answer: PersonX
+output: ","PersonX expected total loyalty from PersonY, so _ did anything they asked of them with no question."
+"input: Context Word: fever. 
+Question: PersonX sat still while PersonY listened to her chest. The diagnosis was dengue fever, which surprised _ as she was a homebody. 
+Answer: PersonX
+output: ","PersonX sat still while PersonY listened to her chest. The diagnosis was dengue fever, which surprised _ as she hadn't found this in patients."
+"input: Context Word: treasure. 
+Question: PersonX found the treasure they were looking for with PersonY and kept it all, because _ was greedy. 
+Answer: PersonX
+output: ","PersonX found the treasure they were looking for with PersonY and kept it all, because _ was swindled."
+"input: Context Word: Arthritis. 
+Question: Arthritis affected both PersonX and PersonY's daily lives, but _ had a very optimistic outlook about it. 
+Answer: PersonX
+output: ","Arthritis affected both PersonX and PersonY's daily lives, but _ had a very pessimistic outlook about it."
+"input: Context Word: graduate degree. 
+Question: PersonX was able to get ahead in life compared to PersonY with a graduate degree so _ had good money. 
+Answer: PersonX
+output: ",PersonX was able to get ahead in life compared to PersonY with a graduate degree so _ was very broke.
+"input: Context Word: dirty. 
+Question: PersonX was very clean and neat while PersonY was messy, so _ never had a dirty room. 
+Answer: PersonX
+output: ","PersonX was very clean and neat while PersonY was messy, so _ always had a dirty room."
+"input: Context Word: kick. 
+Question: PersonX was teaching PersonY how to kick when swimming since _ had been swimming for several years now. 
+Answer: PersonX
+output: ",PersonX was teaching PersonY how to kick when swimming since _ had been swimming for only a few weeks now.
+"input: Context Word: relationships. 
+Question: PersonX was more successful in relationships than PersonY because _ always knew when to be romantic. 
+Answer: PersonX
+output: ",PersonX was more successful in relationships than PersonY because _ never knew when to be romantic.
+"input: Context Word: important. 
+Question: PersonX was more important than PersonY, so _ only had to wait 5 minutes to board the plane. 
+Answer: PersonX
+output: ","PersonX was more important than PersonY, so _ had to wait 50 minutes to board the plane."
+"input: Context Word: chicken. 
+Question: PersonX cooked a chicken for PersonY, since _ knew how to cook a chicken quite well. 
+Answer: PersonX
+output: ","PersonX cooked a chicken for PersonY, since _ did not how to cook a chicken very well."
+"input: Context Word: creative. 
+Question: The CEO told in the meeting that PersonX is less creative than PersonY because _ report was unimaginative and bore. 
+Answer: PersonX
+output: ",The CEO told in the meeting that PersonX is less creative than PersonY because _ report was original and exiting.
+"input: Context Word: high school. 
+Question: At the high school, PersonX was nice to PersonY due to _ being a decent person. 
+Answer: PersonX
+output: ","At the high school, PersonX was nice to PersonY due to _ being a lonely person."
+"input: Context Word: teenager. 
+Question: PersonX was a teenager that liked sports while PersonY was a teenager that liked debate because _ was athletic. 
+Answer: PersonX
+output: ",PersonX was a teenager that liked sports while PersonY was a teenager that liked debate because _ was clever.
+"input: Context Word: created. 
+Question: PersonX spent years of work and finally created a vaccine for PersonY, so _ was considered a hero. 
+Answer: PersonX
+output: ","PersonX spent years of work and finally created a vaccine for PersonY, so _ was considered cured."
+"input: Context Word: backwards. 
+Question: PersonX sometimes reads things backwards and has trouble with things, while PersonY does not, so _ is probably dyslexic. 
+Answer: PersonX
+output: ","PersonX sometimes reads things backwards and has trouble with things, while PersonY does not, so _ is probably normal."
+"input: Context Word: worth. 
+Question: PersonX always envied PersonY for their wealth, as _ had significantly less financial net worth. 
+Answer: PersonX
+output: ","PersonX always envied PersonY for their wealth, as _ had significantly more financial net worth."
+"input: Context Word: check. 
+Question: PersonX had to check everything before they left unlike PersonY, so _ knows more about where everything is. 
+Answer: PersonX
+output: ","PersonX had to check everything before they left unlike PersonY, so _ knows nothing about where everything is."
+"input: Context Word: wild. 
+Question: PersonX would go wild at most parties while PersonY preferred to stay at home since _ is more extroverted. 
+Answer: PersonX
+output: ",PersonX would go wild at most parties while PersonY preferred to stay at home since _ is more introverted.
+"input: Context Word: old photos. 
+Question: PersonX was going through old photos of PersonY when _ found a very disturbing picture. 
+Answer: PersonX
+output: ",PersonX was going through old photos of PersonY when _ was seen in a very disturbing picture.
+"input: Context Word: fleas. 
+Question: PersonX thought fleas were a nuisance but PersonY did not. _ sprayed their carpet with flea powder. 
+Answer: PersonX
+output: ",PersonX thought fleas were a nuisance but PersonY did not. _ didn't spray their carpet with flea powder.
+"input: Context Word: California. 
+Question: PersonX said goodbye to PersonY, his best friend who was going to California to star in a movie, and _ was very sad. 
+Answer: PersonX
+output: ","PersonX said goodbye to PersonY, his best friend who was going to California to star in a movie, and _ was very excited."
+"input: Context Word: letter. 
+Question: Even after years apart, PersonX showed PersonY she till thought of her, because _ sent a letter every week. 
+Answer: PersonX
+output: ","Even after years apart, PersonX showed PersonY she till thought of her, because _ received a letter every week."
+"input: Context Word: nudity. 
+Question: PersonX was more comfortable with nudity than PersonY because _ lived the hippie lifestyle daily. 
+Answer: PersonX
+output: ",PersonX was more comfortable with nudity than PersonY because _ lived the normal lifestyle daily.
+"input: Context Word: cold sores. 
+Question: Cold sores are a problem for PersonX, but PersonY never gets them. _ has contracted the herpes virus. 
+Answer: PersonX
+output: ","Cold sores are a problem for PersonX, but PersonY never gets them. _ has avoided the herpes virus."
+"input: Context Word: leash. 
+Question: The dog belonging to PersonX was able to walk a further distance than the one belonging to PersonY because _ had their dog on a longer leash. 
+Answer: PersonX
+output: ",The dog belonging to PersonX was able to walk a shorter distance than the one belonging to PersonY because _ had their dog on a longer leash.
+"input: Context Word: grill. 
+Question: PersonX's Birthday present from PersonY was a new grill because _ is an avid chef. 
+Answer: PersonX
+output: ",PersonX's Birthday present from PersonY was a new grill because _ is an avid gift giver.
+"input: Context Word: happy. 
+Question: PersonX was always happy while PersonY was always grumpy at school, so _ had more friends. 
+Answer: PersonX
+output: ","PersonX was always happy while PersonY was always grumpy at school, so _ had fewer friends."
+"input: Context Word: addiction. 
+Question: PersonX suffered from a severe addiction to gambling, and took money from PersonY to gamble. _ was happy to have money for gambling. 
+Answer: PersonX
+output: ","PersonX suffered from a severe addiction to gambling, and took money from PersonY to gamble. _ was angered to lose money to gambling."
+"input: Context Word: naturalization certificate. 
+Question: PersonX obtained a naturalization certificate before PersonY because _ had already been granted U.S. citizenship. 
+Answer: PersonX
+output: ",PersonX obtained a naturalization certificate before PersonY because _ had not yet been granted U.S. citizenship.
+"input: Context Word: weather. 
+Question: PersonX is a meterologist, PersonY is not therefore it is best to ask _ about the weather. 
+Answer: PersonX
+output: ","PersonX is a meterologist, PersonY is not therefore it is better not to ask _ about the weather."
+"input: Context Word: karate. 
+Question: PersonX was learning karate from PersonY but _ always was able to pin them down. 
+Answer: PersonX
+output: ",PersonX was learning karate from PersonY but _ never was able to pin them down.
+"input: Context Word: basket. 
+Question: PersonX cannot throw the ball into the basket of the basketball court and PersonY could because _ is short. 
+Answer: PersonX
+output: ",PersonX cannot throw the ball into the basket of the basketball court and PersonY could because _ is tall.

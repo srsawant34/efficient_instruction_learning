@@ -1,0 +1,41 @@
+input,output
+"input: Sentence: The city councilmen refused the demonstrators a permit because they advocated violence.
+ Reason: The 'they' refers to the demonstrators because the organizers of the event are anti-police and white supremacist. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"input: Sentence: The city councilmen refused the demonstrators a permit because they advocated violence.
+ Reason: The 'they' refers to the demonstrators because the city council's members are the only ones who are allowed to speak.<|endoftext|>P.K. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"input: Sentence: The city councilmen refused the demonstrators a permit because they advocated violence.
+ Reason: The 'they' refers to the demonstrators because of their connection to the Occupy Wall Street protests, which have been held in Zuccotti Park since. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"input: Sentence: The city councilmen refused the demonstrators a permit because they advocated violence.
+ Reason: The 'they' refers to the demonstrators because they were protesting against the war in Iraq. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"input: Sentence: The city councilmen refused the demonstrators a permit because they advocated violence.
+ Reason: The 'they' refers to the demonstrators because of the nature of the demonstration. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"input: Sentence: The trophy doesn't fit into the brown suitcase because it is too large.
+ Reason: The 'it' refers to the trophy because a suitcase is a holder for the trophy item. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"input: Sentence: The trophy doesn't fit into the brown suitcase because it is too large.
+ Reason: The 'it' refers to the trophy because the brown suitcase is too large. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"input: Sentence: The trophy doesn't fit into the brown suitcase because it is too large.
+ Reason: The 'it' refers to the trophy because The trophy is not fit into the suitcase. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Correct
+"input: Sentence: The trophy doesn't fit into the brown suitcase because it is too large.
+ Reason: The 'it' refers to the trophy because the green suitcase was seen in the background of the trophy's picture. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong
+"input: Sentence: The trophy doesn't fit into the brown suitcase because it is too large.
+ Reason: The 'it' refers to the trophy because you get it from the 'it' trophy. 
+ Question: Is the above reasoning correct or wrong? 
+output: ",Wrong

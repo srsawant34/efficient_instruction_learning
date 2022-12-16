@@ -1,0 +1,201 @@
+input,output
+"input: name[xname], cuisine[French], price[moderate], rating[1 out of 5], location[riverside]
+output: ",xname has French food at a moderate price in the riverside area with a customer rating of 1 out of 5.
+"input: name[xname], price[high], rating[1 out of 5]
+output: ",xname is an expensive restaurant with a rating of 1 out of 5
+"input: name[xname], recommend[yes], cuisine[Fast Food], qual[acceptable]
+output: ",xname is a Fast Food place with decent food. It is the best restaurant.
+"input: name[xname], recommend[yes], cuisine[Italian], decor[acceptable], qual[acceptable], location[Manhattan], price[expensive]
+output: ","Because xname is an Italian restaurant and pricey with satisfying food and acceptable decor and it is in Manhattan, it is the best place."
+"input: name[xname], recommend[yes], qual[good], price[expensive], service[acceptable]
+output: ","Since xname is expensive with satisfying service, but it offers good food though, I would recommend xname."
+"input: name[xname], cuisine[Italian], rating[average], location[riverside], familyFriendly[no]
+output: ",xname is an Italian restaurant. It is in the riverside area. It has an average rating and is not family-friendly.
+"input: name[xname], recommend[yes], cuisine[French], decor[acceptable], qual[acceptable], location[Manhattan], price[very expensive]
+output: ",xname is a French restaurant and very pricey. xname is in Manhattan with decent food and acceptable ambiance. It is one of my favourite places.
+"input: name[xname], eattype[coffee shop], cuisine[Indian], price[moderate], rating[3 out of 5], location[riverside], familyFriendly[yes]
+output: ","xname is a coffee shop serving Indian food at a moderate price range. Its customer rating is three out of five, it is near the riverside and is kids friendly."
+"input: name[xname], cuisine[Indian], rating[3 out of 5], location[riverside], familyFriendly[yes]
+output: ","In Riverside, there is a kid friendly restaurant named xname that serves Indian food and has a customer rating of 3 out of 5"
+"input: name[xname], recommend[yes], cuisine[Mexican], location[Manhattan], service[acceptable]
+output: ",I suspect you would appreciate xname because it is in Manhattan and it is a Mexican place. it provides acceptable staff.
+"input: name[xname], cuisine[French], price[moderate], rating[1 out of 5], location[city centre], near[xnear]
+output: ",xname is a French restaurant near xnear in the city centre with a moderate price range and customer rating of 1 out of 5.
+"input: name[xname], eattype[pub], cuisine[Italian], price[moderate], familyFriendly[yes], near[xnear]
+output: ",Near xnear is xname a kids-friendly pub that is moderately priced and serves Italian food.
+"input: name[xname], cuisine[French], price[£20-25], rating[high], location[riverside], near[xnear]
+output: ",Coming in with a high customer rating is xname. xname serves French food. They are in the riverside area near xnear and have a medium price range of £20-25.
+"input: name[xname], eattype[coffee shop], cuisine[Indian], price[less than £20], rating[low], familyFriendly[no], near[xnear]
+output: ",xname is a coffee shop providing Indian food in the less than £20 price range. It is near xnear. Its customer rating is low.
+"input: name[xname], eattype[pub], cuisine[Italian], price[less than £20], location[city centre], familyFriendly[no]
+output: ",xname is a non family-friendly Italian pub in the center of the city with a price range of less than 20 euros.
+"input: name[xname], recommend[yes], cuisine[Fast Food], decor[terrible], qual[good], location[Manhattan], service[bad]
+output: ","xname is the best restaurant because it provides bad staff and awful decor, but it offers good food though. It is in Manhattan. It is a Fast Food place."
+"input: name[xname], cuisine[Italian], price[high], location[city centre], familyFriendly[no]
+output: ",City centre's xname is high-end Italian food. It is not child friendly.
+"input: name[xname], eattype[pub], cuisine[Japanese], price[cheap], familyFriendly[yes], near[xnear]
+output: ","xname is a cheap, family friendly pub serving Japanese food.  It is near xnear."
+"input: name[xname], recommend[yes], cuisine[Spanish], qual[acceptable], location[the East Village], price[affordable]
+output: ",xname is the best restaurant because xname provides acceptable food. It is a Spanish place. it's in the East Village. It is affordable.
+"input: name[xname], eattype[coffee shop], cuisine[Chinese], price[more than £30], rating[high], familyFriendly[no], near[xnear]
+output: ",The customers rate xname high. The price range is over thirty dollars. It is a Chinese restaurant and a coffee shop. It is located near xnear. xname is not children friendly.
+"input: name[xname], recommend[yes], cuisine[New American], decor[acceptable], location[Manhattan], price[expensive], service[acceptable]
+output: ",xname is the best place since it is a New American restaurant and expensive. It is in Manhattan with decent ambiance and friendly service.
+"input: name[xname], price[cheap], rating[average], location[riverside], familyFriendly[yes]
+output: ","xname is cheap and family friendly. Located in the riverside area, it has an average customer rating."
+"input: name[xname], recommend[yes], cuisine[New American], decor[bad], qual[acceptable], location[Manhattan]
+output: ",I would consider the xname because the xname has decent food and mediocre decor. the it is in Manhattan. it's a New American restaurant.
+"input: name[xname], price[cheap], rating[average], location[riverside], near[xnear]
+output: ",xnames is a cheap restaurant in riverside near xnear with average customer ratings.
+"input: name[xname], eattype[coffee shop], rating[5 out of 5], location[city centre], familyFriendly[no], near[xnear]
+output: ","Located near xnear in the city centre is the coffee shop, xname. It is not family-friendly but has a 5 out of 5 customer rating."
+"input: name[xname], recommend[yes], location[Flatiron/Union Square], price[expensive]
+output: ",The xname is the best place because the it is expensive. the it is in Flatiron/Union Square.
+"input: name[xname], recommend[yes], decor[bad], qual[good], location[Manhattan], price[expensive]
+output: ","xname is the best restaurant since it is expensive with bad decor, but it offers tasty food though. It is in Manhattan."
+"input: name[xname], recommend[yes], decor[acceptable], qual[good], price[affordable]
+output: ",xname is the best restaurant since it offers good food and decent decor. It is affordable.
+"input: name[xname], eattype[coffee shop], rating[low], location[city centre], familyFriendly[no], near[xnear]
+output: ","xname is a coffee shop, located near xnear in the city centre. It was given a low customer rating and is not family-friendly."
+"input: name[xname], cuisine[Japanese], price[less than £20], rating[average], location[city centre], familyFriendly[no]
+output: ",xname is a non family-friendly Japanese restaurant in the city centre with an average customer rating and price range of less than £20.
+"input: name[xname], recommend[yes], cuisine[Latin American], decor[bad], location[TriBeCa/SoHo], service[bad]
+output: ",I would suggest xname because it is a Latin American place with rude staff and bad ambiance. it's in TriBeCa/SoHo.
+"input: name[xname], recommend[yes], cuisine[French], decor[good], qual[acceptable], location[Midtown], price[expensive], service[acceptable]
+output: ","Because xname is a French restaurant and expensive. It is in Midtown with good decor, satisfying food and welcoming staff, it is the best place."
+"input: name[xname], cuisine[French], rating[average], location[city centre], familyFriendly[yes]
+output: ",There is a French selling restaurant in the City Centre called xname. It is family-friendly with an average customer rating.
+"input: name[xname], recommend[yes], qual[acceptable], location[Chinatown], price[cheap]
+output: ",The xname is the best place because the it is cheap. the it is in Chinatown. the it offers satisfying food.
+"input: name[xname], eattype[pub], cuisine[French], price[more than £30], location[riverside], familyFriendly[yes]
+output: ",xname in riverside is a French pub with a price range of more than £30 but yes it is also child friendly.
+"input: name[xname], cuisine[French], price[£20-25], rating[high], location[riverside], familyFriendly[yes]
+output: ","xname is a family-friendly restaurant located in the City Centre near the river. It offers moderately-priced wine, cheese, fruit, escargot, and fondue."
+"input: name[xname], eattype[coffee shop], cuisine[Indian], rating[5 out of 5], familyFriendly[yes], near[xnear]
+output: ",The family friendly Indian coffee shop xname is near to xnear and has a customer rating of 5 out of 5.
+"input: name[xname], recommend[yes], cuisine[Japanese], qual[acceptable], location[Manhattan]
+output: ","Since xname is a Japanese place. It is in Manhattan with decent food, I would recommend xname."
+"input: name[xname], eattype[restaurant], price[less than £20], location[city centre]
+output: ",xname is a restaurant in the city centre priced less than £20.
+"input: name[xname], cuisine[English], price[£20-25], rating[high], familyFriendly[yes], near[xnear]
+output: ","Reasonably priced and highly rated,  xname is a family friendly English venue, close to The xnear."
+"input: name[xname], cuisine[Italian], rating[1 out of 5], location[riverside], near[xnear]
+output: ",xname in riverside near xnear is Italian and is rated 1 out of 5.
+"input: name[xname], recommend[yes], cuisine[Italian], price[affordable]
+output: ",xname is the best place because it is affordable and an Italian restaurant.
+"input: name[xname], eattype[coffee shop], cuisine[Fast Food], price[high], rating[average], location[riverside]
+output: ","xname has beautiful riverside views, serves fast food in their charming coffee shop. Higher end prices, and mid level reviews."
+"input: name[xname], eattype[coffee shop], price[less than £20], rating[average], location[riverside], familyFriendly[yes]
+output: ",If you looking for family-Friendly average coffee shop with prices under 20£ look for xname at riverside.
+"input: name[xname], recommend[yes], cuisine[Spanish], decor[bad], qual[acceptable], location[the Upper West Side], price[affordable], service[bad]
+output: ","It's the best place because xname is in the Upper West Side with rude service. although xname is affordable, it provides bad ambiance. xname is a Spanish restaurant with satisfying food."
+"input: name[xname], recommend[yes], location[the Upper East Side], price[expensive]
+output: ",I would recommend xname because it is pricey. it's in the Upper East Side.
+"input: name[xname], recommend[yes], cuisine[Chinese], decor[bad], qual[acceptable], location[Manhattan]
+output: ",xname is the best restaurant since it is a Chinese place with mediocre ambiance with satisfying food. It is in Manhattan.
+"input: name[xname], eattype[coffee shop], cuisine[Chinese], price[high], rating[1 out of 5], familyFriendly[yes]
+output: ",xname is a highly priced coffee shop offering Chinese food. Children welcomed.
+"input: name[xname], eattype[coffee shop], cuisine[English], price[less than £20], rating[low], location[riverside], familyFriendly[no], near[xnear]
+output: ","xname is a coffee shop by xnear. Its low cost, but gets bad reviews, and is adult only."
+"input: name[xname], eattype[coffee shop], cuisine[Indian], rating[5 out of 5], location[riverside], near[xnear]
+output: ",xname is a coffee shop providing Indian food It is located in the riverside. It is near xnear. Its customer rating is 5 out of 5.
+"input: name[xname], eattype[coffee shop], cuisine[Japanese], price[less than £20], rating[average], location[riverside], familyFriendly[no], near[xnear]
+output: ","xname is located in riverside, near xnear.  it is a coffee shop which sells Japanese food for less than £20.  it is rated average by customers but isn't family-friendly"
+"input: name[xname], cuisine[Fast Food], rating[5 out of 5], location[riverside], familyFriendly[no], near[xnear]
+output: ","In the Riverside area, near xnear, you will find xname.  It is a top customer rated fast food restaurant that is not family-friendly."
+"input: name[xname], recommend[yes], cuisine[Italian], location[the Upper East Side], service[good]
+output: ","Since xname has good staff, it is in the Upper East Side and it is an Italian place, it is one of my favourite restaurant."
+"input: name[xname], cuisine[French], price[more than £30], location[riverside], familyFriendly[yes], near[xnear]
+output: ","xname is a Food French restaurant. It located in riverside area near xnear. xname is a Children Friendly, and the price more than £30."
+"input: name[xname], eattype[coffee shop], cuisine[Italian], price[cheap], rating[5 out of 5], location[city centre], familyFriendly[yes], near[xnear]
+output: ",In the city centre near xnear there is a cheap coffee shop called xname which serves Italian food. It is family-friendly and has an average customer rating of 5 out of 5.
+"input: name[xname], eattype[coffee shop], cuisine[Indian], price[moderate], rating[3 out of 5], familyFriendly[yes]
+output: ",xname is a kid friendly 3 out of 5 rated coffee shop offering Indian food at a moderate price.
+"input: name[xname], recommend[yes], cuisine[Chinese], qual[good], location[Midtown], service[good]
+output: ",xname is the best restaurant since it is a Chinese place with good food and nice staff. It is in Midtown.
+"input: name[xname], recommend[yes], cuisine[New American], decor[bad], location[Manhattan], price[affordable]
+output: ","xname is one of my favourite places because it provides mediocre decor, but it is affordable though. It is in Manhattan. It is a New American restaurant."
+"input: name[xname], recommend[yes], cuisine[Italian], decor[terrible], qual[good], location[the West Village], service[bad]
+output: ","xname is the only restaurant I would suggest since it is a Italian place with tasty food, awful ambiance and rude service. It is in the West Village."
+"input: name[xname], recommend[yes], cuisine[Spanish], decor[acceptable], qual[acceptable], location[Midtown East]
+output: ",I would suggest xname because xname is a Spanish place. it's in Midtown East with decent food and pleasant decor.
+"input: name[xname], cuisine[Japanese], price[moderate], rating[1 out of 5], location[city centre]
+output: ",Moderate priced Japanese restaurant rated 1 out of 5 by customers is xname in the city centre.
+"input: name[xname], eattype[coffee shop], cuisine[Fast Food], price[high], rating[average], familyFriendly[no], near[xnear]
+output: ",There is a coffee shop near xnear named xname with average customer ratings.
+"input: name[xname], eattype[coffee shop], cuisine[French], price[£20-25], rating[high], location[riverside], familyFriendly[yes], near[xnear]
+output: ",If you happen to find yourself strolling riverside and getting a bit hungry  be sure to stop in at xname. xname is a great coffee ship serving French cuisine at an affordable price . xname is child friendly and  near xnear.
+"input: name[xname], cuisine[Fast Food], price[high], rating[average], location[city centre], familyFriendly[no]
+output: ",xname is a costly fast food located in city centre. It has average customer rating and not child friendly.
+"input: name[xname], cuisine[Chinese], price[high], location[riverside]
+output: ",xname serves expensive Chinese food in the riverside area.
+"input: name[xname], recommend[yes], cuisine[New American], decor[good], qual[acceptable], location[Midtown], price[affordable], service[bad]
+output: ","Because xname is in Midtown with adequate food and rude service with nice decor and xname is affordable and a New American restaurant, it is one of my favourite places."
+"input: name[xname], cuisine[Fast Food], price[cheap], rating[average], near[xnear]
+output: ",xname is a low priced restaurant located near xnear.
+"input: name[xname], recommend[yes], cuisine[Southern], decor[acceptable], qual[bad], location[the West Village], price[affordable]
+output: ",xname is in the West Village with mediocre food. it's a Southern restaurant with pleasant decor. It is somewhat affordable. It is the best place.
+"input: name[xname], recommend[yes], cuisine[Mexican], decor[bad], location[Midtown], price[affordable]
+output: ",The xname is the best restaurant since the it has bad ambiance. the it is in Midtown. it's a Mexican place. the it is affordable.
+"input: name[xname], recommend[yes], cuisine[Southern], decor[acceptable], location[Manhattan], price[expensive], service[acceptable]
+output: ","Because xname is a Southern place and pricey. xname is in Manhattan with pleasant decor and friendly staff, I would suggest it."
+"input: name[xname], price[£20-25], rating[high], location[city centre], familyFriendly[yes]
+output: ","The popular, kid friendly xname is in the city centre costing £20-25."
+"input: name[xname], eattype[coffee shop], cuisine[Japanese], price[moderate], rating[1 out of 5], near[xnear]
+output: ","Located near xnear is xname, a coffee shop that serves Japanese food. Its price range is moderate, but it is rated only 1 out of 5."
+"input: name[xname], eattype[coffee shop], cuisine[Italian], price[more than £30], rating[high], familyFriendly[yes], near[xnear]
+output: ","xname is a coffee shop near xnear. This is a children friendly offering Italian food, it is slightly expensive at food more than £30.00 however has a high rating."
+"input: name[xname], recommend[yes], cuisine[Mexican], decor[bad], location[Manhattan], price[affordable], service[bad]
+output: ","Because xname is affordable and a Mexican restaurant and it is in Manhattan with mediocre decor and bad service, it is the best place."
+"input: name[xname], recommend[yes], cuisine[Latin American], location[Midtown], price[expensive]
+output: ",I would recommend xname because xname is a Latin American place and expensive. it's sort of in Midtown.
+"input: name[xname], recommend[yes], decor[acceptable], location[the West Village], price[affordable]
+output: ","Because it's in the West Village with acceptable ambiance. xname is affordable, it is the best restaurant."
+"input: name[xname], eattype[coffee shop], cuisine[French], price[moderate], rating[1 out of 5], familyFriendly[no]
+output: ",There is a French coffee shop in the moderate price range named xname. Consumers rate it 1 out of 5. It is not kid-friendly.
+"input: name[xname], eattype[pub], cuisine[Indian], rating[average], location[riverside]
+output: ",xname is a pub restaurant that serves Indian food. It has an average customer rating. It is located at the riverside
+"input: name[xname], recommend[yes], cuisine[French], qual[good], price[affordable]
+output: ",I would consider xname since it is affordable and a French restaurant. it has good food.
+"input: name[xname], cuisine[Fast Food], price[less than £20], rating[low], familyFriendly[no], near[xnear]
+output: ",There is a fast food restaurant near xnear named xname.  It offers prices less than  £20 but it is not family-friendly and has a low customer rating.
+"input: name[xname], eattype[restaurant], cuisine[English], location[riverside]
+output: ",English food is offered in the riverside area at the restaurant xname.
+"input: name[xname], recommend[yes], qual[acceptable], location[Midtown East], service[acceptable]
+output: ",I would suggest xname since it provides adequate food and acceptable staff. it's in Midtown East.
+"input: name[xname], eattype[coffee shop], cuisine[Fast Food], rating[average], location[city centre], near[xnear]
+output: ",In the city centre there is an average coffee shop serving fast food near xnear called xname.
+"input: name[xname], eattype[coffee shop], cuisine[Chinese], price[moderate], rating[3 out of 5], familyFriendly[no], near[xnear]
+output: ","Located near xnear, xname is a non kid friendly coffee shop that serves Chinese food and has a 3 star rating. The price range is moderate."
+"input: name[xname], eattype[coffee shop], cuisine[Chinese], price[moderate], rating[3 out of 5], location[city centre], near[xnear]
+output: ",xname is a coffee shop providing Chinese food in the moderate price range. It is located in the city centre. It is near xnear. Its customer rating is 3 out of 5.
+"input: name[xname], recommend[yes], cuisine[Chinese], location[the Upper East Side]
+output: ",I guess xname is alright since it's in the Upper East Side and it is a Chinese place.
+"input: name[xname], recommend[yes], cuisine[Mexican], decor[acceptable], qual[good], location[Midtown East], price[affordable], service[acceptable]
+output: ","Because xname is in Midtown East with decent decor. It is a Mexican restaurant. it provides welcoming staff. It is affordable with good food, I would suggest it."
+"input: name[xname], recommend[yes], cuisine[French], decor[bad], qual[acceptable], location[Midtown East], service[acceptable]
+output: ","Since xname is in Midtown East with bad decor. It is a French restaurant with friendly service and decent food, it is the best place."
+"input: name[xname], cuisine[Italian], price[high], rating[average], location[city centre], familyFriendly[no]
+output: ",xname is a high priced Italian restaurant located in the city centre. It has an average customer rating and is not children friendly.
+"input: name[xname], recommend[yes], cuisine[Southern], location[the West Village], price[cheap]
+output: ",I would recommend xname since it is cheap and a Southern restaurant. it's in the West Village.
+"input: name[xname], cuisine[Fast Food], price[cheap], rating[5 out of 5], familyFriendly[yes], near[xnear]
+output: ","Located next to xnear is xname, a low priced, five star restaurant that sells burgers and fries."
+"input: name[xname], recommend[yes], cuisine[New American], location[the Upper West Side], price[very expensive], service[bad]
+output: ",I would recommend xname since it is a New American restaurant and very expensive with bad staff. it's in the Upper West Side.
+"input: name[xname], recommend[yes], qual[good], location[Manhattan], service[acceptable]
+output: ",xname is the best restaurant because xname is in Manhattan with satisfying service with nice food.
+"input: name[xname], cuisine[English], price[£20-25], near[xnear]
+output: ",xname serves English food in the range of £20-25. It is located near xnear.
+"input: name[xname], cuisine[English], price[moderate], rating[3 out of 5], location[city centre], familyFriendly[no]
+output: ",There is a moderately priced restaurant xname in the city centre. It is not kids friendly but they have high customer ratings and they serve English food.
+"input: name[xname], eattype[coffee shop], cuisine[Chinese], price[high], rating[1 out of 5], familyFriendly[no], near[xnear]
+output: ",xname is a coffee shop providing Chinese food in the high price range. It is near xnear. Its customer rating is 1 out of 5.
+"input: name[xname], recommend[yes], cuisine[Mediterranean], qual[acceptable], location[Manhattan], price[affordable]
+output: ",I would suggest xname since it is affordable and an Mediterranean restaurant. xname is in Manhattan. it provides decent food.
+"input: name[xname], eattype[coffee shop], cuisine[French], price[more than £30], rating[low], location[city centre], familyFriendly[no], near[xnear]
+output: ",There is a coffee shop called xname near the xnear in city centre.  They serve French food in a non-child friendly environment at prices more than  £30 and have earned a low customer rating.
+"input: name[xname], recommend[yes], cuisine[Mexican], qual[good], location[Midtown], service[acceptable]
+output: ","Since xname is a Mexican place with good food and friendly staff and it is in Midtown, it is the best restaurant."
+"input: name[xname], eattype[pub], cuisine[Italian], price[high], rating[average]
+output: ",xname is a pub featuring Italian foods.

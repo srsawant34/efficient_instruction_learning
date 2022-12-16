@@ -1,0 +1,11 @@
+input,output
+"Definition: You will see a sentence and a given pronoun. Answer with the word in the sentence to which the pronoun is referring.
+Positive example 1-
+input: text: this book introduced shakespeare to ovid; it was a fine selection of his writing.; pronoun: his
+output: shakespeare
+Positive example 2-
+input: text: madonna fired her trainer because she couldnt stand her boyfriend.; pronoun: her
+output: trainer
+Now complete the following example-
+input: text: susan knows all about ann's personal problems because she is indiscreet.; pronoun: she
+output: ",ann

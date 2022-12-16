@@ -1,0 +1,21 @@
+input,output
+"input: [['Asser Levy Public Baths', 'LOCATION', 'New York City'], ['New York City', 'COUNTRY', 'United States'], ['Manhattan', 'IS_PART_OF', 'New York'], ['New York City', 'IS_PART_OF', 'Manhattan']]
+output: ","Asser Levy Public baths are located in New York City, _____, New York, US."
+"input: [['SAGE Publications', 'FOUNDER', 'Sara Miller McCune'], ['Administrative Science Quarterly', 'OCLC_NUMBER', '1461102'], ['Administrative Science Quarterly', 'PUBLISHER', 'SAGE Publications']]
+output: ","The _____, OCLC 1461102, is published by SAGE Publications founded by Sara Miller McCune."
+"input: [['Romania', 'ETHNIC_GROUP', 'Germans of Romania'], ['Alba Iulia', 'COUNTRY', 'Romania'], ['Romania', 'LEADER_NAME', 'Klaus Iohannis'], ['Romania', 'CAPITAL', 'Bucharest'], ['1 Decembrie 1918 University', 'CITY', 'Alba Iulia']]
+output: ","The 1 Decembrie 1918 University is located in _____, _____. Romania's capital is Bucharest; its leader is Klaus Iohannis and its ethnic group is the Germans of Romania."
+"input: [['William Anders', 'WAS_SELECTED_BY_NASA', '1963'], ['William Anders', 'NATIONALITY', 'United States'], ['William Anders', 'BIRTH_PLACE', 'British Hong Kong']]
+output: ","_____ joined NASA in _____, is an American and was born in British Hong Kong."
+"input: [['Loch Fyne', 'eatType', 'restaurant'], ['Loch Fyne', 'food', 'Chinese'], ['Loch Fyne', 'priceRange', 'less than £20']]
+output: ",A not so family restaurant is _____. With a price range that is usually less than £20 serves _____ food.
+"input: [['Cotto', 'eatType', 'restaurant'], ['Cotto', 'food', 'English'], ['Cotto', 'customer rating', 'high'], ['Cotto', 'familyFriendly', 'yes'], ['Cotto', 'near', 'Ranch']]
+output: ",_____ is a family friendly _____ restaurant with a high rating.  It's near the Ranch.
+"input: [['Kansas', 'INTERVIEW', '9.600'], ['Kansas', 'EVENING_GOWN', '9.600']]
+output: ",The _____ contestant scored a 9.600 in the Evening Gown and Interview sections.
+"input: [['Giraffe', 'eatType', 'coffee shop'], ['Giraffe', 'priceRange', 'high'], ['Giraffe', 'customer rating', '3 out of 5'], ['Giraffe', 'near', 'The Bakers']]
+output: ",The coffee shop named _____ is near The Bakers with a high price range and a customer rating of 3 out of 5.
+"input: [['1984-85', 'DIVISION_THREE', 'Oakwood'], ['1984-85', 'DIVISION_ONE', 'Steyning Town'], ['1984-85', 'DIVISION_TWO', 'Shoreham']]
+output: ","The Sussex County Football League had teams in three divisions during the _____ season: Division One, Steyning Town; Division Two, Shoreham; and Division Three, Oakwood."
+"input: [['The Vaults', 'eatType', 'restaurant'], ['The Vaults', 'food', 'French'], ['The Vaults', 'priceRange', 'moderate'], ['The Vaults', 'familyFriendly', 'yes']]
+output: ","A kid friendly, _____ly priced French cuisine restaurant, _____ is now open."

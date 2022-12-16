@@ -1,0 +1,784 @@
+input,output
+"input: Java | ethnicGroup | Javanese_people
+Ayam_penyet | ingredient | Fried_chicken
+Ayam_penyet | region | ""Nationwide, also can be found in Malaysia and Singapore""
+Ayam_penyet | country | Java
+output: ","The fried chicken dish Ayam penyet is made nationwide in Java (home of the Javanese), and can also be found in Malaysia and Singapore."
+"input: Buffalo,_New_York | isPartOf | New_York
+output: ",Buffalo New York is part of New York.
+"input: English_language | spokenIn | Great_Britain
+output: ",English is spoken in Great Britain.
+"input: Asher_and_Mary_Isabelle_Richardson_House | location | Asherton,_Texas
+Asher_and_Mary_Isabelle_Richardson_House | added to the National Register of Historic Places | ""1988-11-22""
+Asher_and_Mary_Isabelle_Richardson_House | ReferenceNumber in the National Register of Historic Places | ""88002539""
+Asher_and_Mary_Isabelle_Richardson_House | yearOfConstruction | 1911
+output: ","Asher and Mary Isabelle Richardson House is located in Asherton, Texas and was built in 1911. The building was added to the National Register of Historic Places on 22 November 1988 with the reference number 88002539."
+"input: Bhajji | region | Karnataka
+Bhajji | mainIngredients | ""Gram flour, vegetables""
+Bhajji | alternativeName | ""Bhaji, bajji""
+Bhajji | ingredient | Gram_flour
+output: ","Bhaji and bajji are alternative names for Bhajji, which is found in the region of Karnataka. Gram flour and vegetables are the main ingredients of bhajji."
+"input: Massimo_Drago | club | U.S._Castrovillari_Calcio
+A.C._Cesena | manager | Massimo_Drago
+Massimo_Drago | club | A.S.D._Licata_1931
+output: ",Massimo Drago was once a player for US Castrovillari Calcio and has been the manager of A C Cesena. He was also at the club ASD Licita 1931.
+"input: Baymax | voice | Scott_Adsit
+Scott_Adsit | birthPlace | Northbrook,_Illinois
+output: ","Scott Adsit was born in Northbrook, Illinois and does the voice for Baymax."
+"input: United_States | leaderTitle | President_of_the_United_States
+United_States | leaderName | Joe_Biden
+250_Delaware_Avenue | location | United_States
+output: ",President Joe Biden leads the United States which is the location of 250 Delaware Avenue.
+"input: AEK_Athens_F.C. | numberOfMembers | 69618
+AEK_Athens_F.C. | ground | Greece
+AEK_Athens_F.C. | league | Superleague_Greece
+output: ","AEK Athens F.C., with 69618 members, play in the Superleague Greece. Their ground is in Athens."
+"input: Acta_Mathematica_Hungarica | abbreviation | ""Acta Math. Hungar.""
+Acta_Mathematica_Hungarica | academicDiscipline | Mathematics
+Acta_Mathematica_Hungarica | ISSN_number | ""1588-2632""
+output: ",The Acta Mathematica Hungaria (Acta Math. Hunger.) covers the academic discipline of Mathematics. Its ISSN number is 1588-2632.
+"input: Alan_Bean | nationality | United_States
+Alan_Bean | occupation | Test_pilot
+Alan_Bean | birthDate | ""1932-03-15""
+Alan_Bean | birthPlace | Wheeler,_Texas
+Alan_Bean | timeInSpace | ""100305.0""(minutes)
+Alan_Bean | was selected by NASA | 1963
+Alan_Bean | status | ""Retired""
+output: ","Alan Bean was born in Wheeler, Texas on the 15th of March in 1932. He was hired by NASA in 1963 where he performed as a test pilot. He spent 100305.0 minutes in space and is now retired."
+"input: AEK_Athens_F.C. | league | Superleague_Greece
+Superleague_Greece | champions | Olympiacos_F.C.
+output: ","AEK Athens F.C. play in the Superleague Greece, the champions of which are, Olympiacos F.C."
+"input: Bolt_(comicsCharacter) | creator | Ernie_Colón
+Bolt_(comicsCharacter) | creator | Gary_Cohn_(comics)
+output: ",Ernie Colón and Gary Cohn are some of the creators of the comic character Bolt.
+"input: Buzz_Aldrin | was a crew member of | Apollo_11
+Buzz_Aldrin | nationality | United_States
+Apollo_11 | operator | NASA
+output: ","Buzz Aldrin, born in the USA, was a crew member of the NASA operated Apollo 11."
+"input: Atlanta | areaTotal | 347.1 (square kilometres)
+output: ",The total area of Atlanta is 347.1 (square kilometres).
+"input: Elliot_See | almaMater | University_of_Texas_at_Austin
+Elliot_See | deathPlace | St._Louis
+Elliot_See | birthDate | ""1927-07-23""
+Elliot_See | birthPlace | Dallas
+Elliot_See | deathDate | ""1966-02-28""
+Elliot_See | occupation | Test_pilot
+Elliot_See | nationality | United_States
+output: ","Test pilot Elliot See was born on the 23rd of July, 1927 in Dallas, USA. He was a student at the University of Texas at Austin. Elliot See passed away in St. Louis, on the 28th of February, 1966."
+"input: Arrabbiata_sauce | country | Italy
+Italy | demonym | Italians
+Italy | capital | Rome
+Italy | leaderName | Sergio_Mattarella
+output: ","Sergio Mattarella is a leader in Italy, where Italians come from, Rome is the capital and arrabbiata sauce is a traditional dish."
+"input: Asser_Levy_Public_Baths | location | New_York_City
+Asser_Levy_Public_Baths | ReferenceNumber in the National Register of Historic Places | ""80002709""
+Asser_Levy_Public_Baths | added to the National Register of Historic Places | ""1980-04-23""
+output: ","Asser Levy Public Baths are located in New York City and was added to the National Register of Historic Places on April 23, 1980. Their reference number in the Register is 80002709."
+"input: Massimo_Drago | club | A.S.D._Licata_1931
+output: ",Massimo Drago plays for A.S.D. Licata 1931.
+"input: Abilene_Regional_Airport | cityServed | Abilene,_Texas
+Abilene,_Texas | isPartOf | Taylor_County,_Texas
+output: ","Abilene, Texas is part of Taylor County, Texas and is served by the Abilene regional airport."
+"input: Dead_Man's_Plack | location | England
+Dead_Man's_Plack | dedicatedTo | Æthelwald,_Ealdorman_of_East_Anglia
+England | languages | Cornish_language
+output: ","The Dead Man's Plack, dedicated to Æthelwald, Ealdorman of East Anglia, is located in England, where the Cornish language is spoken."
+"input: Ethiopia | leaderName | Mulatu_Teshome
+Addis_Ababa | isPartOf | Addis_Ababa_Stadium
+Addis_Ababa_City_Hall | country | Ethiopia
+Addis_Ababa_City_Hall | location | Addis_Ababa
+Ethiopia | language | Amharic
+output: ","Addis Ababa City Hall and Addis Ababa Stadium are both located in Addis Ababa, Ethiopia. Amharic is the language of Ethiopia and the country's leader is Mulatu Teshome."
+"input: AWH_Engineering_College | country | India
+AWH_Engineering_College | established | 2001
+Kerala | leaderName | Kochi
+AWH_Engineering_College | academicStaffSize | 250
+AWH_Engineering_College | state | Kerala
+Kerala | has to its northwest | Mahé,_India
+AWH_Engineering_College | city | ""Kuttikkattoor""
+output: ","AWH Engineering College in Kuttikkattoor, India was created in 2001 and has 250 employees. The college is found in the state of Kerala which has Mahe to its northwest. The country is led by Kochi."
+"input: United_Kingdom | leaderName | Elizabeth_II
+United_Kingdom | language | English_language
+United_Kingdom | leaderName | David_Cameron
+AIDS_(journal) | country | United_Kingdom
+AIDS_(journal) | publisher | Lippincott_Williams_&_Wilkins
+output: ","David Cameron and Elizabeth II are leaders in the United Kingdom. The country uses the English language and is where Lippincott, Williams & Wilkins publishes the AIDS journal."
+"input: 250_Delaware_Avenue | floorArea | 30843.8 (square metres)
+output: ",250 Delaware Avenue has a floor area of 30843.8 (square metres).
+"input: Indonesia | leaderName | Jusuf_Kalla
+Asam_pedas | country | Indonesia
+Sumatra | ethnicGroup | Acehnese_people
+Asam_pedas | region | Sumatra
+Sumatra | ethnicGroup | Malays_(ethnic_group)
+output: ",Jusuf Kalla is the leader of Indonesia where the Acehnese and Malays are ethnic groups. Asam pedas is a dish from Sumatra in Indonesia.
+"input: Aenir | country | Australians
+output: ",The book Aenir was written by Australians.
+"input: Baked_Alaska | country | ""France, United States or China""
+output: ","Baked Alaska is from France, the United States or China."
+"input: Paulo_Sousa | club | Maccabi_Tel_Aviv_F.C.
+output: ",Paulo Sousa played for Maccabi Tel Aviv F.C.
+"input: Alan_Bean | was a crew member of | Apollo_12
+Alan_Bean | nationality | United_States
+Apollo_12 | operator | NASA
+Alan_Bean | occupation | Test_pilot
+Alan_Bean | birthPlace | Wheeler,_Texas
+Alan_Bean | was selected by NASA | 1963
+Alan_Bean | birthDate | ""1932-03-15""
+output: ","Alan Bean, a US National, was born in Wheeler, Texas on 15 March 1932. He became a test pilot and was selected by NASA in 1963 as a crew member on Apollo 12."
+"input: United_States | demonym | Americans
+output: ",Americans are the people occupying the U.S.
+"input: Abilene_Regional_Airport | cityServed | Abilene,_Texas
+Abilene,_Texas | isPartOf | Texas
+Abilene,_Texas | country | United_States
+output: ","Abilene, Texas, in the US, is served by the Abilene Regional Airport."
+"input: Greece | capital | Athens
+output: ",Athens is the capital of Greece.
+"input: Asam_pedas | country | Malaysia
+Malaysia | capital | Putrajaya
+Malaysia | leaderName | Abu_Zahar_Ujang
+output: ","Asam pedas is a food found in Malaysia, where the capital is Putrajaya and the leader is Abu Zahar Ujang."
+"input: Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force
+United_States_Air_Force | battles | Invasion_of_Grenada
+United_States_Air_Force | attackAircraft | Lockheed_AC-130
+United_States_Air_Force | transportAircraft | Boeing_C-17_Globemaster_III
+United_States_Air_Force | battles | 1986_United_States_bombing_of_Libya
+output: ",Al Asad Airbase is operated by the United States Air Force who were involved in battles at the invasion of Grenada and the US bombing of Libya in 1986. They deploy the Lockheed AC-130 attack aircraft as well as the Boeing C-17 Globemaster III transport aircraft.
+"input: Ardmore_Airport_(New_Zealand) | operatingOrganisation | Civil_Aviation_Authority_of_New_Zealand
+output: ",Ardmore Airport in New Zeland is operated by the Civil Aviation Authority of New Zealand.
+"input: Albany,_Georgia | isPartOf | Dougherty_County,_Georgia
+output: ","Albany is located in Dougherty County, Georgia."
+"input: Airman_(comicsCharacter) | creator | Harry_Sahle
+Airman_(comicsCharacter) | creator | George_Kapitan
+output: ",The comic book character Airman was created by both Harry Sahle and George Kapitan.
+"input: Athens_International_Airport | runwayLength | 4000.0
+output: ",The runway length of Athens International Airport is 4000.0.
+"input: United_States | leader | Joe_Biden
+output: ",Joe Biden was a representative of the United States.
+"input: Java | ethnicGroup | Javanese_people
+Ayam_penyet | country | Java
+output: ",Ayam penyet originates from Java where the Javanese people are an ethnic group.
+"input: Acharya_Institute_of_Technology | outlookRanking | 63
+output: ",The outlook ranking for the Acharya Institute of Technology is 63.
+"input: A_Fortress_of_Grey_Ice | author | J._V._Jones
+output: ",A Fortress of Grey Ice was written by J. V. Jones.
+"input: A.F.C._Blackpool | manager | Stuart_Parker_(footballer)
+Stuart_Parker_(footballer) | club | KV_Mechelen
+Stuart_Parker_(footballer) | club | Stockport_County_F.C.
+output: ",Stuart Parker is the manager of AFC Blackpool. He own club was Stockport County FC and he has represented KV Mechelen.
+"input: Akita_Museum_of_Art | country | Japan
+Akita_Museum_of_Art | location | Akita,_Akita
+output: ","The Akita Museum of Art is located in Akita,Akita, Japan."
+"input: Turkey | leader | Ahmet_Davutoğlu
+output: ",The Leader Of Turkey is Ahmet Davutoğlu.
+"input: A.F.C._Blackpool | manager | Stuart_Parker_(footballer)
+Stuart_Parker_(footballer) | club | Chesterfield_F.C.
+Stuart_Parker_(footballer) | club | Blackburn_Rovers_F.C.
+output: ",Stuart Parker (footballer) plays for Blackburn Rovers F.C. Manages A.F.C. Blackpool and is a member of Chesterfield F.C.
+"input: Dead_Man's_Plack | location | England
+England | capital | London
+England | languages | Cornish_language
+England | religion | Church_of_England
+Dead_Man's_Plack | material | Rock_(geology)
+output: ",Dead Man's Plack (made of rock) is found in England whose capital city is London. The main religion of this country is the Church of England and in the Cornwall region a language called Cornish is sometimes spoken.
+"input: A.F.C._Fylde | numberOfMembers | 3180
+A.F.C._Fylde | fullname | ""Association Football Club Fylde""
+A.F.C._Fylde | ground | ""Bryning Lane""
+output: ","The full name of the A.F.C. Fylde is ""Association Football Club Fylde"" they are based at Bryning Lane and have 3180 members."
+"input: Alexandria,_Indiana | areaCode | 765
+output: ","The area code of Alexandria, Indiana is 765."
+"input: Tomato | genus | Solanum
+output: ",Tomato belongs to the genus Solanum.
+"input: Romania | leaderName | Klaus_Iohannis
+Alba_Iulia | isPartOf | Alba_County
+Romania | capital | Bucharest
+1_Decembrie_1918_University | city | Alba_Iulia
+1_Decembrie_1918_University | country | Romania
+output: ","The 1 Decembrie 1918 University is located in Alba Ulia, Alba County, Romania. Romania's capital is Bucharest and its leader is Klaus Iohannis."
+"input: 1_Decembrie_1918_University | country | Romania
+output: ",The 1 Decembrie 1918 University is located in Romania.
+"input: 1_Decembrie_1918_University | latinName | ""Universitas Apulensis""
+1_Decembrie_1918_University | country | Romania
+output: ",1 Decembrie 1918 University 's latin name is Universitas Apulensis and is located in Romania.
+"input: A.C._Lumezzane | fullname | ""Associazione Calcio Lumezzane SpA""
+A.C._Lumezzane | numberOfMembers | 4150
+output: ","The fullname of A.C. Lumezzane, which has 4150 members, is Associazione Calcio Lumezzane SpA."
+"input: Denmark | leaderName | Lars_Løkke_Rasmussen
+European_University_Association | headquarters | Brussels
+School of Business and Social Sciences at the Aarhus University | country | Denmark
+School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association
+School of Business and Social Sciences at the Aarhus University | established | 1928
+output: ","The School of Business and Social Sciences at Aarhus University in Denmark was established in 1928. It is affiliated to the European University Association, which has its headquarters in Brussels. Denmark's leader is Lars Lokke Rasmussen."
+"input: Adirondack_Regional_Airport | 1st_runway_LengthFeet | 6573
+Adirondack_Regional_Airport | elevationAboveTheSeaLevel_(in_metres) | 507
+output: ","Adirondack Regional Airport is 507 metres above sea level and the length of the first runway is 6,573 feet."
+"input: A.D._Isidro_Metapán | fullname | ""Isidro Metapán""
+A.D._Isidro_Metapán | ground | ""Metapán, El Salvador""
+A.D._Isidro_Metapán | numberOfMembers | 10000
+output: ","A.D. Isidro Metapán is located in Metapán, El Salvador. It has 10000 members."
+"input: Bacon_sandwich | mainIngredients | ""Bread and bacon, with a condiment, often ketchup or brown sauce""
+output: ",the main ingredients in a Bacon sandwich are bread and bacon with ketchup or brown sauce as a condiment.
+"input: Alan_Bean | nationality | United_States
+Alan_Bean | occupation | Test_pilot
+Alan_Bean | birthDate | ""1932-03-15""
+Alan_Bean | was a crew member of | Apollo_12
+Alan_Bean | birthPlace | Wheeler,_Texas
+Alan_Bean | was selected by NASA | 1963
+output: ","Alan Bean was an American who was born in Wheeler, Texas on the 15th March 1932. He was a test pilot, who was selected by NASA in 1963. He became a member of the Apollo 12 crew."
+"input: Monocacy_National_Battlefield | location | Frederick_County,_Maryland
+14th_New_Jersey_Volunteer_Infantry_Monument | category | Historic_districts_in_the_United_States
+14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield
+Monocacy_National_Battlefield | nearestCity | Frederick,_Maryland
+output: ","Frederick, Maryland is the nearest city to the Monocacy National Battlefield in the county. The Battlefield is the location of the 14th New Jersey Volunteer Infantry Monument which is categorised as a historic district of the US."
+"input: Weymouth_Sands | followedBy | Maiden_Castle_(novel)
+output: ",Maiden Castle is a sequel to Weymouth Sands.
+"input: BLT | dishVariation | Club_sandwich
+Bacon_sandwich | ingredient | Bread
+Bacon_sandwich | dishVariation | BLT
+Bacon_sandwich | country | United_Kingdom
+output: ","A variation of the bacon sandwich, that comes from the UK and has bread as an ingredient, is the BLT. The BLT is also a variation of the club sandwich."
+"input: A.S._Livorno_Calcio | manager | Christian_Panucci
+Christian_Panucci | club | A.S._Roma
+Christian_Panucci | club | Italy_national_football_team
+output: ",A.S Livorno Calcio is managed by Christian Panucci who is in the A.S. Roma club and also plays for the Italian national football team.
+"input: 200_Public_Square | location | Cleveland
+Cleveland | leaderName | Frank_G._Jackson
+Cleveland | isPartOf | Ohio
+Cleveland | country | United_States
+output: ","200 Public Square is located in Cleveland, Ohio, United States, where Frank G Jackson is a leader."
+"input: 1634:_The_Bavarian_Crisis | author | Eric_Flint
+Eric_Flint | birthPlace | Burbank,_California
+1634:_The_Bavarian_Crisis | precededBy | Grantville_Gazette_II
+1634:_The_Bavarian_Crisis | precededBy | The_Grantville_Gazettes
+output: ","Eric Flint, born in Burbank, California, is the author of 1634: The Bavarian Crisis. The Grantville Gazettes and Grantville Gazette III preceded 1634: The Bavarian Crisis."
+"input: Arròs_negre | country | Spain
+Spain | demonym | Spaniards
+Spain | leaderName | Felipe_VI_of_Spain
+output: ",The people of Spain are known as Spaniards and are lead by Felipe VI of Spain. Arros negre is from the country.
+"input: 103_Colmore_Row | architect | John_Madin
+John_Madin | birthPlace | Birmingham
+Birmingham | leaderName | John_Clancy_(Labour_politician)
+output: ","John Clancy is a labor politican who leads Birmingham, where architect John Madin, who designed 103 Colmore Row, was born."
+"input: School of Business and Social Sciences at the Aarhus University | dean | ""Thomas Pallesen""
+School of Business and Social Sciences at the Aarhus University | city | Aarhus
+School of Business and Social Sciences at the Aarhus University | numberOfStudents | 16000
+European_University_Association | headquarters | Brussels
+School of Business and Social Sciences at the Aarhus University | country | Denmark
+School of Business and Social Sciences at the Aarhus University | affiliation | European_University_Association
+School of Business and Social Sciences at the Aarhus University | established | 1928
+output: ",The city of Aarhus in Denmark is the location of the School of Business and Social Sciences at the Aarhus University which was established in 1928 and affiliated with the European University Association headquartered in Brussels. The current Dean is Thomas Pallesen and there are 16000 students.
+"input: Akita_Museum_of_Art | country | Japan
+Akita_Museum_of_Art | location | Akita,_Akita
+Akita_Museum_of_Art | location | Akita_Prefecture
+Akita_Museum_of_Art | architect | Tadao_Ando
+output: ","Akita Museum of Art is located in Akita, Akita Prefecture, Japan and was designed by the architect Tadao Ando,."
+"input: India | largestCity | Mumbai
+AWH_Engineering_College | country | India
+AWH_Engineering_College | state | Kerala
+Kerala | has to its northwest | Mahé,_India
+AWH_Engineering_College | city | ""Kuttikkattoor""
+India | river | Ganges
+output: ","The AWH Engineering College is located in Kuttikkattoor, Kerala, India. Kerala has Mahe, India to its northwest. The Ganges is a river in India and Mumbai is its largest city."
+"input: William_Anders | dateOfRetirement | ""1969-09-01""
+William_Anders | occupation | Fighter_pilot
+William_Anders | birthPlace | British_Hong_Kong
+William_Anders | almaMater | ""AFIT, M.S. 1962""
+output: ","William Anders was born in British Hong Kong and served as a fighter pilot after graduating from AFIT, M.S. in 1962. He retired on 1 September 1969."
+"input: Adisham_Hall | completionDate | 1931
+Adisham_Hall | location | Haputale
+output: ","Adisham Hall, Haputale was completed in 1931."
+"input: Administrative_Science_Quarterly | publisher | Cornell_University
+Cornell_University | affiliation | Association_of_American_Universities
+Cornell_University | president | Elizabeth_Garrett
+output: ","Administrative Science Quarterly was published by Cornell University, affiliated with the Association of American Universities, whose president is Elizabeth Grant."
+"input: Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey
+Buzz_Aldrin | nationality | United_States
+Buzz_Aldrin | occupation | Fighter_pilot
+Buzz_Aldrin | status | ""Retired""
+output: ","Buzz Aldrin, now retired, is a United States national born in Glen Ridge, New Jersey. He served as a fighter pilot."
+"input: Bionico | country | Mexico
+Mexico | language | Spanish_language
+Mexico | leaderName | Silvano_Aureoles_Conejo
+Bionico | dishVariation | Cottage_cheese
+Bionico | course | Dessert
+output: ","Served as a dessert course and made using cottage cheese, Bionico a food found in Mexico. Where Silvano Aureoles Conejo is the leader and the language is Spanish."
+"input: A.C._Cesena | ground | Cesena
+A.C._Cesena | league | Serie_B
+Serie_B | champions | Carpi_F.C._1909
+A.C._Cesena | numberOfMembers | 23900
+output: ","Previous champions of the Serie B league are Carpi FC 1909. AC Cesena, who also play in the league have a ground in Cesena and 23900 members."
+"input: 11_Diagonal_Street | location | South_Africa
+South_Africa | leaderName | Cyril_Ramaphosa
+South_Africa | leaderName | Jacob_Zuma
+output: ",Cyril Ramaphosa leads South Africa and another leader is Jacob Zuma. 11 Diagonal Street is located in that country.
+"input: A_Loyal_Character_Dancer | author | Qiu_Xiaolong
+A_Loyal_Character_Dancer | OCLC_number | 49805501
+A_Loyal_Character_Dancer | mediaType | Hardcover
+output: ",Qiu Xiaolong penned A Loyal Character Dancer which was published in hardcover and has the OCLC number 49805501.
+"input: A.F.C._Fylde | season | 2014
+output: ",A.F.C. Fylde played in 2014.
+"input: A.S._Livorno_Calcio | season | 2014
+output: ",A.S. Livorno Calcio played in the 2014 season.
+"input: Bandeja_paisa | ingredient | Avocado
+Bandeja_paisa | mainIngredients | ""red beans, pork belly, white rice, ground meat, chicharon, fried egg, plantain (patacones), chorizo, arepa, hogao sauce, black pudding (morcilla), avocado and lemon""
+Bandeja_paisa | region | Antioquia_Department
+Bandeja_paisa | country | Colombian_cuisine
+output: ","Bandeja paisa is a Colombian dish that comes from the Antioquia Department region. It contains red beans, pork belly, white rice, ground meat, chicharon, fried egg. plantain (patacones), chorizo, arepa, hogao sauce, black pudding (morcilla), avocado and lemon."
+"input: Harrietstown,_New_York | country | United_States
+Saranac_Lake,_New_York | isPartOf | Harrietstown,_New_York
+Harrietstown,_New_York | isPartOf | New_York
+Adirondack_Regional_Airport | cityServed | Lake_Placid,_New_York
+Adirondack_Regional_Airport | cityServed | Saranac_Lake,_New_York
+output: ","Saranac Lake, New York is part of Harrietstown, New York in the United States and it is served by Adirondack Regional Airport. This airport also serves the city of Lake Placid, New York."
+"input: Washtenaw_County,_Michigan | country | United_States
+output: ","Washtenaw County, Michigan is in the United States."
+"input: Angola_International_Airport | location | Ícolo_e_Bengo
+Angola_International_Airport | runwayLength | 4000.0
+Angola_International_Airport | elevationAboveTheSeaLevel_(in_metres) | 159
+output: ","Angola International Airport is in Icolo e Bengo and is 159 metres above sea level with a runway that's 4,000 feet long."
+"input: Sumatra | ethnicGroup | Batak
+output: ",Batak is the ethnic group in Sumatra.
+"input: Andrews_County_Airport | locationIdentifier | ""E11""
+output: ",Andrews County Airport is located in E11.
+"input: Bakso | region | ""Nationwide in Indonesia, also popular in neighboring Southeast Asian countries""
+Bakso | country | Indonesia
+Bakso | ingredient | Celery
+output: ","Bakso, which contains celery, is popular all over Indonesia where it originated, and other Southeastern Asian countries."
+"input: Amdavad_ni_Gufa | address | ""Lalbhai Dalpatbhai Campus, near CEPT University, opp. Gujarat University, University Road""
+Amdavad_ni_Gufa | location | Ahmedabad
+Amdavad_ni_Gufa | country | India
+output: ","Amdavad ni Gufa is located at Lalbhai Dalpatbhai Campus, near CEPT University, opp. Gujarat University, University Road, Ahmedabad, India."
+"input: Baymax | voice | Scott_Adsit
+output: ",The character Baymax is voiced by Scott Adsit.
+"input: Apollo_8 | crewMembers | Frank_Borman
+output: ",Apollo 8 crew members included Frank Borman.
+"input: 1634:_The_Ram_Rebellion | country | United_States
+United_States | ethnicGroup | African_Americans
+output: ",Both the African Americans ethnic group and the book 1634 The Ram Rebellion are from the United States.
+"input: Alpena_County_Regional_Airport | location | Wilson_Township,_Alpena_County,_Michigan
+Wilson_Township,_Alpena_County,_Michigan | country | United_States
+Alpena_County_Regional_Airport | elevationAboveTheSeaLevel_(in_metres) | 210
+Alpena_County_Regional_Airport | runwayLength | 2744.0
+output: ","Alpena County Regional Airport is located in the Wilson Township, Alpena County, Michigan, United States. The runway length is 2744.0 and it is 210 metres above sea level."
+"input: 20_Fenchurch_Street | completionDate | ""April 2014""
+20_Fenchurch_Street | floorArea | 62145.3 (square metres)
+output: ",20 Fenchurch Street was completed in April 2014 and has a floor area of 62145.3 square metres.
+"input: Bacon_Explosion | mainIngredients | ""Bacon,sausage""
+Bacon_Explosion | ingredient | Sausage
+output: ",Bacon Explosion's main ingredients are sausage and bacon.
+"input: Saranac_Lake,_New_York | isPartOf | Harrietstown,_New_York
+Harrietstown,_New_York | isPartOf | New_York
+Adirondack_Regional_Airport | cityServed | Saranac_Lake,_New_York
+output: ","Adirondack Regional Airport serves the city of Saranac Lake, Harrietstown, New York."
+"input: Aarhus_Airport | runwayLength | 2777.0
+Aarhus_Airport | operatingOrganisation | ""Aarhus Lufthavn A/S""
+Aarhus_Airport | runwayName | ""10R/28L""
+output: ","Aarhus airport, with a runway name of 10R/28L, and a length of 2777.0. is operated by Aarhus Lufthavn A/S."
+"input: 200_Public_Square | location | Cleveland
+200_Public_Square | floorArea | 111484 (square metres)
+Cleveland | isPartOf | Cuyahoga_County,_Ohio
+Cleveland | isPartOf | Ohio
+Cleveland | country | United_States
+output: ","Measuring 111484 square metres, 200 Public square is located in Cleveland. Cleveland is part of Cuyahoga County in Ohio in the United States."
+"input: A.E_Dimitra_Efxeinoupolis | location | Greece
+Greece | currency | Euro
+Greece | leader | Nikos_Voutsis
+Greece | leader | Prokopis_Pavlopoulos
+Greece | language | Greek_language
+output: ",The A.E Dimitra Efxeinoupolis club is located in Greece where the leaders are Nikos Voutsis and Prokopis Pavlopoulos. The currency used is the euro and the Greek language is spoken in the country.
+"input: A.C._Lumezzane | league | ""Lega Pro/A""
+A.C._Lumezzane | season | 2014–15_Lega_Pro
+A.C._Lumezzane | numberOfMembers | 4150
+output: ",A.C. Lumezzane has 4150 members and has played in the Lega Pro during the 2014 season.
+"input: John_Buscema | award | Academy_of_Comic_Book_Arts
+output: ",John Buscema was awarded an award by the Academy of Comic Book Arts.
+"input: Adolfo_Suárez_Madrid–Barajas_Airport | runwayLength | 3500.0
+Adolfo_Suárez_Madrid–Barajas_Airport | location | Madrid
+Adolfo_Suárez_Madrid–Barajas_Airport | runwayName | ""14L/32R""
+output: ",The runway length at Adolfo Suarez Madrid-Barajas airport iin Madrid is 3500m and named 14L/32R.
+"input: Antwerp_International_Airport | operatingOrganisation | Flemish_Government
+Flemish_Government | jurisdiction | Flanders
+output: ",The Antwerp International Airport is operated by the Flemish Government which has jurisdiction over Flanders.
+"input: Mexico | currency | Mexican_peso
+output: ",The currency in Mexico is the peso.
+"input: Asherton,_Texas | country | United_States
+Asher_and_Mary_Isabelle_Richardson_House | location | Asherton,_Texas
+output: ","Asher and Mary Isabelle Richardson House is located in Asherton, Texas in the United States."
+"input: Accademia_di_Architettura_di_Mendrisio | country | Switzerland
+Accademia_di_Architettura_di_Mendrisio | numberOfStudents | 600
+Accademia_di_Architettura_di_Mendrisio | established | 1996
+Accademia_di_Architettura_di_Mendrisio | academicStaffSize | 100
+Switzerland | leaderName | Johann_Schneider-Ammann
+Accademia_di_Architettura_di_Mendrisio | location | Ticino
+Switzerland | leaderTitle | Federal_Chancellor_of_Switzerland
+output: ","Accademia di Architettura di Mendrisio located in Ticino, Switzerland, was created in 1996, has 600 students and 100 employees. It's leader is Federal Chancellor Johann Schneider-Ammann."
+"input: Agra_Airport | operatingOrganisation | Indian_Air_Force
+Agra_Airport | IATA_Location_Identifier | ""AGR""
+Agra_Airport | ICAO_Location_Identifier | ""VIAG""
+Agra_Airport | location | Agra
+output: ",The Indian Air Force operates the Agra Airport in Agra whose IATA location ID is AGR and ICAO location ID is VIAG.
+"input: Blockbuster_(comicsCharacter) | creator | Gardner_Fox
+Blockbuster_(comicsCharacter) | creator | Roger_Stern
+Blockbuster_(comicsCharacter) | alternativeName | ""Mark Desmond""
+output: ",Blockbuster (also known as Mark Desmond) is a comic book character created by Roger Stern and Gardner Fox.
+"input: Tomato | family | Solanaceae
+Tomato | genus | Solanum
+Amatriciana_sauce | ingredient | Tomato
+Tomato | order | Solanales
+output: ",Tomato belongs to the genus Solanum and the family of solanaceae. It's an ingredient in Amatriciana sauce.
+"input: United_States | capital | Washington,_D.C.
+A_Wizard_of_Mars | country | United_States
+United_States | ethnicGroup | Native_Americans_in_the_United_States
+output: ",A Wizard of Mars was published in the United States where the Native Americans are an ethnic group and the capital city is Washington DC.
+"input: Turkey | leader | Ahmet_Davutoğlu
+Atatürk_Monument_(İzmir) | designer | Pietro_Canonica
+Turkey | capital | Ankara
+Atatürk_Monument_(İzmir) | material | ""Bronze""
+Turkey | currency | Turkish_lira
+Atatürk_Monument_(İzmir) | inaugurationDate | ""1932-07-27""
+Atatürk_Monument_(İzmir) | location | Turkey
+output: ",Pietro Canonica designed the bronze Ataturk monument which was inaugurated in Turkey on 27 July 1932 in Izmir. The leader of the country is Ahmet Davutoglu and the currency is the Turkish lira.
+"input: India | largestCity | Mumbai
+AWH_Engineering_College | country | India
+AWH_Engineering_College | established | 2001
+AWH_Engineering_College | academicStaffSize | 250
+output: ",AWH Engineering College (India) has 250 academic staff and was established in 2001. India's largest city is Mumbai.
+"input: Adisham_Hall | country | Sri_Lanka
+Adisham_Hall | location | Haputale
+Sri_Lanka | leaderName | Ranil_Wickremesinghe
+Sri_Lanka | capital | Sri_Jayawardenepura_Kotte
+Sri_Lanka | language | Tamil_language
+output: ","Adisham Hall is located in Haputale, in the country of Sri Lanka, where the capital is Sri Jayawardenepura Kotte. Ranil Wickremesinghe is a leader of Sri Lanka, and the Tamil language is spoken by inhabitants."
+"input: Aarhus_Airport | location | Tirstrup
+Tirstrup | country | Denmark
+output: ","Aarhus Airport is located in Tirstrup, Denmark."
+"input: Sweet_potato | division | Flowering_plant
+output: ",Sweet potato belongs to flowering plants.
+"input: Bangalore | founder | Kempe_Gowda_I
+Acharya_Institute_of_Technology | city | Bangalore
+Acharya_Institute_of_Technology | affiliation | Visvesvaraya_Technological_University
+output: ",Acharya Institute of Technology is affiliated with Visvesaraya Technological University in Bangalore. Its founder is Kempe Gowda.
+"input: Lahore | country | Pakistan
+Allama_Iqbal_International_Airport | cityServed | Lahore
+output: ",The Allama Iqbal International airport serves the city of Lahore in Pakistan.
+"input: Bacon_sandwich | dishVariation | BLT
+BLT | dishVariation | Club_sandwich
+Bacon_sandwich | ingredient | Condiment
+Bacon_sandwich | country | United_Kingdom
+output: ",The country that bacon sandwich comes from is the United Kingdom. It can be served with condiments and variations include the BLT and club sandwich.
+"input: Greenville,_Wisconsin | isPartOf | Menasha_(town),_Wisconsin
+output: ",Greenville is part of the town of Menasha in Wisconsin.
+"input: A.S._Livorno_Calcio | manager | Christian_Panucci
+Christian_Panucci | club | Genoa_C.F.C.
+Christian_Panucci | club | Chelsea_F.C.
+output: ",A.S. Livorno Calcio are managed by Christian Panucci who has played for Chelsea FC and is attached to the club Genoa CFC.
+"input: Ayam_penyet | region | Singapore
+Ayam_penyet | country | Java
+Ayam_penyet | ingredient | Fried_chicken
+output: ","Ayam penyet, from the Singapore region of Java, has fried chicken in it."
+"input: ACM_Transactions_on_Information_Systems | academicDiscipline | Computer_science
+output: ",ACM Transactions on Information Systems is part of the academic Discipline of Computer Science.
+"input: Acharya_Institute_of_Technology | was given the 'Technical Campus' status by | All_India_Council_for_Technical_Education
+All_India_Council_for_Technical_Education | location | Mumbai
+Karnataka | has to its northeast | Telangana
+Acharya_Institute_of_Technology | sportsOffered | Tennis
+Tennis | sportsGoverningBody | International_Tennis_Federation
+Acharya_Institute_of_Technology | state | Karnataka
+output: ",The All India Council for Technical Education in Mumbai granted Technical Campus status to the Acharya Institute of Technology in the state of Karnataka southwest of Telengana. One of the sports offered at the Institute is tennis which is governed by the International Tennis Federation.
+"input: Addis_Ababa_City_Hall | completionDate | 1964
+Addis_Ababa_City_Hall | height | ""42 m""
+Addis_Ababa_City_Hall | floorArea | 140000.0 (square metres)
+output: ","Addid Ababa City Hall, completed in 1964, is 42 metres high and has a floor area of 140000.0 square metres."
+"input: A.F.C._Fylde | numberOfMembers | 3180
+output: ",AFC Fylde has 3180 members.
+"input: Massimo_Drago | club | Vigor_Lamezia
+output: ",Massimo Drago is attached to the club Vigor Lamezia.
+"input: Marriott_International | location | Bethesda,_Maryland
+AC_Hotel_Bella_Sky_Copenhagen | tenant | Marriott_International
+output: ","The tenant of the AC Hotel Bella Sky Copenhagen is the Marriott International Hotel whose headquarters are in Bethseda, Maryland."
+"input: Angola_International_Airport | runwayLength | 3800.0
+output: ","The runway length of Angola International Airport is 3,800."
+"input: Amatriciana_sauce | region | Lazio
+Amatriciana_sauce | country | Italy
+Amatriciana_sauce | ingredient | Guanciale
+Amatriciana_sauce | mainIngredients | ""Tomatoes, guanciale, cheese, olive oil""
+output: ","Amatriciana sauce comes from the Lazio region of Italy. It has the components: Guanciale, tomato, cheese and olive oil."
+"input: A_Long_Long_Way | OCLC_number | 57392246
+A_Long_Long_Way | mediaType | Hardcover
+output: ",The OCLC number of A Long Long Way is 57392246 and is available in hardcover.
+"input: Accademia_di_Architettura_di_Mendrisio | numberOfStudents | 600
+Accademia_di_Architettura_di_Mendrisio | dean | Mario_Botta
+Accademia_di_Architettura_di_Mendrisio | city | Mendrisio
+Accademia_di_Architettura_di_Mendrisio | established | 1996
+Accademia_di_Architettura_di_Mendrisio | academicStaffSize | 100
+output: ",The Accademia di Architettura di Mendrisio in Switzerland was established 1996. It has a staff of 100 and a student population of 600. The dean is Mario Botta.
+"input: Acta_Palaeontologica_Polonica | publisher | Polish_Academy_of_Sciences
+Acta_Palaeontologica_Polonica | ISSN_number | ""0567-7920""
+Acta_Palaeontologica_Polonica | LCCN_number | 60040714
+Acta_Palaeontologica_Polonica | abbreviation | ""Acta Palaeontol. Pol.""
+output: ","Acta Palaeontologica Polonica, abbreviated to Acta Palaeontol. Pol., was published by the Polish Academy of Sciences and has an ISSN number of 0567-7920 and an LCCN number of 60040714."
+"input: Buzz_Aldrin | birthPlace | Glen_Ridge,_New_Jersey
+Buzz_Aldrin | nationality | United_States
+Buzz_Aldrin | was a crew member of | Apollo_11
+Buzz_Aldrin | birthDate | ""1930-01-20""
+output: ","American Buzz Aldrin was born in Glen Ridge, New Jersey on January 20th, 1930 and was part of Apollo 11."
+"input: Adams_County,_Pennsylvania | has to its southeast | Carroll_County,_Maryland
+11th_Mississippi_Infantry_Monument | established | 2000
+Adams_County,_Pennsylvania | has to its north | Cumberland_County,_Pennsylvania
+11th_Mississippi_Infantry_Monument | category | Contributing_property
+11th_Mississippi_Infantry_Monument | location | Adams_County,_Pennsylvania
+output: ","The 11th Mississippi Infantry Monument is located in Adams County, Pennsylvania. It was established in 2000 and is categorised as a contributing property. Adams County has Cumberland County to its north and Carrol County of Maryland to its southeast."
+"input: AZ_Alkmaar | manager | John_van_den_Brom
+John_van_den_Brom | club | Vitesse_Arnhem
+John_van_den_Brom | club | Jong_Ajax
+output: ",John van den Brom plays for both Vitesse Arnham and Jong Ajax. He has also managed AZ Alkmaar.
+"input: Bacon_sandwich | dishVariation | BLT
+BLT | dishVariation | Club_sandwich
+Bacon_sandwich | country | United_Kingdom
+United_Kingdom | capital | London
+output: ",London is the capital of the UK and the bacon sandwiches are popular nationwide.BLT is a variation of club sandwiches.
+"input: Washington_(state) | largestCity | Seattle
+output: ",Seattle is the largest city in Washington State.
+"input: Apollo_12 | backup pilot | Alfred_Worden
+Alan_Bean | was a crew member of | Apollo_12
+Apollo_12 | operator | NASA
+Alan_Bean | occupation | Test_pilot
+Apollo_12 | commander | David_Scott
+Alan_Bean | was selected by NASA | 1963
+Alan_Bean | almaMater | ""UT Austin, B.S. 1955""
+output: ",Alan Bean graduated from UT Austin in 1955 with a Bachelor of Science degree. He was hired by NASA in 1963 and served as a test pilot. Apollo 12's backup pilot was Alfred Worden and was commanded by David Scott.
+"input: Alan_Shepard | birthPlace | New_Hampshire
+Alan_Shepard | awards | Distinguished_Service_Medal_(United_States_Navy)
+output: ","Alan Shepard born in New Hampshire, was awarded the "" Distinguished Service Medal""."
+"input: Angola_International_Airport | location | Ícolo_e_Bengo
+output: ",Angola International Airport is located in Ícolo e Bengo.
+"input: Accademia_di_Architettura_di_Mendrisio | country | Switzerland
+Accademia_di_Architettura_di_Mendrisio | established | 1996
+Accademia_di_Architettura_di_Mendrisio | academicStaffSize | 100
+output: ",Accademia di Architettura di Mendrisio in Switzerland was established in 1996 and has a staff of 100.
+"input: 1_Decembrie_1918_University | latinName | ""Universitas Apulensis""
+1_Decembrie_1918_University | country | Romania
+1_Decembrie_1918_University | state | Alba
+output: ","The Latin name of 1 Decembrie 1918 University in Alba, Romania, is Universitas Apulensis."
+"input: AIP_Advances | abbreviation | ""AIP Adv.""
+output: ","""AIP Adv."" is the abbreviation of AIP Advances."
+"input: Aenir | ISBN_number | ""0-439-17684-0""
+Aenir | language | English_language
+Aenir | followedBy | Above_the_Veil
+output: ",Above the Veil followed the book Aenir which is written in English and the ISBN number is 0-439-17684-0.
+"input: Marriott_International | foundationPlace | Washington,_D.C.
+output: ","Marriott International was founded in Washington, D.C."
+"input: Elliot_See | almaMater | University_of_Texas_at_Austin
+Elliot_See | status | ""Deceased""
+Elliot_See | deathPlace | St._Louis
+Elliot_See | birthDate | ""1927-07-23""
+Elliot_See | birthPlace | Dallas
+Elliot_See | nationality | United_States
+output: ","Elliot See was an American citizen who was born on July 23, 1927, in Dallas, and died in in St. Louis. He studied at the University of Texas at Austin."
+"input: Batagor | dishVariation | Siomay
+Siomay | ingredient | Peanut_sauce
+Batagor | dishVariation | Shumai
+output: ",Batagor (and its alternative of Shumai) and Siomay (made with peanut sauce) are both variations of the same dish.
+"input: Asser_Levy_Public_Baths | added to the National Register of Historic Places | ""1980-04-23""
+output: ","Asser Levy Public Baths was added to the National Register of Historic Places on ""1980-04-23""."
+"input: Andrews_County_Airport | location | Texas
+Andrews_County_Airport | runwayLength | 8.0
+Andrews_County_Airport | cityServed | Andrews,_Texas
+Andrews_County_Airport | elevationAboveTheSeaLevel_(in_metres) | 973.0
+Andrews_County_Airport | runwayName | ""16/34""
+output: ","Andrews County Airport which is located in Texas serves Andrews, Texas. It is situated 973.0 below sea level. It runway - which is called 16/34, measures 8 meters long."
+"input: Atatürk_Monument_(İzmir) | designer | Pietro_Canonica
+Turkey | capital | Ankara
+Atatürk_Monument_(İzmir) | location | Turkey
+output: ","The Atatürk Monument (İzmir) was designed by Pietro Canonnica, and can be found in Turkey, where the capital is Ankara."
+"input: Campeonato_Brasileiro_Série_C | champions | Vila_Nova_Futebol_Clube
+output: ",Vila Nova Futebol Clube are the champions of Campeonato Brasileiro Serie C.
+"input: Addis_Ababa | isPartOf | Addis_Ababa_Stadium
+Addis_Ababa_City_Hall | location | Addis_Ababa
+Addis_Ababa | country | Ethiopia
+Ethiopia | language | Amharic
+output: ",Addis Ababa is situated in Ethiopia and the language spoken is Amharic. Here you will also find the Addis Ababa Stadium and the Addis Ababa City Hall.
+"input: Egg_Harbor_Township,_New_Jersey | isPartOf | New_Jersey
+Atlantic_City_International_Airport | location | Egg_Harbor_Township,_New_Jersey
+output: ","Atlantic City International Airport is located in Egg Harbor Township, in New Jersey."
+"input: Amatriciana_sauce | country | Italy
+Italy | leaderName | Laura_Boldrini
+output: ",Amatriciana sauce can be found in Italy where the leader is Laura Boldrini.
+"input: 1._FC_Magdeburg | manager | Jens_Härtel
+Jens_Härtel | club | SV_Babelsberg_03
+output: ",Jens Härtel has been the manager of 1 FC Magdeburg and is part of the SV Babelsberg 03 club.
+"input: Addiction_(journal) | ISSN_number | ""0965-2140""
+Addiction_(journal) | LCCN_number | 93645978
+Addiction_(journal) | abbreviation | ""Addiction""
+Addiction_(journal) | publisher | ""Wiley-Blackwell on behalf of the Society for the Study of Addiction""
+output: ","Addiction Journal, abbreviated to Addiction, is published by Wiley-Blackwell, on behalf of the Society for the Study of Addiction. It has an ISSN number of 0965-2140 and an LCCN number of 93645978."
+"input: Antwerp_International_Airport | owner | Flemish_Region
+Antwerp_International_Airport | operatingOrganisation | ""Flemish department of Mobility and Public Works""
+output: ",Flemish Department of Mobility and Public Works operates the Antwerp International Airport which is owned by Flemish Region.
+"input: A_Wizard_of_Mars | author | Diane_Duane
+A_Wizard_of_Mars | mediaType | ""Print""
+A_Wizard_of_Mars | ISBN_number | ""978-0-15-204770-2""
+output: ",Diane Duane wrote the published book A Wizard of Mars. It can be found by ISBN number 978-0-15-204770-2.
+"input: Abilene_Regional_Airport | cityServed | Abilene,_Texas
+Abilene_Regional_Airport | runwayLength | 1121.0
+Abilene,_Texas | isPartOf | Taylor_County,_Texas
+Abilene,_Texas | country | United_States
+Abilene,_Texas | isPartOf | Jones_County,_Texas
+output: ","With a runway length of 1,121, Abilene regional airport serves Abilene (part of both Taylor County and Jones County), Texas in the United States."
+"input: United_States_House_of_Representatives | location | United_States
+output: ",The United States House of Representatives is located within the United States.
+"input: Alan_B._Miller_Hall | buildingStartDate | ""30 March 2007""
+output: ",Alan B. Miller Hall's building start date was in 30th March 2007.
+"input: Amatriciana_sauce | dishVariation | Onion
+output: ",Onion is one variation of ingredients in Amatriciana sauce.
+"input: Alan_Bean | nationality | United_States
+Alan_Bean | was a crew member of | Apollo_12
+Alan_Bean | birthPlace | Wheeler,_Texas
+Alan_Bean | was selected by NASA | 1963
+Alan_Bean | status | ""Retired""
+output: ","Alan Bean who was originally from Wheeler, Texas joined NASA in 1963 and became a member of Apollo 12 before he retired."
+"input: William_Anders | was selected by NASA | 1963
+William_Anders | birthDate | ""1933-10-17""
+William_Anders | was a crew member of | Apollo_8
+output: ","William Anders, who was born on the 17th of October, 1933, joined NASA in 1963 and served as a member of the crew of Apollo 8."
+"input: Indonesia | capital | Jakarta
+Indonesia | language | Indonesian_language
+Indonesia | leaderName | Jusuf_Kalla
+Bakso | region | Indonesia
+Bakso | country | Chinese_cuisine
+output: ",Indonesian is the language of Indonesia where the capital is Jakarta and the leader is Jusuf Kalla. Bakso is made in China but found in Indonesia.
+"input: Denmark | leaderName | Lars_Løkke_Rasmussen
+School of Business and Social Sciences at the Aarhus University | city | Aarhus
+School of Business and Social Sciences at the Aarhus University | country | Denmark
+School of Business and Social Sciences at the Aarhus University | established | 1928
+output: ","The School of Business and Social Sciences at the Aarhus University, (established 1928) is located in the city of Aarhus, Denmark. The leader of Denmark is Lars Løkke Rasmussen."
+"input: Acta_Palaeontologica_Polonica | publisher | Polish_Academy_of_Sciences
+Acta_Palaeontologica_Polonica | ISSN_number | ""0567-7920""
+Acta_Palaeontologica_Polonica | LCCN_number | 60040714
+Acta_Palaeontologica_Polonica | CODEN_code | ""APGPAC""
+Acta_Palaeontologica_Polonica | abbreviation | ""Acta Palaeontol. Pol.""
+output: ","The Polish Academy of Sciences is the publisher of Acta Palaeontologica Polonica which has the abbreviated name of Acta Palaeontol. Pol.. It is identified by the LCCN number 60040714, the ISSN number of 0567-7920 and the CODEN code of APGPAC."
+"input: Bakewell_pudding | region | Derbyshire_Dales
+Derbyshire_Dales | leaderName | Patrick_McLoughlin
+Bakewell_pudding | dishVariation | Bakewell_tart
+Derbyshire_Dales | administrativeCounty | Derbyshire
+Bakewell_tart | ingredient | Shortcrust_pastry
+output: ",Bakewell pudding (variant of the tart) includes shortcrust pastry and is from Derbyshire Dales of the County of Derbyshire. It hails leader Patrick McLoughlin.
+"input: Asilomar_Conference_Grounds | location | ""Asilomar Blvd., Pacific Grove, California""
+Asilomar_Conference_Grounds | yearOfConstruction | 1913
+output: ","Asilomar Conference Grounds is located at Asilomar Blvd., Pacific Grove, California and was constructed in 1913."
+"input: Al_Asad_Airbase | operatingOrganisation | United_States_Air_Force
+Al_Asad_Airbase | location | Iraq
+Al_Asad_Airbase | runwayLength | 3992.88
+Al_Asad_Airbase | ICAO_Location_Identifier | ""ORAA""
+Al_Asad_Airbase | runwayName | ""09R/27L""
+output: ","The United States Air Force is the operating organisation for Al Asad airbase which is in Iraq. The airbase has the ICAO Location Identifier, ORAA and has a runway length of 3992.88. The name of the runway at al Asad Airbase is 09R/27L."
+"input: Chicago | leaderName | Susana_Mendoza
+output: ",Susana Mendoza is the leader of Chicago.
+"input: Monocacy_National_Battlefield | location | Frederick_County,_Maryland
+14th_New_Jersey_Volunteer_Infantry_Monument | category | Historic_districts_in_the_United_States
+14th_New_Jersey_Volunteer_Infantry_Monument | district | Monocacy_National_Battlefield
+output: ","The 14th New Jersey Volunteer Infantry Monument, located on the Monocacy National Battlefield in Frederick County, Maryland, is categorised as a historic district in the United States."
+"input: A.F.C._Blackpool | season | 2014–15_North_West_Counties_Football_League
+output: ",In the season 2014-2015 Blackpool played in the North West Counties Football League.
+"input: Indiana | language | English_Americans
+output: ",The language in Indiana is American English.
+"input: Turkey | leader | Ahmet_Davutoğlu
+Atatürk_Monument_(İzmir) | designer | Pietro_Canonica
+Turkey | capital | Ankara
+Turkey | largestCity | Istanbul
+Atatürk_Monument_(İzmir) | material | ""Bronze""
+Atatürk_Monument_(İzmir) | inaugurationDate | ""1932-07-27""
+Atatürk_Monument_(İzmir) | location | Turkey
+output: ","The largest city in Turkey is Istanbul, and the capital city is Ankara. The country is lead by Ahmet Davutoglu and is the location of the bronze Ataturk monument which was designed by Pietro Canonica and inaugurated in Izmir on 27 July 1932."
+"input: Italy | leaderName | Pietro_Grasso
+Italy | capital | Rome
+Amatriciana_sauce | country | Italy
+Italy | leaderName | Sergio_Mattarella
+Italy | language | Italian_language
+output: ","Amatriciana sauce originates from Italian speaking Italy, capital: Rome. Italy is led by Pietro Grasso and Sergio Mattarella."
+"input: Asser_Levy_Public_Baths | location | Manhattan
+Asser_Levy_Public_Baths | ReferenceNumber in the National Register of Historic Places | ""80002709""
+Asser_Levy_Public_Baths | added to the National Register of Historic Places | ""1980-04-23""
+output: ",Asser Levy Public Baths is located in Manhattan and was added to the National Register of Historic Places on 23rd April 1980 with the Reference number 80002709.
+"input: Ernie_Colón | nationality | Puerto_Ricans
+output: ",Ernie Colón is a national of Puerto Rico so he is considered Puerto Rican.
+"input: A.F.C._Blackpool | ground | ""The Mechanics,""
+A.F.C._Blackpool | numberOfMembers | 1500
+A.F.C._Blackpool | fullname | ""Association Football Club Blackpool""
+output: ","A.F.C. Blackpool fullname is ""Association Football Club Blackpool"". They have 1500 members and their ground is The Mechanics."
+"input: Jens_Härtel | club | 1._FC_Lokomotive_Leipzig
+output: ",Jens Hartel plays for 1. FC Lokomotive Leipzig.
+"input: Amdavad_ni_Gufa | location | Gujarat
+Gujarat | leaderName | Anandiben_Patel
+Amdavad_ni_Gufa | location | Ahmedabad
+Amdavad_ni_Gufa | country | India
+Gujarat | leaderTitle | Gujarat_Legislative_Assembly
+output: ","Amdavad ni Gufa can be found in Ahmedabad, Gujurat, India. The leader of Gujarat is called the Gujarat Legislative Assembly, where one such leader was Anandiben Patel."
+"input: Administrative_Science_Quarterly | LCCN_number | 57059226
+Administrative_Science_Quarterly | abbreviation | ""Admin. Sci. Q.""
+output: ",The Administrative Science Quarterly (abbreviated to Admin. Sci. Q) has a LLCN number of 57059226.
+"input: 300_North_LaSalle | location | Chicago
+Chicago | leaderName | Rahm_Emanuel
+Chicago | isPartOf | Cook_County,_Illinois
+output: ","Chicago, Cook County, Illinois is home to 300 North La Salle and their leader is Rahm Emanuel."
+"input: Appleton_International_Airport | runwayLength | 1982.0
+Appleton_International_Airport | elevationAboveTheSeaLevel_(in_metres) | 280
+Appleton_International_Airport | operatingOrganisation | Outagamie_County,_Wisconsin
+output: ","Appleton International Airport, which is 280 metres above sea level and has a runway that's 1,982 long, is operated by Outagamie County in Wisconsin."
+"input: AWH_Engineering_College | country | India
+AWH_Engineering_College | state | Kerala
+output: ",AWH Engineering College is in the State of Kerala in India.
+"input: AZ_Alkmaar | manager | John_van_den_Brom
+John_van_den_Brom | club | Vitesse_Arnhem
+output: ","John van den Brom , who managed AZ Alkmaar, plays for Vitesse Arnhem."
+"input: Asilomar_Conference_Grounds | architect | Julia_Morgan
+Julia_Morgan | birthPlace | San_Francisco
+Julia_Morgan | significantBuilding | Riverside_Art_Museum
+Julia_Morgan | significantBuilding | Chinatown,_San_Francisco
+output: ","Born in San Francisco, Julia Morgan designed the Asilomar Conference Grounds, The Riverside Art Museum and buildings of significance in Chinatown, San Francisco."
+"input: Greece | currency | Euro
+output: ",Money used in Greece is the Euro.
+"input: United_States_Air_Force | transportAircraft | Lockheed_C-130_Hercules
+output: ",Lockheed C-130 Hercules is a transport aircraft in the United States Air Force.
+"input: BBC | product | BBC_Radio
+output: ",The BBC produces BBC Radio.
+"input: Baked_Alaska | mainIngredients | ""Meringue, ice cream, sponge cake or Christmas pudding""
+Baked_Alaska | country | ""France, United States or China""
+Baked_Alaska | region | ""Paris, New York or Hong Kong""
+Baked_Alaska | ingredient | Ice_cream
+output: ","Baked Alaska is from either France, the United States, Hong Kong or China. Meringue, ice cream, sponge cake or Christmas pudding are the main ingredients."
+"input: Binignit | ingredient | Sweet_potato
+Binignit | course | Dessert
+Binignit | mainIngredients | Banana
+Dessert | dishVariation | Sandesh_(confectionery)
+output: ","Binignit is a type of dessert, like sandesh, that contains sweet potato and banana."
+"input: Alan_Bean | was a crew member of | Apollo_12
+Apollo_12 | operator | NASA
+Alan_Bean | timeInSpace | ""100305.0""(minutes)
+Apollo_12 | commander | David_Scott
+Alan_Bean | birthName | ""Alan LaVern Bean""
+output: ",Alan Bean (born Alan LaVern Bean) was a crew member on the NASA operated Apollo 12 mission under Commander David Scott. In total he spent 100305 minutes in space.
+"input: Binignit | mainIngredients | Coconut_milk
+Binignit | country | Philippines
+Binignit | ingredient | Sago
+output: ",The main ingredient in the Philippine dish of Binignit is coconut milk. Sago is also used.
+"input: A_Severed_Wasp | mediaType | ""Print""
+output: ",A severed wasp can be found in print.
+"input: Afonso_Pena_International_Airport | location | São_José_dos_Pinhais
+Afonso_Pena_International_Airport | runwayLength | 1800.0
+output: ","Afonso Pena International Airport, with a runway length of 1800.00, is located in Sao Jose dos Pinhais."
+"input: Arem-arem | country | Indonesia
+Indonesia | leaderName | Joko_Widodo
+Indonesia | leaderName | Jusuf_Kalla
+Arem-arem | region | Javanese_cuisine
+Indonesia | language | Indonesian_language
+output: ",Arem-arem is a Javanese dish from Indonesia. Joko Widodo and Jusuf Kaila are the leaders of this Indonesian-speaking nation.
+"input: Alcatraz_Versus_the_Evil_Librarians | numberOfPages | ""320""
+output: ",Alcatraz Versus the Evil Librarians is 320 pages long.
+"input: A_Long_Long_Way | precededBy | Annie_Dunne
+Viking_Press | country | United_States
+A_Long_Long_Way | publisher | Viking_Press
+A_Long_Long_Way | followedBy | The_Secret_Scripture
+output: ","The Secret Scripture was a book which followed A Long Long Way, published by Viking Press in the USA and preceded by Annie Dunne."
+"input: AFC_Ajax_(amateurs) | season | 2014–15_Topklasse
+output: ",AFC Ajax (amateurs) played in the Topklasse in the 2014-2015 season.

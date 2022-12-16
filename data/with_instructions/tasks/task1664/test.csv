@@ -1,0 +1,1001 @@
+input,output
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The mover hired the accountant because she is well recommended .
+output: ","the, accountant, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The janitor reprimanded the accountant because he had to pay a fee due to an accounting mistake .
+output: ","The, janitor, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The lawyer needed the librarian to find a book because she knows how the library is organized .
+output: ","the, librarian, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The salesperson sold some books to the librarian because it was his job .
+output: ","The, salesperson, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The librarian helped the CEO to find the book because it is her job .
+output: ","The, librarian, her"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The librarian helped the CEO to find the book because he asked to .
+output: ","the, CEO, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The chief returned a book to the librarian but he had damaged the book .
+output: ","The, chief, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The sheriff protected the writer because she is under attack .
+output: ","the, writer, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The developer corrected the secretary because he better understood the problem .
+output: ","The, developer, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The nurse was running from the laborer because he smelled awful .
+output: ","the, laborer, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The nurse examined the farmer for injuries because she was caring .
+output: ","The, nurse, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The lawyer declared the baker was a liar because he often jumped to conclusions .
+output: ","The, lawyer, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The mover bought a beer for the cashier because she is cool .
+output: ","the, cashier, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The analyst asked the secretary to book a flight because she knows how to do it .
+output: ","the, secretary, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The mover said thank you to the housekeeper because he is grateful .
+output: ","The, mover, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The mover missed the call from the assistant because she tried to schedule the moving .
+output: ","the, assistant, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: When the supervisor splashed the editor  he got in trouble .
+output: ","the, supervisor, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The CEO hired the editor because she is the best in the region .
+output: ","the, editor, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The assistant asked the physician if he needs any help .
+output: ","the, physician, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The assistant laughed at the janitor because she heard the joke .
+output: ","The, assistant, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The farmer trusted in the receptionist because she was exceptionally organized .
+output: ","the, receptionist, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The laborer kicked the cashier because he was drunk .
+output: ","The, laborer, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The construction worker scheduled an appointment with the counselor because he was stressful .
+output: ","The, worker, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The analyst would constantly make fun of the teacher because she was bad at math .
+output: ","the, teacher, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The secretary went to a meeting with the construction worker because he was under a contract to build a house .
+output: ","the, worker, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The secretary asked the mover what she could do to help .
+output: ","The, secretary, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The CEO raised the salary of the receptionist  because he is generous .
+output: ","The, CEO, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The sheriff relies on the attendant because she is trustworthy .
+output: ","the, attendant, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The carpenter admires the work of the hairdresser because he appreciates talent .
+output: ","The, carpenter, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The carpenter made a wood lion for the accountant because it is her birthday .
+output: ","the, accountant, her"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The supervisor complained the hairdresser ""'s"" hair was too long because she never got a haircut .
+output: ","the, hairdresser, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The sheriff questioned the cashier because he was told the money was missing .
+output: ","The, sheriff, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The mechanic asked for the attendant because he needed to order some tools .
+output: ","The, mechanic, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The manager promised to give a raise to the teacher because he was generous .
+output: ","The, manager, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The analyst asked the secretary to book a flight because he will travel abroad .
+output: ","The, analyst, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The cook asked the designer if she likes the new dish .
+output: ","the, designer, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The driver transported the housekeeper to the job because he had a car .
+output: ","The, driver, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The driver yelled at the tailor after she broke a window .
+output: ","the, tailor, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The cook prepared a dish for the teacher because he just learned a new dish .
+output: ","The, cook, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The clerk misled the supervisor so she got fired .
+output: ","The, clerk, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The assistant laughed at the janitor because he told a funny joke .
+output: ","the, janitor, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The janitor cleaned the office of the counselor because she requested it .
+output: ","the, counselor, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The janitor handed the writer a book for her future reference .
+output: ","the, writer, her"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The CEO reminded the housekeeper to sweep up because she often forget .
+output: ","the, housekeeper, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The supervisor yelled at the cashier because he liked to pick on his employees .
+output: ","The, supervisor, he, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The supervisor yelled at the cashier because she liked to pick her nose .
+output: ","the, cashier, she, her"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The developer asked the clerk to prepare the paperwork because she normally does an excellent job .
+output: ","the, clerk, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The construction worker asked the attendant to not lose his car .
+output: ","The, worker, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The carpenter built the attendant a desk to get her love .
+output: ","the, attendant, her"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The salesperson told the baker to stop selling bread because he found mold in the kitchen .
+output: ","The, salesperson, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The physician owed the cashier money because he did not pay the vodka .
+output: ","The, physician, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The lawyer declared the baker was a liar because her prices were too high .
+output: ","the, baker, her"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The construction worker asked the hairdresser to cut her nails before anything else .
+output: ","the, hairdresser, her"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The developer argued with the designer because her idea cannot be implemented .
+output: ","the, designer, her"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The guard admired the secretary because his job was so dangerous .
+output: ","The, guard, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The guard admired the secretary because her job was so safe .
+output: ","the, secretary, her"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The laborer forced the housekeeper out of the house to keep her safe .
+output: ","the, housekeeper, her"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The laborer forced the housekeeper out of the house to stop bothering him .
+output: ","The, laborer, him"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The construction worker hired the cleaner so she can focus on the cleaning work .
+output: ","the, cleaner, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The CEO constantly visited the baker because she provided free bread .
+output: ","the, baker, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The carpenter built the attendant a desk to prove his love .
+output: ","The, carpenter, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The guard saved the editor from the criminals because he was on duty .
+output: ","The, guard, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The farmer offered apples to the housekeeper  because he had too many of them .
+output: ","The, farmer, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The nurse sent the carpenter to the hospital because of his health .
+output: ","the, carpenter, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The driver would not give the paperwork to the auditor because she did not present an authorization form .
+output: ","the, auditor, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The CEO gave the cashier cash because he wanted to pay for his goods .
+output: ","The, CEO, he, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The nurse examined the farmer for injuries because he was screaming .
+output: ","the, farmer, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The guard accused the receptionist of theft because he was missing his pen .
+output: ","The, guard, he, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The analyst offered free financial advice to the nurse but she did not accept it .
+output: ","the, nurse, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The supervisor provided the writer with new tools but he did not provide a new chair .
+output: ","The, supervisor, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The farmer needed to take a test from the counselor to appease to her .
+output: ","the, counselor, her"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The hairdresser befriended the cook because he gave good tips after a haircut .
+output: ","the, cook, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The CEO asked the clerk to produce a report to satisfy his concerns .
+output: ","The, CEO, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The chief handed the baker money in payment for his purchase .
+output: ","The, chief, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The hairdresser shouted at the driver because she felt offended .
+output: ","The, hairdresser, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The CEO asked the clerk to produce a report to justify her behavior .
+output: ","the, clerk, her"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The developer visited the hairdresser because he needed to cut his hair .
+output: ","The, developer, he, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The cook secretly stole the librarian ""'s"" books to increase his collection .
+output: ","The, cook, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The cook secretly stole the librarian ""'s"" books to make her less trusting .
+output: ","the, librarian, her"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The analyst failed to impress the receptionist because of his poor report .
+output: ","The, analyst, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The analyst failed to impress the receptionist because of her high standards .
+output: ","the, receptionist, her"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The supervisor berated the accountant for his poor behavior .
+output: ","The, supervisor, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The analyst received care from the nurse but he did not mention his allergies .
+output: ","The, analyst, he, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The auditor caught the developer cheating because he is dishonest .
+output: ","the, developer, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The mover hired the accountant because he wanted to balance his finances .
+output: ","The, mover, he, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The auditor caught the developer cheating because she discovered the key documents .
+output: ","The, auditor, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The janitor cleaned the office of the counselor because it is his job .
+output: ","The, janitor, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The supervisor asked the assistant to get her agreement .
+output: ","the, assistant, her"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The mechanic hired the tailor because his old tailor left town .
+output: ","The, mechanic, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The assistant purchased a new computer due to a recommendation by the salesperson  because he is persuasive .
+output: ","the, salesperson, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The cleaner called the guard because he is the only one who can enter the room .
+output: ","the, guard, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The secretary asked the mover when he is available .
+output: ","the, mover, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The hairdresser shouted at the driver because he crashed the car .
+output: ","the, driver, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The receptionist welcomed the lawyer because this is part of her job .
+output: ","The, receptionist, her"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The receptionist welcomed the lawyer because it is his first day to work .
+output: ","the, lawyer, his"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The assistant scanned documents for the analyst because he asked .
+output: ","the, analyst, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The cleaner hates the developer because she spent a lot of time cleaning the room .
+output: ","The, cleaner, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The writer interviewed the manager because she wanted to write a new book .
+output: ","The, writer, she"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The writer interviewed the manager because he is very successful .
+output: ","the, manager, he"
+"Definition: In this task, you will be given a sentence, and you need to identify the set of coreference words. Coreferences are generally a set of words in the text that refer to the same person or thing. Your output set of coreference words must be strictly present in the given input sentence. Do not use any outside knowledge to create the set of coreference words. If there is a 'the' article before the person or thing you should include 'the' as well. Please separate the coreference words by commas in the output.
+Positive example 1-
+input: The developer argued with the designer because he did not like the design.
+output: The, developer, he
+Positive example 2-
+input: The mechanic greets with the receptionist because he was in a good mood.
+output: The, mechanic, he
+Now complete the following example-
+input: The editor called the construction worker because she wanted to know when the house would be ready .
+output: ","The, editor, she"

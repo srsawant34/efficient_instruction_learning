@@ -1,0 +1,1301 @@
+input,output
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: Friends shouldn't expect you to love looking at pictures of their kids as much as they do
+Update: you don't like kids.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: When someone hurts a person and makes them cry, it's bad for everyone involved.
+Update: The other people don’t care at all
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You're allowed to decide to visit places without consulting your friends.
+Update: You want to see different places
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's rude to laugh too loudly.
+Update: You are at a very loud party.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is understandable to want to protect a friend.
+Update: You have known them your whole life.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You shouldn't discriminate against people of different religions.
+Update: The religion is harmful and they are trying to draw you in for your money.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's okay to be put in a situation you don't fully understand.
+Update: The details are promised to you later.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: Children should accept their parent's decision about a situation.
+Update: Their parents hurt them.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You should be patient to your friends who are being abused.
+Update: Their abuser was a relative of yours.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's good to get up early.
+Update: You have the flu.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You should always do what you can to help alleviate the conflicts of your friends.
+Update: You're a very diplomatic person.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's wrong to put animals before other people.
+Update: They're dying.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: One should always clean up behind themselves.
+Update: they are in a shared space.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You should be respectful of your boss.
+Update: Your boss has sexually harassed you.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is okay to conserve electricity.
+Update: You are trying to save money
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's wrong to create a false positive attitude.
+Update: You're at a job you don't like and must be courteous to difficult customers anyway.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is important to be able to admit you've made mistakes.
+Update: You want to maintain healthy relationships with people.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is bad to keep items that are no longer useful.
+Update: they have sentimental value.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It would be expected to be upset if your girlfriend went on a date with someone else.
+Update: They don't tell you about it in advance.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You should not treat someone differently for have a disability.
+Update: You are giving them an accomodation
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: Informal language and slang is appropriate to use in personal conversation with friends and family.
+Update: everyone already talks like that.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is wrong to sign someone up for something without their permission.
+Update: They will receive a full scholarship to their favorite university.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is wrong to exclude family.
+Update: you're really close with your family
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You shouldn't spite your partner.
+Update: You're getting ready to break up with them.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: Second hand smoke should be avoided.
+Update: You have a lung condition.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You are expected to tell your girlfriend about your plans for vacations.
+Update: They are business trips required for work.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You should try to accommodate family members.
+Update: You're the head of the family.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is rude to take someone else's thing.
+Update: they have given permission.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: Not communicating with a friend that has anxiety can let them be more separated and potentially cause harm.
+Update: you are one of their only friends and they depend on your support.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You should buy gifts for your friends.
+Update: You have recently lost your job.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You shouldn't get drunk on a date.
+Update: it's a first date
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is okay to be mad at another person.
+Update: you are the person at fault.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is ok to be upset if your friends stop including you in their outings.
+Update: You are always checking up on them
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's good to help out a significant other when they need it.
+Update: They're divorcing you
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You should try to work out problems with others with getting angry.
+Update: you want to keep a good relationship with them
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is okay to get upset at your significant other if they are overly flirtatious with others
+Update: You have a non-monogamous relationship.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's rude to cancel plans you have made with someone else.
+Update: you give very little warning.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's wrong to let the little things come between you and someone you care about.
+Update: You have told them for many decades not to do those things.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is rude to disrespect your mother
+Update: she is supportive and loving
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You shouldn't expect someone to share their money with you.
+Update: You are business partners
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's good to take care of your responsibilities even when other try to get you to do otherwise.
+Update: you want to be seen as dependable.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's wrong to boss people around.
+Update: You are the boss
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's wrong to abandon a friend that needs help.
+Update: they need you to help them get to the hospital.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is okay to think your friend might be self-entitled.
+Update: Your friend donated all their money to charity
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's OK to control your personal property.
+Update: You just recently retired and worked hard for many years.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's good to look out for the welfare of animals.
+Update: You are neglecting humans.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's your choice about who to be friends with.
+Update: There is someone who doesnt treat you well
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: Family is expected to be involved in each other's lives.
+Update: They have been abusive in the past.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: Threatening to remove someone's belongings is wrong.
+Update: You want to steal them.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is childish to refuse to see an ex if it is a civil situation.
+Update: They don’t let you see your kid
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is wrong to bring up family troubles to people outside the family without consent.
+Update: You don't know the person you are talking to about your problems.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: Singling people of a certain persuasion out can make you look bigoted.
+Update: You did it unintentionally.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's wrong not to accept your parent's partner.
+Update: That person is quite nice to you.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's okay to exercise control over how many people are around you and who they are.
+Update: You are in a crowded elevator.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is okay to have limits to how much you will help family.
+Update: You live paycheck to paycheck.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's okay to rebuke your friend for not standing up for you.
+Update: They were preoccupied and were not near you to stand up for you.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: Partners should support one another.
+Update: One of them is trying something new.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You shouldn't associate people with their friends.
+Update: Their friends are known criminals and you have things constantly coming up missing.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's rude to make lewd comments.
+Update: You're pestering a stranger.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's good to talk to members of the opposite sex.
+Update: You're saying inappropriate things.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's okay to be attracted to some people and not others.
+Update: You are looking for a romantic partner.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's ok to complain about bad service.
+Update: you know that the waiter is new.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You should not lash out at staff at the doctor's office.
+Update: A lot of patients are checked-in ahead of youy.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is good to teach your kids not to go onto other peoples property.
+Update: They ask permission.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's rude to play music so loudly that it disturbs others.
+Update: It's 2 am.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's okay that you want to keep your spot in a line.
+Update: you are walking away.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: Criticism can be hurtful.
+Update: It is delivered with condescension.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You should respect your boyfriend's friends.
+Update: they are rude to you.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You shouldn't leave people out of your plans.
+Update: they don't leave you out of their plans.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is reasonable to be angry what friend if they ignore you.
+Update: they are on vacation.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: If you're not interested in someone, you should let them know.
+Update: You do not want to lead them on.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You shouldn't lie to others.
+Update: You have been sworn to secrecy and it's not your secret to share.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's expected that you support your children financially.
+Update: They have special health needs that require them to have care even when they're grown.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: When giving away a friends belongings, it is best to ask them for permission first.
+Update: They already said they're holding a garage sale.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is rude to be self absorbed.
+Update: You have people depending on you
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's understandable to be concerned about your significant other's drinking habits.
+Update: your drinking is even more rampant than their's.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's good to be honest with your partner.
+Update: You want to get married.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You should be refunded for what is owed to you.
+Update: the time period for the refund has expired
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's expected that significant others kiss each other.
+Update: They love each other
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You should support your partner when they are grieving.
+Update: Your partner has asked for time to be by themselves.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is wrong to make someone afraid.
+Update: That person has a heart condition where they can't get excited.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: Refusing to help people is mean.
+Update: Those people have always treated you badly.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's ok to take trips without your significant other.
+Update: You are both on vacation.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's good to address strangers politely.
+Update: One of them spits in your face
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You should tip for service.
+Update: tipping makes up a large part of a service providers income.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is rude to tell on others.
+Update: they are stealing somebody else's property.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You shouldn't question your significant other.
+Update: You trust your significant other.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's good to stand up for yourself and confront someone if they do something that upsets you, even if its in public.
+Update: The person is being violent.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's fine to ask for something that will help you out in your education goals.
+Update: You have good reason to borrow extra money.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: Grandparents that likely send cards with money in them should be cherished and not shunned
+Update: The grandparents are racist and attempt to influence the children.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's wrong to be mean to your struggling friend.
+Update: Your friend needs a shoulder to cry on
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is bad to chase after a person your friend is interested in.
+Update: That person declined your friend's advances.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's expected that you share with your spouse.
+Update: you have the popcorn at the movie
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's not okay to do something that could hurt or make someone else jealous.
+Update: you are attacked first.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's good to report someone that is doing something wrong.
+Update: They insist they're doing it right.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It can be painful when someone doesn't want you to come to their party.
+Update: You can't stand them.
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: You should stay broken up if you broke up with someone.
+Update: They drove your car into a ditch with your baby in the car.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is okay to censor who is a guest in your home.
+Update: your partner disagrees with you
+output: ",weakener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It's expected to comment with your opinion on a friend's news.
+Update: You are chatting on social media.
+output: ",strengthener
+"Definition: In this task, you are given a hypothesis and an update. The hypothesis sentence is a statement that speaks of a socially normative behavior. In other words, it is a generalizing statement about how we expect people to behave in society. The update provides additional contexts about the situation that might UNDERMINE or SUPPORT the generalization. An undermining context provides a situation that weakens the hypothesis. A supporting context provides a situation that strengthens the generalization. Your task is to output 'strengthener' or 'weakener' if the update supports or undermines the hypothesis, respectively
+Positive example 1-
+input: Hypothesis: You should help your family with funeral expenses.
+Update: They have asked you to chip in
+output: strengthener
+Positive example 2-
+input: Hypothesis: It's good to protect your property.
+Update: you don't care what happens to your property.
+output: weakener
+Now complete the following example-
+input: Hypothesis: It is normal to address the dean first.
+Update: You are expecting bad news.
+output: ",weakener

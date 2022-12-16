@@ -1,0 +1,401 @@
+input,output
+"input: cut : knife. toast : ?
+output: ",toaster
+"input: cut : knife. drill : ?
+output: ",drill
+"input: cut : knife. pull : ?
+output: ",pliers
+"input: cut : knife. clamp : ?
+output: ",clamp
+"input: cut : knife. type : ?
+output: ",keyboard
+"input: cut : knife. eat : ?
+output: ",fork
+"input: cut : knife. scrub : ?
+output: ",brush
+"input: cut : knife. dry : ?
+output: ",blowdryer
+"input: cut : scissors. cut : ?
+output: ",sword
+"input: cut : scissors. dig : ?
+output: ",shovel
+"input: cut : scissors. sweep : ?
+output: ",broom
+"input: cut : scissors. unlock : ?
+output: ",key
+"input: cut : scissors. stir : ?
+output: ",spoon
+"input: cut : scissors. vacuum : ?
+output: ",vacuum
+"input: cut : scissors. mop : ?
+output: ",mop
+"input: cut : scissors. cook : ?
+output: ",pan
+"input: cut : scissors. bake : ?
+output: ",oven
+"input: cut : scissors. drill : ?
+output: ",drill
+"input: cut : scissors. pull : ?
+output: ",pliers
+"input: cut : scissors. clamp : ?
+output: ",clamp
+"input: cut : scissors. eat : ?
+output: ",fork
+"input: cut : scissors. scrub : ?
+output: ",brush
+"input: cut : scissors. dry : ?
+output: ",blowdryer
+"input: dig : shovel. cut : ?
+output: ",glass
+"input: dig : shovel. sweep : ?
+output: ",broom
+"input: dig : shovel. unlock : ?
+output: ",key
+"input: dig : shovel. stir : ?
+output: ",spoon
+"input: dig : shovel. vacuum : ?
+output: ",vacuum
+"input: dig : shovel. spread : ?
+output: ",knife
+"input: dig : shovel. hit : ?
+output: ",hammer
+"input: dig : shovel. mop : ?
+output: ",mop
+"input: dig : shovel. iron : ?
+output: ",iron
+"input: dig : shovel. cook : ?
+output: ",pan
+"input: dig : shovel. toast : ?
+output: ",toaster
+"input: dig : shovel. crack : ?
+output: ",nutcracker
+"input: dig : shovel. drill : ?
+output: ",drill
+"input: dig : shovel. pull : ?
+output: ",pliers
+"input: dig : shovel. clamp : ?
+output: ",clamp
+"input: dig : shovel. type : ?
+output: ",keyboard
+"input: dig : shovel. eat : ?
+output: ",spoon
+"input: dig : shovel. scrub : ?
+output: ",brush
+"input: dig : shovel. dry : ?
+output: ",cloth
+"input: sweep : broom. cut : ?
+output: ",glass
+"input: sweep : broom. dig : ?
+output: ",shovel
+"input: sweep : broom. unlock : ?
+output: ",key
+"input: sweep : broom. stir : ?
+output: ",spoon
+"input: sweep : broom. wash : ?
+output: ",washcloth
+"input: sweep : broom. vacuum : ?
+output: ",vacuum
+"input: sweep : broom. spread : ?
+output: ",knife
+"input: sweep : broom. hit : ?
+output: ",hammer
+"input: sweep : broom. mop : ?
+output: ",mop
+"input: sweep : broom. iron : ?
+output: ",iron
+"input: sweep : broom. bake : ?
+output: ",oven
+"input: sweep : broom. toast : ?
+output: ",toaster
+"input: sweep : broom. crack : ?
+output: ",nutcracker
+"input: sweep : broom. pull : ?
+output: ",pliers
+"input: sweep : broom. clamp : ?
+output: ",clamp
+"input: sweep : broom. eat : ?
+output: ",spoon
+"input: sweep : broom. scrub : ?
+output: ",brush
+"input: sweep : broom. dry : ?
+output: ",cloth
+"input: unlock : key. cut : ?
+output: ",knife
+"input: unlock : key. dig : ?
+output: ",shovel
+"input: unlock : key. sweep : ?
+output: ",broom
+"input: unlock : key. stir : ?
+output: ",spoon
+"input: unlock : key. wash : ?
+output: ",detergent
+"input: unlock : key. spread : ?
+output: ",knife
+"input: unlock : key. mop : ?
+output: ",mop
+"input: unlock : key. iron : ?
+output: ",iron
+"input: unlock : key. cook : ?
+output: ",pan
+"input: unlock : key. bake : ?
+output: ",oven
+"input: unlock : key. crack : ?
+output: ",nutcracker
+"input: unlock : key. drill : ?
+output: ",drill
+"input: unlock : key. clamp : ?
+output: ",clamp
+"input: unlock : key. eat : ?
+output: ",fork
+"input: unlock : key. scrub : ?
+output: ",brush
+"input: unlock : key. dry : ?
+output: ",blowdryer
+"input: stir : spoon. dig : ?
+output: ",shovel
+"input: stir : spoon. sweep : ?
+output: ",broom
+"input: stir : spoon. unlock : ?
+output: ",key
+"input: stir : spoon. wash : ?
+output: ",soap
+"input: stir : spoon. vacuum : ?
+output: ",vacuum
+"input: stir : spoon. hit : ?
+output: ",hammer
+"input: stir : spoon. mop : ?
+output: ",mop
+"input: stir : spoon. iron : ?
+output: ",iron
+"input: stir : spoon. cook : ?
+output: ",pan
+"input: stir : spoon. bake : ?
+output: ",oven
+"input: stir : spoon. toast : ?
+output: ",toaster
+"input: stir : spoon. crack : ?
+output: ",nutcracker
+"input: stir : spoon. drill : ?
+output: ",drill
+"input: stir : spoon. pull : ?
+output: ",pliers
+"input: stir : spoon. clamp : ?
+output: ",clamp
+"input: stir : spoon. type : ?
+output: ",keyboard
+"input: stir : spoon. scrub : ?
+output: ",brush
+"input: stir : spoon. dry : ?
+output: ",cloth
+"input: wash : soap. cut : ?
+output: ",sword
+"input: wash : soap. dig : ?
+output: ",shovel
+"input: wash : soap. sweep : ?
+output: ",broom
+"input: wash : soap. stir : ?
+output: ",spoon
+"input: wash : soap. wash : ?
+output: ",washcloth
+"input: wash : soap. vacuum : ?
+output: ",vacuum
+"input: wash : soap. spread : ?
+output: ",knife
+"input: wash : soap. hit : ?
+output: ",hammer
+"input: wash : soap. mop : ?
+output: ",mop
+"input: wash : soap. iron : ?
+output: ",iron
+"input: wash : soap. cook : ?
+output: ",stove
+"input: wash : soap. toast : ?
+output: ",toaster
+"input: wash : soap. crack : ?
+output: ",nutcracker
+"input: wash : soap. drill : ?
+output: ",drill
+"input: wash : soap. pull : ?
+output: ",pliers
+"input: wash : soap. type : ?
+output: ",keyboard
+"input: wash : soap. eat : ?
+output: ",fork
+"input: wash : soap. scrub : ?
+output: ",brush
+"input: wash : washcloth. cut : ?
+output: ",glass
+"input: wash : washcloth. dig : ?
+output: ",shovel
+"input: wash : washcloth. sweep : ?
+output: ",broom
+"input: wash : washcloth. unlock : ?
+output: ",key
+"input: wash : washcloth. stir : ?
+output: ",spoon
+"input: wash : washcloth. wash : ?
+output: ",washcloth
+"input: wash : washcloth. vacuum : ?
+output: ",vacuum
+"input: wash : washcloth. spread : ?
+output: ",knife
+"input: wash : washcloth. hit : ?
+output: ",hammer
+"input: wash : washcloth. iron : ?
+output: ",iron
+"input: wash : washcloth. cook : ?
+output: ",pan
+"input: wash : washcloth. bake : ?
+output: ",oven
+"input: wash : washcloth. toast : ?
+output: ",toaster
+"input: wash : washcloth. crack : ?
+output: ",nutcracker
+"input: wash : washcloth. drill : ?
+output: ",drill
+"input: wash : washcloth. pull : ?
+output: ",pliers
+"input: wash : washcloth. clamp : ?
+output: ",clamp
+"input: wash : washcloth. type : ?
+output: ",keyboard
+"input: wash : washcloth. eat : ?
+output: ",fork
+"input: wash : washcloth. scrub : ?
+output: ",brush
+"input: wash : washcloth. dry : ?
+output: ",cloth
+"input: vacuum : vacuum. cut : ?
+output: ",glass
+"input: vacuum : vacuum. dig : ?
+output: ",shovel
+"input: vacuum : vacuum. sweep : ?
+output: ",broom
+"input: vacuum : vacuum. unlock : ?
+output: ",key
+"input: vacuum : vacuum. stir : ?
+output: ",spoon
+"input: vacuum : vacuum. wash : ?
+output: ",rag
+"input: vacuum : vacuum. hit : ?
+output: ",hammer
+"input: vacuum : vacuum. mop : ?
+output: ",mop
+"input: vacuum : vacuum. cook : ?
+output: ",stove
+"input: vacuum : vacuum. bake : ?
+output: ",oven
+"input: vacuum : vacuum. toast : ?
+output: ",toaster
+"input: vacuum : vacuum. crack : ?
+output: ",nutcracker
+"input: vacuum : vacuum. drill : ?
+output: ",drill
+"input: vacuum : vacuum. pull : ?
+output: ",pliers
+"input: vacuum : vacuum. clamp : ?
+output: ",clamp
+"input: vacuum : vacuum. type : ?
+output: ",keyboard
+"input: vacuum : vacuum. eat : ?
+output: ",spoon
+"input: spread : knife. cut : ?
+output: ",glass
+"input: spread : knife. sweep : ?
+output: ",broom
+"input: spread : knife. unlock : ?
+output: ",key
+"input: spread : knife. stir : ?
+output: ",spoon
+"input: spread : knife. wash : ?
+output: ",soap
+"input: spread : knife. mop : ?
+output: ",mop
+"input: spread : knife. cook : ?
+output: ",stove
+"input: spread : knife. bake : ?
+output: ",oven
+"input: spread : knife. toast : ?
+output: ",toaster
+"input: spread : knife. crack : ?
+output: ",nutcracker
+"input: spread : knife. drill : ?
+output: ",drill
+"input: spread : knife. pull : ?
+output: ",pliers
+"input: spread : knife. clamp : ?
+output: ",clamp
+"input: spread : knife. type : ?
+output: ",keyboard
+"input: spread : knife. eat : ?
+output: ",spoon
+"input: spread : knife. scrub : ?
+output: ",brush
+"input: spread : knife. dry : ?
+output: ",blowdryer
+"input: hit : hammer. cut : ?
+output: ",scissors
+"input: hit : hammer. unlock : ?
+output: ",key
+"input: hit : hammer. wash : ?
+output: ",rag
+"input: hit : hammer. vacuum : ?
+output: ",vacuum
+"input: hit : hammer. spread : ?
+output: ",knife
+"input: hit : hammer. mop : ?
+output: ",mop
+"input: hit : hammer. iron : ?
+output: ",iron
+"input: hit : hammer. cook : ?
+output: ",pan
+"input: hit : hammer. bake : ?
+output: ",oven
+"input: hit : hammer. toast : ?
+output: ",toaster
+"input: hit : hammer. crack : ?
+output: ",nutcracker
+"input: hit : hammer. drill : ?
+output: ",drill
+"input: hit : hammer. pull : ?
+output: ",pliers
+"input: hit : hammer. clamp : ?
+output: ",clamp
+"input: hit : hammer. type : ?
+output: ",keyboard
+"input: hit : hammer. eat : ?
+output: ",spoon
+"input: hit : hammer. scrub : ?
+output: ",brush
+"input: hit : hammer. dry : ?
+output: ",cloth
+"input: mop : mop. cut : ?
+output: ",scissors
+"input: mop : mop. dig : ?
+output: ",shovel
+"input: mop : mop. unlock : ?
+output: ",key
+"input: mop : mop. stir : ?
+output: ",spoon
+"input: mop : mop. wash : ?
+output: ",washcloth
+"input: mop : mop. spread : ?
+output: ",knife
+"input: mop : mop. hit : ?
+output: ",hammer
+"input: mop : mop. iron : ?
+output: ",iron
+"input: mop : mop. cook : ?
+output: ",pan
+"input: mop : mop. bake : ?
+output: ",oven
+"input: mop : mop. toast : ?
+output: ",toaster
+"input: mop : mop. crack : ?
+output: ",nutcracker
+"input: mop : mop. drill : ?
+output: ",drill
+"input: mop : mop. pull : ?
+output: ",pliers
+"input: mop : mop. clamp : ?
+output: ",clamp

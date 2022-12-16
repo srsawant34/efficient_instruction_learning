@@ -1,0 +1,201 @@
+input,output
+"input: Dan had to stop Bill from toying with the injured bird. (He) is very compassionate. <sep> Pronoun:He <sep> Noun: Bill
+output: ",False
+"input: John hired (him) self out to Bill to take care of him . <sep> Pronoun:him <sep> Noun: John
+output: ",False
+"input: After I saw Bill catching flies and pulling off their wings, I boxed his ears. I showed the master the flies, some crushed and some crawling about helpless, and I showed him the wings on the window sill. I never saw him so angry before; but as Bill was still howling and whining, like the coward that (he) was, he did not give him any more punishment of that kind, but set him up on a stool for the rest of the afternoon, and said that he should not go out to play for that week. <sep> Pronoun:he <sep> Noun: Bill
+output: ",True
+"input: Madonna fired her trainer because (she) couldn't stand her boyfriend. <sep> Pronoun:she <sep> Noun: Madonna
+output: ",True
+"input: The large ball crashed right through the table because (it) was made of steel. <sep> Pronoun:it <sep> Noun: The large ball
+output: ",True
+"input: While Nancy and Ellen counted the silverware, Mrs. Smith hastened upstairs. In a few minutes she returned and one look at (her) stricken face told the girls that the precious map was gone. <sep> Pronoun:her <sep> Noun: Ellen
+output: ",False
+"input: The firemen arrived before the police because (they) were coming from so far away. <sep> Pronoun:they <sep> Noun: the police
+output: ",True
+"input: Adam can't leave work here until Bob arrives to replace him. If Bob had left home for work on time, (he) would be here by this time. <sep> Pronoun:he <sep> Noun: Adam
+output: ",False
+"input: Sam took French classes from Adam , because (he) was eager to speak it fluently. <sep> Pronoun:he <sep> Noun: Adam
+output: ",False
+"input: The fish ate the worm . (It) was hungry. <sep> Pronoun:It <sep> Noun: The fish
+output: ",True
+"input: The first place that I can well remember was a large pleasant meadow with a pond of clear water in (it) . Some shady trees leaned over <sep> Pronoun:it <sep> Noun: meadow
+output: ",False
+"input: When Tommy dropped his ice cream, Timmy giggled, so father gave (him) a sympathetic look. <sep> Pronoun:him <sep> Noun: Timmy
+output: ",False
+"input: Mama came over and sat down beside Alice . Gently (she) stroked her hair and let the child weep. <sep> Pronoun:she <sep> Noun: Alice
+output: ",False
+"input: I asked Dave to get me my sweater from the other side of the yacht . While he was gone, I rested my arm on the rail over there and suddenly (it) gave way. <sep> Pronoun:it <sep> Noun: rail
+output: ",True
+"input: I sat there feeling rather like a chappie I'd once read about in a book , who murdered another cove and hid the body under the dining-room table , and then had to be the life and soul of a dinner party, with (it) there all the time. <sep> Pronoun:it <sep> Noun: table
+output: ",False
+"input: I tried to paint a picture of an orchard, with lemons in the lemon trees , but (they) came out looking more like light bulbs. <sep> Pronoun:they <sep> Noun: lemon trees
+output: ",False
+"input: In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get (it) removed. <sep> Pronoun:it <sep> Noun: the roof
+output: ",False
+"input: Thomson visited Cooper 's grave in 1765. At that date (he) had been dead for five years. <sep> Pronoun:he <sep> Noun: Thomson
+output: ",False
+"input: The stable was very roomy, with four good stalls; a large swinging window opened into the yard , which made (it) pleasant and airy. <sep> Pronoun:it <sep> Noun: window
+output: ",False
+"input: Stretching (her) back, the woman smiled at the girl . <sep> Pronoun:her <sep> Noun: the girl
+output: ",False
+"input: Mr. Moncrieff visited Chester 's luxurious New York apartment, thinking that it belonged to his son Edward . The result was that Mr. Moncrieff has decided to cancel Edward 's allowance on the ground that (he) no longer requires his financial support. <sep> Pronoun:he <sep> Noun: Chester
+output: ",False
+"input: The user changed his password from "" GrWQWu8JyC "" to "" willow-towered Canopy Huntertropic wrestles "" as (it) was easy to remember. <sep> Pronoun:it <sep> Noun: GrWQWu8JyC
+output: ",False
+"input: Bernard , who had not told the government official that he was less than 21 when he filed for a homestead claim, did not consider that he had done anything dishonest. Still, anyone who knew that he was 19 years old could take his claim away from (him) . <sep> Pronoun:him <sep> Noun: the government official
+output: ",False
+"input: The boy continued to whip the pony , and eventually the pony threw him over. John laughed out quite loud. ""Good for (him,"") he said. <sep> Pronoun:him <sep> Noun: boy
+output: ",False
+"input: Kirilov ceded the presidency to Shatov because (he) was less popular. <sep> Pronoun:he <sep> Noun: Shatov
+output: ",False
+"input: Alice was dusting the living room and trying to find the button that Mama had hidden. No time today to look at old pictures in her favorite photo album . Today she had to hunt for a button , so she put the album on a chair without even opening (it) . <sep> Pronoun:it <sep> Noun: album
+output: ",True
+"input: Bob paid for Charlie 's college education, but now Charlie acts as though it never happened. (He) is very hurt. <sep> Pronoun:He <sep> Noun: Bob
+output: ",True
+"input: Then he took a piece of iron the shape of the horse horse's foot , and clapped (it) on, and drove some nails through the shoe quite into its hoof, so that the shoe was firmly on <sep> Pronoun:it <sep> Noun: shape
+output: ",False
+"input: After a somewhat lengthy conversation, Nancy convinced the housekeeper that there was no immediate cause for alarm. (She) did not mention the incident at the Hamilton bus station, knowing it would only add to Mrs. Gruen’s uneasiness. <sep> Pronoun:She <sep> Noun: the housekeeper
+output: ",False
+"input: Tom gave Ralph a lift to school so (he) wouldn't have to drive alone. <sep> Pronoun:he <sep> Noun: Ralph
+output: ",False
+"input: Dan had to stop Bill from toying with the injured bird. (He) is very cruel. <sep> Pronoun:He <sep> Noun: Bill
+output: ",True
+"input: As Ollie carried Tommy up the long winding steps, (his) legs dangled. <sep> Pronoun:his <sep> Noun: Ollie
+output: ",False
+"input: We saw a boy trying to leap a pony over a gate; the pony would not take the leap, and the boy cut him with the whip, but (he) only turned to one side. <sep> Pronoun:he <sep> Noun: pony
+output: ",True
+"input: Since Chester was dependent on Uncle Vernon , he couldn't very well marry without (his) approval <sep> Pronoun:his <sep> Noun: Chester
+output: ",False
+"input: Mama came over and sat down beside Alice . Gently she stroked (her) hair and let the child weep. <sep> Pronoun:her <sep> Noun: Mama
+output: ",False
+"input: Sara borrowed the book from the library because she needs (it) for an article she is working on. She reads it when she gets home from work. <sep> Pronoun:it <sep> Noun: the book
+output: ",True
+"input: Sara borrowed the book from the library because she needs it for an article she is working on. She writes (it) when she gets home from work. <sep> Pronoun:it <sep> Noun: the book
+output: ",False
+"input: John ordered Bill to leave, so an hour later (he) left. <sep> Pronoun:he <sep> Noun: John
+output: ",False
+"input: Emma Emma's mother had died long ago, and (her) education had been managed by an excellent woman as governess. <sep> Pronoun:her <sep> Noun: Emma's mother
+output: ",False
+"input: As Andrea in the crop duster passed over Susan , (she) could see the landing strip. <sep> Pronoun:she <sep> Noun: Andrea
+output: ",True
+"input: John was jogging through the park when he saw a man juggling watermelons. (He) was very impressive. <sep> Pronoun:He <sep> Noun: John
+output: ",False
+"input: After I saw Bill catching flies and pulling off their wings, I boxed his ears. I showed the master the flies, some crushed and some crawling about helpless, and I showed him the wings on the window sill. I never saw him so angry before; but as Bill was still howling and whining, like the coward that he was, (he) did not give him any more punishment of that kind, but set him up on a stool for the rest of the afternoon, and said that he should not go out to play for that week. <sep> Pronoun:he <sep> Noun: the master
+output: ",True
+"input: James asked Robert for a favor but (he) refused. <sep> Pronoun:he <sep> Noun: James
+output: ",False
+"input: Bob collapsed on the sidewalk. Soon he saw Carl coming to help. (He) was very concerned. <sep> Pronoun:He <sep> Noun: Carl
+output: ",True
+"input: Patting (her) back, the woman smiled at the girl . <sep> Pronoun:her <sep> Noun: the woman
+output: ",False
+"input: Although they ran at about the same speed, Sue beat Sally because (she) had such a good start. <sep> Pronoun:she <sep> Noun: Sue
+output: ",True
+"input: One day Dick was teasing the colts, and did not know that the master was in the next field; but (he) was there, watching what was going on; over the hedge he jumped in a snap, and catching Dick by the arm, he hit him so hard that he roared with the pain and surprise. <sep> Pronoun:he <sep> Noun: Dick
+output: ",False
+"input: It is not easy to space buttonholes exactly the same distance apart, and it is very difficult to cut them precisely the right size . The tiniest slip of the scissors will make the hole too large, and even one thread uncut will leave (it) too small. <sep> Pronoun:it <sep> Noun: the right size
+output: ",False
+"input: Bill passed the half-empty plate to John because (he) was hungry. <sep> Pronoun:he <sep> Noun: Bill
+output: ",False
+"input: The city councilmen refused the demonstrators a permit because (they) feared violence. <sep> Pronoun:they <sep> Noun: the demonstrators
+output: ",False
+"input: George got free tickets to the play, but he gave them to Eric , even though (he) was particularly eager to see it. <sep> Pronoun:he <sep> Noun: Eric
+output: ",False
+"input: I poured water from the bottle into the cup until (it) was full. <sep> Pronoun:it <sep> Noun: the bottle
+output: ",False
+"input: Mark was close to Mr. Singer 's heels. He heard (him) calling for the captain, promising him, in the jargon everyone talked that night, that not one thing should be damaged on the ship except only the ammunition, but the captain and all his crew had best stay in the cabin until the work was over. <sep> Pronoun:him <sep> Noun: Mark
+output: ",False
+"input: The delivery truck zoomed by the school bus because (it) was going so slow. <sep> Pronoun:it <sep> Noun: The delivery truck
+output: ",False
+"input: George got free tickets to the play, but he gave them to Eric , even though (he) was particularly eager to see it. <sep> Pronoun:he <sep> Noun: George
+output: ",True
+"input: While Nancy and Ellen counted the silverware, Mrs. Smith hastened upstairs. In a few minutes she returned and one look at (her) stricken face told the girls that the precious map was gone. <sep> Pronoun:her <sep> Noun: Nancy
+output: ",False
+"input: When Tommy dropped his ice cream, Timmy giggled, so father gave (him) a stern look. <sep> Pronoun:him <sep> Noun: Tommy
+output: ",False
+"input: The Wainwrights treated Mr. Crowley like a prince until he made his will in their favor; then they treated him like dirt. Folks said he died just to be rid of (their) everlasting nagging. <sep> Pronoun:their <sep> Noun: Wainwrights
+output: ",True
+"input: Since Chester was dependent on Uncle Vernon , (he) couldn't very well marry without his approval <sep> Pronoun:he <sep> Noun: Uncle Vernon
+output: ",False
+"input: Bob paid for Charlie 's college education, but now Charlie acts as though it never happened. (He) is very ungrateful. <sep> Pronoun:He <sep> Noun: Bob
+output: ",False
+"input: Babar wonders how he can get new clothing. Luckily, a very rich old man who has always been fond of little elephants understands right away that (he) is longing for a fine suit. As he likes to make people happy, he gives him his wallet. <sep> Pronoun:he <sep> Noun: old man
+output: ",False
+"input: Sam Goodman 's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties (he) faced in his childhood. <sep> Pronoun:he <sep> Noun: Goodman
+output: ",False
+"input: During a game of tag, Ethan ran from Luke because (he) was ""it"". <sep> Pronoun:he <sep> Noun: Luke
+output: ",True
+"input: Our mistress hired a room for my crippled sister Nelly , and she gave her knitting and needlework when she was able to do it, and when (she) was ill she sent her dinners and many nice comfortable things and was like a mother to her. <sep> Pronoun:she <sep> Noun: mistress
+output: ",False
+"input: The table won't fit through the doorway because (it) is too wide. <sep> Pronoun:it <sep> Noun: The table
+output: ",True
+"input: Jane knocked on the door, and Susan answered it. (She) invited her to come out. <sep> Pronoun:She <sep> Noun: Jane
+output: ",True
+"input: The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started, (it) was out. <sep> Pronoun:it <sep> Noun: The sun
+output: ",True
+"input: In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get (it) removed. <sep> Pronoun:it <sep> Noun: the tree
+output: ",True
+"input: Joan made sure to thank Susan for all the help (she) had given. <sep> Pronoun:she <sep> Noun: Joan
+output: ",False
+"input: At the Loebner competition the judges couldn't figure out which respondents were the chatbots because (they) were so stupid. <sep> Pronoun:they <sep> Noun: the chatbots
+output: ",False
+"input: Even before they reached town , they could hear a sound like corn popping. Dora asked what (it) was, and Dad said it was firecrackers. <sep> Pronoun:it <sep> Noun: sound
+output: ",True
+"input: In July, Kamtchatka declared war on Yakutsk . Since Yakutsk 's army was much better equipped and ten times larger, (they) were defeated within weeks. <sep> Pronoun:they <sep> Noun: Yakutsk
+output: ",False
+"input: Even before they reached town , they could hear a sound like corn popping. Dora asked what (it) was, and Dad said it was firecrackers. <sep> Pronoun:it <sep> Noun: corn
+output: ",False
+"input: Sam's drawing was hung just above Tina's and (it) did look much better with another one below it. <sep> Pronoun:it <sep> Noun: Sam's drawing
+output: ",True
+"input: The older students were bullying the younger ones, so we punished (them) . <sep> Pronoun:them <sep> Noun: The older students
+output: ",True
+"input: The man couldn't lift his son because (he) was so heavy. <sep> Pronoun:he <sep> Noun: The man
+output: ",False
+"input: Jane knocked on the door, and Susan answered it. (She) invited her to come in. <sep> Pronoun:She <sep> Noun: Jane
+output: ",False
+"input: Sam pulled up a chair to the piano , but (it) was broken, so he had to stand instead. <sep> Pronoun:it <sep> Noun: the piano
+output: ",False
+"input: One day Dick was teasing the colts, and did not know that the master was in the next field; but he was there, watching what was going on; over the hedge he jumped in a snap, and catching Dick by the arm, he hit (him) so hard that he roared with the pain and surprise. <sep> Pronoun:him <sep> Noun: the master
+output: ",False
+"input: I tried to paint a picture of an orchard, with lemons in the lemon trees , but (they) came out looking more like light bulbs. <sep> Pronoun:they <sep> Noun: lemons
+output: ",True
+"input: Sam Goodman 's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties (he) faced in his research. <sep> Pronoun:he <sep> Noun: Xenophanes
+output: ",False
+"input: Sid explained his theory to Mark but (he) couldn't understand him. <sep> Pronoun:he <sep> Noun: Sid
+output: ",False
+"input: John couldn't see the stage with Billy in front of him because (he) is so tall. <sep> Pronoun:he <sep> Noun: John
+output: ",False
+"input: Kirilov ceded the presidency to Shatov because (he) was more popular. <sep> Pronoun:he <sep> Noun: Kirilov
+output: ",False
+"input: The mothers of Arthur and Celeste have come to the town to fetch them. They are very happy to have them back, but they scold (them) just the same because they ran away. <sep> Pronoun:them <sep> Noun: mothers
+output: ",False
+"input: At the Loebner competition the judges couldn't figure out which respondents were the chatbots because (they) were so advanced. <sep> Pronoun:they <sep> Noun: the judges
+output: ",False
+"input: Paul tried to call George on the phone, but (he) wasn't available. <sep> Pronoun:he <sep> Noun: George
+output: ",True
+"input: Dr. Adams informed Kate that (she) had retired and presented several options for future treatment. <sep> Pronoun:she <sep> Noun: Kate
+output: ",False
+"input: I stuck a pin through a carrot. When I pulled the pin out, (it) had a hole. <sep> Pronoun:it <sep> Noun: the pin
+output: ",False
+"input: Frank was upset with Tom because the toaster (he) had sold him didn't work. <sep> Pronoun:he <sep> Noun: Frank
+output: ",False
+"input: What about the time you cut up tulip bulbs in the hamburgers because you thought (they) were onions? <sep> Pronoun:they <sep> Noun: tulip bulbs
+output: ",True
+"input: When Tatyana reached the cabin, her mother was sleeping. (She) was careful not to disturb her, undressing and climbing back into her berth. <sep> Pronoun:She <sep> Noun: mother
+output: ",False
+"input: The boy continued to whip the pony , and eventually the pony threw him over. John laughed out quite loud. ""Served (him) right,"" he said. <sep> Pronoun:him <sep> Noun: John
+output: ",False
+"input: When the sponsors of the bill got to the town hall, they were surprised to find that the room was full of opponents. (They) were very much in the minority. <sep> Pronoun:They <sep> Noun: the sponsors
+output: ",True
+"input: Meanwhile, in the forest, the elephants are calling and hunting high and low for Arthur and Celeste , and their mothers are very worried. Fortunately, in flying over the town, an old marabou bird has seen (them) and come back quickly to tell the news. <sep> Pronoun:them <sep> Noun: the elephants
+output: ",False
+"input: The storekeepers stayed in town to run their stores and lived in the rooms behind (them) . <sep> Pronoun:them <sep> Noun: stores
+output: ",True
+"input: Anne gave birth to a daughter last month. (She) is a very charming baby. <sep> Pronoun:She <sep> Noun: Anne
+output: ",False
+"input: Jim signaled the barman and gestured toward (his) empty glass <sep> Pronoun:his <sep> Noun: Jim
+output: ",True
+"input: John couldn't see the stage with Billy in front of him because (he) is so short. <sep> Pronoun:he <sep> Noun: John
+output: ",True
+"input: All the buttons up the back of Dora 's plaid dress were buttoned outside-in. Maude should have thought to button her up; but no, she had left poor little Dora to do the best (she) could, alone. <sep> Pronoun:she <sep> Noun: Dora
+output: ",True

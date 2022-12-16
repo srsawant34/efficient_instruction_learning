@@ -1,0 +1,11 @@
+input,output
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Ockleton, Morpurgo, Cornelius, Dysart and half a dozen others too drunk to mention. But there was so much coming and going that any one of us could have slipped out, pushed Everett through the window and slipped back again without being noticed. Damn it all we didn't even notice Everett was missing until a porter tripped over him in the quad so anything's theoretically possible. <sep> Hypothesis: Everett was missing
+output: Entailment
+Positive example 2-
+input: Premise: I should dearly have liked to know whether they were Europeans or Americans, but I couldn't hear the accents. They appeared to be arguing. I hoped the white men weren't telling him to eliminate all witnesses because I don't believe it would have needed much persuasion. <sep> Hypothesis: eliminating all witnesses would have needed much persuasion
+output: Contradiction
+Now complete the following example-
+input: Premise: Merrill dropped into her chair. That altercation with Luke had drained her. She might have known that he would never divulge his relationship with Elise. <sep> Hypothesis: Luke would never divulge his relationship with Elise
+output: ",Entailment

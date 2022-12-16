@@ -1,0 +1,41 @@
+input,output
+"input: Context Word: Handwriting. 
+Question: PersonX asked PersonY for some help with their handwriting, because _ had forgotten how to write. 
+Answer: PersonX
+output: ","PersonX asked PersonY for some help with their handwriting, but _ had forgotten how to write."
+"input: Context Word: nail polish. 
+Question: PersonX wore a lot more nail polish than PersonY because _ 's nails were not very pretty to begin with. 
+Answer: PersonX
+output: ",PersonX wore a lot more nail polish than PersonY because _ 's nails were rather pretty to begin with.
+"input: Context Word: talk. 
+Question: PersonX needed to talk to PersonY about a serious matter but _ was nervous about their response. 
+Answer: PersonX
+output: ",PersonX needed to talk to PersonY about a serious matter but _ did not have a response.
+"input: Context Word: upside. 
+Question: PersonX got a lot more head injuries than PersonY when they were kids, because _ always hung upside down on the jungle gym. 
+Answer: PersonX
+output: ","PersonX got a lot more head injuries than PersonY when they were kids, because _ never hung upside down on the jungle gym."
+"input: Context Word: Winter. 
+Question: In the Winter, PersonX never gets sick, but PersonY always has a cold. _ has a strong immune system. 
+Answer: PersonX
+output: ","In the Winter, PersonX never gets sick, but PersonY always has a cold. _ has a frail immune system."
+"input: Context Word: women. 
+Question: PersonX shoutled loudly at the women and PersonY was embarrassed. _ was always loud in public. 
+Answer: PersonX
+output: ",PersonX shoutled loudly at the women and PersonY was embarrassed. _ was always shy in public.
+"input: Context Word: Goodwill. 
+Question: PersonX shopped for a while and found a few items to bring up to PersonY at the Goodwill counter, then _ gave thanks and left. 
+Answer: PersonX
+output: ","PersonX shopped for a while and found a few items to bring up to PersonY at the Goodwill counter, then _ gave thanks and saw the next customer."
+"input: Context Word: walk. 
+Question: PersonX decided to go for a walk to see PersonY as a surprise visit but _ was lost. 
+Answer: PersonX
+output: ",PersonX decided to go for a walk to see PersonY as a surprise visit but _ was sick.
+"input: Context Word: Bad Reputation. 
+Question: PersonX didn't care like PersonY did so _ didn't care about their bad reputation in school. 
+Answer: PersonX
+output: ",PersonX didn't care like PersonY did so _ did care about changing their bad reputation in school.
+"input: Context Word: seat. 
+Question: PersonX stood up in the subway car and offered his seat to PersonY because _ was sitting. 
+Answer: PersonX
+output: ",PersonX stood up in the subway car and offered hi seat to PersonY because _ was standing.

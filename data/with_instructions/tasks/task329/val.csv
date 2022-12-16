@@ -1,0 +1,101 @@
+input,output
+"Definition: In this task, you will be presented with a text, a pronoun from the text, and two candidate names. You should determine what the pronoun refers to and classify the answers into A, B, or Neither. A and B here are referring to option A and option B. Position of the pronoun in the text is showed within two ""_""s.
+Positive example 1-
+input: He grew up in Evanston, Illinois the second oldest of five children including his brothers, Fred and Gordon and sisters, Marge (Peppy) and Marilyn. His high school days were spent at New Trier High School in Winnetka, Illinois. MacKenzie studied with Bernard Leach from 1949 to 1952. _His_ simple, wheel-thrown functional pottery is heavily influenced by the oriental aesthetic of Shoji Hamada and Kanjiro Kawai. <sep>, Pronoun: His <sep>, A: MacKenzie <sep>, B: Bernard Leach
+output: A
+Positive example 2-
+input: Reb Chaim Yaakov's wife is the sister of Rabbi Moishe Sternbuch, as is the wife of Rabbi Meshulam Dovid Soloveitchik, making the two Rabbis his uncles. Reb Asher's brother Rabbi Shlomo Arieli is the author of a critical edition of the novallae of Rabbi Akiva Eiger. Before _his_ marriage, Rabbi Arieli studied in the Ponevezh Yeshiva headed by Rabbi Shmuel Rozovsky, and he later studied under his father-in-law in the Mirrer Yeshiva. <sep>, Pronoun: his <sep>, A: Reb Asher <sep>, B: Akiva Eiger
+output: Neither
+Now complete the following example-
+input: He admitted making four trips to China and playing golf there. He also admitted that ZTE officials, whom he says are his golf buddies, hosted and paid for the trips. Jose de Venecia III, son of House Speaker Jose de Venecia Jr, alleged that Abalos offered _him_ US$10 million to withdraw his proposal on the NBN project. <sep>, Pronoun: him <sep>, A: Jose de Venecia Jr <sep>, B: Abalos
+output: ",Neither
+"Definition: In this task, you will be presented with a text, a pronoun from the text, and two candidate names. You should determine what the pronoun refers to and classify the answers into A, B, or Neither. A and B here are referring to option A and option B. Position of the pronoun in the text is showed within two ""_""s.
+Positive example 1-
+input: He grew up in Evanston, Illinois the second oldest of five children including his brothers, Fred and Gordon and sisters, Marge (Peppy) and Marilyn. His high school days were spent at New Trier High School in Winnetka, Illinois. MacKenzie studied with Bernard Leach from 1949 to 1952. _His_ simple, wheel-thrown functional pottery is heavily influenced by the oriental aesthetic of Shoji Hamada and Kanjiro Kawai. <sep>, Pronoun: His <sep>, A: MacKenzie <sep>, B: Bernard Leach
+output: A
+Positive example 2-
+input: Reb Chaim Yaakov's wife is the sister of Rabbi Moishe Sternbuch, as is the wife of Rabbi Meshulam Dovid Soloveitchik, making the two Rabbis his uncles. Reb Asher's brother Rabbi Shlomo Arieli is the author of a critical edition of the novallae of Rabbi Akiva Eiger. Before _his_ marriage, Rabbi Arieli studied in the Ponevezh Yeshiva headed by Rabbi Shmuel Rozovsky, and he later studied under his father-in-law in the Mirrer Yeshiva. <sep>, Pronoun: his <sep>, A: Reb Asher <sep>, B: Akiva Eiger
+output: Neither
+Now complete the following example-
+input: When she returns to her hotel room, a Liberian man (Tony Todd) forces her to smuggle $20 million worth of conflict diamonds to New York, or else fellow fight attendant and friend Angela will die. She is caught before she can board the flight, and the team now have nine hours until the plane lands, and save Angela. After the confiscated diamonds are stolen by the brother of Kaleo (Jason Scott Lee), whom Danny put away for murdering _his_ partner last year, Five-0 and Chief Fryer team up and enlist the help of August March (Ed Asner), who served a 30-year sentence for smuggling diamonds. <sep>, Pronoun: his <sep>, A: Jason Scott Lee <sep>, B: Danny
+output: ",B
+"Definition: In this task, you will be presented with a text, a pronoun from the text, and two candidate names. You should determine what the pronoun refers to and classify the answers into A, B, or Neither. A and B here are referring to option A and option B. Position of the pronoun in the text is showed within two ""_""s.
+Positive example 1-
+input: He grew up in Evanston, Illinois the second oldest of five children including his brothers, Fred and Gordon and sisters, Marge (Peppy) and Marilyn. His high school days were spent at New Trier High School in Winnetka, Illinois. MacKenzie studied with Bernard Leach from 1949 to 1952. _His_ simple, wheel-thrown functional pottery is heavily influenced by the oriental aesthetic of Shoji Hamada and Kanjiro Kawai. <sep>, Pronoun: His <sep>, A: MacKenzie <sep>, B: Bernard Leach
+output: A
+Positive example 2-
+input: Reb Chaim Yaakov's wife is the sister of Rabbi Moishe Sternbuch, as is the wife of Rabbi Meshulam Dovid Soloveitchik, making the two Rabbis his uncles. Reb Asher's brother Rabbi Shlomo Arieli is the author of a critical edition of the novallae of Rabbi Akiva Eiger. Before _his_ marriage, Rabbi Arieli studied in the Ponevezh Yeshiva headed by Rabbi Shmuel Rozovsky, and he later studied under his father-in-law in the Mirrer Yeshiva. <sep>, Pronoun: his <sep>, A: Reb Asher <sep>, B: Akiva Eiger
+output: Neither
+Now complete the following example-
+input: By this time, Karen Blixen had separated from her husband, and after their divorce in 1925, Finch Hatton moved into her house and began leading safaris for wealthy sportsmen. Among his clients were Marshall Field Jr and Edward, Prince of Wales. According to the author Mary Lovell, in 1930 Finch Hatton began a love affair with Beryl Markham, who was working as a race-horse trainer in Nairobi and the surrounding area. Later, _she_ would become known as a pioneer flyer herself (Markham attributed her interest in flying to her association with Tom Campbell Black). <sep>, Pronoun: she <sep>, A: Finch Hatton <sep>, B: Beryl Markham
+output: ",B
+"Definition: In this task, you will be presented with a text, a pronoun from the text, and two candidate names. You should determine what the pronoun refers to and classify the answers into A, B, or Neither. A and B here are referring to option A and option B. Position of the pronoun in the text is showed within two ""_""s.
+Positive example 1-
+input: He grew up in Evanston, Illinois the second oldest of five children including his brothers, Fred and Gordon and sisters, Marge (Peppy) and Marilyn. His high school days were spent at New Trier High School in Winnetka, Illinois. MacKenzie studied with Bernard Leach from 1949 to 1952. _His_ simple, wheel-thrown functional pottery is heavily influenced by the oriental aesthetic of Shoji Hamada and Kanjiro Kawai. <sep>, Pronoun: His <sep>, A: MacKenzie <sep>, B: Bernard Leach
+output: A
+Positive example 2-
+input: Reb Chaim Yaakov's wife is the sister of Rabbi Moishe Sternbuch, as is the wife of Rabbi Meshulam Dovid Soloveitchik, making the two Rabbis his uncles. Reb Asher's brother Rabbi Shlomo Arieli is the author of a critical edition of the novallae of Rabbi Akiva Eiger. Before _his_ marriage, Rabbi Arieli studied in the Ponevezh Yeshiva headed by Rabbi Shmuel Rozovsky, and he later studied under his father-in-law in the Mirrer Yeshiva. <sep>, Pronoun: his <sep>, A: Reb Asher <sep>, B: Akiva Eiger
+output: Neither
+Now complete the following example-
+input: No amount of logic can shatter a faith consciously based on a lie.'' According to The Skeptic's Dictionary, an example of this syndrome is evidenced by an event in 1988 when stage magician James Randi, at the request of an Australian news program, coached stage performer Jos* Alvarez to pretend _he_was channelling a two-thousand-year-old spirit named ``Carlos''. <sep>, Pronoun: he <sep>, A: James Randi <sep>, B: Jos* Alvarez
+output: ",B
+"Definition: In this task, you will be presented with a text, a pronoun from the text, and two candidate names. You should determine what the pronoun refers to and classify the answers into A, B, or Neither. A and B here are referring to option A and option B. Position of the pronoun in the text is showed within two ""_""s.
+Positive example 1-
+input: He grew up in Evanston, Illinois the second oldest of five children including his brothers, Fred and Gordon and sisters, Marge (Peppy) and Marilyn. His high school days were spent at New Trier High School in Winnetka, Illinois. MacKenzie studied with Bernard Leach from 1949 to 1952. _His_ simple, wheel-thrown functional pottery is heavily influenced by the oriental aesthetic of Shoji Hamada and Kanjiro Kawai. <sep>, Pronoun: His <sep>, A: MacKenzie <sep>, B: Bernard Leach
+output: A
+Positive example 2-
+input: Reb Chaim Yaakov's wife is the sister of Rabbi Moishe Sternbuch, as is the wife of Rabbi Meshulam Dovid Soloveitchik, making the two Rabbis his uncles. Reb Asher's brother Rabbi Shlomo Arieli is the author of a critical edition of the novallae of Rabbi Akiva Eiger. Before _his_ marriage, Rabbi Arieli studied in the Ponevezh Yeshiva headed by Rabbi Shmuel Rozovsky, and he later studied under his father-in-law in the Mirrer Yeshiva. <sep>, Pronoun: his <sep>, A: Reb Asher <sep>, B: Akiva Eiger
+output: Neither
+Now complete the following example-
+input: Lieutenant General Weber Pasha wanted Faik Pasha to command the ``Right Wing''. But Liman von Sanders disliked him and he had a quarrel with Faik Pasha for about a tactics. Weber Pasha insisted on his decision. At last unwillingly von Sanders appointed Faik Pasha to the command of Right Wing. _He_fought the Battle of Gully Ravine (28 June -- 3 July 1915) that was a very bloody battle that caused Ottoman Army many casualties. <sep>, Pronoun: He <sep>, A: von Sanders <sep>, B: Faik Pasha
+output: ",B
+"Definition: In this task, you will be presented with a text, a pronoun from the text, and two candidate names. You should determine what the pronoun refers to and classify the answers into A, B, or Neither. A and B here are referring to option A and option B. Position of the pronoun in the text is showed within two ""_""s.
+Positive example 1-
+input: He grew up in Evanston, Illinois the second oldest of five children including his brothers, Fred and Gordon and sisters, Marge (Peppy) and Marilyn. His high school days were spent at New Trier High School in Winnetka, Illinois. MacKenzie studied with Bernard Leach from 1949 to 1952. _His_ simple, wheel-thrown functional pottery is heavily influenced by the oriental aesthetic of Shoji Hamada and Kanjiro Kawai. <sep>, Pronoun: His <sep>, A: MacKenzie <sep>, B: Bernard Leach
+output: A
+Positive example 2-
+input: Reb Chaim Yaakov's wife is the sister of Rabbi Moishe Sternbuch, as is the wife of Rabbi Meshulam Dovid Soloveitchik, making the two Rabbis his uncles. Reb Asher's brother Rabbi Shlomo Arieli is the author of a critical edition of the novallae of Rabbi Akiva Eiger. Before _his_ marriage, Rabbi Arieli studied in the Ponevezh Yeshiva headed by Rabbi Shmuel Rozovsky, and he later studied under his father-in-law in the Mirrer Yeshiva. <sep>, Pronoun: his <sep>, A: Reb Asher <sep>, B: Akiva Eiger
+output: Neither
+Now complete the following example-
+input: He went on to enter mainstream journalism as a reporter and feature writer with the Belfast Sunday News, during the height of the Troubles in Northern Ireland. He was later promoted to Chief Sub- Editor of that newspaper, where he also wrote a weekly column. In 1977 Colin entered into correspondence with a singer and guitar player called Jake Burns, who was trying to promote _his_ band Stiff Little Fingers. <sep>, Pronoun: his <sep>, A: Colin <sep>, B: Jake Burns
+output: ",B
+"Definition: In this task, you will be presented with a text, a pronoun from the text, and two candidate names. You should determine what the pronoun refers to and classify the answers into A, B, or Neither. A and B here are referring to option A and option B. Position of the pronoun in the text is showed within two ""_""s.
+Positive example 1-
+input: He grew up in Evanston, Illinois the second oldest of five children including his brothers, Fred and Gordon and sisters, Marge (Peppy) and Marilyn. His high school days were spent at New Trier High School in Winnetka, Illinois. MacKenzie studied with Bernard Leach from 1949 to 1952. _His_ simple, wheel-thrown functional pottery is heavily influenced by the oriental aesthetic of Shoji Hamada and Kanjiro Kawai. <sep>, Pronoun: His <sep>, A: MacKenzie <sep>, B: Bernard Leach
+output: A
+Positive example 2-
+input: Reb Chaim Yaakov's wife is the sister of Rabbi Moishe Sternbuch, as is the wife of Rabbi Meshulam Dovid Soloveitchik, making the two Rabbis his uncles. Reb Asher's brother Rabbi Shlomo Arieli is the author of a critical edition of the novallae of Rabbi Akiva Eiger. Before _his_ marriage, Rabbi Arieli studied in the Ponevezh Yeshiva headed by Rabbi Shmuel Rozovsky, and he later studied under his father-in-law in the Mirrer Yeshiva. <sep>, Pronoun: his <sep>, A: Reb Asher <sep>, B: Akiva Eiger
+output: Neither
+Now complete the following example-
+input: In 1940 Lester Cowan, an independent film producer, bought F. Scott Fitzgerald's short story, ``Babylon Revisited and Other Stories'' for $80, which was a bargain. Fitzgerald thought his screenwriting days were over and with some hesitation accepted Cowan's offer to write the screenplay titled ``Cosmopolitan'' based on the short story. After finishing the screenplay, Scott was told by Cowan that _he_would not do the film unless Shirley Temple starred in the lead of the youngster Honoria. <sep>, Pronoun: he <sep>, A: Scott <sep>, B: Cowan
+output: ",B
+"Definition: In this task, you will be presented with a text, a pronoun from the text, and two candidate names. You should determine what the pronoun refers to and classify the answers into A, B, or Neither. A and B here are referring to option A and option B. Position of the pronoun in the text is showed within two ""_""s.
+Positive example 1-
+input: He grew up in Evanston, Illinois the second oldest of five children including his brothers, Fred and Gordon and sisters, Marge (Peppy) and Marilyn. His high school days were spent at New Trier High School in Winnetka, Illinois. MacKenzie studied with Bernard Leach from 1949 to 1952. _His_ simple, wheel-thrown functional pottery is heavily influenced by the oriental aesthetic of Shoji Hamada and Kanjiro Kawai. <sep>, Pronoun: His <sep>, A: MacKenzie <sep>, B: Bernard Leach
+output: A
+Positive example 2-
+input: Reb Chaim Yaakov's wife is the sister of Rabbi Moishe Sternbuch, as is the wife of Rabbi Meshulam Dovid Soloveitchik, making the two Rabbis his uncles. Reb Asher's brother Rabbi Shlomo Arieli is the author of a critical edition of the novallae of Rabbi Akiva Eiger. Before _his_ marriage, Rabbi Arieli studied in the Ponevezh Yeshiva headed by Rabbi Shmuel Rozovsky, and he later studied under his father-in-law in the Mirrer Yeshiva. <sep>, Pronoun: his <sep>, A: Reb Asher <sep>, B: Akiva Eiger
+output: Neither
+Now complete the following example-
+input: They have a stormy marriage, caused by his hot temper and her habit of playing away. Soon after arriving on the Street, Liz makes friends with Deirdre Barlow (Anne Kirkbride), whose daughter Tracy (Dawn Acton) is slightly younger than the twins. When asked in a 2010 interview with The Mirror what _her_ favourite scenes were, Beverley Callard replied, ``when Jim beat up Liz. <sep>, Pronoun: her <sep>, A: Beverley Callard <sep>, B: Liz
+output: ",A
+"Definition: In this task, you will be presented with a text, a pronoun from the text, and two candidate names. You should determine what the pronoun refers to and classify the answers into A, B, or Neither. A and B here are referring to option A and option B. Position of the pronoun in the text is showed within two ""_""s.
+Positive example 1-
+input: He grew up in Evanston, Illinois the second oldest of five children including his brothers, Fred and Gordon and sisters, Marge (Peppy) and Marilyn. His high school days were spent at New Trier High School in Winnetka, Illinois. MacKenzie studied with Bernard Leach from 1949 to 1952. _His_ simple, wheel-thrown functional pottery is heavily influenced by the oriental aesthetic of Shoji Hamada and Kanjiro Kawai. <sep>, Pronoun: His <sep>, A: MacKenzie <sep>, B: Bernard Leach
+output: A
+Positive example 2-
+input: Reb Chaim Yaakov's wife is the sister of Rabbi Moishe Sternbuch, as is the wife of Rabbi Meshulam Dovid Soloveitchik, making the two Rabbis his uncles. Reb Asher's brother Rabbi Shlomo Arieli is the author of a critical edition of the novallae of Rabbi Akiva Eiger. Before _his_ marriage, Rabbi Arieli studied in the Ponevezh Yeshiva headed by Rabbi Shmuel Rozovsky, and he later studied under his father-in-law in the Mirrer Yeshiva. <sep>, Pronoun: his <sep>, A: Reb Asher <sep>, B: Akiva Eiger
+output: Neither
+Now complete the following example-
+input: This particular government recalled all the Greek officers who participated in the anti-Ottoman revolutionary movements in Thessaly, Epirus and Macedonia to return to Greece while by personal requirement of Kallergis, Otto's adjutants-- Gennaios Kolokotronis, Spyromilios, Ioannis Mamouris and Gardikiotis Grivas--were dismissed, while the hitherto Minister of Military Affairs, Skarlatos Soutsos, was suspended. When _he_was minister, Kallergis formed for the first time in Greece a fire brigade. <sep>, Pronoun: he <sep>, A: Ioannis Mamouris <sep>, B: Kallergis
+output: ",B
+"Definition: In this task, you will be presented with a text, a pronoun from the text, and two candidate names. You should determine what the pronoun refers to and classify the answers into A, B, or Neither. A and B here are referring to option A and option B. Position of the pronoun in the text is showed within two ""_""s.
+Positive example 1-
+input: He grew up in Evanston, Illinois the second oldest of five children including his brothers, Fred and Gordon and sisters, Marge (Peppy) and Marilyn. His high school days were spent at New Trier High School in Winnetka, Illinois. MacKenzie studied with Bernard Leach from 1949 to 1952. _His_ simple, wheel-thrown functional pottery is heavily influenced by the oriental aesthetic of Shoji Hamada and Kanjiro Kawai. <sep>, Pronoun: His <sep>, A: MacKenzie <sep>, B: Bernard Leach
+output: A
+Positive example 2-
+input: Reb Chaim Yaakov's wife is the sister of Rabbi Moishe Sternbuch, as is the wife of Rabbi Meshulam Dovid Soloveitchik, making the two Rabbis his uncles. Reb Asher's brother Rabbi Shlomo Arieli is the author of a critical edition of the novallae of Rabbi Akiva Eiger. Before _his_ marriage, Rabbi Arieli studied in the Ponevezh Yeshiva headed by Rabbi Shmuel Rozovsky, and he later studied under his father-in-law in the Mirrer Yeshiva. <sep>, Pronoun: his <sep>, A: Reb Asher <sep>, B: Akiva Eiger
+output: Neither
+Now complete the following example-
+input: Nicole flirts with Charlie and gives him her phone number. She later truants from school and visits Charlie. Nicole later arranges a date with Charlie, telling Michael she feels too ill to go to school. When Nicole kisses Charlie, Annie Sobacz (Reanne Farley) stops _her_ and tells Charlie that Nicole is a school girl. <sep>, Pronoun: her <sep>, A: Nicole <sep>, B: Annie Sobacz
+output: ",A

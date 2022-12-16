@@ -1,0 +1,41 @@
+input,output
+"Definition: Two analogies that relate items to whether they are trash or treasure is given in the form ""A : B. C : ?"". Items marked as ""trash"" are considered to not have value and can be disposed, whereas those marked as ""treasure"" are considered valuable items that must be retained. ""A : ""B relates item A to whether it is trash or treasure, as specified by B. Your task is to replace the question mark (?) with either `trash` or `treasure` for the given item C, following the ""A : B"" relation.
+Positive example 1-
+input: book : treasure. pillow : ?
+output: treasure
+Positive example 2-
+input: leaf : trash. ring : ?
+output: treasure
+Now complete the following example-
+input: wrapper : trash. book : ?
+output: ",treasure
+"Definition: Two analogies that relate items to whether they are trash or treasure is given in the form ""A : B. C : ?"". Items marked as ""trash"" are considered to not have value and can be disposed, whereas those marked as ""treasure"" are considered valuable items that must be retained. ""A : ""B relates item A to whether it is trash or treasure, as specified by B. Your task is to replace the question mark (?) with either `trash` or `treasure` for the given item C, following the ""A : B"" relation.
+Positive example 1-
+input: book : treasure. pillow : ?
+output: treasure
+Positive example 2-
+input: leaf : trash. ring : ?
+output: treasure
+Now complete the following example-
+input: wrapper : trash. leaf : ?
+output: ",trash
+"Definition: Two analogies that relate items to whether they are trash or treasure is given in the form ""A : B. C : ?"". Items marked as ""trash"" are considered to not have value and can be disposed, whereas those marked as ""treasure"" are considered valuable items that must be retained. ""A : ""B relates item A to whether it is trash or treasure, as specified by B. Your task is to replace the question mark (?) with either `trash` or `treasure` for the given item C, following the ""A : B"" relation.
+Positive example 1-
+input: book : treasure. pillow : ?
+output: treasure
+Positive example 2-
+input: leaf : trash. ring : ?
+output: treasure
+Now complete the following example-
+input: wrapper : trash. bug : ?
+output: ",trash
+"Definition: Two analogies that relate items to whether they are trash or treasure is given in the form ""A : B. C : ?"". Items marked as ""trash"" are considered to not have value and can be disposed, whereas those marked as ""treasure"" are considered valuable items that must be retained. ""A : ""B relates item A to whether it is trash or treasure, as specified by B. Your task is to replace the question mark (?) with either `trash` or `treasure` for the given item C, following the ""A : B"" relation.
+Positive example 1-
+input: book : treasure. pillow : ?
+output: treasure
+Positive example 2-
+input: leaf : trash. ring : ?
+output: treasure
+Now complete the following example-
+input: wrapper : trash. slime : ?
+output: ",trash

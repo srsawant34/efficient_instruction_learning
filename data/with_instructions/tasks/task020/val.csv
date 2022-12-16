@@ -1,0 +1,131 @@
+input,output
+"Definition: The answer will be 'yes' if the provided sentence contains an explicit mention that answers the given question. Otherwise, the answer should be 'no'. Instances where the answer is implied from the sentence using ""instinct"" or ""common sense"" (as opposed to being written explicitly in the sentence) should be labeled as 'no'.
+Positive example 1-
+input: Sentence: Jack played basketball for an hour after school, after which he was very tired. 
+Question: How long did Jack play basketball?
+output: Yes.
+Positive example 2-
+input: Sentence: He was born in China, so he went to the Embassy at 1 pm to apply for a U.S. Visa. 
+Question: When did he go to Embassy?
+output: Yes.
+Now complete the following example-
+input: Sentence: She began to tell the story of Majestic, the wild horse who could not be calmed. 
+Question: What happened after she told the story?
+output: ",No.
+"Definition: The answer will be 'yes' if the provided sentence contains an explicit mention that answers the given question. Otherwise, the answer should be 'no'. Instances where the answer is implied from the sentence using ""instinct"" or ""common sense"" (as opposed to being written explicitly in the sentence) should be labeled as 'no'.
+Positive example 1-
+input: Sentence: Jack played basketball for an hour after school, after which he was very tired. 
+Question: How long did Jack play basketball?
+output: Yes.
+Positive example 2-
+input: Sentence: He was born in China, so he went to the Embassy at 1 pm to apply for a U.S. Visa. 
+Question: When did he go to Embassy?
+output: Yes.
+Now complete the following example-
+input: Sentence: This sediment has been eroded off areas of land from upstream. 
+Question: When does most of the erosion occur?
+output: ",No.
+"Definition: The answer will be 'yes' if the provided sentence contains an explicit mention that answers the given question. Otherwise, the answer should be 'no'. Instances where the answer is implied from the sentence using ""instinct"" or ""common sense"" (as opposed to being written explicitly in the sentence) should be labeled as 'no'.
+Positive example 1-
+input: Sentence: Jack played basketball for an hour after school, after which he was very tired. 
+Question: How long did Jack play basketball?
+output: Yes.
+Positive example 2-
+input: Sentence: He was born in China, so he went to the Embassy at 1 pm to apply for a U.S. Visa. 
+Question: When did he go to Embassy?
+output: Yes.
+Now complete the following example-
+input: Sentence: But while Ahmadinejad's mercurial rants captured our media's attention, back in Iran a coordinated strategy against the women's movement continued. 
+Question: Did Ahmadinejad's rantings continue once the women's movement ended?
+output: ",Yes.
+"Definition: The answer will be 'yes' if the provided sentence contains an explicit mention that answers the given question. Otherwise, the answer should be 'no'. Instances where the answer is implied from the sentence using ""instinct"" or ""common sense"" (as opposed to being written explicitly in the sentence) should be labeled as 'no'.
+Positive example 1-
+input: Sentence: Jack played basketball for an hour after school, after which he was very tired. 
+Question: How long did Jack play basketball?
+output: Yes.
+Positive example 2-
+input: Sentence: He was born in China, so he went to the Embassy at 1 pm to apply for a U.S. Visa. 
+Question: When did he go to Embassy?
+output: Yes.
+Now complete the following example-
+input: Sentence: The Portuguese Crown, delighted with its first important discovery, immediately embarked on a program of colonization. 
+Question: How often did the Portuguese send new settlers to the colonies?
+output: ",No.
+"Definition: The answer will be 'yes' if the provided sentence contains an explicit mention that answers the given question. Otherwise, the answer should be 'no'. Instances where the answer is implied from the sentence using ""instinct"" or ""common sense"" (as opposed to being written explicitly in the sentence) should be labeled as 'no'.
+Positive example 1-
+input: Sentence: Jack played basketball for an hour after school, after which he was very tired. 
+Question: How long did Jack play basketball?
+output: Yes.
+Positive example 2-
+input: Sentence: He was born in China, so he went to the Embassy at 1 pm to apply for a U.S. Visa. 
+Question: When did he go to Embassy?
+output: Yes.
+Now complete the following example-
+input: Sentence: In Colombia, the drug-financed guerrillas trying to seize the country and destroy democracy include M-19, which Castro has clearly backed. 
+Question: Is Colombia's democratic government stable?
+output: ",No.
+"Definition: The answer will be 'yes' if the provided sentence contains an explicit mention that answers the given question. Otherwise, the answer should be 'no'. Instances where the answer is implied from the sentence using ""instinct"" or ""common sense"" (as opposed to being written explicitly in the sentence) should be labeled as 'no'.
+Positive example 1-
+input: Sentence: Jack played basketball for an hour after school, after which he was very tired. 
+Question: How long did Jack play basketball?
+output: Yes.
+Positive example 2-
+input: Sentence: He was born in China, so he went to the Embassy at 1 pm to apply for a U.S. Visa. 
+Question: When did he go to Embassy?
+output: Yes.
+Now complete the following example-
+input: Sentence: In Malaysia, Powell met with Prime Minister Mahathir Mohamad, who has led the country since 1981. 
+Question: What did Powell do after meeting with the Prime Minister ?
+output: ",No.
+"Definition: The answer will be 'yes' if the provided sentence contains an explicit mention that answers the given question. Otherwise, the answer should be 'no'. Instances where the answer is implied from the sentence using ""instinct"" or ""common sense"" (as opposed to being written explicitly in the sentence) should be labeled as 'no'.
+Positive example 1-
+input: Sentence: Jack played basketball for an hour after school, after which he was very tired. 
+Question: How long did Jack play basketball?
+output: Yes.
+Positive example 2-
+input: Sentence: He was born in China, so he went to the Embassy at 1 pm to apply for a U.S. Visa. 
+Question: When did he go to Embassy?
+output: Yes.
+Now complete the following example-
+input: Sentence: The Portuguese Crown, delighted with its first important discovery, immediately embarked on a program of colonization. 
+Question: How long did it take the Portuguese to colonize the new territory?
+output: ",No.
+"Definition: The answer will be 'yes' if the provided sentence contains an explicit mention that answers the given question. Otherwise, the answer should be 'no'. Instances where the answer is implied from the sentence using ""instinct"" or ""common sense"" (as opposed to being written explicitly in the sentence) should be labeled as 'no'.
+Positive example 1-
+input: Sentence: Jack played basketball for an hour after school, after which he was very tired. 
+Question: How long did Jack play basketball?
+output: Yes.
+Positive example 2-
+input: Sentence: He was born in China, so he went to the Embassy at 1 pm to apply for a U.S. Visa. 
+Question: When did he go to Embassy?
+output: Yes.
+Now complete the following example-
+input: Sentence: Cathy Wallace did not always know what she wanted to be when she grew up. 
+Question: What time would Cathy wonder about these things?
+output: ",Yes.
+"Definition: The answer will be 'yes' if the provided sentence contains an explicit mention that answers the given question. Otherwise, the answer should be 'no'. Instances where the answer is implied from the sentence using ""instinct"" or ""common sense"" (as opposed to being written explicitly in the sentence) should be labeled as 'no'.
+Positive example 1-
+input: Sentence: Jack played basketball for an hour after school, after which he was very tired. 
+Question: How long did Jack play basketball?
+output: Yes.
+Positive example 2-
+input: Sentence: He was born in China, so he went to the Embassy at 1 pm to apply for a U.S. Visa. 
+Question: When did he go to Embassy?
+output: Yes.
+Now complete the following example-
+input: Sentence: Some are trying to escape eviction or an abusive marriage. 
+Question: What happens if they manage to escape?
+output: ",No.
+"Definition: The answer will be 'yes' if the provided sentence contains an explicit mention that answers the given question. Otherwise, the answer should be 'no'. Instances where the answer is implied from the sentence using ""instinct"" or ""common sense"" (as opposed to being written explicitly in the sentence) should be labeled as 'no'.
+Positive example 1-
+input: Sentence: Jack played basketball for an hour after school, after which he was very tired. 
+Question: How long did Jack play basketball?
+output: Yes.
+Positive example 2-
+input: Sentence: He was born in China, so he went to the Embassy at 1 pm to apply for a U.S. Visa. 
+Question: When did he go to Embassy?
+output: Yes.
+Now complete the following example-
+input: Sentence: After the August missile strikes, diplomatic options to press the Taliban seemed no more promising than military options. 
+Question: When did the strikes start?
+output: ",Yes.

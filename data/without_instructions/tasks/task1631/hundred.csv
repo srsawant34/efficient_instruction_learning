@@ -1,0 +1,501 @@
+input,output
+"input: entity: harness 
+before: packed away 
+after: in hand 
+attr: location
+output: ",location of harness was packed away before and in hand afterwards
+"input: entity: person 
+before: out of harness 
+after: in harness 
+attr: location
+output: ",location of person was out of harness before and in harness afterwards
+"input: entity: person 
+before: on ground 
+after: in air 
+attr: location
+output: ",location of person was on ground before and in air afterwards
+"input: entity: you 
+before: on trampoline 
+after: now doing backdrop pull-over 
+attr: state
+output: ",state of you was on trampoline before and now doing a backdrop pull-over afterwards
+"input: entity: you 
+before: doing each skill seperately 
+after: now combining skills 
+attr: movement
+output: ",movement of you was doing each skill seperately before and now combining skills afterwards
+"input: entity: you 
+before: pulling legs over slower 
+after: now pulling legs over faster 
+attr: movement
+output: ",movement of you was pulling legs over slower before and now pulling legs over faster afterwards
+"input: entity: engine 
+before: engaged fully 
+after: idling 
+attr: power
+output: ",power of engine was engaged fully before and idling afterwards
+"input: entity: plane 
+before: unfocused 
+after: oriented in single direction 
+attr: orientation
+output: ",orientation of plane was unfocused before and oriented in single direction afterwards
+"input: entity: plane 
+before: heading forward 
+after: turned toward wind 
+attr: depth
+output: ",depth of plane was heading forward before and turned toward wind afterwards
+"input: entity: engine 
+before: disengaged 
+after: engaged 
+attr: power
+output: ",power of engine was disengaged before and engaged afterwards
+"input: entity: lever 
+before: closed 
+after: open 
+attr: state
+output: ",state of lever was closed before and open afterwards
+"input: entity: skewer 
+before: in 
+after: out 
+attr: state
+output: ",state of skewer was in before and out afterwards
+"input: entity: shaft 
+before: unlubed 
+after: lubed 
+attr: state
+output: ",state of shaft was unlubed before and lubed afterwards
+"input: entity: skewer 
+before: out of wheel 
+after: in wheel 
+attr: placement
+output: ",placement of skewer was out of wheel before and in wheel afterwards
+"input: entity: cardboard 
+before: uncut 
+after: cut 
+attr: composition
+output: ",composition of cardboard was uncut before and cut afterwards
+"input: entity: can 
+before: unopened 
+after: opened 
+attr: state
+output: ",state of can was unopened before and opened afterwards
+"input: entity: hardener 
+before: in tube 
+after: outside of tube 
+attr: location
+output: ",location of hardener was in tube before and outside of tube afterwards
+"input: entity: substances 
+before: unmixed 
+after: mixed 
+attr: composition
+output: ",composition of substances was unmixed before and mixed afterwards
+"input: entity: search bar 
+before: empty 
+after: filled 
+attr: volume
+output: ",volume of search bar was empty before and filled afterwards
+"input: entity: credit card 
+before: in wallet 
+after: out of wallet 
+attr: location
+output: ",location of credit card was in wallet before and out of wallet afterwards
+"input: entity: website information page 
+before: empty 
+after: full 
+attr: volume
+output: ",volume of website information page was empty before and full afterwards
+"input: entity: computer 
+before: quite 
+after: thinking 
+attr: state
+output: ",state of computer was quite before and thinking afterwards
+"input: entity: potato 
+before: whole 
+after: in half 
+attr: state
+output: ",state of potato was whole before and in half afterwards
+"input: entity: window 
+before: untouched by potato 
+after: now touched by potato 
+attr: placement
+output: ",placement of window was untouched by potato before and now touched by potato afterwards
+"input: entity: other half of potato 
+before: on cutting board 
+after: on window 
+attr: location
+output: ",location of other half of potato was on the cutting board before and on the window afterwards
+"input: entity: window 
+before: wet 
+after: now drying 
+attr: state
+output: ",state of window was wet before and now drying afterwards
+"input: entity: tools 
+before: in storage 
+after: on site 
+attr: location
+output: ",location of tools was in storage before and on site afterwards
+"input: entity: centre nut 
+before: on steering wheel 
+after: loose from steering column 
+attr: tightness
+output: ",tightness of centre nut was on steering wheel before and loose from steering column afterwards
+"input: entity: ratchet 
+before: in toolbox 
+after: atop steering wheel 
+attr: location
+output: ",location of ratchet was in toolbox before and atop steering wheel afterwards
+"input: entity: wheel 
+before: connected to column 
+after: loose 
+attr: orientation
+output: ",orientation of wheel was connected to column before and loose afterwards
+"input: entity: hand brake 
+before: disengaged 
+after: engaged 
+attr: engagement
+output: ",engagement of hand brake was disengaged before and engaged afterwards
+"input: entity: 20p 
+before: in pocket 
+after: in hand 
+attr: location
+output: ",location of 20p was in pocket before and in hand afterwards
+"input: entity: grooves 
+before: bare 
+after: covered 
+attr: composition
+output: ",composition of grooves was bare before and covered afterwards
+"input: entity: person 
+before: novice 
+after: experienced 
+attr: experience
+output: ",experience of person was novice before and experienced afterwards
+"input: entity: location 
+before: undetermined 
+after: selected 
+attr: knowledge
+output: ",knowledge of location was undetermined before and selected afterwards
+"input: entity: soil 
+before: wet 
+after: dry 
+attr: moisture
+output: ",moisture of soil was wet before and dry afterwards
+"input: entity: climber 
+before: unsupported 
+after: supported 
+attr: state
+output: ",state of climber was unsupported before and supported afterwards
+"input: entity: water 
+before: in hose 
+after: in soil 
+attr: location
+output: ",location of water was in hose before and in soil afterwards
+"input: entity: space 
+before: undivided 
+after: separated with line 
+attr: space
+output: ",space of space was undivided before and separated with line afterwards
+"input: entity: players 
+before: standing together 
+after: divided on either side of line 
+attr: players/teams
+output: ",players/teams of players was standing together before and divided on either side of line afterwards
+"input: entity: clothing 
+before: in good shape 
+after: stretched out 
+attr: form
+output: ",form of clothing was in good shape before and stretched out afterwards
+"input: entity: teams 
+before: playing 
+after: selected as winners and losers 
+attr: organization
+output: ",organization of teams was playing before and selected as winners and losers afterwards
+"input: entity: urine spot 
+before: on floor 
+after: cleaned with wet cloth 
+attr: urine spot
+output: ",urine spot of urine spot was on floor before and cleaned with wet cloth afterwards
+"input: entity: location 
+before: wet from cloth 
+after: sprinkled with baking soda 
+attr: location
+output: ",location of location was wet from cloth before and sprinkled with baking soda afterwards
+"input: entity: baking soda 
+before: on bed 
+after: vacuumed off 
+attr: baking soda
+output: ",baking soda of baking soda was on bed before and vacuumed off afterwards
+"input: entity: hide 
+before: unfound 
+after: found 
+attr: location
+output: ","location of hide was unfound before, and found afterwards."
+"input: entity: leather 
+before: unseen 
+after: spotted 
+attr: knowledge
+output: ",knowledge of leather was unseen before and spotted afterwards
+"input: entity: leather 
+before: unspawned 
+after: spawned 
+attr: state
+output: ",state of leather was unspawned before and spawned afterwards
+"input: entity: leather 
+before: on map 
+after: in inventory 
+attr: availability
+output: ",availability of leather was on map before and in inventory afterwards
+"input: entity: oven knob 
+before: in off position 
+after: in on position 
+attr: orientation
+output: ",orientation of oven knob was in the off position before and in the on position afterwards
+"input: entity: vanilla 
+before: in bottle 
+after: in bowl 
+attr: location
+output: ",location of vanilla was in the bottle before and in the bowl afterwards
+"input: entity: cookie sheet 
+before: empty 
+after: full of cookies 
+attr: fullness
+output: ",fullness of cookie sheet was empty before and full of cookies afterwards
+"input: entity: cookies 
+before: raw 
+after: cooked 
+attr: composition
+output: ",composition of cookies was raw before and cooked afterwards
+"input: entity: the pumice stone 
+before: on ground 
+after: in possession of person 
+attr: location
+output: ",location of the pumice stone was on the ground before and in possession of a person afterwards
+"input: entity: the bowl 
+before: empty 
+after: filled with water 
+attr: composition
+output: ",composition of the bowl was empty before and filled with water afterwards
+"input: entity: the sink 
+before: stained 
+after: being cleaned 
+attr: cleanness
+output: ",cleanness of the sink was stained before and being cleaned afterwards
+"input: entity: the sink 
+before: left with grit 
+after: completely clean 
+attr: cleanness
+output: ",cleanness of the sink was left with grit before and completely clean afterwards
+"input: entity: the character 
+before: unamed 
+after: now named 
+attr: state
+output: ",state of the character was unamed before and now named afterwards
+"input: entity: the character 
+before: plain 
+after: now awesome 
+attr: state
+output: ",state of the character was plain before and now awesome afterwards
+"input: entity: you 
+before: being dull in chat 
+after: now being interesting in chat 
+attr: state
+output: ",state of you was being dull in chat before and now being interesting in chat afterwards
+"input: entity: you 
+before: possibly being inconsiderate 
+after: now being nice 
+attr: behavior
+output: ",behavior of you was possibly being inconsiderate before and now being nice afterwards
+"input: entity: ingredients 
+before: in cupboard 
+after: on counter 
+attr: location
+output: ",location of ingredients was in the cupboard before and on the counter afterwards
+"input: entity: bowl 
+before: empty 
+after: full 
+attr: fulness
+output: ",fulness of bowl was empty before and full afterwards
+"input: entity: container 
+before: empty 
+after: full 
+attr: fulness
+output: ",fulness of container was empty before and full afterwards
+"input: entity: ingredients 
+before: in container 
+after: in cooking pan 
+attr: location
+output: ",location of ingredients was in the container before and in the cooking pan afterwards
+"input: entity: coat hanger 
+before: in closet 
+after: in hand 
+attr: location
+output: ",location of coat hanger was in closet before and in hand afterwards
+"input: entity: coat hanger 
+before: in hand 
+after: in closet 
+attr: location
+output: ",location of coat hanger was in hand before and in closet afterwards
+"input: entity: magazine 
+before: on shelf 
+after: on coat hanger 
+attr: location
+output: ",location of magazine was on shelf before and on coat hanger afterwards
+"input: entity: coat hanger 
+before: on flat surface 
+after: hanging 
+attr: orientation
+output: ",orientation of coat hanger was on flat surface before and hanging afterwards
+"input: entity: hand 
+before: empty 
+after: holding pen 
+attr: state
+output: ",state of hand was empty before and holding a pen afterwards
+"input: entity: hand 
+before: stationary 
+after: flexing 
+attr: flexibility
+output: ","flexibility of hand was stationary before, and flexing afterwards."
+"input: entity: hand 
+before: holding black pen 
+after: holding red marker 
+attr: state
+output: ",state of hand was holding a black pen before and holding a red marker afterwards
+"input: entity: rag 
+before: dry 
+after: wet 
+attr: dryness
+output: ",dryness of rag was dry before and wet afterwards
+"input: entity: sponge 
+before: clean 
+after: dirty 
+attr: cleanness
+output: ",cleanness of sponge was clean before and dirty afterwards
+"input: entity: grime 
+before: on faucet 
+after: on sponge 
+attr: location
+output: ",location of grime was on faucet before and on sponge afterwards
+"input: entity: water 
+before: in pipes 
+after: in sink drain 
+attr: location
+output: ",location of water was in pipes before and in sink drain afterwards
+"input: entity: the paper 
+before: blank 
+after: written on 
+attr: empitness
+output: ",empitness of the paper was blank before and written on afterwards
+"input: entity: the letters 
+before: similar sized 
+after: multiple sizes 
+attr: size
+output: ",size of the letters was similar sized before and multiple sizes afterwards
+"input: entity: the letters 
+before: unbalanced 
+after: balanced 
+attr: organization
+output: ",organization of the letters was unbalanced before and balanced afterwards
+"input: entity: the markings 
+before: verbal 
+after: representational 
+attr: meaning
+output: ",meaning of the markings was verbal before and representational afterwards
+"input: entity: teapot 
+before: empty 
+after: full of hot water 
+attr: volume
+output: ",volume of teapot was empty before and full of hot water afterwards
+"input: entity: water 
+before: still 
+after: swirling 
+attr: stability
+output: ",stability of water was still before and swirling afterwards
+"input: entity: teapot 
+before: full 
+after: emptied 
+attr: volume
+output: ",volume of teapot was full before and emptied afterwards
+"input: entity: tea 
+before: in pot 
+after: in cup 
+attr: location
+output: ",location of tea was in pot before and in cup afterwards
+"input: entity: soil 
+before: seedless 
+after: seeded 
+attr: composition
+output: ",composition of soil was seedless before and seeded afterwards
+"input: entity: soil 
+before: dry 
+after: wet 
+attr: moisture
+output: ",moisture of soil was dry before and wet afterwards
+"input: entity: fertilizer 
+before: inside bottle 
+after: in soil 
+attr: location
+output: ",location of fertilizer was inside a bottle before and in the soil afterwards
+"input: entity: tube 
+before: in store 
+after: at home 
+attr: location
+output: ",location of tube was in store before and at home afterwards
+"input: entity: fusible webbing 
+before: compact 
+after: distended 
+attr: shape
+output: ",shape of fusible webbing was compact before and distended afterwards
+"input: entity: fusible webbing 
+before: loose 
+after: trapped in tube 
+attr: location
+output: ",location of fusible webbing was loose before and trapped in tube afterwards
+"input: entity: fusible webbing 
+before: loose 
+after: contained 
+attr: location
+output: ",location of fusible webbing was loose before and contained afterwards
+"input: entity: glass 
+before: empty 
+after: filled with ice cubes 
+attr: container
+output: ",container of glass was empty before and filled with ice cubes afterwards
+"input: entity: glass 
+before: clear 
+after: red 
+attr: color
+output: ",color of glass was clear before and red afterwards
+"input: entity: orange 
+before: whole 
+after: sliced 
+attr: size
+output: ",size of orange was whole before and sliced afterwards
+"input: entity: cocktail 
+before: absent 
+after: prepared 
+attr: availability
+output: ",availability of cocktail was absent before and prepared afterwards
+"input: entity: container 
+before: closed 
+after: open 
+attr: openness
+output: ",openness of container was closed before and open afterwards
+"input: entity: silk item 
+before: dry 
+after: wet 
+attr: dryness
+output: ",dryness of silk item was dry before and wet afterwards
+"input: entity: item 
+before: cool 
+after: warm 
+attr: temperature
+output: ",temperature of item was cool before and warm afterwards
+"input: entity: item 
+before: dirty 
+after: clean 
+attr: cleanness
+output: ",cleanness of item was dirty before and clean afterwards
+"input: entity: bamboo 
+before: planted 
+after: cut 
+attr: state
+output: ",state of bamboo was planted before and cut afterwards

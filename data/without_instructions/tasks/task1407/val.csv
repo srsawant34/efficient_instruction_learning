@@ -1,0 +1,21 @@
+input,output
+"input: [['Argir', 'POPULATION', '1907'], ['Argir', 'POSTAL_CODE', 'FO 160']]
+output: ",The postal code for _____ town with a populcation of 1907 is FO 160
+"input: [['Casper Elgaard', 'YEAR', '2007'], ['Casper Elgaard', 'POSITION', '7th'], ['Casper Elgaard', 'TEAM', 'Aston Martin Racing Larbre'], ['Casper Elgaard', 'LAPS', '341']]
+output: ","In 2007, _____ is in team Aston Martin Racing Larbre and has 341 laps and _____ position"
+"input: [['Indonesia', 'CAPITAL', 'Jakarta'], ['Indonesia', 'LANGUAGE', 'Indonesian language'], ['Bakso', 'REGION', 'Indonesia'], ['Bakso', 'COUNTRY', 'Indonesia'], ['Indonesia', 'LEADER_NAME', 'Joko Widodo']]
+output: ","Bakso is a dish from _____, led by _____, where Indonesian is spoken, and whose capital is Jakarta."
+"input: [['The Eagle', 'eatType', 'coffee shop'], ['The Eagle', 'food', 'French'], ['The Eagle', 'priceRange', '£20-25'], ['The Eagle', 'customer rating', '3 out of 5'], ['The Eagle', 'area', 'riverside'], ['The Eagle', 'familyFriendly', 'no'], ['The Eagle', 'near', 'Burger King']]
+output: ","_____ is a French coffee shop located in riverside near the _____. It has an average price range of £20-25 and a 3 out of 5 customer rating, however it is not kid friendly."
+"input: [['Afonso Pena International Airport', 'CITY_SERVED', 'Curitiba'], ['Curitiba', 'COUNTRY', 'Brazil'], ['Curitiba', 'IS_PART_OF', 'Paraná (state)'], ['Curitiba', 'LEADER_NAME', 'Democratic Labour Party (Brazil)'], ['Curitiba', 'IS_PART_OF', 'South Region, Brazil']]
+output: ","Afonsa Pena International Airport serves the city of _____ in the state of Paraná, Brazil. Curitiba is part of the South Region and is led by the Democratic Labour party."
+"input: [['Binignit', 'MAIN_INGREDIENTS', 'Sweet potato'], ['Binignit', 'REGION', 'Visayas'], ['Binignit', 'COUNTRY', 'Philippines'], ['Binignit', 'INGREDIENT', 'Sago']]
+output: ",The main ingredient of _____ is sweet potato and it also contains sago. The dish comes from the Visayas region of the Philippines.
+"input: [['Blue Spice', 'priceRange', 'more than £30'], ['Blue Spice', 'customer rating', 'low'], ['Blue Spice', 'area', 'riverside'], ['Blue Spice', 'familyFriendly', 'no']]
+output: ","With a low customer rating and a price range of more than £30, you'll find _____ on the riverside is _____t children friendly."
+"input: [['The Waterman', 'food', 'Chinese'], ['The Waterman', 'area', 'city centre'], ['The Waterman', 'familyFriendly', 'yes']]
+output: ",A family friendly place serving _____ food is called _____.  It is located in the city center
+"input: [['Fitzbillies', 'eatType', 'restaurant'], ['Fitzbillies', 'priceRange', 'moderate'], ['Fitzbillies', 'customer rating', '1 out of 5'], ['Fitzbillies', 'familyFriendly', 'yes'], ['Fitzbillies', 'near', 'Express by Holiday Inn']]
+output: ","A kid-friendly restaurant located near Express by Holiday Inn, called _____ has a moderate price range and is rated _____ by customers."
+"input: [['Ampara Hospital', 'COUNTRY', 'Sri Lanka'], ['Ampara Hospital', 'LOCATION', 'Ampara']]
+output: ","_____ is located in Ampara, Sri Lanka."

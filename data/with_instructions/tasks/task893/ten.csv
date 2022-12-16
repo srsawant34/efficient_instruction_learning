@@ -1,0 +1,101 @@
+input,output
+"Definition: Read the passage and find the corresponding pronoun for the given name. The pronoun should match the given blank(_). The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: Dorothy Moore (born 13 October 1946, Jackson, Mississippi ) is an American pop, R&B, and soulsinger best known for her 1976 hit song, ``Misty Blue''. Born to Mary Moore and Melvin Hendrex Snr., aka Melvin Henderson of the Mississippi Blind Boys, **Dorothy** was raised by _ great grandmother.
+output: her
+Positive example 2-
+input: Groucutt began his musical career at 15 as Rikki Storm of Rikki Storm and the Falcons. He went on to sing with various outfits during the '60s, picking up the guitar as he went along. **Groucutt** was also a member of a band called ``Sight and Sound'', and later with a band called ``Barefoot''. It was while playing with Barefoot in Birmingham that _ was spotted by ELO's Jeff Lynne; and after Lynne, Bev Bevan and Richard Tandy had watched him play, he was invited to join ELO, to replace Mike de Albuquerque, who had recently left the band.
+output: he
+Now complete the following example-
+input: Because of its convenient size and its proximity to the earlier royal castle and the present royal palace it has frequently been the site of major events in Swedish history, such as coronations, royal wedding and royal funerals. The last Swedish king to be crowned here was Oscar II in 1873. Crown Princess **Victoria**, oldest daughter of King Carl XVI Gustaf and Queen Silvia, was married to Daniel Westling on 19 June 2010 at the Storkyrkan, the same date on which _ parents were also married in Storkyrkan in 1976.
+output: ",her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The pronoun should match the given blank(_). The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: Dorothy Moore (born 13 October 1946, Jackson, Mississippi ) is an American pop, R&B, and soulsinger best known for her 1976 hit song, ``Misty Blue''. Born to Mary Moore and Melvin Hendrex Snr., aka Melvin Henderson of the Mississippi Blind Boys, **Dorothy** was raised by _ great grandmother.
+output: her
+Positive example 2-
+input: Groucutt began his musical career at 15 as Rikki Storm of Rikki Storm and the Falcons. He went on to sing with various outfits during the '60s, picking up the guitar as he went along. **Groucutt** was also a member of a band called ``Sight and Sound'', and later with a band called ``Barefoot''. It was while playing with Barefoot in Birmingham that _ was spotted by ELO's Jeff Lynne; and after Lynne, Bev Bevan and Richard Tandy had watched him play, he was invited to join ELO, to replace Mike de Albuquerque, who had recently left the band.
+output: he
+Now complete the following example-
+input: After the Obsidian Age storyline saw Plastic Man spend three thousand years scattered across the ocean floor as crumbs until the League of the present were able to stick him back together, he took time off to be with Luke, even mentally 'programming' himself to forget his heroic identity and powers, but Luke and Batman convinced him to go back to action when the Martian Manhunter regressed to a '**Burning Martian**' identity as the telepathy-immune Plastic Man was the only person capable of opposing _ in a fight.
+output: ",him
+"Definition: Read the passage and find the corresponding pronoun for the given name. The pronoun should match the given blank(_). The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: Dorothy Moore (born 13 October 1946, Jackson, Mississippi ) is an American pop, R&B, and soulsinger best known for her 1976 hit song, ``Misty Blue''. Born to Mary Moore and Melvin Hendrex Snr., aka Melvin Henderson of the Mississippi Blind Boys, **Dorothy** was raised by _ great grandmother.
+output: her
+Positive example 2-
+input: Groucutt began his musical career at 15 as Rikki Storm of Rikki Storm and the Falcons. He went on to sing with various outfits during the '60s, picking up the guitar as he went along. **Groucutt** was also a member of a band called ``Sight and Sound'', and later with a band called ``Barefoot''. It was while playing with Barefoot in Birmingham that _ was spotted by ELO's Jeff Lynne; and after Lynne, Bev Bevan and Richard Tandy had watched him play, he was invited to join ELO, to replace Mike de Albuquerque, who had recently left the band.
+output: he
+Now complete the following example-
+input: **Ellen Arden** (Monroe), a photographer and mother of two small children, has been declared legally dead, having been lost at sea in the Pacific. _ husband Nick (Dean Martin) has remarried; he and his new wife, Bianca (Cyd Charisse), are on their honeymoon when Ellen, rescued from an island where she has been stranded for five years, returns home.
+output: ",Her
+"Definition: Read the passage and find the corresponding pronoun for the given name. The pronoun should match the given blank(_). The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: Dorothy Moore (born 13 October 1946, Jackson, Mississippi ) is an American pop, R&B, and soulsinger best known for her 1976 hit song, ``Misty Blue''. Born to Mary Moore and Melvin Hendrex Snr., aka Melvin Henderson of the Mississippi Blind Boys, **Dorothy** was raised by _ great grandmother.
+output: her
+Positive example 2-
+input: Groucutt began his musical career at 15 as Rikki Storm of Rikki Storm and the Falcons. He went on to sing with various outfits during the '60s, picking up the guitar as he went along. **Groucutt** was also a member of a band called ``Sight and Sound'', and later with a band called ``Barefoot''. It was while playing with Barefoot in Birmingham that _ was spotted by ELO's Jeff Lynne; and after Lynne, Bev Bevan and Richard Tandy had watched him play, he was invited to join ELO, to replace Mike de Albuquerque, who had recently left the band.
+output: he
+Now complete the following example-
+input: Another brother, Dr. Aswin W. Sastrowardoyo, is a physician who was formerly a guitarist and vocalist with the music group Chaseiro from 1979 to 1983, and a younger sister, Lisa Damayanti Sastrowardoyo (b. 1962). The actress Dian Sastrowardoyo is a niece of Ms. **Joesoef**. _ is married to Mr. Iwan V. Joesoef, a businessman, and has two sons Marwan Arie Joesoef (born 26/5/1976), Nurfahd S. Joesoef (born 4/3/1979) and one daughter Tiara R. Joesoef (born 5/7/1999)
+output: ",She
+"Definition: Read the passage and find the corresponding pronoun for the given name. The pronoun should match the given blank(_). The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: Dorothy Moore (born 13 October 1946, Jackson, Mississippi ) is an American pop, R&B, and soulsinger best known for her 1976 hit song, ``Misty Blue''. Born to Mary Moore and Melvin Hendrex Snr., aka Melvin Henderson of the Mississippi Blind Boys, **Dorothy** was raised by _ great grandmother.
+output: her
+Positive example 2-
+input: Groucutt began his musical career at 15 as Rikki Storm of Rikki Storm and the Falcons. He went on to sing with various outfits during the '60s, picking up the guitar as he went along. **Groucutt** was also a member of a band called ``Sight and Sound'', and later with a band called ``Barefoot''. It was while playing with Barefoot in Birmingham that _ was spotted by ELO's Jeff Lynne; and after Lynne, Bev Bevan and Richard Tandy had watched him play, he was invited to join ELO, to replace Mike de Albuquerque, who had recently left the band.
+output: he
+Now complete the following example-
+input: Also, the twin roles of The Corsican Brothers at the Abbey in Dublin, and the lead role of Fridays at Seven at the Court Theatre in West Hollywood. His more notable television appearances include UK soap Coronation Street, JAG for NBC, Monk for USA Network, and Alias for ABC. **Riotta**'s film credits include the independent mafia film Al Capone, for which _ won the Best Actor award at the 1995 Barcelona Film Festival for his portrayal of the title character.
+output: ",he
+"Definition: Read the passage and find the corresponding pronoun for the given name. The pronoun should match the given blank(_). The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: Dorothy Moore (born 13 October 1946, Jackson, Mississippi ) is an American pop, R&B, and soulsinger best known for her 1976 hit song, ``Misty Blue''. Born to Mary Moore and Melvin Hendrex Snr., aka Melvin Henderson of the Mississippi Blind Boys, **Dorothy** was raised by _ great grandmother.
+output: her
+Positive example 2-
+input: Groucutt began his musical career at 15 as Rikki Storm of Rikki Storm and the Falcons. He went on to sing with various outfits during the '60s, picking up the guitar as he went along. **Groucutt** was also a member of a band called ``Sight and Sound'', and later with a band called ``Barefoot''. It was while playing with Barefoot in Birmingham that _ was spotted by ELO's Jeff Lynne; and after Lynne, Bev Bevan and Richard Tandy had watched him play, he was invited to join ELO, to replace Mike de Albuquerque, who had recently left the band.
+output: he
+Now complete the following example-
+input: Nicholas Rogers as Tarabas role also caused problems, as has declared during his audition that he was able to ride horses but as soon as the shooting began, he could not even mount a horse. It was then soon realized he was also not good at acting; Bava said that for the scene where **Rogers** has to say ``I love you'', they had to make three shots and then combine them later. _ also injured himself on the set and had to be taken to hospital while still wearing his costume.
+output: ",He
+"Definition: Read the passage and find the corresponding pronoun for the given name. The pronoun should match the given blank(_). The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: Dorothy Moore (born 13 October 1946, Jackson, Mississippi ) is an American pop, R&B, and soulsinger best known for her 1976 hit song, ``Misty Blue''. Born to Mary Moore and Melvin Hendrex Snr., aka Melvin Henderson of the Mississippi Blind Boys, **Dorothy** was raised by _ great grandmother.
+output: her
+Positive example 2-
+input: Groucutt began his musical career at 15 as Rikki Storm of Rikki Storm and the Falcons. He went on to sing with various outfits during the '60s, picking up the guitar as he went along. **Groucutt** was also a member of a band called ``Sight and Sound'', and later with a band called ``Barefoot''. It was while playing with Barefoot in Birmingham that _ was spotted by ELO's Jeff Lynne; and after Lynne, Bev Bevan and Richard Tandy had watched him play, he was invited to join ELO, to replace Mike de Albuquerque, who had recently left the band.
+output: he
+Now complete the following example-
+input: She remained secretive about her poetry until much later in her life, when she was encouraged to publish under her own name. While residing at court, Anne Kingsmill also met Colonel Heneage Finch, the man who would become her husband. A courtier as well as a soldier, **Colonel Finch** had been appointed Groom of the Bedchamber to James, Duke of York, in 1683. _ family had strong Royalist connections, as well as a pronounced loyalty to the Stuart dynasty, and his grandmother had become Countess of Winchilsea in 1628.
+output: ",His
+"Definition: Read the passage and find the corresponding pronoun for the given name. The pronoun should match the given blank(_). The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: Dorothy Moore (born 13 October 1946, Jackson, Mississippi ) is an American pop, R&B, and soulsinger best known for her 1976 hit song, ``Misty Blue''. Born to Mary Moore and Melvin Hendrex Snr., aka Melvin Henderson of the Mississippi Blind Boys, **Dorothy** was raised by _ great grandmother.
+output: her
+Positive example 2-
+input: Groucutt began his musical career at 15 as Rikki Storm of Rikki Storm and the Falcons. He went on to sing with various outfits during the '60s, picking up the guitar as he went along. **Groucutt** was also a member of a band called ``Sight and Sound'', and later with a band called ``Barefoot''. It was while playing with Barefoot in Birmingham that _ was spotted by ELO's Jeff Lynne; and after Lynne, Bev Bevan and Richard Tandy had watched him play, he was invited to join ELO, to replace Mike de Albuquerque, who had recently left the band.
+output: he
+Now complete the following example-
+input: There is a contemporary tract, Altercatio inter Urbanum et Clementum, arguing the two popes claims should be adjudicated by a council. In March 1095 Conrad attended the Council of Piacenza and confirmed his stepmother Eupraxia's accusations that Henry IV was a member of a Nicolaitan sect, participated in orgies and had offered Eupraxia to **Conrad**, stating that this was the reason for _ turning against his father.
+output: ",his
+"Definition: Read the passage and find the corresponding pronoun for the given name. The pronoun should match the given blank(_). The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: Dorothy Moore (born 13 October 1946, Jackson, Mississippi ) is an American pop, R&B, and soulsinger best known for her 1976 hit song, ``Misty Blue''. Born to Mary Moore and Melvin Hendrex Snr., aka Melvin Henderson of the Mississippi Blind Boys, **Dorothy** was raised by _ great grandmother.
+output: her
+Positive example 2-
+input: Groucutt began his musical career at 15 as Rikki Storm of Rikki Storm and the Falcons. He went on to sing with various outfits during the '60s, picking up the guitar as he went along. **Groucutt** was also a member of a band called ``Sight and Sound'', and later with a band called ``Barefoot''. It was while playing with Barefoot in Birmingham that _ was spotted by ELO's Jeff Lynne; and after Lynne, Bev Bevan and Richard Tandy had watched him play, he was invited to join ELO, to replace Mike de Albuquerque, who had recently left the band.
+output: he
+Now complete the following example-
+input: Paartha Gnabagam Illayo is a 1985 Indian Tamil language drama film directed by veteran actor/comedian Nagesh. The film features Ramya Krishnan, Anand Babu, Radharavi in lead roles. The soundtrack album was composed by M. S. Viswanathan. Ramya Krishnan was seen playing twin sisters Kasthuri/Lalitha, thus, this marks the only Tamil film of **Ramya Krishnan** where _ played dual roles.
+output: ",she
+"Definition: Read the passage and find the corresponding pronoun for the given name. The pronoun should match the given blank(_). The word between ** ** is the target name. The pronoun should be one of 'her', 'him', 'he', 'she' and 'his' with proper casing based on the position in the passage.
+Positive example 1-
+input: Dorothy Moore (born 13 October 1946, Jackson, Mississippi ) is an American pop, R&B, and soulsinger best known for her 1976 hit song, ``Misty Blue''. Born to Mary Moore and Melvin Hendrex Snr., aka Melvin Henderson of the Mississippi Blind Boys, **Dorothy** was raised by _ great grandmother.
+output: her
+Positive example 2-
+input: Groucutt began his musical career at 15 as Rikki Storm of Rikki Storm and the Falcons. He went on to sing with various outfits during the '60s, picking up the guitar as he went along. **Groucutt** was also a member of a band called ``Sight and Sound'', and later with a band called ``Barefoot''. It was while playing with Barefoot in Birmingham that _ was spotted by ELO's Jeff Lynne; and after Lynne, Bev Bevan and Richard Tandy had watched him play, he was invited to join ELO, to replace Mike de Albuquerque, who had recently left the band.
+output: he
+Now complete the following example-
+input: Sergeant Crawford came into deponent's house, and the others went down to his brother's boat; deponent is not just sure, can't say exactly, but has heard and thinks there were 26 houses wrecked and injured in the town; very few escaped; deponent's house is quite the opposite end of the town from where the row took place on Saturday; deponent saw no other person that she knew but the two policemen. **Catherine Donnelly**, sworn: --Recollects the 22nd November last; was in Maghery on that day; is daughter of last witness, Eleanor Campbell; was at _ mother's house when the party came there; her own house was locked up.
+output: ",her

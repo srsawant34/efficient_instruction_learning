@@ -1,0 +1,1001 @@
+input,output
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Two-thirds of Wisconsinites receiving unemployment checks are not required to search for work due to current work search exemptions.
+output: ",poverty
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Under President Obamas health-care reforms, the premium for an average plan for a family didnt go down by $2,500 per year, its gone up about $2,500 per year.
+output: ",workers
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: The IRS also investigated liberal groups, groups that had progressive in their name. ... The IRS was basically looking at everybody.
+output: ",taxes
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says Obama promised unemployment would never go above 8 percent.
+output: ",jobs
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: The economy is creating jobs at the fastest pace since 1999.
+output: ",economy
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: President Obama decided not to meet with Prime Minister Benjamin Netanyahu in New York.
+output: ",foreign-policy
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: In a majority of states, you can now marry freely, but can still be fired for who you love.
+output: ",gays-and-lesbians
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Say Oregon Reps. Peter DeFazio and Earl Blumenauer are socialists who are openly serving in the U.S. Congress.
+output: ",candidates-biography
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Rudy Giuliani is ""probably the most underqualified man since George Bush to seek the presidency.""
+output: ",job-accomplishments
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: About half of the presidents have been governors; half of them, senators.
+output: ",corrections-and-updates
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: After Britains vote to leave the European Union, within 24 hours, Americans lost $100 billion from our 401(k)s.
+output: ",economy
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Medicaid spending declined by 1.9 percent in 2012, the second such decline in 47 years.
+output: ",medicaid
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says 88 Texas constables have died in the line of duty.
+output: ",criminal-justice
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Gov. Rick Scott cut the cost of prepaid college tuition by nearly $20,000.
+output: ",education
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: The city of Columbus would save $41 million a year if employees had to contribute to their own, guaranteed-check pensions.
+output: ",jobs
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: ""As Florida's CFO, I shut down Krakow's scam and refunded more than $1.2 million to Josephine and other victims of this con man.""
+output: ",job-accomplishments
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: You had more women getting computer sciences degrees in the 80s by a factor of 2-plus than you do now.
+output: ",women
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: The Air Force wants taxpayers to fund a fantasy football league.
+output: ",families
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Barack Hussein Obama will ... force courts to accept Islamic Sharia law in domestic disputes.
+output: ",message-machine-2012
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: About 3 percent of murders and crimes are committed with guns from people who actually (legally) purchase those guns.
+output: ",crime
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Some neighborhood schools are closing.
+output: ",education
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: ""He told gay organizers in Massachusetts he would be a stronger advocate for special rights than even Ted Kennedy.""
+output: ",gays-and-lesbians
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: The years that I was speaker, the Florida House consistently offered leaner budgets than the governor offered.
+output: ",state-budget
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: We are already almost halfway to our 2010 goal of creating 700,000 new jobs in seven years.
+output: ",economy
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says the U.S. Supreme Court found that Social Security is not guaranteed.
+output: ",social-security
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: SaysMichael Bennet wants to close Guantanamo Bay prisonand bring terrorists right here to Colorado.
+output: ",terrorism
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Oregonians have an amazing no-cost way to fight abortion with free political donations
+output: ",campaign-finance
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: The president said hes going to bring in 250,000 (Syrian and Iraqi) refugees into this country.
+output: ",immigration
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Research shows that a vast majority of arriving immigrants today come here because they believe that government is the source of prosperity, and thats what they support.
+output: ",immigration
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Newt Gingrichs immigration plan offers a new doorway to amnesty.
+output: ",immigration
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Mr. Caprio is a career politician who has never worked in the private sector.
+output: ",candidates-biography
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: In Rhode Island, 9 percent of workers use the states temporary disability insurance program each year while in New Jersey, the rate is only 3 percent.
+output: ",labor
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: In just 17 years, spending for Social Security, federal health care and interest on the debt will exceed ALL tax revenue!
+output: ",taxes
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: President Obama took more money from Wall Street in the 2008 campaign than anybody ever had.
+output: ",economy
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Donald Trump has said nuclear proliferation is OK.
+output: ",nuclear
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: ""Hillary Clinton has taken over $800,000 from lobbyists.""
+output: ",ethics
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Barack Obama has never even worked in business.
+output: ",candidates-biography
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says the Arizona immigration law expressly bans racial profiling.
+output: ",immigration
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says Gov. Rick Perry has been begging for the federal government to send the Coast Guard to patrol two lakes on the U.S.-Mexico border.
+output: ",crime
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: On the VA: Over 300,000 veterans have died waiting for care.
+output: ",veterans
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Were now spending 42 percent of our economy on government.
+output: ",federal-budget
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Rob Cornilles supports privatizing Medicare.
+output: ",message-machine-2012
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: In 2005, Dan Branch tried to expand third-trimester abortions in Texas.
+output: ",abortion
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: We (Democrats) have made steady progress creating jobs and improving our schools.
+output: ",job-accomplishments
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Michigan and Massachusetts raised their bottle deposit and could no longer afford the program because the redemptions were so high there was no profit in there.
+output: ",environment
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Whether you like to admit it or not, half our general revenue goes to education.
+output: ",state-budget
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Im the only one whos fought against developers draining the Everglades!
+output: ",message-machine
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says Ron Johnson calls Social Security a Ponzi scheme and wants to privatize the program.
+output: ",social-security
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Climate change is directly related to the growth of terrorism.
+output: ",climate-change
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: The jobs bill includes President Obamas tax on soup kitchens
+output: ",economy
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says the Obama administration spent taxpayer dollars on electric cars in Finland (and) windmills in China.
+output: ",stimulus
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: ""While Sarah was Mayor of Wasilla she tried to fire our highly respected City Librarian because the Librarian refused to consider removing from the library some books that Sarah wanted removed.""
+output: ",civil-rights
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: If Milwaukee approves reducing its maximum forfeiture for marijuana possession to $50, the city would have 23 different bicycle violations that have a higher forfeiture.
+output: ",crime
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: We have more illegal immigrants here than we did five years ago.
+output: ",immigration
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says Rick Perry wrote a letter supporting Hillarycare.
+output: ",health-care
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: The U.S. Patent and Trademark Office received zero complaints about the Washington Redskins name.
+output: ",sports
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: The presidents health care proposals will cause most Americans to have their premiums increased, not decreased, and hundreds of millions of people lose their current insurance coverage.
+output: ",pundits
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: (Mexican immigrants) are more law-abiding than U.S. citizens and that is a statistic.
+output: ",immigration
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says Chris Christie vetoed a jobs package of 30 bills.
+output: ",jobs
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: There are already more American jobs in the solar industry than in coal mining.
+output: ",climate-change
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says Illinois gubernatorial candidate Bill Bradys first priority after winning the primary was to sponsor a bill that would mass-euthanize sheltered dogs and cats in gas chambers.
+output: ",message-machine
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Barack Obama is in an economy thats only worsened since hes been president of the United States.
+output: ",pundits
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Romney failed to take action against ""sanctuary cities"" in Massachusetts.
+output: ",immigration
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says New Jersey is down nearly 200,000 jobs from its pre-recession peak and with Gov. Chris Christie New Jersey has trailed the rest of America when it comes to unemployment for 12 consecutive months.
+output: ",job-accomplishments
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says Thomas Eric Duncan came into the United States with an elevated temperature.
+output: ",health-care
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: We have been in Afghanistan longer now than we have been in any foreign land conducting a war in our nations history.
+output: ",afghanistan
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Gas prices have gone up $2 since Obama took office.
+output: ",gas-prices
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says judges get better benefits at a lower cost than everybody else in the state.
+output: ",pensions
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: There are a lot of casinos across the country that have gone bankrupt.
+output: ",economy
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Small businesses create 70 percent of the jobs in America.
+output: ",jobs
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Seniors with coverage under Medicare Advantage will give up ""more than their share"" because of health care reform
+output: ",health-care
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Over 12,000 school kids were arrested in Florida. It makes Florida the nations leader in that area.
+output: ",children
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: If Texas were a country our economy would rank # 10...in the WORLD.
+output: ",states
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: There are more oil rigs in operation in the United States than the rest of the world combined.
+output: ",energy
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: The Social Security trust fund is sound. Without anything being done, it would function well into 2038; and even after that time with no changes, we could pay 80 percent of the benefits that people have earned.
+output: ",social-security
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: It is a commitment voters take very seriously: The only incumbent in Ohio to break his Pledge and vote for Ted Stricklands income tax hike was defeated soundly on Tuesday.
+output: ",elections
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: The Obama administration shut down the Amber Alert program because of the government shutdown.
+output: ",crime
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: The Republicans have 2 percent of the Muslim vote.
+output: ",religion
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: [W]e see Americas prison population exploding, with America having a greater percentage of its people behind bars than any other nation in the world!
+output: ",criminal-justice
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says that in a hearing, Rep. Gabrielle Giffords suggested to Gen. David Petraeus that the Army put more emphasis on less environmentally damaging methods, like stabbing or clubbing enemy forces in order to minimize the carbon output.
+output: ",energy
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Every single one of the 41 Republican senators who just blocked a raise in the minimum wage will receive a $2,800 cost-of-living adjustment on January 1, 2015.
+output: ",economy
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: In Texas, the No. 1 name for new male babies many of whom will vote one day is Jose.
+output: ",pundits
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Marco Rubio voted against authorizing President Obama to strike Syria after Assad used chemical weapons on his own people.
+output: ",terrorism
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Under the Cash for Clunkers program, all we've got to do is ... go to a local junkyard, all you've got to do is tow it to your house. And you're going to get $4,500.
+output: ",pundits
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Not one Republican has the guts to recognize that climate change is real.
+output: ",public-safety
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: While our people work longer hours for lower wages, almost all new income goes to the top 1 percent.
+output: ",workers
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: David Dewhurst has a record of promoting an income tax.
+output: ",taxes
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Point Pleasant Beach does not own its beaches; they are privately owned and operated by businesses such as Jenkinsons
+output: ",environment
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: ""In the past year, more than 20 percent of Americans have changed their mind about the war in Afghanistan. They conclude we shouldn't be there.""
+output: ",afghanistan
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: In the last five years, 28,000 people have been killed along the U.S.-Mexico border.
+output: ",homeland-security
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: The state of Ohio has one of the lowest unemployment rates in the nation right now and is leading the pack in terms of job creation.
+output: ",jobs
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says Obama health reform law denies millions access to affordable insurance.
+output: ",health-care
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says HB2 hasnt moved the needle one iota on North Carolinas economy.
+output: ",economy
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Close to 30% of our federal prison population consists of illegal immigrants.
+output: ",immigration
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says Rick Scott called education not a core function of the state.
+output: ",state-budget
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: The Family Research Council, according to some government agencies, is a terrorist group.
+output: ",terrorism
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says Rep. Jim Weidner proposed a bill taking away health care for 80,000 of Oregons children.
+output: ",taxes
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Says that in the 1985 election former Gov. Tom Kean had the largest winning margin for a gubernatorial candidate in Jersey history.
+output: ",states
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: Obamacare is the biggest tax increase in American history.
+output: ",federal-budget
+"Definition: In this task, you are given a statement spoken by a politician in natural language. Your task is to generate the subject of the discussion for the given statement. The subject generated is not necessarily a part of the given input. Your answer should contain one or more words.
+Positive example 1-
+input: Says the Annies List political group supports third-trimester abortions on demand.
+output: abortion
+Positive example 2-
+input: In this last election in November, ... 63 percent of the American people chose not to vote, ... 80 percent of young people, (and) 75 percent of low-income workers chose not to vote.
+output: election
+Now complete the following example-
+input: ""You ... said that Barack Obama was not ready to be commander in chief.""
+output: ",candidates-biography

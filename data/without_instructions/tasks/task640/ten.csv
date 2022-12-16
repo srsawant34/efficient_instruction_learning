@@ -1,0 +1,21 @@
+input,output
+"input: A snowboarder on a wide plain of snow <sep> A snowboarder gliding over a field of snow
+output: ",neutral
+"input: 3 young man in hoods standing in the middle of a quiet street facing the camera. <sep> Three hood wearing people stand in a street.
+output: ",entailment
+"input: 3 young man in hoods standing in the middle of a quiet street facing the camera. <sep> Three people sit by a busy street bareheaded.
+output: ",contradiction
+"input: The two young girls are dressed as fairies, and are playing in the leaves outdoors. <sep> The two girls play in the Autumn.
+output: ",neutral
+"input: The two young girls are dressed as fairies, and are playing in the leaves outdoors. <sep> Girls are playing outdoors.
+output: ",entailment
+"input: Three people sit on a bench at a station, the man looks oddly at the two women, the redheaded women looks up and forward in an awkward position, and the yellow blond girl twiddles with her hair. <sep> Some people stand around.
+output: ",contradiction
+"input: A statue at a museum that no seems to be looking at. <sep> The statue is offensive and people are mad that it is on display.
+output: ",neutral
+"input: A couple walk hand in hand down a street. <sep> A couple is walking together.
+output: ",entailment
+"input: An old man with a package poses in front of an advertisement. <sep> A man walks by an ad.
+output: ",contradiction
+"input: A man in a black shirt overlooking bike maintenance. <sep> A man learns bike maintenance.
+output: ",neutral

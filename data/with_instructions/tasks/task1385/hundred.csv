@@ -1,0 +1,1001 @@
+input,output
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The 2019 FIFA U-20 World Cup will be the 22nd edition of the FIFA U-20 World Cup, the biennial international men's youth football championship contested by the under-20 national teams of the member associations of FIFA, since its inception in 1977 as the FIFA World Youth Championship. <sep> Hypothesis: The 2019 U-20 World Cup will be the last U-20 World Cup.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The 5th Monkey is a 1990 drama film starring Ben Kingsley. The film was directed and written by Eric Rochat; based on the novel ""Le Cinquieme Singe"" by Jacques Zibi. The Cannon Group founder Menahem Golan produced via his 21st Century Film Corporation, following the demise of Cannon. <sep> Hypothesis: The 5th Monkey was produced through 21st Century Film, not The Cannon Group.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Rand is a small village and civil parish in the West Lindsey district of Lincolnshire, England. It is situated approximately 9 mi north-east from the city of Lincoln and approximately 2 mi west from Wragby, and near the A158 road from Lincoln to Skegness. The nearest large town is Market Rasen, about 5 mi north-east. The village is 87 ft above sea level. The population is listed under Goltho. <sep> Hypothesis: the large town near Rand  is market rasen
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Cheung Kong Park () is a small garden located in the Central district of Hong Kong Island and named for Li Ka Shing's corporate empire. The park is privately maintained by Cheung Kong Holdings, but is open to the public. The park consists of ponds and cascades with benches for visitors to enjoy the scenery. <sep> Hypothesis: Cheung Kong Park is open year round.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: USS ""Elrod"" (FFG-55), an ""Oliver Hazard Perry""-class frigate, is a ship of the United States Navy named after Captain Henry T. Elrod (1905–1941), a Marine aviator who was posthumously awarded the Medal of Honor for his heroism in the defense of Wake Island in World War II. <sep> Hypothesis: Captain Henry died when he was 34 years old.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: A Suitable Boy is a novel by Vikram Seth, published in 1993. At 1,349 pages (1,488 pages softcover) and 591,552 words, the book is one of the longest novels ever published in a single volume in the English language. A sequel, to be called ""A Suitable Girl"", is due for publication in 2017. <sep> Hypothesis: A Suitable Girl has more pages than A Suitable Boy.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Commander Christine Jones (born 1964 or 1965) is a senior British police officer serving with London's Metropolitan Police Service (""the Met""). As of 2014, she is the Met's senior officer responsible for mental health and for domestic violence; she also the leads the Association of Chief Police Officers' (ACPO) National Mental Health Working Group. <sep> Hypothesis: Commander Christine Jones is an older British police office
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Manuel Romeo (September 21, 1891 – October 3, 1954 in Buenos Aires) was an Argentine film director, screenwriter, dramatist and score composer, and one of the influential directors in the cinema of Argentina of the classic era. He directed and wrote over films between 1931 and 1951 even composing the musical scores for several. <sep> Hypothesis: Manuel Romeo wrote films when he was 40
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Centralia Massacre was an incident during the American Civil War in which twenty-four unarmed Union soldiers were captured and executed at Centralia, Missouri on September 27, 1864 by the pro-Confederate guerrilla leader William T. Anderson. Future outlaw Jesse James was among the guerrillas. <sep> Hypothesis: The civil war started before 1863
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Jake Roberts is an English film editor. He is best known for his works on films ""Citadel"" (2012), ""Starred Up"" (2013), ""The Riot Club"" (2014) and ""Brooklyn"" (2015). For ""Hell or High Water"" (2016), Roberts was nominated (among several honors) for an Independent Spirit Award and the Academy Award for Best Film Editing at the 89th Academy Awards. <sep> Hypothesis: Jake Edwards worked on films that were released in five consecutive years.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Rage is the second full-length album by American metalcore band Attila. The album was released on May 11, 2010, through Artery Recordings. It is the band's debut release on the label. The album charted on ""Billboard"" US Heatseekers chart at number 15. <sep> Hypothesis: Rage is the first Billboard charting album by Attila.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Payless Car Rental, Inc. is a car rental company owned by Avis Budget Group and headquartered in St. Petersburg, Florida. While mainly a franchise system, the company owns and operates several corporate locations. Payless Car Rental, Payless Car Sales, Payless Parking and REZlink International are sister companies under the umbrella of Avalon Global Group. <sep> Hypothesis: Payless Care Sales is headquartered in St. Petersburg, Florida.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Dyllan McGee is a documentary filmmaker and founder of McGee Media. In partnership with Peter Kunhardt, McGee produced ""Gloria: In Her Own Words” (HBO), “Finding Your Roots with Henry Louis Gates, Jr.” (PBS), ""MAKERS: Women Who Make America” and many more. McGee is the Founder and Executive Producer of AOL’s MAKERS. <sep> Hypothesis: Dyllan McGee produced something that appeared on Showtime.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: William Leo Hansberry (February 25, 1894 – November 3, 1965) was an American scholar and lecturer. He was the older brother of real estate broker Carl Augustus Hansberry, uncle of award-winning playwright Lorraine Hansberry and great-granduncle of actress Taye Hansberry. <sep> Hypothesis: Hansberry was 71 years old when he passed away.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: 6 Interpretations is an EP by the New York City rock band Weep consisting of remixed versions of songs from their 2008 debut EP ""Never Ever"" and their 2010 debut album ""Worn Thin"". It was released in 2010 through Projekt Records. Singer, guitarist, and songwriter Doc Hammer remarked on the oddity of the gothic rock and shoegaze band producing a dance record: <sep> Hypothesis: In 2008, 31 studio albums were recorded with Projekt Records.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Puss in Boots is an action game based on the DreamWorks Animation SKG movie of the same name. It was developed by Blitz Games, and released by THQ on October 25, 2011 for Xbox 360, PlayStation 3, Wii and Nintendo DS. It features support for Kinect and PlayStation Move on the respective platforms. It was released on October 25, 2011 in North America and December 2 for Europe. <sep> Hypothesis: Dreamworks released a movie in 2012
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Chromatium okenii is a Gram-negative bacterium found in water. It belongs to the Purple sulfur bacteria. These bacteria are capable of photosynthesis and use Hydrogen sulfide (HS) as an electron donor for CO reduction and so do not produce oxygen. This type of photosynthesis is called anoxygenic photosynthesis. <sep> Hypothesis: Chroamtium okenii are often found in the air.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Kelechi Udegbe is a Nigerian film actor and voice over artist. He is best known for starring as the lead character in ""Officer Titus"". Since his screen debut in 2009, Kelechi has starred in several films and soaps including ""Behind The Smile"", ""Ojuju"", """", ""Horn Free Day"" and ""Kpians: The Feast of Souls"". <sep> Hypothesis: ""Officer Titus"" was the screen debut of Kelechi Udegbe.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Henry Nevill, 6th and ""de jure"" 4th Baron Abergavenny KB (between 1527 and 153510 February 1587) was an English peer. He was the son of Sir George Nevill, 5th Baron Bergavenny, and Mary Stafford (daughter of Edward Stafford, 3rd Duke of Buckingham). He succeeded to the barony upon the death of his father, George Nevill, 5th Baron Bergavenny. <sep> Hypothesis: Henry Nevill was the second born of Mary Stafford
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Shawn Levy (born July 23, 1968) is a Canadian film director, producer, and actor. He directed the films ""Big Fat Liar"" (2002), ""Just Married"" (2003), ""Cheaper by the Dozen"" (2003), ""The Pink Panther"" (2006), ""Night at the Museum"" (2006), """" (2009), ""Date Night"" (2010), ""Real Steel"" (2011), ""The Internship"" (2013), ""This Is Where I Leave You"" (2014) and """" (2014). <sep> Hypothesis: Shawn Levy produced Big Fat Liar.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The United States Government Manual is the official handbook of the federal government, published annually by the Office of the Federal Register and printed and distributed by the United States Government Printing Office. The first edition was issued in 1935; before the 1973/74 edition it was known as the United States Government Organization Manual. <sep> Hypothesis: The United States Government Manual published in 2020 will be 1935 pages long.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: A Far Off Place is a 1993 American adventure drama film based on Laurens van der Post's works ""A Far-Off Place"" (1974) and its prequel ""A Story Like the Wind"" (1972). The film stars Reese Witherspoon, Ethan Randall, Jack Thompson and Maximilian Schell. The filming locations were in Namibia and Zimbabwe. <sep> Hypothesis: A Far Off Place was filmed before the novel was written.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Sri Lanka is an island country located southeast of the Republic of India and northeast of the Maldives. According to the International Monetary Fund, Sri Lanka's GDP in terms of purchasing power parity is second only to the Maldives in the South Asian region in terms of per capita income. <sep> Hypothesis: Sri Lanka has the highest GDP in terms of purchasing power, which is seconded by the Maldives in the South Asian region.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Sick Individuals is a Dutch electronic dance music act consisting of Rinze ""Ray"" Hofstee and Joep ""Jim"" Smeele. The two met in Hilversum, Netherlands (2008) while studying Music Composition. Jim and Ray had been composing for television commercials until their mutual fascination for both classical and modern music inspired their business partnership in 2010, when Sick Individuals was born. <sep> Hypothesis: Rinze ""Ray"" Hofstee wasn't interested in classical music but was fascinated by modern music.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Forbidden Heaven is a 1935 American drama film directed by Reginald Barker and written by Sada Cowan and Jefferson Parker. The film stars Charles Farrell, Charlotte Henry, Beryl Mercer, Fred Walton, Eric Wilton and Phyllis Barry. The film was released on October 5, 1935, by Republic Pictures. <sep> Hypothesis: Forbidden Heaven is a 1935 American drama film released in the same month as the holiday Halloween.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Marina Prior (born 18 October 1963) is an Australian soprano and actress with a career mainly in musical theatre. From 1990 to 1993, she starred as the original Christine Daaé in the Australian premiere of ""The Phantom of the Opera"", opposite Anthony Warlow and later Rob Guest. <sep> Hypothesis: Marina Prior started acting in 1962.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Ekaterina ""Katia"" Alexandrovna Gordeeva (Russian: Екатерина Александровна Гордеева ) (born May 28, 1971) is a Russian (former Soviet) figure skater. Together with her partner and husband, the late Sergei Grinkov, she was the 1988 and 1994 Olympic Champion and four-time World Champion in pair skating. After Grinkov's death, Gordeeva continued performing as a singles skater. <sep> Hypothesis: Sergei Grinkov was a world champion singles skater.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Drumtochty Castle is a neo-gothic style castellated mansion erected in the year 1812 approximately three kilometres northwest of Auchenblae, Aberdeenshire, Scotland. This castle stands on the southern edge of Drumtochty Forest. Other noted castles in Kincardineshire are Fasque House, Fetteresso Castle, Dunnottar Castle and Muchalls Castle. <sep> Hypothesis: Drumtochty Castle is near Loch Ness.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Abraham Roqueñi Iglesias (born April 16, 1978) is a Spanish welterweight kickboxer. He was the K-1 MAX Spain 2004 tournament winner, and is a former ISKA, WAKO and WFCA world champion. He holds notable wins over Gago Drago, Luis Reis, Andy Souwer and Artur Kyshenko. <sep> Hypothesis: Abraham Roqueñi Iglesias was born after WW2
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Fanny Talbot (née) Browne (1824–1917) was a landowner and philanthropist, and a friend and correspondent of the influential art critic John Ruskin. She is noted for donating the first property—4.5 acres of land known as Cliff of Light (""Dinas Oleu"" in Welsh), at Barmouth, Gwynedd—to the National Trust. <sep> Hypothesis: Fanny Talbot was born in the Untied Kingdom.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The following is a list of athletes with dual nationality. It includes both players who can trace their origins to a foreign country and those who have attained foreign nationality during their career, as well as players who hail from semi-autonomous regions within countries. <sep> Hypothesis: The list only includes athletes with dual nationality.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Mindless Self Indulgence (often shortened to MSI) is an American electropunk band formed in New York City in 1997. Their music has a mixed style which includes punk rock, alternative rock, electronica, techno, industrial, hip hop and breakbeat hardcore. Their group name is derived from an Ayn Rand quote found in the book ""Atlas Shrugged"". <sep> Hypothesis: MSI was formed just after the turn of the century.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Agia Triada Monastery (Greek: Μονή Αγίας Τριάδος ) is a Greek Orthodox monastery dedicated to the Holy Trinity (""Agia Triada""), on the southwestern slopes of Mount Olympus, Greece, near the village of Sparmos, whence it is also commonly known as Sparmou Monastery (Μονή Σπαρμού). Beside the monasteries Agios Dionysios and Kanalon it is one of the monasteries located at Mount Olympus. <sep> Hypothesis: The Agia Triada Monastery is one of three monasteries at Mount Olympus.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Mustapha Haida (born 12 October 1988) is a Moroccan Muay Thai kickboxer who competes in the middleweight and welterweight divisions. He fought for GLORY, SUPERKOMBAT, Kunlun Fight and Bellator Kickboxing. Haida holds notable wins over fighters like Andy Souwer, Enriko Kehl, Dzianis Zuev or Abdallah Mabel. <sep> Hypothesis: Mustapha Haida was born in the last quarter of a year
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: La Valentina is a 1966 Mexican romantic comedy film directed by Rogelio A. González, produced by Gregorio Walerstein, and starring María Félix and Eulalio González in the leading roles. The supporting cast features José Elías Moreno, José Venegas, and Raúl Meraz. The film is a dramatization of the Mexican Revolution corrido of the same name. <sep> Hypothesis: The movie was released after 1930.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: El gato con botas (""Puss in Boots"", in English) is a 1961 Eastmancolor live-action Mexican fantasy film. Based on Charles Perrault's ""Puss in Boots"", it was scripted, produced and directed by Roberto Rodriguez, and, starring Santanon in the title role, the film was made by Pelicula Rodriguez S.A. at the Churubusco-Azteca film studio. <sep> Hypothesis: The director was from Mexico
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Olivier Rochus (] ; born 18 January 1981) is a retired Belgian tennis player. He has won two singles titles in his career and in 2004 won the French Open doubles title partnering fellow Belgian Xavier Malisse. Rochus' career-high singles ranking is World No. 24. <sep> Hypothesis: Olivier Rochus was 23 when he won the French Open.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Tracinda Corporation is an American private investment corporation that was owned by the late Kirk Kerkorian. Its major investments include a minority interest of MGM Resorts International. Tracinda is headquartered in Las Vegas, Nevada. The company was named after Kerkorian's daughters, Tracy and Linda. <sep> Hypothesis: Kirk Kerkorian had 3 children
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Yomagate was a political scandal that took place in Argentina in 1991, during the government of Carlos Menem. The same name combines the last name of the involved Amira Yoma, and the suffix ""Gate"" of habitual use in journalism after the Watergate scandal (USA., 1972–1974). <sep> Hypothesis: Carlos Menem was involved in Yomagate in 1991.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: California Chrome (foaled February 18, 2011) is an American Thoroughbred racehorse. He was named the 2014 and 2016 American Horse of the Year. He won the 2014 Kentucky Derby, the Preakness Stakes, and the 2016 Dubai World Cup. In 2016, he surpassed Curlin as the all-time leading North American horse in earnings won. <sep> Hypothesis: California Chrome won the American Horse of the Year back to back.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Agatha Christie Award (アガサ・クリスティー賞 ) is a Japanese literary award established in 2010 in commemoration of the 120th anniversary of Agatha Christie's birth. The award is presented by Hayakawa Publishing Corporation in association with the Agatha Christie Society, which is chaired by Mathew Pritchard, the grandson of Agatha Christie. <sep> Hypothesis: Agatha Christie was born in the 20th century.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Ron Clark Story is a 2006 television film starring Matthew Perry. The film is based on the real-life educator Ron Clark. It follows the inspiring tale of an idealistic teacher who leaves his small hometown to teach in a New York City public school, where he faces trouble with the students. The film was directed by Randa Haines, and was released directly on television. <sep> Hypothesis: The Ron Clark Story starred Matthew Pretty
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: In Return (CD + EP/10"") is the second release by American stoner metal band Torche. It was released on September 18, 2007 through Robotic Empire in the United States and Rock Action Records in Europe on 15 October. Artwork and design were by Baroness singer John Dyer Baizley. <sep> Hypothesis: In Return (CD + EP/10"") was released in Europe before it was released in the United States.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Before I Disappear is a 2014 American drama film directed by Shawn Christensen. The film is a feature-length adaptation of his 2012 Oscar-winning short film, ""Curfew"". The film had its world premiere at South by Southwest Film on March 10, 2014. The film was acquired for distribution by IFC Films on August 5, 2014 and released on November 28, 2014. <sep> Hypothesis: 4 months passed between when the film was acquired for distribution and when it was released.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Rev. James Smith Bush (June 15, 1825 – November 11, 1889) was an American attorney, Episcopal priest, religious writer, and an ancestor of the Bush political family. He was the father of business magnate Samuel Prescott Bush, grandfather of former US Senator Prescott Bush, great-grandfather of former US President George H. W. Bush and great-great-grandfather of former US President George W. Bush. <sep> Hypothesis: George W. Bush was president of the United States of America.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Otoyol 32 (English: Motorway 3 ), also known as the Izmir-Çeşme Motorway (Turkish: ""İzmir-Çeşme Otoyolu"" ) and abbreviated as the O-32 is a 77.7 km long toll motorway located entirely within the Izmir Province in Turkey. The O-32 runs from Balçova, Izmir to the coastal resort town of Çeşme on the Karaburun Peninsula. The motorway connects to the O-30 (Izmir Beltway) in Izmir. <sep> Hypothesis: Otoyol 32 is longer than 80 km.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Haley's Juke Box: Songs of the Bill Haley Generation (often listed in reference books as ""Bill Haley's Jukebox""), is the eleventh studio album by Bill Haley & His Comets. Released by Warner Bros. Records in the summer of 1960, the album was produced by George Avakian. <sep> Hypothesis: Warmer Bros has released 11 studio albums by Haley Juke Box.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: LKF Cup was an annual basketball competition for Lithuanian basketball teams. It is organised by Lithuanian Basketball Federation (Lietuvos Krepšinio Federacija - LKF). Before 2007 LKF cup wasn't ran regularly, but since then its finals are organisised every January, February or March. <sep> Hypothesis: A Lithuanian basketball team has won the LKF Cup every year.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The MySpace Transmissions is a digital EP by Say Anything. The album was released over MySpace on December 12, 2009,as part of MySpace's The MySpace Transmissions series. It contains five songs, four from ""Say Anything"" and one from ""...Was a Real Boy"". <sep> Hypothesis: There was not more than one song by Was a Real Boy on the digital EP by Say Anything that was released on MySpace after 12/11/2009.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Special Operations Command (Danish: ""Specialoperationskommandoen"" ) (SOKOM) is a command of Danish Defence part of the Defence Command. SOKOM was established in 2014 to unite Jaeger Corps (Danish: ""Jægerkorpset"" ) and Frogman Corps (Danish: ""Frømandskorpset"" ) under one command and is based at Aalborg Air Base. <sep> Hypothesis: SOKOM was created after 2000
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Samuel Murez, born October 22, 1982, is a Franco-American director, choreographer, film-maker, editor, composer, producer, and dancer. He has been a member of the Paris Opera Ballet since 2001. He has been the artistic director of 3e étage, an independent group of soloists and dancers of the Paris Opera Ballet, since its founding in 2004. <sep> Hypothesis: Samuel Murez is the manager of a group of soloists and dancers.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Sveinn Ólafur Gunnarsson is an award winning Icelandic stage and film actor who starred in and co-wrote 2011's ""Either Way"", Ragnar Bragason's ""Metalhead"" and Baltasar Kormákur's ""The Deep"". Gunnarsson stars in the film Rams which premiered in the Un Certain Regard section at the 2015 Cannes Film Festival. He also stars in the upcoming American film ""Autumn Lights"". <sep> Hypothesis: Gunnarson has never been to america.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Al Noor Mosque is a mosque in Sharjah. It is located on the Khaled lagoon at the Buhaira Corniche. It is of Turkish Ottoman design and was influenced by the Sultan Ahmed Mosque in Turkey. It is one of three mosques open to the public in Sharjah, which has over 600 total. <sep> Hypothesis: The Sultan Ahmed Mosque in Turkey is open to the public.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The 1938 Duke Blue Devils football team represented the Duke Blue Devils of Duke University during the 1938 college football season. They were led by head coach Wallace Wade, who was in his eight season at the school. Known as the ""Iron Dukes,"" the 1938 Blue Devils went undefeated and unscored upon during the entire regular season, earning them the Southern Conference championship. <sep> Hypothesis: Wallace Wade, of the 1938 Duke Blue Devils football team, went without scoring the entire regular season, earning the Blue Devils the Southern Conference championship.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Curious George 2: Follow That Monkey! is a 2009 animated comedy film of the children's stories by H.A. Rey and Margret Rey. It is a sequel to the successful 2006 theatrical feature film ""Curious George"". It was originally titled ""Curious George 2: Monkey on the Run"". It was released straight to DVD. <sep> Hypothesis: Curious George 2: Follow that Monkey was released three years after the original Curious George.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Colsterworth is a village and civil parish in the South Kesteven district of Lincolnshire, England. It lies less than half a mile (0.8 km) west of the A1, about 7 mi south of Grantham, and 12 mi north-west of Stamford. The village, with the hamlet of Woolsthorpe-by-Colsterworth, had a population of 1,713 at the time of the 2011 Census in an area of 1465 ha . <sep> Hypothesis: The village, with the hamlet of Woolsthorpe-by-Colsterworth, had a population that was more than 1,730 in 2011.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Dixie-Narco EP is an EP by the British band Primal Scream, released in February 1992 on Creation Records. Recorded at Ardent Studios in Memphis, this is the only official Primal Scream release to contain the song ""Screamadelica"", which was not used on their ""Screamadelica"" album (""Movin' on Up"" appears on ""Screamadelica""). <sep> Hypothesis: The song ""Screamadelica"" is on an album of a different name
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Deserve the Future Tour was a worldwide concert tour by American rock supergroup Them Crooked Vultures. The tour began on August 9, 2009, and ran until July 30, 2010, after a run of shows in Japan, and visited North America, Europe and Oceania. The tour was in support of the band's debut album. <sep> Hypothesis: The Deserve the Future Tour was a worldwide concert tour by American rock supergroup Them Crooked Vultures. The tour began and ended in summer months
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Philadelphia La Scala Opera Company (defunct) was an American opera company located in Philadelphia, Pennsylvania that was actively performing at the Academy of Music between 1925 and 1954. In 1955 the company merged with the Philadelphia Civic Grand Opera Company to form the Philadelphia Grand Opera Company. <sep> Hypothesis: The Philadelphia La Scala Opera Company actively performed at the Academy of Music for 40 years.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Infiltrator is an American film about an Israeli freelance journalist who travels to Germany c. the early 1990s and uncovers a dangerously pervasive underground Neo-Nazi faction with the intent to bring Nazism back to the forefront in Germany. It is based on the book ""In Hitler's Shadow: An Israeli's Journey Inside Germany's Neo-Nazi Movement"" by Yaron Svoray and Nick Taylor <sep> Hypothesis: The book this film was based on was written in the early 1990s.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: 3096 (3096 Tage) is a 2013 German drama film directed by Sherry Hormann. The film is based on the true story of Natascha Kampusch, a 10-year-old girl and her eight-year ordeal being kidnapped by Wolfgang Přiklopil. Northern Irish actress Antonia Campbell-Hughes portrays Kampusch, while Thure Lindhardt plays Přiklopil. <sep> Hypothesis: Natascha Kampusch was 18 when her kidnapping ordeal ended.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The 2017 FIFA U-20 World Cup was the 21st edition of the FIFA U-20 World Cup, the biennial international men's youth football championship contested by the under-20 national teams of the member associations of FIFA, since its inception in 1977 as the FIFA World Youth Championship. The tournament was hosted by South Korea between 20 May and 11 June 2017. <sep> Hypothesis: he 2017 FIFA U-20 World Cup was the 21st edition of the FIFA U-20 World Cup, the annual international men's youth football championship contested by the under-20 national teams of the member associations of FIFA, since its inception in 1977 as the FIFA World Youth Championship. 
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Shins are an American indie rock band from Albuquerque, New Mexico, formed in 1996. The band's current lineup consists of James Mercer (vocals, guitar, songwriter), Jon Sortland (drums), Mark Watrous (guitar), Casey Foubert (guitar), Yuuki Matthews (bass), and Patti King (keyboards). The band is based in Portland, Oregon. <sep> Hypothesis: The Shins have two guitarists.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Eleftheria Arvanitaki (Greek: Ελευθερία Αρβανιτάκη) (born October 17, 1957 in Piraeus) is a Greek folk singer. She originates from the island of Icaria. Arvanitaki has worked with important musicians, such as Cesária Évora, Arto Tunçboyacıyan, Ara Dinkjian. On 14 March 2010, Alpha TV ranked her the sixth top-certified female artist in the nation's phonographic era (since 1960). <sep> Hypothesis: There were six female artists that ranked higher than Eleftheria Arvanitaki on Alpha TV's top-certified female artist list.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Thomas ""Tim"" Buckley (May 28, 1942 – April 16, 2015) was an American anthropologist and Buddhist monastic best known for his long-term ethnographic research with the Yurok Indians of northern California, his early work in the anthropology of reproduction, and for his major reevaluation of the work of Alfred L. Kroeber. <sep> Hypothesis: Thomas Buckley was born on May 28, 1942.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Andover is a town in Essex County, Massachusetts, United States. It was settled in 1642 and later incorporated in 1646. As of the 2010 census, the population was 33,201. It is part of the Boston-Cambridge-Quincy, Massachusetts-New Hampshire metropolitan statistical area. <sep> Hypothesis: The town of Andover had a population of 33,201 from 1646 to 2010. 
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: ""Can't Leave 'em Alone"" is a R&B song recorded by American singer Ciara and rapper 50 Cent for Ciara's second album, """" (2006). Written by Ciara, LaShawn Daniels, Rodney Jerkins, and 50 Cent, it is the fourth release and official third single from the album (see 2007 in music). It was solicited to Mainstream Urban radio stations on June 12, 2007 and Rhythmic stations on July 10, 2007. <sep> Hypothesis: Ciara's debut album featured 50 Cent on at least one song.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Franco Zeffirelli, KBE Grande Ufficiale OMRI (] ; born 12 February 1923) is an Italian director and producer of operas, films and television. He is also a former senator (1994–2001) for the Italian centre-right ""Forza Italia"" party. Recently, Italian researchers have found that he is one of the few distant relatives of Leonardo da Vinci. <sep> Hypothesis: Franco Zeffirelli had a political career
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Miroslav Ondříček was born in Prague, Czechoslovakia (now Prague, Czech Republic). He studied filmmaking at the Barrandov Studio Training School and began making movies during the Czech New Wave. His first feature film work was on Miloš Forman's ""Talent Competition"". He continued his long working relationship with Forman in the US on such films as ""Hair"", ""Ragtime"" and ""Amadeus"". <sep> Hypothesis: Miroslav Ondříček's first feature film was Hair
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: ""Smoke Break"" is a song recorded by American country music artist Carrie Underwood from her fifth studio album, ""Storyteller"". It was released on August 21, 2015, through Sony Music Nashville, as the album's lead single. It was written by Underwood, Chris DeStefano, and Hillary Lindsey, and was produced by Jay Joyce. Musically, it has lyrics about escaping life's many stresses. <sep> Hypothesis: Smoke Break is a lenghty song.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Fina Air was an airline based in San Juan, Puerto Rico named after Josefina Canto who was the mother of Lazaro Canto. It operated charter flights to the Dominican Republic from Luis Muñoz Marín International Airport in San Juan, Rafael Hernández Airport in Aguadilla and Eugenio María de Hostos Airport in Mayagüez. The airline has now ceased operations. <sep> Hypothesis: Fina Air was based in a United States territory.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Deus (styled as dEUS) is a rock band based in Antwerp, Belgium, whose only continuous members up to the present day are Tom Barman (vocals, guitars) and Klaas Janzoons (keyboards, violin). The rest of the band's line-up currently consists of drummer Stéphane Misseghers, bassist Alan Gevaert and guitarist/backing vocalist Mauro Pawlowski. <sep> Hypothesis: Deus are from Europe.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Vow is a 2012 American romantic drama film directed by Michael Sucsy and written by Abby Kohn, Marc Silverstein, and Jason Katims, inspired by the true story of Kim and Krickitt Carpenter. The film stars Rachel McAdams and Channing Tatum as the Collins, with Sam Neill, Scott Speedman and Jessica Lange in supporting roles. <sep> Hypothesis: The Vow is a romantic drama based on the true story that occurred in 2002.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Ezhou () is a prefecture-level city in eastern Hubei Province, China. As of the 2010 census, the city had a population of 1,048,668, of which 668,727 lived in the core Echeng District. The Ezhou - Huanggang built-up (""or metro"") area was home to 1,035,496 inhabitants from the Echeng and Huangzhou, Huanggang Districts. <sep> Hypothesis: ezhou had a 1,048,668 population in 2009
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Putnam County is a county located in North Central Missouri. As of the 2010 census, the population was 4,979. Its county seat is Unionville. The county was organized February 28, 1845 and named for Israel Putnam, a hero in the French and Indian War and a general in the American Revolutionary War. <sep> Hypothesis: the county was organised  February 28 and has a population of 1845
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Forward Operating Base Delhi massacre are murders that occurred on August 10, 2012 at the Forward Operating Base Delhi within Garmsir village, Helmand Province, Afghanistan. A young man, who had been allowed to live on the base, killed three unarmed US Marines and one marine was also severely injured. <sep> Hypothesis: The killer of the US Marines was not a US Marine, himself.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Paradise Lost is a 2011 Chinese teen sex comedy film and the sequel to the film ""Pubescence"" and the second film in the ""Pubescence"" film series. It was directed and written by Guan Xiaojie, starring Zhao Yihuan and Wang Yi. It was released in China on Singles Day. <sep> Hypothesis: Pubescence was directed by Guan Xiaojie as well
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: William T. Anderson (1840 – October 26, 1864)—known as ""Bloody Bill"" Anderson—was one of the deadliest and most brutal pro-Confederate guerrilla leaders in the American Civil War. Anderson led a band that targeted Union loyalists and Federal soldiers in Missouri and Kansas. <sep> Hypothesis: William T. Anderson saw the end of the American Civil War
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Suspect Zero is a 2004 American psychological thriller film starring Aaron Eckhart, Ben Kingsley, and Carrie-Anne Moss. The film, which was produced by Tom Cruise's co-owned company Cruise/Wagner Productions, was directed by E. Elias Merhige. It was a box office bomb failing to earn half of its estimated $27 million production costs at the box office. <sep> Hypothesis: E. Elias Merhige caused losses of over $10 million in 2004.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Agustin ""Gus"" Guerrero, also known as El Gato Negro, is a fictional character and comic book superhero created by Richard Dominguez and published by Azteca Productions. The character made his first appearance in ""El Gato Negro"" #1 (October 1993) as a major supporting character. Outside of the comic book continuity he is often referred to as ""Silver Age El Gato Negro"". <sep> Hypothesis: when not in comic books, Agustin guerrero has a different alias
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Logan Phillip Henderson (born September 14, 1989) is an American actor and singer. He is best known for his role as Logan Mitchell on the Nickelodeon series, ""Big Time Rush"", as well as being a former member of the Big Time Rush band itself. He, along with the band, have won and been nominated for multiple awards over the past few years. <sep> Hypothesis: Logan Phillip Henderson used to be a part of the Big Time Rush band back in the 1989
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Dorobanțu is a commune in Tulcea County, Romania. It is composed of five villages: Ardealu (depopulated as of 2002, historical name: ""Asînlar""), Cârjelari, Dorobanțu, Fântâna Oilor (historical name: ""Coiumbunar"" or ""Coiumpunar"") and Meșteru (historical name:""Canat Calfa""). <sep> Hypothesis: Today, out of the five villages that compose Dorobanțu, Ardealu contains the most residents.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Colliers Mills Wildlife Management Area is a 12906.63 acre wildlife management area located within Jackson and Plumsted townships, Ocean County, New Jersey. Success Lake is located within the management area. The area is part of the New Jersey Pinelands National Reserve. <sep> Hypothesis: Colliers Mills Wildlife Management Area is just below 12906 acres.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Jean-Baptiste Poquelin, known by his stage name Molière ( or ; ] ; 15 January 162217 February 1673), was a French playwright and actor who is considered to be one of the greatest masters of comedy in Western literature. Among Molière's best known works are ""The Misanthrope"", ""The School for Wives"", ""Tartuffe"", ""The Miser"", ""The Imaginary Invalid"", and ""The Bourgeois Gentleman"". <sep> Hypothesis: Jean-Baptiste Poquelin died on February 17, 1673
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Iron Horse Bicycles was a manufacturer of bicycles, in Islandia, New York, United States from 1987 to 2009. Its logo was a prancing horse on a mustard-color crest similar to the Ferrari logo. Iron Horse sold racing bikes and mountain bikes, but mainly downhill, freeride, and all mountain. <sep> Hypothesis: Iron Horse Bicycles accepts only credit card transactions.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Invisible Woman (Susan ""Sue"" Storm-Richards), previously known as the Invisible Girl, is a fictional superheroine appearing in American comic books published by Marvel Comics. The character is a founding member of the Fantastic Four and was the first female superhero created by Marvel during the Silver Age of Comics. <sep> Hypothesis: Silver Surfer was a founding member of the Fantastic Four.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: PDQ Chocolate was a popular drink mix in the 1960s and 1970s. It was manufactured by Ovaltine. It has been sold as ""PDQ Chocolate Flavor Beads"" and ""PDQ Choco Chips."" ""Egg Nog Flavored PDQ"" and ""Strawberry PDQ"" were also available. These flavored beads and chips were used to mix with milk or to sprinkle over ice cream. <sep> Hypothesis: PDQ Chocolate had many fans in the 6th and 7th decades of the 20th century.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Carnegie Foundation (Dutch: ""Carnegie Stichting"" ) is an organization based in The Hague, Netherlands. It was founded in 1903 by Andrew Carnegie in order to manage his donation of US$1.5 million, which was used for the construction, management and maintenance of the Peace Palace. The Peace Palace was built to house the Permanent Court of Arbitration and a library of international law. <sep> Hypothesis: It was founded before 1903 by Andrew Carnegie in order to manage his donation of US$1.5 million, which was used for the construction, management and maintenance of the Peace Palace.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Snow White: A Tale of Terror is a 1997 American dark fantasy horror television film based on the fairy tale ""Snow White"". Also known as Snow White in the Black Forest it was directed by Michael Cohn and stars Sigourney Weaver, Sam Neill and Monica Keena. The original music score was composed by John Ottman. The film was marketed with the tagline ""The fairy tale is over"". <sep> Hypothesis: Snow White: A Tale of Terror was directed by Michael Cohen, who was born on Christmas Day 1948.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Macquarie University Hospital (abbreviated MUH) is a private teaching hospital. Macquarie University Hospital, together with the Faculty of Medicine and Health Science, Macquarie University, formerly known as ASAM, Australian School of Advanced Medicine, will integrate the three essential components of an academic health science centre: clinical care, education and research. <sep> Hypothesis: The Macquarie University Hospital have still not integrated the three essential components of an academic health science centre: clinical care, education and research
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: The Strangers is a 2008 American horror film written and directed by Bryan Bertino and starring Liv Tyler and Scott Speedman. The film follows a young couple who are terrorized by three masked assailants over the course of an evening at a remote summer home. <sep> Hypothesis: Bryan Bertino directed a movie called The Strangers that was written by Liv Tyler and starred Scott Speedman.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Morning glory (also written as morning-glory) is the common name for over 1,000 species of flowering plants in the family Convolvulaceae, whose current taxonomy and systematics are in flux. Morning glory species belong to many genera, some of which are: <sep> Hypothesis: A morning glory is a particular species of plant
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Darrell Horcher (born July 28, 1987) is an American mixed martial artist currently competing in the Lightweight division of the UFC. A professional mixed martial artist since 2010, he formerly competed for Bellator and the Cage Fury Fighting Championships, where he was the Lightweight Champion. <sep> Hypothesis: Darrel Horcher has competed in more than two championships.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: A habitat is an ecological or environmental area that is inhabited by a particular species of animal, plant, or other type of organism. The term typically refers to the zone in which the organism lives and where it can find food, shelter, protection and mates for reproduction. It is the natural environment in which an organism lives, or the physical environment that surrounds a species population. <sep> Hypothesis: A habitat refers to the food eaten by an animal, as well as the type of shelter used by the animal.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Veronica Loretta ""Roni"" Stoneman (born May 5, 1938) is a noted bluegrass banjo player and former member of the television variety show ""Hee Haw"" gang having played the role of Ida Lee Nagger, the ironing, nagging wife of Laverne Nagger (Gordie Tapp). <sep> Hypothesis: Veronica Stoneman pursued two different career paths.
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Alexander Sarnavskiy (born January 17, 1989) is an Ethnic Russian mixed martial artist who competes in the lightweight division. A professional MMA competitor since 2008, Sarnavskiy has mostly competed in his native Russia, where he is an M-1 Global veteran and former lightweight division in the Bellator Fighting Championships. Alexander is currently ranked as the #4 lightweight in Europe. <sep> Hypothesis: Alexander Sarnavskiy has won many MMA fights in America.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Born in Huoqiu County, Anhui Province, Tao Yong (21.01.1913-21.01.1967), whose former name used to be Zhang Daoyong, was the Deputy Commander of the People's Liberation Army Navy, also known as PLA Navy, also the Lieutenant General of the People's Liberation Army. <sep> Hypothesis: Yong served as the Lieutenant General of the People's Liberation Army before he served as the Deputy Commander.
+output: ",Neutral
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Mathilde Friederike Karoline Ludendorff (born Mathilde Spiess; 4 October 1877 in Wiesbaden – 24 June 1966 in Tutzing) was a German psychiatrist. Her third husband was General Erich Ludendorff. She was a leading figure in the Völkisch movement known for her esoteric and conspiratorial ideas. Together with Ludendorff, she founded the <sep> Hypothesis: Mathilde Friderike Karoline Ludendorff was married four times before she met General Erich Ludendorff.
+output: ",Contradiction
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: Manchester United Football Club is a professional football club based in Old Trafford, Greater Manchester, England, that competes in the Premier League, the top flight of English football. Nicknamed ""the Red Devils"", the club was founded as Newton Heath LYR Football Club in 1878, changed its name to Manchester United in 1902 and moved to its current stadium, Old Trafford, in 1910. <sep> Hypothesis: The Red Devils is a soccer team from England
+output: ",Entailment
+"Definition: In this task, you will be presented with a premise and a hypothesis sentence. Determine whether the hypothesis sentence entails (implies), contradicts (opposes), or is neutral with respect to the given premise sentence. Please answer with ""Contradiction"", ""Neutral"", or ""Entailment"".
+Positive example 1-
+input: Premise: Lost Moon: The Perilous Voyage of Apollo 13 (published in paperback as Apollo 13), is a non-fiction book first published in 1994 by astronaut James Lovell and journalist Jeffrey Kluger, about the failed April 1970 Apollo 13 lunar landing mission which Lovell commanded. The book is the basis of the 1995 film adaptation ""Apollo 13"", directed by Ron Howard. <sep> Hypothesis: the book wouldnt have happened if we didnt try to go into space
+output: Entailment
+Positive example 2-
+input: Premise: Linguistics is the scientific study of language, and involves an analysis of language form, language meaning, and language in context. The earliest activities in the documentation and description of language have been attributed to the 4th century BCE Indian grammarian Pāṇini, who wrote a formal description of the Sanskrit language in his ""Aṣṭādhyāyī "". <sep> Hypothesis: Form and meaning are the only aspects of language linguistics is concerned with.
+output: Contradiction
+Now complete the following example-
+input: Premise: McLeod's Daughters is a 1996 Australian television film, it aired on the Nine Network on 11 May 1996, which was Mother's Day. At the time it was the highest rated telemovie and still remains the highest rated telemovie of all time in Australia. The movie was the pilot for the later television series of the same name. <sep> Hypothesis: McLeod's Daughters had high ratings because it aired on Mother's Day.
+output: ",Neutral

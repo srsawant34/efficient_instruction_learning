@@ -1,0 +1,101 @@
+input,output
+"Definition: The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.
+Positive example 1-
+input: name[xname], cuisine[Fast Food], rating[average], familyFriendly[yes], near[xnear]
+output: Located near xnear, xname serves Fast food and is child friendly. its customer rating is: average.
+Positive example 2-
+input: name[xname], cuisine[Chinese], price[less than £20]
+output: xname, Chinese restaurant,  prices from £19.99
+Now complete the following example-
+input: name[xname], eattype[coffee shop], cuisine[Chinese], price[cheap], rating[average], location[city centre], familyFriendly[no], near[xnear]
+output: ",xname is a coffee shop providing Chinese food in the cheap price range. It is located in the city centre. It is near xnear. Its customer rating is average.
+"Definition: The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.
+Positive example 1-
+input: name[xname], cuisine[Fast Food], rating[average], familyFriendly[yes], near[xnear]
+output: Located near xnear, xname serves Fast food and is child friendly. its customer rating is: average.
+Positive example 2-
+input: name[xname], cuisine[Chinese], price[less than £20]
+output: xname, Chinese restaurant,  prices from £19.99
+Now complete the following example-
+input: name[xname], cuisine[French], rating[1 out of 5], familyFriendly[yes], near[xnear]
+output: ",There is a kid friendly restaurant xname near the xnear.
+"Definition: The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.
+Positive example 1-
+input: name[xname], cuisine[Fast Food], rating[average], familyFriendly[yes], near[xnear]
+output: Located near xnear, xname serves Fast food and is child friendly. its customer rating is: average.
+Positive example 2-
+input: name[xname], cuisine[Chinese], price[less than £20]
+output: xname, Chinese restaurant,  prices from £19.99
+Now complete the following example-
+input: name[xname], cuisine[Fast Food], rating[3 out of 5], location[riverside], familyFriendly[yes]
+output: ",In the riverside area you'll find a kid friendly fast food restaurant with average food called xname.
+"Definition: The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.
+Positive example 1-
+input: name[xname], cuisine[Fast Food], rating[average], familyFriendly[yes], near[xnear]
+output: Located near xnear, xname serves Fast food and is child friendly. its customer rating is: average.
+Positive example 2-
+input: name[xname], cuisine[Chinese], price[less than £20]
+output: xname, Chinese restaurant,  prices from £19.99
+Now complete the following example-
+input: name[xname], eattype[coffee shop], price[more than £30], location[riverside], familyFriendly[no], near[xnear]
+output: ","xname, riverside near xnear, is a high priced, non family-friendly coffee shop."
+"Definition: The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.
+Positive example 1-
+input: name[xname], cuisine[Fast Food], rating[average], familyFriendly[yes], near[xnear]
+output: Located near xnear, xname serves Fast food and is child friendly. its customer rating is: average.
+Positive example 2-
+input: name[xname], cuisine[Chinese], price[less than £20]
+output: xname, Chinese restaurant,  prices from £19.99
+Now complete the following example-
+input: name[xname], recommend[yes], cuisine[French], decor[acceptable], qual[acceptable], location[Midtown], price[expensive], service[acceptable]
+output: ","Because xname is a French restaurant and expensive. It is in Midtown with kind of pleasant decor with satisfying food and quite welcoming service, I would consider xname."
+"Definition: The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.
+Positive example 1-
+input: name[xname], cuisine[Fast Food], rating[average], familyFriendly[yes], near[xnear]
+output: Located near xnear, xname serves Fast food and is child friendly. its customer rating is: average.
+Positive example 2-
+input: name[xname], cuisine[Chinese], price[less than £20]
+output: xname, Chinese restaurant,  prices from £19.99
+Now complete the following example-
+input: name[xname], cuisine[Italian], rating[average], location[riverside]
+output: ",xname  is a 3 star river side restaurant
+"Definition: The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.
+Positive example 1-
+input: name[xname], cuisine[Fast Food], rating[average], familyFriendly[yes], near[xnear]
+output: Located near xnear, xname serves Fast food and is child friendly. its customer rating is: average.
+Positive example 2-
+input: name[xname], cuisine[Chinese], price[less than £20]
+output: xname, Chinese restaurant,  prices from £19.99
+Now complete the following example-
+input: name[xname], eattype[coffee shop], cuisine[Indian], rating[5 out of 5], location[city centre], familyFriendly[yes], near[xnear]
+output: ","Family friendly and with a 5 of 5 rating, xname is an Indian coffee shop in the city centre area near xnear."
+"Definition: The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.
+Positive example 1-
+input: name[xname], cuisine[Fast Food], rating[average], familyFriendly[yes], near[xnear]
+output: Located near xnear, xname serves Fast food and is child friendly. its customer rating is: average.
+Positive example 2-
+input: name[xname], cuisine[Chinese], price[less than £20]
+output: xname, Chinese restaurant,  prices from £19.99
+Now complete the following example-
+input: name[xname], cuisine[Fast Food], price[high], familyFriendly[yes]
+output: ",xname is fast food and child friendly but the prices are high.
+"Definition: The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.
+Positive example 1-
+input: name[xname], cuisine[Fast Food], rating[average], familyFriendly[yes], near[xnear]
+output: Located near xnear, xname serves Fast food and is child friendly. its customer rating is: average.
+Positive example 2-
+input: name[xname], cuisine[Chinese], price[less than £20]
+output: xname, Chinese restaurant,  prices from £19.99
+Now complete the following example-
+input: name[xname], eattype[pub], rating[5 out of 5], location[riverside], familyFriendly[yes]
+output: ","By the riverside, enjoy a pub cuisine, at the xname restaurant, in a family friend scene, with a 5 out 5 star rating."
+"Definition: The task is to write a full sentence or two using all of the information given. The sentence(s) will be a brief review of a restaurant. Use all of the information provided.
+Positive example 1-
+input: name[xname], cuisine[Fast Food], rating[average], familyFriendly[yes], near[xnear]
+output: Located near xnear, xname serves Fast food and is child friendly. its customer rating is: average.
+Positive example 2-
+input: name[xname], cuisine[Chinese], price[less than £20]
+output: xname, Chinese restaurant,  prices from £19.99
+Now complete the following example-
+input: name[xname], cuisine[Fast Food], price[£20-25], familyFriendly[yes], near[xnear]
+output: ",xname fast food restaurant near xnear is kid friendly and affordable.
