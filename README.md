@@ -32,7 +32,7 @@ python data_prep.py --num_examples 2 --ten True --onepercent True --hundred True
 To run the experiment, run the following the command:
 
 ```bash
-sh scripts/master.sh -t task2.txt -s twohundred
+sh scripts/master.sh -t task.txt -s twohundred
 ```
 
 The above command will finetune the model(s) and evaluate it.
