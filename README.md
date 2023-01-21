@@ -1,6 +1,6 @@
 # Instruction Tuned Models are Quick Learners 
 
-- This repo releases the implementation for our experiments proposed in the [paper]().
+- This repo releases the implementation for our experiments of the research paper: "Instruction Tuned Models are Quick Learners"
 - The experiments are run on [Tk-instruct-3B-model](https://huggingface.co/allenai/tk-instruct-3b-def-pos), which was finetuned on [data](https://github.com/allenai/natural-instructions).
 
 ## Requirements
